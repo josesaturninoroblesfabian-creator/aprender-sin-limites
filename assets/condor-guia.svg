@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520">
+  <defs>
+    <linearGradient id="wing" x2="0" y2="1"><stop stop-color="#36465c"/><stop offset="1" stop-color="#111c2c"/></linearGradient>
+    <linearGradient id="bib" x2="0" y2="1"><stop stop-color="#fff8e8"/><stop offset="1" stop-color="#d8dce0"/></linearGradient>
+  </defs>
+  <!-- Alas y cuerpo -->
+  <path d="M210 196 C116 105 14 137 26 259 C-1 302 47 374 95 380 C90 435 142 465 210 444 C278 465 330 435 325 380 C373 374 421 302 394 259 C406 137 304 105 210 196Z" fill="url(#wing)" stroke="#101827" stroke-width="10"/>
+  <path d="M210 222 C149 190 107 238 118 319 C128 394 163 429 210 438 C257 429 292 394 302 319 C313 238 271 190 210 222Z" fill="url(#bib)" stroke="#c5cbd2" stroke-width="5"/>
+  <!-- Plumas -->
+  <path d="M47 251 Q100 240 136 281 M35 286 Q91 278 126 307 M52 326 Q91 318 126 335 M373 251 Q320 240 284 281 M385 286 Q329 278 294 307 M368 326 Q329 318 294 335" fill="none" stroke="#718096" stroke-width="11" stroke-linecap="round"/>
+  <!-- Cabeza y cresta -->
+  <path d="M136 213 C119 168 130 99 162 61 C177 78 184 91 187 105 C202 58 221 36 235 23 C246 56 246 81 241 102 C264 72 286 61 304 55 C303 98 289 151 270 204Z" fill="#bf2534" stroke="#7e1425" stroke-width="8"/>
+  <ellipse cx="210" cy="184" rx="91" ry="91" fill="#c72e3c" stroke="#7e1425" stroke-width="9"/>
+  <path d="M146 207 Q210 230 274 207 L264 250 Q210 283 156 250Z" fill="#f3efe4"/>
+  <!-- Ojos expresivos -->
+  <ellipse cx="176" cy="174" rx="25" ry="30" fill="white"/><ellipse cx="244" cy="174" rx="25" ry="30" fill="white"/>
+  <ellipse cx="181" cy="179" rx="12" ry="17" fill="#26364b"/><ellipse cx="239" cy="179" rx="12" ry="17" fill="#26364b"/>
+  <circle cx="185" cy="172" r="5" fill="white"/><circle cx="243" cy="172" r="5" fill="white"/>
+  <!-- Pico sonriente -->
+  <path d="M168 208 Q210 192 252 208 Q246 260 210 271 Q174 260 168 208Z" fill="#f4b51e" stroke="#b87912" stroke-width="7"/>
+  <path d="M176 218 Q210 230 244 218" fill="none" stroke="#66351b" stroke-width="6" stroke-linecap="round"/>
+  <!-- Pañuelo andino -->
+  <path d="M132 274 Q210 305 288 274 L278 304 Q210 333 142 304Z" fill="#1687d2" stroke="#075694" stroke-width="6"/>
+  <path d="M150 287 L166 301 L182 287 L198 301 L214 287 L230 301 L246 287 L262 301 L276 289" fill="none" stroke="#ffd43b" stroke-width="8"/>
+  <path d="M168 307 L160 336 M194 313 L189 342 M222 313 L228 342 M250 307 L260 336" stroke="#e84551" stroke-width="8" stroke-linecap="round"/>
+  <!-- Pie y saludo -->
+  <path d="M147 434 Q126 469 94 472 Q80 473 83 489 Q117 506 171 482 L190 447 M273 434 Q294 469 326 472 Q340 473 337 489 Q303 506 249 482 L230 447" fill="#f3b21d" stroke="#a86d10" stroke-width="8"/>
+  <path d="M132 456 L164 467 M288 456 L256 467" stroke="#d8444e" stroke-width="8"/>
+  <path d="M42 160 Q18 115 31 81 M37 132 L9 116 M39 116 L62 95" fill="none" stroke="#f4c431" stroke-width="11" stroke-linecap="round"/>
+  <path d="M378 160 Q402 115 389 81 M383 132 L411 116 M381 116 L358 95" fill="none" stroke="#f4c431" stroke-width="11" stroke-linecap="round"/>
+</svg>

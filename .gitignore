@@ -1,0 +1,10 @@
+# Godot generates this cache locally on each computer.
+/.godot/
+
+# Local operating system files.
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Godot local export credentials must not be shared.
+export_credentials.cfg
