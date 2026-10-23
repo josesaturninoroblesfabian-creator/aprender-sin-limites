@@ -13,6 +13,7 @@ var furthest_sample: int = 0
 func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP
 	focus_mode = Control.FOCUS_ALL
+	set_process_input(true)
 
 func set_guide_strokes(strokes: Array) -> void:
 	guide_strokes = strokes.duplicate(true)
@@ -107,16 +108,46 @@ func _gui_input(event: InputEvent) -> void:
 		_extend_stroke(event.position)
 		accept_event()
 
+func _input(event: InputEvent) -> void:
+	# Continúa capturando el trazo si el niño mueve el dedo o mouse fuera del panel.
+	if not is_drawing:
+		return
+	if event is InputEventMouseMotion:
+		var mouse_local := make_canvas_position_local(event.position)
+		if not Rect2(Vector2.ZERO, size).has_point(mouse_local):
+			_extend_stroke(mouse_local)
+			get_viewport().set_input_as_handled()
+	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and not event.pressed:
+		var release_local := make_canvas_position_local(event.position)
+		if not Rect2(Vector2.ZERO, size).has_point(release_local):
+			_finish_stroke(release_local)
+			get_viewport().set_input_as_handled()
+	elif event is InputEventScreenDrag:
+		var drag_local := make_canvas_position_local(event.position)
+		if not Rect2(Vector2.ZERO, size).has_point(drag_local):
+			_extend_stroke(drag_local)
+			get_viewport().set_input_as_handled()
+	elif event is InputEventScreenTouch and not event.pressed:
+		var touch_local := make_canvas_position_local(event.position)
+		if not Rect2(Vector2.ZERO, size).has_point(touch_local):
+			_finish_stroke(touch_local)
+			get_viewport().set_input_as_handled()
+
 func _begin_stroke(position: Vector2) -> void:
 	if not drawing_enabled or current_stroke_index >= guide_strokes.size():
 		return
 	var samples := _sample_path(guide_strokes[current_stroke_index])
-	var tolerance := maxf(24.0, minf(size.x, size.y) * 0.075)
-	if position.distance_to(samples[0]) > tolerance * 1.5:
+	var tolerance := _trace_tolerance()
+	var resume_index := clampi(furthest_sample, 0, samples.size() - 1)
+	if furthest_sample > 0 and position.distance_to(samples[resume_index]) <= tolerance * 1.5:
+		if current_line.is_empty() or current_line[current_line.size() - 1].distance_to(position) >= 3.0:
+			current_line.append(position)
+	elif position.distance_to(samples[0]) <= tolerance * 1.5:
+		furthest_sample = 0
+		current_line = PackedVector2Array([samples[0]])
+	else:
 		return
 	is_drawing = true
-	furthest_sample = 0
-	current_line = PackedVector2Array([samples[0]])
 	grab_focus()
 	queue_redraw()
 
@@ -132,7 +163,7 @@ func _extend_stroke(position: Vector2) -> void:
 		if distance < nearest_distance:
 			nearest_distance = distance
 			nearest_index = sample_index
-	var tolerance := maxf(24.0, minf(size.x, size.y) * 0.075)
+	var tolerance := _trace_tolerance()
 	if nearest_index >= furthest_sample - 4 and nearest_distance <= tolerance:
 		furthest_sample = maxi(furthest_sample, nearest_index)
 		if current_line.is_empty() or current_line[current_line.size() - 1].distance_to(position) >= 3.0:
@@ -145,8 +176,8 @@ func _finish_stroke(position: Vector2) -> void:
 	_extend_stroke(position)
 	is_drawing = false
 	var samples := _sample_path(guide_strokes[current_stroke_index])
-	var required_index: int = int((samples.size() - 1) * 0.82)
-	var tolerance := maxf(24.0, minf(size.x, size.y) * 0.075)
+	var required_index: int = int((samples.size() - 1) * 0.74)
+	var tolerance := _trace_tolerance()
 	if furthest_sample >= required_index and position.distance_to(samples[samples.size() - 1]) <= tolerance * 2.0:
 		completed_lines.append(current_line.duplicate())
 		current_stroke_index += 1
@@ -156,3 +187,7 @@ func _finish_stroke(position: Vector2) -> void:
 			drawing_enabled = false
 			completed.emit()
 	queue_redraw()
+
+func _trace_tolerance() -> float:
+	# Margen más amplio para manos pequeñas y movimientos con saltos entre eventos.
+	return maxf(32.0, minf(size.x, size.y) * 0.105)

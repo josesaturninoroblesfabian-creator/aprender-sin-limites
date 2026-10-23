@@ -8,6 +8,16 @@ const LETTER_ADVANCE_DELAY := 0.9
 const SAVE_PATH := "user://progreso_traza_letras.cfg"
 const CONDOR_FRAME_COUNT := 119
 const CONDOR_FRAME_INTERVAL := 0.06
+const CONDOR_IDLE_FRAME := 80
+const PRAISE_AUDIO_PATHS := [
+	"res://assets/audio-felicitacion-traza.mp3",
+	"res://assets/felicitaciones/p_23391271_965.mp3",
+	"res://assets/felicitaciones/p_23391426_98.mp3",
+	"res://assets/felicitaciones/MiniMax_2026-10-23_11_03_52_Captivating_Storyteller.mp3",
+	"res://assets/felicitaciones/MiniMax_2026-10-23_11_06_42_Captivating_Storyteller.mp3",
+	"res://assets/felicitaciones/MiniMax_2026-10-23_11_08_25_Captivating_Storyteller.mp3",
+	"res://assets/felicitaciones/p_23389894_865.mp3"
+]
 
 var current_letter_index := 0
 var completed_by_letter: Dictionary = {}
@@ -22,24 +32,35 @@ var trace_canvas: Control
 var start_button: Button
 var next_button: Button
 var next_lock_overlay: ColorRect
+var alphabet_buttons: Dictionary = {}
 var condor_avatar: TextureRect
 var condor_frames: Array[Texture2D] = []
 var condor_frame_clock := 0.0
 var condor_frame_index := 0
+var praise_audio: AudioStreamPlayer
+var praise_audio_streams: Array[AudioStream] = []
+var praise_rng := RandomNumberGenerator.new()
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	praise_rng.randomize()
 	_load_progress()
 	_build_screen()
 	current_letter_index = _find_first_unfinished_letter()
 	_show_current_letter()
 
 func _process(delta: float) -> void:
-	if condor_frames.is_empty():
+	if condor_frames.is_empty() or condor_avatar == null:
+		return
+	if praise_audio == null or not praise_audio.playing:
+		condor_frame_clock = 0.0
+		if condor_frame_index != CONDOR_IDLE_FRAME:
+			condor_frame_index = CONDOR_IDLE_FRAME
+			condor_avatar.texture = condor_frames[condor_frame_index]
 		return
 	condor_frame_clock += delta
-	if condor_frame_clock >= CONDOR_FRAME_INTERVAL:
-		condor_frame_clock = 0.0
+	while condor_frame_clock >= CONDOR_FRAME_INTERVAL:
+		condor_frame_clock -= CONDOR_FRAME_INTERVAL
 		condor_frame_index = (condor_frame_index + 1) % condor_frames.size()
 		condor_avatar.texture = condor_frames[condor_frame_index]
 
@@ -52,10 +73,10 @@ func _build_screen() -> void:
 	background.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(background)
 	var letter_tile := _rounded_panel(Color("#f3223b"), Color.TRANSPARENT, 0, 22)
-	_place(letter_tile, 0.229, 0.445, 0.161, 0.205)
+	_place(letter_tile, 0.219, 0.432, 0.181, 0.224)
 	add_child(letter_tile)
 	var trace_tile := _rounded_panel(Color("#fffefd"), Color("#8cd4f3"), 2, 22)
-	_place(trace_tile, 0.443, 0.25, 0.275, 0.475)
+	_place(trace_tile, 0.432, 0.237, 0.297, 0.50)
 	add_child(trace_tile)
 	var result_letter_tile := _rounded_panel(Color.WHITE, Color.TRANSPARENT, 0, 18)
 	_place(result_letter_tile, 0.697, 0.79, 0.13, 0.155)
@@ -72,12 +93,20 @@ func _build_screen() -> void:
 	for frame_number in range(CONDOR_FRAME_COUNT):
 		condor_frames.append(load("res://assets/condor-frames/frame_%03d.png" % frame_number))
 	condor_avatar = TextureRect.new()
-	condor_avatar.texture = condor_frames[0]
+	condor_avatar.texture = condor_frames[CONDOR_IDLE_FRAME]
 	condor_avatar.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	condor_avatar.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	condor_avatar.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_place(condor_avatar, -0.005, 0.34, 0.205, 0.47)
 	add_child(condor_avatar)
+	praise_audio = AudioStreamPlayer.new()
+	for audio_path in PRAISE_AUDIO_PATHS:
+		var audio_stream := load(audio_path) as AudioStream
+		if audio_stream != null:
+			praise_audio_streams.append(audio_stream)
+	praise_audio.stream = load("res://assets/audio-felicitacion-traza.mp3") as AudioStream
+	praise_audio.finished.connect(_on_praise_audio_finished)
+	add_child(praise_audio)
 
 	# Controles transparentes sobre las ilustraciones ya incluidas en el tablero.
 	var back_button := _invisible_button(Rect2(0.02, 0.025, 0.25, 0.13), "Volver al tablero de lenguaje")
@@ -88,7 +117,7 @@ func _build_screen() -> void:
 	add_child(settings_button)
 
 	letter_image = _letter_texture_rect()
-	_place(letter_image, 0.229, 0.445, 0.161, 0.205)
+	_place(letter_image, 0.219, 0.432, 0.181, 0.224)
 	add_child(letter_image)
 	var speak_button := _invisible_button(Rect2(0.348, 0.665, 0.045, 0.065), "Escuchar la letra")
 	speak_button.pressed.connect(_speak_letter)
@@ -104,7 +133,7 @@ func _build_screen() -> void:
 
 	trace_canvas = Control.new()
 	trace_canvas.set_script(load("res://scripts/trace_canvas.gd"))
-	_place(trace_canvas, 0.438, 0.245, 0.285, 0.485)
+	_place(trace_canvas, 0.426, 0.232, 0.309, 0.51)
 	add_child(trace_canvas)
 	trace_canvas.connect("completed", Callable(self, "_on_trace_completed"))
 
@@ -166,6 +195,7 @@ func _build_screen() -> void:
 	next_lock_overlay.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_place(next_lock_overlay, 0.885, 0.80, 0.105, 0.17)
 	add_child(next_lock_overlay)
+	_add_alphabet_selector()
 
 func _show_current_letter() -> void:
 	var letter: String = String(LETTERS[current_letter_index])
@@ -174,6 +204,7 @@ func _show_current_letter() -> void:
 	preview_image.texture = letter_texture
 	letter_caption.text = "Letra: %s" % letter
 	counter_label.text = "%d" % (current_letter_index + 1)
+	counter_total_label.text = "%d" % LETTERS.size()
 	var done := int(completed_by_letter.get(letter, 0))
 	exercise_label.text = "Ejercicio %d de %d" % [mini(done + 1, EXERCISES_PER_LETTER), EXERCISES_PER_LETTER]
 	if done >= EXERCISES_PER_LETTER:
@@ -181,17 +212,85 @@ func _show_current_letter() -> void:
 	else:
 		result_label.text = "Sigue los puntos para trazar la letra."
 	trace_canvas.call("set_guide_strokes", _letter_strokes(letter))
-	start_button.disabled = done >= EXERCISES_PER_LETTER
+	# Las letras completadas siguen disponibles para practicar; el progreso queda guardado.
+	start_button.disabled = false
 	next_button.disabled = true
 	next_lock_overlay.visible = done < EXERCISES_PER_LETTER or current_letter_index >= LETTERS.size() - 1
 	if current_letter_index == LETTERS.size() - 1 and done >= EXERCISES_PER_LETTER:
 		result_label.text = "¡Completaste las 27 letras!"
 		next_lock_overlay.visible = true
+	_update_alphabet_selection()
+
+func _add_alphabet_selector() -> void:
+	# Deja visible la placa 1/27 a la izquierda y reduce el abecedario al 80 %.
+	var alphabet_area := Control.new()
+	_place(alphabet_area, 0.21, 0.78, 0.79, 0.188)
+	alphabet_area.mouse_filter = Control.MOUSE_FILTER_STOP
+	add_child(alphabet_area)
+	# La tira tiene bordes transparentes; esta base tapa los botones del tablero que
+	# se veían por los huecos, en especial la flecha que asomaba a la derecha.
+	var alphabet_backing := _rounded_panel(Color("#fff0bd"), Color("#ffc42f"), 3, 18)
+	_place(alphabet_backing, 0.0, 0.0, 1.0, 1.0)
+	alphabet_backing.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	alphabet_area.add_child(alphabet_backing)
+
+	var alphabet_image := TextureRect.new()
+	alphabet_image.texture = load("res://assets/tira-abecedario.png")
+	alphabet_image.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	alphabet_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	alphabet_image.stretch_mode = TextureRect.STRETCH_SCALE
+	alphabet_image.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	alphabet_area.add_child(alphabet_image)
+
+	_add_alphabet_hit_row(alphabet_area, LETTERS.slice(0, 13), 0.11, 0.40)
+	_add_alphabet_hit_row(alphabet_area, LETTERS.slice(13, LETTERS.size()), 0.52, 0.40)
+
+func _add_alphabet_hit_row(parent: Control, row_letters: Array, top: float, height: float) -> void:
+	var row := HBoxContainer.new()
+	_place(row, 0.02, top, 0.96, height)
+	row.add_theme_constant_override("separation", 0)
+	parent.add_child(row)
+	for letter_value in row_letters:
+		var letter := String(letter_value)
+		var key := Button.new()
+		key.text = ""
+		key.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		key.size_flags_vertical = Control.SIZE_EXPAND_FILL
+		key.focus_mode = Control.FOCUS_NONE
+		key.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND
+		key.tooltip_text = "Seleccionar y escuchar la letra %s" % letter
+		key.add_theme_stylebox_override("normal", _alphabet_key_style(false, false))
+		key.add_theme_stylebox_override("hover", _alphabet_key_style(false, true))
+		key.add_theme_stylebox_override("pressed", _alphabet_key_style(true, false))
+		key.pressed.connect(_select_alphabet_letter.bind(letter))
+		alphabet_buttons[letter] = key
+		row.add_child(key)
+
+func _alphabet_key_style(selected: bool, hovered: bool) -> StyleBoxFlat:
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(1, 1, 1, 0.22 if hovered else (0.16 if selected else 0.0))
+	style.border_color = Color("#ffffff") if selected else Color("#8bdcff")
+	style.set_border_width_all(3 if selected else (2 if hovered else 0))
+	style.set_corner_radius_all(12)
+	return style
+
+func _update_alphabet_selection() -> void:
+	for letter_value in alphabet_buttons:
+		var letter := String(letter_value)
+		var key := alphabet_buttons[letter] as Button
+		key.add_theme_stylebox_override("normal", _alphabet_key_style(letter == LETTERS[current_letter_index], false))
+
+func _select_alphabet_letter(letter: String) -> void:
+	var index := LETTERS.find(letter)
+	if index < 0:
+		return
+	current_letter_index = index
+	_show_current_letter()
+	_speak_letter()
 
 func _start_attempt() -> void:
-	var letter: String = String(LETTERS[current_letter_index])
-	if int(completed_by_letter.get(letter, 0)) >= EXERCISES_PER_LETTER:
-		return
+	# Reinicia también las letras ya completadas para permitir volver a practicarlas.
+	trace_canvas.call("reset_drawing")
 	trace_canvas.call("start_drawing")
 	result_label.text = "Empieza en el punto 1 y sigue el camino."
 
@@ -203,22 +302,29 @@ func _reset_attempt() -> void:
 
 func _on_trace_completed() -> void:
 	var letter: String = String(LETTERS[current_letter_index])
-	var done := mini(int(completed_by_letter.get(letter, 0)) + 1, EXERCISES_PER_LETTER)
+	var previous_done := int(completed_by_letter.get(letter, 0))
+	var done := mini(previous_done + 1, EXERCISES_PER_LETTER)
 	completed_by_letter[letter] = done
 	_save_progress()
+	result_label.text = "¡Lo hiciste muy bien! ¡Felicidades!"
+	var audio_started := _play_praise_audio()
+	if audio_started:
+		start_button.disabled = true
+		_set_alphabet_buttons_enabled(false)
 	if done < EXERCISES_PER_LETTER:
-		result_label.text = "¡Muy bien! Letra %s: %d de 10." % [letter, done]
 		exercise_label.text = "Ejercicio %d de 10" % (done + 1)
 		trace_canvas.call("reset_drawing")
 	else:
-		result_label.text = "¡Muy bien! Completaste la letra %s." % letter
-		start_button.disabled = true
 		next_button.disabled = true
 		next_lock_overlay.visible = current_letter_index >= LETTERS.size() - 1
 		if current_letter_index == LETTERS.size() - 1:
-			result_label.text = "¡Completaste las 27 letras!"
+			result_label.text = "¡Completaste las 27 letras! ¡Felicidades!"
 	_update_progress_plaque()
-	if done >= EXERCISES_PER_LETTER and current_letter_index < LETTERS.size() - 1:
+	if previous_done < EXERCISES_PER_LETTER and done >= EXERCISES_PER_LETTER and current_letter_index < LETTERS.size() - 1:
+		if audio_started and praise_audio.playing:
+			await praise_audio.finished
+			if not is_inside_tree():
+				return
 		await get_tree().create_timer(LETTER_ADVANCE_DELAY).timeout
 		if not is_inside_tree():
 			return
@@ -258,11 +364,41 @@ func _speak_letter() -> void:
 	DisplayServer.tts_stop()
 	DisplayServer.tts_speak(LETTERS[current_letter_index], "", 100.0, 1.0, 0.92, 0, true)
 
+func _play_praise_audio() -> bool:
+	if praise_audio == null or praise_audio_streams.is_empty():
+		DisplayServer.tts_speak("Lo hiciste muy bien. ¡Felicidades!", "", 100.0, 1.0, 0.92, 0, true)
+		return false
+	DisplayServer.tts_stop()
+	if praise_audio.playing:
+		praise_audio.stop()
+	praise_audio.stream = praise_audio_streams[praise_rng.randi_range(0, praise_audio_streams.size() - 1)]
+	condor_frame_index = 0
+	condor_frame_clock = 0.0
+	condor_avatar.texture = condor_frames[condor_frame_index]
+	praise_audio.play()
+	return true
+
+func _on_praise_audio_finished() -> void:
+	condor_frame_clock = 0.0
+	condor_frame_index = CONDOR_IDLE_FRAME
+	if condor_avatar != null and not condor_frames.is_empty():
+		condor_avatar.texture = condor_frames[CONDOR_IDLE_FRAME]
+	_set_alphabet_buttons_enabled(true)
+	if start_button != null:
+		start_button.disabled = false
+
+func _set_alphabet_buttons_enabled(enabled: bool) -> void:
+	for key_value in alphabet_buttons.values():
+		(key_value as Button).disabled = not enabled
+
 func _show_settings_message() -> void:
 	result_label.text = "Puedes cambiar el sonido desde Configuración."
 
 func _leave_screen() -> void:
 	DisplayServer.tts_stop()
+	if praise_audio != null and praise_audio.playing:
+		praise_audio.stop()
+		_on_praise_audio_finished()
 	close_requested.emit()
 
 func _letter_strokes(letter: String) -> Array:
@@ -283,9 +419,13 @@ func _letter_strokes(letter: String) -> Array:
 		"N": [[Vector2(0.24, 0.88), Vector2(0.24, 0.12), Vector2(0.76, 0.88), Vector2(0.76, 0.12)]],
 		"Ñ": [[Vector2(0.24, 0.88), Vector2(0.24, 0.24), Vector2(0.76, 0.88), Vector2(0.76, 0.24)], [Vector2(0.34, 0.12), Vector2(0.50, 0.02), Vector2(0.67, 0.12)]],
 		"O": [[Vector2(0.50, 0.12), Vector2(0.70, 0.17), Vector2(0.82, 0.34), Vector2(0.84, 0.53), Vector2(0.76, 0.73), Vector2(0.60, 0.86), Vector2(0.42, 0.86), Vector2(0.25, 0.73), Vector2(0.17, 0.53), Vector2(0.20, 0.34), Vector2(0.32, 0.17), Vector2(0.50, 0.12)]],
-		"P": [[Vector2(0.28, 0.88), Vector2(0.28, 0.12), Vector2(0.62, 0.12), Vector2(0.80, 0.24), Vector2(0.80, 0.40), Vector2(0.64, 0.51), Vector2(0.28, 0.51)]],
+		# La panza vuelve al centro del asta; separarla evita que el punto final
+		# se confunda con el mismo punto al pasar por el asta vertical.
+		"P": [[Vector2(0.28, 0.88), Vector2(0.28, 0.12)], [Vector2(0.28, 0.12), Vector2(0.62, 0.12), Vector2(0.80, 0.24), Vector2(0.80, 0.40), Vector2(0.64, 0.51), Vector2(0.28, 0.51)]],
 		"Q": [[Vector2(0.50, 0.12), Vector2(0.70, 0.17), Vector2(0.82, 0.34), Vector2(0.84, 0.53), Vector2(0.76, 0.73), Vector2(0.60, 0.86), Vector2(0.42, 0.86), Vector2(0.25, 0.73), Vector2(0.17, 0.53), Vector2(0.20, 0.34), Vector2(0.32, 0.17), Vector2(0.50, 0.12)], [Vector2(0.57, 0.65), Vector2(0.82, 0.90)]],
-		"R": [[Vector2(0.28, 0.88), Vector2(0.28, 0.12), Vector2(0.62, 0.12), Vector2(0.80, 0.24), Vector2(0.80, 0.40), Vector2(0.64, 0.51), Vector2(0.28, 0.51)], [Vector2(0.52, 0.51), Vector2(0.80, 0.88)]],
+		# Igual que en la P, el asta y la curva son pasos separados para que
+		# el final de la curva no coincida con un punto intermedio del asta.
+		"R": [[Vector2(0.28, 0.88), Vector2(0.28, 0.12)], [Vector2(0.28, 0.12), Vector2(0.62, 0.12), Vector2(0.80, 0.24), Vector2(0.80, 0.40), Vector2(0.64, 0.51), Vector2(0.28, 0.51)], [Vector2(0.28, 0.51), Vector2(0.80, 0.88)]],
 		"S": [[Vector2(0.78, 0.22), Vector2(0.62, 0.12), Vector2(0.40, 0.14), Vector2(0.25, 0.27), Vector2(0.28, 0.42), Vector2(0.47, 0.50), Vector2(0.67, 0.56), Vector2(0.80, 0.68), Vector2(0.75, 0.82), Vector2(0.58, 0.88), Vector2(0.36, 0.85), Vector2(0.22, 0.76)]],
 		"T": [[Vector2(0.20, 0.12), Vector2(0.80, 0.12)], [Vector2(0.50, 0.12), Vector2(0.50, 0.88)]],
 		"U": [[Vector2(0.24, 0.12), Vector2(0.24, 0.62), Vector2(0.30, 0.78), Vector2(0.44, 0.88), Vector2(0.60, 0.88), Vector2(0.75, 0.78), Vector2(0.80, 0.62), Vector2(0.80, 0.12)]],
