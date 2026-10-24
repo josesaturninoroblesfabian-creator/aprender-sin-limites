@@ -10,6 +10,8 @@ Juego educativo en Godot para explorar letras y practicar su trazado, con person
 
 Se conserva el estilo ilustrado original: fondos, botones y personajes por imágenes. Incluye **300 audios locales en español** (270 palabras, 27 letras y tres instrucciones); no necesita una voz española instalada para reproducirlos. No hay reconocimiento de voz ni una IA integrada actualmente.
 
+Los menús de **Matemáticas, Números y Geometría** comparten una llama animada y 33 audios neuronales locales, con ayuda y control de sonido. Se abren desde sus botones del inicio. Las tarjetas presentan cada tema; sus ejercicios y submenús internos se construirán de uno en uno. Detalles en [Menús matemáticos](docs/MENUS_MATEMATICOS.md).
+
 ## Estado real
 
 | Área | Implementado |
@@ -18,7 +20,11 @@ Se conserva el estilo ilustrado original: fondos, botones y personajes por imág
 | Lenguaje | 27 letras, 10 ejemplos por letra, audio incluido y guardado de palabras escuchadas completas |
 | Traza la letra | Guías para 27 letras, ratón/táctil y guardado de repeticiones |
 | Otras cuatro actividades de Lenguaje | Botones con mensaje de futura disponibilidad |
-| Matemática, Números, Geometría, Cuentos, Diccionario y Enciclopedia | Pantallas provisionales |
+| Números | Menú ilustrado, llama animada, voz local, ocho presentaciones y ajustes de sonido persistentes; ejercicios pendientes |
+| Matemáticas | Menú de cuatro operaciones y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
+| Geometría | Menú de figuras y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
+| Cuentos | Menú ilustrado integrado por el equipo, personaje Carmelo y panel de progreso; actividades internas pendientes |
+| Diccionario y Enciclopedia | Pantallas provisionales |
 | Configuración | Información provisional; todavía no cambia ajustes |
 | Personajes 3D | Prototipos independientes, fuera del recorrido principal |
 
@@ -30,6 +36,7 @@ El contador registra **escuchas completadas**, no dominio educativo. Los antiguo
 scenes/             Escena principal y escenas de prototipos
 scripts/menu/       Catálogo del menú
 scripts/language/   Lección, alfabeto compartido y actividad de trazado
+scripts/math/       Controlador compartido y catálogos de Matemáticas, Números y Geometría
 scripts/prototypes/ Demostraciones 3D
 data/language/      Contenido del abecedario
 assets/audio/       Grabaciones y felicitaciones

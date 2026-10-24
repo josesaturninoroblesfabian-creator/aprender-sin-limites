@@ -1,0 +1,15 @@
+{
+  "clips": {
+    "welcome": {"text": "¡Hola! Qué bueno verte. Hoy vamos a jugar con los números. Toca una tarjeta y descubramos juntos qué podemos aprender.", "file": "welcome.mp3"},
+    "one_digit": {"text": "¡Empecemos con una cifra! Aquí conoceremos los números del cero al nueve. Vamos a contar, reconocer y completar cantidades.", "file": "one_digit.mp3"},
+    "two_digits": {"text": "Ahora, dos cifras. Del diez al noventa y nueve. Veremos cómo se juntan las decenas y las unidades.", "file": "two_digits.mp3"},
+    "three_digits": {"text": "¡Vamos con tres cifras! Del cien al novecientos noventa y nueve. Descubriremos las centenas, las decenas y las unidades.", "file": "three_digits.mp3"},
+    "four_digits": {"text": "¡Un nuevo desafío! Los números de cuatro cifras. Del mil al nueve mil novecientos noventa y nueve. Exploraremos las unidades de millar, paso a paso.", "file": "four_digits.mp3"},
+    "count_objects": {"text": "¿Cuántos objetos ves? Vamos a contarlos con calma y a elegir el número que corresponde.", "file": "count_objects.mp3"},
+    "sequences": {"text": "Mira cómo cambian los números. ¿Puedes descubrir cuál sigue? Vamos a completar secuencias.", "file": "sequences.mp3"},
+    "compare": {"text": "Vamos a comparar cantidades. ¿Cuál es mayor? ¿Cuál es menor? ¿O serán iguales?", "file": "compare.mp3"},
+    "quick_challenge": {"text": "¡Hora de un reto! Aquí pondremos en práctica lo que aprendimos sobre los números.", "file": "quick_challenge.mp3"},
+    "help": {"text": "Toca una tarjeta para conocer su tema. Si quieres escucharme otra vez, puedes tocarme. Y en configuración puedes cambiar el volumen o silenciar mi voz.", "file": "help.mp3"},
+    "progress": {"text": "Aquí verás tu progreso cuando completes las actividades. Explorar el menú no cambia tus estrellas.", "file": "progress.mp3"}
+  }
+}

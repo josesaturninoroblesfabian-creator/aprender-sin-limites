@@ -1,0 +1,71 @@
+{
+  "provider": "Microsoft Edge online neural text-to-speech",
+  "tool": "edge-tts",
+  "tool_version": "7.3.1",
+  "voice": "es-PE-CamilaNeural",
+  "locale": "es-PE",
+  "gender": "Female",
+  "rate": "-5%",
+  "pitch": "+0Hz",
+  "generated_at": "2026-10-24T06:37:44.341298+00:00",
+  "generation": "Synthesized online during development; packaged MP3 playback is fully offline",
+  "catalog": "data/math/geometry_voice_lines.json",
+  "clips": {
+    "build_pattern": {
+      "file": "build_pattern.mp3",
+      "text_sha256": "e333e2e4fd8ce92520eb6cc85e02639ead47747219d17e292ed38fb6a222f9dd",
+      "sha256": "43e297a62a391ec713a367fd7f31628e085b93a6c1932397017de5228beb780e"
+    },
+    "count_sides": {
+      "file": "count_sides.mp3",
+      "text_sha256": "4de8ee6a85e094dc31f6e62b10a62a2cdc744b16d095fc011573d7d1b98396e1",
+      "sha256": "722cd4a3c0fb5c5ee647a7e615d0bb2002a45ec62df71778b92a4af14eb20424"
+    },
+    "find_shape": {
+      "file": "find_shape.mp3",
+      "text_sha256": "dc42e4a23e502245bdf8c1cc816b71bab5042248071d504f18dee8b24d7fd4a0",
+      "sha256": "17db08eac9fac70b6cd2045871b390caba8ecab916e0e184c839e3753989e11e"
+    },
+    "flat_shapes": {
+      "file": "flat_shapes.mp3",
+      "text_sha256": "a83f1b464c50af6a25dcdb857065ffc609d495f1aeac53b09395f708267c4f88",
+      "sha256": "b3b3c02345d561ba063b1fa1f0b2da7491064ddb02389818b002626cb4908100"
+    },
+    "help": {
+      "file": "help.mp3",
+      "text_sha256": "cf3cdb77d31689a0f19afbcf892ad5f412aa0d8b72d49375202487c63b6f02e3",
+      "sha256": "f044ed77cac4c3d12b15aec6b17b0b53bf6c77fc61080d817b89d6672ce62085"
+    },
+    "progress": {
+      "file": "progress.mp3",
+      "text_sha256": "551ed973ee1df6384e2635a893e6a9c76db7ce72f916a580a32ecd3b994dfdf8",
+      "sha256": "7c0ecc1f697e8cb4fa827566422c44ea8a22e29804a8928c29989c5a6ea328b6"
+    },
+    "quick_challenge": {
+      "file": "quick_challenge.mp3",
+      "text_sha256": "98dd9bc8689e1b14d1c21b706ccd31bfad5dec4b036eccc3aa0c0e082cba5ac6",
+      "sha256": "e442dc2ecc0ff7326592bd4caabe89ecf1f38fa9e52e8ecf177a2d2a34a6c6dc"
+    },
+    "shape_patterns": {
+      "file": "shape_patterns.mp3",
+      "text_sha256": "b3ac7c5aeac06f515726468d5f68328f26fbf187f46000699ba5819a1f24c588",
+      "sha256": "2c95100ac3400a7cb5d7ef35895e2ad94b88a48f8b187a7e8c784cdffb80583b"
+    },
+    "sides_vertices": {
+      "file": "sides_vertices.mp3",
+      "text_sha256": "c149d828f481d87e09056b98be5a77dd724f0b866b6beae16817a575fc4c4d17",
+      "sha256": "88c7952dd0c5940c0523b16f52356623c2610290cf68692c6de0d722903b386f"
+    },
+    "solid_shapes": {
+      "file": "solid_shapes.mp3",
+      "text_sha256": "841b3e0e5578ba5da201844f57ac0757e956b4bad404f15e92d3693965a2df3f",
+      "sha256": "8f1dccfdf367d19f491ffda6c5231dbc9ac5c180af80bc3c534e6954c0fb0370"
+    },
+    "welcome": {
+      "file": "welcome.mp3",
+      "text_sha256": "c1e49a4cc06e95693a45637f20de78aff6cfce42d2653245662c9e6bbb6e8a57",
+      "sha256": "88392236b2770ee7d937c2d3c0a0d4196c5b8ebe95f06a6ecc21ad09adad6aa9"
+    }
+  },
+  "documentation": "https://github.com/rany2/edge-tts"
+}

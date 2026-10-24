@@ -1,0 +1,15 @@
+{
+  "clips": {
+    "welcome": {"text": "¡Hola de nuevo! Vamos a aprender matemáticas jugando. Podemos juntar, quitar, formar grupos y repartir. Toca una tarjeta y te acompaño.", "file": "welcome.mp3"},
+    "addition": {"text": "¡Vamos a sumar! Si juntamos dos manzanas y una más, tenemos tres. Aquí descubriremos cómo reunir cantidades.", "file": "addition.mp3"},
+    "subtraction": {"text": "Ahora vamos a restar. Si tenemos cinco objetos y quitamos dos, quedan tres. Veremos cuánto queda, paso a paso.", "file": "subtraction.mp3"},
+    "multiplication": {"text": "Multiplicar es trabajar con grupos iguales. Por ejemplo, tres grupos de dos objetos tienen seis en total. ¡Lo descubriremos juntos!", "file": "multiplication.mp3"},
+    "division": {"text": "Vamos a repartir en partes iguales. Si repartimos seis objetos entre dos personas, cada una recibe tres. Eso es dividir.", "file": "division.mp3"},
+    "count_objects": {"text": "Antes de hacer operaciones, vamos a contar. Mira cada objeto con calma y descubre cuántos hay.", "file": "count_objects.mp3"},
+    "solve_exercises": {"text": "Aquí practicaremos las cuatro operaciones con ejemplos guiados. ¡Un pequeño paso cada vez!", "file": "solve_exercises.mp3"},
+    "level_game": {"text": "¡Una aventura por niveles! Empezaremos con pequeños desafíos y avanzaremos a nuestro ritmo.", "file": "level_game.mp3"},
+    "quick_challenge": {"text": "¡Hora de un reto de matemáticas! Pondremos a prueba lo que aprendimos con operaciones.", "file": "quick_challenge.mp3"},
+    "help": {"text": "Elige una de las cuatro operaciones o explora los juegos de abajo. Toca mi personaje para repetir la bienvenida. En configuración puedes ajustar mi voz.", "file": "help.mp3"},
+    "progress": {"text": "Tus avances de matemáticas aparecerán aquí cuando completes las actividades. Puedes explorar las tarjetas sin cambiar tu progreso.", "file": "progress.mp3"}
+  }
+}

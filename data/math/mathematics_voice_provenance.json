@@ -1,0 +1,71 @@
+{
+  "provider": "Microsoft Edge online neural text-to-speech",
+  "tool": "edge-tts",
+  "tool_version": "7.3.1",
+  "voice": "es-PE-CamilaNeural",
+  "locale": "es-PE",
+  "gender": "Female",
+  "rate": "-5%",
+  "pitch": "+0Hz",
+  "generated_at": "2026-10-24T06:37:29.907153+00:00",
+  "generation": "Synthesized online during development; packaged MP3 playback is fully offline",
+  "catalog": "data/math/mathematics_voice_lines.json",
+  "clips": {
+    "addition": {
+      "file": "addition.mp3",
+      "text_sha256": "21f42ee32d61cdea21f012f6ae72b79feaa16195234d42886c89187889638a58",
+      "sha256": "fdb424dc7abc996dc47864e1638dcfd5630bfbab776641a51a97056c16bb8c3d"
+    },
+    "count_objects": {
+      "file": "count_objects.mp3",
+      "text_sha256": "64bf30235623081feb118e85ccde5bf714f64495dfce5d5ae154885fe84578d1",
+      "sha256": "81f79b0b091097e6172848707753a3d9984583ab67b48460b745c61b44a5865a"
+    },
+    "division": {
+      "file": "division.mp3",
+      "text_sha256": "ed8f4f40904217ed84ef0f7c9842901edcef2e30c3787a6b2bcfffc2735a2405",
+      "sha256": "558cfc014e3b6cd4d6835554d41a3abb12d9a78934cc829972c5d31f1916c619"
+    },
+    "help": {
+      "file": "help.mp3",
+      "text_sha256": "64b5163566c9d4d989f88e53f8633b71196fea7d6c694483521ce03dac7e0d45",
+      "sha256": "8f55d924f49de6c7755cc7144f0b6c5ef72ed8dc73c5ca4d9bd6fd443d4f8c27"
+    },
+    "level_game": {
+      "file": "level_game.mp3",
+      "text_sha256": "139b60b4996c5a44ed77addd5df454f3ab4fb05ac48f8be3aa17006ebe8264c3",
+      "sha256": "5f38ade6e00618ba0f29601b54d16322755c74114a2d558490a6da46d0f2ad0a"
+    },
+    "multiplication": {
+      "file": "multiplication.mp3",
+      "text_sha256": "556b87c4ce8a82208b6821a086671b1b665e01ca7a62076179faaa3d0e18e226",
+      "sha256": "6d55385e3dbf45a6517250b974510c0c1794a818d444cf90e744b4c2e65494f5"
+    },
+    "progress": {
+      "file": "progress.mp3",
+      "text_sha256": "51b4615823d38766149c12bb1ce338aad6f050425b806b9694fc3475d9fe0b5e",
+      "sha256": "84f52f6e2a38f38b566f3c3aa5ae9f00253e9cfbb3a42b069661b68a763beb8c"
+    },
+    "quick_challenge": {
+      "file": "quick_challenge.mp3",
+      "text_sha256": "9d3b4e75e5e0b731c21910717715d5eacc5ae1d06d08901734bb8a6bfdc27089",
+      "sha256": "90fb919684afacb77359d3446b6afb833da397d70f33bd7bd35ab83b67d275d4"
+    },
+    "solve_exercises": {
+      "file": "solve_exercises.mp3",
+      "text_sha256": "9d54a44168c256f67557db0531308bc70a56cb8d42218ba2b57e1f515db734de",
+      "sha256": "2e97cf655436df0f0f1ec29c64bcfc98f54f3fb12a91e554dded29a91eea1bee"
+    },
+    "subtraction": {
+      "file": "subtraction.mp3",
+      "text_sha256": "3cffc47ce9bcc12f5b02f111629cbb2be702ac3ea5eab17b9eab208a4a89a4a0",
+      "sha256": "0715ddd09804d85f9d3d5d3348938c32fb57bdccc379051546071fbf094aab02"
+    },
+    "welcome": {
+      "file": "welcome.mp3",
+      "text_sha256": "0a300d4bdff53271acb735cd2e22f93c9b31b646fec25535f6f353f1b9b78d4e",
+      "sha256": "e16e92c21479da27e0784e7c2bd6995e4549f9303140d6731544de47a5073767"
+    }
+  },
+  "documentation": "https://github.com/rany2/edge-tts"
+}

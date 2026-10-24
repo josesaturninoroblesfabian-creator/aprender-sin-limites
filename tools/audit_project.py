@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from pathlib import Path
 import re
 import sys
@@ -37,6 +38,8 @@ def audit() -> list[str]:
         for resource in re.findall(r'"res://([^"\n]+)"', text):
             if resource.startswith(".godot/"):
                 continue  # Generated import output, rebuilt on each computer.
+            if resource.endswith("/") and (ROOT / resource).is_dir():
+                continue  # A directory prefix joined to a validated catalog filename.
             if "%" in resource:
                 if "%03d" in resource or "%02d" in resource:
                     parent = ROOT / Path(resource).parent
@@ -100,6 +103,34 @@ def audit() -> list[str]:
                     errors.append(f"Voice catalog no longer matches the word: {clip_id}")
     except (OSError, ValueError, KeyError, wave.Error) as error:
         errors.append(f"Could not validate voice pack: {error}")
+    shared_voices = set()
+    topic_ids = {
+        "numbers": {"one_digit", "two_digits", "three_digits", "four_digits", "count_objects", "sequences", "compare", "quick_challenge"},
+        "mathematics": {"addition", "subtraction", "multiplication", "division", "count_objects", "solve_exercises", "level_game", "quick_challenge"},
+        "geometry": {"flat_shapes", "solid_shapes", "sides_vertices", "shape_patterns", "find_shape", "build_pattern", "count_sides", "quick_challenge"},
+    }
+    for section, topics in topic_ids.items():
+        try:
+            narration = json.loads((ROOT / f"data/math/{section}_voice_lines.json").read_text(encoding="utf-8"))["clips"]
+            provenance = json.loads((ROOT / f"data/math/{section}_voice_provenance.json").read_text(encoding="utf-8-sig"))
+            shared_voices.add(provenance["voice"])
+            if set(narration) != topics | {"welcome", "help", "progress"}:
+                errors.append(f"Incomplete {section} narration catalog.")
+            for clip_id, entry in narration.items():
+                filename = entry["file"]
+                if not re.fullmatch(r"[a-z_]+\.mp3", filename):
+                    errors.append(f"Invalid {section} voice filename: {clip_id}")
+                    continue
+                audio = (ROOT / "assets/audio/llama" / section / filename).read_bytes()
+                if len(audio) < 1000 or not (audio.startswith(b"ID3") or (audio[0] == 0xff and audio[1] & 0xe0 == 0xe0)):
+                    errors.append(f"Invalid or empty MP3: {section}/{clip_id}")
+                record = provenance["clips"][clip_id]
+                if record["sha256"] != hashlib.sha256(audio).hexdigest() or record["text_sha256"] != hashlib.sha256(entry["text"].encode("utf-8")).hexdigest():
+                    errors.append(f"Narration no longer matches its generated text/audio: {section}/{clip_id}")
+        except (OSError, ValueError, KeyError) as error:
+            errors.append(f"Could not validate {section} narration: {error}")
+    if len(shared_voices) != 1:
+        errors.append("The three llama sections must share one voice.")
     return errors
 
 
@@ -108,4 +139,4 @@ if __name__ == "__main__":
     if problems:
         print("\n".join(problems))
         sys.exit(1)
-    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples and 300 local voice clips.")
+    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples, 300 Language clips and 33 neural llama clips.")
