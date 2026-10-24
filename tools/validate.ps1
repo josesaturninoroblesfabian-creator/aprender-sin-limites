@@ -21,6 +21,8 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Godot import failed.' }
     & python (Join-Path $PSScriptRoot 'audit_project.py')
     if ($LASTEXITCODE -ne 0) { throw 'Resource audit failed.' }
+    & python -m unittest discover -s (Join-Path $projectRoot 'tests') -p 'test_story_audio_metadata.py' -t $projectRoot
+    if ($LASTEXITCODE -ne 0) { throw 'Story audio metadata validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/smoke_test.gd --log-file (Join-Path $validationRoot 'smoke.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'runtime-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Runtime validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/regression_test.gd --log-file (Join-Path $validationRoot 'regression.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'regression-console.log')

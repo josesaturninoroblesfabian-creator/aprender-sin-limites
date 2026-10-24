@@ -2,15 +2,12 @@ extends Control
 
 signal back_requested
 signal illustrated_stories_requested
-<<<<<<< Updated upstream
 signal character_game_requested
-=======
 signal activity_requested(mode: String)
 
 const Repo = preload("res://scripts/stories/story_repository.gd")
 const UI = preload("res://scripts/stories/story_ui.gd")
 const Carmelo = preload("res://scripts/stories/carmelo_avatar.gd")
->>>>>>> Stashed changes
 
 const REFERENCE_IMAGE := "res://assets/pantalla-cuentos-sin-progreso.png"
 const REFERENCE_SIZE := Vector2(2096.0, 1120.0)
@@ -302,12 +299,9 @@ func _on_hotspot_pressed(id: String) -> void:
 	if id == "menu_principal":
 		StoryAudio.stop(self)
 		back_requested.emit()
-<<<<<<< Updated upstream
-	elif id == "cuentos_ilustrados":
-		illustrated_stories_requested.emit()
 	elif id == "elegir_personaje":
+		StoryAudio.stop(self)
 		character_game_requested.emit()
-=======
 	elif id in ["cuentos_ilustrados", "escucha_cuento", "ordena_historia", "preguntas_retos"]:
 		StoryAudio.stop(self)
 		var modes := {"cuentos_ilustrados": "read", "escucha_cuento": "listen", "ordena_historia": "order", "preguntas_retos": "quiz"}
@@ -321,4 +315,3 @@ func _on_hotspot_pressed(id: String) -> void:
 			stack.add_child(UI.label("Este juego de la fila inferior llegará en una próxima etapa.", 20))
 		UI.close_modal_button(stack)
 		StoryAudio.guide("help" if id == "ayuda" else "coming_soon", self)
->>>>>>> Stashed changes

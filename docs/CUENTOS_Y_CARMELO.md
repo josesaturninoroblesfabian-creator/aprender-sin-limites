@@ -78,13 +78,13 @@ El nuevo progreso usa la sección `journey_v2` de `user://progreso_cuentos.cfg`.
 
 ## Comprobación y límites actuales
 
-Validado en Windows con Godot 4.7.2 y Compatibility: auditoría de rutas y contenido, prueba de navegación y 893 comprobaciones automáticas (502 de Cuentos y 391 de Lenguaje/Números/Matemáticas/Geometría), sin fallos. Las pruebas aíslan los archivos de usuario en `.godot/validation/`.
+Validado en Windows con Godot 4.7.2 y Compatibility: auditoría de rutas y contenido, prueba de navegación y 901 comprobaciones automáticas (510 de Cuentos y 391 de Lenguaje/Números/Matemáticas/Geometría), sin fallos, más cuatro pruebas de integridad de tiempos de audio al compartir archivos por Git. Las pruebas aíslan los archivos de usuario en `.godot/validation/`.
 
 Se revisaron las pantallas con el renderizador real, las 64 dobles páginas y las 64 preguntas, además de la biblioteca, narración, resultado y sonido. Las capturas son del juego, no maquetas. También se revisa la presentación a 960 × 600.
 
 No se ha probado todavía en un dispositivo Android físico ni se han generado instaladores. Al preparar una exportación se deben incluir los JSON del catálogo y de tiempos en el filtro de archivos sin recurso (por ejemplo, `*.json`). El proyecto aún no tiene perfiles de exportación.
 
-Los cuatro juegos inferiores —Elegir personaje, Completa la escena, Busca el objeto y Reto rápido— siguen mostrando su aviso de próxima etapa. No forman parte de estos cuatro recorridos principales. Tampoco se añadió una IA que razone durante el juego ni sincronización con servidor.
+Elegir personaje, desarrollado por el compañero, está integrado: conserva sus ocho personajes y sus partidas de cinco rondas. Su puntuación pertenece a esa partida y no altera el progreso de los cuatro recorridos principales. Los otros tres juegos inferiores —Completa la escena, Busca el objeto y Reto rápido— siguen mostrando su aviso de próxima etapa. Tampoco se añadió una IA que razone durante el juego ni sincronización con servidor.
 
 ## Capturas del resultado
 

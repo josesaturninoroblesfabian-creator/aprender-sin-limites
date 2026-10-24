@@ -26,7 +26,8 @@ Los menús de **Matemáticas, Números y Geometría** comparten una llama animad
 | Matemáticas | Menú de cuatro operaciones y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
 | Geometría | Menú de figuras y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
 | Cuentos | 16 cuentos × 8 escenas; historietas, narración, orden cronológico y 64 preguntas; Carmelo animado, voz masculina local, progreso por actividad y mejor puntuación |
-| Cuatro juegos inferiores de Cuentos | Elegir personaje, Completa la escena, Busca el objeto y Reto rápido: mensajes de próxima etapa |
+| Elegir personaje (Cuentos) | Juego del compañero integrado: ocho personajes, pistas y partidas de cinco rondas |
+| Otros tres juegos inferiores de Cuentos | Completa la escena, Busca el objeto y Reto rápido: mensajes de próxima etapa |
 | Diccionario y Enciclopedia | Pantallas provisionales |
 | Configuración | Información provisional; todavía no cambia ajustes |
 | Personajes 3D | Prototipos independientes, fuera del recorrido principal |
@@ -86,7 +87,7 @@ La validación importa recursos, compila los controladores, recorre Lenguaje y t
 
 También comprueba todas las letras con movimientos continuos y eventos espaciados, atajos incorrectos, interrupción de audio, conservación del guardado anterior, dos dedos y navegación después de completar una letra.
 
-Cuentos añade 502 comprobaciones: los 16 recorridos, escenas distintas, audio decodificable, cuatro entradas desde el menú, tarjetas sin recortes, pausa, cancelación y avance automático, orden correcto e incorrecto, pistas, puntuación sin duplicación y conservación del guardado anterior. Lenguaje y los tres menús matemáticos conservan sus 391 comprobaciones.
+Cuentos añade 510 comprobaciones: los 16 recorridos, escenas distintas, audio decodificable, cuatro entradas desde el menú, tarjetas sin recortes, pausa, cancelación y avance automático, orden correcto e incorrecto, pistas, puntuación sin duplicación, conservación del guardado anterior y convivencia con el juego Elegir personaje. Lenguaje y los tres menús matemáticos conservan sus 391 comprobaciones. Se añaden cuatro pruebas de integridad de tiempos de audio al compartir archivos por Git.
 
 ## Generar o cambiar voces
 

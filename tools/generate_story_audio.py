@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 
 import edge_tts
+from story_audio_metadata import timing_matches, timing_sha256
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -47,7 +48,7 @@ async def run(args: argparse.Namespace) -> None:
         path = ROOT / "assets/audio/stories" / (clip_id + ".mp3")
         timings_path = path.with_suffix(".timing.json")
         old = records.get(clip_id, {})
-        if not args.overwrite and previous.get("voice") == args.voice and previous.get("rate") == args.rate and path.exists() and timings_path.exists() and old.get("text_sha256") == sha(text.encode("utf-8")) and old.get("sha256") == sha(path.read_bytes()) and old.get("timing_sha256") == sha(timings_path.read_bytes()):
+        if not args.overwrite and previous.get("voice") == args.voice and previous.get("rate") == args.rate and path.exists() and timings_path.exists() and old.get("text_sha256") == sha(text.encode("utf-8")) and old.get("sha256") == sha(path.read_bytes()) and timing_matches(timings_path.read_bytes(), old.get("timing_sha256")):
             return
         async with semaphore:
             path.parent.mkdir(parents=True, exist_ok=True)
@@ -75,9 +76,9 @@ async def run(args: argparse.Namespace) -> None:
                     words.append({"start": item["offset"] / 10_000_000, "end": (item["offset"] + item["duration"]) / 10_000_000, "from": start, "to": start + len(word)})
                     cursor = start + len(word)
             audio_temp.replace(path)
-            timings_path.write_text(json.dumps({"text": text, "words": words}, ensure_ascii=False) + "\n", encoding="utf-8")
+            timings_path.write_text(json.dumps({"text": text, "words": words}, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
             raw_temp.unlink()
-            records[clip_id] = {"text_sha256": sha(text.encode("utf-8")), "sha256": sha(path.read_bytes()), "timing_sha256": sha(timings_path.read_bytes())}
+            records[clip_id] = {"text_sha256": sha(text.encode("utf-8")), "sha256": sha(path.read_bytes()), "timing_sha256": timing_sha256(timings_path.read_bytes())}
             print(f"Ready {clip_id} ({len(words)} timed words)", flush=True)
 
     await asyncio.gather(*(render(key, text) for key, text in jobs.items()))

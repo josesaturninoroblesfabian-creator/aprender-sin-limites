@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import struct
+from story_audio_metadata import timing_matches
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -57,7 +58,7 @@ def audit_stories() -> list[str]:
             audio = path.read_bytes()
             timing_bytes = path.with_suffix(".timing.json").read_bytes()
             timings = json.loads(timing_bytes)
-            if len(audio) < 1000 or record["sha256"] != hashlib.sha256(audio).hexdigest() or record["text_sha256"] != hashlib.sha256(text.encode("utf-8")).hexdigest() or record["timing_sha256"] != hashlib.sha256(timing_bytes).hexdigest():
+            if len(audio) < 1000 or record["sha256"] != hashlib.sha256(audio).hexdigest() or record["text_sha256"] != hashlib.sha256(text.encode("utf-8")).hexdigest() or not timing_matches(timing_bytes, record["timing_sha256"]):
                 errors.append(f"Narration differs from its current text or manifest: {clip_id}")
             if timings["text"] != text or len(timings["words"]) < 5:
                 errors.append(f"Missing word synchronization: {clip_id}")

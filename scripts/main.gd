@@ -40,11 +40,8 @@ var language_screen: Control
 var cuentos_menu_screen: Control
 var cuentos_selector_screen: Control
 var reading_screen: Control
-<<<<<<< Updated upstream
 var character_game_screen: Control
-=======
 var story_mode := "read"
->>>>>>> Stashed changes
 
 func _ready() -> void:
 	_build_shell()
@@ -386,12 +383,8 @@ func _open_cuentos_menu() -> void:
 	root_box.visible = false
 	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
 	cuentos.connect("back_requested", Callable(self, "_show_home"))
-<<<<<<< Updated upstream
-	cuentos.connect("illustrated_stories_requested", Callable(self, "_open_illustrated_stories"))
 	cuentos.connect("character_game_requested", Callable(self, "_open_character_game"))
-=======
 	cuentos.connect("activity_requested", Callable(self, "_open_story_activity"))
->>>>>>> Stashed changes
 	language_screen = cuentos
 	cuentos_menu_screen = cuentos
 	add_child(cuentos)

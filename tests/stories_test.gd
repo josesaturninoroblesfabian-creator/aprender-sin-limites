@@ -63,6 +63,34 @@ func _run() -> void:
 		library.call("_on_back_pressed")
 		await process_frame
 	_check(Repo.totals().completed == 0, "Browsing story modes awarded completion")
+	# The teammate's lower-row game and the four story modes must coexist.
+	(menu.find_child("Hotspot_elegir_personaje", true, false) as Button).pressed.emit()
+	await process_frame
+	var character_game: Control = home.get("character_game_screen")
+	_check(is_instance_valid(character_game) and not menu.is_visible_in_tree(), "Character game was lost when combining story changes")
+	_check(character_game.get("character_grid").get_child_count() == 8 and character_game.get("character_rounds").size() == 5, "The teammate's characters or rounds were changed")
+	_check(audio.get("current_path").is_empty(), "Carmelo's menu narration overlapped the character game")
+	var target: Dictionary = character_game.get("character_rounds")[0]
+	var wrong_id := "patito" if target.id == "caperucita" else "caperucita"
+	(character_game.find_child("Personaje_" + wrong_id, true, false) as Button).pressed.emit()
+	_check(character_game.get("score") == 0 and not character_game.get("answered"), "Wrong character selection awarded a point")
+	for round_index in range(5):
+		target = character_game.get("character_rounds")[round_index]
+		(character_game.find_child("Personaje_" + target.id, true, false) as Button).pressed.emit()
+		(character_game.get("next_button") as Button).pressed.emit()
+	_check(character_game.get("score") == 5 and character_game.get("finish_panel").visible, "The teammate's five-round game did not reach its result")
+	(character_game.find_child("VolverACuentos", true, false) as Button).pressed.emit()
+	await process_frame
+	_check(home.get("character_game_screen") == null and menu.is_visible_in_tree(), "Returning from characters did not restore the story menu")
+	_check(Repo.totals().completed == 0, "Character game overwrote the four story activities' progress")
+	menu.call("_on_hotspot_pressed", "elegir_personaje")
+	await process_frame
+	character_game = home.get("character_game_screen")
+	home.call("_show_home")
+	await process_frame
+	_check(home.get("character_game_screen") == null and not is_instance_valid(character_game), "Returning home left the character game open")
+	home.call("_menu_selection", "Cuentos")
+	await process_frame
 	home.call("_open_story_activity", "read")
 	await process_frame
 	var library: Control = home.get("cuentos_selector_screen")

@@ -36,6 +36,10 @@ def audit() -> list[str]:
         if path.suffix not in TEXT_SUFFIXES:
             continue
         text = path.read_text(encoding="utf-8-sig")
+        marker = re.search(r"(?m)^(?:<{7}|={7}|>{7})(?:[ \t].*)?$", text)
+        if marker:
+            line = text.count("\n", 0, marker.start()) + 1
+            errors.append(f"Unresolved merge marker: {relative}:{line}")
         for resource in re.findall(r'"res://([^"\n]+)"', text):
             if resource.startswith(".godot/"):
                 continue  # Generated import output, rebuilt on each computer.
