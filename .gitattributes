@@ -1,0 +1,16 @@
+# Stable text diffs on Windows and Linux. Keep Godot resource metadata in Git.
+* text=auto
+*.gd text eol=lf
+*.uid text eol=lf
+*.tscn text eol=lf
+*.tres text eol=lf
+*.godot text eol=lf
+*.import text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.glb binary

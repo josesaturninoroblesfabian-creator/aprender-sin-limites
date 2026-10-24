@@ -1,0 +1,1205 @@
+{
+  "schema_version": 1,
+  "clips": {
+    "letter_00": {
+      "text": "a",
+      "path": "res://assets/audio/voice_pack/letter_00.wav"
+    },
+    "word_00_00": {
+      "text": "Árbol",
+      "path": "res://assets/audio/voice_pack/word_00_00.wav"
+    },
+    "word_00_01": {
+      "text": "Abeja",
+      "path": "res://assets/audio/voice_pack/word_00_01.wav"
+    },
+    "word_00_02": {
+      "text": "Avión",
+      "path": "res://assets/audio/voice_pack/word_00_02.wav"
+    },
+    "word_00_03": {
+      "text": "Anillo",
+      "path": "res://assets/audio/voice_pack/word_00_03.wav"
+    },
+    "word_00_04": {
+      "text": "Araña",
+      "path": "res://assets/audio/voice_pack/word_00_04.wav"
+    },
+    "word_00_05": {
+      "text": "Arcoíris",
+      "path": "res://assets/audio/voice_pack/word_00_05.wav"
+    },
+    "word_00_06": {
+      "text": "Ardilla",
+      "path": "res://assets/audio/voice_pack/word_00_06.wav"
+    },
+    "word_00_07": {
+      "text": "Ajo",
+      "path": "res://assets/audio/voice_pack/word_00_07.wav"
+    },
+    "word_00_08": {
+      "text": "Ángel",
+      "path": "res://assets/audio/voice_pack/word_00_08.wav"
+    },
+    "word_00_09": {
+      "text": "Auto",
+      "path": "res://assets/audio/voice_pack/word_00_09.wav"
+    },
+    "letter_01": {
+      "text": "be",
+      "path": "res://assets/audio/voice_pack/letter_01.wav"
+    },
+    "word_01_00": {
+      "text": "Barco",
+      "path": "res://assets/audio/voice_pack/word_01_00.wav"
+    },
+    "word_01_01": {
+      "text": "Balón",
+      "path": "res://assets/audio/voice_pack/word_01_01.wav"
+    },
+    "word_01_02": {
+      "text": "Bebé",
+      "path": "res://assets/audio/voice_pack/word_01_02.wav"
+    },
+    "word_01_03": {
+      "text": "Bicicleta",
+      "path": "res://assets/audio/voice_pack/word_01_03.wav"
+    },
+    "word_01_04": {
+      "text": "Búho",
+      "path": "res://assets/audio/voice_pack/word_01_04.wav"
+    },
+    "word_01_05": {
+      "text": "Burro",
+      "path": "res://assets/audio/voice_pack/word_01_05.wav"
+    },
+    "word_01_06": {
+      "text": "Ballena",
+      "path": "res://assets/audio/voice_pack/word_01_06.wav"
+    },
+    "word_01_07": {
+      "text": "Botas",
+      "path": "res://assets/audio/voice_pack/word_01_07.wav"
+    },
+    "word_01_08": {
+      "text": "Bandera",
+      "path": "res://assets/audio/voice_pack/word_01_08.wav"
+    },
+    "word_01_09": {
+      "text": "Banana",
+      "path": "res://assets/audio/voice_pack/word_01_09.wav"
+    },
+    "letter_02": {
+      "text": "ce",
+      "path": "res://assets/audio/voice_pack/letter_02.wav"
+    },
+    "word_02_00": {
+      "text": "Casa",
+      "path": "res://assets/audio/voice_pack/word_02_00.wav"
+    },
+    "word_02_01": {
+      "text": "Caballo",
+      "path": "res://assets/audio/voice_pack/word_02_01.wav"
+    },
+    "word_02_02": {
+      "text": "Conejo",
+      "path": "res://assets/audio/voice_pack/word_02_02.wav"
+    },
+    "word_02_03": {
+      "text": "Corazón",
+      "path": "res://assets/audio/voice_pack/word_02_03.wav"
+    },
+    "word_02_04": {
+      "text": "Cuchara",
+      "path": "res://assets/audio/voice_pack/word_02_04.wav"
+    },
+    "word_02_05": {
+      "text": "Caracol",
+      "path": "res://assets/audio/voice_pack/word_02_05.wav"
+    },
+    "word_02_06": {
+      "text": "Camión",
+      "path": "res://assets/audio/voice_pack/word_02_06.wav"
+    },
+    "word_02_07": {
+      "text": "Cereza",
+      "path": "res://assets/audio/voice_pack/word_02_07.wav"
+    },
+    "word_02_08": {
+      "text": "Cocodrilo",
+      "path": "res://assets/audio/voice_pack/word_02_08.wav"
+    },
+    "word_02_09": {
+      "text": "Corona",
+      "path": "res://assets/audio/voice_pack/word_02_09.wav"
+    },
+    "letter_03": {
+      "text": "de",
+      "path": "res://assets/audio/voice_pack/letter_03.wav"
+    },
+    "word_03_00": {
+      "text": "Dado",
+      "path": "res://assets/audio/voice_pack/word_03_00.wav"
+    },
+    "word_03_01": {
+      "text": "Delfín",
+      "path": "res://assets/audio/voice_pack/word_03_01.wav"
+    },
+    "word_03_02": {
+      "text": "Dinosaurio",
+      "path": "res://assets/audio/voice_pack/word_03_02.wav"
+    },
+    "word_03_03": {
+      "text": "Dedo",
+      "path": "res://assets/audio/voice_pack/word_03_03.wav"
+    },
+    "word_03_04": {
+      "text": "Dragón",
+      "path": "res://assets/audio/voice_pack/word_03_04.wav"
+    },
+    "word_03_05": {
+      "text": "Ducha",
+      "path": "res://assets/audio/voice_pack/word_03_05.wav"
+    },
+    "word_03_06": {
+      "text": "Doctor",
+      "path": "res://assets/audio/voice_pack/word_03_06.wav"
+    },
+    "word_03_07": {
+      "text": "Durazno",
+      "path": "res://assets/audio/voice_pack/word_03_07.wav"
+    },
+    "word_03_08": {
+      "text": "Diamante",
+      "path": "res://assets/audio/voice_pack/word_03_08.wav"
+    },
+    "word_03_09": {
+      "text": "Diente",
+      "path": "res://assets/audio/voice_pack/word_03_09.wav"
+    },
+    "letter_04": {
+      "text": "e",
+      "path": "res://assets/audio/voice_pack/letter_04.wav"
+    },
+    "word_04_00": {
+      "text": "Elefante",
+      "path": "res://assets/audio/voice_pack/word_04_00.wav"
+    },
+    "word_04_01": {
+      "text": "Estrella",
+      "path": "res://assets/audio/voice_pack/word_04_01.wav"
+    },
+    "word_04_02": {
+      "text": "Escoba",
+      "path": "res://assets/audio/voice_pack/word_04_02.wav"
+    },
+    "word_04_03": {
+      "text": "Espejo",
+      "path": "res://assets/audio/voice_pack/word_04_03.wav"
+    },
+    "word_04_04": {
+      "text": "Escuela",
+      "path": "res://assets/audio/voice_pack/word_04_04.wav"
+    },
+    "word_04_05": {
+      "text": "Escalera",
+      "path": "res://assets/audio/voice_pack/word_04_05.wav"
+    },
+    "word_04_06": {
+      "text": "Erizo",
+      "path": "res://assets/audio/voice_pack/word_04_06.wav"
+    },
+    "word_04_07": {
+      "text": "Espiga",
+      "path": "res://assets/audio/voice_pack/word_04_07.wav"
+    },
+    "word_04_08": {
+      "text": "Ensalada",
+      "path": "res://assets/audio/voice_pack/word_04_08.wav"
+    },
+    "word_04_09": {
+      "text": "Enchufe",
+      "path": "res://assets/audio/voice_pack/word_04_09.wav"
+    },
+    "letter_05": {
+      "text": "efe",
+      "path": "res://assets/audio/voice_pack/letter_05.wav"
+    },
+    "word_05_00": {
+      "text": "Foca",
+      "path": "res://assets/audio/voice_pack/word_05_00.wav"
+    },
+    "word_05_01": {
+      "text": "Flor",
+      "path": "res://assets/audio/voice_pack/word_05_01.wav"
+    },
+    "word_05_02": {
+      "text": "Fuego",
+      "path": "res://assets/audio/voice_pack/word_05_02.wav"
+    },
+    "word_05_03": {
+      "text": "Falda",
+      "path": "res://assets/audio/voice_pack/word_05_03.wav"
+    },
+    "word_05_04": {
+      "text": "Familia",
+      "path": "res://assets/audio/voice_pack/word_05_04.wav"
+    },
+    "word_05_05": {
+      "text": "Faro",
+      "path": "res://assets/audio/voice_pack/word_05_05.wav"
+    },
+    "word_05_06": {
+      "text": "Frutilla",
+      "path": "res://assets/audio/voice_pack/word_05_06.wav"
+    },
+    "word_05_07": {
+      "text": "Flauta",
+      "path": "res://assets/audio/voice_pack/word_05_07.wav"
+    },
+    "word_05_08": {
+      "text": "Fantasma",
+      "path": "res://assets/audio/voice_pack/word_05_08.wav"
+    },
+    "word_05_09": {
+      "text": "Fuente",
+      "path": "res://assets/audio/voice_pack/word_05_09.wav"
+    },
+    "letter_06": {
+      "text": "ge",
+      "path": "res://assets/audio/voice_pack/letter_06.wav"
+    },
+    "word_06_00": {
+      "text": "Gato",
+      "path": "res://assets/audio/voice_pack/word_06_00.wav"
+    },
+    "word_06_01": {
+      "text": "Gallina",
+      "path": "res://assets/audio/voice_pack/word_06_01.wav"
+    },
+    "word_06_02": {
+      "text": "Gorra",
+      "path": "res://assets/audio/voice_pack/word_06_02.wav"
+    },
+    "word_06_03": {
+      "text": "Globo",
+      "path": "res://assets/audio/voice_pack/word_06_03.wav"
+    },
+    "word_06_04": {
+      "text": "Guitarra",
+      "path": "res://assets/audio/voice_pack/word_06_04.wav"
+    },
+    "word_06_05": {
+      "text": "Gusano",
+      "path": "res://assets/audio/voice_pack/word_06_05.wav"
+    },
+    "word_06_06": {
+      "text": "Galleta",
+      "path": "res://assets/audio/voice_pack/word_06_06.wav"
+    },
+    "word_06_07": {
+      "text": "Gorila",
+      "path": "res://assets/audio/voice_pack/word_06_07.wav"
+    },
+    "word_06_08": {
+      "text": "Guante",
+      "path": "res://assets/audio/voice_pack/word_06_08.wav"
+    },
+    "word_06_09": {
+      "text": "Girasol",
+      "path": "res://assets/audio/voice_pack/word_06_09.wav"
+    },
+    "letter_07": {
+      "text": "hache",
+      "path": "res://assets/audio/voice_pack/letter_07.wav"
+    },
+    "word_07_00": {
+      "text": "Helado",
+      "path": "res://assets/audio/voice_pack/word_07_00.wav"
+    },
+    "word_07_01": {
+      "text": "Hoja",
+      "path": "res://assets/audio/voice_pack/word_07_01.wav"
+    },
+    "word_07_02": {
+      "text": "Huevo",
+      "path": "res://assets/audio/voice_pack/word_07_02.wav"
+    },
+    "word_07_03": {
+      "text": "Hada",
+      "path": "res://assets/audio/voice_pack/word_07_03.wav"
+    },
+    "word_07_04": {
+      "text": "Hilo",
+      "path": "res://assets/audio/voice_pack/word_07_04.wav"
+    },
+    "word_07_05": {
+      "text": "Hamaca",
+      "path": "res://assets/audio/voice_pack/word_07_05.wav"
+    },
+    "word_07_06": {
+      "text": "Hacha",
+      "path": "res://assets/audio/voice_pack/word_07_06.wav"
+    },
+    "word_07_07": {
+      "text": "Hormiga",
+      "path": "res://assets/audio/voice_pack/word_07_07.wav"
+    },
+    "word_07_08": {
+      "text": "Hospital",
+      "path": "res://assets/audio/voice_pack/word_07_08.wav"
+    },
+    "word_07_09": {
+      "text": "Helicóptero",
+      "path": "res://assets/audio/voice_pack/word_07_09.wav"
+    },
+    "letter_08": {
+      "text": "i",
+      "path": "res://assets/audio/voice_pack/letter_08.wav"
+    },
+    "word_08_00": {
+      "text": "Isla",
+      "path": "res://assets/audio/voice_pack/word_08_00.wav"
+    },
+    "word_08_01": {
+      "text": "Iglesia",
+      "path": "res://assets/audio/voice_pack/word_08_01.wav"
+    },
+    "word_08_02": {
+      "text": "Imán",
+      "path": "res://assets/audio/voice_pack/word_08_02.wav"
+    },
+    "word_08_03": {
+      "text": "Iguana",
+      "path": "res://assets/audio/voice_pack/word_08_03.wav"
+    },
+    "word_08_04": {
+      "text": "Instrumento",
+      "path": "res://assets/audio/voice_pack/word_08_04.wav"
+    },
+    "word_08_05": {
+      "text": "Invierno",
+      "path": "res://assets/audio/voice_pack/word_08_05.wav"
+    },
+    "word_08_06": {
+      "text": "Insecto",
+      "path": "res://assets/audio/voice_pack/word_08_06.wav"
+    },
+    "word_08_07": {
+      "text": "Idea",
+      "path": "res://assets/audio/voice_pack/word_08_07.wav"
+    },
+    "word_08_08": {
+      "text": "Incendio",
+      "path": "res://assets/audio/voice_pack/word_08_08.wav"
+    },
+    "word_08_09": {
+      "text": "Impermeable",
+      "path": "res://assets/audio/voice_pack/word_08_09.wav"
+    },
+    "letter_09": {
+      "text": "jota",
+      "path": "res://assets/audio/voice_pack/letter_09.wav"
+    },
+    "word_09_00": {
+      "text": "Jirafa",
+      "path": "res://assets/audio/voice_pack/word_09_00.wav"
+    },
+    "word_09_01": {
+      "text": "Jabón",
+      "path": "res://assets/audio/voice_pack/word_09_01.wav"
+    },
+    "word_09_02": {
+      "text": "Jarra",
+      "path": "res://assets/audio/voice_pack/word_09_02.wav"
+    },
+    "word_09_03": {
+      "text": "Jardín",
+      "path": "res://assets/audio/voice_pack/word_09_03.wav"
+    },
+    "word_09_04": {
+      "text": "Jaula",
+      "path": "res://assets/audio/voice_pack/word_09_04.wav"
+    },
+    "word_09_05": {
+      "text": "Jabalí",
+      "path": "res://assets/audio/voice_pack/word_09_05.wav"
+    },
+    "word_09_06": {
+      "text": "Jinete",
+      "path": "res://assets/audio/voice_pack/word_09_06.wav"
+    },
+    "word_09_07": {
+      "text": "Jugo",
+      "path": "res://assets/audio/voice_pack/word_09_07.wav"
+    },
+    "word_09_08": {
+      "text": "Joya",
+      "path": "res://assets/audio/voice_pack/word_09_08.wav"
+    },
+    "word_09_09": {
+      "text": "Juego",
+      "path": "res://assets/audio/voice_pack/word_09_09.wav"
+    },
+    "letter_10": {
+      "text": "ka",
+      "path": "res://assets/audio/voice_pack/letter_10.wav"
+    },
+    "word_10_00": {
+      "text": "Koala",
+      "path": "res://assets/audio/voice_pack/word_10_00.wav"
+    },
+    "word_10_01": {
+      "text": "Kiwi",
+      "path": "res://assets/audio/voice_pack/word_10_01.wav"
+    },
+    "word_10_02": {
+      "text": "Kimono",
+      "path": "res://assets/audio/voice_pack/word_10_02.wav"
+    },
+    "word_10_03": {
+      "text": "Karate",
+      "path": "res://assets/audio/voice_pack/word_10_03.wav"
+    },
+    "word_10_04": {
+      "text": "Kayak",
+      "path": "res://assets/audio/voice_pack/word_10_04.wav"
+    },
+    "word_10_05": {
+      "text": "Kilo",
+      "path": "res://assets/audio/voice_pack/word_10_05.wav"
+    },
+    "word_10_06": {
+      "text": "Kiosco",
+      "path": "res://assets/audio/voice_pack/word_10_06.wav"
+    },
+    "word_10_07": {
+      "text": "Kétchup",
+      "path": "res://assets/audio/voice_pack/word_10_07.wav"
+    },
+    "word_10_08": {
+      "text": "Karaoke",
+      "path": "res://assets/audio/voice_pack/word_10_08.wav"
+    },
+    "word_10_09": {
+      "text": "Kiwi amarillo",
+      "path": "res://assets/audio/voice_pack/word_10_09.wav"
+    },
+    "letter_11": {
+      "text": "ele",
+      "path": "res://assets/audio/voice_pack/letter_11.wav"
+    },
+    "word_11_00": {
+      "text": "León",
+      "path": "res://assets/audio/voice_pack/word_11_00.wav"
+    },
+    "word_11_01": {
+      "text": "Luna",
+      "path": "res://assets/audio/voice_pack/word_11_01.wav"
+    },
+    "word_11_02": {
+      "text": "Lápiz",
+      "path": "res://assets/audio/voice_pack/word_11_02.wav"
+    },
+    "word_11_03": {
+      "text": "Libro",
+      "path": "res://assets/audio/voice_pack/word_11_03.wav"
+    },
+    "word_11_04": {
+      "text": "Limón",
+      "path": "res://assets/audio/voice_pack/word_11_04.wav"
+    },
+    "word_11_05": {
+      "text": "Lobo",
+      "path": "res://assets/audio/voice_pack/word_11_05.wav"
+    },
+    "word_11_06": {
+      "text": "Leche",
+      "path": "res://assets/audio/voice_pack/word_11_06.wav"
+    },
+    "word_11_07": {
+      "text": "Lámpara",
+      "path": "res://assets/audio/voice_pack/word_11_07.wav"
+    },
+    "word_11_08": {
+      "text": "Laguna",
+      "path": "res://assets/audio/voice_pack/word_11_08.wav"
+    },
+    "word_11_09": {
+      "text": "Loro",
+      "path": "res://assets/audio/voice_pack/word_11_09.wav"
+    },
+    "letter_12": {
+      "text": "eme",
+      "path": "res://assets/audio/voice_pack/letter_12.wav"
+    },
+    "word_12_00": {
+      "text": "Mano",
+      "path": "res://assets/audio/voice_pack/word_12_00.wav"
+    },
+    "word_12_01": {
+      "text": "Mariposa",
+      "path": "res://assets/audio/voice_pack/word_12_01.wav"
+    },
+    "word_12_02": {
+      "text": "Montaña",
+      "path": "res://assets/audio/voice_pack/word_12_02.wav"
+    },
+    "word_12_03": {
+      "text": "Mesa",
+      "path": "res://assets/audio/voice_pack/word_12_03.wav"
+    },
+    "word_12_04": {
+      "text": "Manzana",
+      "path": "res://assets/audio/voice_pack/word_12_04.wav"
+    },
+    "word_12_05": {
+      "text": "Mono",
+      "path": "res://assets/audio/voice_pack/word_12_05.wav"
+    },
+    "word_12_06": {
+      "text": "Mochila",
+      "path": "res://assets/audio/voice_pack/word_12_06.wav"
+    },
+    "word_12_07": {
+      "text": "Maíz",
+      "path": "res://assets/audio/voice_pack/word_12_07.wav"
+    },
+    "word_12_08": {
+      "text": "Muñeca",
+      "path": "res://assets/audio/voice_pack/word_12_08.wav"
+    },
+    "word_12_09": {
+      "text": "Mate",
+      "path": "res://assets/audio/voice_pack/word_12_09.wav"
+    },
+    "letter_13": {
+      "text": "ene",
+      "path": "res://assets/audio/voice_pack/letter_13.wav"
+    },
+    "word_13_00": {
+      "text": "Nube",
+      "path": "res://assets/audio/voice_pack/word_13_00.wav"
+    },
+    "word_13_01": {
+      "text": "Nariz",
+      "path": "res://assets/audio/voice_pack/word_13_01.wav"
+    },
+    "word_13_02": {
+      "text": "Naranja",
+      "path": "res://assets/audio/voice_pack/word_13_02.wav"
+    },
+    "word_13_03": {
+      "text": "Nido",
+      "path": "res://assets/audio/voice_pack/word_13_03.wav"
+    },
+    "word_13_04": {
+      "text": "Número",
+      "path": "res://assets/audio/voice_pack/word_13_04.wav"
+    },
+    "word_13_05": {
+      "text": "Navidad",
+      "path": "res://assets/audio/voice_pack/word_13_05.wav"
+    },
+    "word_13_06": {
+      "text": "Navaja",
+      "path": "res://assets/audio/voice_pack/word_13_06.wav"
+    },
+    "word_13_07": {
+      "text": "Nave espacial",
+      "path": "res://assets/audio/voice_pack/word_13_07.wav"
+    },
+    "word_13_08": {
+      "text": "Noche",
+      "path": "res://assets/audio/voice_pack/word_13_08.wav"
+    },
+    "word_13_09": {
+      "text": "Nuez",
+      "path": "res://assets/audio/voice_pack/word_13_09.wav"
+    },
+    "letter_14": {
+      "text": "eñe",
+      "path": "res://assets/audio/voice_pack/letter_14.wav"
+    },
+    "word_14_00": {
+      "text": "Ñandú",
+      "path": "res://assets/audio/voice_pack/word_14_00.wav"
+    },
+    "word_14_01": {
+      "text": "Ñu",
+      "path": "res://assets/audio/voice_pack/word_14_01.wav"
+    },
+    "word_14_02": {
+      "text": "Ñame",
+      "path": "res://assets/audio/voice_pack/word_14_02.wav"
+    },
+    "word_14_03": {
+      "text": "Ñoqui",
+      "path": "res://assets/audio/voice_pack/word_14_03.wav"
+    },
+    "word_14_04": {
+      "text": "Ñora",
+      "path": "res://assets/audio/voice_pack/word_14_04.wav"
+    },
+    "word_14_05": {
+      "text": "Pañuelo",
+      "path": "res://assets/audio/voice_pack/word_14_05.wav"
+    },
+    "word_14_06": {
+      "text": "Piñata",
+      "path": "res://assets/audio/voice_pack/word_14_06.wav"
+    },
+    "word_14_07": {
+      "text": "Montaña",
+      "path": "res://assets/audio/voice_pack/word_14_07.wav"
+    },
+    "word_14_08": {
+      "text": "Araña",
+      "path": "res://assets/audio/voice_pack/word_14_08.wav"
+    },
+    "word_14_09": {
+      "text": "Cabaña",
+      "path": "res://assets/audio/voice_pack/word_14_09.wav"
+    },
+    "letter_15": {
+      "text": "o",
+      "path": "res://assets/audio/voice_pack/letter_15.wav"
+    },
+    "word_15_00": {
+      "text": "Oso",
+      "path": "res://assets/audio/voice_pack/word_15_00.wav"
+    },
+    "word_15_01": {
+      "text": "Oveja",
+      "path": "res://assets/audio/voice_pack/word_15_01.wav"
+    },
+    "word_15_02": {
+      "text": "Ola",
+      "path": "res://assets/audio/voice_pack/word_15_02.wav"
+    },
+    "word_15_03": {
+      "text": "Ojo",
+      "path": "res://assets/audio/voice_pack/word_15_03.wav"
+    },
+    "word_15_04": {
+      "text": "Oreja",
+      "path": "res://assets/audio/voice_pack/word_15_04.wav"
+    },
+    "word_15_05": {
+      "text": "Olla",
+      "path": "res://assets/audio/voice_pack/word_15_05.wav"
+    },
+    "word_15_06": {
+      "text": "Oruga",
+      "path": "res://assets/audio/voice_pack/word_15_06.wav"
+    },
+    "word_15_07": {
+      "text": "Otoño",
+      "path": "res://assets/audio/voice_pack/word_15_07.wav"
+    },
+    "word_15_08": {
+      "text": "Ombú",
+      "path": "res://assets/audio/voice_pack/word_15_08.wav"
+    },
+    "word_15_09": {
+      "text": "Obrero",
+      "path": "res://assets/audio/voice_pack/word_15_09.wav"
+    },
+    "letter_16": {
+      "text": "pe",
+      "path": "res://assets/audio/voice_pack/letter_16.wav"
+    },
+    "word_16_00": {
+      "text": "Perro",
+      "path": "res://assets/audio/voice_pack/word_16_00.wav"
+    },
+    "word_16_01": {
+      "text": "Pato",
+      "path": "res://assets/audio/voice_pack/word_16_01.wav"
+    },
+    "word_16_02": {
+      "text": "Pelota",
+      "path": "res://assets/audio/voice_pack/word_16_02.wav"
+    },
+    "word_16_03": {
+      "text": "Pez",
+      "path": "res://assets/audio/voice_pack/word_16_03.wav"
+    },
+    "word_16_04": {
+      "text": "Pan",
+      "path": "res://assets/audio/voice_pack/word_16_04.wav"
+    },
+    "word_16_05": {
+      "text": "Piña",
+      "path": "res://assets/audio/voice_pack/word_16_05.wav"
+    },
+    "word_16_06": {
+      "text": "Puerta",
+      "path": "res://assets/audio/voice_pack/word_16_06.wav"
+    },
+    "word_16_07": {
+      "text": "Payaso",
+      "path": "res://assets/audio/voice_pack/word_16_07.wav"
+    },
+    "word_16_08": {
+      "text": "Plátano",
+      "path": "res://assets/audio/voice_pack/word_16_08.wav"
+    },
+    "word_16_09": {
+      "text": "Puma",
+      "path": "res://assets/audio/voice_pack/word_16_09.wav"
+    },
+    "letter_17": {
+      "text": "cu",
+      "path": "res://assets/audio/voice_pack/letter_17.wav"
+    },
+    "word_17_00": {
+      "text": "Queso",
+      "path": "res://assets/audio/voice_pack/word_17_00.wav"
+    },
+    "word_17_01": {
+      "text": "Quena",
+      "path": "res://assets/audio/voice_pack/word_17_01.wav"
+    },
+    "word_17_02": {
+      "text": "Quince",
+      "path": "res://assets/audio/voice_pack/word_17_02.wav"
+    },
+    "word_17_03": {
+      "text": "Quiosco",
+      "path": "res://assets/audio/voice_pack/word_17_03.wav"
+    },
+    "word_17_04": {
+      "text": "Quetzal",
+      "path": "res://assets/audio/voice_pack/word_17_04.wav"
+    },
+    "word_17_05": {
+      "text": "Química",
+      "path": "res://assets/audio/voice_pack/word_17_05.wav"
+    },
+    "word_17_06": {
+      "text": "Queque",
+      "path": "res://assets/audio/voice_pack/word_17_06.wav"
+    },
+    "word_17_07": {
+      "text": "Quinua",
+      "path": "res://assets/audio/voice_pack/word_17_07.wav"
+    },
+    "word_17_08": {
+      "text": "Quijada",
+      "path": "res://assets/audio/voice_pack/word_17_08.wav"
+    },
+    "word_17_09": {
+      "text": "Quebrada",
+      "path": "res://assets/audio/voice_pack/word_17_09.wav"
+    },
+    "letter_18": {
+      "text": "erre",
+      "path": "res://assets/audio/voice_pack/letter_18.wav"
+    },
+    "word_18_00": {
+      "text": "Rana",
+      "path": "res://assets/audio/voice_pack/word_18_00.wav"
+    },
+    "word_18_01": {
+      "text": "Reloj",
+      "path": "res://assets/audio/voice_pack/word_18_01.wav"
+    },
+    "word_18_02": {
+      "text": "Rosa",
+      "path": "res://assets/audio/voice_pack/word_18_02.wav"
+    },
+    "word_18_03": {
+      "text": "Rueda",
+      "path": "res://assets/audio/voice_pack/word_18_03.wav"
+    },
+    "word_18_04": {
+      "text": "Ratón",
+      "path": "res://assets/audio/voice_pack/word_18_04.wav"
+    },
+    "word_18_05": {
+      "text": "Río",
+      "path": "res://assets/audio/voice_pack/word_18_05.wav"
+    },
+    "word_18_06": {
+      "text": "Ramo",
+      "path": "res://assets/audio/voice_pack/word_18_06.wav"
+    },
+    "word_18_07": {
+      "text": "Robot",
+      "path": "res://assets/audio/voice_pack/word_18_07.wav"
+    },
+    "word_18_08": {
+      "text": "Regla",
+      "path": "res://assets/audio/voice_pack/word_18_08.wav"
+    },
+    "word_18_09": {
+      "text": "Remolacha",
+      "path": "res://assets/audio/voice_pack/word_18_09.wav"
+    },
+    "letter_19": {
+      "text": "ese",
+      "path": "res://assets/audio/voice_pack/letter_19.wav"
+    },
+    "word_19_00": {
+      "text": "Sol",
+      "path": "res://assets/audio/voice_pack/word_19_00.wav"
+    },
+    "word_19_01": {
+      "text": "Sapo",
+      "path": "res://assets/audio/voice_pack/word_19_01.wav"
+    },
+    "word_19_02": {
+      "text": "Silla",
+      "path": "res://assets/audio/voice_pack/word_19_02.wav"
+    },
+    "word_19_03": {
+      "text": "Sandía",
+      "path": "res://assets/audio/voice_pack/word_19_03.wav"
+    },
+    "word_19_04": {
+      "text": "Serpiente",
+      "path": "res://assets/audio/voice_pack/word_19_04.wav"
+    },
+    "word_19_05": {
+      "text": "Sombrero",
+      "path": "res://assets/audio/voice_pack/word_19_05.wav"
+    },
+    "word_19_06": {
+      "text": "Semilla",
+      "path": "res://assets/audio/voice_pack/word_19_06.wav"
+    },
+    "word_19_07": {
+      "text": "Sirena",
+      "path": "res://assets/audio/voice_pack/word_19_07.wav"
+    },
+    "word_19_08": {
+      "text": "Sacapuntas",
+      "path": "res://assets/audio/voice_pack/word_19_08.wav"
+    },
+    "word_19_09": {
+      "text": "Sal",
+      "path": "res://assets/audio/voice_pack/word_19_09.wav"
+    },
+    "letter_20": {
+      "text": "te",
+      "path": "res://assets/audio/voice_pack/letter_20.wav"
+    },
+    "word_20_00": {
+      "text": "Tortuga",
+      "path": "res://assets/audio/voice_pack/word_20_00.wav"
+    },
+    "word_20_01": {
+      "text": "Tren",
+      "path": "res://assets/audio/voice_pack/word_20_01.wav"
+    },
+    "word_20_02": {
+      "text": "Taza",
+      "path": "res://assets/audio/voice_pack/word_20_02.wav"
+    },
+    "word_20_03": {
+      "text": "Tomate",
+      "path": "res://assets/audio/voice_pack/word_20_03.wav"
+    },
+    "word_20_04": {
+      "text": "Tambor",
+      "path": "res://assets/audio/voice_pack/word_20_04.wav"
+    },
+    "word_20_05": {
+      "text": "Tijera",
+      "path": "res://assets/audio/voice_pack/word_20_05.wav"
+    },
+    "word_20_06": {
+      "text": "Tigre",
+      "path": "res://assets/audio/voice_pack/word_20_06.wav"
+    },
+    "word_20_07": {
+      "text": "Techo",
+      "path": "res://assets/audio/voice_pack/word_20_07.wav"
+    },
+    "word_20_08": {
+      "text": "Teléfono",
+      "path": "res://assets/audio/voice_pack/word_20_08.wav"
+    },
+    "word_20_09": {
+      "text": "Trompeta",
+      "path": "res://assets/audio/voice_pack/word_20_09.wav"
+    },
+    "letter_21": {
+      "text": "u",
+      "path": "res://assets/audio/voice_pack/letter_21.wav"
+    },
+    "word_21_00": {
+      "text": "Uva",
+      "path": "res://assets/audio/voice_pack/word_21_00.wav"
+    },
+    "word_21_01": {
+      "text": "Unicornio",
+      "path": "res://assets/audio/voice_pack/word_21_01.wav"
+    },
+    "word_21_02": {
+      "text": "Uno",
+      "path": "res://assets/audio/voice_pack/word_21_02.wav"
+    },
+    "word_21_03": {
+      "text": "Uniforme",
+      "path": "res://assets/audio/voice_pack/word_21_03.wav"
+    },
+    "word_21_04": {
+      "text": "Uñas",
+      "path": "res://assets/audio/voice_pack/word_21_04.wav"
+    },
+    "word_21_05": {
+      "text": "Urna",
+      "path": "res://assets/audio/voice_pack/word_21_05.wav"
+    },
+    "word_21_06": {
+      "text": "Utensilio",
+      "path": "res://assets/audio/voice_pack/word_21_06.wav"
+    },
+    "word_21_07": {
+      "text": "Universo",
+      "path": "res://assets/audio/voice_pack/word_21_07.wav"
+    },
+    "word_21_08": {
+      "text": "Urraca",
+      "path": "res://assets/audio/voice_pack/word_21_08.wav"
+    },
+    "word_21_09": {
+      "text": "Ukulele",
+      "path": "res://assets/audio/voice_pack/word_21_09.wav"
+    },
+    "letter_22": {
+      "text": "uve",
+      "path": "res://assets/audio/voice_pack/letter_22.wav"
+    },
+    "word_22_00": {
+      "text": "Vaca",
+      "path": "res://assets/audio/voice_pack/word_22_00.wav"
+    },
+    "word_22_01": {
+      "text": "Vaso",
+      "path": "res://assets/audio/voice_pack/word_22_01.wav"
+    },
+    "word_22_02": {
+      "text": "Vela",
+      "path": "res://assets/audio/voice_pack/word_22_02.wav"
+    },
+    "word_22_03": {
+      "text": "Ventana",
+      "path": "res://assets/audio/voice_pack/word_22_03.wav"
+    },
+    "word_22_04": {
+      "text": "Vestido",
+      "path": "res://assets/audio/voice_pack/word_22_04.wav"
+    },
+    "word_22_05": {
+      "text": "Violín",
+      "path": "res://assets/audio/voice_pack/word_22_05.wav"
+    },
+    "word_22_06": {
+      "text": "Volcán",
+      "path": "res://assets/audio/voice_pack/word_22_06.wav"
+    },
+    "word_22_07": {
+      "text": "Venado",
+      "path": "res://assets/audio/voice_pack/word_22_07.wav"
+    },
+    "word_22_08": {
+      "text": "Verduras",
+      "path": "res://assets/audio/voice_pack/word_22_08.wav"
+    },
+    "word_22_09": {
+      "text": "Velero",
+      "path": "res://assets/audio/voice_pack/word_22_09.wav"
+    },
+    "letter_23": {
+      "text": "uve doble",
+      "path": "res://assets/audio/voice_pack/letter_23.wav"
+    },
+    "word_23_00": {
+      "text": "Wafle",
+      "path": "res://assets/audio/voice_pack/word_23_00.wav"
+    },
+    "word_23_01": {
+      "text": "Wifi",
+      "path": "res://assets/audio/voice_pack/word_23_01.wav"
+    },
+    "word_23_02": {
+      "text": "Wok",
+      "path": "res://assets/audio/voice_pack/word_23_02.wav"
+    },
+    "word_23_03": {
+      "text": "Web",
+      "path": "res://assets/audio/voice_pack/word_23_03.wav"
+    },
+    "word_23_04": {
+      "text": "Windsurf",
+      "path": "res://assets/audio/voice_pack/word_23_04.wav"
+    },
+    "word_23_05": {
+      "text": "Waterpolo",
+      "path": "res://assets/audio/voice_pack/word_23_05.wav"
+    },
+    "word_23_06": {
+      "text": "Wéstern",
+      "path": "res://assets/audio/voice_pack/word_23_06.wav"
+    },
+    "word_23_07": {
+      "text": "Walkie-talkie",
+      "path": "res://assets/audio/voice_pack/word_23_07.wav"
+    },
+    "word_23_08": {
+      "text": "Windsurfista",
+      "path": "res://assets/audio/voice_pack/word_23_08.wav"
+    },
+    "word_23_09": {
+      "text": "Wombat",
+      "path": "res://assets/audio/voice_pack/word_23_09.wav"
+    },
+    "letter_24": {
+      "text": "equis",
+      "path": "res://assets/audio/voice_pack/letter_24.wav"
+    },
+    "word_24_00": {
+      "text": "Xilófono",
+      "path": "res://assets/audio/voice_pack/word_24_00.wav"
+    },
+    "word_24_01": {
+      "text": "Rayos X",
+      "path": "res://assets/audio/voice_pack/word_24_01.wav"
+    },
+    "word_24_02": {
+      "text": "Xoloitzcuintle",
+      "path": "res://assets/audio/voice_pack/word_24_02.wav"
+    },
+    "word_24_03": {
+      "text": "Xenón",
+      "path": "res://assets/audio/voice_pack/word_24_03.wav"
+    },
+    "word_24_04": {
+      "text": "Xilografía",
+      "path": "res://assets/audio/voice_pack/word_24_04.wav"
+    },
+    "word_24_05": {
+      "text": "Xerófita",
+      "path": "res://assets/audio/voice_pack/word_24_05.wav"
+    },
+    "word_24_06": {
+      "text": "Xifoides",
+      "path": "res://assets/audio/voice_pack/word_24_06.wav"
+    },
+    "word_24_07": {
+      "text": "Xenopus",
+      "path": "res://assets/audio/voice_pack/word_24_07.wav"
+    },
+    "word_24_08": {
+      "text": "Xenón de lámpara",
+      "path": "res://assets/audio/voice_pack/word_24_08.wav"
+    },
+    "word_24_09": {
+      "text": "Xerografía",
+      "path": "res://assets/audio/voice_pack/word_24_09.wav"
+    },
+    "letter_25": {
+      "text": "ye",
+      "path": "res://assets/audio/voice_pack/letter_25.wav"
+    },
+    "word_25_00": {
+      "text": "Yate",
+      "path": "res://assets/audio/voice_pack/word_25_00.wav"
+    },
+    "word_25_01": {
+      "text": "Yegua",
+      "path": "res://assets/audio/voice_pack/word_25_01.wav"
+    },
+    "word_25_02": {
+      "text": "Yoyo",
+      "path": "res://assets/audio/voice_pack/word_25_02.wav"
+    },
+    "word_25_03": {
+      "text": "Yogur",
+      "path": "res://assets/audio/voice_pack/word_25_03.wav"
+    },
+    "word_25_04": {
+      "text": "Yema",
+      "path": "res://assets/audio/voice_pack/word_25_04.wav"
+    },
+    "word_25_05": {
+      "text": "Yunque",
+      "path": "res://assets/audio/voice_pack/word_25_05.wav"
+    },
+    "word_25_06": {
+      "text": "Yuca",
+      "path": "res://assets/audio/voice_pack/word_25_06.wav"
+    },
+    "word_25_07": {
+      "text": "Yacaré",
+      "path": "res://assets/audio/voice_pack/word_25_07.wav"
+    },
+    "word_25_08": {
+      "text": "Yeso",
+      "path": "res://assets/audio/voice_pack/word_25_08.wav"
+    },
+    "word_25_09": {
+      "text": "Yoga",
+      "path": "res://assets/audio/voice_pack/word_25_09.wav"
+    },
+    "letter_26": {
+      "text": "zeta",
+      "path": "res://assets/audio/voice_pack/letter_26.wav"
+    },
+    "word_26_00": {
+      "text": "Zapato",
+      "path": "res://assets/audio/voice_pack/word_26_00.wav"
+    },
+    "word_26_01": {
+      "text": "Zorro",
+      "path": "res://assets/audio/voice_pack/word_26_01.wav"
+    },
+    "word_26_02": {
+      "text": "Zanahoria",
+      "path": "res://assets/audio/voice_pack/word_26_02.wav"
+    },
+    "word_26_03": {
+      "text": "Zancudo",
+      "path": "res://assets/audio/voice_pack/word_26_03.wav"
+    },
+    "word_26_04": {
+      "text": "Zíper",
+      "path": "res://assets/audio/voice_pack/word_26_04.wav"
+    },
+    "word_26_05": {
+      "text": "Zueco",
+      "path": "res://assets/audio/voice_pack/word_26_05.wav"
+    },
+    "word_26_06": {
+      "text": "Zafiro",
+      "path": "res://assets/audio/voice_pack/word_26_06.wav"
+    },
+    "word_26_07": {
+      "text": "Zoológico",
+      "path": "res://assets/audio/voice_pack/word_26_07.wav"
+    },
+    "word_26_08": {
+      "text": "Zanahoria morada",
+      "path": "res://assets/audio/voice_pack/word_26_08.wav"
+    },
+    "word_26_09": {
+      "text": "Zorzal",
+      "path": "res://assets/audio/voice_pack/word_26_09.wav"
+    },
+    "guide_language": {
+      "text": "¡Hola! Soy Conde, tu guía. Elige una letra y descubre sus palabras. Pulsa Escuchar para oír cada palabra. Tu progreso cuenta las palabras que escuchas hasta el final. En Traza la letra puedes practicar su escritura siguiendo los puntos. Las demás actividades llegarán más adelante. ¡Comencemos!",
+      "path": "res://assets/audio/voice_pack/guide_language.wav"
+    },
+    "trace_start": {
+      "text": "Empieza en el punto uno y sigue el camino.",
+      "path": "res://assets/audio/voice_pack/trace_start.wav"
+    },
+    "trace_retry": {
+      "text": "Puedes intentarlo otra vez. Sigue el camino de la letra.",
+      "path": "res://assets/audio/voice_pack/trace_retry.wav"
+    }
+  }
+}

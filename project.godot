@@ -22,6 +22,10 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 
 general/text_to_speech=true
 
+[autoload]
+
+Narration="*res://scripts/audio/narration.gd"
+
 [display]
 
 window/size/viewport_width=1280

@@ -8,3 +8,9 @@ Desktop.ini
 
 # Godot local export credentials must not be shared.
 export_credentials.cfg
+
+# Local builds and validation output.
+/builds/
+/dist/
+__pycache__/
+*.pyc
