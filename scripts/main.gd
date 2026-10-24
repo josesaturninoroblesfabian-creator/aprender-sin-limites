@@ -40,6 +40,7 @@ var language_screen: Control
 var cuentos_menu_screen: Control
 var cuentos_selector_screen: Control
 var reading_screen: Control
+var character_game_screen: Control
 
 func _ready() -> void:
 	_build_shell()
@@ -308,6 +309,9 @@ func _show_home() -> void:
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
 		cuentos_selector_screen.queue_free()
 	cuentos_selector_screen = null
+	if character_game_screen != null and is_instance_valid(character_game_screen):
+		character_game_screen.queue_free()
+	character_game_screen = null
 	if language_screen != null and is_instance_valid(language_screen):
 		language_screen.queue_free()
 	language_screen = null
@@ -359,6 +363,7 @@ func _open_cuentos_menu() -> void:
 	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
 	cuentos.connect("back_requested", Callable(self, "_show_home"))
 	cuentos.connect("illustrated_stories_requested", Callable(self, "_open_illustrated_stories"))
+	cuentos.connect("character_game_requested", Callable(self, "_open_character_game"))
 	language_screen = cuentos
 	cuentos_menu_screen = cuentos
 	add_child(cuentos)
@@ -371,6 +376,15 @@ func _open_illustrated_stories() -> void:
 	selector.connect("story_selected", Callable(self, "_open_story"))
 	cuentos_selector_screen = selector
 	add_child(selector)
+
+func _open_character_game() -> void:
+	if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+		cuentos_menu_screen.hide()
+	DisplayServer.tts_stop()
+	var game: Control = load("res://scenes/elegir_personaje.tscn").instantiate()
+	game.connect("back_requested", Callable(self, "_return_to_cuentos"))
+	character_game_screen = game
+	add_child(game)
 
 func _open_story(story_data: Dictionary) -> void:
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
@@ -390,6 +404,9 @@ func _return_to_selector() -> void:
 		cuentos_selector_screen.show()
 
 func _return_to_cuentos() -> void:
+	if character_game_screen != null and is_instance_valid(character_game_screen):
+		character_game_screen.queue_free()
+	character_game_screen = null
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
 		cuentos_selector_screen.queue_free()
 	cuentos_selector_screen = null

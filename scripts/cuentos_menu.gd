@@ -2,6 +2,7 @@ extends Control
 
 signal back_requested
 signal illustrated_stories_requested
+signal character_game_requested
 
 const REFERENCE_IMAGE := "res://assets/pantalla-cuentos-sin-progreso.png"
 const REFERENCE_SIZE := Vector2(2096.0, 1120.0)
@@ -301,3 +302,5 @@ func _on_hotspot_pressed(id: String) -> void:
 		back_requested.emit()
 	elif id == "cuentos_ilustrados":
 		illustrated_stories_requested.emit()
+	elif id == "elegir_personaje":
+		character_game_requested.emit()
