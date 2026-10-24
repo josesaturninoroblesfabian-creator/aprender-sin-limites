@@ -1,0 +1,9 @@
+{
+  "language": "80A",
+  "rate": -1,
+  "voice": "Microsoft Raul - Spanish (Mexico)",
+  "provider": "Microsoft Windows Speech (installed OneCore/SAPI voice)",
+  "catalog": "data/audio/voice_lines.json",
+  "generation": "Local speech synthesis; no external service or recording of a person",
+  "gender": "Male"
+}
