@@ -442,7 +442,21 @@ func _open_module(module_name: String, description: String) -> void:
 	if module_name == "Lenguaje":
 		_open_language_game()
 		return
+	if module_name == "Cuentos":
+		_open_cuentos_menu()
+		return
 	_show_module_placeholder(module_name, description)
+
+func _open_cuentos_menu() -> void:
+	menu_overlay.visible = false
+	artwork.visible = false
+	girl_avatar.visible = false
+	boy_avatar.visible = false
+	root_box.visible = false
+	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
+	cuentos.connect("back_requested", Callable(self, "_show_home"))
+	language_screen = cuentos
+	add_child(cuentos)
 
 func _show_module_placeholder(module_name: String, description: String) -> void:
 	menu_overlay.visible = false

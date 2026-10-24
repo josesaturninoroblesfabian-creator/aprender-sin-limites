@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="600" viewBox="0 0 460 600">
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22b9d3"/><stop offset=".52" stop-color="#1475b6"/><stop offset="1" stop-color="#123d78"/></linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2=".85" y2="1"><stop stop-color="#39d6df"/><stop offset=".55" stop-color="#1684bf"/><stop offset="1" stop-color="#15528f"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffb34a"/><stop offset="1" stop-color="#ec642e"/></linearGradient>
+    <linearGradient id="beak" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffe55b"/><stop offset="1" stop-color="#f59a18"/></linearGradient>
+    <linearGradient id="vest" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9e42cf"/><stop offset=".5" stop-color="#e33c8c"/><stop offset="1" stop-color="#6232ae"/></linearGradient>
+  </defs>
+  <g stroke="#743a2b" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Tail feathers -->
+    <path d="M290 330 Q359 272 389 215 Q412 290 365 361Z" fill="#13a9bd" stroke-width="8"/>
+    <path d="M306 349 Q392 311 424 270 Q429 344 367 393Z" fill="#2786d5" stroke-width="8"/>
+    <path d="M292 364 Q360 364 407 337 Q390 407 323 414Z" fill="#6135bd" stroke-width="8"/>
+    <!-- Body -->
+    <path d="M106 302 Q77 365 104 457 Q129 533 229 541 Q324 535 354 458 Q382 365 342 302 Q302 252 228 253 Q151 257 106 302Z" fill="url(#body)" stroke-width="10"/>
+    <!-- Layered plumage -->
+    <path d="M105 376 Q146 351 189 378 Q159 408 120 410Z" fill="#34d1d2" stroke-width="5"/>
+    <path d="M101 409 Q150 385 193 412 Q157 443 112 444Z" fill="#1ca9ce" stroke-width="5"/>
+    <path d="M119 446 Q163 423 201 449 Q164 478 130 477Z" fill="#1682c1" stroke-width="5"/>
+    <path d="M350 376 Q309 351 267 378 Q297 408 336 410Z" fill="#34d1d2" stroke-width="5"/>
+    <path d="M354 409 Q305 385 263 412 Q299 443 344 444Z" fill="#1ca9ce" stroke-width="5"/>
+    <path d="M337 446 Q293 423 255 449 Q292 478 326 477Z" fill="#1682c1" stroke-width="5"/>
+    <!-- Wings -->
+    <path d="M117 337 Q44 311 29 374 Q22 430 91 455 Q133 467 174 428 Q153 383 117 337Z" fill="url(#wing)" stroke-width="9"/>
+    <path d="M344 337 Q417 311 432 374 Q439 430 370 455 Q328 467 287 428 Q308 383 344 337Z" fill="url(#wing)" stroke-width="9"/>
+    <path d="M50 381 Q97 371 137 408 M42 411 Q91 401 124 429 M410 381 Q363 371 323 408 M418 411 Q369 401 336 429" fill="none" stroke="#b9f4ea" stroke-width="10"/>
+    <!-- Andean vest -->
+    <path d="M145 351 Q226 381 315 351 L302 488 Q230 526 158 488Z" fill="url(#vest)" stroke="#552c88" stroke-width="8"/>
+    <path d="M151 375 Q230 402 310 375 M155 410 Q230 438 306 410 M159 446 Q230 474 302 446" fill="none" stroke="#ffd84b" stroke-width="12"/>
+    <path d="M166 362 L180 379 L194 362 L208 379 L222 362 L236 379 L250 362 L264 379 L278 362 L294 378" fill="none" stroke="#f7f1db" stroke-width="8"/>
+    <path d="M172 400 L186 417 L200 400 L214 417 L228 400 L242 417 L256 400 L270 417 L286 400" fill="none" stroke="#25d3d0" stroke-width="8"/>
+    <path d="M174 435 L188 452 L202 435 L216 452 L230 435 L244 452 L258 435 L272 452 L288 435" fill="none" stroke="#f3a52b" stroke-width="8"/>
+    <path d="M180 490 L176 520 M224 500 L224 532 M268 490 L273 520" stroke="#ffd84b" stroke-width="8"/>
+    <!-- Neck and head -->
+    <path d="M158 306 Q151 267 169 233 L287 233 Q304 266 298 306 Q270 342 228 344 Q183 340 158 306Z" fill="url(#face)" stroke-width="9"/>
+    <path d="M154 229 Q125 177 156 112 Q177 129 187 151 Q196 104 228 82 Q245 119 240 149 Q274 112 304 119 Q307 176 280 229Z" fill="#e84435" stroke="#9c2b35" stroke-width="9"/>
+    <path d="M167 132 Q179 147 185 169 M220 103 Q232 127 231 157 M288 132 Q273 147 259 166" fill="none" stroke="#ff8c47" stroke-width="11"/>
+    <ellipse cx="228" cy="221" rx="111" ry="103" fill="url(#face)" stroke-width="10"/>
+    <!-- Eye patches and eyes -->
+    <ellipse cx="187" cy="218" rx="43" ry="49" fill="#fff8e9" stroke="#d95035" stroke-width="7"/>
+    <ellipse cx="269" cy="218" rx="43" ry="49" fill="#fff8e9" stroke="#d95035" stroke-width="7"/>
+    <ellipse cx="196" cy="223" rx="20" ry="29" fill="#543020" stroke="#321f25" stroke-width="4"/>
+    <ellipse cx="260" cy="223" rx="20" ry="29" fill="#543020" stroke="#321f25" stroke-width="4"/>
+    <ellipse cx="202" cy="212" rx="8" ry="10" fill="#fff" stroke="none"/>
+    <ellipse cx="266" cy="212" rx="8" ry="10" fill="#fff" stroke="none"/>
+    <path d="M151 176 Q185 151 216 171 M241 171 Q273 149 304 176" fill="none" stroke="#7b3b29" stroke-width="9"/>
+    <!-- Beak -->
+    <path d="M174 263 Q228 237 282 263 Q272 302 228 310 Q185 302 174 263Z" fill="url(#beak)" stroke="#a85b20" stroke-width="8"/>
+    <path d="M184 270 Q228 287 272 270" fill="none" stroke="#743329" stroke-width="7"/>
+    <!-- Wattle -->
+    <path d="M208 310 Q228 320 247 310 Q246 343 228 349 Q210 342 208 310Z" fill="#db3746" stroke="#9d2837" stroke-width="7"/>
+    <!-- Legs and boots -->
+    <path d="M188 527 L184 566 M267 527 L272 566" stroke="#e79a22" stroke-width="15"/>
+    <path d="M185 565 Q158 573 144 584 Q178 595 211 583 L213 572Z M272 565 Q299 573 313 584 Q279 595 246 583 L244 572Z" fill="#efb32a" stroke="#9c5d1c" stroke-width="7"/>
+    <path d="M166 579 L196 582 M262 582 L292 579" stroke="#e9504b" stroke-width="6"/>
+    <!-- Small woven tassels -->
+    <path d="M177 492 Q162 512 151 527 M281 492 Q296 512 307 527" stroke="#ffd84b" stroke-width="7"/>
+    <path d="M144 526 Q153 543 162 526 M300 526 Q309 543 318 526" fill="#f24964" stroke="#923548" stroke-width="5"/>
+  </g>
+</svg>
