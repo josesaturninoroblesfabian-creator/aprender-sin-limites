@@ -338,7 +338,27 @@ func _open_module(module_name: String, description: String) -> void:
 	if module_name == "Cuentos":
 		_open_cuentos_menu()
 		return
+	if module_name == "Números":
+		_open_llama_menu("res://scenes/numbers_menu.tscn")
+		return
+	if module_name == "Matemática":
+		_open_llama_menu("res://scenes/mathematics_menu.tscn")
+		return
+	if module_name == "Geometría":
+		_open_llama_menu("res://scenes/geometry_menu.tscn")
+		return
 	_show_module_placeholder(module_name, description)
+
+func _open_llama_menu(scene_path: String) -> void:
+	menu_overlay.visible = false
+	artwork.visible = false
+	girl_avatar.visible = false
+	boy_avatar.visible = false
+	root_box.visible = false
+	var numbers: Control = load(scene_path).instantiate()
+	numbers.connect("back_requested", Callable(self, "_show_home"))
+	language_screen = numbers
+	add_child(numbers)
 
 func _open_cuentos_menu() -> void:
 	menu_overlay.visible = false

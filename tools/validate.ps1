@@ -25,7 +25,11 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Runtime validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/regression_test.gd --log-file (Join-Path $validationRoot 'regression.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'regression-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Regression validation failed.' }
-    $logs = Get-Content -LiteralPath (Join-Path $validationRoot 'import.log'), (Join-Path $validationRoot 'runtime-console.log'), (Join-Path $validationRoot 'regression-console.log')
+    & $Godot --headless --path $projectRoot --script res://tests/numbers_test.gd --log-file (Join-Path $validationRoot 'numbers.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'numbers-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Numbers validation failed.' }
+    & $Godot --headless --path $projectRoot --script res://tests/learning_sections_test.gd --log-file (Join-Path $validationRoot 'learning.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'learning-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Learning sections validation failed.' }
+    $logs = Get-Content -LiteralPath (Join-Path $validationRoot 'import.log'), (Join-Path $validationRoot 'runtime-console.log'), (Join-Path $validationRoot 'regression-console.log'), (Join-Path $validationRoot 'numbers-console.log'), (Join-Path $validationRoot 'learning-console.log')
     if ($logs | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Godot reported errors. Review the validation logs.' }
     Write-Host "Validation passed. Logs: $validationRoot"
 }

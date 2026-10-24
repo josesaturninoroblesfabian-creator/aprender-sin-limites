@@ -1,0 +1,15 @@
+{
+  "clips": {
+    "welcome": {"text": "¡Qué alegría verte! Hoy vamos a explorar formas y figuras. Hay geometría en muchas cosas que nos rodean. Toca una tarjeta y empecemos a descubrirla.", "file": "welcome.mp3"},
+    "flat_shapes": {"text": "¡Descubramos las figuras planas! El círculo, el cuadrado, el triángulo y el rectángulo. Cada una tiene su propia forma.", "file": "flat_shapes.mp3"},
+    "solid_shapes": {"text": "Ahora, las formas con volumen. El cubo, la esfera, el cono y el cilindro. ¿Has visto objetos que se parezcan a ellas?", "file": "solid_shapes.mp3"},
+    "sides_vertices": {"text": "Mira los bordes y las esquinas de las figuras. Se llaman lados y vértices. Un triángulo tiene tres lados y tres vértices. ¡Vamos a contarlos!", "file": "sides_vertices.mp3"},
+    "shape_patterns": {"text": "Las formas también pueden seguir un patrón. Observa cuáles se repiten y descubre cuál debería venir después.", "file": "shape_patterns.mp3"},
+    "find_shape": {"text": "¡Vamos a buscar una figura! Escucha su nombre y encuéntrala entre las demás.", "file": "find_shape.mp3"},
+    "build_pattern": {"text": "Aquí construiremos patrones. Mira la secuencia y coloca la figura que falta. ¡Tú puedes descubrirla!", "file": "build_pattern.mp3"},
+    "count_sides": {"text": "¿Cuántos lados tiene esta figura? Los contaremos uno por uno. Un pentágono, por ejemplo, tiene cinco lados.", "file": "count_sides.mp3"},
+    "quick_challenge": {"text": "¡Un reto de geometría! Practicaremos con formas, lados y patrones para recordar lo que aprendimos.", "file": "quick_challenge.mp3"},
+    "help": {"text": "Toca una tarjeta para explorar las figuras o los juegos de abajo. Puedes tocarme para repetir la bienvenida. En configuración puedes ajustar mi voz.", "file": "help.mp3"},
+    "progress": {"text": "Aquí verás tus avances de geometría cuando completes las actividades. Mirar las tarjetas no suma estrellas.", "file": "progress.mp3"}
+  }
+}
