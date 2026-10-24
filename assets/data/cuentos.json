@@ -1,0 +1,377 @@
+{
+  "stories": [
+    {
+      "id": "caperucita_roja",
+      "title": "Caperucita Roja",
+      "cover": "res://assets/cuentos/caperucita-portada.svg",
+      "summary": "Un paseo por el bosque con una sorpresa inesperada.",
+      "pages": [
+        {
+          "heading": "Una visita especial",
+          "text": "Caperucita Roja preparó una canasta con pan y frutas para visitar a su abuelita. Su mamá le recordó que siguiera el camino del bosque.",
+          "image": "res://assets/cuentos/caperucita-portada.svg"
+        },
+        {
+          "heading": "En el bosque",
+          "text": "Entre los árboles, Caperucita encontró un lobo curioso. Él le preguntó adónde iba y ella siguió caminando con cuidado.",
+          "image": "res://assets/cuentos/caperucita-portada.svg"
+        },
+        {
+          "heading": "Una gran sorpresa",
+          "text": "Al llegar a casa de la abuelita, Caperucita notó que algo era diferente. Por suerte, una leñadora llegó a tiempo y todos pudieron reunirse tranquilos.",
+          "image": "res://assets/cuentos/caperucita-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "tres_chanchitos",
+      "title": "Los Tres Chanchitos",
+      "cover": "res://assets/cuentos/tres-chanchitos-portada.svg",
+      "summary": "Tres hermanos construyen sus casas a su manera.",
+      "pages": [
+        {
+          "heading": "Tres casas distintas",
+          "text": "Tres chanchitos decidieron construir sus propias casas. Uno usó paja, otro eligió madera y el tercero trabajó con ladrillos fuertes.",
+          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+        },
+        {
+          "heading": "Sopla el viento",
+          "text": "Un lobo llegó al camino y sopló con fuerza. Las casas de paja y madera no resistieron, así que los hermanos corrieron a la casa de ladrillos.",
+          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+        },
+        {
+          "heading": "A salvo juntos",
+          "text": "La casa firme protegió a los tres hermanos. Aprendieron que planear, trabajar con paciencia y ayudarse hace la diferencia.",
+          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "patito_feo",
+      "title": "El Patito Feo",
+      "cover": "res://assets/cuentos/patito-feo-portada.svg",
+      "summary": "Una historia sobre crecer y encontrar tu lugar.",
+      "pages": [
+        {
+          "heading": "Un polluelo diferente",
+          "text": "En una granja nacieron varios patitos. Uno era más grande y de plumaje distinto, y por eso se sentía fuera de lugar.",
+          "image": "res://assets/cuentos/patito-feo-portada.svg"
+        },
+        {
+          "heading": "El viaje",
+          "text": "El patito caminó junto al río y conoció nuevos paisajes. Aunque tuvo días difíciles, siguió adelante y no dejó de buscar compañía.",
+          "image": "res://assets/cuentos/patito-feo-portada.svg"
+        },
+        {
+          "heading": "Un nuevo comienzo",
+          "text": "Cuando llegó la primavera, vio su reflejo en el agua: había crecido y era un hermoso cisne. Por fin encontró una familia que lo recibió con alegría.",
+          "image": "res://assets/cuentos/patito-feo-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "el_zorro_y_la_estrella",
+      "title": "El Zorro y la Estrella",
+      "cover": "res://assets/cuentos/valle-cuento.svg",
+      "summary": "Un zorrito ayuda a una estrella a volver al cielo.",
+      "pages": [
+        {
+          "heading": "Una luz en el valle",
+          "text": "Al caer la tarde, un zorrito vio una estrella que había bajado a descansar sobre una colina.",
+          "image": "res://assets/cuentos/valle-cuento.svg"
+        },
+        {
+          "heading": "Una promesa amable",
+          "text": "—Te ayudaré a volver al cielo —prometió el zorro. Juntos buscaron el camino más alto del valle.",
+          "image": "res://assets/cuentos/valle-cuento.svg"
+        },
+        {
+          "heading": "Alas que ayudan",
+          "text": "En la montaña, el zorro llamó al cóndor. Con un suave aleteo, la estrella comenzó a subir.",
+          "image": "res://assets/cuentos/valle-cuento.svg"
+        },
+        {
+          "heading": "Un saludo cada noche",
+          "text": "Desde entonces, cada noche la estrella brilla para saludar a su nuevo amigo. El zorro sonríe desde el valle.",
+          "image": "res://assets/cuentos/valle-cuento.svg"
+        }
+      ]
+    },
+    {
+      "id": "liebre_y_tortuga",
+      "title": "La Liebre y la Tortuga",
+      "cover": "res://assets/cuentos/liebre-tortuga-portada.svg",
+      "summary": "Una carrera que enseña a avanzar con paciencia.",
+      "pages": [
+        {
+          "heading": "El desafío",
+          "text": "La liebre se burlaba de la tortuga por caminar despacio. Un día, la tortuga la invitó a correr una carrera hasta el gran roble.",
+          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+        },
+        {
+          "heading": "Paso a paso",
+          "text": "La liebre salió veloz y pronto tomó mucha ventaja. Segura de que ganaría, se detuvo bajo un árbol para descansar, mientras la tortuga siguió avanzando sin parar.",
+          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+        },
+        {
+          "heading": "La meta",
+          "text": "Cuando la liebre despertó, la tortuga estaba muy cerca del roble. La tortuga cruzó primero la meta y todos celebraron su constancia.",
+          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "leon_y_raton",
+      "title": "El León y el Ratón",
+      "cover": "res://assets/cuentos/leon-raton-portada.svg",
+      "summary": "Una pequeña amistad demuestra que todos pueden ayudar.",
+      "pages": [
+        {
+          "heading": "Un encuentro inesperado",
+          "text": "Un ratoncito despertó al león sin querer. El león lo atrapó, pero el ratón le pidió una oportunidad y prometió ayudarlo algún día.",
+          "image": "res://assets/cuentos/leon-raton-portada.svg"
+        },
+        {
+          "heading": "El león en apuros",
+          "text": "Tiempo después, el león quedó atrapado en una red. Rugió con fuerza, pero no pudo liberarse de las cuerdas.",
+          "image": "res://assets/cuentos/leon-raton-portada.svg"
+        },
+        {
+          "heading": "Una ayuda valiosa",
+          "text": "El ratón escuchó el rugido y corrió a ayudar. Con sus dientes roió la red hasta abrir un camino. El león agradeció a su pequeño amigo.",
+          "image": "res://assets/cuentos/leon-raton-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "pinocho",
+      "title": "Pinocho",
+      "cover": "res://assets/cuentos/pinocho-portada.svg",
+      "summary": "Un muñeco de madera aprende a decir la verdad.",
+      "pages": [
+        {
+          "heading": "Un muñeco cobra vida",
+          "text": "Geppetto talló un muñeco de madera llamado Pinocho. Para su sorpresa, el muñeco comenzó a caminar y quiso conocer el mundo.",
+          "image": "res://assets/cuentos/pinocho-portada.svg"
+        },
+        {
+          "heading": "Una elección difícil",
+          "text": "En el camino, Pinocho tuvo muchas distracciones. Cuando no decía la verdad, comprendía que sus decisiones podían traerle problemas.",
+          "image": "res://assets/cuentos/pinocho-portada.svg"
+        },
+        {
+          "heading": "Aprender y cuidar",
+          "text": "Pinocho decidió ser sincero y ayudar a Geppetto. Con valentía y cariño, demostró que estaba aprendiendo a ser responsable.",
+          "image": "res://assets/cuentos/pinocho-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "hansel_y_gretel",
+      "title": "Hansel y Gretel",
+      "cover": "res://assets/cuentos/hansel-gretel-portada.svg",
+      "summary": "Dos hermanos se cuidan mientras encuentran el camino a casa.",
+      "pages": [
+        {
+          "heading": "Hermanos unidos",
+          "text": "Hansel y Gretel se adentraron en el bosque y pronto descubrieron una casita decorada con dulces. Decidieron observarla con cuidado.",
+          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+        },
+        {
+          "heading": "Pensar con valentía",
+          "text": "Dentro de la casa encontraron una situación peligrosa. Los hermanos se mantuvieron unidos, pensaron con calma y buscaron la forma de salir.",
+          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+        },
+        {
+          "heading": "De vuelta en casa",
+          "text": "Hansel y Gretel encontraron el camino de regreso. Se alegraron de estar juntos y recordaron que pedir ayuda y cuidarse es muy importante.",
+          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "ricitos_de_oro",
+      "title": "Ricitos de Oro",
+      "cover": "res://assets/cuentos/ricitos-oro-portada.svg",
+      "summary": "Una visita al bosque enseña a respetar lo ajeno.",
+      "pages": [
+        {
+          "heading": "La casa del bosque",
+          "text": "Ricitos de Oro encontró una casita entre los árboles. Como nadie respondió al llamar, entró y vio tres sillas y tres platos sobre la mesa.",
+          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+        },
+        {
+          "heading": "Tres tamaños",
+          "text": "Probó la sopa, las sillas y las camas. Una era muy grande, otra muy pequeña y otra le pareció perfecta. Sin darse cuenta, se quedó dormida.",
+          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+        },
+        {
+          "heading": "Una disculpa",
+          "text": "Los tres osos regresaron y encontraron a Ricitos. Ella despertó, pidió disculpas por entrar sin permiso y volvió a casa recordando que hay que respetar las cosas de los demás.",
+          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "gato_con_botas",
+      "title": "El Gato con Botas",
+      "cover": "res://assets/cuentos/gato-botas-portada.svg",
+      "summary": "Un gato ingenioso ayuda a su amigo a salir adelante.",
+      "pages": [
+        {
+          "heading": "Un regalo especial",
+          "text": "Un joven recibió un gato como herencia. El gato pidió un par de botas y una bolsa, y prometió que juntos encontrarían una buena oportunidad.",
+          "image": "res://assets/cuentos/gato-botas-portada.svg"
+        },
+        {
+          "heading": "Un plan ingenioso",
+          "text": "Con sus botas, el gato recorrió el reino y llevó regalos al palacio en nombre de su amigo. Poco a poco, todos comenzaron a conocerlo.",
+          "image": "res://assets/cuentos/gato-botas-portada.svg"
+        },
+        {
+          "heading": "Un futuro brillante",
+          "text": "El joven fue recibido con alegría en el castillo. Agradeció la ayuda de su amigo y el gato con botas siguió acompañándolo en nuevas aventuras.",
+          "image": "res://assets/cuentos/gato-botas-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "gallina_huevos_oro",
+      "title": "La Gallina de los Huevos de Oro",
+      "cover": "res://assets/cuentos/gallina-oro-portada.svg",
+      "summary": "Una fábula sobre la paciencia y el valor de cuidar.",
+      "pages": [
+        {
+          "heading": "Una sorpresa dorada",
+          "text": "Una familia campesina cuidaba con cariño a su gallina. Una mañana encontró en el nido un huevo brillante de color dorado.",
+          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+        },
+        {
+          "heading": "Cada día, con calma",
+          "text": "La gallina puso un huevo de oro cada día. La familia pudo mejorar su vida, pero debía esperar con paciencia y seguir cuidándola.",
+          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+        },
+        {
+          "heading": "Cuidar lo valioso",
+          "text": "Comprendieron que la prisa podía hacerles perder algo muy especial. Desde entonces agradecieron cada día y cuidaron bien de su gallina.",
+          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "flautista_hamelin",
+      "title": "El Flautista de Hamelín",
+      "cover": "res://assets/cuentos/flautista-hamelin-portada.svg",
+      "summary": "La música ayuda al pueblo a resolver un gran problema.",
+      "pages": [
+        {
+          "heading": "Un pueblo con ratones",
+          "text": "Un pueblo estaba lleno de ratones y sus habitantes no sabían cómo recuperar la calma. Entonces llegó un flautista que ofreció ayudar con su música.",
+          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+        },
+        {
+          "heading": "Una melodía mágica",
+          "text": "El flautista tocó una melodía alegre. Los ratones lo siguieron hasta un valle tranquilo, lejos de las casas y de la comida del pueblo.",
+          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+        },
+        {
+          "heading": "Un acuerdo justo",
+          "text": "El pueblo quedó limpio y todos pudieron volver a vivir en paz. Sus habitantes aprendieron a cumplir los acuerdos y agradecer la ayuda recibida.",
+          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "cuervo_y_zorro",
+      "title": "El Cuervo y el Zorro",
+      "cover": "res://assets/cuentos/cuervo-zorro-portada.svg",
+      "summary": "Una fábula sobre la astucia y los halagos.",
+      "pages": [
+        {
+          "heading": "Un queso en el árbol",
+          "text": "Un cuervo encontró un trozo de queso y se posó en una rama para disfrutarlo tranquilo. Un zorro que pasaba por allí vio el queso y pensó cómo conseguirlo.",
+          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+        },
+        {
+          "heading": "Palabras muy dulces",
+          "text": "El zorro elogió las plumas del cuervo y le dijo que seguramente tenía una voz maravillosa. El cuervo, orgulloso, abrió el pico para cantar.",
+          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+        },
+        {
+          "heading": "Una lección para recordar",
+          "text": "El queso cayó y el zorro lo atrapó. El cuervo comprendió que debía pensar con cuidado antes de dejarse convencer por los halagos.",
+          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "zorra_y_uvas",
+      "title": "La Zorra y las Uvas",
+      "cover": "res://assets/cuentos/zorra-uvas-portada.svg",
+      "summary": "Una fábula sobre la perseverancia y la sinceridad.",
+      "pages": [
+        {
+          "heading": "Un racimo tentador",
+          "text": "En un día caluroso, una zorra caminaba por el campo cuando vio un racimo de uvas maduras colgando de una parra.",
+          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+        },
+        {
+          "heading": "Muchos intentos",
+          "text": "La zorra saltó una y otra vez para alcanzar las uvas. Probó desde una piedra y luego desde una colina, pero el racimo seguía demasiado alto.",
+          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+        },
+        {
+          "heading": "Decir la verdad",
+          "text": "Cansada, se marchó diciendo que las uvas seguramente estaban verdes. La fábula nos invita a reconocer con sinceridad cuando algo no nos sale.",
+          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "el_viento_y_el_sol",
+      "title": "El Viento y el Sol",
+      "cover": "res://assets/cuentos/viento-sol-portada.svg",
+      "summary": "Una fábula que muestra el poder de la amabilidad.",
+      "pages": [
+        {
+          "heading": "Una apuesta en el cielo",
+          "text": "El Viento y el Sol discutían para saber quién era más poderoso. Al ver a una persona caminando con una capa, decidieron hacer una prueba.",
+          "image": "res://assets/cuentos/viento-sol-portada.svg"
+        },
+        {
+          "heading": "Soplar con fuerza",
+          "text": "El Viento sopló con todas sus fuerzas. Cuanto más soplaba, más se sujetaba la persona la capa para protegerse del frío.",
+          "image": "res://assets/cuentos/viento-sol-portada.svg"
+        },
+        {
+          "heading": "Calor amable",
+          "text": "Luego el Sol brilló suavemente y el día se volvió cálido. La persona se quitó la capa por voluntad propia. El Sol enseñó que la amabilidad puede lograr más que la fuerza.",
+          "image": "res://assets/cuentos/viento-sol-portada.svg"
+        }
+      ]
+    },
+    {
+      "id": "raton_campo_ciudad",
+      "title": "El Ratón de Campo y el Ratón de Ciudad",
+      "cover": "res://assets/cuentos/raton-campo-ciudad-portada.svg",
+      "summary": "Dos primos descubren que cada hogar tiene sus propios encantos.",
+      "pages": [
+        {
+          "heading": "Una visita al campo",
+          "text": "Un ratón de ciudad visitó a su primo en el campo. Compartieron semillas y una cena sencilla bajo las estrellas.",
+          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+        },
+        {
+          "heading": "La gran ciudad",
+          "text": "Después viajaron a la ciudad, donde encontraron una mesa llena de manjares. Pero cada ruido inesperado los hacía esconderse rápidamente.",
+          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+        },
+        {
+          "heading": "Elegir con tranquilidad",
+          "text": "El ratón de campo prefirió volver a su hogar tranquilo. Los primos aprendieron que cada cual puede elegir el lugar donde se siente seguro y feliz.",
+          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+        }
+      ]
+    }
+  ]
+}
