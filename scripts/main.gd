@@ -37,6 +37,9 @@ var exit_gif_frame_index: int = 0
 var exit_gif_frame_clock: float = 0.0
 var exit_gif_frame_interval: float = 0.08
 var language_screen: Control
+var cuentos_menu_screen: Control
+var cuentos_selector_screen: Control
+var reading_screen: Control
 
 func _ready() -> void:
 	_build_shell()
@@ -299,9 +302,16 @@ func _add_menu_card(module_name: String, icon_path: String, x: float, y: float, 
 	menu_overlay.add_child(button)
 
 func _show_home() -> void:
+	if reading_screen != null and is_instance_valid(reading_screen):
+		reading_screen.queue_free()
+	reading_screen = null
+	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
+		cuentos_selector_screen.queue_free()
+	cuentos_selector_screen = null
 	if language_screen != null and is_instance_valid(language_screen):
 		language_screen.queue_free()
 	language_screen = null
+	cuentos_menu_screen = null
 	_clear_content()
 	root_box.visible = false
 	menu_overlay.visible = true
@@ -368,8 +378,43 @@ func _open_cuentos_menu() -> void:
 	root_box.visible = false
 	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
 	cuentos.connect("back_requested", Callable(self, "_show_home"))
+	cuentos.connect("illustrated_stories_requested", Callable(self, "_open_illustrated_stories"))
 	language_screen = cuentos
+	cuentos_menu_screen = cuentos
 	add_child(cuentos)
+
+func _open_illustrated_stories() -> void:
+	if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+		cuentos_menu_screen.hide()
+	var selector: Control = load("res://scenes/selector_cuentos.tscn").instantiate()
+	selector.connect("back_requested", Callable(self, "_return_to_cuentos"))
+	selector.connect("story_selected", Callable(self, "_open_story"))
+	cuentos_selector_screen = selector
+	add_child(selector)
+
+func _open_story(story_data: Dictionary) -> void:
+	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
+		cuentos_selector_screen.hide()
+	var reader: Control = load("res://scenes/modo_lectura.tscn").instantiate()
+	reader.connect("back_requested", Callable(self, "_return_to_selector"))
+	reader.connect("story_completed", Callable(cuentos_selector_screen, "mark_story_completed"))
+	reader.set("initial_story", story_data)
+	reading_screen = reader
+	add_child(reader)
+
+func _return_to_selector() -> void:
+	if reading_screen != null and is_instance_valid(reading_screen):
+		reading_screen.queue_free()
+	reading_screen = null
+	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
+		cuentos_selector_screen.show()
+
+func _return_to_cuentos() -> void:
+	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
+		cuentos_selector_screen.queue_free()
+	cuentos_selector_screen = null
+	if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+		cuentos_menu_screen.show()
 
 func _show_module_placeholder(module_name: String, description: String) -> void:
 	menu_overlay.visible = false

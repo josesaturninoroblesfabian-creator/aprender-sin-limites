@@ -1,0 +1,31 @@
+{
+  "id": "el_zorro_y_la_estrella",
+  "title": "El zorro y la estrella",
+  "language": "es",
+  "pages": [
+    {
+      "heading": "Una luz en el valle",
+      "text": "Al caer la tarde, un zorrito vio una estrella que había bajado a descansar sobre una colina.",
+      "image": "res://assets/cuentos/valle-cuento.svg",
+      "audio": ""
+    },
+    {
+      "heading": "Una promesa amable",
+      "text": "—Te ayudaré a volver al cielo —prometió el zorro. Juntos buscaron el camino más alto del valle.",
+      "image": "res://assets/cuentos/valle-cuento.svg",
+      "audio": ""
+    },
+    {
+      "heading": "Alas que ayudan",
+      "text": "En la montaña, el zorro llamó al cóndor. Con un suave aleteo, la estrella comenzó a subir.",
+      "image": "res://assets/cuentos/valle-cuento.svg",
+      "audio": ""
+    },
+    {
+      "heading": "Un saludo cada noche",
+      "text": "Desde entonces, cada noche la estrella brilla para saludar a su nuevo amigo. El zorro sonríe desde el valle.",
+      "image": "res://assets/cuentos/valle-cuento.svg",
+      "audio": ""
+    }
+  ]
+}
