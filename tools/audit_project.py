@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 import sys
 import wave
+from audit_story_library import audit_stories
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -131,6 +132,7 @@ def audit() -> list[str]:
             errors.append(f"Could not validate {section} narration: {error}")
     if len(shared_voices) != 1:
         errors.append("The three llama sections must share one voice.")
+    errors.extend(audit_stories())
     return errors
 
 
@@ -139,4 +141,4 @@ if __name__ == "__main__":
     if problems:
         print("\n".join(problems))
         sys.exit(1)
-    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples, 300 Language clips and 33 neural llama clips.")
+    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples, 300 Language clips, 33 llama clips, 16 stories, 128 scenes, 64 questions and 205 Carmelo clips.")

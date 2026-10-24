@@ -25,6 +25,7 @@ general/text_to_speech=true
 [autoload]
 
 Narration="*res://scripts/audio/narration.gd"
+StoryAudio="*res://scripts/stories/story_audio.gd"
 
 [display]
 

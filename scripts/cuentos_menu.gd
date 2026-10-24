@@ -2,12 +2,20 @@ extends Control
 
 signal back_requested
 signal illustrated_stories_requested
+<<<<<<< Updated upstream
 signal character_game_requested
+=======
+signal activity_requested(mode: String)
+
+const Repo = preload("res://scripts/stories/story_repository.gd")
+const UI = preload("res://scripts/stories/story_ui.gd")
+const Carmelo = preload("res://scripts/stories/carmelo_avatar.gd")
+>>>>>>> Stashed changes
 
 const REFERENCE_IMAGE := "res://assets/pantalla-cuentos-sin-progreso.png"
 const REFERENCE_SIZE := Vector2(2096.0, 1120.0)
 const PROGRESS_FILE := "user://progreso_cuentos.cfg"
-const TOTAL_TOPICS := 20
+const TOTAL_TOPICS := 64
 const CARMELO_GREETING := "¡Hola! Soy Carmelo. ¡Descubramos cuentos increíbles!"
 
 # Interactive areas are relative to the 2096 x 1120 reference image.
@@ -33,10 +41,10 @@ var progress_stars: Array[Label] = []
 var completed_topics: Dictionary = {}
 var carmelo_avatar: TextureRect
 var welcome_bubble: PanelContainer
+var points_label: Label
 
 func _ready() -> void:
 	design_frame = Control.new()
-	design_frame.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	design_frame.clip_contents = true
 	add_child(design_frame)
 
@@ -50,7 +58,6 @@ func _ready() -> void:
 
 	_add_carmelo_welcome()
 	_add_listening_card_art()
-	_animate_carmelo_idle()
 	_speak_carmelo_greeting()
 
 	for hotspot in HOTSPOTS:
@@ -59,12 +66,25 @@ func _ready() -> void:
 	_build_progress_meter()
 	_load_progress()
 	_refresh_progress_meter()
+	resized.connect(_fit_design)
+	visibility_changed.connect(_on_visibility_changed)
+	_fit_design()
+
+func _fit_design() -> void:
+	var width := minf(size.x, size.y * REFERENCE_SIZE.x / REFERENCE_SIZE.y)
+	design_frame.size = Vector2(width, width * REFERENCE_SIZE.y / REFERENCE_SIZE.x)
+	design_frame.position = (size - design_frame.size) * 0.5
+
+func _on_visibility_changed() -> void:
+	if not is_visible_in_tree():
+		StoryAudio.stop(self)
+	elif is_instance_valid(progress_label):
+		_refresh_progress_meter()
 
 func _add_carmelo_welcome() -> void:
-	# Carmelo uses the exact transparent PNG supplied by the user.
-	carmelo_avatar = TextureRect.new()
+	# Transparent animation derived from the user's Carmelo reference.
+	carmelo_avatar = Carmelo.new()
 	carmelo_avatar.name = "Carmelo"
-	carmelo_avatar.texture = load("res://assets/carmelo-personaje.png")
 	carmelo_avatar.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	carmelo_avatar.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	carmelo_avatar.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -142,32 +162,11 @@ func _add_listening_card_art() -> void:
 	card.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	design_frame.add_child(card)
 
-func _animate_carmelo_idle() -> void:
-	# Animate both vertical offsets together so the anchored sprite stays in place.
-	var idle_tween := create_tween().set_loops()
-	idle_tween.tween_method(_set_carmelo_float, 0.0, -12.0, 1.0).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
-	idle_tween.tween_method(_set_carmelo_float, -12.0, 12.0, 2.0).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
-	idle_tween.tween_method(_set_carmelo_float, 12.0, 0.0, 1.0).set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
-
-func _set_carmelo_float(offset: float) -> void:
-	carmelo_avatar.offset_top = offset
-	carmelo_avatar.offset_bottom = offset
-
 func _speak_carmelo_greeting() -> void:
-	var voices := DisplayServer.tts_get_voices_for_language("es")
-	if voices.is_empty():
-		var installed_voices := DisplayServer.tts_get_voices()
-		for voice in installed_voices:
-			if String(voice.get("language", "")).to_lower().begins_with("es"):
-				voices.append(String(voice.get("id", "")))
-		if voices.is_empty() and not installed_voices.is_empty():
-			voices.append(String(installed_voices[0].get("id", "")))
-	if voices.is_empty():
-		return
-	DisplayServer.tts_speak(CARMELO_GREETING, voices[0], 85, 1.08, 0.92, 304, true)
+	StoryAudio.guide("welcome", self)
 
 func _exit_tree() -> void:
-	DisplayServer.tts_stop()
+	StoryAudio.stop(self)
 
 func _add_hotspot(data: Dictionary) -> void:
 	var button := Button.new()
@@ -241,6 +240,9 @@ func _build_progress_meter() -> void:
 	progress_bar.add_theme_stylebox_override("background", track)
 	progress_bar.add_theme_stylebox_override("fill", fill)
 	content.add_child(progress_bar)
+	points_label = UI.label("0 puntos", 15)
+	points_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	content.add_child(points_label)
 
 	var levels := HBoxContainer.new()
 	levels.add_theme_constant_override("separation", 2)
@@ -278,29 +280,45 @@ func _load_progress() -> void:
 		completed_topics = saved.duplicate()
 
 func mark_topic_completed(topic_id: String) -> void:
-	if topic_id.is_empty() or completed_topics.has(topic_id):
+	# Legacy entry point now refreshes the validated four-mode repository.
+	if topic_id.is_empty():
 		return
-	completed_topics[topic_id] = true
-	var config := ConfigFile.new()
-	config.set_value("progreso", "temas", completed_topics)
-	config.save(PROGRESS_FILE)
 	_refresh_progress_meter()
 
 func _refresh_progress_meter() -> void:
-	var completed: int = mini(completed_topics.size(), TOTAL_TOPICS)
-	progress_label.text = "%d de %d temas" % [completed, TOTAL_TOPICS]
+	var totals := Repo.totals()
+	var completed: int = totals.completed
+	progress_label.text = "%d / %d actividades" % [completed, totals.total]
+	points_label.text = "%d puntos · 16 cuentos" % totals.points
 	if progress_tween != null and progress_tween.is_running():
 		progress_tween.kill()
 	progress_tween = create_tween()
 	progress_tween.tween_property(progress_bar, "value", float(completed), 0.4).set_trans(Tween.TRANS_CUBIC).set_ease(Tween.EASE_OUT)
-	var thresholds := [1, 10, TOTAL_TOPICS]
+	var thresholds := [1, 32, TOTAL_TOPICS]
 	for index in range(progress_stars.size()):
 		progress_stars[index].add_theme_color_override("font_color", Color("#ffc928") if completed >= thresholds[index] else Color("#8999aa"))
 
 func _on_hotspot_pressed(id: String) -> void:
 	if id == "menu_principal":
+		StoryAudio.stop(self)
 		back_requested.emit()
+<<<<<<< Updated upstream
 	elif id == "cuentos_ilustrados":
 		illustrated_stories_requested.emit()
 	elif id == "elegir_personaje":
 		character_game_requested.emit()
+=======
+	elif id in ["cuentos_ilustrados", "escucha_cuento", "ordena_historia", "preguntas_retos"]:
+		StoryAudio.stop(self)
+		var modes := {"cuentos_ilustrados": "read", "escucha_cuento": "listen", "ordena_historia": "order", "preguntas_retos": "quiz"}
+		activity_requested.emit(modes[id])
+	elif id == "configuracion":
+		UI.sound_dialog(self)
+	else:
+		var stack := UI.modal(self, "Carmelo te acompaña")
+		stack.add_child(UI.label("Lee, escucha, ordena y responde sobre los mismos 16 cuentos. Puedes seguir la secuencia o elegir una actividad.", 22))
+		if id != "ayuda":
+			stack.add_child(UI.label("Este juego de la fila inferior llegará en una próxima etapa.", 20))
+		UI.close_modal_button(stack)
+		StoryAudio.guide("help" if id == "ayuda" else "coming_soon", self)
+>>>>>>> Stashed changes

@@ -1,0 +1,15 @@
+{
+  "welcome":"¡Hola, hola! Soy Carmelo. ¿Listo para una aventura? Podemos leer un cuento con imágenes, escucharlo, ordenar lo que pasó y descubrir sus secretos con preguntas. ¡Vamos juntos!",
+  "read":"Elige un cuento y mira sus viñetas. Lee con calma. Las imágenes y los diálogos te ayudarán a seguir lo que ocurre.",
+  "listen":"Elige un cuento. Después pulsa reproducir para escuchar la narración y seguir las palabras. Puedes pausar o volver a una escena cuando quieras.",
+  "order":"¿Recuerdas lo que pasó? Toca las cuatro escenas desde la primera hasta la última. Si cambias de idea, toca una escena elegida para quitarla de la fila.",
+  "quiz":"Vamos a pensar en la historia. Lee o escucha cada pregunta y elige una respuesta. Si necesitas una pista, podemos volver a la escena del cuento.",
+  "retry":"Buen intento. Mira las imágenes y piensa qué ocurrió antes. Puedes probar otra vez, con calma.",
+  "success":"¡Lo lograste! Has recordado la historia y su orden. Ahora podemos pensar en sus personajes y sus decisiones.",
+  "read_complete":"Ya recorriste todas las escenas. ¿Te gustaría escuchar este mismo cuento o seguir con otra actividad?",
+  "listen_complete":"¡Terminamos de escuchar el cuento! Ahora podemos recordar qué ocurrió primero y qué pasó después.",
+  "quiz_complete":"¡Muy bien! Has terminado las preguntas. Lo importante es comprender la historia y aprender de cada intento.",
+  "help":"Las cuatro tarjetas principales usan los mismos dieciséis cuentos. Puedes elegir por dónde empezar. Al terminar una actividad, te propongo seguir con la siguiente. Tu progreso se guarda en este dispositivo.",
+  "coming_soon":"Este juego llegará en una próxima etapa. Por ahora puedes leer, escuchar, ordenar la historia y responder sus preguntas.",
+  "progress":"Cada cuento tiene cuatro actividades. Las estrellas muestran cuáles has completado. Tus puntos se consiguen con las preguntas, y repetir una actividad no suma puntos infinitos."
+}

@@ -1,0 +1,1037 @@
+{
+  "voice": "es-PE-AlexNeural",
+  "gender": "Male",
+  "locale": "es-PE",
+  "rate": "-8%",
+  "tool": "edge-tts",
+  "tool_version": "7.3.1",
+  "generated_at": "2026-10-24T07:54:52.384327+00:00",
+  "runtime": "Packaged offline playback, no online generation during play",
+  "clips": {
+    "caperucita_roja/page_00": {
+      "text_sha256": "94aa4c1c63e234f164634ec06c49b234186825164a4b5d39922d9933eeb16ecf",
+      "sha256": "7c263a9047364c552f16ec8733125aec33f4d75fbde2fcd6b9744b92867de3d7",
+      "timing_sha256": "2f51ebc63e172d4773bfdbd504e84509dbcfe96d77bf4d1217d9e3ba74692a60"
+    },
+    "caperucita_roja/page_01": {
+      "text_sha256": "70a5cd2a268851cceb6694f361a13c86c00a21f5f05f0a2e15c0bb03f7c58850",
+      "sha256": "8a36c772039b8849dea9f78d4a2fb20f08315bc453a0e7b90f54db3587bc881e",
+      "timing_sha256": "4b0e041ac61459ee5ab93623a07e79d22555017b3461cdb46cc7d19b6c5f65fa"
+    },
+    "caperucita_roja/page_02": {
+      "text_sha256": "e2f91e62b7c88f4dfb64ff49d261107b40f40eefcb60a32e8a1f594b153047c6",
+      "sha256": "f6ecef750084b4cd17f404c81cdd276a8e1553c3c6edeffb80748c228d93b082",
+      "timing_sha256": "6ce7e3a3b6c9b8e2a93ad238cd1e2b6b870e335279638eaf1d5a4673f60f009d"
+    },
+    "caperucita_roja/page_03": {
+      "text_sha256": "c08d0209225d57d81838a32895005a83d092a14d3a7e717ae4ebe7bac21b2d04",
+      "sha256": "736e7e3f678843e4d47320c7ae254435bd371128316bcabb3ae26b17b454efd9",
+      "timing_sha256": "56e847f1be913a64e0b42a8392932dc9fb3ceb6432fc090d1ac389450c0c016b"
+    },
+    "caperucita_roja/page_04": {
+      "text_sha256": "b82167f3bd421e2a0986e9a6e3af9e3eb308e7afad560c6cb837a7495fee83ca",
+      "sha256": "561224d4be99bdcf1e169b3af2714ce54d799390f83596dc96ffac8785b61163",
+      "timing_sha256": "151574c4d02a9dcd81d751e4aa65ae175c36c8ca2f04629d0353dea0c7a031fe"
+    },
+    "caperucita_roja/page_05": {
+      "text_sha256": "9acacb06fc7f2ea0b29980589b5a6f8d9e14079a81eba3434da269d7d4c16310",
+      "sha256": "d0603ae299a5f091b224a5bb2d2f3ecce3e8a1ab1acc39aee97c5e39794cadaf",
+      "timing_sha256": "41297a5b9859c8944d173439386c82015d036054643bbfe86ee8282057abc1ff"
+    },
+    "caperucita_roja/page_06": {
+      "text_sha256": "b7e791ab71b435d98dca7a712805cc85ab766f5b2d985378529acf7d03ce2c6b",
+      "sha256": "61e4e69add6b7bc6160673ab84ef204ac570ffce53d8e6a80a17144feadfdd89",
+      "timing_sha256": "4c423e080a59b112fa3fb19b273a4f851227dd03adbaa9b319ccf6c538db4948"
+    },
+    "caperucita_roja/page_07": {
+      "text_sha256": "a121f99aa751999b55eb3dded8e55d6617e89650e73e9c1ad47a2d0206eaea2b",
+      "sha256": "a1035db348d82e4e77996058ece65dd993bbd2aa837d5c9857f3574629ca325a",
+      "timing_sha256": "bac71f2a65504bf9ee5bf71921a5cee2bcab93eedeb27889ce5ce48337e6cfa0"
+    },
+    "caperucita_roja/question_00": {
+      "text_sha256": "efd879b95b531c505ec8f510ed1a09a295aedc5502df8ece685f0e9a7ef8a109",
+      "sha256": "41b20b5ba414dd5b348302dd5fe233b502af1a07e7c624057d61d180357e24f4",
+      "timing_sha256": "4d42da912e72d2615de9955f945e0eca4288c2f1e1c7ab3d5178093c5e098e0c"
+    },
+    "caperucita_roja/question_01": {
+      "text_sha256": "beb57dfcb9a3631f71b407617219c0ed22523d374e3fd4998bb857d94198ef60",
+      "sha256": "5b4b4951d41e290f47479a8a16ad76baad9f05d4d8725bc9c0f180a6d31a9f6b",
+      "timing_sha256": "365328af094892e666b9578bbc995cdcdc9a349b6a27e0e545ec9928916fb143"
+    },
+    "caperucita_roja/question_02": {
+      "text_sha256": "7ae6fa3dcf1d32e80412973910cb5aba6fc1784117b7c02710112ee0631140a3",
+      "sha256": "5920547ac984b339082fba66797a9f3673ea9832a3007d77748c60b787d6ee19",
+      "timing_sha256": "caecc30c715a27f3a983b9baced105a12c711499d7b4b6bb2d3e0868e95a2fc9"
+    },
+    "caperucita_roja/question_03": {
+      "text_sha256": "646888dcc1156f815b082ff7ea28aa2daed5566ec35c10c9b8d9f3db67665d44",
+      "sha256": "f0880f5eac41d74ed68137ed708fc89b5a3baeb0b183e07c165e2af44e59ce04",
+      "timing_sha256": "f3126a4c0d990a348c6670705991607126ecdd17b31ce0748edb1f38d3f0fb8d"
+    },
+    "cuervo_y_zorro/page_00": {
+      "text_sha256": "08cbfd78a647d1936becec03bf970ce5e457934489f4c6f2b816cc55994da56b",
+      "sha256": "0619440a36d0b82162287dab33272c030ad969742ccdc93c981a93e16a21e0e0",
+      "timing_sha256": "e0770bad0c04e3cc8e9bd44ce258866ffae56810a70b2564f3878b6e5a153814"
+    },
+    "cuervo_y_zorro/page_01": {
+      "text_sha256": "49ef59d17980a14d9fc9acdb07c66584aaa699ca9cbf8efd60a31fc719e4518a",
+      "sha256": "cff5dbb43cc4e1c611bbb3fa766922afffca7fe2eecdfd06fd36be6aa53050ec",
+      "timing_sha256": "8c5f78b059e24ec1ddae8c7c19d33222cd55bcf3f23ac18c35dbc028129a9ebc"
+    },
+    "cuervo_y_zorro/page_02": {
+      "text_sha256": "02a3cefd5ef4c2df612981a281e73a0cc46c3bb4e62e340aea32040c5ea13a5c",
+      "sha256": "deec58588fc0354f99f36c7fdeaa1099ab1d845bc8fd9982418250393d4d52c7",
+      "timing_sha256": "5728f7a51acba2eb9d43a3c7338a248513ffaacf807b29639a8a4b29e1c40c7f"
+    },
+    "cuervo_y_zorro/page_03": {
+      "text_sha256": "668d612a8b9a2f3dd9a9b60b88d31c3229d63f41ee962eb2f9d99353a082eb1d",
+      "sha256": "65c1f1b17839a9c002aca9d7a1133eee68201f82ff3e876013534466a79026ce",
+      "timing_sha256": "08b3b3added837f7f48accf73f5f6cc3eadf78b4981b1d8b457cbb2f5f856ba3"
+    },
+    "cuervo_y_zorro/page_04": {
+      "text_sha256": "ee6e539db5f4d91598a9dea35d28583ae1bfd2e872b137743c6e5b2e64be4b6f",
+      "sha256": "3013450983fc166a1a9537349ce039c1c6b0db2de4a6310e24de7daf08f0accd",
+      "timing_sha256": "bb3461ab677e7921621b949e983f94d846554a7050cbbf39bf08a1a39bc19c5f"
+    },
+    "cuervo_y_zorro/page_05": {
+      "text_sha256": "1f81f70995805e63c79b114037c82f8c2b86a39e22ef93c935dc8633b58ef389",
+      "sha256": "a5124e4400034cb84c1b6614828341e22d889d8551b0d93316baf660e0b8c8d7",
+      "timing_sha256": "c3b74d1e8d9ab7d970edea317a74056afbf842bfe8ea4eb38ba1f17e53ee36d8"
+    },
+    "cuervo_y_zorro/page_06": {
+      "text_sha256": "f4a1819b19fe786cd63d35f1dbf260135be2309dd9cc5e2e44cd9db2e4b6245b",
+      "sha256": "8c1e13bb325846b666d2137a78dda07ada2908ad7fe70208cd36c6c86cc3709a",
+      "timing_sha256": "316cbf6851c104bc228203834f26d149d09eb9210c804d181b2044fc34668366"
+    },
+    "cuervo_y_zorro/page_07": {
+      "text_sha256": "d40f58e64b552044a93853dad005bd218f624f687d141384ebd1685c7fb496ba",
+      "sha256": "a80dbade6527896e37c0c5c31bceeb29e95771e3c79d20a70c2f0c12167624a1",
+      "timing_sha256": "ff1ecc52368aa43816646b14dfd0fe5cd8545698c2b8403519d29fe6253de69e"
+    },
+    "cuervo_y_zorro/question_00": {
+      "text_sha256": "1b397dc8a1a9ca24406a6dca9239df258d24605a56168d2fae5bf17023a5ed11",
+      "sha256": "ab1c6a508720a22529a2c511da1355171a8fb434eabe8db5a193a27c88ca19ab",
+      "timing_sha256": "32d71cb36e643fd465e063cca6a51b1ed626a322587c4c12d531349ef149ab9c"
+    },
+    "cuervo_y_zorro/question_01": {
+      "text_sha256": "da5af5442123f7337f77e493eaba0c593a98eefa5c4c54e073ad924b0acf23c2",
+      "sha256": "eb8397d5c63a11d713f5f70a0be9771587b7bbbf652800e45a2b7fa8bcbffe28",
+      "timing_sha256": "eaf80cea669b0a560a0f2577eecf9abca7dc35b66b8e38fc16842a9e91a261f3"
+    },
+    "cuervo_y_zorro/question_02": {
+      "text_sha256": "c5f91afee68a6b106c6da8fb1fcc5a13438889470ace173a84cb541296d34097",
+      "sha256": "abe813da0798c1c987c88ecb69a9ae9c1b8dfbd474bbfd607f1b8c578e3357d2",
+      "timing_sha256": "2ae966bd7b372c8976d997a979283a5f08ca9e13b70a1e048550b7e60fd654cb"
+    },
+    "cuervo_y_zorro/question_03": {
+      "text_sha256": "b8981b6d4b26cc63e245c7b5f8032d76d0db3d623fab2afeccab7e3a0cf01ac8",
+      "sha256": "0d20d5d6f95f5d2b3c00fc72197615aa3cb8b144a7d99c5a0bb69974ed5e1a1e",
+      "timing_sha256": "64493d1a6dfe96357e99acc41dd09d58c483da39bf299752f3d731e2cf09cb0c"
+    },
+    "el_viento_y_el_sol/page_00": {
+      "text_sha256": "3dad40a025db15896f5a281aecfd9ae2a5ffb0afc1e9a4f6380a081a5306c79d",
+      "sha256": "a21f61c3733307813a8d7e4ae9c8504c3eb6444cf1ee1650c9a5739d8e8a833e",
+      "timing_sha256": "43706885819e475cb6a876e023c35d5e2f89059851ad60800963ba728fe2119b"
+    },
+    "el_viento_y_el_sol/page_01": {
+      "text_sha256": "380b81bdbfb9cd63e0f6def40882183f158271fe2f364774c1cdd8beb547b324",
+      "sha256": "1041d118aadc383a0dd9f82be6ac9665efe4e1c4dce58fbe5c3f9e12cd2d5a82",
+      "timing_sha256": "deeadf862cbb6315f3f1d75ed98b316a70fbfcc8bbe378d2ae9e493561f55bd5"
+    },
+    "el_viento_y_el_sol/page_02": {
+      "text_sha256": "dea5225022f40b64e43d59bcce661af71dfdb66c1a928b1cd49211685c6557c1",
+      "sha256": "c262f423cb75a84c92b33f4a54a4bc863af1f164778d11600a11a3bd1a1cfe59",
+      "timing_sha256": "c019ed5ae886a430a82da5dbf44b8539adfea5c031703312c3ac615da7fead50"
+    },
+    "el_viento_y_el_sol/page_03": {
+      "text_sha256": "5f82e661a866912ad54f68c7b439950e01284fe8514044267ca229469d13fd3c",
+      "sha256": "b95815011d9ed18d4687f7be94558ce550b594e54fb46cfe9eebe38e349a9ddf",
+      "timing_sha256": "e93b097939aabb912a920b22cfbb047aba3a4de8ad1b723418065137b8217d66"
+    },
+    "el_viento_y_el_sol/page_04": {
+      "text_sha256": "ad686a188ac1a7325e20ea5a007b1fb30a5c9078aca5f28946bddc72b73a2bc4",
+      "sha256": "54e317102277ce0ab89a31d0ac698b8c04f5ad2a61ef0eeaf86b726bf9a70636",
+      "timing_sha256": "193726e5c85f98da958cee20244e8d46172de4a7d8d85081ed5bbd5f052317b8"
+    },
+    "el_viento_y_el_sol/page_05": {
+      "text_sha256": "1444bdc027d82728c91faf970440940f75b530fdff6f075067929992fb8d62e6",
+      "sha256": "923b6529e922ecaabcf1f7331b842b11b74e3b257b457d72290e6d096e3cb720",
+      "timing_sha256": "04fd34e2fb12c95f8ca5c9df6ed7358222be48f51f76411c5647f54e263577d5"
+    },
+    "el_viento_y_el_sol/page_06": {
+      "text_sha256": "dd249b6ee8b85a14ed3d86bf985ae6829a7cb6b49e135970a4771e1fae635a57",
+      "sha256": "19ec1f8ac33f53736b2397ee7846294b4c4ed307e5f6aebd43a6a813c1ca912d",
+      "timing_sha256": "96316329a60e51f9a0b82d25d068befb271fb4a22226823523bd78cf2ef2d658"
+    },
+    "el_viento_y_el_sol/page_07": {
+      "text_sha256": "ab21673aee367fd4e5f6650246e17bfcf059332aba1ffc0fc4f6e5a7d1fb785a",
+      "sha256": "8878b1ff377d963511f01c7ecbfd121aafb8f875fe2c0e29b538e492494592e1",
+      "timing_sha256": "26c8d5be189acc07c48361988396af1b661a9098a8f6142e969464b8094c75ab"
+    },
+    "el_viento_y_el_sol/question_00": {
+      "text_sha256": "5767aa20cb8464a204e4d0c4511c4826b74b41311f2cd46dacde06ac99f405a4",
+      "sha256": "3f6f29e49ffb344159d4543dd9aa0826b1ac233191c703a407810a3b278986a7",
+      "timing_sha256": "ed45f069b7c6d6462862345bc818531c30194ab60b0da541543fcf9767734fc9"
+    },
+    "el_viento_y_el_sol/question_01": {
+      "text_sha256": "0edd768f8952ac72140243e20e12ee5913097bafb974b9f3beb148f2a0899a6a",
+      "sha256": "7c0015c2c83a306620302bfd9347309002d1a79b23f862bdd3d2b31931a2aa31",
+      "timing_sha256": "f08c0b7eae7d0a4e376a360958f249e8935d6336f5e6f1b6e389c0152c6bf332"
+    },
+    "el_viento_y_el_sol/question_02": {
+      "text_sha256": "dde976e7836ea4bb3e1a2a0e9eadbdad772681fe310274c258400200463b9eb7",
+      "sha256": "0ae452d0dd29a7924d07b98e361ca0d7f3837750d9c040cc04a01dea3d967bd7",
+      "timing_sha256": "a10dee812300c2d731817ac5ba644f542309371909ec214bb05829b57c284cd2"
+    },
+    "el_viento_y_el_sol/question_03": {
+      "text_sha256": "2b20f359b3fc410655d4e64586d3a289b37af5a6c7262d25104de7640789dcef",
+      "sha256": "a60bf89c8a35269cb6762686608a6ecb8843e765e58f92c9eb2b9b17b4264c2a",
+      "timing_sha256": "0e54f671dd4ff9147a7578e8bd0edbfed43edd6eaffbff0495a05d4b6d3a7954"
+    },
+    "el_zorro_y_la_estrella/page_00": {
+      "text_sha256": "3bd8940edf86c81b5de9dd5042b18df0d715b9fd31413983eadaebcb1eb84a99",
+      "sha256": "651fb6770909f0b3b9b7e205d73d5708f8de0998068da9e1580c02a8cab1065d",
+      "timing_sha256": "cabe950d76773d6132360aa540799bd77ab9f4f1a0885147731b7f5733162cf3"
+    },
+    "el_zorro_y_la_estrella/page_01": {
+      "text_sha256": "5ca10c83fb7743f4db10e49d5dbc2fe04dfda1801f90ce62b3694a18f5a3f947",
+      "sha256": "52ddb0c01f4bae92daf3a9f99c85feea9800292127ae2b0633e90bc90c2358e3",
+      "timing_sha256": "eca775e3228a8646f4865ebbf8ec87038fcecdcd715d616a181dfa8a697a8a90"
+    },
+    "el_zorro_y_la_estrella/page_02": {
+      "text_sha256": "8de27f5e70cfc423e99723e2b94620a4c9c00e039ead9184febe5e8518df9c15",
+      "sha256": "327123a931037f440a6ed75b2ada5a76558d8b3c9eddc6639d0b8e3e52f047d7",
+      "timing_sha256": "d8ae79ade1b15c25a969eeb25b3900e2a1cc169bca4ccabda1aeec09f6595304"
+    },
+    "el_zorro_y_la_estrella/page_03": {
+      "text_sha256": "2e5e85a95e0eefe742fbbb50e7cb0b86d0354982132c8679a4c043092082c419",
+      "sha256": "9660695c5646b7cfec0249d9e5cf43b0723d217b4f93b3b727bec04bb7484f5b",
+      "timing_sha256": "528cb1240964e040cbb951aab4224120962fe027dead1e9cec5c49bd58122918"
+    },
+    "el_zorro_y_la_estrella/page_04": {
+      "text_sha256": "8c99f3ca03086a8c5925cb8098246a8d21c48da34acd2a754ceb26ad94108356",
+      "sha256": "eecd20b282b2136ec70df0752a3a61dcecda92ffe1cca3f247456acaebceded8",
+      "timing_sha256": "e238e86791d551ef7bb04450171ec7f8228b0e34db04290e09f3c235185e6a49"
+    },
+    "el_zorro_y_la_estrella/page_05": {
+      "text_sha256": "2fd108fe98c889b292243de75a401eae24725720ed31cf993baee710ba904c48",
+      "sha256": "b2f4c8071fce9364602e0f3c5435137925f904109afe9310a841c2e2b9073745",
+      "timing_sha256": "1c5e4d30ef8d22dadc93edfe78e4d60a98d090c9b68120771e3e85a624c90237"
+    },
+    "el_zorro_y_la_estrella/page_06": {
+      "text_sha256": "e953ab9f16c836142cbaa6908dd8441b17103aad4a33be8d4cba475e1c7482f5",
+      "sha256": "c3cfc0fac88a0759da3ea2474e6e62cd36522f4f3a5c27f9c9b5c145c88bc503",
+      "timing_sha256": "0e290d88337042fd9ddfb9cbf1f271b681abbda5936bc96001304cdf7e2f3e15"
+    },
+    "el_zorro_y_la_estrella/page_07": {
+      "text_sha256": "6f6028336ebe301696ee236c8ca3911150ef7f56ff57dac75e7a3fb5666036ed",
+      "sha256": "53b91c0af10ad5ccbe5d21550b1fe965000fc53dad7d97a50a3db366114a4821",
+      "timing_sha256": "2636bf09ca3bf4547dc23e24d3826c1e27ebabf997475007bc754c89e3100bb6"
+    },
+    "el_zorro_y_la_estrella/question_00": {
+      "text_sha256": "1482a757f0ffed0d7149ee66a859d471d2497eab7b378859919c94c154dcba45",
+      "sha256": "da164173db40be939775eb3b800414478e2d6aaa307e4c137e1d59b2a1aae9cc",
+      "timing_sha256": "c946d70946f602dc3c388b882d271e9686b3f820a9ea2a405677d2aad1176f7f"
+    },
+    "el_zorro_y_la_estrella/question_01": {
+      "text_sha256": "dcc9da7fba59478d1ac6b99f2d694db6d595faf4bf29549dbe0d866e31682065",
+      "sha256": "a602b97fb623411dc9be9578ce3fec16ce50e897fad21ea173fa247b69db5583",
+      "timing_sha256": "94fef98d6a09d5a57f71d2c8ee16745e20452eff02fa623106d64efc3817a99d"
+    },
+    "el_zorro_y_la_estrella/question_02": {
+      "text_sha256": "3bdd49189b77ac64b2c86121e490ff5a6172d8fe1dc1c92a1d05ac1dc4a5d615",
+      "sha256": "b0436dfcc1c2c4fd76c0016b2d077234423f9917005544de3a0394f9c3e0c2cd",
+      "timing_sha256": "f49517b4f4241a2c5b299b1f9e42ad576c12077d827396c60b704f684b65fc3e"
+    },
+    "el_zorro_y_la_estrella/question_03": {
+      "text_sha256": "31f609680c07ee98133f417f1a41bf88c6eb4c5355b25bf30d12c46c12f333c2",
+      "sha256": "5708de77907ffa1381afe5d476d61e2e8c0412410c1a382556b3d452b567a6ea",
+      "timing_sha256": "dfc23639431f03ef8244c3abd7b5dbb17c1d953575b4c11ec5ab5c2285897ce6"
+    },
+    "flautista_hamelin/page_00": {
+      "text_sha256": "69b53ba928051f999b4f2f7235c38deaf3bc49b13a783b329cda86f844fdef1f",
+      "sha256": "9c52b7b81bc00b8bf049618ffb4fdb1090e067ba2821f80edf6f80784b53db5a",
+      "timing_sha256": "8f3c9c4f2000e992ba0a6a4936de8327f94b4586434b8cddee844ce2161c270c"
+    },
+    "flautista_hamelin/page_01": {
+      "text_sha256": "381f7fd00b022650a30a653715c5f1b173e20106c5020a4216b74856bd5a4548",
+      "sha256": "9b7d28ce07f874c17d3f9e14bfe7faf5bcec4de42224d36b90df8118fcea6238",
+      "timing_sha256": "e76593ece8939d47aee8b3f4c7ae7d6e3f407aaf50d7fd2a928fb55ea2ed91b9"
+    },
+    "flautista_hamelin/page_02": {
+      "text_sha256": "02210b642d44ebc76a167d4144cfee54ace6f5eacd6f3236f59d79ec28a05b53",
+      "sha256": "6c7b33392c45fbffe2a6ecdfdc2296b303a06f50d8ec988de5e1f402ddec256d",
+      "timing_sha256": "81da5e307c575e12aa99c39c56753fba20fd00a28e5fd643e43ac4c2225245db"
+    },
+    "flautista_hamelin/page_03": {
+      "text_sha256": "351d3b7ba535a7e5b91b25790aacda4ef367f439c5cbef63257f3094738ed455",
+      "sha256": "a5c406588b7667e750d2b6d7a522fed6d26ac5961be0ce5ae5547fb1a5a57692",
+      "timing_sha256": "7df54218bc42db183a7485bda8fa1ae7e0530f1b7c93f6180f51563f336a83dc"
+    },
+    "flautista_hamelin/page_04": {
+      "text_sha256": "45191889b8e62bc48782b9ab580f85fd4d233a89dfc368fe3539e2587194831c",
+      "sha256": "5066d47d753220932f3b2d6076b8f78dd5e4c4064eb5e3b416a96719b9bf0ce0",
+      "timing_sha256": "feb10baa5ff4a1c709c8a15565cbc97d509cb115f72c683b51d13af3712bcbc8"
+    },
+    "flautista_hamelin/page_05": {
+      "text_sha256": "67abb0d497326e6e51608cf8b523fb5f7499e0998a8b348a1f6d2a62b9c14d4b",
+      "sha256": "8c6f6c54df4ac8861112bc6635a3c41060426d21c062d6c93cd6e18f85f17875",
+      "timing_sha256": "9d50734bf29d0151044c641e0e5bb7efd20007fbfd14de0e801dc711f645a82b"
+    },
+    "flautista_hamelin/page_06": {
+      "text_sha256": "f5b40fa52ec81fd7d5e62996f6e17d181a19f16d9e839c8eba7529af2a6b1b9d",
+      "sha256": "69838fe7e280bc624748f0bd44f61cc96158b5704867120bf9b4e4a290d6518d",
+      "timing_sha256": "f9b08ad8eb277bae9956926ccd8fc3ee8a5ebe9f46e436758cf2ef3404cba7a7"
+    },
+    "flautista_hamelin/page_07": {
+      "text_sha256": "185f8010378a7ba3b12344ddd635cff3630b51121a1829c83e5640320a64828d",
+      "sha256": "aad476f3956977ce80479c8fda05dea40bf7c871bffeed1a5d7d169022c82bf2",
+      "timing_sha256": "f1f3f4c0e6938bae54879d2b221cec0d2af26c243d32477416c928562e1932c4"
+    },
+    "flautista_hamelin/question_00": {
+      "text_sha256": "14a116a66c06a66da3286c4900a345a1666f9538925d4401964d788bc774f546",
+      "sha256": "5d713041287278ef9e73301be011aa3b01e7bfbaf06a3a3585e8a946fe71a09d",
+      "timing_sha256": "b1a27c98203cadf96784611a38712782e64be3e2c0361f205f3515fda48f09ec"
+    },
+    "flautista_hamelin/question_01": {
+      "text_sha256": "3dd526b7f6adbca8358328e9c986cf7a74041945fc866065193502f0ac81610a",
+      "sha256": "6f7509a10d87b055f0fe94520d740fc7473baf78237e35cd2fde85183a8e3e44",
+      "timing_sha256": "970ba82dbb6c7f5fb16efa3c805a6e394dc6ce92c52db188c9f6ba07c46b3aae"
+    },
+    "flautista_hamelin/question_02": {
+      "text_sha256": "e305089cca040a01fe6185435fc5b89b73c50f122a8cbec68a2db978236c531a",
+      "sha256": "28534d033d4d4b861c9de121c7bf37474bcc4ff7490dfcd1e4602c32325b304c",
+      "timing_sha256": "d9cc2abaffdb211943fd88f819ab28db48604145c8946a3d20954b1477c1dccc"
+    },
+    "flautista_hamelin/question_03": {
+      "text_sha256": "eb7e31975cad2ff45decb0ed4cd4399fb56571cc9c5593a9e4c739a7e0005779",
+      "sha256": "4d529e961085f53189ad1ab3b055327a57166326e5ae580536be543ba832ba59",
+      "timing_sha256": "60b813d163b512362970e78bec43459f27c4a1e04b73eeee17d09c1bf244986c"
+    },
+    "gallina_huevos_oro/page_00": {
+      "text_sha256": "2ab7cfc8746efc96d2f5f7c6bbb3150b70470cc9922f2e12ef7d76d05299dbe2",
+      "sha256": "63793dc1eb6617f4f23e7dd480a6d715ae93d81cfaa8f72876425f33fb1fd26d",
+      "timing_sha256": "3d18cdea9b355cec29bee1fe0b090a252f62b82269d502c8aa50e8f86bbe1aea"
+    },
+    "gallina_huevos_oro/page_01": {
+      "text_sha256": "fc2676ef2ede06737b4aa4193a32ac11cadabaa4d92057e6f2d4845bf3571263",
+      "sha256": "b38b05f603f88621c688f2b7064c6e0c1118716d7e83a14ffc8668b93a4a6a9e",
+      "timing_sha256": "609ae10851e1636b3a6be962386435c9ed31b163fd6e3bb6960f65afd4dc9512"
+    },
+    "gallina_huevos_oro/page_02": {
+      "text_sha256": "a86b1d9275d4b2b59f449a171174f7cde126714d5c201db895fc0a7024ed6c8a",
+      "sha256": "ce3a243d7650e397e3898e605512a9f95cbb412031753ce9ab23dbafb936f259",
+      "timing_sha256": "35fc9879f47baa0850d8500b534d380ee7d5c865d4c4f4765fd3b0da90fdec84"
+    },
+    "gallina_huevos_oro/page_03": {
+      "text_sha256": "f952eb8c2324bd8a51745082891e6680ba8f2efcbffecc2bade57484efd7616e",
+      "sha256": "6348d2a8337471c6cf0b159bb27cd0223f02b2f6518a93db5f265fe03e410aef",
+      "timing_sha256": "8ddd23c855b0d5d58e201c2c5f74524b540127da511407afe108ea92240aa1ea"
+    },
+    "gallina_huevos_oro/page_04": {
+      "text_sha256": "cd857755ab2a53a8be29ac2828f3b3bbcee530b804c89a8bbd5f2a954146148a",
+      "sha256": "7260ea8e1131eddca895553f46edfc0ea63bccb6033f3610868bc388f8209cf5",
+      "timing_sha256": "00c76a5a5bbd1de74a606b7ba4a15b4e37a036f0282ce26d4772cef21fb3deb8"
+    },
+    "gallina_huevos_oro/page_05": {
+      "text_sha256": "bf812b762bf1aa28c287ab5688e092929f31de435f2553aa8a25326859cd3447",
+      "sha256": "f979e53d6708244d7d7241f991a5f685ff7f13175e44c88e440df863783fccbf",
+      "timing_sha256": "7b702ab4539ed67b26a31d2c6fb595ed4ee19022e940b8330b0751cef6ac6252"
+    },
+    "gallina_huevos_oro/page_06": {
+      "text_sha256": "e506195354f865f03244d92d6bf9bb98cae8e9d58de656ac30a3a111af6d4e8e",
+      "sha256": "65065613e3a870c16d8ac69578321f26db70fda40366ad8f0142bc8ffb43c717",
+      "timing_sha256": "ce86864436e47d80095e8f5bfe9b7026c26378e21cc0d171b055df078ba8cf02"
+    },
+    "gallina_huevos_oro/page_07": {
+      "text_sha256": "0c78c9ca3fdf860d70be65c21b625732a9169b158e8ad81e77a1f16cc626d11f",
+      "sha256": "4ba7482656c2eceef756e6eb2844b56d078f44b9c7bde37835df55685592d165",
+      "timing_sha256": "aa6fef45a541dd12ee935f5ec5dd98a89937059ed9f4c4209967e087276fa211"
+    },
+    "gallina_huevos_oro/question_00": {
+      "text_sha256": "d0de2ed452d4004fd5a545ab950195b14589b2008caf479c1ed1553c3ce90c74",
+      "sha256": "d1d2eeb4ffff890ec4c111613cba0197fe06c0ef53ebceecb4a5b62e40116d73",
+      "timing_sha256": "b7673569b6ac5f1e6f4cfff9b8f514e65c9140f7449a594cd478222547708ecf"
+    },
+    "gallina_huevos_oro/question_01": {
+      "text_sha256": "9e34e966c01daac2dff3900b9ced4dee33500162f2e605f7d91f5e541e8b0705",
+      "sha256": "17e7695deb16cc86935320ed413f853cbd3f19c6a2bc4b34f0727d1684279843",
+      "timing_sha256": "29ca3168939a3f03afc1bdea9458d43ddf709f7d33710de11714153cba2bffd5"
+    },
+    "gallina_huevos_oro/question_02": {
+      "text_sha256": "0a40040b434e062cc53a8590d2dcee85a0c9b61de5382c2254f3cc3d4cc412b6",
+      "sha256": "dc27c14eaf67362989314fc8674026ccec019fab573cbf8e365c7c168b1bea2b",
+      "timing_sha256": "ab4048d9bfda4765a795bacc64ddcdea07cd6d52658086bff90989be5df81b23"
+    },
+    "gallina_huevos_oro/question_03": {
+      "text_sha256": "2cbd02a3aabc16612fca2bf9fda0113902c883dbe572358689f87ac3e59829a2",
+      "sha256": "fac9d6f409369f35249fc03bc3ae3f9041a8d06b23185a68f18e90279417764d",
+      "timing_sha256": "e1872d499a23407e9582529e02f118eee951521f361068b93cbe3cad57312bb3"
+    },
+    "gato_con_botas/page_00": {
+      "text_sha256": "345539a7aeed9778c8ec3cf31d63b5fa33554b0038a98070803c87ddb606552d",
+      "sha256": "3ce42c3840a47bc6a3756862e1ecbfe57b5255242096b5dfa762da2f029198ad",
+      "timing_sha256": "901d02d2cc9837a42a66931a3734d250325577684ae26f5f8df5f2c0e551bf33"
+    },
+    "gato_con_botas/page_01": {
+      "text_sha256": "279305ffa5c3305b36a1ee23e681a9c526100dcef90a8b2de92f1ab28b8381c3",
+      "sha256": "32ee073b51a4685a5a822fc99bc4c8bc39099c580ba0db821ac0e0480ec4af20",
+      "timing_sha256": "b8c35fccb0d625fe8042f88409ac897e6a92138f51c17a1e47f9683b3022745e"
+    },
+    "gato_con_botas/page_02": {
+      "text_sha256": "eee9010ccecd4c136f96ce6abb9bde39628962ae0ad133e2a6f42342b982851d",
+      "sha256": "153daac647713c7b7e5dbcee02c6f3459f2e1826348409c64a0805b66b7f9f21",
+      "timing_sha256": "90f9b51ed450d37774dc660d4800ae42dd20cd8a99c47798725fd9278341f3a2"
+    },
+    "gato_con_botas/page_03": {
+      "text_sha256": "4615c1abe43780fb5289974caa9b09127bc112bf8aec2a22af40b9c5bcd5214c",
+      "sha256": "392eec55a7b02078565c3ea2837ba20e9035fb1d1c7558604da654dc109b7ac8",
+      "timing_sha256": "56b8f92bfa927d7ce4af2be432da0836dc49c34489149581c1b16651ca3bd5a1"
+    },
+    "gato_con_botas/page_04": {
+      "text_sha256": "6758d5389a56cc4964726068f6cde48e5e8c075f3e74ec832308c7984c1069d0",
+      "sha256": "cb323fba23a79c5eeebffaa9be100c215274e34300b924d0352afbdde3939c4a",
+      "timing_sha256": "4abd4cc6e3a2b75ace66eed9e22bbbcd0b8831be1c018cf4037ed73b86b76b3a"
+    },
+    "gato_con_botas/page_05": {
+      "text_sha256": "1929692284c3dc3e44df1e31c6abad1be178ea5c91c42329086446844411db76",
+      "sha256": "8318cda3d067d8da4f4b290eabdafc83be88f526bd8ab5a7073af653bc1c1db6",
+      "timing_sha256": "eded8272d0be2a02932fff2b02ca790f5195cf3ac57baf1ea34d4e09f0f7949d"
+    },
+    "gato_con_botas/page_06": {
+      "text_sha256": "4f48dc221eeb1a6f49936bbeb53209113e22e2541722bf24b9e34c535787695e",
+      "sha256": "d699d1519e8f71961a473f0a317a9812c8df069dd98817fc39008a9e9e58c7b0",
+      "timing_sha256": "1f6af395518550c00f0b4e76eb6ca1c9053e4479650ba7a606abcd31d5d6d25b"
+    },
+    "gato_con_botas/page_07": {
+      "text_sha256": "d0bcc80f036304bef2c8c1f894b73b884a14b58f6e2ee50fc4d1fbb0e9e0eefd",
+      "sha256": "41aed4e7357a6ee57a369fc1bd28a223dd47edd00c5856faaaa40d66a1724995",
+      "timing_sha256": "e1841be42139c950fcff15e5c177d539e6df3fb3f5e6863f77ac0a0bab574b63"
+    },
+    "gato_con_botas/question_00": {
+      "text_sha256": "fe5a8a5aab780372ac82b672425b48788cdf1f6b8efdc1b7e4357b4dc5751cc6",
+      "sha256": "15c6073b097f7611cccc97931feb35587b05f74f140406976a4ccd2d07824958",
+      "timing_sha256": "f25f4de8e9d906a8cc4e675d0e40eb75e30b162916a41fc85b64141367898ec0"
+    },
+    "gato_con_botas/question_01": {
+      "text_sha256": "c8b5e47562a1b27436594d218a5da6ab522de7e3d5acdb85ac975b3efcd92fba",
+      "sha256": "5510a5b5ea406a6c94569574b5c2c21c159e8ae678cc050b36ba218a65fbe626",
+      "timing_sha256": "6414a9cba2383223fbe9c5b5da7e076d58fe35b16871edc8dc2853540eeea87b"
+    },
+    "gato_con_botas/question_02": {
+      "text_sha256": "b64c30cf1241ece1525c3be9dab7f6ebfea0a021ea88ff5948e08f384e5ce2bf",
+      "sha256": "02c2560eb5e9f02c7579fef339e1332cc5ee913f9730b868b095c0892aa5992d",
+      "timing_sha256": "977d8914a08eb5ef01bd14ad9e70957423abb91c7f4ac2e95f3f5a284786c929"
+    },
+    "gato_con_botas/question_03": {
+      "text_sha256": "66530b56a8ae57606c4e2a21659ba7caeff3420e221c8569e8a86ca8bfeed412",
+      "sha256": "9b4e121ad86f6a2a57afc4e8eb825b2be31efa64974e5e9fe948a50d035a35f9",
+      "timing_sha256": "65d03b3e0de6c61318da1a0ecd8836cc361f61649917dc922bac91710796527d"
+    },
+    "guide/coming_soon": {
+      "text_sha256": "dae3736467b5e49d0ef060e86baa20b8a509a52b36aa516119233932ef8b5a48",
+      "sha256": "aee71e588c3210094714da23d080c7b98693daaf04c215fdfb2a6906552dfc8c",
+      "timing_sha256": "be0227dd5a3b51726793392b70d1258ace310a8bc594d2e28523b22eba58cf49"
+    },
+    "guide/help": {
+      "text_sha256": "d9f42af35891f41e2cd10e22cec79129405a1578b7cd6a23476f9aaaa69ba525",
+      "sha256": "414deb656da4d4f83671d41bca0ef77fb6dd5cf9cbe4156e847c6a9c66485171",
+      "timing_sha256": "5abee1377abd619e3dc15ef4536c3f181671e8b0264682ea76aa08a66507ca35"
+    },
+    "guide/listen": {
+      "text_sha256": "00f75f48c99dc95dcb4ba6129ca6c57d101b79bb0d857db9c8e08bff71b7316e",
+      "sha256": "b59e41ecffc54b30f919bf04462650a05b740022b62ab625a3f55a66ecb9a3c5",
+      "timing_sha256": "b1fa70b7eef1438b825ac166b89b573a2bb879dacaf2116e7b7171bd198e6480"
+    },
+    "guide/listen_complete": {
+      "text_sha256": "9dda5d175ec362c72423e13e18876d6289ab08013a18b9d5ee41d0b923ab1c51",
+      "sha256": "9e3a0095b0ae4bbec22ba53cdaf57d5acacf0902e3a4e4680f542e760ae0ff38",
+      "timing_sha256": "10b617d6b8d702f7c03f51b66c857d231e0a7f499de5f30a504237d57733a4dd"
+    },
+    "guide/order": {
+      "text_sha256": "9e9c9608e14e69c8993b13b7343fecaa8a0ae32df6d368450bd2ee5c0fb2457a",
+      "sha256": "ba7afcedf6df0de13479ee216f4a1146517080d521b5d0d0e00ea8e56e40029c",
+      "timing_sha256": "89a402c44efeacaaefe1ac508a1e70d14d21982398283e78e2a873e553d64583"
+    },
+    "guide/progress": {
+      "text_sha256": "0b47027d1a4b2452daf8a2379eaffc6f7bfc58e14a45e2e7d6eb5c7d952cf117",
+      "sha256": "a1b41529833cca4fbc0003e965d93a69ba3b4475a849bb13df53200a004c77f7",
+      "timing_sha256": "b4fe9e38b490543764ed89987229db35c474eca62586976027e7336360e28f69"
+    },
+    "guide/quiz": {
+      "text_sha256": "7e579e3b10f4d625d2f9990b6a26f6a94472f8f9f8013a9609f965312587fb72",
+      "sha256": "a3ec7317aca16037819044b05b6ace163e17788e767731ccb827e27b99643589",
+      "timing_sha256": "b482ffc581ff3343afcf6818a1b4aa93bcea0dcfdbece9771f01f2fb0df00b46"
+    },
+    "guide/quiz_complete": {
+      "text_sha256": "3643892b5964b29d4047f583bda8e2cbced7421b41062841922cda774829f8e9",
+      "sha256": "cf3ac1c6b585843807dfb73755ea554a2d45f722a2d7715d550d6411b9bdb3ee",
+      "timing_sha256": "1c25a5080b7ae65c81ec6c1e189c33c1ad7ce7ded9674f3a4a2c7ea637b56991"
+    },
+    "guide/read": {
+      "text_sha256": "82d21b8ca240937f98f888cda39f5d5b2c401ac1f124f1599c021897cb07caac",
+      "sha256": "e5c5e067da3f67a39b29bc9a2d51ccc4e834220241bdd439d9e1631bcf692fb8",
+      "timing_sha256": "a6dfc2cd3a2ea6c2dc0129e0b23577471eaf84b03b3415b83509f63874aaf664"
+    },
+    "guide/read_complete": {
+      "text_sha256": "774f73ebe598e13f8807ca1840f39a289bbae7f99fb84c7cb0fa92bfcd259b2a",
+      "sha256": "1602d59bcc6271e25fb918ac5754b30e8052eb459f206211af460ea562fdb5c8",
+      "timing_sha256": "8f9dd29e945a831cfd3be15388522e91ce8fee808925e7394a878e5d315ce040"
+    },
+    "guide/retry": {
+      "text_sha256": "8a31deaeeeff7e1b524a7abbb816c18258316a818dec44c7993fd63264b45c38",
+      "sha256": "c81af3983832019b88c8c423ba0d65b1b4cc550d4f166a123f12e521162850aa",
+      "timing_sha256": "8eddf29eaed0e0a123bc2cdb61d7363feb351c50d230e03d209343275489d680"
+    },
+    "guide/success": {
+      "text_sha256": "ef83ffccf3e19ee6cd05685057741349cc27371ba41319ec837936beea4d8105",
+      "sha256": "3d45636341400ba05c7e7b355e72a9c37140f774a26a19be9a474d82ce9afb4b",
+      "timing_sha256": "fa37f62b763795561b4cd87d4c93039bc44853c6503a3dadbd4d3badbc213747"
+    },
+    "guide/welcome": {
+      "text_sha256": "e7008bec871102cb83bba5c6fdfc34688cf1074160246dbc1fc67baaaa301cd8",
+      "sha256": "33cab6c9c997a8057d31667156243094bc3e46141c14dcd4729465d99e318293",
+      "timing_sha256": "f654df0c3f4d28e5eac5dacc60ae6b1fc7f613e8eb9161b0a55864e0660aa29a"
+    },
+    "hansel_y_gretel/page_00": {
+      "text_sha256": "d9559a27a00204f0c1db4315d5daae4cb6822f5fa9ec97a574bb69a209cba819",
+      "sha256": "fddc2a739c0f53b775b346089ce6b3420dd7afdddc312508dcb5471943d7091d",
+      "timing_sha256": "10eb5da147a1450e9cbb1135648c136b53bea93bcf0eb1c33f53bef68c0f08be"
+    },
+    "hansel_y_gretel/page_01": {
+      "text_sha256": "7d5f01a0f6c09db5e230c1265958271b76d685d6e05df068e4e77b27123bccbf",
+      "sha256": "c2880e4090a4e13a99ab2951a9484ffea9ac6b500e2d78543e8c7ead052fb771",
+      "timing_sha256": "afa366923a193de53037d56bd7d9c04deb530269353bbeede68d226ba0867830"
+    },
+    "hansel_y_gretel/page_02": {
+      "text_sha256": "e268257eae74200d6a56a50d3577b6f9aa86018f1ec182df7e4e5ffe7c501c90",
+      "sha256": "11f1da4f3077b6f26591fbfb6e2022d10ccbf48153ac1ad77513dcb2c2f2f0f1",
+      "timing_sha256": "51d3d0b07fcd6719ce434b25cace5fe599977faf27817aecb53d971c98e7c8ae"
+    },
+    "hansel_y_gretel/page_03": {
+      "text_sha256": "4f29f4f1f2dd729a77ba2c17df17c76896475d744d9ad7543834208ac543a4d5",
+      "sha256": "fbf9f2ecd6e0c28578b537cfd8d514623afdcb0b7259de67206c1179281b4cd6",
+      "timing_sha256": "7bcdc1f6129589564dc325f12da7bb71644b6afc8f5c40650a1ba1c03e341079"
+    },
+    "hansel_y_gretel/page_04": {
+      "text_sha256": "046628ef7d319402af8be50347d303494adf0e5f7000cc3f98eec74bd70c65dc",
+      "sha256": "afa336a7a87d4053742f5590c1209e55cc261d75f736b068e1eba8c0eae8e6ac",
+      "timing_sha256": "213719cb138fee333b64ff80abdf8eb364f124150b19c054c7eb6a30522e5464"
+    },
+    "hansel_y_gretel/page_05": {
+      "text_sha256": "824e25102ed4bb1fbd84246f9b65afefd2ba30e6bf831a247a587792b2eb64be",
+      "sha256": "f5bf99e585f41b9c11f8ff3b030c7e9f99af9fdb9be693e362db0af7afd18abc",
+      "timing_sha256": "d958eea87165e286ad8a3e3528e7b1c272fa9030754aa15f9456f0369a60b362"
+    },
+    "hansel_y_gretel/page_06": {
+      "text_sha256": "22dcfbc6be6d0ed1b9779603da1ba2d6b3bf41648cc7a1f9f245d51f0468b3d4",
+      "sha256": "6a1794ff4abbea0039a7b3c2ed143aec4ced22a5d8a274b13ef29ca3e13fa3e4",
+      "timing_sha256": "25fc3936032a5dbd80f71acfbb130bef49a18cc572485623dddf90c8c4c2e4bf"
+    },
+    "hansel_y_gretel/page_07": {
+      "text_sha256": "17673988ae7191ca9525b6bc274e5c5c1ea805d341d9c75ed3a1aa127535adc7",
+      "sha256": "1f8a774b36e3d1927a34695b0c85354e42dea88911db07fda52e680337a75be6",
+      "timing_sha256": "a905a92e3c020e03e5a85c74f9624feff2381fb8a1d787cc2b2ca88f4d3119fa"
+    },
+    "hansel_y_gretel/question_00": {
+      "text_sha256": "f78a3e8ade3bc291a80a81b499dd85eb6e4f1d551d39705e4a1257f1ce5c2595",
+      "sha256": "a9db020b533d77ff19f2b00c1dd4c590c62a95a150b9825689ac6079bf39a318",
+      "timing_sha256": "270716f5da8a93e3a4a8019633c09765c970de26b6a51256ad8741efdab80e0a"
+    },
+    "hansel_y_gretel/question_01": {
+      "text_sha256": "f97e2efe741836e2d185e31b059f306f1377d0425c5fd8a8397a156ee1e29d7a",
+      "sha256": "dce1cc797ed20a37432d7272e83da95db536dc83266ff73f496bfd452325a06b",
+      "timing_sha256": "5b16ad0a627895e99fae0bedd11082921ebe6f6fd09ecde4d3100a545effad9d"
+    },
+    "hansel_y_gretel/question_02": {
+      "text_sha256": "1c3cb4914004149a47dd42e4bc7c655d0cc788f3332290371b2a6074d1a7a197",
+      "sha256": "93725e23dcbf3bc6b5dbd364469befb4aba1a1fb9a00641a952eed51d8ef893a",
+      "timing_sha256": "338266f64bea5f0b15a96dab62b36dd4c458f7ab454d26e75be8d3fc872b6124"
+    },
+    "hansel_y_gretel/question_03": {
+      "text_sha256": "c06eb57c5fe63e0d53064a561f982157b705146c39c5bba57385c51295fc7671",
+      "sha256": "a7b6465bad4504ff358e17c949da50cfe5291175819dca0c1a2f900b4c22a737",
+      "timing_sha256": "85578334811b87234fc3261760192be5a84aeef45fa1a79608dd5ab7ebc6bb9b"
+    },
+    "leon_y_raton/page_00": {
+      "text_sha256": "080a0fd47e362dd4eb33bdfaf7069094ea1022ef4c9a413cf5a69ab9fb877a02",
+      "sha256": "72a0f1d1ee1d7d3adabb9f02bed76afbddf91053de918dcb70139479a0f79be4",
+      "timing_sha256": "b08e875157bad85028f8a809b6e4a27202f9e340160bb4b35987d4e8e298b6ef"
+    },
+    "leon_y_raton/page_01": {
+      "text_sha256": "1c9cdc3b5f270d18c32495823ca4f71f82adf9d1591c5ce36787e38f3b7e6bfe",
+      "sha256": "c66daf92ef0a62b26893c71dd201dcc60223a1966d2d4303291ca4f3076758dd",
+      "timing_sha256": "fcf2fd9c5e11bf83748ac0061a55c8227a54c1af04e81e952770ccadc7961fde"
+    },
+    "leon_y_raton/page_02": {
+      "text_sha256": "ca42cd0bd500810cc69697895c42e6552c919c39e63e055d02c4d629fe7eceb1",
+      "sha256": "126e6f99c6d1371b35d68fd0cfc3b255b52f325e7cf7943f38bd674ecf7f4248",
+      "timing_sha256": "daa13972acbb71b73a538d2c0f0a8e211f35d27552af93635b4f6786bd0bcea4"
+    },
+    "leon_y_raton/page_03": {
+      "text_sha256": "1128e5b34c438ccb3f02df346b233f839ab47d791bb91e050f88dd2f022fd6cc",
+      "sha256": "627f938137ae42517e7fa5881ec4186d6f4972cb1893570f6ca6a07c30646264",
+      "timing_sha256": "b5ae3066f9fb289f4b80f5162feb03fe91a124da2d1246223ace4ca73dea38eb"
+    },
+    "leon_y_raton/page_04": {
+      "text_sha256": "dfd2261bcd874d49b41fdcdb1956e8b4a95050b5e4ab7935e0c1f6c5a9a67b87",
+      "sha256": "c8013d734975cbfa6f03f44bc542798e9b382e057bab80b64c4bf5d9bd166036",
+      "timing_sha256": "878b92c853460cb36bc09df322e9ee56326d82e3400ff75ce464271e8312ec3e"
+    },
+    "leon_y_raton/page_05": {
+      "text_sha256": "7919eba338101cf858fc212ecb536818d4c9a6ebc3194f46f3a5cf6f2efed4e3",
+      "sha256": "faa17cdc8f848deb0ecfae91f3ee1f2eecfa1df0a58a5f15733ea18cc020f78a",
+      "timing_sha256": "b9d2ca493f1b7f9a355ebb1394f8f3950912077f6dba0ce3600a009e55ae7572"
+    },
+    "leon_y_raton/page_06": {
+      "text_sha256": "bc366cb4d843074077e29e821eb1d21fb0581f7cd6ecce1cb549308052860da2",
+      "sha256": "ec6008bbb733314107f3c5e04a1fbb406c5929e050d53b130e3e832f6961ef25",
+      "timing_sha256": "f618f6e927733bba8f6052aaa8bd4ac7d8cb08f579b56c03be572dc591014011"
+    },
+    "leon_y_raton/page_07": {
+      "text_sha256": "e264c0c4e72c0e82bfcde9756d3fd7fba71fe2a956168780713a3081ee58cb3f",
+      "sha256": "24c4e4207bc417b24fbbb92675d2143cb0a9747eca550c81388b5a60917f54f9",
+      "timing_sha256": "64cc9bfb3447be4aefa3a0daa19deb3c40e451f77a7744bfc0e0e51a74cca5d4"
+    },
+    "leon_y_raton/question_00": {
+      "text_sha256": "ce2f63d90c304b9894c524113b48bfd6093f4ecd3091ad771d37cfcbc34e4f30",
+      "sha256": "3877bb3d44a9792439f60cd34cbd93cea318b0f88792679e5415d6f0f0c9fecc",
+      "timing_sha256": "d19d7b0df2adbcdccc893c4dd91224cb52e17c4ce68c1d6dbcdc97e19e8a3c06"
+    },
+    "leon_y_raton/question_01": {
+      "text_sha256": "f17ab5b2184f6706c37b2e2cc2561f626a9c1c1a788e0ec445b92eb7266cfcbe",
+      "sha256": "1041146f55ead57296794271efb407e7d89b70534ebcdcfb3d37593455fe5fe1",
+      "timing_sha256": "0dc2289f746019bde9e925ea6d274fb25bb82d5918c90c5fcb3e12cf721c3bb7"
+    },
+    "leon_y_raton/question_02": {
+      "text_sha256": "55a18226b598b7b2dac21fc13c581d2678ef07a0ca1584eee15d968f666a6ff7",
+      "sha256": "1534bf182877f29fb4da2bd7378d5c4ab5e314d34128231aa6cea3f2227a688b",
+      "timing_sha256": "92cfbc3868049570c8b0d1aab4bb9e457855920df6d816814c42654290fb8ac5"
+    },
+    "leon_y_raton/question_03": {
+      "text_sha256": "c714895bb666791529177fc468e5837009e0da5df6c60623a350f4feee3db54e",
+      "sha256": "8acad2af0e27365ee2b40b1d7688349a6ce6e4edd02d85f61e26dd697a25a900",
+      "timing_sha256": "c47a63d97b4f86cee159967cdae536ef03d54d8a59b09e7471a43bcccacf4cc1"
+    },
+    "liebre_y_tortuga/page_00": {
+      "text_sha256": "508266a04928bbd796e96805d2c3db64a6aa3c2e35d14ed12a2c57fc7b224dbe",
+      "sha256": "04db6295b910e5ab7f58a5606ef85207d70d31dab58f1ad77f3c844da84e86ea",
+      "timing_sha256": "9b99f4fd230b4d872f1b0335662528a274c012982dec6a55a2199329c345e2bc"
+    },
+    "liebre_y_tortuga/page_01": {
+      "text_sha256": "cf69e6328d47e5d28022cd5a595c3abe6ffdc82cd34eb46c8f7900521e17223c",
+      "sha256": "d8e5d915f00256b3632f4ab2bfbfe47148236c86fbf6a17fad3e1554d898def2",
+      "timing_sha256": "e9eb256eee6cde2c4bd0de6eefbf074bfd0803a8f56070afc2447baac5e0519e"
+    },
+    "liebre_y_tortuga/page_02": {
+      "text_sha256": "43ec751f60bc3d55c49e02255e98ae549a345a124c2fd55b1ee95694c89bce20",
+      "sha256": "a94525917ff6a9b6517d94b0f832be7a04cec485995536bcaf56e419c05c2b9f",
+      "timing_sha256": "55d6947fda4ac34d1fc200cf4947a1cdd9f1732e0d3bdce4ad5dda764be7c76d"
+    },
+    "liebre_y_tortuga/page_03": {
+      "text_sha256": "f1fb3adaa29a2f40a76cd065eda1c375a8e6d163fb50306730776602fa80d4ae",
+      "sha256": "c362178173fce3e1fcce7601501a24de18830e9b25157ce3678ceb9896fd0aaa",
+      "timing_sha256": "8b3e0c2a8325419f5d2aae96863a91322ae6d48f72eb0599c48ef0ff003e6725"
+    },
+    "liebre_y_tortuga/page_04": {
+      "text_sha256": "784e6f83ddaa19960aee65aa13fa4fdcd01ba52a78561f3ec4236aa41d12e076",
+      "sha256": "5aa546e4c3ed8b6ad9b1cd2d9e5948cf83c99ff570ef5bf48828ded42c46811e",
+      "timing_sha256": "29bdf64a3b46d280117d0b44561e2e618c12705badcf300ed8e6d1c38362db4c"
+    },
+    "liebre_y_tortuga/page_05": {
+      "text_sha256": "2005306ad9cb7ae66dbeb33d9d15222da03964d689f3350a6da8016e6f1d6825",
+      "sha256": "28b9c27db9b2f10cf67cb10c6fb544fc5846f4705b33db829af77dbe2a6ecc13",
+      "timing_sha256": "0cd9c50d0f7de627ddb12f9a060f067c82db3aff4cc7b264ee25e70ee61aecee"
+    },
+    "liebre_y_tortuga/page_06": {
+      "text_sha256": "8446e2d8244b189a6b8a769a99203670e2660a40ea388813e30dd2a4f4763056",
+      "sha256": "0110b8e099d5bef4979278b6cc815afb068e5a82e0ba16885c31be368cea4e9f",
+      "timing_sha256": "286add2aabf72af378a8ba127c89e0ead0e95a300f34afffa1c3f74725fd2e2c"
+    },
+    "liebre_y_tortuga/page_07": {
+      "text_sha256": "7be8aa6b8f4a06bdf6490e558fa3e046d314e6012ea89054671dc029ff21e588",
+      "sha256": "2ef9fc99d60c21a22ad09ff9ae8d32164ea9ce9a5058861e166a676790475b2d",
+      "timing_sha256": "74f0a5afb8cc71528bd2b5d5de2a64dc9e5a6748bec6b74c60355e5a632c51e1"
+    },
+    "liebre_y_tortuga/question_00": {
+      "text_sha256": "96a8973f7e91cc4ff7a48f711221a248e62add89035bc3e9597cc75f38c86d45",
+      "sha256": "66057dfa7cea04f7db84793c3178fcc7755b2e88f8809cce113f0144bfcf6621",
+      "timing_sha256": "c0f56d21ee6cf9c2af8ef23b3522a03a97004ba758b947ccbfaf0bb34b0381cd"
+    },
+    "liebre_y_tortuga/question_01": {
+      "text_sha256": "0068d843a2df072f532ae352abf646e37c9b62c3ea3a9ef3e53d64a63d52bf61",
+      "sha256": "295ebadb24b2ef182e83749c1cdea8febd1d011a6ddec7da53cbe50842dd06c0",
+      "timing_sha256": "1f7f064f591fd635f4ee08ab4f50b5b4c22b4afd383c4c1dfab7a15598932be7"
+    },
+    "liebre_y_tortuga/question_02": {
+      "text_sha256": "e9630d7e1be78183983b827791ecf045b9e7d68eece497962e4532fd824a72d0",
+      "sha256": "8b59a6173e88a7eac956adf630a71f5432cad7231b2f4146eff29b5a30ea70c6",
+      "timing_sha256": "81597201db2c99db045757c71fec52236a2e6d147cc2a2cb3ca26c9759cf844b"
+    },
+    "liebre_y_tortuga/question_03": {
+      "text_sha256": "c2f14b862de89c1295a47312cb2ee2bcae4196bda4389f8b613b96203a8fe661",
+      "sha256": "545c0eafade887729d98e06f83f75f4894942f354f25d0fbce6d6cf18a4c6688",
+      "timing_sha256": "e088e9d946ec5f3e2d9c7bd513b288fe59287807fb72bd90a358bba4bf91930c"
+    },
+    "patito_feo/page_00": {
+      "text_sha256": "ee2573cd05b4ee150f09f5dbbba1450da161d11894ac5b5535260246d7a3819e",
+      "sha256": "9df46b41efb85748483dc50b3c7f9a137cf0788cb4b2b2a69ba4964a5af54acc",
+      "timing_sha256": "85a6619adf50f41cd9eef7b71aedc6ff8ab055d09470579190d27244cbe34370"
+    },
+    "patito_feo/page_01": {
+      "text_sha256": "797cad98eaaf15628ddc69fff478204c3fe6a2b840bfad9f97868621b1fc5350",
+      "sha256": "af625795fbe0abbdfd5621ecc4858a3453822bdce38d8d1ff6da2726ed492dd7",
+      "timing_sha256": "67059b5bd2379b67d325b044a4a3830d5e03b3f502ca627eeb39232e893b5f8a"
+    },
+    "patito_feo/page_02": {
+      "text_sha256": "2d6714c30ad92e667670e17eb11705c2b4056f6edaa52e68349ce13840483d11",
+      "sha256": "948c6970e301b84fd37099ede87895cbec37128512d2e02d5ec4225ec6504df6",
+      "timing_sha256": "0ab62a11a3613235d156c629222691298a59f95cde23e89238b2afe23f803175"
+    },
+    "patito_feo/page_03": {
+      "text_sha256": "612ab376c2dc1ec087c6106373db9770b1c3698b4177cd0cc75b81742ac40709",
+      "sha256": "8385d822201df84651a48b511aa7fad458d2969efa6b27e8c929b1ebb8c456ba",
+      "timing_sha256": "5bc4f4330833bf7d02dfe53e7c1dd99f0d190f6599bc22bacc41d63713a89881"
+    },
+    "patito_feo/page_04": {
+      "text_sha256": "c7b9c81a2d832b2e424b95da74403e2d114ee347f9b03eb92f5046b6581ca0d8",
+      "sha256": "c21909521e12e513bf01078094c6bb6f438f7ceb73e8a54257333a5f3fb8c53f",
+      "timing_sha256": "e0bdb862a3f49a82c1a034453ec474721d073d7ebbcabc6ef0d437defda1d0e9"
+    },
+    "patito_feo/page_05": {
+      "text_sha256": "c34a7bbab110aceff2931d8bc0bf3ba615751d07220ee811c17c9903c22f7438",
+      "sha256": "3d9368afa2f0f7467401aee09a2818a176e392ef63b6e0eff6483747f1f0c280",
+      "timing_sha256": "040c00e271a64d3c80e2385b662fb477b947994a513804446c757fe3e8035d1f"
+    },
+    "patito_feo/page_06": {
+      "text_sha256": "8aa73c55e3365cb41fa9e9a13ab8d4374761fc3becee14bbe4f5235616b5c56f",
+      "sha256": "fac05253460108d38d9125a2af972d70388dbd8859c38a3663223a23adcc3e57",
+      "timing_sha256": "f4ea17b1e4cf3f266d60d601ce5051b17383504fc98ed87629e800d176e35b55"
+    },
+    "patito_feo/page_07": {
+      "text_sha256": "e361445a5517aa61e7f2b54946046930238d559399b393023de3d63d4ccf535c",
+      "sha256": "17652b1044cba87a14716471cdf711c58660a7575df9d7d85a31357b065f8d14",
+      "timing_sha256": "4c80354144ccd2c0f6d0d42d930638e0bd68f5d121a1324b46f24bdaa0934121"
+    },
+    "patito_feo/question_00": {
+      "text_sha256": "c52aada7c4141837a8f393008784da539b704fc7d728a71d288dd5aa5ca79d93",
+      "sha256": "57971e74e6657fb5ce960f2b9ca32b555acb1d944348de60b4497849b96fd606",
+      "timing_sha256": "4d095363e7cb4da671ca8396622af5e2f199ac64c525a64ec9dccb54c850859c"
+    },
+    "patito_feo/question_01": {
+      "text_sha256": "d98077f476445cd2f8ce8a1da43e835dbeb6baa3e90d94479efbbf943a7d7026",
+      "sha256": "a5d7730442ae7d0d378bd18c2560013191428048709515ec6a554f816f195179",
+      "timing_sha256": "4c56e9634d58b8dc043ddd19b8ff5c9106515dafb797a72056c754be5ba32ac2"
+    },
+    "patito_feo/question_02": {
+      "text_sha256": "b0915183872252f298534646189dec6c38e37620be69c83ebdfcd644ffd68236",
+      "sha256": "51e241b0e7000a09752c651feacdd62918622c3eafb76d66a9abed572d9ddc10",
+      "timing_sha256": "ed68c6c01b113778561b059d044ac9f9fbd3679b0ab34d64627137f974ed9e6c"
+    },
+    "patito_feo/question_03": {
+      "text_sha256": "2651e31e8298f088bc3b78639c55c32206e47b2d9c13c51625c1f19afcf3f0ca",
+      "sha256": "45d069e06b771446b82416f9639a9412d50a1dedf8d0fb3940a9aae49595a074",
+      "timing_sha256": "00076803d925a7ffd19aefaac535a1bbfd6ed5a294bab91a9993c08d06415844"
+    },
+    "pinocho/page_00": {
+      "text_sha256": "7f4ed5b0fcac02acf3f007664d110c83e95b4049e6da7df324d5a0c016d947a7",
+      "sha256": "d6082476a49a338ee067adb1e41bb1f91331d14800d3246761285f3d086eda5e",
+      "timing_sha256": "f668642b0885af3981af97a09d676718e905824480fbad82438cc4a2ba912d7e"
+    },
+    "pinocho/page_01": {
+      "text_sha256": "4976b64c6448b9c5a80036ba65bb6aee8eba1e990722e66199e5a3fe29c809d2",
+      "sha256": "4cc774c1b8535c1a5a5664c7ebbe8fdd46d95bbc0aaa9349c13191d0a3d732ad",
+      "timing_sha256": "a058accf91c811a5765959ab23fe1e0af3cfd30364686041e8ef48268dd5f587"
+    },
+    "pinocho/page_02": {
+      "text_sha256": "2070e7202001617a2a43cab2ebfdc97920ecc868699e96ec030aaa6c4ab05625",
+      "sha256": "1df4c30e2b425c377d6248e8d8383bd2e290f6d9ba4093799c5fd94cda14280f",
+      "timing_sha256": "59153b3da39031001ee3589998c89ffc1f65aded2d889c579c5eed2e3736c039"
+    },
+    "pinocho/page_03": {
+      "text_sha256": "08d901b87980916123ee1c7929d5c02a6d582746f422accc96cb5b009bb8c3e3",
+      "sha256": "561b82027cec069f42ada8dab45b42d7a9b22e6b3bb80033ad603251ac440a7c",
+      "timing_sha256": "90a9c7ecf7012222e6c37bb86dc04c34919c592c0aac5c59f4fe6b11e2a4e963"
+    },
+    "pinocho/page_04": {
+      "text_sha256": "f46ac2d8bd8fd9ca84c21e9148349c5a791fcd835deaa1a3d9a01aba9a02a6e1",
+      "sha256": "7eec7d684362cc843c6bbef202ce7edf4016d1903252664f5fa1151ae8b6b0ca",
+      "timing_sha256": "f98a6a60f3604fd5df5141eddb5dfabebf19b4a96c3561fcc02cbf7df1604b29"
+    },
+    "pinocho/page_05": {
+      "text_sha256": "c7948ecf0f5c3802b77f12886fc9e49ea84324440c00ec655407d993681dbab9",
+      "sha256": "0cb68e71d6cc265350cc368b2f74e6a95a8dac3f0cbfb409d216839b783fd221",
+      "timing_sha256": "283b51d28af4a10e8ab94b2b1dd7d501839144c2b6e5c2ee7cfaf43a87c24eec"
+    },
+    "pinocho/page_06": {
+      "text_sha256": "e7e2363a50e566521432ad67539a535b18098e7dc5107bf1e4c7feed2f9e667a",
+      "sha256": "bdcf3c3715cb8057ab1a6f2316d00e695db1982a58c4718cab2244bd74488b6c",
+      "timing_sha256": "bbf117473ed2635bcb75e643a06228b27b15e1bb42eb2078dbc50dfb3155a483"
+    },
+    "pinocho/page_07": {
+      "text_sha256": "eaa858b3aa045603dd58bc988f44b9c5b55c18214ed3759e406d0a6aeea58485",
+      "sha256": "b086e0a2500e61d59bc600a895a7a3bdd11a5bb958ed131b871a2f9bd83674c8",
+      "timing_sha256": "837e62751973f2197fccbc98fdafe2f1ee7c28811461c33fabf2f9ec2e2bd115"
+    },
+    "pinocho/question_00": {
+      "text_sha256": "2374916155922034d55634feffb987a1c842225e245074e2a1cfb68a24726836",
+      "sha256": "392fe97074bd474617224244cefcb349f10ecdf43fecc3d2c39b70c4aea81875",
+      "timing_sha256": "2715df805a50cc43eb3649d7b1fc95e3ae5bbbced29ce5fe60b98a88a39ccb37"
+    },
+    "pinocho/question_01": {
+      "text_sha256": "2c6b574262990a0fcb71f3848c1534c59a60d2a07ab996ab47fe4e059b004f52",
+      "sha256": "1f81d3936a74c66b318d59638b7d7a57c4a90613aff462976b0d48cb6295b594",
+      "timing_sha256": "67320a04cf5218f502e3713c351901260760725e21c50ab5eae9e04d57623893"
+    },
+    "pinocho/question_02": {
+      "text_sha256": "388d18cdfa1c78d8d12fe11497eaa6ff770bc2e27d73cef1b0c6392cfb5eb09a",
+      "sha256": "f687c0525df4c360e7d8bd95cf6c2c6c01d438bd800b1bc015e3813e06b11ad1",
+      "timing_sha256": "20c0673bb7e267ce7a490a9078c7539c3a1cb3949e4fb14c73c35bdb58cea899"
+    },
+    "pinocho/question_03": {
+      "text_sha256": "c536d963fd3509154bf585a27f3cd288671119077397b80d1bde5eefdd9d1abf",
+      "sha256": "593e066c51a2f7b32d37e2da3260134e0468afe3d774020d1f37e81d13d8c2f6",
+      "timing_sha256": "88617c1356d6b77df54c3decbc1d7ea6626e5bab86380b85cc1ff25d79702723"
+    },
+    "raton_campo_ciudad/page_00": {
+      "text_sha256": "ec5e6aecd614a2ac4656db414fa883167c4ba0746f0c8763ed72108c29777233",
+      "sha256": "758b0d670e129e754aeac1ba7bd4b1cc683ea0559f285b109e2d790bdf745cf5",
+      "timing_sha256": "09e5779712e66dccdf369867d45385aa2224f3fb53b48e269fcf5a3adbca3009"
+    },
+    "raton_campo_ciudad/page_01": {
+      "text_sha256": "d6608c64403a4e59c8520eb01b5b8ec5c21681f265db8056754eeeb63c6f707a",
+      "sha256": "cb108738cd5c6c16c455959fc7bef8f924cf71d4729975ef42ae5b70d5b613fa",
+      "timing_sha256": "afd875d01384134bbba484f269d01f79cc550cc049b3b3f464a778e56af11fb2"
+    },
+    "raton_campo_ciudad/page_02": {
+      "text_sha256": "aaf1e261452a91601fe816b305a33582c35faff8995dc8429a4dc77d4ab6129b",
+      "sha256": "55576acea786dadc91115c1439b71c9ce99bc20cd62f7133235859f1c742edd5",
+      "timing_sha256": "1be742a3a2c8141ed3b8225e5d6b82b154195d1f51213fa37784a04325003043"
+    },
+    "raton_campo_ciudad/page_03": {
+      "text_sha256": "cf91881da58a21ff8521549ece6a430c2aea47b557aecb427c8a7caf01d77af1",
+      "sha256": "a217661986d7210a1a73f1dc5bcfbb62d4062a16022bf4f6a506058eb6c910fb",
+      "timing_sha256": "c639222592c7433ae2e7a7f277123e3476b215ee0cf7e6b0a451e251471e5d86"
+    },
+    "raton_campo_ciudad/page_04": {
+      "text_sha256": "fe047ca48e6af02e9f2c421ca9dac8eb416a13d6401278ca883eef1fd9dcb143",
+      "sha256": "4a080a3532ed36d66b627af447fd10d6de5bb992e18be7182c602a5b7cf58321",
+      "timing_sha256": "efd232414d8fa8565cb960572df93d76ce4173d334f996c44d8e0f25c5ce85b3"
+    },
+    "raton_campo_ciudad/page_05": {
+      "text_sha256": "e0735f692c5dc2cc5500dca1570384f036088fd2fe297daebfd3f12337056626",
+      "sha256": "7fd7933b0720ea275f0a1326a67b6f17b10a14c8c079b1524856bf7e94d3f4a4",
+      "timing_sha256": "262f16f7e20bb4eeef08fc4d0677df03658845272890672945eb412dcc3aa25b"
+    },
+    "raton_campo_ciudad/page_06": {
+      "text_sha256": "cc7cb1e0227528901023a001282235998214c25a36e4074cf309f14d5ca38eca",
+      "sha256": "4cb8cf8233049f2411af4b7d8e2b1207b93836e6130dff515f22058f973fa2dd",
+      "timing_sha256": "32bc58adb0abc0beb16ff8b2f95933ddc0e947a74885135329dc9dacfde617c1"
+    },
+    "raton_campo_ciudad/page_07": {
+      "text_sha256": "87b7c2e7dbce1dcb23e18df9521690815fddaf44a4d4c76fd6b3d0096c2064f0",
+      "sha256": "47762b68e1f420a0cd71a34adcf0ad07108c3b9e708d4a0da941b8ffd0ccda8e",
+      "timing_sha256": "7f20d47f7b5066c74779b1649cc58dff1d7742c71e417f4b195a863c77728b43"
+    },
+    "raton_campo_ciudad/question_00": {
+      "text_sha256": "ec272a9db0f7dbdf8403df3ebfa22a4c006ff1718eb3df2198190a40c1560faf",
+      "sha256": "a691aeb5e8d515f4322ece02a3c6c6db80c73027e7bd1bd6a4f012a2c4eabb8f",
+      "timing_sha256": "0eb68ba75d8b488489f02b25325c14cafb2c24c294ba4c6de57a9f7f6b232d67"
+    },
+    "raton_campo_ciudad/question_01": {
+      "text_sha256": "4b56f44f8b82930527e2324b8845a996832ad79a2163d2d3b20030036c5fba78",
+      "sha256": "88765b0b6c015b7b50d6729603b8bed648a2243108290646a2d28fafdf3a85bd",
+      "timing_sha256": "aa64f7a62f028d63006ed9dbd0a17ab388f5b449ae8135c1324c2996615eb345"
+    },
+    "raton_campo_ciudad/question_02": {
+      "text_sha256": "f8f62937436b2ee66913c2cc5296c2ab298addb118b6f9988266378ccbd7e63b",
+      "sha256": "3ff12b4b5a067059304f0811adab5a8b362fee458d614cb0a6061172e51db7cc",
+      "timing_sha256": "ffe1d682af695c4d765293c27a2e5a37a92bacdeb32b7e69c4e6193b661272cd"
+    },
+    "raton_campo_ciudad/question_03": {
+      "text_sha256": "46749ed5bc6dba1cfe805b317e2619388d0e96e7949f251f4cde61a8ced46acb",
+      "sha256": "8fa1cde2669a5d066cb3ffed1e3b92efe72f7fe99a9b035496a38dd404225e29",
+      "timing_sha256": "a784e245ed616312533651cfe40283a792b183ea590e41336f1e7eaf85b02185"
+    },
+    "ricitos_de_oro/page_00": {
+      "text_sha256": "325b0aa249f7740ffb32f9d1e513b977579088fd83d51b9bd60c7565a0a6615c",
+      "sha256": "6b50d64e0cded12f449ba7cb2000fd98a17272ef07123c2d2a043fb20c85dd8e",
+      "timing_sha256": "542d7b07d7213f2b8ce7334189090516c829620a55a166cd65f6f89a5ea281c1"
+    },
+    "ricitos_de_oro/page_01": {
+      "text_sha256": "57c0d6476b3548860fc86c7bf9cd52ebed21b3aed93ccf5458bf838e7914f640",
+      "sha256": "2ddf5d45e72e69b182e452db6b691d950cffbc7b6655585b29f706f41985c1dd",
+      "timing_sha256": "67c1be759fe4495e50fc9393a77b24191b4de0c5086c9b400f8bb429c0ab7560"
+    },
+    "ricitos_de_oro/page_02": {
+      "text_sha256": "5eddcdb97dd4792be8224d5851a37dd0bd180edf61e9dc2e20d277c4b915e236",
+      "sha256": "9b18f27d0b812a19d73d48a207c0b8d51887703b11f00a90d56fe0e1b409c5ae",
+      "timing_sha256": "5baa2b16b1257fdaed84f26069a5a799d1ccd2f1fb3ce670e266ef5f9d9b1f38"
+    },
+    "ricitos_de_oro/page_03": {
+      "text_sha256": "14d82bc5e6d5bf69cdeb022c118a258ce73c232f5d73c13706fbfea16b9155de",
+      "sha256": "4f946a5e49be2c53483e62328185cb113794698d3890f703796ba6b372d21574",
+      "timing_sha256": "8a6f65970ab5f4a9c8db783b5d6b1fa228b3226f94b722df6b571895a96d7c29"
+    },
+    "ricitos_de_oro/page_04": {
+      "text_sha256": "ae025481fd22a0a67f166fba8e1d859ea3751a668b97bc7d7cb6397232f1cecf",
+      "sha256": "f831680ed3773845f20197a8e9c46b3f8b639075853f49ebda02ff666c660986",
+      "timing_sha256": "7566bd69d0b31a15d78f190883bc4338ed0632e61d274ca016938bada318665e"
+    },
+    "ricitos_de_oro/page_05": {
+      "text_sha256": "f5c61dd286aac9ccf5160a7f6822cf212c5a1bf62e6e1ebdeb63aed2e5680fd9",
+      "sha256": "e5e53aab975b7de24b39313d724f26d826b0e68286bc4b82410a76de00fd2eae",
+      "timing_sha256": "a7890ab566056e8ab981f46be347027cc4261c73834e484c094c6661f51e9bcb"
+    },
+    "ricitos_de_oro/page_06": {
+      "text_sha256": "c2e6c0dc3086bba64a581a7cb448a1aec1780b78df31f0c293861fcaa4433bf0",
+      "sha256": "c74dbae30f4f878b659acde39568fc64578117b6d685e496af59b716300c2f43",
+      "timing_sha256": "d280f7f2b2af1f6148234cf1643a27cb67fa46d02d26c725ed9a0ce7c38f24c1"
+    },
+    "ricitos_de_oro/page_07": {
+      "text_sha256": "2098972718b12536dc988fc7ddca81f199d231ab35670d5ebd7c874999977e66",
+      "sha256": "a9942c7aff2fed457d977a5b2618d08c9f70dfaab3142442cc4a10040554fb22",
+      "timing_sha256": "9d17fb5596216ff2c4d73b3beab5635fe33a68fad16becfe8fb29479620f5150"
+    },
+    "ricitos_de_oro/question_00": {
+      "text_sha256": "55de3fe9f78d6aae2e0821d5e09173e1b8a454def190683f90862e73400e0291",
+      "sha256": "5cf386e8e45d9c7a338afe6386bb18d905823e650473cb9c27653f134c074329",
+      "timing_sha256": "bd1abdfa829c1511b3ac703599ba080e264b4e182ec88bf5a5a4651a2aec9fec"
+    },
+    "ricitos_de_oro/question_01": {
+      "text_sha256": "ecf66c81fc3af9df30719bb2341a8d1bfd6fd03879fbbdc9959214bd18df7dd0",
+      "sha256": "f5ebd8f20b3f453b0b5b8da00a8bce295e7680b4709d7b579b06ad679a93286f",
+      "timing_sha256": "aa41d9c26ebaf8c6614160c887653315c41a015700c7b9cf75c8418f775d7aa4"
+    },
+    "ricitos_de_oro/question_02": {
+      "text_sha256": "885badaa214b34014f023ab0c310fd8076dd868e9f9cdef437c08ca14b8d8536",
+      "sha256": "bd81dda0245c69854102f3010e9391b2dd62f38299225ec7e5398eb3bf43dc38",
+      "timing_sha256": "addb3daee8fb0ff4fe590cb01f7adfa0e8b260b56aef5f3f238c5e977fad48d2"
+    },
+    "ricitos_de_oro/question_03": {
+      "text_sha256": "8bb99f693b6710221e233bfc52b8923c90be6670df60e411ccf34f1a7e555210",
+      "sha256": "7ad12f6a0ea8f0126578507fc2fff0bcdb81db8264ba954375bcbe79b6c5fcd9",
+      "timing_sha256": "67c9edff9a51255ab6fd1eee0184be5bedd54147bfbca03826a74c2d3a789f76"
+    },
+    "tres_chanchitos/page_00": {
+      "text_sha256": "5a18d1cc7446e47908f25ab0e877ccbc67eaf0061a7aaf1f8ef8c6a6b7f843da",
+      "sha256": "4bb42ce81db6ed37b7daacd6f39ea8aa671a878614106fb101bdba0d29eacf42",
+      "timing_sha256": "845c806bfffb6778e5ee32625433a23a1468afee79b595533f5f9cf86a6e352d"
+    },
+    "tres_chanchitos/page_01": {
+      "text_sha256": "8229c5acea06a167f7b30e1080486eafa3ad7c3e40232d3bc4e5ab2720163d5b",
+      "sha256": "0ebfc6e5e1cdd67f027cd9bd372d1bb1d0d256d874f3b78cc3f2bd486de0b563",
+      "timing_sha256": "138b76808760e71924f0e975ea4f5da2adda81dee9043c0fe0ff86c13f569815"
+    },
+    "tres_chanchitos/page_02": {
+      "text_sha256": "dc34ea74839e896d8a2c1fdcf928bbe23319476c8eaa3f8cd160b53c48d33750",
+      "sha256": "1ce26545dfa4163c1218eb37cdda59c381fb1eb7df79ae42df85bf0fb866e34c",
+      "timing_sha256": "5000b32db461411e6bed0f891867d39a551948fb47189ab59182f0a6534bda11"
+    },
+    "tres_chanchitos/page_03": {
+      "text_sha256": "be48cc0e0fe9e1f3a70178f992f7d399b09aec618f94e39a3105b2c57cf428eb",
+      "sha256": "478bf90b7d44c1b137852e7c81d0b6a94a7d6467c38d98ebbf7053ab31744136",
+      "timing_sha256": "2f047ee431fda9fe64e3e0f0264a6da79be4b070fb2ee2ca330da2d2c94bc483"
+    },
+    "tres_chanchitos/page_04": {
+      "text_sha256": "c5ad1cc68991529c2ff338ffd454177b1cb070940b6bc95068b00b090d5c116f",
+      "sha256": "65d5387c441f5f54db717bb0664b11a9238a397ee31aae84c45ae562b013ce02",
+      "timing_sha256": "1487de84926f68243155501a69b034d1b9df737a4915993613449c21e7358366"
+    },
+    "tres_chanchitos/page_05": {
+      "text_sha256": "056a32ead57492e461c3c0774cf288fa1d0863aa8989156dad2175dd024e8090",
+      "sha256": "c60f6fdd1b79bf0067e13fdb05a1805cc217d0e954c14f81ba18ef4bd50435e8",
+      "timing_sha256": "54103635c2149c9d5c14fd4509a9453052877e505517adac0dfcd791bee6cf52"
+    },
+    "tres_chanchitos/page_06": {
+      "text_sha256": "d4dc064fad8bbcbba7a252deb9d5e485081f5d3ec41860c0cd52ff59324cd79f",
+      "sha256": "1d358e9f18fa3fa50b359758cb3be0d5e9430eb68af8f7c7db590ecd30582a75",
+      "timing_sha256": "7a782a90cdc6d8a68f8182a01c81a2cb63b506e15dca42e64b5c177fe422aaa3"
+    },
+    "tres_chanchitos/page_07": {
+      "text_sha256": "ccfea6754d5f71c8644c659dd5c7f70e7d3745f27323ecf59f8ce030bddbbe09",
+      "sha256": "5636e4e660b695083549b984823e05c3f3a370040855a9806778265e1b24d71f",
+      "timing_sha256": "f38cba38ecb6fae23c5dd7d73d275295d4e5dec8f031f98dd0f15f333741b19c"
+    },
+    "tres_chanchitos/question_00": {
+      "text_sha256": "b211766c61a493b1f47825f74e5f1e2b1a4008125b0145c3a53311a17075dab8",
+      "sha256": "2a5a9c18c07bf0dcfe096e183c87fed006f85f3177596fd2c6da092da4571917",
+      "timing_sha256": "a38a296b41164074d2c85a7e6145da52dc231bb0090676f517e3c20a3516b747"
+    },
+    "tres_chanchitos/question_01": {
+      "text_sha256": "0f964b488943c7145cc850826da04dce2aef7c2e3e51a39d84020a0752347384",
+      "sha256": "bff839c4716539e95116d41425a0d44706e0be81863eae2a3d7cab12d6bf1bb1",
+      "timing_sha256": "9ee4b69a88bfdb258e8ec23d1906fbd680a909a9f8da1b50a4d06edb498e8f2a"
+    },
+    "tres_chanchitos/question_02": {
+      "text_sha256": "de87b5fdd1691ed214c391f10887ac04fe75b52ea10ec27145a6abdbb9a3de6a",
+      "sha256": "8f00635beabce65820aaac9a526ae9ff6c6b4c81031f606acc36bf7a2851d20c",
+      "timing_sha256": "96515837138e7c1079d94d5e536e4e6892db4ad6eead9fac9fe9d5c287453938"
+    },
+    "tres_chanchitos/question_03": {
+      "text_sha256": "cbbd935d4bc1046b7e65fbaea0fede66da43a35d7662c82d47bfe754c70ee90f",
+      "sha256": "8cc48b63392aaeff5a65f17d8fd1f098d49ed2228ab88fbb2df4696a3b8dd81f",
+      "timing_sha256": "c7e1d683bc38f8b9ba035ce71c053c261f526434b239c648209370dcadc759d0"
+    },
+    "zorra_y_uvas/page_00": {
+      "text_sha256": "a26cec8757f992d9c559cc722e914792cfc06876db2dcd4da8febcd96f8bed46",
+      "sha256": "f72533c4b1e0e54a1161302520d3ab3b7d47aac47ed6372dd7e3f8b03ea69d68",
+      "timing_sha256": "59db2dfdd86ffd92488d5d4cfcc61185a25d59ddf0dcff7924fe31808409e81d"
+    },
+    "zorra_y_uvas/page_01": {
+      "text_sha256": "773a18208aac47afbfaf4fa304fd23c5835579dbb1f18b7659943638991d0219",
+      "sha256": "4bea420e073df1c6a69812af3c7fa6e6418182d62b412f658bf1b6652aa1e70a",
+      "timing_sha256": "b67f1ab47fc19083e4399b8c0dbb3bdf77d2169ef8930f17863d857672c965c2"
+    },
+    "zorra_y_uvas/page_02": {
+      "text_sha256": "a2fff76115db1ad3ef7102cf710cb31bb8adae14ba1134fe3635fcd699e18b09",
+      "sha256": "00fac929b143fde5fd7110b648e170b2e6aad14f45fd2eacb470122df03415bf",
+      "timing_sha256": "5cad5a797d8c911c539a817905e72934b219c27a1398f52ed7c2d599d9a1cf3a"
+    },
+    "zorra_y_uvas/page_03": {
+      "text_sha256": "6fb24ce7bc09f0ed54e0d2bf4ceadb5141ea240da9b6e643541ffb316de5138c",
+      "sha256": "0fe8403eb186285ea2db7ed1a80de32cf9d1de032217d4690e29ea031aadb6ab",
+      "timing_sha256": "5db58cd9027b53ff7b5c0a84e414ae368ffb4e845817258dc6cb818d14466c8e"
+    },
+    "zorra_y_uvas/page_04": {
+      "text_sha256": "0ac148cb2e3916e4a4c9dded2cf04980df70d4e41c4298897469717d35b13c1c",
+      "sha256": "dd1ad923e6bb914aca175b575a37c2d280fa40c15a8bc79b829316260cb4b62b",
+      "timing_sha256": "5cbee8336e77bcfaf9818ece163e9a0d12002ff5aafe043607d0468d65ca593b"
+    },
+    "zorra_y_uvas/page_05": {
+      "text_sha256": "af1a4304bb4281e83fbb108bc01617d599a973ec3746b71770274d9ac64534a9",
+      "sha256": "f836b8abae3ad2a7b4ccf4788c0927d34b42553f079671aebd66803ba0a49540",
+      "timing_sha256": "218976ee5c665a21860d80cefb4a9f4221bc5bc614a790e19718cefa4bfab48a"
+    },
+    "zorra_y_uvas/page_06": {
+      "text_sha256": "b59c8c80960fe9b44f77da6131e33f9c5be7a7a921c8975e6a3bf0f5fd1f18cd",
+      "sha256": "8d31422eaeef57c78255a7972d3efa68673df00877c5421be0929b41d764ddc5",
+      "timing_sha256": "4872a062f454c18d1a1273cd891dfc59134538684b108e2c6f6e7f51e6790302"
+    },
+    "zorra_y_uvas/page_07": {
+      "text_sha256": "dbf72199b91f7edd030661649867bdc20a5dfa08ef437ed6351f49c1e8fe6cac",
+      "sha256": "17521cb8a4fc49550193805e13aa0d44182fd5a222f8ffdaf775e9eef0d0511e",
+      "timing_sha256": "9f05247de4de05f9ec13fe35d7e2c86487d93a24de4f5fdb90ebaf7004467871"
+    },
+    "zorra_y_uvas/question_00": {
+      "text_sha256": "22f83339a4e62b4b1b6c7a6d1d997e59022bc51c1a71b5d1cd99f00ebe11b80d",
+      "sha256": "c0402c76a04ef516b7b97c65038f8e209ea4c7431aa2c561eb6ad98dd3a2a3b9",
+      "timing_sha256": "b6ba8a077fa6bcd9d7593dcfa112e58406420c52064af1b99b508a10e838b449"
+    },
+    "zorra_y_uvas/question_01": {
+      "text_sha256": "3d757fc294a61442aebb3a61f6009f6993b3d97221c539ffedd0b0c24c4a082b",
+      "sha256": "3eefc72e62628da1251989a5110095346202c38eb463e77abc1d41bcf520bedd",
+      "timing_sha256": "1439b0416877651eb9a8ee639205336668767e4003beebfdecf9e7e5e0dac4c0"
+    },
+    "zorra_y_uvas/question_02": {
+      "text_sha256": "668c2b58bd0aaaeba8875f5df6a0b3425b7fc2a855acdea14fef89f7187ed565",
+      "sha256": "4bf98cd0eb4856dcf25d0695962c96cd5a52306bbecdeff64374faedb20d41e5",
+      "timing_sha256": "b712878fae06384e4820b5d6932d778b7e433ef662625170a01e54138b21ae68"
+    },
+    "zorra_y_uvas/question_03": {
+      "text_sha256": "596bd24ad4862141de7eb65010daf61ab80518eec4fe962a450731a0f427825a",
+      "sha256": "45db23ea2e2ad091694fbae9ff243a2173a4424385bdc75b04afc850dbdbfdc3",
+      "timing_sha256": "c743702dd2f12e6f2a0e1bae83834180143a898c5a7ce9b479d8fd1c5f2e9a20"
+    }
+  }
+}

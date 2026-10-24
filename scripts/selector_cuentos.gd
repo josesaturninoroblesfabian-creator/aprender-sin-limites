@@ -2,13 +2,18 @@ extends Control
 
 signal back_requested
 signal story_selected(story: Dictionary)
+signal mode_changed(mode: String)
+
+const Repo = preload("res://scripts/stories/story_repository.gd")
+const UI = preload("res://scripts/stories/story_ui.gd")
+const Carmelo = preload("res://scripts/stories/carmelo_avatar.gd")
 
 const CATALOG_PATH := "res://assets/data/cuentos.json"
 const PROGRESS_PATH := "user://cuentos_ilustrados.cfg"
 const INK := Color("#173b70")
 const GOLD := Color("#ffd45b")
 const WOOD := Color("#9b5429")
-const CARD_COLORS: Array[Color] = [Color("#ef6a59"), Color("#45a9d7"), Color("#eabf39"), Color("#7d67c7")]
+const CARD_COLORS: Array[Color] = [Color("#b83e32"), Color("#0874a8"), Color("#926007"), Color("#6943ad")]
 
 var stories: Array[Dictionary] = []
 var completed_stories: Dictionary = {}
@@ -18,6 +23,10 @@ var story_grid: GridContainer
 var library_panel: PanelContainer
 var status_label: Label
 var story_action_labels: Dictionary = {}
+var activity_mode := "read"
+var mode_title: Label
+var hint_label: Label
+var badges: Dictionary = {}
 
 func _ready() -> void:
 	_build_interface()
@@ -25,11 +34,13 @@ func _ready() -> void:
 	_load_catalog()
 	get_viewport().size_changed.connect(_update_grid_columns)
 	_update_grid_columns()
+	refresh_library()
+	StoryAudio.guide(activity_mode, self)
 
 func _build_interface() -> void:
 	var background := TextureRect.new()
 	background.name = "FondoBiblioteca"
-	background.texture = load("res://assets/backgrounds/fondo-andes.png")
+	background.texture = load("res://assets/backgrounds/fondo-paisaje-andino.png")
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_SCALE
@@ -79,6 +90,7 @@ func _build_header(parent: VBoxContainer) -> void:
 	header.add_child(sign)
 
 	var title := Label.new()
+	mode_title = title
 	title.text = "Elige un Cuento"
 	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	title.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
@@ -113,6 +125,17 @@ func _build_header(parent: VBoxContainer) -> void:
 	progress_bar.add_theme_stylebox_override("background", _bar_style(Color("#caddec")))
 	progress_bar.add_theme_stylebox_override("fill", _bar_style(Color("#32c65a")))
 	progress_stack.add_child(progress_bar)
+	var avatar := Carmelo.new()
+	avatar.custom_minimum_size = Vector2(80, 70)
+	header.add_child(avatar)
+	var mode_row := HBoxContainer.new()
+	mode_row.add_theme_constant_override("separation", 8)
+	parent.add_child(mode_row)
+	for mode in Repo.MODES:
+		var mode_button := UI.button(Repo.MODE_TITLES[mode], Repo.MODE_COLORS[mode], 18)
+		mode_button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		mode_button.pressed.connect(_change_mode.bind(mode))
+		mode_row.add_child(mode_button)
 
 func _build_library(parent: VBoxContainer) -> void:
 	library_panel = PanelContainer.new()
@@ -133,6 +156,7 @@ func _build_library(parent: VBoxContainer) -> void:
 	inner_margin.add_child(content)
 
 	var hint := Label.new()
+	hint_label = hint
 	hint.name = "InstruccionBiblioteca"
 	hint.text = "Escoge una portada y comienza a leer"
 	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -195,7 +219,7 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 	var accent: Color = CARD_COLORS[index % CARD_COLORS.size()]
 	var card := Button.new()
 	card.name = "Tarjeta_%s" % String(story.id)
-	card.custom_minimum_size = Vector2(280, 330)
+	card.custom_minimum_size = Vector2(280, 370)
 	card.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	card.focus_mode = Control.FOCUS_ALL
 	card.clip_contents = true
@@ -226,10 +250,10 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 	cover_frame.add_theme_stylebox_override("panel", _style(accent.lightened(0.48), accent.darkened(0.12), 3, 17, 2))
 	stack.add_child(cover_frame)
 	var cover_path := String(story.get("cover", ""))
-	if not cover_path.is_empty() and ResourceLoader.exists(cover_path):
+	if not cover_path.is_empty():
 		var cover := TextureRect.new()
 		cover.name = "Portada"
-		cover.texture = load(cover_path) as Texture2D
+		cover.texture = Repo.cover_texture(story)
 		cover.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		cover.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		cover.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -252,6 +276,12 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 	title.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	_apply_font(title, 800)
 	stack.add_child(title)
+	var summary := UI.label(story.get("summary", ""), 17)
+	summary.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	stack.add_child(summary)
+	var badge := UI.label("", 15, Color("#277248"))
+	stack.add_child(badge)
+	badges[story.id] = badge
 
 	var action_panel := PanelContainer.new()
 	action_panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -264,25 +294,26 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 	_apply_font(action, 800)
 	action_panel.add_child(action)
 	story_action_labels[String(story.get("id", ""))] = action
+	margins.minimum_size_changed.connect(_fit_story_card.bind(card, margins))
+	_fit_story_card.call_deferred(card, margins)
 	return card
 
+func _fit_story_card(card: Button, margins: MarginContainer) -> void:
+	# Button does not inherit the minimum height of its container children.
+	card.custom_minimum_size.y = maxf(370, margins.get_combined_minimum_size().y)
+
 func _on_story_selected(story: Dictionary) -> void:
+	StoryAudio.stop(self)
 	story_selected.emit(story.duplicate(true))
 
 func _on_back_pressed() -> void:
+	StoryAudio.stop(self)
 	back_requested.emit()
 
 func mark_story_completed(story_id: String) -> void:
-	if story_id.is_empty() or completed_stories.has(story_id):
-		return
-	completed_stories[story_id] = true
-	var config := ConfigFile.new()
-	config.set_value("progreso", "cuentos", completed_stories)
-	config.save(PROGRESS_PATH)
-	_refresh_progress()
-	if story_action_labels.has(story_id):
-		var action: Label = story_action_labels[story_id]
-		action.text = "✓  Leer de nuevo"
+	# Completion has already been validated and saved by the activity screen.
+	if not story_id.is_empty():
+		refresh_library()
 
 func _load_progress() -> void:
 	var config := ConfigFile.new()
@@ -295,10 +326,32 @@ func _load_progress() -> void:
 func _refresh_progress() -> void:
 	var completed := 0
 	for story in stories:
-		if completed_stories.has(String(story.get("id", ""))):
+		if Repo.is_complete(String(story.id), activity_mode):
 			completed += 1
-	progress_label.text = "Leídos %d / %d" % [completed, stories.size()]
+	progress_label.text = "%d / %d completados" % [completed, stories.size()]
 	progress_bar.value = completed
+
+func refresh_library() -> void:
+	mode_title.text = Repo.MODE_TITLES.get(activity_mode, "Elige un cuento")
+	hint_label.text = "Los mismos 16 cuentos, cuatro maneras de descubrirlos. Elige una portada."
+	_refresh_progress()
+	for story in stories:
+		if story_action_labels.has(story.id):
+			story_action_labels[story.id].text = ("✓ Repetir · " if Repo.is_complete(story.id, activity_mode) else "Empezar · ") + Repo.MODE_TITLES[activity_mode]
+		if badges.has(story.id):
+			var parts: Array[String] = []
+			for mode in Repo.MODES:
+				parts.append(("✓ " if Repo.is_complete(story.id, mode) else "○ ") + {"read": "Leer", "listen": "Oír", "order": "Ordenar", "quiz": "Retos"}[mode])
+			badges[story.id].text = " · ".join(parts)
+
+func _change_mode(mode: String) -> void:
+	activity_mode = mode
+	mode_changed.emit(mode)
+	refresh_library()
+	StoryAudio.guide(mode, self)
+
+func _exit_tree() -> void:
+	StoryAudio.stop(self)
 
 func _update_grid_columns() -> void:
 	if story_grid == null:

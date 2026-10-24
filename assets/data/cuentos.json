@@ -1,376 +1,2341 @@
 {
+  "version": 2,
+  "adaptation": "Guiones abreviados preparados para esta versión educativa, con vocabulario de lectura inicial y sin escenas gráficas de violencia. Conservan los títulos del catálogo del equipo y adaptan algunos desenlaces.",
   "stories": [
     {
       "id": "caperucita_roja",
       "title": "Caperucita Roja",
-      "cover": "res://assets/cuentos/caperucita-portada.svg",
-      "summary": "Un paseo por el bosque con una sorpresa inesperada.",
+      "summary": "Una visita a la abuela enseña a pedir ayuda y caminar con cuidado.",
+      "characters": "Little Red Riding Hood with red hood and wicker basket, kindly silver-haired grandmother, grey wolf, mother and female forest ranger. Consistent friendly storybook characters.",
       "pages": [
         {
-          "heading": "Una visita especial",
-          "text": "Caperucita Roja preparó una canasta con pan y frutas para visitar a su abuelita. Su mamá le recordó que siguiera el camino del bosque.",
-          "image": "res://assets/cuentos/caperucita-portada.svg"
+          "heading": "La canasta para la abuela",
+          "text": "Una mañana, la mamá de Caperucita preparó pan y fruta. La abuela estaba resfriada y vivía al otro lado del bosque. Caperucita quiso llevarle la canasta para que se sintiera mejor.",
+          "speech": "Mamá: Ve por el sendero y no te alejes sola.",
+          "art": "Mother gives red-hood girl a wicker basket in a cozy cottage kitchen.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_00.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_00.timing.json",
+          "narration": "Una mañana, la mamá de Caperucita preparó pan y fruta. La abuela estaba resfriada y vivía al otro lado del bosque. Caperucita quiso llevarle la canasta para que se sintiera mejor. Mamá: Ve por el sendero y no te alejes sola."
         },
         {
-          "heading": "En el bosque",
-          "text": "Entre los árboles, Caperucita encontró un lobo curioso. Él le preguntó adónde iba y ella siguió caminando con cuidado.",
-          "image": "res://assets/cuentos/caperucita-portada.svg"
+          "heading": "La pregunta del lobo",
+          "text": "Mientras caminaba, Caperucita encontró a un lobo. Él preguntó adónde iba. La niña contó que visitaría la casa de su abuela, junto al gran roble. No sabía que aquel desconocido quería engañarla.",
+          "speech": "Lobo: Seguro que a tu abuela le gustan las flores.",
+          "art": "Red hood girl carrying basket meets a grey wolf at a forest fork with flowers.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_01.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_01.timing.json",
+          "narration": "Mientras caminaba, Caperucita encontró a un lobo. Él preguntó adónde iba. La niña contó que visitaría la casa de su abuela, junto al gran roble. No sabía que aquel desconocido quería engañarla. Lobo: Seguro que a tu abuela le gustan las flores."
         },
         {
-          "heading": "Una gran sorpresa",
-          "text": "Al llegar a casa de la abuelita, Caperucita notó que algo era diferente. Por suerte, una leñadora llegó a tiempo y todos pudieron reunirse tranquilos.",
-          "image": "res://assets/cuentos/caperucita-portada.svg"
+          "heading": "Dos caminos distintos",
+          "text": "Caperucita se detuvo a recoger flores y salió del sendero. El lobo tomó un atajo hacia la casa de la abuela. Como conocía un camino más corto, llegó antes que la niña.",
+          "speech": "Caperucita: Llevaré unas flores y volveré al camino.",
+          "art": "Girl picks flowers off the path while wolf runs along a separate shortcut toward distant cottage.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_02.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_02.timing.json",
+          "narration": "Caperucita se detuvo a recoger flores y salió del sendero. El lobo tomó un atajo hacia la casa de la abuela. Como conocía un camino más corto, llegó antes que la niña. Caperucita: Llevaré unas flores y volveré al camino."
+        },
+        {
+          "heading": "Una abuela escondida",
+          "text": "La abuela vio al lobo acercarse y se escondió en la despensa. El lobo entró, se puso un gorro y se acostó bajo la manta. Quería que Caperucita lo confundiera con su abuela.",
+          "speech": "Abuela, en voz baja: Esperaré aquí y pediré ayuda.",
+          "art": "Grandmother safely hides behind pantry door; wolf wearing nightcap sits in grandmother's bed.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_03.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_03.timing.json",
+          "narration": "La abuela vio al lobo acercarse y se escondió en la despensa. El lobo entró, se puso un gorro y se acostó bajo la manta. Quería que Caperucita lo confundiera con su abuela. Abuela, en voz baja: Esperaré aquí y pediré ayuda."
+        },
+        {
+          "heading": "Algo no encaja",
+          "text": "Caperucita llegó con la canasta. Al acercarse a la cama, vio unas orejas peludas y unas patas enormes. La voz también sonaba extraña. Dio un paso atrás: aquella persona no parecía su abuela.",
+          "speech": "Caperucita: Esa no es la voz de mi abuelita.",
+          "art": "Girl stands back from bed noticing wolf ears poking from nightcap, keeping distance.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_04.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_04.timing.json",
+          "narration": "Caperucita llegó con la canasta. Al acercarse a la cama, vio unas orejas peludas y unas patas enormes. La voz también sonaba extraña. Dio un paso atrás: aquella persona no parecía su abuela. Caperucita: Esa no es la voz de mi abuelita."
+        },
+        {
+          "heading": "Una voz de ayuda",
+          "text": "La niña salió por la puerta y llamó a una guardabosques que pasaba cerca. Juntas regresaron. El lobo, al ver que ya no podía engañarlas, huyó al bosque. La abuela salió de su escondite.",
+          "speech": "Guardabosques: Hiciste bien en pedir ayuda.",
+          "art": "Female forest ranger arrives with girl; wolf runs away outdoors while grandmother emerges safely.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_05.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_05.timing.json",
+          "narration": "La niña salió por la puerta y llamó a una guardabosques que pasaba cerca. Juntas regresaron. El lobo, al ver que ya no podía engañarlas, huyó al bosque. La abuela salió de su escondite. Guardabosques: Hiciste bien en pedir ayuda."
+        },
+        {
+          "heading": "Por fin, la merienda",
+          "text": "Caperucita abrazó a su abuela y le dio el pan, la fruta y las flores. Después contó lo sucedido. Comprendió que debía seguir el camino acordado y consultar a un adulto de confianza si algo la inquietaba.",
+          "speech": "Abuela: Lo importante es que ahora estamos juntas.",
+          "art": "Grandmother, girl and ranger share bread and fruit at a cozy table.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_06.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_06.timing.json",
+          "narration": "Caperucita abrazó a su abuela y le dio el pan, la fruta y las flores. Después contó lo sucedido. Comprendió que debía seguir el camino acordado y consultar a un adulto de confianza si algo la inquietaba. Abuela: Lo importante es que ahora estamos juntas."
+        },
+        {
+          "heading": "El regreso seguro",
+          "text": "Al terminar la visita, la guardabosques acompañó a Caperucita por el sendero. Su mamá la esperaba en casa. La niña le contó toda la aventura y prometió avisar antes de cambiar de camino.",
+          "speech": "Caperucita: La próxima vez iré acompañada.",
+          "art": "Girl and ranger follow the clear forest path home where mother welcomes them.",
+          "image": "res://assets/stories/caperucita_roja.png",
+          "audio": "res://assets/audio/stories/caperucita_roja/page_07.mp3",
+          "timings": "res://assets/audio/stories/caperucita_roja/page_07.timing.json",
+          "narration": "Al terminar la visita, la guardabosques acompañó a Caperucita por el sendero. Su mamá la esperaba en casa. La niña le contó toda la aventura y prometió avisar antes de cambiar de camino. Caperucita: La próxima vez iré acompañada."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué llevaba una canasta Caperucita?",
+          "choices": [
+            "Para ayudar a su abuela resfriada",
+            "Para alimentar al lobo",
+            "Para vender flores"
+          ],
+          "answer": "Para ayudar a su abuela resfriada",
+          "explanation": "La abuela estaba resfriada y la canasta contenía pan y fruta para ella.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/caperucita_roja/question_00.mp3"
+        },
+        {
+          "prompt": "¿Cómo llegó antes el lobo?",
+          "choices": [
+            "Voló sobre los árboles",
+            "La abuela fue a buscarlo",
+            "Tomó un atajo mientras la niña recogía flores"
+          ],
+          "answer": "Tomó un atajo mientras la niña recogía flores",
+          "explanation": "El lobo conocía un camino más corto y Caperucita se detuvo.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/caperucita_roja/question_01.mp3"
+        },
+        {
+          "prompt": "¿A quién pidió ayuda Caperucita?",
+          "choices": [
+            "A un vendedor",
+            "A una guardabosques",
+            "Al propio lobo"
+          ],
+          "answer": "A una guardabosques",
+          "explanation": "Salió de la casa y llamó a la guardabosques que pasaba cerca.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/caperucita_roja/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué decisión la ayudó cuando notó algo extraño?",
+          "choices": [
+            "Alejarse y pedir ayuda",
+            "Acercarse más al lobo",
+            "Esconder lo que había pasado"
+          ],
+          "answer": "Alejarse y pedir ayuda",
+          "explanation": "Caperucita se puso a salvo y buscó a una adulta de confianza.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/caperucita_roja/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/caperucita-portada.svg",
+      "atlas": "res://assets/stories/caperucita_roja.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "tres_chanchitos",
       "title": "Los Tres Chanchitos",
-      "cover": "res://assets/cuentos/tres-chanchitos-portada.svg",
-      "summary": "Tres hermanos construyen sus casas a su manera.",
+      "summary": "Tres hermanos descubren el valor de construir con paciencia y ayudarse.",
+      "characters": "Three cute pink pig siblings: yellow shirt straw builder, blue shirt wood builder, red overalls brick builder; grey wolf. Cozy countryside, no scary violence.",
       "pages": [
         {
-          "heading": "Tres casas distintas",
-          "text": "Tres chanchitos decidieron construir sus propias casas. Uno usó paja, otro eligió madera y el tercero trabajó con ladrillos fuertes.",
-          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+          "heading": "Cada uno tendrá una casa",
+          "text": "Tres hermanos chanchitos querían vivir cerca del bosque. Decidieron construir una casa cada uno. Buscaron materiales y eligieron un lugar donde podrían visitarse y jugar juntos cuando terminaran el trabajo.",
+          "speech": "Los hermanos: ¡Seremos vecinos!",
+          "art": "Three pig siblings inspect a meadow with straw, wooden planks and bricks.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_00.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_00.timing.json",
+          "narration": "Tres hermanos chanchitos querían vivir cerca del bosque. Decidieron construir una casa cada uno. Buscaron materiales y eligieron un lugar donde podrían visitarse y jugar juntos cuando terminaran el trabajo. Los hermanos: ¡Seremos vecinos!"
         },
         {
-          "heading": "Sopla el viento",
-          "text": "Un lobo llegó al camino y sopló con fuerza. Las casas de paja y madera no resistieron, así que los hermanos corrieron a la casa de ladrillos.",
-          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+          "heading": "Paja, madera y ladrillos",
+          "text": "El primero hizo una casa de paja para acabar enseguida. El segundo eligió tablas de madera. El tercero colocó ladrillos, uno por uno, y preparó una puerta resistente. Su casa tardaba más en estar lista.",
+          "speech": "El tercero: Prefiero trabajar con calma.",
+          "art": "Three building sites side by side: completed straw hut, wooden hut, pig patiently laying brick wall.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_01.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_01.timing.json",
+          "narration": "El primero hizo una casa de paja para acabar enseguida. El segundo eligió tablas de madera. El tercero colocó ladrillos, uno por uno, y preparó una puerta resistente. Su casa tardaba más en estar lista. El tercero: Prefiero trabajar con calma."
         },
         {
-          "heading": "A salvo juntos",
-          "text": "La casa firme protegió a los tres hermanos. Aprendieron que planear, trabajar con paciencia y ayudarse hace la diferencia.",
-          "image": "res://assets/cuentos/tres-chanchitos-portada.svg"
+          "heading": "El soplido en la paja",
+          "text": "Un lobo llegó a la casa de paja y pidió entrar. El primer chanchito no abrió. Entonces el lobo sopló con fuerza. La paja salió volando y el chanchito corrió hasta la casa de madera de su hermano.",
+          "speech": "El primero: ¡Hermano, necesito refugio!",
+          "art": "Wolf blows straw hut apart as yellow-shirt pig runs safely toward wooden house.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_02.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_02.timing.json",
+          "narration": "Un lobo llegó a la casa de paja y pidió entrar. El primer chanchito no abrió. Entonces el lobo sopló con fuerza. La paja salió volando y el chanchito corrió hasta la casa de madera de su hermano. El primero: ¡Hermano, necesito refugio!"
+        },
+        {
+          "heading": "La madera tampoco resiste",
+          "text": "Los dos hermanos cerraron la puerta de madera. El lobo volvió a soplar, y las tablas mal sujetas se separaron. Los chanchitos escaparon juntos hacia la casa de ladrillos, que ya estaba terminada.",
+          "speech": "El segundo: ¡Vamos a la casa del menor!",
+          "art": "Two pig siblings hurry away from loose wooden planks toward strong brick house.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_03.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_03.timing.json",
+          "narration": "Los dos hermanos cerraron la puerta de madera. El lobo volvió a soplar, y las tablas mal sujetas se separaron. Los chanchitos escaparon juntos hacia la casa de ladrillos, que ya estaba terminada. El segundo: ¡Vamos a la casa del menor!"
+        },
+        {
+          "heading": "Una puerta abierta para ayudar",
+          "text": "El tercer chanchito vio llegar a sus hermanos y los dejó entrar. Después cerró la puerta. El lobo sopló varias veces, pero los ladrillos permanecieron en su sitio. Los tres esperaron dentro, a salvo.",
+          "speech": "El tercero: Aquí hay sitio para todos.",
+          "art": "Red-overalls pig welcomes siblings into brick house while wolf stands outside.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_04.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_04.timing.json",
+          "narration": "El tercer chanchito vio llegar a sus hermanos y los dejó entrar. Después cerró la puerta. El lobo sopló varias veces, pero los ladrillos permanecieron en su sitio. Los tres esperaron dentro, a salvo. El tercero: Aquí hay sitio para todos."
+        },
+        {
+          "heading": "El lobo se marcha",
+          "text": "El lobo buscó una ventana abierta, pero todas estaban cerradas. Intentó otro soplido y tampoco pudo mover la casa. Cansado de intentarlo, se marchó. Los hermanos miraron por la ventana hasta verlo desaparecer.",
+          "speech": "Los hermanos: ¡La casa sigue firme!",
+          "art": "Tired grey wolf walks away; three pigs watch from intact brick house window.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_05.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_05.timing.json",
+          "narration": "El lobo buscó una ventana abierta, pero todas estaban cerradas. Intentó otro soplido y tampoco pudo mover la casa. Cansado de intentarlo, se marchó. Los hermanos miraron por la ventana hasta verlo desaparecer. Los hermanos: ¡La casa sigue firme!"
+        },
+        {
+          "heading": "Aprender sin burlarse",
+          "text": "Los mayores agradecieron la ayuda. El menor no se burló de ellos: les explicó cómo había unido los ladrillos y reforzado la puerta. Juntos dibujaron un plan para construir dos casas más resistentes.",
+          "speech": "El menor: Si nos ayudamos, será más fácil.",
+          "art": "Three pigs gather around a simple house plan and building tools.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_06.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_06.timing.json",
+          "narration": "Los mayores agradecieron la ayuda. El menor no se burló de ellos: les explicó cómo había unido los ladrillos y reforzado la puerta. Juntos dibujaron un plan para construir dos casas más resistentes. El menor: Si nos ayudamos, será más fácil."
+        },
+        {
+          "heading": "Tres casas, un equipo",
+          "text": "Durante varios días, los tres trabajaron juntos. Al acabar, cada hermano tuvo una casa firme. También aprendieron que terminar deprisa no siempre es lo mejor y que compartir lo aprendido puede proteger a todos.",
+          "speech": "Los hermanos: ¡Ahora sí podemos jugar tranquilos!",
+          "art": "Three finished brick cottages with happy pig siblings playing in the shared meadow.",
+          "image": "res://assets/stories/tres_chanchitos.png",
+          "audio": "res://assets/audio/stories/tres_chanchitos/page_07.mp3",
+          "timings": "res://assets/audio/stories/tres_chanchitos/page_07.timing.json",
+          "narration": "Durante varios días, los tres trabajaron juntos. Al acabar, cada hermano tuvo una casa firme. También aprendieron que terminar deprisa no siempre es lo mejor y que compartir lo aprendido puede proteger a todos. Los hermanos: ¡Ahora sí podemos jugar tranquilos!"
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué materiales eligieron los hermanos?",
+          "choices": [
+            "Papel, hielo y cristal",
+            "Solo piedras",
+            "Paja, madera y ladrillos"
+          ],
+          "answer": "Paja, madera y ladrillos",
+          "explanation": "Cada hermano escogió uno de esos tres materiales para su casa.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/tres_chanchitos/question_00.mp3"
+        },
+        {
+          "prompt": "¿Dónde se refugiaron al caer la casa de madera?",
+          "choices": [
+            "En la casa del lobo",
+            "En la casa de ladrillos",
+            "En el río"
+          ],
+          "answer": "En la casa de ladrillos",
+          "explanation": "Los dos corrieron a la casa firme de su hermano.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/tres_chanchitos/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo al final el lobo?",
+          "choices": [
+            "Se marchó al no poder derribar la casa",
+            "Construyó una casa para ellos",
+            "Entró por una ventana abierta"
+          ],
+          "answer": "Se marchó al no poder derribar la casa",
+          "explanation": "Las ventanas estaban cerradas y los ladrillos resistieron los soplidos.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/tres_chanchitos/question_02.mp3"
+        },
+        {
+          "prompt": "¿Cómo ayudó el menor después del peligro?",
+          "choices": [
+            "Se burló de sus casas",
+            "Les quitó sus herramientas",
+            "Les enseñó a construir casas resistentes"
+          ],
+          "answer": "Les enseñó a construir casas resistentes",
+          "explanation": "Compartió lo que sabía y los tres trabajaron como un equipo.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/tres_chanchitos/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/tres-chanchitos-portada.svg",
+      "atlas": "res://assets/stories/tres_chanchitos.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "patito_feo",
       "title": "El Patito Feo",
-      "cover": "res://assets/cuentos/patito-feo-portada.svg",
-      "summary": "Una historia sobre crecer y encontrar tu lugar.",
+      "summary": "Un polluelo diferente busca compañía y aprende que todos merecen respeto.",
+      "characters": "Large fluffy grey cygnet with gentle eyes, smaller yellow ducklings, kind brown mother duck, white swans. Friendly lake storybook, warm spring and winter scenes.",
       "pages": [
         {
-          "heading": "Un polluelo diferente",
-          "text": "En una granja nacieron varios patitos. Uno era más grande y de plumaje distinto, y por eso se sentía fuera de lugar.",
-          "image": "res://assets/cuentos/patito-feo-portada.svg"
+          "heading": "Un huevo que tarda",
+          "text": "En una granja, una pata cuidaba su nido. Los huevos se abrieron y salieron pequeños patitos amarillos. El último huevo tardó más. Cuando se rompió, apareció un polluelo gris, más grande que los demás.",
+          "speech": "Mamá pata: Bienvenido, pequeño.",
+          "art": "Mother duck at nest with yellow ducklings as a larger grey cygnet hatches from the last egg.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_00.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_00.timing.json",
+          "narration": "En una granja, una pata cuidaba su nido. Los huevos se abrieron y salieron pequeños patitos amarillos. El último huevo tardó más. Cuando se rompió, apareció un polluelo gris, más grande que los demás. Mamá pata: Bienvenido, pequeño."
         },
         {
-          "heading": "El viaje",
-          "text": "El patito caminó junto al río y conoció nuevos paisajes. Aunque tuvo días difíciles, siguió adelante y no dejó de buscar compañía.",
-          "image": "res://assets/cuentos/patito-feo-portada.svg"
+          "heading": "Diferente, pero con ganas de jugar",
+          "text": "El polluelo gris quería nadar con sus hermanos. Algunos animales se burlaban de su tamaño y sus plumas. Él se sentía triste porque también quería jugar y ser tratado con amabilidad, igual que los demás.",
+          "speech": "El polluelo: Yo también quiero acompañarlos.",
+          "art": "Sad grey cygnet near pond while yellow ducklings swim nearby; kind mother notices.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_01.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_01.timing.json",
+          "narration": "El polluelo gris quería nadar con sus hermanos. Algunos animales se burlaban de su tamaño y sus plumas. Él se sentía triste porque también quería jugar y ser tratado con amabilidad, igual que los demás. El polluelo: Yo también quiero acompañarlos."
         },
         {
-          "heading": "Un nuevo comienzo",
-          "text": "Cuando llegó la primavera, vio su reflejo en el agua: había crecido y era un hermoso cisne. Por fin encontró una familia que lo recibió con alegría.",
-          "image": "res://assets/cuentos/patito-feo-portada.svg"
+          "heading": "Un camino junto al agua",
+          "text": "Al crecer, el polluelo decidió buscar un lugar tranquilo junto al río. Su madre se despidió con cariño. Caminó entre juncos y encontró aves distintas. Algunas le permitieron descansar y compartir la orilla.",
+          "speech": "Mamá pata: Cuídate y busca buena compañía.",
+          "art": "Grey cygnet walks along reeds beside river, looking toward peaceful birds ahead.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_02.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_02.timing.json",
+          "narration": "Al crecer, el polluelo decidió buscar un lugar tranquilo junto al río. Su madre se despidió con cariño. Caminó entre juncos y encontró aves distintas. Algunas le permitieron descansar y compartir la orilla. Mamá pata: Cuídate y busca buena compañía."
+        },
+        {
+          "heading": "Las aves del cielo",
+          "text": "Una tarde vio pasar unas aves blancas de cuellos largos. Nadaban con suavidad y luego levantaban el vuelo. Eran cisnes. El polluelo no sabía por qué le resultaban tan familiares, pero deseó volver a verlos.",
+          "speech": "El polluelo: ¡Qué bien nadan esas aves!",
+          "art": "Grey cygnet watches elegant white swans flying over a golden lake.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_03.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_03.timing.json",
+          "narration": "Una tarde vio pasar unas aves blancas de cuellos largos. Nadaban con suavidad y luego levantaban el vuelo. Eran cisnes. El polluelo no sabía por qué le resultaban tan familiares, pero deseó volver a verlos. El polluelo: ¡Qué bien nadan esas aves!"
+        },
+        {
+          "heading": "El invierno y la ayuda",
+          "text": "Llegó el frío y parte del agua se cubrió de hielo. El polluelo buscó refugio entre unas ramas. Una familia de patos de la granja cercana compartió agua y alimento con él hasta que regresaron los días más templados.",
+          "speech": "Una pata: Aquí puedes descansar mientras pasa el frío.",
+          "art": "A brown mother duck and yellow ducklings share food with sheltered grey cygnet beside a snowy pond, gentle safe winter scene.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_04.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_04.timing.json",
+          "narration": "Llegó el frío y parte del agua se cubrió de hielo. El polluelo buscó refugio entre unas ramas. Una familia de patos de la granja cercana compartió agua y alimento con él hasta que regresaron los días más templados. Una pata: Aquí puedes descansar mientras pasa el frío."
+        },
+        {
+          "heading": "Un reflejo distinto",
+          "text": "Con la primavera, el polluelo regresó al lago. Al mirar el agua, descubrió que sus plumas eran blancas y su cuello se había alargado. No se había convertido en otro animal: era un cisne que había crecido.",
+          "speech": "El joven cisne: ¡Ahora entiendo por qué era diferente!",
+          "art": "Young white swan looks at clear reflection in spring lake, blossoms and reeds around.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_05.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_05.timing.json",
+          "narration": "Con la primavera, el polluelo regresó al lago. Al mirar el agua, descubrió que sus plumas eran blancas y su cuello se había alargado. No se había convertido en otro animal: era un cisne que había crecido. El joven cisne: ¡Ahora entiendo por qué era diferente!"
+        },
+        {
+          "heading": "Un lugar en el grupo",
+          "text": "Los cisnes se acercaron y lo invitaron a nadar con ellos. Le mostraron dónde encontrar comida y descansar. El joven cisne sintió alegría al tener compañía que lo trataba con respeto, sin burlarse de sus diferencias.",
+          "speech": "Los cisnes: ¡Ven a nadar con nosotros!",
+          "art": "Group of friendly white swans welcomes the young swan into their lake.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_06.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_06.timing.json",
+          "narration": "Los cisnes se acercaron y lo invitaron a nadar con ellos. Le mostraron dónde encontrar comida y descansar. El joven cisne sintió alegría al tener compañía que lo trataba con respeto, sin burlarse de sus diferencias. Los cisnes: ¡Ven a nadar con nosotros!"
+        },
+        {
+          "heading": "Volver con una enseñanza",
+          "text": "Cuando visitó la granja, reconoció a su madre y la saludó con cariño. Recordó lo triste que había sido recibir burlas. Decidió tratar bien a todos: nadie necesita cambiar su aspecto para merecer amistad y respeto.",
+          "speech": "El cisne: Ser diferente no es algo malo.",
+          "art": "White swan warmly visits brown mother duck and yellow-grown ducks at the farm pond.",
+          "image": "res://assets/stories/patito_feo.png",
+          "audio": "res://assets/audio/stories/patito_feo/page_07.mp3",
+          "timings": "res://assets/audio/stories/patito_feo/page_07.timing.json",
+          "narration": "Cuando visitó la granja, reconoció a su madre y la saludó con cariño. Recordó lo triste que había sido recibir burlas. Decidió tratar bien a todos: nadie necesita cambiar su aspecto para merecer amistad y respeto. El cisne: Ser diferente no es algo malo."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Cómo era el polluelo del último huevo?",
+          "choices": [
+            "Azul y sin plumas",
+            "Gris y más grande",
+            "Amarillo y diminuto"
+          ],
+          "answer": "Gris y más grande",
+          "explanation": "El último huevo dio lugar a un polluelo de aspecto diferente a los patitos.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/patito_feo/question_00.mp3"
+        },
+        {
+          "prompt": "¿Quién lo ayudó durante el invierno?",
+          "choices": [
+            "Una familia de una granja cercana",
+            "Un lobo",
+            "Nadie se acercó"
+          ],
+          "answer": "Una familia de una granja cercana",
+          "explanation": "La familia le dejó agua y alimento mientras pasaba el frío.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/patito_feo/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué descubrió al crecer?",
+          "choices": [
+            "Que era una gallina",
+            "Que no podía nadar",
+            "Que era un cisne"
+          ],
+          "answer": "Que era un cisne",
+          "explanation": "Su reflejo mostraba las plumas blancas y el cuello largo de un cisne joven.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/patito_feo/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué enseñanza recuerda al final?",
+          "choices": [
+            "Hay que burlarse de quien es distinto",
+            "Todos merecen respeto aunque sean diferentes",
+            "Solo las aves blancas merecen amigos"
+          ],
+          "answer": "Todos merecen respeto aunque sean diferentes",
+          "explanation": "Recuerda las burlas y decide tratar bien a todos, sin fijarse en su aspecto.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/patito_feo/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/patito-feo-portada.svg",
+      "atlas": "res://assets/stories/patito_feo.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "el_zorro_y_la_estrella",
       "title": "El Zorro y la Estrella",
-      "cover": "res://assets/cuentos/valle-cuento.svg",
-      "summary": "Un zorrito ayuda a una estrella a volver al cielo.",
+      "summary": "Un zorrito reúne a sus amigos para ayudar a una estrella a regresar al cielo.",
+      "characters": "Small kind orange Andean fox with white chest, tiny glowing golden five-point star with a friendly face, brown vizcacha, large friendly Andean condor. Magical Andes at twilight, consistent cast.",
       "pages": [
         {
-          "heading": "Una luz en el valle",
-          "text": "Al caer la tarde, un zorrito vio una estrella que había bajado a descansar sobre una colina.",
-          "image": "res://assets/cuentos/valle-cuento.svg"
+          "heading": "Una luz entre los pastos",
+          "text": "Al atardecer, un zorrito encontró una lucecita dorada entre los pastos del valle. Era una estrella que había bajado demasiado. Quería regresar al cielo, pero desde el suelo no conseguía elevarse.",
+          "speech": "Estrella: Mis amigas me esperan allá arriba.",
+          "art": "Orange fox discovers tiny glowing golden star in tall grass beneath twilight Andes.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_00.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_00.timing.json",
+          "narration": "Al atardecer, un zorrito encontró una lucecita dorada entre los pastos del valle. Era una estrella que había bajado demasiado. Quería regresar al cielo, pero desde el suelo no conseguía elevarse. Estrella: Mis amigas me esperan allá arriba."
         },
         {
-          "heading": "Una promesa amable",
-          "text": "—Te ayudaré a volver al cielo —prometió el zorro. Juntos buscaron el camino más alto del valle.",
-          "image": "res://assets/cuentos/valle-cuento.svg"
+          "heading": "Una promesa pequeña",
+          "text": "El zorro se sentó cerca para escucharla. No podía volar, pero conocía los caminos de la montaña. Pensó que, desde un lugar más alto, la estrella tendría más posibilidades de volver a casa.",
+          "speech": "Zorro: Buscaremos ayuda y probaremos juntos.",
+          "art": "Fox speaks gently with glowing star, pointing toward a high mountain path.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_01.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_01.timing.json",
+          "narration": "El zorro se sentó cerca para escucharla. No podía volar, pero conocía los caminos de la montaña. Pensó que, desde un lugar más alto, la estrella tendría más posibilidades de volver a casa. Zorro: Buscaremos ayuda y probaremos juntos."
         },
         {
-          "heading": "Alas que ayudan",
-          "text": "En la montaña, el zorro llamó al cóndor. Con un suave aleteo, la estrella comenzó a subir.",
-          "image": "res://assets/cuentos/valle-cuento.svg"
+          "heading": "La colina no basta",
+          "text": "Primero subieron una colina. El zorro levantó a la estrella sobre una roca, pero ella volvió despacio al suelo. La altura todavía no era suficiente. En vez de rendirse, decidieron buscar otra manera.",
+          "speech": "Estrella: Gracias por intentarlo. ¿Qué más podemos hacer?",
+          "art": "Fox lifts star onto low hilltop rock, star floats just above the rock but cannot rise higher.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_02.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_02.timing.json",
+          "narration": "Primero subieron una colina. El zorro levantó a la estrella sobre una roca, pero ella volvió despacio al suelo. La altura todavía no era suficiente. En vez de rendirse, decidieron buscar otra manera. Estrella: Gracias por intentarlo. ¿Qué más podemos hacer?"
         },
         {
-          "heading": "Un saludo cada noche",
-          "text": "Desde entonces, cada noche la estrella brilla para saludar a su nuevo amigo. El zorro sonríe desde el valle.",
-          "image": "res://assets/cuentos/valle-cuento.svg"
+          "heading": "La vizcacha conoce un sendero",
+          "text": "Una vizcacha los vio y preguntó qué pasaba. Les enseñó un sendero seguro que llegaba a la cima. Era más largo que una cuesta empinada, pero permitiría avanzar sin acercarse al borde del precipicio.",
+          "speech": "Vizcacha: Por aquí iremos con más cuidado.",
+          "art": "Brown vizcacha shows fox and star a winding safe mountain path away from cliffs.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_03.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_03.timing.json",
+          "narration": "Una vizcacha los vio y preguntó qué pasaba. Les enseñó un sendero seguro que llegaba a la cima. Era más largo que una cuesta empinada, pero permitiría avanzar sin acercarse al borde del precipicio. Vizcacha: Por aquí iremos con más cuidado."
+        },
+        {
+          "heading": "Pedir ayuda al cóndor",
+          "text": "En la cima encontraron a un cóndor. El zorro explicó que su amiga necesitaba subir más alto. El cóndor podía volar sobre las nubes y aceptó ayudar. La estrella se acomodó con cuidado entre sus plumas.",
+          "speech": "Cóndor: Yo puedo llevarte un poco más cerca del cielo.",
+          "art": "Friendly Andean condor bends beside fox so glowing star can settle safely among its back feathers.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_04.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_04.timing.json",
+          "narration": "En la cima encontraron a un cóndor. El zorro explicó que su amiga necesitaba subir más alto. El cóndor podía volar sobre las nubes y aceptó ayudar. La estrella se acomodó con cuidado entre sus plumas. Cóndor: Yo puedo llevarte un poco más cerca del cielo."
+        },
+        {
+          "heading": "El vuelo sobre las nubes",
+          "text": "El cóndor abrió sus alas y aprovechó una corriente de aire. Voló por encima de las nubes. Allí, la estrella sintió de nuevo el impulso que necesitaba y comenzó a subir por sí misma, brillando cada vez más.",
+          "speech": "Estrella: ¡Ya puedo seguir sola!",
+          "art": "Condor soars above soft clouds while golden star rises from its back into the night sky.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_05.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_05.timing.json",
+          "narration": "El cóndor abrió sus alas y aprovechó una corriente de aire. Voló por encima de las nubes. Allí, la estrella sintió de nuevo el impulso que necesitaba y comenzó a subir por sí misma, brillando cada vez más. Estrella: ¡Ya puedo seguir sola!"
+        },
+        {
+          "heading": "Gracias desde lo alto",
+          "text": "Antes de reunirse con las otras estrellas, la pequeña luz dio tres destellos. Era su manera de agradecer la ayuda. Abajo, el zorro y la vizcacha vieron el saludo y esperaron el regreso del cóndor.",
+          "speech": "Zorro: ¡Lo conseguimos entre todos!",
+          "art": "Fox and vizcacha watch three bright star twinkles from mountain top as condor returns.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_06.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_06.timing.json",
+          "narration": "Antes de reunirse con las otras estrellas, la pequeña luz dio tres destellos. Era su manera de agradecer la ayuda. Abajo, el zorro y la vizcacha vieron el saludo y esperaron el regreso del cóndor. Zorro: ¡Lo conseguimos entre todos!"
+        },
+        {
+          "heading": "Amigos cada noche",
+          "text": "Desde entonces, el zorro mira al cielo al terminar el día. Siempre encuentra una estrella que le guiña su luz. Recuerda que escuchar, probar otra idea y pedir ayuda pueden convertir un problema grande en una tarea compartida.",
+          "speech": "Zorro: Buenas noches, amiga estrella.",
+          "art": "Fox rests peacefully in Andean meadow looking at his glowing star friend in a clear night sky.",
+          "image": "res://assets/stories/el_zorro_y_la_estrella.png",
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/page_07.mp3",
+          "timings": "res://assets/audio/stories/el_zorro_y_la_estrella/page_07.timing.json",
+          "narration": "Desde entonces, el zorro mira al cielo al terminar el día. Siempre encuentra una estrella que le guiña su luz. Recuerda que escuchar, probar otra idea y pedir ayuda pueden convertir un problema grande en una tarea compartida. Zorro: Buenas noches, amiga estrella."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué necesitaba la estrella?",
+          "choices": [
+            "Volver al cielo",
+            "Construir una casa",
+            "Aprender a nadar"
+          ],
+          "answer": "Volver al cielo",
+          "explanation": "Había bajado al valle y no podía elevarse desde el suelo.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué ayuda ofreció la vizcacha?",
+          "choices": [
+            "Un bote para el río",
+            "Una casa de paja",
+            "Un sendero seguro a la cima"
+          ],
+          "answer": "Un sendero seguro a la cima",
+          "explanation": "La vizcacha conocía un camino más largo, pero seguro.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/question_01.mp3"
+        },
+        {
+          "prompt": "¿Quién llevó a la estrella sobre las nubes?",
+          "choices": [
+            "La vizcacha",
+            "El cóndor",
+            "El zorro"
+          ],
+          "answer": "El cóndor",
+          "explanation": "El cóndor podía volar a la altura que la estrella necesitaba.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/question_02.mp3"
+        },
+        {
+          "prompt": "¿Por qué pudieron resolver el problema?",
+          "choices": [
+            "Porque combinaron distintas ayudas",
+            "Porque el zorro lo hizo todo solo",
+            "Porque dejaron de escuchar a la estrella"
+          ],
+          "answer": "Porque combinaron distintas ayudas",
+          "explanation": "El zorro acompañó, la vizcacha guio y el cóndor voló. Cada uno aportó algo.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/el_zorro_y_la_estrella/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/valle-cuento.svg",
+      "atlas": "res://assets/stories/el_zorro_y_la_estrella.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "liebre_y_tortuga",
       "title": "La Liebre y la Tortuga",
-      "cover": "res://assets/cuentos/liebre-tortuga-portada.svg",
-      "summary": "Una carrera que enseña a avanzar con paciencia.",
+      "summary": "Una carrera muestra la diferencia entre confiarse y avanzar con constancia.",
+      "characters": "Fast light-brown hare with long ears and green scarf, calm green tortoise with patterned shell, forest animals watching a countryside race toward an old oak tree.",
       "pages": [
         {
-          "heading": "El desafío",
-          "text": "La liebre se burlaba de la tortuga por caminar despacio. Un día, la tortuga la invitó a correr una carrera hasta el gran roble.",
-          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+          "heading": "Una burla en el camino",
+          "text": "La liebre saltaba por el campo y presumía de sus largas patas. Al ver caminar a la tortuga, se rio de su lentitud. La tortuga le recordó que cada animal se mueve de una manera distinta.",
+          "speech": "Tortuga: Ir despacio no significa que no pueda llegar.",
+          "art": "Hare with green scarf boasts near a calm tortoise on a country path.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_00.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_00.timing.json",
+          "narration": "La liebre saltaba por el campo y presumía de sus largas patas. Al ver caminar a la tortuga, se rio de su lentitud. La tortuga le recordó que cada animal se mueve de una manera distinta. Tortuga: Ir despacio no significa que no pueda llegar."
+        },
+        {
+          "heading": "El reto de la carrera",
+          "text": "La liebre propuso una carrera hasta el gran roble. La tortuga aceptó. Los animales marcaron la salida y acordaron seguir el mismo sendero. Ganaría quien cruzara primero la línea junto al árbol.",
+          "speech": "Tortuga: Haré todo el recorrido sin abandonar.",
+          "art": "Forest animals mark starting line for hare and tortoise, distant oak tree finish visible.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_01.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_01.timing.json",
+          "narration": "La liebre propuso una carrera hasta el gran roble. La tortuga aceptó. Los animales marcaron la salida y acordaron seguir el mismo sendero. Ganaría quien cruzara primero la línea junto al árbol. Tortuga: Haré todo el recorrido sin abandonar."
+        },
+        {
+          "heading": "Dos maneras de avanzar",
+          "text": "Al oír la señal, la liebre salió muy deprisa. La tortuga dio sus primeros pasos, cortos y firmes. Pronto, la liebre dejó de verla detrás de una curva y creyó que ya tenía la victoria asegurada.",
+          "speech": "Liebre: Tengo tiempo de sobra.",
+          "art": "Hare races far ahead along winding path while tortoise steadily starts behind.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_02.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_02.timing.json",
+          "narration": "Al oír la señal, la liebre salió muy deprisa. La tortuga dio sus primeros pasos, cortos y firmes. Pronto, la liebre dejó de verla detrás de una curva y creyó que ya tenía la victoria asegurada. Liebre: Tengo tiempo de sobra."
+        },
+        {
+          "heading": "Una siesta de más",
+          "text": "La liebre encontró una sombra fresca y se acostó. Pensó que podría descansar un momento y correr después. Cerró los ojos y se quedó dormida. La tortuga, entretanto, seguía avanzando por el sendero.",
+          "speech": "Liebre: Solo cerraré los ojos un ratito.",
+          "art": "Hare sleeps beneath shady bush as tortoise approaches along the sunny path.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_03.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_03.timing.json",
+          "narration": "La liebre encontró una sombra fresca y se acostó. Pensó que podría descansar un momento y correr después. Cerró los ojos y se quedó dormida. La tortuga, entretanto, seguía avanzando por el sendero. Liebre: Solo cerraré los ojos un ratito."
         },
         {
           "heading": "Paso a paso",
-          "text": "La liebre salió veloz y pronto tomó mucha ventaja. Segura de que ganaría, se detuvo bajo un árbol para descansar, mientras la tortuga siguió avanzando sin parar.",
-          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+          "text": "La tortuga pasó junto a la liebre dormida. No se detuvo a burlarse ni cambió de camino. Descansaba unos instantes cuando lo necesitaba y continuaba. El roble de la meta se veía cada vez más cerca.",
+          "speech": "Tortuga: Un paso más y después otro.",
+          "art": "Tortoise steadily passes sleeping hare, with oak finish getting closer.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_04.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_04.timing.json",
+          "narration": "La tortuga pasó junto a la liebre dormida. No se detuvo a burlarse ni cambió de camino. Descansaba unos instantes cuando lo necesitaba y continuaba. El roble de la meta se veía cada vez más cerca. Tortuga: Un paso más y después otro."
         },
         {
-          "heading": "La meta",
-          "text": "Cuando la liebre despertó, la tortuga estaba muy cerca del roble. La tortuga cruzó primero la meta y todos celebraron su constancia.",
-          "image": "res://assets/cuentos/liebre-tortuga-portada.svg"
+          "heading": "La liebre despierta",
+          "text": "Unos aplausos despertaron a la liebre. Al levantar la cabeza, vio a la tortuga cerca de la meta. Se puso de pie y corrió con todas sus fuerzas. Esta vez ya no podía recuperar el tiempo perdido.",
+          "speech": "Liebre: ¡Me he quedado dormida demasiado tiempo!",
+          "art": "Startled hare wakes and rushes toward distant tortoise nearing finish line.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_05.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_05.timing.json",
+          "narration": "Unos aplausos despertaron a la liebre. Al levantar la cabeza, vio a la tortuga cerca de la meta. Se puso de pie y corrió con todas sus fuerzas. Esta vez ya no podía recuperar el tiempo perdido. Liebre: ¡Me he quedado dormida demasiado tiempo!"
+        },
+        {
+          "heading": "La llegada al roble",
+          "text": "La tortuga cruzó primero la línea del gran roble. Los animales celebraron su esfuerzo. La liebre llegó poco después, cansada y sorprendida. Comprendió que ser rápida no bastaba si dejaba de prestar atención a la carrera.",
+          "speech": "Liebre: Felicidades. Seguiste adelante hasta el final.",
+          "art": "Tortoise crosses finish by oak tree while forest animals applaud and hare arrives behind.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_06.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_06.timing.json",
+          "narration": "La tortuga cruzó primero la línea del gran roble. Los animales celebraron su esfuerzo. La liebre llegó poco después, cansada y sorprendida. Comprendió que ser rápida no bastaba si dejaba de prestar atención a la carrera. Liebre: Felicidades. Seguiste adelante hasta el final."
+        },
+        {
+          "heading": "Una nueva forma de correr",
+          "text": "La liebre pidió disculpas por la burla. La tortuga aceptó y ambas regresaron caminando. Habían aprendido que comparar para humillar no ayuda, y que la constancia permite aprovechar las capacidades de cada uno.",
+          "speech": "Tortuga: Podemos entrenar juntas sin burlarnos.",
+          "art": "Hare and tortoise smile and walk home side by side on peaceful country path.",
+          "image": "res://assets/stories/liebre_y_tortuga.png",
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/page_07.mp3",
+          "timings": "res://assets/audio/stories/liebre_y_tortuga/page_07.timing.json",
+          "narration": "La liebre pidió disculpas por la burla. La tortuga aceptó y ambas regresaron caminando. Habían aprendido que comparar para humillar no ayuda, y que la constancia permite aprovechar las capacidades de cada uno. Tortuga: Podemos entrenar juntas sin burlarnos."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Dónde estaba la meta?",
+          "choices": [
+            "Dentro de una cueva",
+            "Al otro lado del mar",
+            "Junto al gran roble"
+          ],
+          "answer": "Junto al gran roble",
+          "explanation": "Los animales acordaron la llegada junto al árbol.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo la liebre al llevar ventaja?",
+          "choices": [
+            "Ayudó a marcar la salida",
+            "Se acostó a dormir",
+            "Siguió corriendo sin parar"
+          ],
+          "answer": "Se acostó a dormir",
+          "explanation": "Se confió y pensó que le sobraba tiempo para una siesta.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/question_01.mp3"
+        },
+        {
+          "prompt": "¿Quién llegó primero?",
+          "choices": [
+            "La tortuga",
+            "La liebre",
+            "Llegaron al mismo tiempo"
+          ],
+          "answer": "La tortuga",
+          "explanation": "La tortuga mantuvo su avance y cruzó la línea antes.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué ayudó a ganar a la tortuga?",
+          "choices": [
+            "Tener las patas más largas",
+            "Cambiarse a un camino secreto",
+            "Avanzar con constancia"
+          ],
+          "answer": "Avanzar con constancia",
+          "explanation": "Siguió el mismo sendero y continuó paso a paso mientras la liebre dormía.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/liebre_y_tortuga/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/liebre-tortuga-portada.svg",
+      "atlas": "res://assets/stories/liebre_y_tortuga.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "leon_y_raton",
       "title": "El León y el Ratón",
-      "cover": "res://assets/cuentos/leon-raton-portada.svg",
-      "summary": "Una pequeña amistad demuestra que todos pueden ayudar.",
+      "summary": "Un animal pequeño demuestra que también puede ofrecer una gran ayuda.",
+      "characters": "Friendly large golden lion with warm brown mane and tiny grey mouse with pink ears. Sunny woodland clearing and a simple rope net, no injuries or threatening violence.",
       "pages": [
         {
-          "heading": "Un encuentro inesperado",
-          "text": "Un ratoncito despertó al león sin querer. El león lo atrapó, pero el ratón le pidió una oportunidad y prometió ayudarlo algún día.",
-          "image": "res://assets/cuentos/leon-raton-portada.svg"
+          "heading": "Un salto inesperado",
+          "text": "Un león dormía a la sombra de un árbol. Un ratoncito que jugaba entre las hojas saltó sin mirar y cayó sobre su pata. El león despertó sobresaltado y el ratón se quedó muy quieto.",
+          "speech": "Ratón: Perdón, no quise despertarte.",
+          "art": "Tiny grey mouse accidentally lands on paw of sleeping golden lion beneath a tree.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_00.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_00.timing.json",
+          "narration": "Un león dormía a la sombra de un árbol. Un ratoncito que jugaba entre las hojas saltó sin mirar y cayó sobre su pata. El león despertó sobresaltado y el ratón se quedó muy quieto. Ratón: Perdón, no quise despertarte."
         },
         {
-          "heading": "El león en apuros",
-          "text": "Tiempo después, el león quedó atrapado en una red. Rugió con fuerza, pero no pudo liberarse de las cuerdas.",
-          "image": "res://assets/cuentos/leon-raton-portada.svg"
+          "heading": "Una oportunidad para marcharse",
+          "text": "El león escuchó la disculpa. Vio que el ratón no quería hacerle daño y apartó su pata para dejarlo salir. El pequeño agradeció el gesto y prometió ayudarlo si alguna vez lo necesitaba.",
+          "speech": "Ratón: Quizá un día pueda ayudarte yo.",
+          "art": "Kind lion gently moves paw aside to let thankful tiny mouse go free.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_01.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_01.timing.json",
+          "narration": "El león escuchó la disculpa. Vio que el ratón no quería hacerle daño y apartó su pata para dejarlo salir. El pequeño agradeció el gesto y prometió ayudarlo si alguna vez lo necesitaba. Ratón: Quizá un día pueda ayudarte yo."
         },
         {
-          "heading": "Una ayuda valiosa",
-          "text": "El ratón escuchó el rugido y corrió a ayudar. Con sus dientes roió la red hasta abrir un camino. El león agradeció a su pequeño amigo.",
-          "image": "res://assets/cuentos/leon-raton-portada.svg"
+          "heading": "Una risa que no entiende",
+          "text": "El león sonrió: le costaba imaginar cómo un animal tan pequeño podría ayudar a alguien tan grande. El ratón no discutió. Se despidió y volvió a su madriguera, decidido a cumplir su promesa si se presentaba la ocasión.",
+          "speech": "León: ¿Tú, tan pequeñito, podrías ayudarme?",
+          "art": "Lion smiles in surprise while mouse confidently gestures beside his large paw.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_02.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_02.timing.json",
+          "narration": "El león sonrió: le costaba imaginar cómo un animal tan pequeño podría ayudar a alguien tan grande. El ratón no discutió. Se despidió y volvió a su madriguera, decidido a cumplir su promesa si se presentaba la ocasión. León: ¿Tú, tan pequeñito, podrías ayudarme?"
+        },
+        {
+          "heading": "Una red entre los árboles",
+          "text": "Días después, el león pisó una red de cuerdas que se cerró a su alrededor. Intentó soltarse, pero cuanto más tiraba, más se enredaban los nudos. Se detuvo y rugió para pedir ayuda.",
+          "speech": "León: ¡Necesito que alguien desate estas cuerdas!",
+          "art": "Unhurt lion sits tangled in a simple rope net beneath trees, calling for help.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_03.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_03.timing.json",
+          "narration": "Días después, el león pisó una red de cuerdas que se cerró a su alrededor. Intentó soltarse, pero cuanto más tiraba, más se enredaban los nudos. Se detuvo y rugió para pedir ayuda. León: ¡Necesito que alguien desate estas cuerdas!"
+        },
+        {
+          "heading": "El ratón reconoce la voz",
+          "text": "Desde su madriguera, el ratón escuchó aquel rugido. Corrió hasta el árbol y reconoció al león. Observó la red y encontró una cuerda delgada que mantenía unidos varios nudos. Sus dientes podían cortarla.",
+          "speech": "Ratón: Quédate quieto. Voy a intentarlo.",
+          "art": "Mouse arrives and inspects one thin rope knot beside trapped lion.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_04.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_04.timing.json",
+          "narration": "Desde su madriguera, el ratón escuchó aquel rugido. Corrió hasta el árbol y reconoció al león. Observó la red y encontró una cuerda delgada que mantenía unidos varios nudos. Sus dientes podían cortarla. Ratón: Quédate quieto. Voy a intentarlo."
+        },
+        {
+          "heading": "Un trabajo de pequeños mordiscos",
+          "text": "El ratón mordió la cuerda una y otra vez. No podía romperla de golpe, pero fue separando sus fibras. Al fin, un nudo se abrió. Después cortó otra cuerda y la red quedó lo bastante suelta.",
+          "speech": "Ratón: ¡Ya casi está!",
+          "art": "Close scene of tiny mouse gnawing rope fibers until one knot opens; lion waits calmly.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_05.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_05.timing.json",
+          "narration": "El ratón mordió la cuerda una y otra vez. No podía romperla de golpe, pero fue separando sus fibras. Al fin, un nudo se abrió. Después cortó otra cuerda y la red quedó lo bastante suelta. Ratón: ¡Ya casi está!"
+        },
+        {
+          "heading": "El león vuelve a levantarse",
+          "text": "El león sacó una pata, luego otra, y salió de la red. Dio las gracias al ratón. Ahora entendía que un cuerpo grande no sirve para todas las tareas y que el pequeño tenía habilidades muy valiosas.",
+          "speech": "León: Tus dientes hicieron lo que mi fuerza no podía.",
+          "art": "Freed lion stands beside fallen rope net and thanks tiny mouse.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_06.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_06.timing.json",
+          "narration": "El león sacó una pata, luego otra, y salió de la red. Dio las gracias al ratón. Ahora entendía que un cuerpo grande no sirve para todas las tareas y que el pequeño tenía habilidades muy valiosas. León: Tus dientes hicieron lo que mi fuerza no podía."
+        },
+        {
+          "heading": "Amigos de tamaños distintos",
+          "text": "Desde ese día se saludaron cada vez que se encontraban. El león dejó de juzgar la ayuda por el tamaño de quien la ofrecía. El ratón supo que su promesa había sido importante y que todos podemos aportar algo.",
+          "speech": "Ratón: Lo importante es ayudarnos cuando hace falta.",
+          "art": "Lion and mouse share shade under a tree, smiling as unlikely friends.",
+          "image": "res://assets/stories/leon_y_raton.png",
+          "audio": "res://assets/audio/stories/leon_y_raton/page_07.mp3",
+          "timings": "res://assets/audio/stories/leon_y_raton/page_07.timing.json",
+          "narration": "Desde ese día se saludaron cada vez que se encontraban. El león dejó de juzgar la ayuda por el tamaño de quien la ofrecía. El ratón supo que su promesa había sido importante y que todos podemos aportar algo. Ratón: Lo importante es ayudarnos cuando hace falta."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué despertó el león al principio?",
+          "choices": [
+            "Una red lo levantó",
+            "El ratón cayó sobre su pata",
+            "Comenzó a nevar"
+          ],
+          "answer": "El ratón cayó sobre su pata",
+          "explanation": "El ratón jugaba entre las hojas y saltó sin mirar.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/leon_y_raton/question_00.mp3"
+        },
+        {
+          "prompt": "¿Cómo quedó atrapado el león?",
+          "choices": [
+            "En una red de cuerdas",
+            "En una caja de cartón",
+            "En un río helado"
+          ],
+          "answer": "En una red de cuerdas",
+          "explanation": "Pisó una red y sus nudos se cerraron alrededor de él.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/leon_y_raton/question_01.mp3"
+        },
+        {
+          "prompt": "¿Cómo lo liberó el ratón?",
+          "choices": [
+            "Empujó el árbol",
+            "Llevó una llave",
+            "Cortó las cuerdas con sus dientes"
+          ],
+          "answer": "Cortó las cuerdas con sus dientes",
+          "explanation": "Separó las fibras de las cuerdas hasta aflojar la red.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/leon_y_raton/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué aprendió el león?",
+          "choices": [
+            "Pedir ayuda siempre es malo",
+            "El tamaño no decide quién puede ayudar",
+            "Solo los animales grandes son útiles"
+          ],
+          "answer": "El tamaño no decide quién puede ayudar",
+          "explanation": "Los dientes del ratón pudieron resolver lo que la fuerza del león no resolvía.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/leon_y_raton/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/leon-raton-portada.svg",
+      "atlas": "res://assets/stories/leon_y_raton.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "pinocho",
       "title": "Pinocho",
-      "cover": "res://assets/cuentos/pinocho-portada.svg",
-      "summary": "Un muñeco de madera aprende a decir la verdad.",
+      "summary": "Un muñeco aprende a decir la verdad y a hacerse responsable de sus decisiones.",
+      "characters": "An original little carved wooden marionette wearing full-length blue overalls over a cream long-sleeved shirt and a red cloth cap in every scene; kindly white-haired carpenter with glasses; tiny cricket; friendly fairy in a long blue robe. Fresh original children's book designs.",
       "pages": [
         {
-          "heading": "Un muñeco cobra vida",
-          "text": "Geppetto talló un muñeco de madera llamado Pinocho. Para su sorpresa, el muñeco comenzó a caminar y quiso conocer el mundo.",
-          "image": "res://assets/cuentos/pinocho-portada.svg"
+          "heading": "Un muñeco en el taller",
+          "text": "El carpintero Gepeto talló un muñeco de madera y lo llamó Pinocho. Aquella noche, un hada le dio movimiento y voz. Gepeto se alegró al verlo caminar y decidió cuidarlo como a un hijo.",
+          "speech": "Gepeto: Aprenderemos muchas cosas juntos.",
+          "art": "Kind carpenter in a warm woodshop greets a newly living wooden puppet boy while gentle blue fairy glows nearby.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_00.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_00.timing.json",
+          "narration": "El carpintero Gepeto talló un muñeco de madera y lo llamó Pinocho. Aquella noche, un hada le dio movimiento y voz. Gepeto se alegró al verlo caminar y decidió cuidarlo como a un hijo. Gepeto: Aprenderemos muchas cosas juntos."
         },
         {
-          "heading": "Una elección difícil",
-          "text": "En el camino, Pinocho tuvo muchas distracciones. Cuando no decía la verdad, comprendía que sus decisiones podían traerle problemas.",
-          "image": "res://assets/cuentos/pinocho-portada.svg"
+          "heading": "El camino a la escuela",
+          "text": "Gepeto preparó unos libros para que Pinocho pudiera ir a la escuela. Antes de salir, un grillo le aconsejó pensar en las consecuencias de sus decisiones. Pinocho prometió regresar después de las clases.",
+          "speech": "Grillo: Si dudas, busca un consejo de confianza.",
+          "art": "Wooden boy with books leaves carpenter's cottage accompanied by a tiny cricket.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_01.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_01.timing.json",
+          "narration": "Gepeto preparó unos libros para que Pinocho pudiera ir a la escuela. Antes de salir, un grillo le aconsejó pensar en las consecuencias de sus decisiones. Pinocho prometió regresar después de las clases. Grillo: Si dudas, busca un consejo de confianza."
         },
         {
-          "heading": "Aprender y cuidar",
-          "text": "Pinocho decidió ser sincero y ayudar a Geppetto. Con valentía y cariño, demostró que estaba aprendiendo a ser responsable.",
-          "image": "res://assets/cuentos/pinocho-portada.svg"
+          "heading": "Una música tentadora",
+          "text": "En una plaza sonaba música de un teatro. Pinocho se detuvo y olvidó la escuela. Pasó la mañana mirando funciones y jugando. Cuando vio la hora, se preocupó: Gepeto pensaría que todavía estaba en clase.",
+          "speech": "Pinocho: Me distraje y no cumplí mi promesa.",
+          "art": "Puppet boy stops at a colorful outdoor puppet theater while school path lies behind him.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_02.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_02.timing.json",
+          "narration": "En una plaza sonaba música de un teatro. Pinocho se detuvo y olvidó la escuela. Pasó la mañana mirando funciones y jugando. Cuando vio la hora, se preocupó: Gepeto pensaría que todavía estaba en clase. Pinocho: Me distraje y no cumplí mi promesa."
+        },
+        {
+          "heading": "Una mentira que se nota",
+          "text": "El hada lo encontró junto a la plaza y preguntó por sus libros. Pinocho dijo que había estado en la escuela. Al mentir, su nariz de madera creció. Inventó otra excusa y la nariz creció un poco más.",
+          "speech": "Hada: Decir la verdad es el primer paso para arreglarlo.",
+          "art": "Blue fairy listens to embarrassed puppet boy whose wooden nose has grown long; books rest nearby.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_03.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_03.timing.json",
+          "narration": "El hada lo encontró junto a la plaza y preguntó por sus libros. Pinocho dijo que había estado en la escuela. Al mentir, su nariz de madera creció. Inventó otra excusa y la nariz creció un poco más. Hada: Decir la verdad es el primer paso para arreglarlo."
+        },
+        {
+          "heading": "Contarlo y reparar",
+          "text": "Pinocho respiró hondo y contó lo que había pasado. Su nariz volvió a su tamaño. Regresó al taller para disculparse, pero una vecina explicó que Gepeto había salido a buscarlo cerca del puerto.",
+          "speech": "Pinocho: Debí avisar. Ahora iré a encontrarlo.",
+          "art": "Boy with normal nose speaks honestly to fairy then reaches empty workshop with helpful neighbor.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_04.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_04.timing.json",
+          "narration": "Pinocho respiró hondo y contó lo que había pasado. Su nariz volvió a su tamaño. Regresó al taller para disculparse, pero una vecina explicó que Gepeto había salido a buscarlo cerca del puerto. Pinocho: Debí avisar. Ahora iré a encontrarlo."
+        },
+        {
+          "heading": "Una barca entre las olas",
+          "text": "En el puerto, Pinocho vio la barca de Gepeto junto a un muelle. El viento la había alejado y una cuerda estaba enredada. Con ayuda de una pescadora, Pinocho lanzó una soga y la sujetó al muelle.",
+          "speech": "Pescadora: Tira conmigo cuando te avise.",
+          "art": "Wooden boy and fisherwoman safely pull a rope from sturdy dock to Geppetto's small nearby boat.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_05.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_05.timing.json",
+          "narration": "En el puerto, Pinocho vio la barca de Gepeto junto a un muelle. El viento la había alejado y una cuerda estaba enredada. Con ayuda de una pescadora, Pinocho lanzó una soga y la sujetó al muelle. Pescadora: Tira conmigo cuando te avise."
+        },
+        {
+          "heading": "Volver a estar juntos",
+          "text": "Entre los dos acercaron la barca. Gepeto subió al muelle y abrazó a Pinocho. El niño contó la verdad sin buscar excusas. También explicó cómo pensaba recuperar la clase perdida y avisar si volvía a retrasarse.",
+          "speech": "Gepeto: Gracias por hablar con sinceridad.",
+          "art": "Geppetto embraces puppet boy on safe dock while fisherwoman smiles beside secured boat.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_06.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_06.timing.json",
+          "narration": "Entre los dos acercaron la barca. Gepeto subió al muelle y abrazó a Pinocho. El niño contó la verdad sin buscar excusas. También explicó cómo pensaba recuperar la clase perdida y avisar si volvía a retrasarse. Gepeto: Gracias por hablar con sinceridad."
+        },
+        {
+          "heading": "Aprender todos los días",
+          "text": "El hada vio que Pinocho empezaba a actuar con honestidad y cuidado. Con su magia lo convirtió en un niño. Pinocho volvió a la escuela, sabiendo que hacerse responsable de los errores requiere practicar cada día.",
+          "speech": "Pinocho: Puedo equivocarme y también aprender a repararlo.",
+          "art": "Fully clothed schoolboy wearing full-length blue overalls, cream long-sleeved shirt and red cloth cap walks to school with books; Geppetto and cricket wave goodbye.",
+          "image": "res://assets/stories/pinocho.png",
+          "audio": "res://assets/audio/stories/pinocho/page_07.mp3",
+          "timings": "res://assets/audio/stories/pinocho/page_07.timing.json",
+          "narration": "El hada vio que Pinocho empezaba a actuar con honestidad y cuidado. Con su magia lo convirtió en un niño. Pinocho volvió a la escuela, sabiendo que hacerse responsable de los errores requiere practicar cada día. Pinocho: Puedo equivocarme y también aprender a repararlo."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Quién construyó a Pinocho?",
+          "choices": [
+            "Gepeto, el carpintero",
+            "Una pescadora",
+            "El grillo"
+          ],
+          "answer": "Gepeto, el carpintero",
+          "explanation": "Gepeto talló al muñeco de madera en su taller.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/pinocho/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué ocurrió cuando Pinocho mintió?",
+          "choices": [
+            "Sus libros desaparecieron",
+            "Se quedó sin zapatos",
+            "Su nariz creció"
+          ],
+          "answer": "Su nariz creció",
+          "explanation": "La nariz de madera crecía con cada excusa falsa.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/pinocho/question_01.mp3"
+        },
+        {
+          "prompt": "¿Quién ayudó a acercar la barca de Gepeto?",
+          "choices": [
+            "Un lobo",
+            "Pinocho y una pescadora",
+            "Solo el grillo"
+          ],
+          "answer": "Pinocho y una pescadora",
+          "explanation": "Los dos tiraron de una soga desde el muelle.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/pinocho/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo Pinocho para empezar a reparar su error?",
+          "choices": [
+            "Contó la verdad y buscó una solución",
+            "Inventó más excusas",
+            "Culpó a los libros"
+          ],
+          "answer": "Contó la verdad y buscó una solución",
+          "explanation": "Reconoció que faltó a clase y propuso cómo recuperar lo perdido.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/pinocho/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/pinocho-portada.svg",
+      "atlas": "res://assets/stories/pinocho.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "hansel_y_gretel",
       "title": "Hansel y Gretel",
-      "cover": "res://assets/cuentos/hansel-gretel-portada.svg",
-      "summary": "Dos hermanos se cuidan mientras encuentran el camino a casa.",
+      "summary": "Dos hermanos se acompañan, descubren un engaño y buscan un regreso seguro.",
+      "characters": "Two young siblings Hansel in green vest and Gretel in blue dress with braids, kind woodcutter father, crooked candy-house owner in purple apron. Forest adventure without frightening violence or gore.",
       "pages": [
         {
-          "heading": "Hermanos unidos",
-          "text": "Hansel y Gretel se adentraron en el bosque y pronto descubrieron una casita decorada con dulces. Decidieron observarla con cuidado.",
-          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+          "heading": "Un paseo con su padre",
+          "text": "Hansel y Gretel acompañaron a su padre a recoger leña. Él les pidió esperar junto a un árbol mientras revisaba un sendero. Los hermanos vieron unas bayas y se alejaron sin avisar para mirarlas más de cerca.",
+          "speech": "Gretel: No nos alejemos mucho del árbol.",
+          "art": "Woodcutter father points to waiting tree while two siblings notice berries along a woodland path.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_00.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_00.timing.json",
+          "narration": "Hansel y Gretel acompañaron a su padre a recoger leña. Él les pidió esperar junto a un árbol mientras revisaba un sendero. Los hermanos vieron unas bayas y se alejaron sin avisar para mirarlas más de cerca. Gretel: No nos alejemos mucho del árbol."
         },
         {
-          "heading": "Pensar con valentía",
-          "text": "Dentro de la casa encontraron una situación peligrosa. Los hermanos se mantuvieron unidos, pensaron con calma y buscaron la forma de salir.",
-          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+          "heading": "El sendero desaparece",
+          "text": "Al intentar volver, todos los árboles les parecían iguales. Hansel dejó caer migas de pan para recordar por dónde iban. Pero unos pájaros se comieron las migas. Cuando los hermanos miraron atrás, el rastro había desaparecido.",
+          "speech": "Hansel: Nos hemos perdido. Sigamos juntos.",
+          "art": "Hansel drops breadcrumbs while birds eat them behind the siblings in a dense forest.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_01.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_01.timing.json",
+          "narration": "Al intentar volver, todos los árboles les parecían iguales. Hansel dejó caer migas de pan para recordar por dónde iban. Pero unos pájaros se comieron las migas. Cuando los hermanos miraron atrás, el rastro había desaparecido. Hansel: Nos hemos perdido. Sigamos juntos."
         },
         {
-          "heading": "De vuelta en casa",
-          "text": "Hansel y Gretel encontraron el camino de regreso. Se alegraron de estar juntos y recordaron que pedir ayuda y cuidarse es muy importante.",
-          "image": "res://assets/cuentos/hansel-gretel-portada.svg"
+          "heading": "Una casa de dulces",
+          "text": "Los hermanos caminaron hasta un claro y encontraron una casita con paredes que parecían galletas. Tenían hambre y tocaron una ventana de caramelo. Una mujer salió y les ofreció comida, invitándolos a entrar sin buscar a su padre.",
+          "speech": "Gretel: ¿Podría ayudarnos a volver a casa?",
+          "art": "Two siblings approach a whimsical gingerbread cottage with candy windows as its purple-apron owner opens door.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_02.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_02.timing.json",
+          "narration": "Los hermanos caminaron hasta un claro y encontraron una casita con paredes que parecían galletas. Tenían hambre y tocaron una ventana de caramelo. Una mujer salió y les ofreció comida, invitándolos a entrar sin buscar a su padre. Gretel: ¿Podría ayudarnos a volver a casa?"
+        },
+        {
+          "heading": "Una invitación engañosa",
+          "text": "Dentro, la mujer cerró la puerta y escondió la llave. Dijo que los niños tendrían que trabajar allí y no podrían marcharse. Hansel y Gretel comprendieron que aquella invitación no era una ayuda de verdad.",
+          "speech": "Hansel, en voz baja: Tenemos que salir juntos.",
+          "art": "Candy-house owner hides a large key high on shelf while siblings stay together near closed door.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_03.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_03.timing.json",
+          "narration": "Dentro, la mujer cerró la puerta y escondió la llave. Dijo que los niños tendrían que trabajar allí y no podrían marcharse. Hansel y Gretel comprendieron que aquella invitación no era una ayuda de verdad. Hansel, en voz baja: Tenemos que salir juntos."
+        },
+        {
+          "heading": "Mirar antes de actuar",
+          "text": "Gretel observó que la llave estaba en una repisa. También vio una puerta lateral que daba al jardín. Mientras la mujer contaba sus dulces en otra habitación, los hermanos arrimaron una silla para alcanzar la llave.",
+          "speech": "Gretel: Sujeta la silla y yo tomaré la llave.",
+          "art": "Gretel reaches key from shelf using stable low chair while Hansel steadies it, owner in distant room.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_04.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_04.timing.json",
+          "narration": "Gretel observó que la llave estaba en una repisa. También vio una puerta lateral que daba al jardín. Mientras la mujer contaba sus dulces en otra habitación, los hermanos arrimaron una silla para alcanzar la llave. Gretel: Sujeta la silla y yo tomaré la llave."
+        },
+        {
+          "heading": "Una salida al jardín",
+          "text": "Los hermanos abrieron la puerta lateral y salieron al jardín. Cerraron sin hacer ruido y siguieron un sendero ancho. Al llegar a un puente, encontraron a una guardabosques. Le contaron lo ocurrido y pidieron ayuda.",
+          "speech": "Guardabosques: Vendrán conmigo. Buscaremos a su familia.",
+          "art": "Two siblings safely leave candy garden and meet female forest ranger beside a wooden bridge.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_05.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_05.timing.json",
+          "narration": "Los hermanos abrieron la puerta lateral y salieron al jardín. Cerraron sin hacer ruido y siguieron un sendero ancho. Al llegar a un puente, encontraron a una guardabosques. Le contaron lo ocurrido y pidieron ayuda. Guardabosques: Vendrán conmigo. Buscaremos a su familia."
+        },
+        {
+          "heading": "El padre estaba buscándolos",
+          "text": "La guardabosques acompañó a los niños hasta un puesto del bosque. Allí estaba su padre, que había pedido ayuda para encontrarlos. Los abrazó y escuchó su historia. Después avisaron a otros adultos de la casa engañosa.",
+          "speech": "Padre: Qué alivio encontrarlos a salvo.",
+          "art": "Father hugs both siblings at forest ranger station while ranger stands nearby.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_06.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_06.timing.json",
+          "narration": "La guardabosques acompañó a los niños hasta un puesto del bosque. Allí estaba su padre, que había pedido ayuda para encontrarlos. Los abrazó y escuchó su historia. Después avisaron a otros adultos de la casa engañosa. Padre: Qué alivio encontrarlos a salvo."
+        },
+        {
+          "heading": "Regresar y recordar",
+          "text": "De vuelta en casa, los hermanos compartieron una sopa caliente. Acordaron avisar antes de alejarse y buscar ayuda de personas de confianza si se perdían. También recordaron que una oferta agradable no siempre significa una intención buena.",
+          "speech": "Gretel: Estar juntos nos ayudó a pensar mejor.",
+          "art": "Siblings and father share warm soup at home, talking calmly about their adventure.",
+          "image": "res://assets/stories/hansel_y_gretel.png",
+          "audio": "res://assets/audio/stories/hansel_y_gretel/page_07.mp3",
+          "timings": "res://assets/audio/stories/hansel_y_gretel/page_07.timing.json",
+          "narration": "De vuelta en casa, los hermanos compartieron una sopa caliente. Acordaron avisar antes de alejarse y buscar ayuda de personas de confianza si se perdían. También recordaron que una oferta agradable no siempre significa una intención buena. Gretel: Estar juntos nos ayudó a pensar mejor."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué no pudieron seguir las migas?",
+          "choices": [
+            "La lluvia las pintó de azul",
+            "El padre las guardó",
+            "Los pájaros se las comieron"
+          ],
+          "answer": "Los pájaros se las comieron",
+          "explanation": "Las aves comieron el rastro de pan que Hansel había dejado.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/hansel_y_gretel/question_00.mp3"
+        },
+        {
+          "prompt": "¿Por qué supieron que la invitación era un engaño?",
+          "choices": [
+            "La sopa estaba caliente",
+            "La mujer cerró la puerta y no los dejaba irse",
+            "La casa tenía ventanas"
+          ],
+          "answer": "La mujer cerró la puerta y no los dejaba irse",
+          "explanation": "La mujer escondió la llave y quiso obligarlos a quedarse.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/hansel_y_gretel/question_01.mp3"
+        },
+        {
+          "prompt": "¿Quién los acompañó a encontrar a su padre?",
+          "choices": [
+            "Una guardabosques",
+            "La dueña de los dulces",
+            "Un pájaro"
+          ],
+          "answer": "Una guardabosques",
+          "explanation": "La encontraron junto al puente y le pidieron ayuda.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/hansel_y_gretel/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué les ayudó a salir de la casa?",
+          "choices": [
+            "Discutir y tomar caminos distintos",
+            "Cerrar todas las ventanas",
+            "Observar y colaborar sin separarse"
+          ],
+          "answer": "Observar y colaborar sin separarse",
+          "explanation": "Gretel localizó la llave y Hansel sostuvo la silla para alcanzarla.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/hansel_y_gretel/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/hansel-gretel-portada.svg",
+      "atlas": "res://assets/stories/hansel_y_gretel.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "ricitos_de_oro",
       "title": "Ricitos de Oro",
-      "cover": "res://assets/cuentos/ricitos-oro-portada.svg",
-      "summary": "Una visita al bosque enseña a respetar lo ajeno.",
+      "summary": "Una niña entra sin permiso y aprende a respetar la casa y las cosas de los demás.",
+      "characters": "Little blonde curly-haired girl in blue dress, three friendly brown bears of father mother and cub sizes. Cozy woodland cottage, three bowls chairs and beds; original storybook designs.",
       "pages": [
         {
-          "heading": "La casa del bosque",
-          "text": "Ricitos de Oro encontró una casita entre los árboles. Como nadie respondió al llamar, entró y vio tres sillas y tres platos sobre la mesa.",
-          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+          "heading": "Una casita entre árboles",
+          "text": "Ricitos de Oro paseaba con su tía cerca del bosque. Mientras su tía descansaba, la niña vio una casa y se acercó sin avisar. La puerta estaba entreabierta. Llamó una vez y, al no oír respuesta, entró.",
+          "speech": "Ricitos: Solo voy a mirar un momento.",
+          "art": "Curly blonde girl sees a cozy woodland cottage with door slightly open, aunt resting in distant meadow.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_00.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_00.timing.json",
+          "narration": "Ricitos de Oro paseaba con su tía cerca del bosque. Mientras su tía descansaba, la niña vio una casa y se acercó sin avisar. La puerta estaba entreabierta. Llamó una vez y, al no oír respuesta, entró. Ricitos: Solo voy a mirar un momento."
         },
         {
-          "heading": "Tres tamaños",
-          "text": "Probó la sopa, las sillas y las camas. Una era muy grande, otra muy pequeña y otra le pareció perfecta. Sin darse cuenta, se quedó dormida.",
-          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+          "heading": "Tres platos sobre la mesa",
+          "text": "La casa pertenecía a tres osos que habían salido a caminar mientras se enfriaba su desayuno. Ricitos vio tres platos de avena. Probó el grande y el mediano. Después encontró que el pequeño estaba a buena temperatura y lo terminó.",
+          "speech": "Ricitos: Este está justo como me gusta.",
+          "art": "Girl tastes three differently sized porridge bowls at a wooden table, smallest bowl now empty.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_01.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_01.timing.json",
+          "narration": "La casa pertenecía a tres osos que habían salido a caminar mientras se enfriaba su desayuno. Ricitos vio tres platos de avena. Probó el grande y el mediano. Después encontró que el pequeño estaba a buena temperatura y lo terminó. Ricitos: Este está justo como me gusta."
         },
         {
-          "heading": "Una disculpa",
-          "text": "Los tres osos regresaron y encontraron a Ricitos. Ella despertó, pidió disculpas por entrar sin permiso y volvió a casa recordando que hay que respetar las cosas de los demás.",
-          "image": "res://assets/cuentos/ricitos-oro-portada.svg"
+          "heading": "La silla pequeña",
+          "text": "Luego quiso sentarse. La silla grande era muy alta y la mediana demasiado ancha. La pequeña le pareció cómoda, pero Ricitos comenzó a balancearse. Una pata se soltó y la niña acabó sentada en el suelo.",
+          "speech": "Ricitos: No debí balancearme en una silla ajena.",
+          "art": "Girl sits safely on floor beside a small wooden chair with one detached leg; two larger chairs nearby.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_02.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_02.timing.json",
+          "narration": "Luego quiso sentarse. La silla grande era muy alta y la mediana demasiado ancha. La pequeña le pareció cómoda, pero Ricitos comenzó a balancearse. Una pata se soltó y la niña acabó sentada en el suelo. Ricitos: No debí balancearme en una silla ajena."
+        },
+        {
+          "heading": "Una cama sin pedir permiso",
+          "text": "Ricitos subió a la habitación. Había tres camas. Probó las dos primeras y se acomodó en la más pequeña. Estaba cansada, cerró los ojos y se quedó dormida, sin haber pedido permiso a los dueños de la casa.",
+          "speech": "Ricitos: Descansaré solo un ratito.",
+          "art": "Girl sleeps in smallest of three beds in cozy bear cottage bedroom.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_03.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_03.timing.json",
+          "narration": "Ricitos subió a la habitación. Había tres camas. Probó las dos primeras y se acomodó en la más pequeña. Estaba cansada, cerró los ojos y se quedó dormida, sin haber pedido permiso a los dueños de la casa. Ricitos: Descansaré solo un ratito."
+        },
+        {
+          "heading": "Los osos regresan",
+          "text": "Los tres osos volvieron de su paseo. Vieron los platos movidos, el desayuno del pequeño terminado y su silla rota. Se preocuparon: alguien había entrado en casa. El osito subió con sus padres a revisar la habitación.",
+          "speech": "Osito: ¿Quién habrá usado mis cosas?",
+          "art": "Three brown bears examine empty small bowl and broken small chair after returning home.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_04.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_04.timing.json",
+          "narration": "Los tres osos volvieron de su paseo. Vieron los platos movidos, el desayuno del pequeño terminado y su silla rota. Se preocuparon: alguien había entrado en casa. El osito subió con sus padres a revisar la habitación. Osito: ¿Quién habrá usado mis cosas?"
+        },
+        {
+          "heading": "Una disculpa al despertar",
+          "text": "Al oír sus voces, Ricitos despertó. Los osos mantuvieron la distancia para no asustarla. La niña contó lo que había hecho y pidió perdón. Explicó que su tía la estaría buscando cerca del sendero.",
+          "speech": "Ricitos: Entré sin permiso y dañé tu silla. Lo siento.",
+          "art": "Girl awakens and apologizes while three friendly bears stand calmly by bedroom doorway.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_05.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_05.timing.json",
+          "narration": "Al oír sus voces, Ricitos despertó. Los osos mantuvieron la distancia para no asustarla. La niña contó lo que había hecho y pidió perdón. Explicó que su tía la estaría buscando cerca del sendero. Ricitos: Entré sin permiso y dañé tu silla. Lo siento."
+        },
+        {
+          "heading": "Reparar con ayuda",
+          "text": "Los osos acompañaron a Ricitos hasta donde estaba su tía. Juntas regresaron con herramientas y más avena. La tía ayudó a sujetar la pata de la silla, y Ricitos preparó otro plato para el osito.",
+          "speech": "Ricitos: Quiero ayudar a arreglar lo que hice.",
+          "art": "Girl and aunt repair small chair and prepare replacement porridge while bear family watches kindly.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_06.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_06.timing.json",
+          "narration": "Los osos acompañaron a Ricitos hasta donde estaba su tía. Juntas regresaron con herramientas y más avena. La tía ayudó a sujetar la pata de la silla, y Ricitos preparó otro plato para el osito. Ricitos: Quiero ayudar a arreglar lo que hice."
+        },
+        {
+          "heading": "Una visita de verdad",
+          "text": "Cuando todo quedó arreglado, los osos las invitaron a merendar. Esta vez Ricitos esperó a que le ofrecieran un asiento. Aprendió que una puerta abierta no es una invitación y que pedir permiso cuida la confianza.",
+          "speech": "Osito: Ahora sí, puedes sentarte conmigo.",
+          "art": "Girl and aunt enjoy an invited snack with bear family at repaired dining table.",
+          "image": "res://assets/stories/ricitos_de_oro.png",
+          "audio": "res://assets/audio/stories/ricitos_de_oro/page_07.mp3",
+          "timings": "res://assets/audio/stories/ricitos_de_oro/page_07.timing.json",
+          "narration": "Cuando todo quedó arreglado, los osos las invitaron a merendar. Esta vez Ricitos esperó a que le ofrecieran un asiento. Aprendió que una puerta abierta no es una invitación y que pedir permiso cuida la confianza. Osito: Ahora sí, puedes sentarte conmigo."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué habían salido los osos?",
+          "choices": [
+            "Para recoger a Ricitos",
+            "Para dejar enfriar el desayuno mientras paseaban",
+            "Para buscar una silla nueva"
+          ],
+          "answer": "Para dejar enfriar el desayuno mientras paseaban",
+          "explanation": "La avena estaba caliente y la familia dio un paseo.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/ricitos_de_oro/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué le pasó a la silla del osito?",
+          "choices": [
+            "Se soltó una pata al balancearse Ricitos",
+            "El viento se la llevó",
+            "La pintaron de rojo"
+          ],
+          "answer": "Se soltó una pata al balancearse Ricitos",
+          "explanation": "Ricitos se balanceó en la silla pequeña y dañó una pata.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/ricitos_de_oro/question_01.mp3"
+        },
+        {
+          "prompt": "¿Cómo ayudó a reparar su error?",
+          "choices": [
+            "Se escondió para no hablar",
+            "Se llevó los platos",
+            "Volvió con su tía, arreglaron la silla y preparó avena"
+          ],
+          "answer": "Volvió con su tía, arreglaron la silla y preparó avena",
+          "explanation": "Regresaron con herramientas y alimento para reemplazar lo que faltaba.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/ricitos_de_oro/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué debía hacer antes de usar las cosas de la casa?",
+          "choices": [
+            "Cerrar la puerta sin avisar",
+            "Pedir permiso",
+            "Probarlas todas rápidamente"
+          ],
+          "answer": "Pedir permiso",
+          "explanation": "Que una puerta esté abierta no significa que puedas entrar y usar todo.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/ricitos_de_oro/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/ricitos-oro-portada.svg",
+      "atlas": "res://assets/stories/ricitos_de_oro.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "gato_con_botas",
       "title": "El Gato con Botas",
-      "cover": "res://assets/cuentos/gato-botas-portada.svg",
-      "summary": "Un gato ingenioso ayuda a su amigo a salir adelante.",
+      "summary": "Un gato ingenioso ayuda a su amigo a mostrar lo que sabe hacer, sin inventar riquezas.",
+      "characters": "Original cheerful striped ginger farm cat wearing oversized blue rain boots, no cape or hat; adult gardener in green shirt and brown trousers; kindly imaginary storybook queen in a modest purple gown; village neighbors. Friendly countryside book characters.",
       "pages": [
         {
-          "heading": "Un regalo especial",
-          "text": "Un joven recibió un gato como herencia. El gato pidió un par de botas y una bolsa, y prometió que juntos encontrarían una buena oportunidad.",
-          "image": "res://assets/cuentos/gato-botas-portada.svg"
+          "heading": "Un amigo y un huerto pequeño",
+          "text": "Un joven jardinero cuidaba un huerto junto al molino. Tenía buenas verduras, pero pocas personas conocían su trabajo. Su amigo, un gato muy despierto, lo escuchó preocuparse porque apenas lograba vender lo que cultivaba.",
+          "speech": "Jardinero: Me esfuerzo, pero el mercado queda lejos.",
+          "art": "Humble young gardener shows orange cat a healthy vegetable patch beside small mill.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_00.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_00.timing.json",
+          "narration": "Un joven jardinero cuidaba un huerto junto al molino. Tenía buenas verduras, pero pocas personas conocían su trabajo. Su amigo, un gato muy despierto, lo escuchó preocuparse porque apenas lograba vender lo que cultivaba. Jardinero: Me esfuerzo, pero el mercado queda lejos."
         },
         {
-          "heading": "Un plan ingenioso",
-          "text": "Con sus botas, el gato recorrió el reino y llevó regalos al palacio en nombre de su amigo. Poco a poco, todos comenzaron a conocerlo.",
-          "image": "res://assets/cuentos/gato-botas-portada.svg"
+          "heading": "Botas para un camino largo",
+          "text": "El gato propuso visitar los pueblos cercanos y hablar del huerto. Para caminar por el barro, pidió unas botas usadas. El jardinero las arregló y le preparó una bolsa con verduras para mostrar a los vecinos.",
+          "speech": "Gato: No prometeré nada que no podamos cumplir.",
+          "art": "Gardener repairs small brown boots for orange cat and packs fresh vegetables in a bag.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_01.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_01.timing.json",
+          "narration": "El gato propuso visitar los pueblos cercanos y hablar del huerto. Para caminar por el barro, pidió unas botas usadas. El jardinero las arregló y le preparó una bolsa con verduras para mostrar a los vecinos. Gato: No prometeré nada que no podamos cumplir."
         },
         {
-          "heading": "Un futuro brillante",
-          "text": "El joven fue recibido con alegría en el castillo. Agradeció la ayuda de su amigo y el gato con botas siguió acompañándolo en nuevas aventuras.",
-          "image": "res://assets/cuentos/gato-botas-portada.svg"
+          "heading": "La primera visita",
+          "text": "Con las botas puestas, el gato llegó a una aldea. Ofreció una zanahoria a la cocinera de una posada y explicó de dónde venía. Ella probó la verdura y pidió conocer al jardinero para comprarle más.",
+          "speech": "Cocinera: Están frescas. ¿Puede traer una cesta el viernes?",
+          "art": "Booted orange cat offers fresh carrot to inn cook at village kitchen doorway.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_02.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_02.timing.json",
+          "narration": "Con las botas puestas, el gato llegó a una aldea. Ofreció una zanahoria a la cocinera de una posada y explicó de dónde venía. Ella probó la verdura y pidió conocer al jardinero para comprarle más. Cocinera: Están frescas. ¿Puede traer una cesta el viernes?"
+        },
+        {
+          "heading": "Una noticia para la reina",
+          "text": "La cocinera preparaba una comida para la reina, que visitaría el pueblo. Le habló del huerto y del camino embarrado que dificultaba las entregas. La reina decidió acercarse para conocer el trabajo del joven y las necesidades del lugar.",
+          "speech": "Reina: Quiero escuchar a quienes viven allí.",
+          "art": "Inn cook speaks to a kindly queen beside a table of fresh vegetables, pointing toward muddy rural road.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_03.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_03.timing.json",
+          "narration": "La cocinera preparaba una comida para la reina, que visitaría el pueblo. Le habló del huerto y del camino embarrado que dificultaba las entregas. La reina decidió acercarse para conocer el trabajo del joven y las necesidades del lugar. Reina: Quiero escuchar a quienes viven allí."
+        },
+        {
+          "heading": "Nada de títulos inventados",
+          "text": "El gato tuvo una idea: llamar conde a su amigo para impresionarla. Pero el jardinero negó con la cabeza. Prefería mostrar su trabajo tal como era. El gato comprendió y decidió presentarlo por su verdadero nombre.",
+          "speech": "Jardinero: No necesito un título falso para enseñar mi huerto.",
+          "art": "Booted cat talks with honest gardener at vegetable garden gate as queen approaches in distance.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_04.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_04.timing.json",
+          "narration": "El gato tuvo una idea: llamar conde a su amigo para impresionarla. Pero el jardinero negó con la cabeza. Prefería mostrar su trabajo tal como era. El gato comprendió y decidió presentarlo por su verdadero nombre. Jardinero: No necesito un título falso para enseñar mi huerto."
+        },
+        {
+          "heading": "El huerto habla por sí mismo",
+          "text": "La reina recorrió las filas de plantas. El jardinero explicó cómo recogía agua de lluvia y compartía semillas. Los vecinos contaron que el barro complicaba llevar alimentos al pueblo. Juntos propusieron arreglar el camino con piedras y drenajes.",
+          "speech": "Reina: La solución debe servir a todos los vecinos.",
+          "art": "Queen, gardener, cat and neighbors inspect rainwater barrels and discuss fixing muddy village path.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_05.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_05.timing.json",
+          "narration": "La reina recorrió las filas de plantas. El jardinero explicó cómo recogía agua de lluvia y compartía semillas. Los vecinos contaron que el barro complicaba llevar alimentos al pueblo. Juntos propusieron arreglar el camino con piedras y drenajes. Reina: La solución debe servir a todos los vecinos."
+        },
+        {
+          "heading": "Un camino para todos",
+          "text": "Los vecinos aportaron tiempo y herramientas, y la reina envió materiales. Trabajaron hasta dejar un sendero firme. Ahora el jardinero podía llevar sus verduras a la posada, y otras familias también podían transportar sus productos con más facilidad.",
+          "speech": "Gato: ¡Nuestra idea ha crecido como las plantas!",
+          "art": "Neighbors build a firm stone market path while gardener carries vegetables and booted cat helps.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_06.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_06.timing.json",
+          "narration": "Los vecinos aportaron tiempo y herramientas, y la reina envió materiales. Trabajaron hasta dejar un sendero firme. Ahora el jardinero podía llevar sus verduras a la posada, y otras familias también podían transportar sus productos con más facilidad. Gato: ¡Nuestra idea ha crecido como las plantas!"
+        },
+        {
+          "heading": "Ingenio con honestidad",
+          "text": "Con el nuevo camino, el huerto empezó a recibir pedidos. El jardinero agradeció al gato su iniciativa. El gato aprendió que el ingenio ayuda más cuando cuenta la verdad y busca mejoras que puedan compartir otras personas.",
+          "speech": "Gato: Las buenas botas nos llevaron a una buena idea.",
+          "art": "Booted cat and gardener welcome neighbors to a busy fresh vegetable stall beside repaired stone path.",
+          "image": "res://assets/stories/gato_con_botas.png",
+          "audio": "res://assets/audio/stories/gato_con_botas/page_07.mp3",
+          "timings": "res://assets/audio/stories/gato_con_botas/page_07.timing.json",
+          "narration": "Con el nuevo camino, el huerto empezó a recibir pedidos. El jardinero agradeció al gato su iniciativa. El gato aprendió que el ingenio ayuda más cuando cuenta la verdad y busca mejoras que puedan compartir otras personas. Gato: Las buenas botas nos llevaron a una buena idea."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué pidió botas el gato?",
+          "choices": [
+            "Para caminar por el barro hasta los pueblos",
+            "Para dormir con ellas",
+            "Para esconder verduras"
+          ],
+          "answer": "Para caminar por el barro hasta los pueblos",
+          "explanation": "El camino hacia los posibles compradores estaba embarrado.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/gato_con_botas/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo la cocinera tras probar la zanahoria?",
+          "choices": [
+            "Cerró para siempre la posada",
+            "Regaló una corona al gato",
+            "Quiso comprar más verduras"
+          ],
+          "answer": "Quiso comprar más verduras",
+          "explanation": "Le gustó la frescura y pidió una cesta para el viernes.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/gato_con_botas/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué decidieron arreglar entre todos?",
+          "choices": [
+            "Las botas de la reina",
+            "El camino de los vecinos",
+            "El tejado del palacio"
+          ],
+          "answer": "El camino de los vecinos",
+          "explanation": "Un sendero firme permitiría llevar productos al pueblo.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/gato_con_botas/question_02.mp3"
+        },
+        {
+          "prompt": "¿Por qué no quiso el jardinero llamarse conde?",
+          "choices": [
+            "Porque prefería presentarse con honestidad",
+            "Porque no quería vender nada",
+            "Porque había perdido su sombrero"
+          ],
+          "answer": "Porque prefería presentarse con honestidad",
+          "explanation": "Quería mostrar su trabajo real sin inventar un título.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/gato_con_botas/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/gato-botas-portada.svg",
+      "atlas": "res://assets/stories/gato_con_botas.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "gallina_huevos_oro",
       "title": "La Gallina de los Huevos de Oro",
-      "cover": "res://assets/cuentos/gallina-oro-portada.svg",
-      "summary": "Una fábula sobre la paciencia y el valor de cuidar.",
+      "summary": "Una familia descubre que cuidar y tener paciencia vale más que exigir sin descanso.",
+      "characters": "Kind farmer in straw hat, farmer's partner with blue apron, small healthy white hen with red comb, shiny golden egg. Cozy farm and straw nest, no harm or violence to any animal.",
       "pages": [
         {
-          "heading": "Una sorpresa dorada",
-          "text": "Una familia campesina cuidaba con cariño a su gallina. Una mañana encontró en el nido un huevo brillante de color dorado.",
-          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+          "heading": "Un brillo en el nido",
+          "text": "Una familia cuidaba una pequeña gallina blanca. Cada mañana le daba agua, alimento y un lugar limpio. Un día, al revisar el nido, encontró un huevo brillante. Al observarlo de cerca, descubrió que era de oro.",
+          "speech": "La familia: ¡Qué sorpresa nos ha dado!",
+          "art": "Farmer couple discovers a single shiny golden egg beside healthy white hen in straw nest.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_00.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_00.timing.json",
+          "narration": "Una familia cuidaba una pequeña gallina blanca. Cada mañana le daba agua, alimento y un lugar limpio. Un día, al revisar el nido, encontró un huevo brillante. Al observarlo de cerca, descubrió que era de oro. La familia: ¡Qué sorpresa nos ha dado!"
         },
         {
-          "heading": "Cada día, con calma",
-          "text": "La gallina puso un huevo de oro cada día. La familia pudo mejorar su vida, pero debía esperar con paciencia y seguir cuidándola.",
-          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+          "heading": "Un huevo cada mañana",
+          "text": "La gallina siguió poniendo un solo huevo de oro al día. La familia vendía algunos y guardaba otros. Con ese dinero arregló el tejado de la casa y compró semillas para el huerto, sin dejar de cuidar a sus animales.",
+          "speech": "La granjera: Con paciencia podemos mejorar la granja.",
+          "art": "Farmer sells one golden egg then repairs cottage roof while partner tends garden and hen.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_01.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_01.timing.json",
+          "narration": "La gallina siguió poniendo un solo huevo de oro al día. La familia vendía algunos y guardaba otros. Con ese dinero arregló el tejado de la casa y compró semillas para el huerto, sin dejar de cuidar a sus animales. La granjera: Con paciencia podemos mejorar la granja."
         },
         {
-          "heading": "Cuidar lo valioso",
-          "text": "Comprendieron que la prisa podía hacerles perder algo muy especial. Desde entonces agradecieron cada día y cuidaron bien de su gallina.",
-          "image": "res://assets/cuentos/gallina-oro-portada.svg"
+          "heading": "Quererlo todo de una vez",
+          "text": "El granjero comenzó a imaginar montones de monedas. Pensó que un huevo diario era demasiado poco. Se quedó junto al nido toda la mañana esperando otro. La gallina lo miraba, pero no ponía más huevos por mucho que él insistiera.",
+          "speech": "Granjero: Si pusieras diez hoy, tendríamos mucho más.",
+          "art": "Impatient farmer sits by nest imagining piles of coins while calm hen has just one golden egg.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_02.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_02.timing.json",
+          "narration": "El granjero comenzó a imaginar montones de monedas. Pensó que un huevo diario era demasiado poco. Se quedó junto al nido toda la mañana esperando otro. La gallina lo miraba, pero no ponía más huevos por mucho que él insistiera. Granjero: Si pusieras diez hoy, tendríamos mucho más."
+        },
+        {
+          "heading": "El nido que no se deja en paz",
+          "text": "El granjero cambió el nido de lugar y lo revisó una y otra vez. La gallina dejó de descansar tranquila. Al día siguiente no apareció ningún huevo. La granjera vio el nido revuelto y preguntó qué estaba pasando.",
+          "speech": "Granjera: Necesita tranquilidad, no que la molestemos.",
+          "art": "Farmer repeatedly moves straw nest; unsettled hen stands nearby as partner notices the messy quiet coop.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_03.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_03.timing.json",
+          "narration": "El granjero cambió el nido de lugar y lo revisó una y otra vez. La gallina dejó de descansar tranquila. Al día siguiente no apareció ningún huevo. La granjera vio el nido revuelto y preguntó qué estaba pasando. Granjera: Necesita tranquilidad, no que la molestemos."
+        },
+        {
+          "heading": "Buscar la causa",
+          "text": "La familia observó a la gallina. Tenía alimento, pero el ruido y los cambios constantes la inquietaban. Comprendieron que exigir más sin cuidar su bienestar había sido un error. Decidieron devolverle un sitio seguro y tranquilo.",
+          "speech": "Granjero: Pensé solo en el oro y olvidé cuidarla bien.",
+          "art": "Couple gently restores a clean peaceful nest and fresh water for white hen.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_04.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_04.timing.json",
+          "narration": "La familia observó a la gallina. Tenía alimento, pero el ruido y los cambios constantes la inquietaban. Comprendieron que exigir más sin cuidar su bienestar había sido un error. Decidieron devolverle un sitio seguro y tranquilo. Granjero: Pensé solo en el oro y olvidé cuidarla bien."
+        },
+        {
+          "heading": "Esperar sin exigir",
+          "text": "Durante varios días, la familia mantuvo la rutina de cuidados. No esperaba delante del nido ni cambiaba todo a cada rato. La gallina volvió a descansar, pasear y picotear por el patio. Su bienestar importaba aunque no hubiera huevos.",
+          "speech": "Granjera: Primero cuidamos de ella.",
+          "art": "Healthy white hen peacefully pecks in sunny yard while couple tends farm at a respectful distance.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_05.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_05.timing.json",
+          "narration": "Durante varios días, la familia mantuvo la rutina de cuidados. No esperaba delante del nido ni cambiaba todo a cada rato. La gallina volvió a descansar, pasear y picotear por el patio. Su bienestar importaba aunque no hubiera huevos. Granjera: Primero cuidamos de ella."
+        },
+        {
+          "heading": "Un nuevo huevo",
+          "text": "Una mañana encontraron de nuevo un huevo dorado. Esta vez el granjero no pidió otro. Lo guardó con cuidado y siguió atendiendo la granja. Había entendido que el deseo de tener más no debía dirigir todas sus decisiones.",
+          "speech": "Granjero: Uno es suficiente. Gracias, pequeña.",
+          "art": "Farmer calmly collects a single golden egg while hen rests comfortably in tidy nest.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_06.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_06.timing.json",
+          "narration": "Una mañana encontraron de nuevo un huevo dorado. Esta vez el granjero no pidió otro. Lo guardó con cuidado y siguió atendiendo la granja. Había entendido que el deseo de tener más no debía dirigir todas sus decisiones. Granjero: Uno es suficiente. Gracias, pequeña."
+        },
+        {
+          "heading": "Cuidar lo que tenemos",
+          "text": "La familia continuó sembrando, reparando y compartiendo lo que podía con sus vecinos. Los huevos fueron una ayuda, no una razón para olvidarlo todo. El granjero recordó que la paciencia y el cuidado valen más que la avaricia.",
+          "speech": "La familia: Las cosas buenas también necesitan tiempo.",
+          "art": "Farmer couple shares vegetables with neighbors, healthy hen walks beside sunny well-kept farm.",
+          "image": "res://assets/stories/gallina_huevos_oro.png",
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/page_07.mp3",
+          "timings": "res://assets/audio/stories/gallina_huevos_oro/page_07.timing.json",
+          "narration": "La familia continuó sembrando, reparando y compartiendo lo que podía con sus vecinos. Los huevos fueron una ayuda, no una razón para olvidarlo todo. El granjero recordó que la paciencia y el cuidado valen más que la avaricia. La familia: Las cosas buenas también necesitan tiempo."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Cuántos huevos de oro ponía la gallina al día?",
+          "choices": [
+            "Diez",
+            "Ninguno desde el principio",
+            "Uno"
+          ],
+          "answer": "Uno",
+          "explanation": "La gallina ponía un solo huevo dorado cada mañana.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué ocurrió al molestar constantemente a la gallina?",
+          "choices": [
+            "Aprendió a volar al mercado",
+            "Dejó de descansar tranquila y no puso huevo",
+            "Puso cien huevos"
+          ],
+          "answer": "Dejó de descansar tranquila y no puso huevo",
+          "explanation": "Los cambios y revisiones constantes la inquietaron.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo la familia para ayudarla?",
+          "choices": [
+            "Le devolvió calma y cuidados regulares",
+            "Le quitó el agua",
+            "Movió más veces el nido"
+          ],
+          "answer": "Le devolvió calma y cuidados regulares",
+          "explanation": "Mantuvieron una rutina sin exigirle más huevos.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué aprendió el granjero?",
+          "choices": [
+            "El oro permite dejar de cuidar animales",
+            "Hay que revisar el nido a cada minuto",
+            "Cuidar con paciencia es más importante que exigir más"
+          ],
+          "answer": "Cuidar con paciencia es más importante que exigir más",
+          "explanation": "Su deseo de acumular le había hecho olvidar el bienestar de la gallina.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/gallina_huevos_oro/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/gallina-oro-portada.svg",
+      "atlas": "res://assets/stories/gallina_huevos_oro.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "flautista_hamelin",
       "title": "El Flautista de Hamelín",
-      "cover": "res://assets/cuentos/flautista-hamelin-portada.svg",
-      "summary": "La música ayuda al pueblo a resolver un gran problema.",
+      "summary": "Un pueblo aprende a cumplir sus acuerdos y a cuidar sus alimentos.",
+      "characters": "Friendly traveling flutist in green coat and feathered hat, village mayor in brown coat, small grey mice, families and children. Quaint colorful European village, all characters safe.",
       "pages": [
         {
-          "heading": "Un pueblo con ratones",
-          "text": "Un pueblo estaba lleno de ratones y sus habitantes no sabían cómo recuperar la calma. Entonces llegó un flautista que ofreció ayudar con su música.",
-          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+          "heading": "Ratones por todas partes",
+          "text": "En Hamelín se guardaban sacos abiertos y restos de comida en las calles. Muchos ratones encontraron alimento y se instalaron allí. Los vecinos se preocupaban porque entraban en las despensas y estropeaban lo que habían recogido.",
+          "speech": "Una vecina: Necesitamos limpiar y proteger los alimentos.",
+          "art": "Villagers notice many grey mice around open grain sacks and food scraps in quaint village street.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_00.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_00.timing.json",
+          "narration": "En Hamelín se guardaban sacos abiertos y restos de comida en las calles. Muchos ratones encontraron alimento y se instalaron allí. Los vecinos se preocupaban porque entraban en las despensas y estropeaban lo que habían recogido. Una vecina: Necesitamos limpiar y proteger los alimentos."
         },
         {
-          "heading": "Una melodía mágica",
-          "text": "El flautista tocó una melodía alegre. Los ratones lo siguieron hasta un valle tranquilo, lejos de las casas y de la comida del pueblo.",
-          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+          "heading": "Una oferta en la plaza",
+          "text": "Un músico viajero llegó con una flauta. Dijo que podía guiar a los ratones fuera del pueblo con su melodía. El alcalde acordó pagarle al terminar. Los vecinos escucharon el trato y esperaron a ver qué ocurría.",
+          "speech": "Alcalde: Cumple tu trabajo y recibirás el pago acordado.",
+          "art": "Green-coated flutist makes a clear agreement with mayor in village square as neighbors watch.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_01.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_01.timing.json",
+          "narration": "Un músico viajero llegó con una flauta. Dijo que podía guiar a los ratones fuera del pueblo con su melodía. El alcalde acordó pagarle al terminar. Los vecinos escucharon el trato y esperaron a ver qué ocurría. Alcalde: Cumple tu trabajo y recibirás el pago acordado."
         },
         {
-          "heading": "Un acuerdo justo",
-          "text": "El pueblo quedó limpio y todos pudieron volver a vivir en paz. Sus habitantes aprendieron a cumplir los acuerdos y agradecer la ayuda recibida.",
-          "image": "res://assets/cuentos/flautista-hamelin-portada.svg"
+          "heading": "La música empieza",
+          "text": "El flautista tocó una melodía suave y repetida. Los ratones salieron de los rincones y lo siguieron. El músico caminó despacio por la calle principal, asegurándose de que todos avanzaran detrás de él sin separarse.",
+          "speech": "Un niño: ¡Mira cómo siguen la música!",
+          "art": "Flutist plays as a long line of grey mice follows him through the village street.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_02.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_02.timing.json",
+          "narration": "El flautista tocó una melodía suave y repetida. Los ratones salieron de los rincones y lo siguieron. El músico caminó despacio por la calle principal, asegurándose de que todos avanzaran detrás de él sin separarse. Un niño: ¡Mira cómo siguen la música!"
+        },
+        {
+          "heading": "Lejos de las despensas",
+          "text": "El músico guio a los ratones hasta unos campos alejados del pueblo. Allí dejó de tocar y los animales se dispersaron entre los pastos. En Hamelín, los vecinos cerraron los sacos y limpiaron las calles para evitar que regresaran.",
+          "speech": "Una vecina: Ahora también nos toca cuidar el pueblo.",
+          "art": "Mice disperse safely in distant meadow while a separate village area shows neighbors closing sacks and sweeping.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_03.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_03.timing.json",
+          "narration": "El músico guio a los ratones hasta unos campos alejados del pueblo. Allí dejó de tocar y los animales se dispersaron entre los pastos. En Hamelín, los vecinos cerraron los sacos y limpiaron las calles para evitar que regresaran. Una vecina: Ahora también nos toca cuidar el pueblo."
+        },
+        {
+          "heading": "Un acuerdo olvidado",
+          "text": "El flautista volvió para recibir su pago. Sin embargo, el alcalde dijo que había sido demasiado fácil y quiso darle menos de lo prometido. El músico le recordó que ambos habían acordado el precio antes de empezar.",
+          "speech": "Flautista: He cumplido mi parte. El acuerdo sigue siendo el mismo.",
+          "art": "Flutist calmly reminds reluctant mayor of agreed payment outside town hall, neighbors nearby.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_04.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_04.timing.json",
+          "narration": "El flautista volvió para recibir su pago. Sin embargo, el alcalde dijo que había sido demasiado fácil y quiso darle menos de lo prometido. El músico le recordó que ambos habían acordado el precio antes de empezar. Flautista: He cumplido mi parte. El acuerdo sigue siendo el mismo."
+        },
+        {
+          "heading": "La plaza escucha",
+          "text": "El flautista tocó de nuevo en la plaza. Las familias se acercaron para escuchar. Cuando terminó, contó lo sucedido. Nadie fue apartado ni puesto en peligro: todos pudieron conversar sobre la importancia de cumplir una promesa de trabajo.",
+          "speech": "Una madre: Resolveremos esto hablando y con justicia.",
+          "art": "Flutist performs safely in public square with children and parents together listening openly.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_05.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_05.timing.json",
+          "narration": "El flautista tocó de nuevo en la plaza. Las familias se acercaron para escuchar. Cuando terminó, contó lo sucedido. Nadie fue apartado ni puesto en peligro: todos pudieron conversar sobre la importancia de cumplir una promesa de trabajo. Una madre: Resolveremos esto hablando y con justicia."
+        },
+        {
+          "heading": "Pagar lo prometido",
+          "text": "Los vecinos recordaron al alcalde el trato que habían oído. El alcalde reconoció su error y entregó el pago completo. También propuso dejar escritos los futuros acuerdos para que todas las personas entendieran sus compromisos.",
+          "speech": "Alcalde: Debí cumplir lo que prometí.",
+          "art": "Mayor gives agreed payment to flutist while neighbors witness a written agreement at public table.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_06.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_06.timing.json",
+          "narration": "Los vecinos recordaron al alcalde el trato que habían oído. El alcalde reconoció su error y entregó el pago completo. También propuso dejar escritos los futuros acuerdos para que todas las personas entendieran sus compromisos. Alcalde: Debí cumplir lo que prometí."
+        },
+        {
+          "heading": "Un pueblo que cuida sus acuerdos",
+          "text": "El músico se despidió y siguió su viaje. Hamelín quedó más limpio y sus alimentos, mejor guardados. Sus habitantes recordaron que pedir ayuda también implica respetar a quien trabaja y cumplir la parte que uno ha prometido.",
+          "speech": "Los vecinos: Cuidaremos el pueblo y nuestra palabra.",
+          "art": "Flutist waves goodbye to friendly clean village with sealed grain bins and happy families.",
+          "image": "res://assets/stories/flautista_hamelin.png",
+          "audio": "res://assets/audio/stories/flautista_hamelin/page_07.mp3",
+          "timings": "res://assets/audio/stories/flautista_hamelin/page_07.timing.json",
+          "narration": "El músico se despidió y siguió su viaje. Hamelín quedó más limpio y sus alimentos, mejor guardados. Sus habitantes recordaron que pedir ayuda también implica respetar a quien trabaja y cumplir la parte que uno ha prometido. Los vecinos: Cuidaremos el pueblo y nuestra palabra."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué atraía a los ratones al pueblo?",
+          "choices": [
+            "La lluvia del bosque",
+            "Los sacos abiertos y restos de comida",
+            "Las ventanas azules"
+          ],
+          "answer": "Los sacos abiertos y restos de comida",
+          "explanation": "Encontraban alimento fácil en calles y despensas.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/flautista_hamelin/question_00.mp3"
+        },
+        {
+          "prompt": "¿Cómo guio el músico a los ratones fuera del pueblo?",
+          "choices": [
+            "Tocando su flauta",
+            "Pintando las puertas",
+            "Gritándoles desde un árbol"
+          ],
+          "answer": "Tocando su flauta",
+          "explanation": "Los ratones siguieron la melodía mientras él caminaba.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/flautista_hamelin/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo finalmente el alcalde?",
+          "choices": [
+            "Escondió la flauta",
+            "Se fue sin hablar",
+            "Pagó lo que había prometido"
+          ],
+          "answer": "Pagó lo que había prometido",
+          "explanation": "Reconoció el error al escuchar a los vecinos.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/flautista_hamelin/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué enseñanza comparten los vecinos?",
+          "choices": [
+            "La limpieza no sirve para nada",
+            "Hay que cumplir los acuerdos y cuidar el pueblo",
+            "Se puede cambiar un pago después del trabajo sin hablarlo"
+          ],
+          "answer": "Hay que cumplir los acuerdos y cuidar el pueblo",
+          "explanation": "El trabajo del músico y la responsabilidad de los vecinos se complementaron.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/flautista_hamelin/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/flautista-hamelin-portada.svg",
+      "atlas": "res://assets/stories/flautista_hamelin.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "cuervo_y_zorro",
       "title": "El Cuervo y el Zorro",
-      "cover": "res://assets/cuentos/cuervo-zorro-portada.svg",
-      "summary": "Una fábula sobre la astucia y los halagos.",
+      "summary": "Un cuervo descubre que los elogios pueden esconder otra intención.",
+      "characters": "Glossy black crow with expressive kind eyes holding pale yellow cheese, clever orange fox with white chest, green meadow and leafy oak. Warm classic fable illustration.",
       "pages": [
         {
-          "heading": "Un queso en el árbol",
-          "text": "Un cuervo encontró un trozo de queso y se posó en una rama para disfrutarlo tranquilo. Un zorro que pasaba por allí vio el queso y pensó cómo conseguirlo.",
-          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+          "heading": "Un bocado en la rama",
+          "text": "Un cuervo encontró un trozo de queso que una familia había dejado para las aves. Lo tomó con el pico y voló a una rama. Quería comer tranquilo, lejos del paso de otros animales.",
+          "speech": "El cuervo pensó: Aquí podré descansar y comer.",
+          "art": "Black crow holds pale yellow cheese in beak on leafy branch above a picnic meadow.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_00.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_00.timing.json",
+          "narration": "Un cuervo encontró un trozo de queso que una familia había dejado para las aves. Lo tomó con el pico y voló a una rama. Quería comer tranquilo, lejos del paso de otros animales. El cuervo pensó: Aquí podré descansar y comer."
         },
         {
-          "heading": "Palabras muy dulces",
-          "text": "El zorro elogió las plumas del cuervo y le dijo que seguramente tenía una voz maravillosa. El cuervo, orgulloso, abrió el pico para cantar.",
-          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+          "heading": "El zorro mira hacia arriba",
+          "text": "Un zorro pasó bajo el árbol y olió el queso. Tenía hambre, pero no podía alcanzar la rama. Observó al cuervo y pensó en una forma de hacer que abriera el pico sin pedirle comida directamente.",
+          "speech": "El zorro pensó: Si abre el pico, el queso caerá.",
+          "art": "Orange fox stands below crow's branch looking thoughtfully at the cheese high above.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_01.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_01.timing.json",
+          "narration": "Un zorro pasó bajo el árbol y olió el queso. Tenía hambre, pero no podía alcanzar la rama. Observó al cuervo y pensó en una forma de hacer que abriera el pico sin pedirle comida directamente. El zorro pensó: Si abre el pico, el queso caerá."
         },
         {
-          "heading": "Una lección para recordar",
-          "text": "El queso cayó y el zorro lo atrapó. El cuervo comprendió que debía pensar con cuidado antes de dejarse convencer por los halagos.",
-          "image": "res://assets/cuentos/cuervo-zorro-portada.svg"
+          "heading": "Palabras muy bonitas",
+          "text": "El zorro empezó a elogiar el brillo de las plumas del cuervo. Dijo que parecía el ave más elegante del bosque. El cuervo escuchó con agrado, sin notar que los ojos del zorro seguían pendientes del queso.",
+          "speech": "Zorro: Con esas plumas, seguro que tienes una voz preciosa.",
+          "art": "Fox flatters crow with grand gestures while looking at cheese; crow looks pleased.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_02.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_02.timing.json",
+          "narration": "El zorro empezó a elogiar el brillo de las plumas del cuervo. Dijo que parecía el ave más elegante del bosque. El cuervo escuchó con agrado, sin notar que los ojos del zorro seguían pendientes del queso. Zorro: Con esas plumas, seguro que tienes una voz preciosa."
+        },
+        {
+          "heading": "Una canción sin pensar",
+          "text": "El cuervo quiso demostrar su canto. Olvidó que sostenía la comida con el pico y lo abrió para graznar. En ese instante, el trozo de queso cayó de la rama hacia el suelo, justo donde esperaba el zorro.",
+          "speech": "Cuervo: ¡Cra, cra!",
+          "art": "Crow opens beak to sing as cheese falls visibly through air toward fox below.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_03.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_03.timing.json",
+          "narration": "El cuervo quiso demostrar su canto. Olvidó que sostenía la comida con el pico y lo abrió para graznar. En ese instante, el trozo de queso cayó de la rama hacia el suelo, justo donde esperaba el zorro. Cuervo: ¡Cra, cra!"
+        },
+        {
+          "heading": "El queso cambia de lugar",
+          "text": "El zorro recogió el queso antes de que el cuervo pudiera bajar. Se apartó con su comida. El cuervo miró la rama vacía y comprendió que los elogios no habían sido una invitación sincera a cantar.",
+          "speech": "Cuervo: Quería mi queso, no escucharme.",
+          "art": "Fox carries fallen cheese away while crow watches from branch in surprise.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_04.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_04.timing.json",
+          "narration": "El zorro recogió el queso antes de que el cuervo pudiera bajar. Se apartó con su comida. El cuervo miró la rama vacía y comprendió que los elogios no habían sido una invitación sincera a cantar. Cuervo: Quería mi queso, no escucharme."
+        },
+        {
+          "heading": "Entender el engaño",
+          "text": "El cuervo se sintió molesto por la trampa. Después pensó en lo ocurrido: alguien le había dicho lo que deseaba oír para obtener algo. Decidió que podía disfrutar de un elogio y, al mismo tiempo, preguntarse qué intención había detrás.",
+          "speech": "Cuervo: La próxima vez me detendré a pensar.",
+          "art": "Crow reflects calmly on branch as fox disappears down distant path.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_05.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_05.timing.json",
+          "narration": "El cuervo se sintió molesto por la trampa. Después pensó en lo ocurrido: alguien le había dicho lo que deseaba oír para obtener algo. Decidió que podía disfrutar de un elogio y, al mismo tiempo, preguntarse qué intención había detrás. Cuervo: La próxima vez me detendré a pensar."
+        },
+        {
+          "heading": "Una segunda merienda",
+          "text": "Más tarde encontró unas semillas junto a la misma familia. Esta vez apoyó la comida en una rama ancha antes de responder al saludo de otra ave. Así pudo graznar sin perder lo que había reunido para comer.",
+          "speech": "Cuervo: Primero dejaré mi merienda en un lugar seguro.",
+          "art": "Crow places seeds safely on broad branch before greeting a friendly small bird.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_06.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_06.timing.json",
+          "narration": "Más tarde encontró unas semillas junto a la misma familia. Esta vez apoyó la comida en una rama ancha antes de responder al saludo de otra ave. Así pudo graznar sin perder lo que había reunido para comer. Cuervo: Primero dejaré mi merienda en un lugar seguro."
+        },
+        {
+          "heading": "Escuchar con atención",
+          "text": "El cuervo siguió cantando cuando tenía ganas y compartiendo con sus amigos. No dejó de confiar en todo el mundo, pero aprendió a observar los hechos además de escuchar las palabras. Los elogios no debían decidir por él.",
+          "speech": "Cuervo: Puedo escuchar cosas bonitas y pensar por mí mismo.",
+          "art": "Crow sings freely with bird friends on tree, food safely resting nearby in warm sunlight.",
+          "image": "res://assets/stories/cuervo_y_zorro.png",
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/page_07.mp3",
+          "timings": "res://assets/audio/stories/cuervo_y_zorro/page_07.timing.json",
+          "narration": "El cuervo siguió cantando cuando tenía ganas y compartiendo con sus amigos. No dejó de confiar en todo el mundo, pero aprendió a observar los hechos además de escuchar las palabras. Los elogios no debían decidir por él. Cuervo: Puedo escuchar cosas bonitas y pensar por mí mismo."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Dónde estaba el queso al principio?",
+          "choices": [
+            "En el pico del cuervo, sobre una rama",
+            "En una cesta del zorro",
+            "Dentro de un río"
+          ],
+          "answer": "En el pico del cuervo, sobre una rama",
+          "explanation": "El cuervo había volado al árbol para comer tranquilo.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué buscaba el zorro con sus elogios?",
+          "choices": [
+            "Organizar un concierto de amigos",
+            "Ayudar a construir un nido",
+            "Que el cuervo abriera el pico y soltara el queso"
+          ],
+          "answer": "Que el cuervo abriera el pico y soltara el queso",
+          "explanation": "Sabía que no podía llegar a la rama y preparó una trampa con palabras.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/question_01.mp3"
+        },
+        {
+          "prompt": "¿Por qué cayó el queso?",
+          "choices": [
+            "El viento rompió el árbol",
+            "El cuervo abrió el pico para cantar",
+            "Una rama golpeó al cuervo"
+          ],
+          "answer": "El cuervo abrió el pico para cantar",
+          "explanation": "Al abrir el pico dejó de sujetar la comida.",
+          "evidence": 3,
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué aprende a hacer el cuervo?",
+          "choices": [
+            "Pensar en las intenciones y observar los hechos",
+            "Dejar de hablar con todos",
+            "Regalar siempre su comida al zorro"
+          ],
+          "answer": "Pensar en las intenciones y observar los hechos",
+          "explanation": "Puede escuchar elogios sin permitir que decidan por él.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/cuervo_y_zorro/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/cuervo-zorro-portada.svg",
+      "atlas": "res://assets/stories/cuervo_y_zorro.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "zorra_y_uvas",
       "title": "La Zorra y las Uvas",
-      "cover": "res://assets/cuentos/zorra-uvas-portada.svg",
-      "summary": "Una fábula sobre la perseverancia y la sinceridad.",
+      "summary": "Una zorra aprende a reconocer lo que siente y a buscar otra solución.",
+      "characters": "Expressive orange female fox with white muzzle, friendly small brown hedgehog, purple grape bunches high on vine over a stone wall, peaceful orchard.",
       "pages": [
         {
-          "heading": "Un racimo tentador",
-          "text": "En un día caluroso, una zorra caminaba por el campo cuando vio un racimo de uvas maduras colgando de una parra.",
-          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+          "heading": "Un paseo con hambre",
+          "text": "Una zorra caminaba junto a un huerto al final de la mañana. Tenía hambre y vio unos racimos de uvas moradas. Colgaban de una parra que crecía por encima de un muro de piedra.",
+          "speech": "Zorra: Esas uvas parecen una buena merienda.",
+          "art": "Orange fox notices purple grape bunches hanging high from vine over orchard stone wall.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_00.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_00.timing.json",
+          "narration": "Una zorra caminaba junto a un huerto al final de la mañana. Tenía hambre y vio unos racimos de uvas moradas. Colgaban de una parra que crecía por encima de un muro de piedra. Zorra: Esas uvas parecen una buena merienda."
         },
         {
-          "heading": "Muchos intentos",
-          "text": "La zorra saltó una y otra vez para alcanzar las uvas. Probó desde una piedra y luego desde una colina, pero el racimo seguía demasiado alto.",
-          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+          "heading": "El primer salto",
+          "text": "La zorra se acercó y levantó el hocico. Las uvas estaban muy altas, así que saltó para alcanzarlas. Sus patas subieron bastante, pero el racimo quedó lejos. Al caer, miró hacia arriba y preparó otro intento.",
+          "speech": "Zorra: Quizá con un poco más de impulso.",
+          "art": "Fox jumps vertically beneath high hanging grapes but cannot reach them.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_01.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_01.timing.json",
+          "narration": "La zorra se acercó y levantó el hocico. Las uvas estaban muy altas, así que saltó para alcanzarlas. Sus patas subieron bastante, pero el racimo quedó lejos. Al caer, miró hacia arriba y preparó otro intento. Zorra: Quizá con un poco más de impulso."
         },
         {
-          "heading": "Decir la verdad",
-          "text": "Cansada, se marchó diciendo que las uvas seguramente estaban verdes. La fábula nos invita a reconocer con sinceridad cuando algo no nos sale.",
-          "image": "res://assets/cuentos/zorra-uvas-portada.svg"
+          "heading": "Correr no basta",
+          "text": "Se alejó unos pasos y tomó carrera. Volvió a saltar, esta vez con más fuerza. Tampoco alcanzó las uvas. Probó desde otro lado del muro y obtuvo el mismo resultado: la altura seguía siendo demasiado grande.",
+          "speech": "Zorra: He saltado más, pero aún no llego.",
+          "art": "Fox takes a running leap beside wall, grapes still clearly far above reach.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_02.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_02.timing.json",
+          "narration": "Se alejó unos pasos y tomó carrera. Volvió a saltar, esta vez con más fuerza. Tampoco alcanzó las uvas. Probó desde otro lado del muro y obtuvo el mismo resultado: la altura seguía siendo demasiado grande. Zorra: He saltado más, pero aún no llego."
+        },
+        {
+          "heading": "Cansancio y enfado",
+          "text": "Después de varios intentos, la zorra se sentó a descansar. Estaba cansada y molesta. Le costaba aceptar que algo que deseaba estuviera fuera de su alcance. Entonces dijo que seguramente las uvas estarían verdes y no valdrían la pena.",
+          "speech": "Zorra: Bah, seguro que están agrias.",
+          "art": "Tired fox sits with crossed paws below ripe-looking purple grapes, looking frustrated.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_03.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_03.timing.json",
+          "narration": "Después de varios intentos, la zorra se sentó a descansar. Estaba cansada y molesta. Le costaba aceptar que algo que deseaba estuviera fuera de su alcance. Entonces dijo que seguramente las uvas estarían verdes y no valdrían la pena. Zorra: Bah, seguro que están agrias."
+        },
+        {
+          "heading": "Una pregunta del erizo",
+          "text": "Un erizo que había visto los saltos se acercó. Le preguntó si había probado alguna uva. La zorra respondió que no. Al escucharse, comprendió que estaba diciendo que eran malas solo porque no había conseguido alcanzarlas.",
+          "speech": "Erizo: ¿Cómo sabes su sabor si no las probaste?",
+          "art": "Friendly small hedgehog gently questions fox resting beneath grapevine.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_04.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_04.timing.json",
+          "narration": "Un erizo que había visto los saltos se acercó. Le preguntó si había probado alguna uva. La zorra respondió que no. Al escucharse, comprendió que estaba diciendo que eran malas solo porque no había conseguido alcanzarlas. Erizo: ¿Cómo sabes su sabor si no las probaste?"
+        },
+        {
+          "heading": "Nombrar lo que siente",
+          "text": "La zorra miró de nuevo la parra y respiró. Reconoció que no sabía cómo sabían las uvas. Lo que sí sabía era que se sentía frustrada. Decirlo con sinceridad le ayudó a dejar de discutir con el racimo.",
+          "speech": "Zorra: Estoy enfadada porque no llego. No porque las haya probado.",
+          "art": "Fox calmly talks with hedgehog and looks thoughtfully up at grapes, no longer angry.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_05.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_05.timing.json",
+          "narration": "La zorra miró de nuevo la parra y respiró. Reconoció que no sabía cómo sabían las uvas. Lo que sí sabía era que se sentía frustrada. Decirlo con sinceridad le ayudó a dejar de discutir con el racimo. Zorra: Estoy enfadada porque no llego. No porque las haya probado."
+        },
+        {
+          "heading": "Otra merienda posible",
+          "text": "El erizo le mostró un lugar del huerto donde había frutas caídas en buen estado. Revisaron cuáles podían comer y compartieron una merienda. La zorra descubrió que descansar y buscar otra opción era mejor que seguir saltando sin cambiar nada.",
+          "speech": "Erizo: Podemos buscar algo que sí esté a nuestro alcance.",
+          "art": "Fox and hedgehog inspect clean ripe fallen fruit on orchard grass, then share a small snack.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_06.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_06.timing.json",
+          "narration": "El erizo le mostró un lugar del huerto donde había frutas caídas en buen estado. Revisaron cuáles podían comer y compartieron una merienda. La zorra descubrió que descansar y buscar otra opción era mejor que seguir saltando sin cambiar nada. Erizo: Podemos buscar algo que sí esté a nuestro alcance."
+        },
+        {
+          "heading": "Lo que aprendió bajo la parra",
+          "text": "Al marcharse, la zorra no llamó malas a las uvas. Todavía no conocía su sabor. Aprendió que no conseguir algo no lo vuelve inútil, y que reconocer la frustración permite pensar con más calma en el siguiente paso.",
+          "speech": "Zorra: Hoy no llegué, pero puedo buscar otra solución.",
+          "art": "Fox and hedgehog walk away peacefully from grapevine orchard together.",
+          "image": "res://assets/stories/zorra_y_uvas.png",
+          "audio": "res://assets/audio/stories/zorra_y_uvas/page_07.mp3",
+          "timings": "res://assets/audio/stories/zorra_y_uvas/page_07.timing.json",
+          "narration": "Al marcharse, la zorra no llamó malas a las uvas. Todavía no conocía su sabor. Aprendió que no conseguir algo no lo vuelve inútil, y que reconocer la frustración permite pensar con más calma en el siguiente paso. Zorra: Hoy no llegué, pero puedo buscar otra solución."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Por qué la zorra no alcanzaba las uvas?",
+          "choices": [
+            "Las uvas se escondían",
+            "El erizo la sujetaba",
+            "Estaban demasiado altas"
+          ],
+          "answer": "Estaban demasiado altas",
+          "explanation": "Ni el salto ni la carrera lograron que llegara a la parra.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/zorra_y_uvas/question_00.mp3"
+        },
+        {
+          "prompt": "¿Había probado las uvas cuando dijo que eran agrias?",
+          "choices": [
+            "El cuento dice que las cocinó",
+            "No, todavía no las había probado",
+            "Sí, había comido todo el racimo"
+          ],
+          "answer": "No, todavía no las había probado",
+          "explanation": "El erizo le preguntó y ella reconoció que no sabía su sabor.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/zorra_y_uvas/question_01.mp3"
+        },
+        {
+          "prompt": "¿Qué emoción reconoció la zorra?",
+          "choices": [
+            "Frustración por no poder alcanzarlas",
+            "Alegría por ganar una carrera",
+            "Miedo a una tormenta"
+          ],
+          "answer": "Frustración por no poder alcanzarlas",
+          "explanation": "Estaba enfadada porque no conseguía algo que quería.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/zorra_y_uvas/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué solución encontraron después?",
+          "choices": [
+            "Repetir los mismos saltos sin descansar",
+            "Decidir que toda fruta era mala",
+            "Buscar otra fruta que pudieran alcanzar"
+          ],
+          "answer": "Buscar otra fruta que pudieran alcanzar",
+          "explanation": "El erizo la acompañó a revisar frutas caídas en buen estado.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/zorra_y_uvas/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/zorra-uvas-portada.svg",
+      "atlas": "res://assets/stories/zorra_y_uvas.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "el_viento_y_el_sol",
       "title": "El Viento y el Sol",
-      "cover": "res://assets/cuentos/viento-sol-portada.svg",
-      "summary": "Una fábula que muestra el poder de la amabilidad.",
+      "summary": "Dos fuerzas de la naturaleza descubren que la suavidad puede lograr más que empujar.",
+      "characters": "Personified friendly wind as pale-blue cloud face in sky, smiling warm golden sun, traveler with brown coat and small bag on rural hillside path. Clear weather changes without dangerous storms.",
       "pages": [
         {
-          "heading": "Una apuesta en el cielo",
-          "text": "El Viento y el Sol discutían para saber quién era más poderoso. Al ver a una persona caminando con una capa, decidieron hacer una prueba.",
-          "image": "res://assets/cuentos/viento-sol-portada.svg"
+          "heading": "Una discusión en el cielo",
+          "text": "El Viento y el Sol discutían sobre cuál de los dos era más fuerte. El Viento decía que podía mover las ramas y levantar hojas. El Sol recordaba que su calor despertaba las semillas y calentaba la tierra.",
+          "speech": "Sol: Tenemos fuerzas distintas.",
+          "art": "Friendly personified wind cloud and golden sun discuss above green rural hills.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_00.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_00.timing.json",
+          "narration": "El Viento y el Sol discutían sobre cuál de los dos era más fuerte. El Viento decía que podía mover las ramas y levantar hojas. El Sol recordaba que su calor despertaba las semillas y calentaba la tierra. Sol: Tenemos fuerzas distintas."
+        },
+        {
+          "heading": "Un viajero por el sendero",
+          "text": "Vieron a un viajero que caminaba con un abrigo marrón. Decidieron observar quién lograría que se lo quitara. Acordaron actuar por turnos y sin hacerle daño. El Viento quiso intentarlo primero, muy seguro de sí mismo.",
+          "speech": "Viento: Verás cómo mi soplido lo consigue.",
+          "art": "Traveler in brown coat walks on hillside path beneath sun and wind cloud watching.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_01.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_01.timing.json",
+          "narration": "Vieron a un viajero que caminaba con un abrigo marrón. Decidieron observar quién lograría que se lo quitara. Acordaron actuar por turnos y sin hacerle daño. El Viento quiso intentarlo primero, muy seguro de sí mismo. Viento: Verás cómo mi soplido lo consigue."
         },
         {
           "heading": "Soplar con fuerza",
-          "text": "El Viento sopló con todas sus fuerzas. Cuanto más soplaba, más se sujetaba la persona la capa para protegerse del frío.",
-          "image": "res://assets/cuentos/viento-sol-portada.svg"
+          "text": "El Viento empezó a soplar. Las hojas giraron y el viajero sintió frío. En lugar de quitarse el abrigo, lo sujetó con ambas manos. El Viento aumentó un poco su fuerza, pero el viajero cerró más el cuello.",
+          "speech": "Viajero: Necesito abrigarme bien.",
+          "art": "Wind blows leaves while traveler firmly holds closed brown coat around himself.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_02.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_02.timing.json",
+          "narration": "El Viento empezó a soplar. Las hojas giraron y el viajero sintió frío. En lugar de quitarse el abrigo, lo sujetó con ambas manos. El Viento aumentó un poco su fuerza, pero el viajero cerró más el cuello. Viajero: Necesito abrigarme bien."
         },
         {
-          "heading": "Calor amable",
-          "text": "Luego el Sol brilló suavemente y el día se volvió cálido. La persona se quitó la capa por voluntad propia. El Sol enseñó que la amabilidad puede lograr más que la fuerza.",
-          "image": "res://assets/cuentos/viento-sol-portada.svg"
+          "heading": "Un resultado inesperado",
+          "text": "Después de varios soplidos, el Viento se detuvo. Había esperado arrancar el abrigo, pero solo consiguió que el viajero lo agarrara más. El Sol le pidió su turno y el Viento aceptó apartarse para observar.",
+          "speech": "Viento: Cuanto más soplé, más lo sujetó.",
+          "art": "Wind cloud pauses looking puzzled; traveler still holds coat, golden sun begins emerging.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_03.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_03.timing.json",
+          "narration": "Después de varios soplidos, el Viento se detuvo. Había esperado arrancar el abrigo, pero solo consiguió que el viajero lo agarrara más. El Sol le pidió su turno y el Viento aceptó apartarse para observar. Viento: Cuanto más soplé, más lo sujetó."
+        },
+        {
+          "heading": "Un poco de calor",
+          "text": "El Sol empezó a iluminar suavemente el sendero. Las nubes se apartaron y el aire se volvió agradable. El viajero dejó de encogerse. Primero aflojó el cuello del abrigo y luego caminó con los brazos más relajados.",
+          "speech": "Viajero: Ahora se está mucho mejor.",
+          "art": "Gentle golden sunlight warms path as traveler loosens coat collar and relaxes shoulders.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_04.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_04.timing.json",
+          "narration": "El Sol empezó a iluminar suavemente el sendero. Las nubes se apartaron y el aire se volvió agradable. El viajero dejó de encogerse. Primero aflojó el cuello del abrigo y luego caminó con los brazos más relajados. Viajero: Ahora se está mucho mejor."
+        },
+        {
+          "heading": "Una decisión del viajero",
+          "text": "El Sol siguió calentando sin quemar. Al viajero le entró calor y decidió quitarse el abrigo. Lo dobló sobre su brazo y descansó junto a un árbol. Nadie se lo había arrancado: él mismo eligió hacerlo al sentirse cómodo.",
+          "speech": "Viajero: Guardaré el abrigo hasta que lo necesite.",
+          "art": "Traveler voluntarily removes and folds brown coat over arm, resting under a tree in mild sunlight.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_05.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_05.timing.json",
+          "narration": "El Sol siguió calentando sin quemar. Al viajero le entró calor y decidió quitarse el abrigo. Lo dobló sobre su brazo y descansó junto a un árbol. Nadie se lo había arrancado: él mismo eligió hacerlo al sentirse cómodo. Viajero: Guardaré el abrigo hasta que lo necesite."
+        },
+        {
+          "heading": "Mirar lo que ocurrió",
+          "text": "El Viento observó el abrigo sobre el brazo del viajero. Reconoció que empujar con más fuerza no siempre produce el resultado que se busca. El Sol había cambiado la situación con suavidad, y el viajero había podido decidir.",
+          "speech": "Viento: Esta vez tu manera funcionó mejor.",
+          "art": "Wind cloud and sun look thoughtfully at comfortable traveler carrying folded coat.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_06.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_06.timing.json",
+          "narration": "El Viento observó el abrigo sobre el brazo del viajero. Reconoció que empujar con más fuerza no siempre produce el resultado que se busca. El Sol había cambiado la situación con suavidad, y el viajero había podido decidir. Viento: Esta vez tu manera funcionó mejor."
+        },
+        {
+          "heading": "Cada fuerza tiene su lugar",
+          "text": "Los dos dejaron de discutir. El Viento podía refrescar los días calurosos y el Sol ayudar a crecer las plantas. Aprendieron que una fuerza no sirve igual para todo y que actuar con cuidado puede abrir caminos que la presión cierra.",
+          "speech": "Sol: Podemos ayudar mejor si pensamos antes de actuar.",
+          "art": "Sun and gentle wind cooperate over blooming countryside as traveler continues happily carrying coat.",
+          "image": "res://assets/stories/el_viento_y_el_sol.png",
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/page_07.mp3",
+          "timings": "res://assets/audio/stories/el_viento_y_el_sol/page_07.timing.json",
+          "narration": "Los dos dejaron de discutir. El Viento podía refrescar los días calurosos y el Sol ayudar a crecer las plantas. Aprendieron que una fuerza no sirve igual para todo y que actuar con cuidado puede abrir caminos que la presión cierra. Sol: Podemos ayudar mejor si pensamos antes de actuar."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué llevaba el viajero?",
+          "choices": [
+            "Un paraguas rojo",
+            "Un abrigo marrón",
+            "Una corona de oro"
+          ],
+          "answer": "Un abrigo marrón",
+          "explanation": "El Viento y el Sol lo vieron caminar con ese abrigo.",
+          "evidence": 1,
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué hizo al sentir el soplido del Viento?",
+          "choices": [
+            "Sujetó más fuerte el abrigo",
+            "Lo tiró al río",
+            "Se quedó dormido"
+          ],
+          "answer": "Sujetó más fuerte el abrigo",
+          "explanation": "El frío hizo que quisiera abrigarse mejor.",
+          "evidence": 2,
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/question_01.mp3"
+        },
+        {
+          "prompt": "¿Por qué se quitó el abrigo al final?",
+          "choices": [
+            "El Viento rompió el abrigo",
+            "El Sol se lo escondió",
+            "El calor suave del Sol lo hizo sentirse cómodo"
+          ],
+          "answer": "El calor suave del Sol lo hizo sentirse cómodo",
+          "explanation": "Fue una decisión del viajero cuando ya no necesitaba tanto abrigo.",
+          "evidence": 5,
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué aprendió el Viento?",
+          "choices": [
+            "El Sol no puede ayudar a nadie",
+            "Presionar más no siempre ayuda a conseguir algo",
+            "Siempre conviene soplar más fuerte"
+          ],
+          "answer": "Presionar más no siempre ayuda a conseguir algo",
+          "explanation": "Sus soplidos lograron lo contrario de lo que esperaba.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/el_viento_y_el_sol/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/viento-sol-portada.svg",
+      "atlas": "res://assets/stories/el_viento_y_el_sol.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     },
     {
       "id": "raton_campo_ciudad",
       "title": "El Ratón de Campo y el Ratón de Ciudad",
-      "cover": "res://assets/cuentos/raton-campo-ciudad-portada.svg",
-      "summary": "Dos primos descubren que cada hogar tiene sus propios encantos.",
+      "summary": "Dos primos visitan sus hogares y descubren que cada lugar tiene ventajas y dificultades.",
+      "characters": "Two small friendly grey mouse cousins: field mouse with green neckerchief, city mouse with blue waistcoat. Peaceful rustic burrow and bustling city kitchen with distant house cat; no injury.",
       "pages": [
         {
           "heading": "Una visita al campo",
-          "text": "Un ratón de ciudad visitó a su primo en el campo. Compartieron semillas y una cena sencilla bajo las estrellas.",
-          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+          "text": "El ratón de ciudad fue a visitar a su primo del campo. Este vivía en una madriguera cerca de un huerto. Lo recibió con semillas, fruta y un poco de pan. Después salieron a mirar las plantas y escuchar a los pájaros.",
+          "speech": "Ratón de campo: No hay lujo, pero me gusta este lugar.",
+          "art": "Field mouse with green scarf welcomes city mouse in blue waistcoat to rustic burrow with seeds and fruit.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_00.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_00.timing.json",
+          "narration": "El ratón de ciudad fue a visitar a su primo del campo. Este vivía en una madriguera cerca de un huerto. Lo recibió con semillas, fruta y un poco de pan. Después salieron a mirar las plantas y escuchar a los pájaros. Ratón de campo: No hay lujo, pero me gusta este lugar."
         },
         {
-          "heading": "La gran ciudad",
-          "text": "Después viajaron a la ciudad, donde encontraron una mesa llena de manjares. Pero cada ruido inesperado los hacía esconderse rápidamente.",
-          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+          "heading": "Una invitación diferente",
+          "text": "El ratón de ciudad agradeció la comida, aunque estaba acostumbrado a otras cosas. Le contó a su primo que en la casa donde vivía había quesos y pasteles. Lo invitó a conocerla para compartir una cena distinta.",
+          "speech": "Ratón de ciudad: Ven conmigo y verás mi hogar.",
+          "art": "Two mouse cousins talk beside country picnic as city mouse gestures toward distant town.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_01.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_01.timing.json",
+          "narration": "El ratón de ciudad agradeció la comida, aunque estaba acostumbrado a otras cosas. Le contó a su primo que en la casa donde vivía había quesos y pasteles. Lo invitó a conocerla para compartir una cena distinta. Ratón de ciudad: Ven conmigo y verás mi hogar."
         },
         {
-          "heading": "Elegir con tranquilidad",
-          "text": "El ratón de campo prefirió volver a su hogar tranquilo. Los primos aprendieron que cada cual puede elegir el lugar donde se siente seguro y feliz.",
-          "image": "res://assets/cuentos/raton-campo-ciudad-portada.svg"
+          "heading": "El viaje a la ciudad",
+          "text": "Los primos caminaron hasta el pueblo y se escondieron de los carros al cruzar. Al llegar a una casa grande, entraron por un hueco junto a la cocina. El ratón de campo miraba sorprendido los muebles y los platos.",
+          "speech": "Ratón de campo: Aquí todo es enorme y hace mucho ruido.",
+          "art": "Two tiny mice safely enter grand city kitchen through small hole, large dishes and furniture around.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_02.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_02.timing.json",
+          "narration": "Los primos caminaron hasta el pueblo y se escondieron de los carros al cruzar. Al llegar a una casa grande, entraron por un hueco junto a la cocina. El ratón de campo miraba sorprendido los muebles y los platos. Ratón de campo: Aquí todo es enorme y hace mucho ruido."
+        },
+        {
+          "heading": "Una mesa llena",
+          "text": "Sobre la mesa había migas de pastel y un trozo de queso. Los ratones subieron por una silla y empezaron a probarlos. La comida era deliciosa. Por un momento, el primo del campo pensó que aquel lugar era perfecto.",
+          "speech": "Ratón de campo: Nunca había probado un pastel así.",
+          "art": "Two mouse cousins enjoy cheese and cake crumbs on a large city dining table.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_03.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_03.timing.json",
+          "narration": "Sobre la mesa había migas de pastel y un trozo de queso. Los ratones subieron por una silla y empezaron a probarlos. La comida era deliciosa. Por un momento, el primo del campo pensó que aquel lugar era perfecto. Ratón de campo: Nunca había probado un pastel así."
+        },
+        {
+          "heading": "El ruido de la puerta",
+          "text": "De pronto se abrió la puerta de la cocina. Unas personas entraron y los ratones corrieron a esconderse bajo un mueble. Esperaron quietos hasta que la habitación quedó vacía. La cena se había interrumpido antes de que terminaran.",
+          "speech": "Ratón de ciudad: Aquí tenemos que estar muy atentos.",
+          "art": "Mice safely hide beneath cabinet as human shoes appear in kitchen doorway.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_04.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_04.timing.json",
+          "narration": "De pronto se abrió la puerta de la cocina. Unas personas entraron y los ratones corrieron a esconderse bajo un mueble. Esperaron quietos hasta que la habitación quedó vacía. La cena se había interrumpido antes de que terminaran. Ratón de ciudad: Aquí tenemos que estar muy atentos."
+        },
+        {
+          "heading": "Otra sorpresa cerca del queso",
+          "text": "Cuando intentaron volver a la mesa, vieron al gato de la casa junto a una silla. Los primos regresaron a su escondite sin acercarse. El ratón de campo comprendió que disfrutar de aquella comida también traía preocupaciones.",
+          "speech": "Ratón de campo: Prefiero no arriesgarme para cenar.",
+          "art": "Mice peek safely from wall hole at distant resting house cat near dining chair.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_05.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_05.timing.json",
+          "narration": "Cuando intentaron volver a la mesa, vieron al gato de la casa junto a una silla. Los primos regresaron a su escondite sin acercarse. El ratón de campo comprendió que disfrutar de aquella comida también traía preocupaciones. Ratón de campo: Prefiero no arriesgarme para cenar."
+        },
+        {
+          "heading": "Decidir con respeto",
+          "text": "El ratón de campo agradeció la invitación, pero explicó que extrañaba la calma de su madriguera. Su primo entendió. A él le gustaba la ciudad, aunque debía tomar precauciones. Ninguno necesitaba convencer al otro de vivir igual.",
+          "speech": "Ratón de ciudad: Podemos preferir lugares distintos y seguir siendo amigos.",
+          "art": "Two mouse cousins speak kindly in safe city hiding place, preparing field mouse's travel bundle.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_06.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_06.timing.json",
+          "narration": "El ratón de campo agradeció la invitación, pero explicó que extrañaba la calma de su madriguera. Su primo entendió. A él le gustaba la ciudad, aunque debía tomar precauciones. Ninguno necesitaba convencer al otro de vivir igual. Ratón de ciudad: Podemos preferir lugares distintos y seguir siendo amigos."
+        },
+        {
+          "heading": "Volver a la tranquilidad",
+          "text": "El ratón de campo regresó a su huerto. Compartió unas semillas con un vecino y descansó oyendo el viento. Sabía que la ciudad tenía cosas interesantes, pero valoraba su vida tranquila. Los primos prometieron seguir visitándose con cuidado.",
+          "speech": "Ratón de campo: Este es el hogar que prefiero.",
+          "art": "Field mouse happily returns to quiet burrow beside garden and shares seeds in soft countryside light.",
+          "image": "res://assets/stories/raton_campo_ciudad.png",
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/page_07.mp3",
+          "timings": "res://assets/audio/stories/raton_campo_ciudad/page_07.timing.json",
+          "narration": "El ratón de campo regresó a su huerto. Compartió unas semillas con un vecino y descansó oyendo el viento. Sabía que la ciudad tenía cosas interesantes, pero valoraba su vida tranquila. Los primos prometieron seguir visitándose con cuidado. Ratón de campo: Este es el hogar que prefiero."
         }
+      ],
+      "questions": [
+        {
+          "prompt": "¿Qué ofreció el ratón de campo a su primo?",
+          "choices": [
+            "Semillas, fruta y pan",
+            "Solo pasteles de chocolate",
+            "Un huevo de oro"
+          ],
+          "answer": "Semillas, fruta y pan",
+          "explanation": "Esa fue la sencilla comida de bienvenida en la madriguera.",
+          "evidence": 0,
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/question_00.mp3"
+        },
+        {
+          "prompt": "¿Qué interrumpió primero la cena en la ciudad?",
+          "choices": [
+            "Comenzó una tormenta dentro de casa",
+            "Llegó la liebre",
+            "Entraron personas en la cocina"
+          ],
+          "answer": "Entraron personas en la cocina",
+          "explanation": "Los ratones tuvieron que esconderse bajo un mueble.",
+          "evidence": 4,
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/question_01.mp3"
+        },
+        {
+          "prompt": "¿Por qué volvió al campo el visitante?",
+          "choices": [
+            "La ciudad no tenía comida",
+            "Prefería la tranquilidad de su hogar",
+            "No quería seguir siendo primo del otro"
+          ],
+          "answer": "Prefería la tranquilidad de su hogar",
+          "explanation": "Le gustó la comida, pero no la preocupación constante al cenar.",
+          "evidence": 6,
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/question_02.mp3"
+        },
+        {
+          "prompt": "¿Qué hicieron los primos con sus preferencias distintas?",
+          "choices": [
+            "Las respetaron y siguieron siendo amigos",
+            "Se obligaron a vivir juntos",
+            "Decidieron no hablar nunca más"
+          ],
+          "answer": "Las respetaron y siguieron siendo amigos",
+          "explanation": "Entendieron que cada uno podía elegir dónde vivir sin dejar de visitarse.",
+          "evidence": 7,
+          "audio": "res://assets/audio/stories/raton_campo_ciudad/question_03.mp3"
+        }
+      ],
+      "cover": "res://assets/cuentos/raton-campo-ciudad-portada.svg",
+      "atlas": "res://assets/stories/raton_campo_ciudad.png",
+      "order": [
+        0,
+        2,
+        5,
+        7
       ]
     }
   ]

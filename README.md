@@ -1,6 +1,6 @@
 # Aprende sin Límites
 
-Juego educativo en Godot para explorar letras y practicar su trazado, con personajes y ambientación andina. Su público previsto es inicial y primaria; la implementación actual se concentra en alfabetización inicial.
+Juego educativo en Godot para explorar letras, practicar su trazado y descubrir cuentos, con personajes y ambientación andina. Su público previsto es inicial y primaria; incluye cuatro actividades de comprensión para los mismos 16 cuentos.
 
 ## Ejecutar
 
@@ -11,6 +11,8 @@ Juego educativo en Godot para explorar letras y practicar su trazado, con person
 Se conserva el estilo ilustrado original: fondos, botones y personajes por imágenes. Incluye **300 audios locales en español** (270 palabras, 27 letras y tres instrucciones); no necesita una voz española instalada para reproducirlos. No hay reconocimiento de voz ni una IA integrada actualmente.
 
 Los menús de **Matemáticas, Números y Geometría** comparten una llama animada y 33 audios neuronales locales, con ayuda y control de sonido. Se abren desde sus botones del inicio. Las tarjetas presentan cada tema; sus ejercicios y submenús internos se construirán de uno en uno. Detalles en [Menús matemáticos](docs/MENUS_MATEMATICOS.md).
+
+**Cuentos** incluye a Carmelo animado con voz masculina peruana, 128 escenas ilustradas y 205 audios incluidos. Sus cuatro modos funcionan con los mismos 16 títulos: leer en viñetas, escuchar con palabras resaltadas, ordenar sucesos y responder preguntas con pistas y puntuación. Detalles, capturas y guía de edición en [Cuentos y Carmelo](docs/CUENTOS_Y_CARMELO.md).
 
 ## Estado real
 
@@ -23,7 +25,8 @@ Los menús de **Matemáticas, Números y Geometría** comparten una llama animad
 | Números | Menú ilustrado, llama animada, voz local, ocho presentaciones y ajustes de sonido persistentes; ejercicios pendientes |
 | Matemáticas | Menú de cuatro operaciones y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
 | Geometría | Menú de figuras y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
-| Cuentos | Menú ilustrado integrado por el equipo, personaje Carmelo y panel de progreso; actividades internas pendientes |
+| Cuentos | 16 cuentos × 8 escenas; historietas, narración, orden cronológico y 64 preguntas; Carmelo animado, voz masculina local, progreso por actividad y mejor puntuación |
+| Cuatro juegos inferiores de Cuentos | Elegir personaje, Completa la escena, Busca el objeto y Reto rápido: mensajes de próxima etapa |
 | Diccionario y Enciclopedia | Pantallas provisionales |
 | Configuración | Información provisional; todavía no cambia ajustes |
 | Personajes 3D | Prototipos independientes, fuera del recorrido principal |
@@ -37,11 +40,14 @@ scenes/             Escena principal y escenas de prototipos
 scripts/menu/       Catálogo del menú
 scripts/language/   Lección, alfabeto compartido y actividad de trazado
 scripts/math/       Controlador compartido y catálogos de Matemáticas, Números y Geometría
+scripts/stories/    Repositorio, cuatro modos de cuentos, voz y animación de Carmelo
 scripts/prototypes/ Demostraciones 3D
 data/language/      Contenido del abecedario
+data/stories/       Guiones editables y manifiesto de narración
 assets/audio/       Grabaciones y felicitaciones
 assets/backgrounds/ Fondos
 assets/characters/  Personajes y secuencias de animación
+assets/stories/     Ocho ilustraciones por cuento, en atlas de 4 × 2
 assets/models/      Modelo 3D y textura
 assets/ui/          Menú, Lenguaje y trazado
 docs/               Análisis, guía de equipo y capturas anteriores
@@ -55,6 +61,7 @@ tests/              Prueba de navegación y guardado en Godot
 ## Documentación
 
 - [Correcciones actuales de Lenguaje y audio](docs/CORRECCIONES_LENGUAJE.md)
+- [Cuentos: cuatro actividades, narración y Carmelo](docs/CUENTOS_Y_CARMELO.md)
 - [Hack4Edu 2026: encaje, bases y diseño para el reto 02](docs/HACK4EDU_RETO_02.md)
 - [Plan de trabajo para el equipo](docs/PLAN_EQUIPO_HACK4EDU.md)
 - [Análisis detallado y propuesta de juego e IA](docs/ANALISIS_Y_PROPUESTA.md)
@@ -78,6 +85,8 @@ Validación completa, indicando la ubicación del ejecutable de Godot:
 La validación importa recursos, compila los controladores, recorre Lenguaje y trazado, reconoce un trazo y comprueba el guardado al reabrir. Sus archivos de usuario y registros se aíslan en `.godot/validation/`; no usa el progreso real del jugador.
 
 También comprueba todas las letras con movimientos continuos y eventos espaciados, atajos incorrectos, interrupción de audio, conservación del guardado anterior, dos dedos y navegación después de completar una letra.
+
+Cuentos añade 502 comprobaciones: los 16 recorridos, escenas distintas, audio decodificable, cuatro entradas desde el menú, tarjetas sin recortes, pausa, cancelación y avance automático, orden correcto e incorrecto, pistas, puntuación sin duplicación y conservación del guardado anterior. Lenguaje y los tres menús matemáticos conservan sus 391 comprobaciones.
 
 ## Generar o cambiar voces
 

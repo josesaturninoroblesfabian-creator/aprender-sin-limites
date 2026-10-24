@@ -40,7 +40,11 @@ var language_screen: Control
 var cuentos_menu_screen: Control
 var cuentos_selector_screen: Control
 var reading_screen: Control
+<<<<<<< Updated upstream
 var character_game_screen: Control
+=======
+var story_mode := "read"
+>>>>>>> Stashed changes
 
 func _ready() -> void:
 	_build_shell()
@@ -382,18 +386,28 @@ func _open_cuentos_menu() -> void:
 	root_box.visible = false
 	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
 	cuentos.connect("back_requested", Callable(self, "_show_home"))
+<<<<<<< Updated upstream
 	cuentos.connect("illustrated_stories_requested", Callable(self, "_open_illustrated_stories"))
 	cuentos.connect("character_game_requested", Callable(self, "_open_character_game"))
+=======
+	cuentos.connect("activity_requested", Callable(self, "_open_story_activity"))
+>>>>>>> Stashed changes
 	language_screen = cuentos
 	cuentos_menu_screen = cuentos
 	add_child(cuentos)
 
 func _open_illustrated_stories() -> void:
+	_open_story_activity("read")
+
+func _open_story_activity(mode: String) -> void:
+	story_mode = mode
 	if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
 		cuentos_menu_screen.hide()
 	var selector: Control = load("res://scenes/selector_cuentos.tscn").instantiate()
+	selector.set("activity_mode", mode)
 	selector.connect("back_requested", Callable(self, "_return_to_cuentos"))
 	selector.connect("story_selected", Callable(self, "_open_story"))
+	selector.connect("mode_changed", func(value: String): story_mode = value)
 	cuentos_selector_screen = selector
 	add_child(selector)
 
@@ -413,6 +427,7 @@ func _open_story(story_data: Dictionary) -> void:
 	reader.connect("back_requested", Callable(self, "_return_to_selector"))
 	reader.connect("story_completed", Callable(cuentos_selector_screen, "mark_story_completed"))
 	reader.set("initial_story", story_data)
+	reader.set("activity_mode", story_mode)
 	reading_screen = reader
 	add_child(reader)
 
@@ -422,6 +437,7 @@ func _return_to_selector() -> void:
 	reading_screen = null
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
 		cuentos_selector_screen.show()
+		cuentos_selector_screen.call("refresh_library")
 
 func _return_to_cuentos() -> void:
 	if character_game_screen != null and is_instance_valid(character_game_screen):
