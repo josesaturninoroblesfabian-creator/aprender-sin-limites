@@ -14,7 +14,7 @@ const CONDOR_INTRO_SEGMENTS := [
 	"La barra de Mi Progreso se llenará conforme vayas escuchando todas las palabras del abecedario.",
 	"Además, tienes juegos y actividades para que aprendas.",
 	"En Traza la letra aprenderás a escribir.",
-	"En Escucha y aprende escucharás las palabras y las repetirás usando el micrófono. Enciéndelo para participar.",
+	"En Escucha y repite oirás las palabras y podrás grabar tu voz con el micrófono.",
 	"En Une con la imagen relacionarás las imágenes con las palabras que les corresponden.",
 	"En Encuentra la letra buscarás la letra adecuada entre muchas letras desordenadas.",
 	"Por último, Juegos por niveles ofrece juegos divertidos para seguir aprendiendo. ¡Así que puedes comenzar!"
@@ -49,6 +49,8 @@ var progress_tween: Tween
 var word_star_labels: Array[Label] = []
 var guide_message: Label
 var trace_exercise: Control
+var listen_repeat_screen: Control
+var match_image_screen: Control
 var pending_word_id: String = ""
 var pending_word_letter: String = ""
 var pending_word_index: int = -1
@@ -351,7 +353,8 @@ func _speak_selected_letter() -> void:
 	_cancel_word_speech()
 	condor_frame_index = 0
 	condor_frame_clock = 0.0
-	Narration.speak("letter_%02d" % LETTERS.find(selected_letter), selected_letter)
+	var letter_index := LETTERS.find(selected_letter)
+	Narration.speak_letter("letter_%02d" % letter_index, Alphabet.LETTER_NAMES[letter_index])
 
 func _show_letter(letter: String) -> void:
 	if not letter in LETTERS:
@@ -516,7 +519,47 @@ func _show_activity(activity_name: String) -> void:
 	if activity_name == "Traza la letra":
 		_open_trace_exercise()
 		return
+	if activity_name == "Escucha y repite":
+		_open_listen_repeat()
+		return
+	if activity_name == "Une con la imagen":
+		_open_match_image()
+		return
 	guide_message.text = "%s estará disponible en la siguiente etapa." % activity_name
+
+func _open_listen_repeat() -> void:
+	if is_instance_valid(listen_repeat_screen):
+		return
+	_cancel_word_speech()
+	listen_repeat_screen = Control.new()
+	listen_repeat_screen.set_script(load("res://scripts/language/listen_repeat.gd"))
+	listen_repeat_screen.connect("close_requested", Callable(self, "_close_listen_repeat"))
+	add_child(listen_repeat_screen)
+	listen_repeat_screen.call("start", selected_letter)
+
+func _close_listen_repeat() -> void:
+	_cancel_word_speech()
+	if is_instance_valid(listen_repeat_screen):
+		listen_repeat_screen.queue_free()
+	listen_repeat_screen = null
+
+func _open_match_image() -> void:
+	if is_instance_valid(match_image_screen):
+		return
+	_cancel_word_speech()
+	var game_scene := load("res://scenes/language/match_image.tscn") as PackedScene
+	if game_scene == null:
+		guide_message.text = "No se pudo abrir Une con la imagen. Inténtalo de nuevo."
+		return
+	match_image_screen = game_scene.instantiate() as Control
+	match_image_screen.connect("close_requested", Callable(self, "_close_match_image"))
+	add_child(match_image_screen)
+
+func _close_match_image() -> void:
+	_cancel_word_speech()
+	if is_instance_valid(match_image_screen):
+		match_image_screen.queue_free()
+	match_image_screen = null
 
 func _open_trace_exercise() -> void:
 	if trace_exercise != null and is_instance_valid(trace_exercise):

@@ -28,11 +28,11 @@ var counter_label: Label
 var counter_total_label: Label
 var letter_caption: Label
 var result_label: Label
-var exercise_label: Label
 var trace_canvas: Control
 var start_button: Button
 var erase_button: Button
 var next_button: Button
+var previous_button: Button
 var alphabet_buttons: Dictionary = {}
 var condor_avatar: TextureRect
 var condor_frames: Array[Texture2D] = []
@@ -41,6 +41,7 @@ var condor_frame_index := 0
 var praise_audio: AudioStreamPlayer
 var praise_audio_streams: Array[AudioStream] = []
 var praise_rng := RandomNumberGenerator.new()
+var navigation_revision := 0
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -213,21 +214,14 @@ func _build_screen() -> void:
 	_place(result_label, 0.436, 0.695, 0.289, 0.042)
 	add_child(result_label)
 
-	exercise_label = _label("Ejercicio 1 de 10", 14, Color("#0b4b88"))
-	exercise_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	exercise_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	_place(exercise_label, 0.219, 0.735, 0.181, 0.032)
-	add_child(exercise_label)
-
-	next_button = _visible_button("Siguiente →", Rect2(0.74, 0.685, 0.15, 0.065), "Siguiente letra")
-	next_button.add_theme_font_size_override("font_size", 19)
-	for state in ["normal", "hover", "pressed", "disabled", "focus"]:
-		var style := StyleBoxFlat.new()
-		style.bg_color = Color("#168bd2") if state != "disabled" else Color("#6b8295")
-		style.border_color = Color.WHITE
-		style.set_border_width_all(2)
-		style.set_corner_radius_all(14)
-		next_button.add_theme_stylebox_override(state, style)
+	previous_button = _visible_button("←", Rect2(0.74, 0.685, 0.072, 0.065), "Letra anterior")
+	previous_button.add_theme_font_size_override("font_size", 23)
+	_style_navigation_button(previous_button)
+	previous_button.pressed.connect(_go_to_previous_letter)
+	add_child(previous_button)
+	next_button = _visible_button("→", Rect2(0.818, 0.685, 0.072, 0.065), "Siguiente letra")
+	next_button.add_theme_font_size_override("font_size", 23)
+	_style_navigation_button(next_button)
 	next_button.pressed.connect(_go_to_next_letter)
 	add_child(next_button)
 	_add_alphabet_selector()
@@ -240,7 +234,6 @@ func _show_current_letter() -> void:
 	_update_progress_plaque()
 	counter_total_label.text = "%d" % LETTERS.size()
 	var done := int(completed_by_letter.get(letter, 0))
-	exercise_label.text = "Ejercicio %d de %d" % [mini(done + 1, EXERCISES_PER_LETTER), EXERCISES_PER_LETTER]
 	if done >= EXERCISES_PER_LETTER:
 		result_label.text = "¡Letra %s completada!" % letter
 	else:
@@ -248,7 +241,7 @@ func _show_current_letter() -> void:
 	trace_canvas.call("set_guide_strokes", LetterStrokes.for_letter(letter))
 	# Las letras completadas siguen disponibles para practicar; el progreso queda guardado.
 	start_button.disabled = false
-	_update_next_button()
+	_update_navigation_buttons()
 	if _completed_letter_count() == LETTERS.size():
 		result_label.text = "¡Completaste las 27 letras!"
 	_update_alphabet_selection()
@@ -314,11 +307,11 @@ func _update_alphabet_selection() -> void:
 		key.add_theme_stylebox_override("normal", _alphabet_key_style(letter == LETTERS[current_letter_index], false))
 
 func _select_alphabet_letter(letter: String) -> void:
-	if praise_audio.playing:
-		return
 	var index := LETTERS.find(letter)
 	if index < 0:
 		return
+	navigation_revision += 1
+	_stop_navigation_audio()
 	current_letter_index = index
 	_show_current_letter()
 	_speak_letter()
@@ -326,6 +319,7 @@ func _select_alphabet_letter(letter: String) -> void:
 func _start_attempt() -> void:
 	if praise_audio.playing:
 		return
+	navigation_revision += 1
 	trace_canvas.call("reset_drawing")
 	trace_canvas.call("start_drawing")
 	result_label.text = "Empieza en el punto 1 y sigue el camino."
@@ -342,23 +336,41 @@ func _reset_attempt() -> void:
 
 func _on_trace_completed() -> void:
 	var letter := String(LETTERS[current_letter_index])
-	var done := mini(int(completed_by_letter.get(letter, 0)) + 1, EXERCISES_PER_LETTER)
+	var previous_done := int(completed_by_letter.get(letter, 0))
+	var done := mini(previous_done + 1, EXERCISES_PER_LETTER)
+	var completed_letter_index := current_letter_index
+	var expected_navigation_revision := navigation_revision
 	completed_by_letter[letter] = done
 	var saved := _save_progress()
-	result_label.text = "¡Muy bien! Ejercicio guardado." if saved else "¡Muy bien! No se pudo guardar."
+	result_label.text = "¡Muy bien! Se guardó tu avance." if saved else "¡Muy bien! No se pudo guardar."
 	var audio_started := _play_praise_audio()
 	if audio_started:
 		start_button.disabled = true
 		_set_alphabet_buttons_enabled(false)
 	if done < EXERCISES_PER_LETTER:
-		exercise_label.text = "Ejercicio %d de %d" % [done + 1, EXERCISES_PER_LETTER]
 		trace_canvas.call("reset_drawing")
 	else:
 		result_label.text = "¡Letra %s completada!" % letter
 		if _completed_letter_count() == LETTERS.size():
 			result_label.text = "¡Completaste las 27 letras!"
 	_update_progress_plaque()
-	_update_next_button()
+	_update_navigation_buttons()
+	if previous_done < EXERCISES_PER_LETTER and done >= EXERCISES_PER_LETTER and completed_letter_index < LETTERS.size() - 1:
+		# Espera a que termine el elogio y luego avanza. Si el usuario navega o
+		# vuelve a practicar durante la espera, la revisión cancela este avance.
+		while audio_started and praise_audio.playing:
+			if not is_inside_tree() or navigation_revision != expected_navigation_revision:
+				return
+			await get_tree().create_timer(0.05).timeout
+		if not is_inside_tree() or navigation_revision != expected_navigation_revision or current_letter_index != completed_letter_index:
+			return
+		await get_tree().create_timer(0.45).timeout
+		if not is_inside_tree() or navigation_revision != expected_navigation_revision or current_letter_index != completed_letter_index:
+			return
+		current_letter_index += 1
+		navigation_revision += 1
+		_show_current_letter()
+		_speak_letter()
 
 func _on_stroke_rejected() -> void:
 	result_label.text = "Sigue el camino; retoma donde quedaste."
@@ -367,15 +379,35 @@ func _on_stroke_finished(number: int, total: int) -> void:
 	if number < total:
 		result_label.text = "¡Bien! Ahora sigue el punto %d." % (number + 1)
 
-func _update_next_button() -> void:
-	var done := int(completed_by_letter.get(LETTERS[current_letter_index], 0))
-	next_button.disabled = done < EXERCISES_PER_LETTER or current_letter_index >= LETTERS.size() - 1 or praise_audio.playing
+func _update_navigation_buttons() -> void:
+	# La navegación no exige completar la letra: permite explorar, retroceder y
+	# practicar cualquier posición. El guardado conserva el progreso por letra.
+	next_button.disabled = current_letter_index >= LETTERS.size() - 1
+	previous_button.disabled = current_letter_index <= 0
+
+func _stop_navigation_audio() -> void:
+	Narration.stop()
+	if praise_audio != null and praise_audio.playing:
+		praise_audio.stop()
+		_on_praise_audio_finished()
 
 func _go_to_next_letter() -> void:
 	if next_button.disabled or current_letter_index >= LETTERS.size() - 1:
 		return
+	navigation_revision += 1
+	_stop_navigation_audio()
 	current_letter_index += 1
 	_show_current_letter()
+	_speak_letter()
+
+func _go_to_previous_letter() -> void:
+	if previous_button.disabled or current_letter_index <= 0:
+		return
+	navigation_revision += 1
+	_stop_navigation_audio()
+	current_letter_index -= 1
+	_show_current_letter()
+	_speak_letter()
 
 func _update_progress_plaque() -> void:
 	counter_label.text = "%d" % _completed_letter_count()
@@ -414,7 +446,7 @@ func _save_progress() -> bool:
 func _speak_letter() -> void:
 	if praise_audio.playing:
 		return
-	Narration.speak("letter_%02d" % current_letter_index, LETTERS[current_letter_index])
+	Narration.speak_letter("letter_%02d" % current_letter_index, Alphabet.LETTER_NAMES[current_letter_index])
 
 func _play_praise_audio() -> bool:
 	if praise_audio == null or praise_audio_streams.is_empty():
@@ -437,7 +469,7 @@ func _on_praise_audio_finished() -> void:
 	_set_alphabet_buttons_enabled(true)
 	if start_button != null:
 		start_button.disabled = false
-	_update_next_button()
+	_update_navigation_buttons()
 
 func _set_alphabet_buttons_enabled(enabled: bool) -> void:
 	for key_value in alphabet_buttons.values():
@@ -478,6 +510,15 @@ func _visible_button(text: String, rect: Rect2, tooltip: String) -> Button:
 	var button := _invisible_button(rect, tooltip)
 	button.text = text
 	return button
+
+func _style_navigation_button(button: Button) -> void:
+	for state in ["normal", "hover", "pressed", "disabled", "focus"]:
+		var style := StyleBoxFlat.new()
+		style.bg_color = Color("#168bd2") if state != "disabled" else Color("#6b8295")
+		style.border_color = Color.WHITE
+		style.set_border_width_all(2)
+		style.set_corner_radius_all(14)
+		button.add_theme_stylebox_override(state, style)
 
 func _clear_style() -> StyleBoxFlat:
 	var style := StyleBoxFlat.new()
