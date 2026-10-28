@@ -11,6 +11,7 @@ var current_clip: String = ""
 var utterance: int = 0
 var spanish_voice: String = ""
 var spanish_female_voice: String = ""
+var spanish_fallback_voice: String = ""
 
 func _ready() -> void:
 	player = AudioStreamPlayer.new()
@@ -28,6 +29,8 @@ func _ready() -> void:
 		var voice_language := String(voice.get("language", "")).to_lower()
 		if not voice_language.begins_with("es"):
 			continue
+		if spanish_fallback_voice.is_empty():
+			spanish_fallback_voice = String(voice.get("id", ""))
 		if spanish_voice.is_empty() and ("raul" in voice_id or "raúl" in voice_id or "raul" in voice_name or "raúl" in voice_name):
 			spanish_voice = String(voice.get("id", ""))
 		# Godot no expone el género en todas las plataformas. Reconocemos nombres
@@ -71,6 +74,17 @@ func speak(clip_id: String, fallback_text: String) -> bool:
 	return true
 
 func speak_letter(clip_id: String, letter_name: String) -> bool:
+	# La B se nombra "ve" en esta actividad. Fuerza TTS para no reproducir
+	# el clip local defectuoso que la deletrea como "ebi".
+	if clip_id == "letter_01":
+		var b_voice := spanish_female_voice
+		if b_voice.is_empty():
+			b_voice = spanish_voice if not spanish_voice.is_empty() else spanish_fallback_voice
+		if not b_voice.is_empty():
+			stop()
+			current_clip = clip_id
+			DisplayServer.tts_speak("ve", b_voice, 100, 1.0, 0.88, utterance, true)
+			return true
 	var spoken_name := Q_TTS_PRONUNCIATION if clip_id == "letter_17" else letter_name
 	# Para Q, evita el audio grabado que algunos motores interpretan como dos
 	# letras y envía una guía fonética inequívoca al sintetizador español.
