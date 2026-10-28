@@ -68,6 +68,7 @@ var progress_display: Label
 var progress_detail: Label
 var progress_fill: Panel
 var global_stars: Array[Label] = []
+var reward_button: Button
 var previous_button: Button
 var next_button: Button
 var listen_button: Button
@@ -343,16 +344,22 @@ func _build_screen() -> void:
 	progress.add_child(reward_text)
 	var rewards := HBoxContainer.new()
 	rewards.alignment = BoxContainer.ALIGNMENT_CENTER
-	rewards.add_theme_constant_override("separation", 7)
-	_place(rewards, 0.12, 0.80, 0.76, 0.16)
+	rewards.add_theme_constant_override("separation", 2)
+	_place(rewards, 0.035, 0.78, 0.93, 0.19)
 	progress.add_child(rewards)
 	for _star_index in range(3):
-		var star := _label("★", 30, Color("#e3dba8"))
+		var star := _label("★", 28, Color("#e3dba8"))
 		star.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		star.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-		star.custom_minimum_size = Vector2(40, 40)
+		star.custom_minimum_size = Vector2(32, 42)
 		global_stars.append(star)
 		rewards.add_child(star)
+	reward_button = _button("🎁 Premio por\ncompletar todo", Color("#f5a00a"), 11, Color("#493000"))
+	reward_button.custom_minimum_size = Vector2(132, 46)
+	reward_button.tooltip_text = "Abrir el juego sorpresa al completar las 270 palabras"
+	reward_button.visible = false
+	reward_button.pressed.connect(_open_completion_game)
+	rewards.add_child(reward_button)
 
 	var alphabet_panel := _panel(Color("#e9f8ff"), Color.WHITE, 3, 28)
 	alphabet_panel.name = "Abecedario"
@@ -572,7 +579,6 @@ func _on_guidance_audio_finished() -> void:
 	if completed.size() >= TOTAL_WORDS and not final_audio_played:
 		final_audio_played = true
 		_save_progress()
-		_open_completion_game()
 	_reset_condor_pose()
 	if is_instance_valid(record_button):
 		_render_current_word()
@@ -587,7 +593,6 @@ func _play_final_audio() -> void:
 		_save_progress()
 		status_display.text = "¡Completaste las 270 palabras!"
 		_render_current_word()
-		_open_completion_game()
 		return
 	Narration.stop()
 	if instructions_player != null:
@@ -602,6 +607,8 @@ func _play_final_audio() -> void:
 	_render_current_word()
 
 func _open_completion_game() -> void:
+	if completed.size() < TOTAL_WORDS or not final_audio_played:
+		return
 	var game_path := ProjectSettings.globalize_path(COMPLETION_GAME_PATH)
 	if not FileAccess.file_exists(COMPLETION_GAME_PATH):
 		push_warning("No se encontró el juego de celebración: %s" % game_path)
@@ -625,6 +632,8 @@ func _update_progress() -> void:
 	if not is_instance_valid(progress_display) or words.is_empty():
 		return
 	var completed_count := completed.size()
+	if is_instance_valid(reward_button):
+		reward_button.visible = completed_count >= TOTAL_WORDS and final_audio_played
 	progress_display.text = "Letras completas: %d / %d" % [completed_count, TOTAL_WORDS]
 	var current_entry: Dictionary = words[current_index]
 	var letter_count := 0

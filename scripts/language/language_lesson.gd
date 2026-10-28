@@ -51,6 +51,8 @@ var guide_message: Label
 var trace_exercise: Control
 var listen_repeat_screen: Control
 var match_image_screen: Control
+var find_letter_screen: Control
+var levels_screen: Control
 var pending_word_id: String = ""
 var pending_word_letter: String = ""
 var pending_word_index: int = -1
@@ -525,6 +527,12 @@ func _show_activity(activity_name: String) -> void:
 	if activity_name == "Une con la imagen":
 		_open_match_image()
 		return
+	if activity_name == "Encuentra la letra":
+		_open_find_letter()
+		return
+	if activity_name == "Juegos por niveles":
+		_open_levels_screen()
+		return
 	guide_message.text = "%s estará disponible en la siguiente etapa." % activity_name
 
 func _open_listen_repeat() -> void:
@@ -560,6 +568,36 @@ func _close_match_image() -> void:
 	if is_instance_valid(match_image_screen):
 		match_image_screen.queue_free()
 	match_image_screen = null
+	visible = true
+
+func _open_find_letter() -> void:
+	if is_instance_valid(find_letter_screen):
+		return
+	_cancel_word_speech()
+	find_letter_screen = Control.new()
+	find_letter_screen.set_script(load("res://scripts/language/find_letter.gd"))
+	find_letter_screen.connect("close_requested", Callable(self, "_close_find_letter"))
+	add_child(find_letter_screen)
+
+func _close_find_letter() -> void:
+	_cancel_word_speech()
+	if is_instance_valid(find_letter_screen):
+		find_letter_screen.queue_free()
+	find_letter_screen = null
+	visible = true
+
+func _open_levels_screen() -> void:
+	if is_instance_valid(levels_screen):
+		return
+	levels_screen = Control.new()
+	levels_screen.set_script(load("res://scripts/language/levels_screen.gd"))
+	levels_screen.connect("close_requested", Callable(self, "_close_levels_screen"))
+	add_child(levels_screen)
+
+func _close_levels_screen() -> void:
+	if is_instance_valid(levels_screen):
+		levels_screen.queue_free()
+	levels_screen = null
 
 func _open_trace_exercise() -> void:
 	if trace_exercise != null and is_instance_valid(trace_exercise):
