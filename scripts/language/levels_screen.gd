@@ -3,6 +3,14 @@ extends Control
 signal close_requested
 
 const BACKGROUND_PATH := "res://assets/ui/language/juegos-por-niveles-fondo.png"
+const LEVEL_ONE_IMAGE_PATH := "res://assets/games/condor-volador-recolector.png"
+const LEVEL_ONE_GAME_PATH := "res://assets/games/condor-andino-abecedario.html"
+const LEVEL_TWO_IMAGE_PATH := "res://assets/games/encuentra-la-letra-portada.png"
+const LEVEL_TWO_GAME_PATH := "res://assets/games/encuentra-la-letra-juego-del-abecedario.html"
+const LEVEL_THREE_IMAGE_PATH := "res://assets/games/une-palabras-imagenes-portada.png"
+const LEVEL_THREE_GAME_PATH := "res://assets/games/matching_game.html"
+const LEVEL_FOUR_IMAGE_PATH := "res://assets/games/condor-guerrero-portada.jpg"
+const LEVEL_FOUR_SCENE_PATH := "res://scenes/language/condor_zombie_game.tscn"
 const SOURCE_SIZE := Vector2(1672.0, 941.0)
 
 var background: TextureRect
@@ -11,6 +19,11 @@ var help_dialog: AcceptDialog
 var level_dialog: AcceptDialog
 var back_hotspot: Button
 var help_hotspot: Button
+var level_one_art: TextureRect
+var level_two_art: TextureRect
+var level_three_art: TextureRect
+var level_four_art: TextureRect
+var level_four_game: Node2D
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -42,6 +55,62 @@ func _build_screen() -> void:
 		button.add_theme_stylebox_override("pressed", _card_style(Color(1.0, 0.67, 0.12, 0.34), Color("#ef8a11"), 5))
 		button.add_theme_stylebox_override("focus", _card_style(Color(1.0, 0.88, 0.37, 0.15), Color("#ffcb31"), 5))
 		button.pressed.connect(_on_level_pressed.bind(index + 1))
+		if index == 0:
+			button.text = ""
+			button.tooltip_text = "Cóndor volador recolector: pulsa para jugar"
+			level_one_art = TextureRect.new()
+			level_one_art.texture = load(LEVEL_ONE_IMAGE_PATH)
+			level_one_art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			level_one_art.offset_left = 12.0
+			level_one_art.offset_top = 12.0
+			level_one_art.offset_right = -12.0
+			level_one_art.offset_bottom = -12.0
+			level_one_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			level_one_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+			level_one_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			button.add_child(level_one_art)
+		elif index == 1:
+			button.text = ""
+			button.tooltip_text = "Encuentra la letra: pulsa para jugar"
+			level_two_art = TextureRect.new()
+			level_two_art.texture = load(LEVEL_TWO_IMAGE_PATH)
+			level_two_art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			level_two_art.offset_left = 12.0
+			level_two_art.offset_top = 12.0
+			level_two_art.offset_right = -12.0
+			level_two_art.offset_bottom = -12.0
+			level_two_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			level_two_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+			level_two_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			button.add_child(level_two_art)
+		elif index == 2:
+			button.text = ""
+			button.tooltip_text = "Une las palabras con las imágenes: pulsa para jugar"
+			level_three_art = TextureRect.new()
+			level_three_art.texture = load(LEVEL_THREE_IMAGE_PATH)
+			level_three_art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			level_three_art.offset_left = 12.0
+			level_three_art.offset_top = 12.0
+			level_three_art.offset_right = -12.0
+			level_three_art.offset_bottom = -12.0
+			level_three_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			level_three_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+			level_three_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			button.add_child(level_three_art)
+		elif index == 3:
+			button.text = ""
+			button.tooltip_text = "Nivel 4: Cóndor Guerrero"
+			level_four_art = TextureRect.new()
+			level_four_art.texture = load(LEVEL_FOUR_IMAGE_PATH)
+			level_four_art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			level_four_art.offset_left = 12.0
+			level_four_art.offset_top = 12.0
+			level_four_art.offset_right = -12.0
+			level_four_art.offset_bottom = -12.0
+			level_four_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			level_four_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+			level_four_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			button.add_child(level_four_art)
 		level_buttons.append(button)
 		add_child(button)
 
@@ -101,8 +170,53 @@ func _layout_controls() -> void:
 	help_hotspot.size = help_source_rect.size * image_scale
 
 func _on_level_pressed(level: int) -> void:
+	if level == 1:
+		_open_html_game(LEVEL_ONE_GAME_PATH, "Cóndor volador recolector")
+		return
+	if level == 2:
+		_open_html_game(LEVEL_TWO_GAME_PATH, "Encuentra la letra")
+		return
+	if level == 3:
+		_open_html_game(LEVEL_THREE_GAME_PATH, "Une las palabras con las imágenes")
+		return
+	if level == 4:
+		_open_level_four_game()
+		return
 	level_dialog.dialog_text = "Seleccionaste el nivel %d. Aquí aparecerán sus juegos." % level
 	level_dialog.popup_centered()
+
+func _open_level_four_game() -> void:
+	if is_instance_valid(level_four_game):
+		return
+	var packed_scene := load(LEVEL_FOUR_SCENE_PATH) as PackedScene
+	if packed_scene == null:
+		level_dialog.dialog_text = "No se pudo cargar el juego del Cóndor Guerrero."
+		level_dialog.popup_centered()
+		return
+	level_four_game = packed_scene.instantiate() as Node2D
+	if level_four_game == null:
+		level_dialog.dialog_text = "La escena del Nivel 4 no tiene un nodo de juego válido."
+		level_dialog.popup_centered()
+		return
+	level_four_game.close_requested.connect(_close_level_four_game)
+	add_child(level_four_game)
+
+func _close_level_four_game() -> void:
+	if is_instance_valid(level_four_game):
+		level_four_game.queue_free()
+	level_four_game = null
+
+func _open_html_game(game_resource_path: String, game_title: String) -> void:
+	if not FileAccess.file_exists(game_resource_path):
+		level_dialog.dialog_text = "No se encontró el juego «%s» dentro de assets/games." % game_title
+		level_dialog.popup_centered()
+		return
+	var game_path := ProjectSettings.globalize_path(game_resource_path)
+	var game_uri := "file:///" + game_path.replace("\\", "/").replace(" ", "%20")
+	var error := OS.shell_open(game_uri)
+	if error != OK:
+		level_dialog.dialog_text = "No se pudo abrir «%s». Revisa que tengas un navegador configurado." % game_title
+		level_dialog.popup_centered()
 
 func _show_help() -> void:
 	help_dialog.popup_centered()
