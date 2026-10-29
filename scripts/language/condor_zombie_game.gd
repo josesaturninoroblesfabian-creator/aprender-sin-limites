@@ -21,13 +21,20 @@ const MUSIC_PATHS: Array[String] = [
 ]
 const SHELTER_TEXTURE_PATH := "res://assets/games/level4/refugio-rustico.png"
 const CONDOR_SPRITES_PATH := "res://assets/games/level4/condor-guerrero-sprites.png"
+const CONDOR_AIM_POSES_PATH := "res://assets/games/level4/condor-guerrero-poses.png"
+const ALLY_WALK_SPRITES_PATH := "res://assets/games/level4/condor-aliado-caminata-limpio.png"
+const ALLY_AIM_POSES_PATH := "res://assets/games/level4/condor-aliado-poses.png"
 const SHOTGUN_TEXTURE_PATH := "res://assets/games/level4/escopeta-condor.png"
 const BULLET_BASE_PATH := "res://assets/games/level4/proyectil-condor-base.png"
 const BULLET_UPGRADED_PATH := "res://assets/games/level4/proyectil-condor-mejorado.png"
+const ALLY_BULLET_PATH := "res://assets/games/level4/proyectil-condor-aliado.png"
 const SHOTGUN_SOUND_PATH := "res://assets/audio/level4/disparo-escopeta-condor.mp3"
+const BOMB_ATLAS_PATH := "res://assets/games/level4/atlas-explosion-bombardeo.png"
+const BOMB_SOUND_PATH := "res://assets/audio/level4/explosion-bombardeo.mp3"
+const PLAYER_HURT_SOUND_PATH := "res://assets/audio/level4/dolor-condor-herido.mp3"
 const ZOMBIE_CAT_PATH := "res://assets/games/level4/zombi-gato.png"
 const ZOMBIE_CUY_PATH := "res://assets/games/level4/zombi-cuy.png"
-const ZOMBIE_DOG_PATH := "res://assets/games/level4/zombi-perro.png"
+const ZOMBIE_DOG_PATH := "res://assets/games/level4/zombi-perro-limpio.png"
 const ZOMBIE_GROAN_PATHS: Array[String] = [
 	"res://assets/audio/level4/gruñido-zombi.mp3",
 	"res://assets/audio/level4/gruñido-zombi-ambiente.mp3"
@@ -37,6 +44,15 @@ const FIRE_DELAY := 0.24
 const WORLD_SIZE := Vector2(2400.0, 1600.0)
 const SPANISH_LETTERS := "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
 const BOSS_LETTERS := {"E": "Zorro gigante zombi", "J": "Cocodrilo gigante", "Ñ": "Llama gigante", "S": "Gorila gigante", "X": "Conejo artillero", "Z": "Jefes finales"}
+const BOMB_EXPLOSION_FRAME_RECTS: Array[Rect2] = [
+	Rect2(0, 318, 235, 191), Rect2(235, 318, 205, 191), Rect2(440, 318, 215, 191),
+	Rect2(655, 318, 235, 191), Rect2(890, 318, 270, 191), Rect2(1160, 318, 512, 191),
+	Rect2(0, 522, 400, 194), Rect2(400, 522, 375, 194), Rect2(775, 522, 340, 194),
+	Rect2(1115, 522, 275, 194), Rect2(1390, 522, 282, 194),
+	Rect2(0, 726, 255, 186), Rect2(255, 726, 255, 186), Rect2(510, 726, 235, 186),
+	Rect2(745, 726, 255, 186), Rect2(1000, 726, 250, 186), Rect2(1250, 726, 200, 186),
+	Rect2(1450, 726, 222, 186)
+]
 
 var map_textures: Array[Texture2D] = []
 var camera: Camera2D
@@ -44,18 +60,31 @@ var current_map_index := -1
 var current_map: Texture2D
 var shelter_texture: Texture2D
 var condor_sprites: Texture2D
+var condor_aim_poses: Texture2D
+var ally_walk_sprites: Texture2D
+var ally_aim_poses: Texture2D
 var shotgun_texture: Texture2D
 var bullet_base_texture: Texture2D
 var bullet_upgraded_texture: Texture2D
+var ally_bullet_texture: Texture2D
+var bomb_atlas: Texture2D
 var zombie_cat_texture: Texture2D
 var zombie_cuy_texture: Texture2D
 var zombie_dog_texture: Texture2D
 var music_player: AudioStreamPlayer
 var shotgun_player: AudioStreamPlayer
+var ally_shotgun_players: Array[AudioStreamPlayer] = []
+var next_ally_sound_player := 0
+var player_hurt_player: AudioStreamPlayer
+var bomb_sound_players: Array[AudioStreamPlayer] = []
+var next_bomb_sound_player := 0
 var zombie_groan_player: AudioStreamPlayer2D
 var zombie_groan_clock := 1.5
 var last_zombie_groan_index := -1
 var last_music_index := -1
+var music_volume := 0.75
+var effects_volume := 0.85
+var settings_open := false
 var player_position := Vector2(640.0, 430.0)
 var aim_direction := Vector2.RIGHT
 var player_health := 100.0
@@ -69,6 +98,7 @@ var hurt_clock := 0.0
 var animation_clock := 0.0
 var player_moving := false
 var muzzle_flash := 0.0
+var shoot_pose_clock := 0.0
 var game_paused := false
 var game_finished := false
 var shelter_active := false
@@ -87,6 +117,9 @@ var letter_pickups: Array[Dictionary] = []
 var bosses: Array[Dictionary] = []
 var hazards: Array[Dictionary] = []
 var companions: Array[Dictionary] = []
+var bomb_drops: Array[Dictionary] = []
+var bomb_explosions: Array[Dictionary] = []
+var bombardment_damage_applied := false
 var shelter_position := Vector2.ZERO
 
 var health_bar: ProgressBar
@@ -113,14 +146,23 @@ var radar_player_dot: ColorRect
 var radar_letter_dots: Array[ColorRect] = []
 var radar_enemy_dots: Array[ColorRect] = []
 var radar_shelter_dot: ColorRect
+var settings_overlay: Control
+var music_volume_value: Label
+var effects_volume_value: Label
 
 func _ready() -> void:
 	randomize()
+	_load_audio_settings()
 	shelter_texture = load(SHELTER_TEXTURE_PATH) as Texture2D
 	condor_sprites = load(CONDOR_SPRITES_PATH) as Texture2D
+	condor_aim_poses = load(CONDOR_AIM_POSES_PATH) as Texture2D
+	ally_walk_sprites = load(ALLY_WALK_SPRITES_PATH) as Texture2D
+	ally_aim_poses = load(ALLY_AIM_POSES_PATH) as Texture2D
 	shotgun_texture = load(SHOTGUN_TEXTURE_PATH) as Texture2D
 	bullet_base_texture = load(BULLET_BASE_PATH) as Texture2D
 	bullet_upgraded_texture = load(BULLET_UPGRADED_PATH) as Texture2D
+	ally_bullet_texture = load(ALLY_BULLET_PATH) as Texture2D
+	bomb_atlas = load(BOMB_ATLAS_PATH) as Texture2D
 	zombie_cat_texture = load(ZOMBIE_CAT_PATH) as Texture2D
 	zombie_cuy_texture = load(ZOMBIE_CUY_PATH) as Texture2D
 	zombie_dog_texture = load(ZOMBIE_DOG_PATH) as Texture2D
@@ -128,6 +170,22 @@ func _ready() -> void:
 	shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
 	shotgun_player.volume_db = 3.0
 	add_child(shotgun_player)
+	for pool_index in range(4):
+		var ally_shotgun_player := AudioStreamPlayer.new()
+		ally_shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
+		ally_shotgun_player.volume_db = 3.0
+		add_child(ally_shotgun_player)
+		ally_shotgun_players.append(ally_shotgun_player)
+	player_hurt_player = AudioStreamPlayer.new()
+	player_hurt_player.stream = load(PLAYER_HURT_SOUND_PATH) as AudioStream
+	player_hurt_player.volume_db = 9.0
+	add_child(player_hurt_player)
+	for sound_index in range(3):
+		var bomb_sound_player := AudioStreamPlayer.new()
+		bomb_sound_player.stream = load(BOMB_SOUND_PATH) as AudioStream
+		bomb_sound_player.volume_db = 3.0
+		add_child(bomb_sound_player)
+		bomb_sound_players.append(bomb_sound_player)
 	zombie_groan_player = AudioStreamPlayer2D.new()
 	zombie_groan_player.stream = load(ZOMBIE_GROAN_PATHS[0]) as AudioStream
 	zombie_groan_player.volume_db = 3.0
@@ -144,13 +202,15 @@ func _ready() -> void:
 	music_player.volume_db = -2.0
 	music_player.finished.connect(_play_random_music)
 	add_child(music_player)
+	_apply_audio_settings()
 	_play_random_music()
 
 func _process(delta: float) -> void:
-	if game_paused or game_finished:
+	if game_paused or game_finished or settings_open:
 		return
 	animation_clock += delta
 	muzzle_flash = maxf(0.0, muzzle_flash - delta)
+	shoot_pose_clock = maxf(0.0, shoot_pose_clock - delta)
 	if is_instance_valid(camera):
 		camera.position = player_position
 	fire_clock = maxf(0.0, fire_clock - delta)
@@ -164,6 +224,7 @@ func _process(delta: float) -> void:
 	_update_letter_pickups()
 	_update_bosses(delta)
 	_update_hazards(delta)
+	_update_bombardment(delta)
 	_update_companions(delta)
 	_update_hud()
 	_update_radar()
@@ -171,14 +232,16 @@ func _process(delta: float) -> void:
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
-		if event.keycode == KEY_ESCAPE or event.keycode == KEY_P:
+		if event.keycode == KEY_ESCAPE and settings_open:
+			_close_sound_settings()
+		elif event.keycode == KEY_ESCAPE or event.keycode == KEY_P:
 			_toggle_pause()
 		elif event.keycode == KEY_B and not game_paused and not game_finished:
 			_use_bomb()
 		elif event.keycode == KEY_SPACE and not game_paused and not game_finished:
 			_fire_at_nearest_enemy()
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
-		if not game_paused and not game_finished:
+		if not game_paused and not game_finished and not settings_open:
 			_fire_toward(get_global_mouse_position())
 
 func _draw() -> void:
@@ -205,6 +268,10 @@ func _draw() -> void:
 		_draw_boss(boss)
 	for hazard in hazards:
 		_draw_hazard(hazard)
+	for bomb_drop in bomb_drops:
+		_draw_bomb_drop(bomb_drop)
+	for explosion in bomb_explosions:
+		_draw_bomb_explosion(explosion)
 	for companion in companions:
 		_draw_companion(companion)
 	_draw_condor()
@@ -384,6 +451,7 @@ func _fire_toward(target: Vector2) -> void:
 		})
 	fire_clock = FIRE_DELAY
 	muzzle_flash = 0.12
+	shoot_pose_clock = 0.32
 	if is_instance_valid(shotgun_player) and shotgun_player.stream != null:
 		if shotgun_player.playing:
 			shotgun_player.stop()
@@ -409,35 +477,106 @@ func _defeat_zombie(position: Vector2) -> void:
 		hearts.append({"position": position})
 
 func _use_bomb() -> void:
-	if bomb_count <= 0:
+	if bomb_count <= 0 or not bomb_drops.is_empty():
 		return
 	bomb_count -= 1
+	bombardment_damage_applied = false
+	var targets: Array[Vector2] = []
 	for enemy in enemies:
-		score += 10
-		zombies_defeated += 1
-	enemies.clear()
-	if boss_active:
+		targets.append(enemy["position"])
+	for boss in bosses:
+		targets.append(boss["position"])
+	if targets.is_empty():
+		targets.append((player_position + Vector2(randf_range(-150.0, 150.0), randf_range(-100.0, 100.0))).clamp(Vector2(40.0, 120.0), WORLD_SIZE - Vector2(40.0, 40.0)))
+	else:
+		targets.shuffle()
+		if targets.size() > 12:
+			var selected_targets: Array[Vector2] = []
+			for target_index in range(12):
+				selected_targets.append(targets[int(float(target_index) * float(targets.size()) / 12.0)])
+			targets = selected_targets
+	for index in range(targets.size()):
+		var target: Vector2 = targets[index]
+		bomb_drops.append({
+			"position": Vector2(target.x + randf_range(-32.0, 32.0), target.y - 620.0),
+			"target": target,
+			"delay": float(index) * 0.13,
+			"speed": randf_range(850.0, 1050.0)
+		})
+	_update_hud()
+
+func _update_bombardment(delta: float) -> void:
+	for index in range(bomb_drops.size() - 1, -1, -1):
+		var bomb: Dictionary = bomb_drops[index]
+		bomb["delay"] = float(bomb["delay"]) - delta
+		if float(bomb["delay"]) > 0.0:
+			bomb_drops[index] = bomb
+			continue
+		var position: Vector2 = bomb["position"]
+		var target: Vector2 = bomb["target"]
+		var offset := target - position
+		var travel := float(bomb["speed"]) * delta
+		if offset.length() <= travel:
+			bomb_explosions.append({"position": target, "age": 0.0})
+			_play_bomb_impact()
+			bomb_drops.remove_at(index)
+		else:
+			bomb["position"] = position + offset.normalized() * travel
+			bomb_drops[index] = bomb
+	for index in range(bomb_explosions.size() - 1, -1, -1):
+		var explosion: Dictionary = bomb_explosions[index]
+		explosion["age"] = float(explosion["age"]) + delta
+		if float(explosion["age"]) >= float(BOMB_EXPLOSION_FRAME_RECTS.size()) * 0.075:
+			bomb_explosions.remove_at(index)
+		else:
+			bomb_explosions[index] = explosion
+	if bomb_drops.is_empty() and not bomb_explosions.is_empty() and not bombardment_damage_applied:
+		# Aplica el daño una sola vez, al concluir la salva visual de bombas.
+		for enemy in enemies:
+			score += 10
+			zombies_defeated += 1
+		enemies.clear()
 		for index in range(bosses.size()):
 			var boss: Dictionary = bosses[index]
 			boss["hp"] = maxi(1, int(boss["hp"]) - 7)
 			bosses[index] = boss
-	_update_hud()
+		bombardment_damage_applied = true
+		_update_hud()
+
+func _play_bomb_impact() -> void:
+	if bomb_sound_players.is_empty():
+		return
+	var player := bomb_sound_players[next_bomb_sound_player]
+	next_bomb_sound_player = (next_bomb_sound_player + 1) % bomb_sound_players.size()
+	if player.stream == null:
+		return
+	if player.playing:
+		player.stop()
+	player.play()
+	_apply_audio_settings()
 
 func _update_companions(delta: float) -> void:
 	for index in range(companions.size() - 1, -1, -1):
 		var companion: Dictionary = companions[index]
 		companion["attack_clock"] = maxf(0.0, float(companion["attack_clock"]) - delta)
 		companion["hurt_clock"] = maxf(0.0, float(companion["hurt_clock"]) - delta)
+		companion["shoot_clock"] = maxf(0.0, float(companion.get("shoot_clock", 0.0)) - delta)
 		var position: Vector2 = companion["position"]
 		var target := _nearest_enemy_position(position)
 		var has_target := not enemies.is_empty() and position.distance_to(target) <= 500.0
 		var move_target: Vector2
 		if has_target:
 			var to_enemy := target - position
+			if to_enemy.length_squared() > 0.001:
+				companion["aim_direction"] = to_enemy.normalized()
+			companion["facing_left"] = to_enemy.x < 0.0
 			move_target = position - to_enemy.normalized() * 150.0 if to_enemy.length() < 125.0 else target
-			if float(companion["attack_clock"]) <= 0.0 and to_enemy.length() <= 450.0 and to_enemy.length_squared() > 0.001:
-				bullets.append({"position": position, "direction": to_enemy.normalized(), "speed": 560.0, "life": 1.2, "damage": 1, "companion_id": int(companion["id"])})
+			if float(companion["attack_clock"]) <= 0.0 and to_enemy.length() <= 450.0 and to_enemy.length_squared() > 0.001 and bullets.size() < 64:
+				var shot_direction: Vector2 = companion["aim_direction"]
+				bullets.append({"position": position + shot_direction * 34.0, "direction": shot_direction, "speed": 560.0, "life": 1.2, "damage": 1, "ally_bullet": true, "age": 0.0, "companion_id": int(companion["id"])})
 				companion["attack_clock"] = 0.92
+				companion["shoot_clock"] = 0.34
+				_play_ally_shotgun()
 		else:
 			companion["wander_clock"] = maxf(0.0, float(companion["wander_clock"]) - delta)
 			if float(companion["wander_clock"]) <= 0.0 or position.distance_to(companion["wander_target"]) < 24.0:
@@ -447,8 +586,24 @@ func _update_companions(delta: float) -> void:
 		var travel := move_target - position
 		if travel.length() > 5.0:
 			position += travel.normalized() * 150.0 * delta
+			companion["moving"] = true
+			if not has_target:
+				companion["facing_left"] = travel.x < 0.0
+		else:
+			companion["moving"] = false
 		companion["position"] = position.clamp(Vector2(35.0, 120.0), WORLD_SIZE - Vector2(35.0, 35.0))
 		companions[index] = companion
+
+func _play_ally_shotgun() -> void:
+	if ally_shotgun_players.is_empty():
+		return
+	var player := ally_shotgun_players[next_ally_sound_player]
+	next_ally_sound_player = (next_ally_sound_player + 1) % ally_shotgun_players.size()
+	if player.stream == null:
+		return
+	if player.playing:
+		player.stop()
+	player.play()
 
 func _nearest_enemy_position(origin: Vector2 = Vector2.ZERO) -> Vector2:
 	if enemies.is_empty():
@@ -579,10 +734,15 @@ func _choose_upgrade(index: int) -> void:
 				companions.append({
 					"id": next_companion_id,
 					"position": (player_position + Vector2(randf_range(-70.0, 70.0), randf_range(-70.0, 70.0))).clamp(Vector2(35.0, 120.0), WORLD_SIZE - Vector2(35.0, 35.0)),
-					"health": 100.0,
-					"max_health": 100.0,
+					"health": 50.0,
+					"max_health": 50.0,
 					"attack_clock": randf_range(0.2, 0.8),
 					"hurt_clock": 0.0,
+					"shoot_clock": 0.0,
+					"aim_direction": Vector2.RIGHT,
+					"facing_left": false,
+					"moving": false,
+					"phase": randf_range(0.0, TAU),
 					"wander_clock": 0.0,
 					"wander_target": player_position
 				})
@@ -739,6 +899,10 @@ func _damage_player(amount: float) -> void:
 		return
 	player_health = maxf(0.0, player_health - amount)
 	hurt_clock = 0.7
+	if is_instance_valid(player_hurt_player) and player_hurt_player.stream != null:
+		if player_hurt_player.playing:
+			player_hurt_player.stop()
+		player_hurt_player.play()
 	if player_health <= 0.0:
 		_finish_game(false)
 
@@ -797,6 +961,123 @@ func _play_random_music() -> void:
 	if stream != null:
 		music_player.stream = stream
 		music_player.play()
+		_apply_audio_settings()
+
+func _load_audio_settings() -> void:
+	var config := ConfigFile.new()
+	if config.load("user://level4_audio.cfg") == OK:
+		music_volume = clampf(float(config.get_value("audio", "music", music_volume)), 0.0, 1.0)
+		effects_volume = clampf(float(config.get_value("audio", "effects", effects_volume)), 0.0, 1.0)
+
+func _save_audio_settings() -> void:
+	var config := ConfigFile.new()
+	config.set_value("audio", "music", music_volume)
+	config.set_value("audio", "effects", effects_volume)
+	config.save("user://level4_audio.cfg")
+
+func _volume_adjustment(value: float) -> float:
+	return -80.0 if value <= 0.001 else linear_to_db(value)
+
+func _apply_audio_settings() -> void:
+	if is_instance_valid(music_player):
+		music_player.volume_db = -2.0 + _volume_adjustment(music_volume)
+	if is_instance_valid(shotgun_player):
+		shotgun_player.volume_db = 3.0 + _volume_adjustment(effects_volume)
+	for ally_shotgun_player in ally_shotgun_players:
+		if is_instance_valid(ally_shotgun_player):
+			ally_shotgun_player.volume_db = 3.0 + _volume_adjustment(effects_volume)
+	if is_instance_valid(player_hurt_player):
+		# Destaca el quejido sobre los demás efectos; sigue obedeciendo el deslizador general.
+		player_hurt_player.volume_db = 9.0 + _volume_adjustment(effects_volume)
+	if is_instance_valid(zombie_groan_player):
+		zombie_groan_player.volume_db = 3.0 + _volume_adjustment(effects_volume)
+	for bomb_sound_player in bomb_sound_players:
+		if is_instance_valid(bomb_sound_player):
+			bomb_sound_player.volume_db = 3.0 + _volume_adjustment(effects_volume)
+
+func _toggle_sound_settings() -> void:
+	if game_finished or upgrade_pending:
+		return
+	settings_open = not settings_open
+	settings_overlay.visible = settings_open
+
+func _close_sound_settings() -> void:
+	settings_open = false
+	if is_instance_valid(settings_overlay):
+		settings_overlay.visible = false
+
+func _set_music_volume(value: float) -> void:
+	music_volume = clampf(value, 0.0, 1.0)
+	if is_instance_valid(music_volume_value):
+		music_volume_value.text = "%d%%" % roundi(music_volume * 100.0)
+	_apply_audio_settings()
+	_save_audio_settings()
+
+func _set_effects_volume(value: float) -> void:
+	effects_volume = clampf(value, 0.0, 1.0)
+	if is_instance_valid(effects_volume_value):
+		effects_volume_value.text = "%d%%" % roundi(effects_volume * 100.0)
+	_apply_audio_settings()
+	_save_audio_settings()
+
+func _build_sound_settings(ui: Control) -> void:
+	settings_overlay = Control.new()
+	settings_overlay.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	settings_overlay.z_index = 20
+	settings_overlay.mouse_filter = Control.MOUSE_FILTER_STOP
+	settings_overlay.visible = false
+	ui.add_child(settings_overlay)
+	var shade := ColorRect.new()
+	shade.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+	shade.color = Color(0.02, 0.06, 0.12, 0.65)
+	settings_overlay.add_child(shade)
+	var panel := PanelContainer.new()
+	panel.position = get_viewport_rect().size * 0.5 - Vector2(250.0, 175.0)
+	panel.size = Vector2(500.0, 350.0)
+	panel.add_theme_stylebox_override("panel", _panel_style(Color("#f6fbff"), Color("#ffc933"), 5, 26))
+	settings_overlay.add_child(panel)
+	var box := VBoxContainer.new()
+	box.alignment = BoxContainer.ALIGNMENT_CENTER
+	box.add_theme_constant_override("separation", 14)
+	panel.add_child(box)
+	var title := _new_label("Ajustes de sonido", 28, Color("#124677"))
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	box.add_child(title)
+	var music_row := HBoxContainer.new()
+	box.add_child(music_row)
+	music_row.add_child(_new_label("Música", 18, Color("#254c6e")))
+	var music_slider := HSlider.new()
+	music_slider.min_value = 0.0
+	music_slider.max_value = 1.0
+	music_slider.step = 0.01
+	music_slider.value = music_volume
+	music_slider.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	music_slider.value_changed.connect(_set_music_volume)
+	music_row.add_child(music_slider)
+	music_volume_value = _new_label("%d%%" % roundi(music_volume * 100.0), 16, Color("#124677"))
+	music_volume_value.custom_minimum_size.x = 48.0
+	music_row.add_child(music_volume_value)
+	var effects_row := HBoxContainer.new()
+	box.add_child(effects_row)
+	effects_row.add_child(_new_label("Efectos", 18, Color("#254c6e")))
+	var effects_slider := HSlider.new()
+	effects_slider.min_value = 0.0
+	effects_slider.max_value = 1.0
+	effects_slider.step = 0.01
+	effects_slider.value = effects_volume
+	effects_slider.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	effects_slider.value_changed.connect(_set_effects_volume)
+	effects_row.add_child(effects_slider)
+	effects_volume_value = _new_label("%d%%" % roundi(effects_volume * 100.0), 16, Color("#124677"))
+	effects_volume_value.custom_minimum_size.x = 48.0
+	effects_row.add_child(effects_volume_value)
+	var hint := _new_label("Los cambios se guardan automáticamente.", 15, Color("#52718b"))
+	hint.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	box.add_child(hint)
+	var close_button := _new_button("Listo", Color("#27b982"), 18)
+	close_button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
+	close_button.pressed.connect(_close_sound_settings)
+	box.add_child(close_button)
 
 func _finish_game(won: bool) -> void:
 	if game_finished:
@@ -811,7 +1092,7 @@ func _finish_game(won: bool) -> void:
 	overlay.visible = true
 
 func _toggle_pause() -> void:
-	if game_finished or upgrade_pending:
+	if game_finished or upgrade_pending or settings_open:
 		return
 	game_paused = not game_paused
 	if game_paused:
@@ -841,6 +1122,7 @@ func _reset_game() -> void:
 	virtual_movement = Vector2.ZERO
 	touch_fire_pressed = false
 	game_paused = false
+	settings_open = false
 	game_finished = false
 	shelter_active = false
 	upgrade_pending = false
@@ -852,6 +1134,9 @@ func _reset_game() -> void:
 	hazards.clear()
 	bosses.clear()
 	companions.clear()
+	bomb_drops.clear()
+	bomb_explosions.clear()
+	bombardment_damage_applied = false
 	_start_letter_stage()
 	if is_instance_valid(overlay):
 		overlay.visible = false
@@ -967,6 +1252,7 @@ func _setup_camera() -> void:
 
 func _build_interface() -> void:
 	var canvas := CanvasLayer.new()
+	canvas.process_mode = Node.PROCESS_MODE_ALWAYS
 	add_child(canvas)
 	var ui := Control.new()
 	ui.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -1030,6 +1316,12 @@ func _build_interface() -> void:
 	pause_button.size = Vector2(132.0, 48.0)
 	pause_button.pressed.connect(_toggle_pause)
 	ui.add_child(pause_button)
+	var sound_button := _new_button("♫  Sonido", Color("#8053d6"), 16)
+	sound_button.position = Vector2(get_viewport_rect().size.x - 310.0, 20.0)
+	sound_button.size = Vector2(142.0, 48.0)
+	sound_button.pressed.connect(_toggle_sound_settings)
+	ui.add_child(sound_button)
+	_build_sound_settings(ui)
 	overlay = PanelContainer.new()
 	overlay.z_index = 10
 	overlay.position = get_viewport_rect().size * 0.5 - Vector2(245.0, 150.0)
@@ -1138,23 +1430,43 @@ func _restart_game() -> void:
 		_play_random_music()
 
 func _draw_condor() -> void:
-	draw_set_transform(player_position, aim_direction.angle())
+	var use_aim_pose := condor_aim_poses != null and (not player_moving or shoot_pose_clock > 0.0)
+	if use_aim_pose:
+		# La hoja trae ocho posturas ya orientadas; se elige la más cercana sin rotar al personaje.
+		var direction_angle := fposmod(aim_direction.angle(), TAU)
+		var octant := int(round(direction_angle / (PI / 4.0))) % 8
+		var pose_columns: Array[int] = [2, 3, 0, 1, 2, 3, 0, 1]
+		var pose_rows: Array[int] = [0, 0, 1, 1, 1, 1, 0, 0]
+		var cell_size := Vector2(float(condor_aim_poses.get_width()) / 4.0, float(condor_aim_poses.get_height()) / 2.0)
+		var source := Rect2(Vector2(float(pose_columns[octant]) * cell_size.x, float(pose_rows[octant]) * cell_size.y), cell_size)
+		draw_texture_rect_region(condor_aim_poses, Rect2(player_position - Vector2(58.0, 72.0), Vector2(116.0, 144.0)), source, Color.WHITE, false, true)
+		if muzzle_flash > 0.0:
+			var flash_strength := muzzle_flash / 0.12
+			draw_circle(player_position + aim_direction * 63.0, 7.0 + flash_strength * 8.0, Color(1.0, 0.68, 0.18, flash_strength))
+		return
+
 	var frame_index := int(animation_clock * 10.0) % 12 if player_moving else 0
 	var frame_size := Vector2(float(condor_sprites.get_width()) / 6.0, float(condor_sprites.get_height()) / 2.0) if condor_sprites != null else Vector2.ZERO
+	# Al caminar conserva su animación. El arma gira hacia el apuntado; el cuerpo permanece erguido.
 	if shotgun_texture != null:
+		draw_set_transform(player_position, aim_direction.angle())
 		var recoil := 7.0 if muzzle_flash > 0.0 else 0.0
 		draw_texture_rect(shotgun_texture, Rect2(Vector2(8.0 - recoil, -23.0), Vector2(112.0, 37.0)), false)
+		if muzzle_flash > 0.0:
+			var flash_strength := muzzle_flash / 0.12
+			draw_circle(Vector2(118.0, -4.0), 7.0 + flash_strength * 8.0, Color(1.0, 0.68, 0.18, flash_strength))
+		draw_set_transform(Vector2.ZERO)
 	if condor_sprites != null:
 		var source := Rect2(Vector2(float(frame_index % 6) * frame_size.x, float(frame_index / 6) * frame_size.y), frame_size)
+		var facing_scale := Vector2(-1.0, 1.0) if aim_direction.x < -0.05 else Vector2.ONE
+		draw_set_transform(player_position, 0.0, facing_scale)
 		draw_texture_rect_region(condor_sprites, Rect2(Vector2(-54.0, -65.0), Vector2(116.0, 130.0)), source, Color.WHITE, false, true)
-	if muzzle_flash > 0.0:
-		var flash_strength := muzzle_flash / 0.12
-		draw_circle(Vector2(118.0, -4.0), 7.0 + flash_strength * 8.0, Color(1.0, 0.68, 0.18, flash_strength))
-	draw_set_transform(Vector2.ZERO)
+		draw_set_transform(Vector2.ZERO)
 
 func _draw_bullet(bullet: Dictionary) -> void:
 	var upgraded := bool(bullet.get("upgraded", false)) and bullet_upgraded_texture != null
-	var texture: Texture2D = bullet_upgraded_texture if upgraded else bullet_base_texture
+	var is_ally_bullet := bool(bullet.get("ally_bullet", false)) and ally_bullet_texture != null
+	var texture: Texture2D = ally_bullet_texture if is_ally_bullet else bullet_upgraded_texture if upgraded else bullet_base_texture
 	if texture == null:
 		var position: Vector2 = bullet["position"]
 		draw_circle(position, 7.0, Color("#ffe56b"))
@@ -1184,8 +1496,12 @@ func _draw_zombie(enemy: Dictionary) -> void:
 		var frame_index := int(animation_clock * 9.0 + float(enemy["phase"])) % 12
 		var source := Rect2(Vector2(float(frame_index % 6) * frame_size.x, float(frame_index / 6) * frame_size.y), frame_size)
 		var horizontal_scale := -1.0 if bool(enemy.get("facing_left", false)) else 1.0
+		var sprite_rect := Rect2(Vector2(-49.0, -52.0), Vector2(98.0, 104.0))
+		if kind == "perro":
+			# El perro es más ancho que alto; conserva su proporción al dibujarlo.
+			sprite_rect = Rect2(Vector2(-57.0, -46.0), Vector2(114.0, 92.0))
 		draw_set_transform(position, wobble * 0.015, Vector2(horizontal_scale, 1.0))
-		draw_texture_rect_region(sprite, Rect2(Vector2(-49.0, -52.0), Vector2(98.0, 104.0)), source, Color.WHITE, false, true)
+		draw_texture_rect_region(sprite, sprite_rect, source, Color.WHITE, false, true)
 		draw_set_transform(Vector2.ZERO)
 		return
 	var tint := Color("#81b94d") if kind == "gato" else Color("#8aab55") if kind == "perro" else Color("#68a95c")
@@ -1277,14 +1593,53 @@ func _draw_boss(boss: Dictionary) -> void:
 
 func _draw_companion(companion: Dictionary) -> void:
 	var position: Vector2 = companion["position"]
-	draw_circle(position, 14.0, Color(0.0, 0.0, 0.0, 0.28))
-	draw_circle(position, 11.0, Color("#d9504b"))
-	draw_colored_polygon(PackedVector2Array([position + Vector2(-5, 0), position + Vector2(-18, -9), position + Vector2(-13, 3)]), Color("#242936"))
-	draw_colored_polygon(PackedVector2Array([position + Vector2(-5, 0), position + Vector2(-18, 9), position + Vector2(-13, -3)]), Color("#242936"))
-	draw_circle(position + Vector2(4, -2), 2.0, Color.WHITE)
+	var aim_direction: Vector2 = companion.get("aim_direction", Vector2.RIGHT)
+	var use_shoot_pose := ally_aim_poses != null and float(companion.get("shoot_clock", 0.0)) > 0.0
+	if use_shoot_pose:
+		var direction_angle := fposmod(aim_direction.angle(), TAU)
+		var octant := int(round(direction_angle / (PI / 4.0))) % 8
+		var pose_columns: Array[int] = [2, 3, 0, 1, 2, 3, 1, 1]
+		var pose_rows: Array[int] = [0, 0, 1, 1, 1, 1, 0, 0]
+		var cell_size := Vector2(float(ally_aim_poses.get_width()) / 4.0, float(ally_aim_poses.get_height()) / 2.0)
+		var source := Rect2(Vector2(float(pose_columns[octant]) * cell_size.x, float(pose_rows[octant]) * cell_size.y), cell_size)
+		draw_texture_rect_region(ally_aim_poses, Rect2(position - Vector2(42.0, 60.0), Vector2(84.0, 120.0)), source, Color.WHITE, false, true)
+	elif ally_walk_sprites != null:
+		var frame_size := Vector2(float(ally_walk_sprites.get_width()) / 6.0, float(ally_walk_sprites.get_height()) / 2.0)
+		var frame_index := int((animation_clock + float(companion.get("phase", 0.0))) * 9.0) % 12 if bool(companion.get("moving", false)) else 0
+		var source := Rect2(Vector2(float(frame_index % 6) * frame_size.x, float(frame_index / 6) * frame_size.y), frame_size)
+		var horizontal_scale := -1.0 if bool(companion.get("facing_left", false)) else 1.0
+		draw_set_transform(position, 0.0, Vector2(horizontal_scale, 1.0))
+		draw_texture_rect_region(ally_walk_sprites, Rect2(Vector2(-48.0, -48.0), Vector2(96.0, 96.0)), source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
 	var life_ratio := clampf(float(companion["health"]) / float(companion["max_health"]), 0.0, 1.0)
-	draw_rect(Rect2(position + Vector2(-15, -22), Vector2(30, 4)), Color("#342d36"))
-	draw_rect(Rect2(position + Vector2(-15, -22), Vector2(30.0 * life_ratio, 4)), Color("#62e77a"))
+	var bar_rect := Rect2(position + Vector2(-26.0, -67.0), Vector2(52.0, 7.0))
+	draw_rect(bar_rect, Color("#302d35"))
+	draw_rect(Rect2(bar_rect.position, Vector2(bar_rect.size.x * life_ratio, bar_rect.size.y)), Color("#63e778" if life_ratio > 0.35 else "#ff5966"))
+
+func _draw_bomb_drop(bomb: Dictionary) -> void:
+	var position: Vector2 = bomb["position"]
+	var target: Vector2 = bomb["target"]
+	# El círculo marca el punto de impacto mientras la bomba cae desde arriba.
+	draw_circle(target, 28.0, Color(1.0, 0.25, 0.12, 0.12))
+	draw_arc(target, 30.0, 0.0, TAU, 24, Color(1.0, 0.72, 0.24, 0.78), 3.0, true)
+	if bomb_atlas != null:
+		draw_texture_rect_region(bomb_atlas, Rect2(position - Vector2(31.0, 60.0), Vector2(62.0, 120.0)), Rect2(20.0, 0.0, 145.0, 278.0), Color.WHITE, false, true)
+	else:
+		draw_circle(position, 13.0, Color("#282833"))
+		draw_circle(position + Vector2(-3.0, -11.0), 5.0, Color("#ff8d24"))
+
+func _draw_bomb_explosion(explosion: Dictionary) -> void:
+	if bomb_atlas == null:
+		var fallback_position: Vector2 = explosion["position"]
+		draw_circle(fallback_position, 54.0, Color(1.0, 0.28, 0.05, 0.55))
+		return
+	var age := float(explosion["age"])
+	var frame_index := mini(int(age / 0.075), BOMB_EXPLOSION_FRAME_RECTS.size() - 1)
+	var source: Rect2 = BOMB_EXPLOSION_FRAME_RECTS[frame_index]
+	var fade := clampf((float(BOMB_EXPLOSION_FRAME_RECTS.size()) * 0.075 - age) / 0.24, 0.0, 1.0)
+	var destination_size := Vector2(300.0, 205.0)
+	var position: Vector2 = explosion["position"]
+	draw_texture_rect_region(bomb_atlas, Rect2(position - destination_size * 0.5, destination_size), source, Color(1.0, 1.0, 1.0, fade), false, true)
 
 func _draw_hazard(hazard: Dictionary) -> void:
 	var kind: String = hazard["kind"]
