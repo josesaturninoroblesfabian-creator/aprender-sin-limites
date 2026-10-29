@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra la Letra - Juego del Abecedario</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font 'Fredoka' para un estilo infantil y amigable -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Canvas Confetti CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandYellow: '#FFC800',
+                        brandOrange: '#FF6B00',
+                        brandBlue: '#00A8FF',
+                        brandGreen: '#2ECC71',
+                        brandPurple: '#9B59B6',
+                        brandPink: '#FF477E',
+                    },
+                    fontFamily: {
+                        fredoka: ['Fredoka', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+            background: linear-gradient(135deg, #FF9A9E 0%, #FECFEF 40%, #a1c4fd 100%);
+            touch-action: manipulation;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Efectos 3D de botones y burbujas */
+        .bubble-btn {
+            background: radial-gradient(circle at 35% 35%, #ffffff 0%, rgba(255,255,255,0.4) 30%, rgba(0,0,0,0.1) 100%);
+            box-shadow: 0 10px 0 rgba(0,0,0,0.15), inset 0 -6px 0 rgba(0,0,0,0.2), inset 0 6px 12px rgba(255,255,255,0.8);
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+
+        .bubble-btn:active {
+            transform: translateY(6px) scale(0.96);
+            box-shadow: 0 4px 0 rgba(0,0,0,0.15), inset 0 -3px 0 rgba(0,0,0,0.2), inset 0 6px 12px rgba(255,255,255,0.8);
+        }
+
+        .board-card {
+            background: linear-gradient(180deg, #FFB800 0%, #FF8800 100%);
+            border: 8px solid #FFF;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2), inset 0 4px 8px rgba(255,255,255,0.5);
+        }
+
+        /* Animación para pulso de la lupa */
+        @keyframes magnifyingPulse {
+            0%, 100% { transform: scale(1) rotate(-5deg); }
+            50% { transform: scale(1.08) rotate(5deg); }
+        }
+
+        .animate-lupa {
+            animation: magnifyingPulse 2.5s infinite ease-in-out;
+        }
+
+        /* Animación cuando acierta una letra */
+        @keyframes popSuccess {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.4) rotate(15deg); }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        .pop-success {
+            animation: popSuccess 0.5s forwards ease-out;
+            pointer-events: none;
+        }
+
+        /* Shake cuando falla */
+        @keyframes shakeError {
+            0%, 100% { transform: translateX(0); }
+            20%, 60% { transform: translateX(-10px); }
+            40%, 80% { transform: translateX(10px); }
+        }
+
+        .shake-error {
+            animation: shakeError 0.4s ease-in-out;
+        }
+
+        /* Floating background decoration */
+        .floating-bg {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0.25;
+            animation: floatSlow 8s infinite ease-in-out alternate;
+        }
+
+        @keyframes floatSlow {
+            0% { transform: translateY(0px) rotate(0deg); }
+            100% { transform: translateY(-30px) rotate(15deg); }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between items-center p-3 md:p-6 overflow-x-hidden relative">
+
+    <!-- Fondo decorativo flotante -->
+    <div class="floating-bg top-10 left-10 text-6xl text-white font-bold">A</div>
+    <div class="floating-bg top-1/3 right-10 text-7xl text-white font-bold" style="animation-delay: -2s;">B</div>
+    <div class="floating-bg bottom-10 left-1/4 text-6xl text-white font-bold" style="animation-delay: -4s;">C</div>
+
+    <!-- Header / Barra Superior -->
+    <header class="w-full max-w-4xl flex justify-between items-center bg-white/80 backdrop-blur-md rounded-3xl p-3 md:p-4 shadow-lg z-10 border-4 border-white mb-4">
+        <!-- Título principal con miniatura -->
+        <div class="flex items-center gap-3">
+            <div class="w-12 h-12 md:w-14 md:h-14 bg-gradient-to-tr from-cyan-400 to-blue-500 rounded-2xl flex items-center justify-center text-white text-2xl md:text-3xl shadow-md border-2 border-white">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+                <h1 class="text-xl md:text-2xl font-bold text-gray-800 leading-none">Encuentra la Letra</h1>
+                <p class="text-xs md:text-sm text-gray-500 font-semibold">Aprende jugando el Abecedario</p>
+            </div>
+        </div>
+
+        <!-- Controles: Audio & Sonido -->
+        <div class="flex items-center gap-2">
+            <button id="btn-audio" onclick="toggleAudio()" class="w-11 h-11 md:w-12 md:h-12 bg-yellow-400 hover:bg-yellow-300 text-amber-900 rounded-2xl flex items-center justify-center text-xl shadow-md border-2 border-white transition-all transform active:scale-95" title="Música de Fondo">
+                <i id="icon-audio" class="fa-solid fa-music"></i>
+            </button>
+            <button id="btn-sound" onclick="toggleSound()" class="w-11 h-11 md:w-12 md:h-12 bg-green-400 hover:bg-green-300 text-emerald-950 rounded-2xl flex items-center justify-center text-xl shadow-md border-2 border-white transition-all transform active:scale-95" title="Efectos de Sonido">
+                <i id="icon-sound" class="fa-solid fa-volume-high"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Barra de Progreso General (A a la Z) -->
+    <div class="w-full max-w-4xl bg-white/90 rounded-2xl p-3 shadow-md mb-4 border-2 border-white z-10">
+        <div class="flex justify-between items-center mb-1 text-xs md:text-sm font-bold text-gray-700">
+            <span>Progreso del Abecedario (Letra <span id="current-letter-badge" class="text-brandOrange font-extrabold text-base">A</span>)</span>
+            <span id="progress-text" class="bg-amber-100 text-amber-800 px-2 py-0.5 rounded-full text-xs">1 / 27</span>
+        </div>
+        <div class="w-full bg-gray-200 h-4 md:h-5 rounded-full overflow-hidden p-0.5 border border-gray-300">
+            <div id="progress-bar" class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-500 h-full rounded-full transition-all duration-500 shadow-inner" style="width: 3.7%;"></div>
+        </div>
+    </div>
+
+    <!-- Tablero Principal del Juego -->
+    <main class="w-full max-w-4xl flex-1 flex flex-col justify-center items-center z-10 my-auto">
+        
+        <div class="board-card w-full rounded-3xl p-4 md:p-6 text-center relative overflow-hidden">
+            
+            <!-- Indicador de Letra Objetivo y Lupa -->
+            <div class="bg-white/95 backdrop-blur-md rounded-2xl p-3 md:p-4 mb-4 md:mb-6 shadow-md border-2 border-yellow-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+                <div class="flex items-center gap-3">
+                    <div class="relative animate-lupa">
+                        <div class="w-16 h-16 md:w-20 md:h-20 bg-cyan-400 rounded-full border-4 border-blue-500 flex items-center justify-center shadow-lg">
+                            <span id="target-letter-display" class="text-3xl md:text-5xl font-black text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">A</span>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass text-amber-700 text-2xl absolute -bottom-1 -right-1 drop-shadow"></i>
+                    </div>
+                    <div class="text-left">
+                        <h2 id="target-title" class="text-xl md:text-3xl font-black text-amber-900 tracking-wide">
+                            ¡Busca la letra <span id="target-letter-text" class="text-blue-600 underline decoration-wavy decoration-yellow-400">A</span>!
+                        </h2>
+                        <p class="text-xs md:text-sm text-amber-800 font-semibold">Haz clic en las 3 letras correctas</p>
+                    </div>
+                </div>
+
+                <!-- Contador de 3 letras -->
+                <div class="bg-amber-100 border-2 border-amber-300 rounded-2xl px-4 py-2 flex items-center gap-2">
+                    <span class="text-xs md:text-sm font-bold text-amber-800">Encontradas:</span>
+                    <div class="flex gap-1" id="star-counter">
+                        <i id="star-1" class="fa-solid fa-star text-2xl text-gray-300 transition-all"></i>
+                        <i id="star-2" class="fa-solid fa-star text-2xl text-gray-300 transition-all"></i>
+                        <i id="star-3" class="fa-solid fa-star text-2xl text-gray-300 transition-all"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grilla de Burbujas de Letras -->
+            <div id="grid-container" class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-3 md:gap-4 p-2 min-h-[300px] items-center justify-center">
+                <!-- Se genera dinámicamente con JS -->
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer Créditos -->
+    <footer class="mt-4 text-center text-white/90 text-xs md:text-sm font-semibold drop-shadow z-10">
+        Juego Educativo Infantil • ¡Encuentra las 81 letras del abecedario!
+    </footer>
+
+    <!-- MODAL DE VICTORIA -->
+    <div id="victory-modal" class="fixed inset-0 bg-black/70 backdrop-blur-sm hidden flex items-center justify-center z-50 p-4 transition-opacity duration-300">
+        <div class="bg-gradient-to-b from-yellow-300 via-amber-400 to-orange-500 border-8 border-white rounded-3xl p-6 md:p-8 max-w-lg w-full text-center shadow-2xl transform scale-90 transition-transform duration-300 relative overflow-hidden">
+            
+            <div class="absolute -top-10 -left-10 w-32 h-32 bg-white/20 rounded-full blur-xl"></div>
+            <div class="absolute -bottom-10 -right-10 w-32 h-32 bg-white/20 rounded-full blur-xl"></div>
+
+            <!-- Trofeo Animado -->
+            <div class="w-24 h-24 md:w-32 md:h-32 bg-yellow-100 rounded-full border-4 border-yellow-300 flex items-center justify-center mx-auto mb-4 shadow-xl animate-bounce">
+                <i class="fa-solid fa-trophy text-5xl md:text-7xl text-amber-500 drop-shadow"></i>
+            </div>
+
+            <h2 class="text-3xl md:text-4xl font-black text-white drop-shadow-[0_3px_6px_rgba(0,0,0,0.4)] mb-2">
+                ¡FELICIDADES!
+            </h2>
+            <p class="text-lg md:text-xl font-bold text-amber-950 mb-4 drop-shadow-sm">
+                ¡Has completado exitosamente las 27 letras del Abecedario!
+            </p>
+
+            <div class="bg-white/90 rounded-2xl p-4 mb-6 shadow-inner text-amber-900 font-bold">
+                <p class="text-sm"> Total de aciertos: <span class="text-2xl text-emerald-600 font-black">81 / 81</span></p>
+                <p class="text-xs text-gray-600 mt-1">¡Eres un súper campeón de las palabras!</p>
+            </div>
+
+            <button onclick="restartGame()" class="w-full py-4 bg-gradient-to-r from-green-400 to-emerald-600 hover:from-green-300 hover:to-emerald-500 text-white font-black text-xl rounded-2xl border-4 border-white shadow-lg transform active:scale-95 transition-all">
+                <i class="fa-solid fa-rotate-right mr-2"></i> JUGAR DE NUEVO
+            </button>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LÓGICA & AUDIO -->
+    <script>
+        // Alfabeto español de 27 letras (A a Z, incluyendo Ñ)
+        const ALPHABET = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+        
+        // Paleta de colores vivos para las burbujas
+        const BUBBLE_COLORS = [
+            'bg-red-500 text-white',
+            'bg-blue-500 text-white',
+            'bg-green-500 text-white',
+            'bg-purple-500 text-white',
+            'bg-pink-500 text-white',
+            'bg-indigo-500 text-white',
+            'bg-amber-500 text-white',
+            'bg-teal-500 text-white'
+        ];
+
+        // Estado del Juego
+        let currentLetterIndex = 0; // 0 = A, 26 = Z
+        let foundCount = 0; // 0 a 3 por cada letra
+        let audioMuted = false;
+        let soundMuted = false;
+        let audioContext = null;
+        let isChiptunePlaying = false;
+        let chiptuneInterval = null;
+
+        // Referencias del DOM
+        const gridContainer = document.getElementById('grid-container');
+        const targetLetterDisplay = document.getElementById('target-letter-display');
+        const targetLetterText = document.getElementById('target-letter-text');
+        const currentLetterBadge = document.getElementById('current-letter-badge');
+        const progressText = document.getElementById('progress-text');
+        const progressBar = document.getElementById('progress-bar');
+        const victoryModal = document.getElementById('victory-modal');
+
+        // Inicializar el Web Audio API
+        function initAudioContext() {
+            if (!audioContext) {
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                audioContext = new AudioContextClass();
+            }
+            if (audioContext.state === 'suspended') {
+                audioContext.resume();
+            }
+        }
+
+        // ==========================================
+        // MÚSICA DE FONDO RETRO 8-BIT CHIPTUNE (Web Audio API)
+        // ==========================================
+        function startChiptuneMusic() {
+            if (isChiptunePlaying || audioMuted) return;
+            initAudioContext();
+            isChiptunePlaying = true;
+
+            // Notas pegadizas de videojuego retro (Melodía alegre)
+            const melody = [
+                { note: 261.63, duration: 150 }, // C4
+                { note: 329.63, duration: 150 }, // E4
+                { note: 392.00, duration: 150 }, // G4
+                { note: 523.25, duration: 250 }, // C5
+                { note: 392.00, duration: 150 }, // G4
+                { note: 523.25, duration: 300 }, // C5
+                { note: 349.23, duration: 150 }, // F4
+                { note: 440.00, duration: 150 }, // A4
+                { note: 523.25, duration: 150 }, // C5
+                { note: 587.33, duration: 250 }, // D5
+                { note: 440.00, duration: 150 }, // A4
+                { note: 587.33, duration: 300 }, // D5
+                { note: 392.00, duration: 150 }, // G4
+                { note: 493.88, duration: 150 }, // B4
+                { note: 587.33, duration: 150 }, // D5
+                { note: 659.25, duration: 250 }, // E5
+                { note: 587.33, duration: 150 }, // D5
+                { note: 523.25, duration: 400 }, // C5
+            ];
+
+            let noteIndex = 0;
+
+            function playNextNote() {
+                if (!isChiptunePlaying || audioMuted) return;
+
+                const current = melody[noteIndex];
+                
+                try {
+                    const osc = audioContext.createOscillator();
+                    const gain = audioContext.createGain();
+
+                    // Onda cuadrada para tono de 8-bit retro
+                    osc.type = 'square';
+                    osc.frequency.setValueAtTime(current.note, audioContext.currentTime);
+
+                    // Envolvente suave
+                    gain.gain.setValueAtTime(0.04, audioContext.currentTime);
+                    gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + (current.duration / 1000));
+
+                    osc.connect(gain);
+                    gain.connect(audioContext.destination);
+
+                    osc.start();
+                    osc.stop(audioContext.currentTime + (current.duration / 1000));
+                } catch (e) {
+                    console.log('Audio Context Error', e);
+                }
+
+                noteIndex = (noteIndex + 1) % melody.length;
+                chiptuneInterval = setTimeout(playNextNote, current.duration + 40);
+            }
+
+            playNextNote();
+        }
+
+        function stopChiptuneMusic() {
+            isChiptunePlaying = false;
+            if (chiptuneInterval) clearTimeout(chiptuneInterval);
+        }
+
+        // Toggle Audio Música
+        function toggleAudio() {
+            audioMuted = !audioMuted;
+            const btn = document.getElementById('btn-audio');
+            const icon = document.getElementById('icon-audio');
+
+            if (audioMuted) {
+                stopChiptuneMusic();
+                btn.classList.replace('bg-yellow-400', 'bg-gray-300');
+                icon.className = 'fa-solid fa-music-slash text-gray-600';
+            } else {
+                btn.classList.replace('bg-gray-300', 'bg-yellow-400');
+                icon.className = 'fa-solid fa-music text-amber-900';
+                startChiptuneMusic();
+            }
+        }
+
+        // Toggle Efectos de Sonido
+        function toggleSound() {
+            soundMuted = !soundMuted;
+            const btn = document.getElementById('btn-sound');
+            const icon = document.getElementById('icon-sound');
+
+            if (soundMuted) {
+                btn.classList.replace('bg-green-400', 'bg-gray-300');
+                icon.className = 'fa-solid fa-volume-xmark text-gray-600';
+            } else {
+                btn.classList.replace('bg-gray-300', 'bg-green-400');
+                icon.className = 'fa-solid fa-volume-high text-emerald-950';
+            }
+        }
+
+        // ==========================================
+        // EFECTOS DE SONIDO (SFX)
+        // ==========================================
+        function playSFX(type) {
+            if (soundMuted) return;
+            initAudioContext();
+
+            const now = audioContext.currentTime;
+
+            if (type === 'correct') {
+                // Chime alegre ascendente
+                const osc = audioContext.createOscillator();
+                const gain = audioContext.createGain();
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(523.25, now); // C5
+                osc.frequency.exponentialRampToValueAtTime(1046.50, now + 0.25); // C6
+                
+                gain.gain.setValueAtTime(0.2, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.25);
+
+                osc.connect(gain);
+                gain.connect(audioContext.destination);
+                osc.start(now);
+                osc.stop(now + 0.25);
+            } 
+            else if (type === 'wrong') {
+                // Sonido suave de fallo
+                const osc = audioContext.createOscillator();
+                const gain = audioContext.createGain();
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(180, now);
+                osc.frequency.linearRampToValueAtTime(110, now + 0.2);
+
+                gain.gain.setValueAtTime(0.15, now);
+                gain.gain.exponentialRampToValueAtTime(0.01, now + 0.2);
+
+                osc.connect(gain);
+                gain.connect(audioContext.destination);
+                osc.start(now);
+                osc.stop(now + 0.2);
+            }
+            else if (type === 'nextLevel') {
+                // Fanfarria de paso de letra
+                [523.25, 659.25, 783.99, 1046.50].forEach((freq, idx) => {
+                    const osc = audioContext.createOscillator();
+                    const gain = audioContext.createGain();
+                    osc.type = 'sine';
+                    osc.frequency.setValueAtTime(freq, now + idx * 0.08);
+
+                    gain.gain.setValueAtTime(0.2, now + idx * 0.08);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.08 + 0.2);
+
+                    osc.connect(gain);
+                    gain.connect(audioContext.destination);
+                    osc.start(now + idx * 0.08);
+                    osc.stop(now + idx * 0.08 + 0.2);
+                });
+            }
+            else if (type === 'victory') {
+                // Música/Melodía de victoria especial
+                const notes = [523.25, 659.25, 783.99, 1046.50, 880, 1046.50];
+                notes.forEach((freq, idx) => {
+                    const osc = audioContext.createOscillator();
+                    const gain = audioContext.createGain();
+                    osc.type = 'square';
+                    osc.frequency.setValueAtTime(freq, now + idx * 0.12);
+
+                    gain.gain.setValueAtTime(0.15, now + idx * 0.12);
+                    gain.gain.exponentialRampToValueAtTime(0.001, now + idx * 0.12 + 0.3);
+
+                    osc.connect(gain);
+                    gain.connect(audioContext.destination);
+                    osc.start(now + idx * 0.12);
+                    osc.stop(now + idx * 0.12 + 0.3);
+                });
+            }
+        }
+
+        // ==========================================
+        // LÓGICA PRINCIPAL DEL JUEGO
+        // ==========================================
+
+        function loadLetterLevel() {
+            const currentTarget = ALPHABET[currentLetterIndex];
+            foundCount = 0;
+
+            // Actualizar Interfaz
+            targetLetterDisplay.textContent = currentTarget;
+            targetLetterText.textContent = currentTarget;
+            currentLetterBadge.textContent = currentTarget;
+            progressText.textContent = `${currentLetterIndex + 1} / 27`;
+
+            // Actualizar Barra de Progreso
+            const percentage = ((currentLetterIndex) / 27) * 100;
+            progressBar.style.width = `${Math.max(percentage, 3.7)}%`;
+
+            // Resetear estrellas contador
+            updateStars();
+
+            // Generar cuadrícula de letras (Total 16 o 20 burbujas según pantalla)
+            // Exactamente 3 serán la letra objetivo, el resto serán distractores
+            const totalBubbles = window.innerWidth < 640 ? 12 : 18;
+            const items = [];
+
+            // Añadir las 3 letras objetivo obligatorias
+            for (let i = 0; i < 3; i++) {
+                items.push({ letter: currentTarget, isTarget: true });
+            }
+
+            // Filtrar distractores
+            const distractorsPool = ALPHABET.filter(l => l !== currentTarget);
+
+            // Rellenar con distractores aleatorios
+            for (let i = 0; i < totalBubbles - 3; i++) {
+                const randomLetter = distractorsPool[Math.floor(Math.random() * distractorsPool.length)];
+                items.push({ letter: randomLetter, isTarget: false });
+            }
+
+            // Desordenar la lista (Shuffle)
+            items.sort(() => Math.random() - 0.5);
+
+            // Renderizar la grilla
+            gridContainer.innerHTML = '';
+            items.forEach((item, idx) => {
+                const colorClass = BUBBLE_COLORS[idx % BUBBLE_COLORS.length];
+                
+                const btn = document.createElement('button');
+                btn.className = `bubble-btn w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full font-black text-2xl sm:text-4xl md:text-5xl flex items-center justify-center border-4 border-white ${colorClass} cursor-pointer transition-transform mx-auto`;
+                btn.textContent = item.letter;
+                
+                btn.onclick = () => handleLetterClick(btn, item.isTarget);
+                gridContainer.appendChild(btn);
+            });
+        }
+
+        function handleLetterClick(element, isTarget) {
+            // Activar música de fondo en el primer clic del usuario
+            if (!isChiptunePlaying && !audioMuted) {
+                startChiptuneMusic();
+            }
+
+            if (isTarget) {
+                // Click correcto
+                playSFX('correct');
+                element.disabled = true;
+                element.classList.add('pop-success');
+
+                foundCount++;
+                updateStars();
+
+                // Si se encontraron las 3 instancias de la letra
+                if (foundCount >= 3) {
+                    setTimeout(() => {
+                        currentLetterIndex++;
+                        
+                        if (currentLetterIndex >= ALPHABET.length) {
+                            // Juego Completado (Llegó al final de la Z)
+                            showVictory();
+                        } else {
+                            // Siguiente letra
+                            playSFX('nextLevel');
+                            loadLetterLevel();
+                        }
+                    }, 600);
+                }
+            } else {
+                // Click incorrecto (Distractor)
+                playSFX('wrong');
+                element.classList.add('shake-error');
+                setTimeout(() => {
+                    element.classList.remove('shake-error');
+                }, 400);
+            }
+        }
+
+        function updateStars() {
+            for (let i = 1; i <= 3; i++) {
+                const star = document.getElementById(`star-${i}`);
+                if (i <= foundCount) {
+                    star.className = 'fa-solid fa-star text-2xl text-yellow-400 drop-shadow transform scale-110 transition-all';
+                } else {
+                    star.className = 'fa-solid fa-star text-2xl text-gray-300 transition-all';
+                }
+            }
+        }
+
+        function showVictory() {
+            // Completar barra al 100%
+            progressBar.style.width = '100%';
+            playSFX('victory');
+
+            // Lanzar Confeti
+            if (typeof confetti === 'function') {
+                confetti({
+                    particleCount: 120,
+                    spread: 80,
+                    origin: { y: 0.6 }
+                });
+
+                // Ráfagas adicionales de confeti
+                setTimeout(() => {
+                    confetti({ particleCount: 80, angle: 60, spread: 55, origin: { x: 0 } });
+                    confetti({ particleCount: 80, angle: 120, spread: 55, origin: { x: 1 } });
+                }, 400);
+            }
+
+            // Mostrar Modal
+            victoryModal.classList.remove('hidden');
+            setTimeout(() => {
+                victoryModal.querySelector('div').classList.remove('scale-90');
+                victoryModal.querySelector('div').classList.add('scale-100');
+            }, 50);
+        }
+
+        function restartGame() {
+            currentLetterIndex = 0;
+            foundCount = 0;
+            victoryModal.classList.add('hidden');
+            loadLetterLevel();
+        }
+
+        // Cargar primera letra al iniciar la ventana
+        window.onload = function() {
+            loadLetterLevel();
+        };
+    </script>
+</body>
+</html>

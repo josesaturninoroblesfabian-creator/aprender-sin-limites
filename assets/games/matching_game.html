@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Une con la Imagen - Aprende el Abecedario</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Fredoka', sans-serif;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+        }
+
+        /* Custom Wooden Board Look */
+        .wood-panel {
+            background: #d4a373;
+            border: 4px solid #a68a64;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.2), 0 8px 15px rgba(0,0,0,0.3);
+            border-radius: 20px;
+        }
+
+        /* Game Card Styles */
+        .connect-card {
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .connect-card:hover {
+            transform: scale(1.03);
+        }
+
+        .connect-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #3b82f6;
+            border: 3px solid #ffffff;
+            box-shadow: 0 0 8px rgba(0,0,0,0.3);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .connect-dot.active {
+            transform: scale(1.4);
+            background-color: #f59e0b;
+            box-shadow: 0 0 12px #f59e0b;
+        }
+
+        .connect-dot.matched {
+            background-color: #10b981;
+            box-shadow: 0 0 10px #10b981;
+        }
+
+        /* Custom Scrollbar for letter selector */
+        .custom-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+        .custom-scroll::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.3);
+            border-radius: 10px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #f59e0b;
+            border-radius: 10px;
+        }
+
+        /* Pulsing & animations */
+        @keyframes pulse-gentle {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .animate-bounce-gentle {
+            animation: pulse-gentle 2s infinite ease-in-out;
+        }
+
+        /* Prevent SVG selection glitches */
+        svg {
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between overflow-x-hidden text-gray-800">
+
+    <!-- Top Header Navigation -->
+    <header class="w-full bg-yellow-400 border-b-4 border-yellow-600 px-4 py-3 shadow-md flex items-center justify-between z-20 relative">
+        <div class="flex items-center space-x-3">
+            <button onclick="playSfx('click'); alert('Regresando al menú principal...');" class="bg-amber-700 hover:bg-amber-800 text-white font-bold px-4 py-2 rounded-xl border-2 border-amber-900 shadow flex items-center gap-2 text-sm sm:text-base">
+                <i class="fa-solid fa-house"></i>
+                <span class="hidden sm:inline">Menú Principal</span>
+            </button>
+            <div class="bg-white px-4 py-1.5 rounded-full border-2 border-yellow-600 shadow-inner flex items-center space-x-2">
+                <span class="text-xl sm:text-2xl font-black text-amber-600">3. Une con la imagen</span>
+            </div>
+        </div>
+
+        <div class="flex items-center space-x-3">
+            <!-- Audio Toggle Buttons -->
+            <button id="bgmToggle" onclick="toggleMusic()" class="bg-purple-600 hover:bg-purple-700 text-white font-bold p-2.5 rounded-full border-2 border-purple-900 shadow transition flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12">
+                <i id="bgmIcon" class="fa-solid fa-music text-lg"></i>
+            </button>
+            <button id="sfxToggle" onclick="toggleSfx()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold p-2.5 rounded-full border-2 border-blue-900 shadow transition flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12">
+                <i id="sfxIcon" class="fa-solid fa-volume-high text-lg"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Game Container -->
+    <main class="flex-grow container mx-auto px-2 sm:px-4 py-4 flex flex-col justify-between max-w-5xl relative z-10">
+
+        <!-- Progress and Letter Bar -->
+        <div class="wood-panel p-3 mb-4 text-white">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                <div class="flex items-center space-x-2">
+                    <span id="currentLetterDisplay" class="text-3xl sm:text-4xl font-black bg-red-500 text-white px-4 py-1 rounded-2xl border-2 border-red-700 shadow">A</span>
+                    <div>
+                        <h2 class="text-lg sm:text-xl font-bold leading-tight">Letra <span id="letterName">A</span></h2>
+                        <p class="text-xs sm:text-sm text-yellow-200">Ejercicio <span id="exerciseNum">1</span> de 3</p>
+                    </div>
+                </div>
+
+                <!-- Star Rating / Exercise Indicators -->
+                <div class="flex items-center space-x-2 bg-amber-800/60 px-3 py-1.5 rounded-xl border border-amber-600">
+                    <span class="text-xs font-bold uppercase tracking-wider text-amber-200">Progreso:</span>
+                    <div id="exerciseStars" class="flex space-x-1">
+                        <i class="fa-solid fa-star text-yellow-400 text-lg"></i>
+                        <i class="fa-regular fa-star text-gray-300 text-lg"></i>
+                        <i class="fa-regular fa-star text-gray-300 text-lg"></i>
+                    </div>
+                </div>
+
+                <!-- Total Score & Progress -->
+                <div class="bg-blue-900/60 px-4 py-1.5 rounded-xl border border-blue-400 flex items-center space-x-2">
+                    <i class="fa-solid fa-trophy text-yellow-400 text-xl"></i>
+                    <span id="totalProgressText" class="font-bold text-sm sm:text-base">0 / 81 Completados</span>
+                </div>
+            </div>
+
+            <!-- Alphabet Picker Bar -->
+            <div id="alphabetBar" class="flex overflow-x-auto space-x-1 py-1 custom-scroll">
+                <!-- Alphabet buttons injected via JS -->
+            </div>
+        </div>
+
+        <!-- Matching Board Game Screen -->
+        <div class="relative bg-white/90 backdrop-blur-sm rounded-3xl p-4 sm:p-6 shadow-2xl border-4 border-blue-400 min-h-[380px] flex flex-col justify-center my-auto">
+            
+            <!-- Instructions -->
+            <div class="text-center mb-4">
+                <p class="text-base sm:text-xl font-bold text-blue-900 bg-blue-100/80 inline-block px-4 py-1.5 rounded-full border border-blue-300 shadow-sm">
+                    <i class="fa-solid fa-hand-pointer text-amber-500 mr-2"></i>Arrastra una línea para unir la imagen con su palabra
+                </p>
+            </div>
+
+            <!-- Canvas SVG overlay for connecting lines -->
+            <svg id="svgCanvas" class="absolute inset-0 w-full h-full z-10" style="pointer-events: none;">
+                <!-- Lines rendered dynamically -->
+            </svg>
+
+            <!-- Grid Layout for Items -->
+            <div class="grid grid-cols-2 gap-8 sm:gap-16 items-center justify-between max-w-3xl mx-auto w-full relative z-20">
+                
+                <!-- Left Column: Images -->
+                <div id="imagesColumn" class="flex flex-col space-y-4">
+                    <!-- Image Cards inserted via JS -->
+                </div>
+
+                <!-- Right Column: Words -->
+                <div id="wordsColumn" class="flex flex-col space-y-4">
+                    <!-- Word Cards inserted via JS -->
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bottom Controls -->
+        <div class="flex items-center justify-between mt-4">
+            <button onclick="prevLetter()" class="bg-orange-500 hover:bg-orange-600 text-white font-bold px-4 sm:px-6 py-2.5 rounded-2xl border-b-4 border-orange-700 shadow-lg flex items-center gap-2 active:translate-y-1">
+                <i class="fa-solid fa-chevron-left"></i>
+                <span>Anterior</span>
+            </button>
+
+            <button onclick="resetCurrentExercise()" class="bg-gray-500 hover:bg-gray-600 text-white font-bold px-4 py-2.5 rounded-2xl border-b-4 border-gray-700 shadow-lg flex items-center gap-2 active:translate-y-1 text-sm sm:text-base">
+                <i class="fa-solid fa-rotate-right"></i>
+                <span class="hidden sm:inline">Reiniciar</span>
+            </button>
+
+            <button onclick="nextExerciseManual()" class="bg-green-500 hover:bg-green-600 text-white font-bold px-4 sm:px-6 py-2.5 rounded-2xl border-b-4 border-green-700 shadow-lg flex items-center gap-2 active:translate-y-1">
+                <span>Siguiente</span>
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+
+    </main>
+
+    <!-- Celebration Modal -->
+    <div id="winModal" class="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z-50 hidden transition-opacity duration-300">
+        <div class="bg-white rounded-3xl border-8 border-yellow-400 p-6 sm:p-8 max-w-md w-full text-center shadow-2xl transform scale-95 transition-transform duration-300 relative mx-4">
+            <div class="w-24 h-24 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4 border-4 border-yellow-400 shadow-inner">
+                <span id="modalEmoji" class="text-5xl">🎉</span>
+            </div>
+            <h3 id="modalTitle" class="text-3xl font-black text-amber-600 mb-2">¡Excelente Trabajo!</h3>
+            <p id="modalMessage" class="text-gray-600 text-lg mb-6">Has completado los ejercicios de la letra A.</p>
+            
+            <button onclick="closeModalAndContinue()" class="w-full bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-black text-xl py-3.5 px-6 rounded-2xl border-b-4 border-green-800 shadow-lg active:translate-y-1 transition">
+                ¡Continuar! <i class="fa-solid fa-arrow-right ml-2"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- AUDIO SYSTEM & GAME LOGIC -->
+    <script>
+        /* ==========================================================================
+           1. DATABASE OF 27 LETTERS x 3 EXERCISES = 81 TOTAL EXERCISES
+           Each exercise has 3 pairs (images + words)
+           ========================================================================== */
+        const alphabetData = {
+            'A': [
+                [{ id: 1, name: 'Árbol', icon: '🌳' }, { id: 2, name: 'Avión', icon: '✈️' }, { id: 3, name: 'Auto', icon: '🚗' }],
+                [{ id: 4, name: 'Abeja', icon: '🐝' }, { id: 5, name: 'Araña', icon: '🕷️' }, { id: 6, name: 'Anillo', icon: '💍' }],
+                [{ id: 7, name: 'Arcoíris', icon: '🌈' }, { id: 8, name: 'Ancla', icon: '⚓' }, { id: 9, name: 'Aguacate', icon: '🥑' }]
+            ],
+            'B': [
+                [{ id: 10, name: 'Barco', icon: '⛵' }, { id: 11, name: 'Ballena', icon: '🐳' }, { id: 12, name: 'Búho', icon: '🦉' }],
+                [{ id: 13, name: 'Botón', icon: '🔘' }, { id: 14, name: 'Bebé', icon: '👶' }, { id: 15, name: 'Banana', icon: '🍌' }],
+                [{ id: 16, name: 'Bota', icon: '👢' }, { id: 17, name: 'Bicicleta', icon: '🚲' }, { id: 18, name: 'Balón', icon: '⚽' }]
+            ],
+            'C': [
+                [{ id: 19, name: 'Casa', icon: '🏠' }, { id: 20, name: 'Caracol', icon: '🐌' }, { id: 21, name: 'Conejo', icon: '🐇' }],
+                [{ id: 22, name: 'Cereza', icon: '🍒' }, { id: 23, name: 'Cama', icon: '🛏️' }, { id: 24, name: 'Caja', icon: '📦' }],
+                [{ id: 25, name: 'Coche', icon: '🏎️' }, { id: 26, name: 'Corona', icon: '👑' }, { id: 27, name: 'Cangrejo', icon: '🦀' }]
+            ],
+            'D': [
+                [{ id: 28, name: 'Delfín', icon: '🐬' }, { id: 29, name: 'Dado', icon: '🎲' }, { id: 30, name: 'Dinosaurio', icon: '🦕' }],
+                [{ id: 31, name: 'Diente', icon: '🦷' }, { id: 32, name: 'Dona', icon: '🍩' }, { id: 33, name: 'Diamante', icon: '💎' }],
+                [{ id: 34, name: 'Durazno', icon: '🍑' }, { id: 35, name: 'Doctor', icon: '👨‍⚕️' }, { id: 36, name: 'Dragón', icon: '🐉' }]
+            ],
+            'E': [
+                [{ id: 37, name: 'Elefante', icon: '🐘' }, { id: 38, name: 'Estrella', icon: '⭐' }, { id: 39, name: 'Espejo', icon: '🪞' }],
+                [{ id: 40, name: 'Escuela', icon: '🏫' }, { id: 41, name: 'Escoba', icon: '🧹' }, { id: 42, name: 'Erizo', icon: '🦔' }],
+                [{ id: 43, name: 'Escorpión', icon: '🦂' }, { id: 44, name: 'Estatua', icon: '🗽' }, { id: 45, name: 'Escarabajo', icon: '🪲' }]
+            ],
+            'F': [
+                [{ id: 46, name: 'Flor', icon: '🌸' }, { id: 47, name: 'Foco', icon: '💡' }, { id: 48, name: 'Fuego', icon: '🔥' }],
+                [{ id: 49, name: 'Foca', icon: '🦭' }, { id: 50, name: 'Fresa', icon: '🍓' }, { id: 51, name: 'Flamenco', icon: '🦩' }],
+                [{ id: 52, name: 'Fantasma', icon: '👻' }, { id: 53, name: 'Fichas', icon: '🧩' }, { id: 54, name: 'Flauta', icon: '🪈' }]
+            ],
+            'G': [
+                [{ id: 55, name: 'Gato', icon: '🐱' }, { id: 56, name: 'Gorra', icon: '🧢' }, { id: 57, name: 'Galleta', icon: '🍪' }],
+                [{ id: 58, name: 'Gota', icon: '💧' }, { id: 59, name: 'Girasol', icon: '🌻' }, { id: 60, name: 'Guuana', icon: '🦎' }],
+                [{ id: 61, name: 'Guitarra', icon: '🎸' }, { id: 62, name: 'Globo', icon: '🎈' }, { id: 63, name: 'Gorila', icon: '🦍' }]
+            ],
+            'H': [
+                [{ id: 64, name: 'Huevo', icon: '🥚' }, { id: 65, name: 'Helado', icon: '🍦' }, { id: 66, name: 'Hoja', icon: '🍃' }],
+                [{ id: 67, name: 'Hongo', icon: '🍄' }, { id: 68, name: 'Hilo', icon: '🧵' }, { id: 69, name: 'Hacha', icon: '🪓' }],
+                [{ id: 70, name: 'Hipopótamo', icon: '🦛' }, { id: 71, name: 'Hielo', icon: '🧊' }, { id: 72, name: 'Hormiga', icon: '🐜' }]
+            ],
+            'I': [
+                [{ id: 73, name: 'Iglú', icon: '🛖' }, { id: 74, name: 'Isla', icon: '🏝️' }, { id: 75, name: 'Iguana', icon: '🦎' }],
+                [{ id: 76, name: 'Imán', icon: '🧲' }, { id: 77, name: 'Impresora', icon: '🛈' }, { id: 78, name: 'Insecto', icon: '🐛' }],
+                [{ id: 79, name: 'Incendio', icon: '🚒' }, { id: 80, name: 'Invernadero', icon: '🏡' }, { id: 81, name: 'Inyección', icon: '💉' }]
+            ],
+            'J': [
+                [{ id: 82, name: 'Jirafa', icon: '🦒' }, { id: 83, name: 'Jugo', icon: '🧃' }, { id: 84, name: 'Juguete', icon: '🧸' }],
+                [{ id: 85, name: 'Jabón', icon: '🧼' }, { id: 86, name: 'Jarra', icon: '🏺' }, { id: 87, name: 'Joyas', icon: '💎' }],
+                [{ id: 88, name: 'Jardín', icon: '🏡' }, { id: 89, name: 'Jaguar', icon: '🐆' }, { id: 90, name: 'Jeringa', icon: '💉' }]
+            ],
+            'K': [
+                [{ id: 91, name: 'Koala', icon: '🐨' }, { id: 92, name: 'Kiwi', icon: '🥝' }, { id: 93, name: 'Karate', icon: '🥋' }],
+                [{ id: 94, name: 'Ketchup', icon: '🥫' }, { id: 95, name: 'Kayak', icon: '🛶' }, { id: 96, name: 'Kimonos', icon: '👘' }],
+                [{ id: 97, name: 'Kilo', icon: '⚖️' }, { id: 98, name: 'Kiosco', icon: '🏪' }, { id: 99, name: 'Kangaroo', icon: '🦘' }]
+            ],
+            'L': [
+                [{ id: 100, name: 'León', icon: '🦁' }, { id: 101, name: 'Luna', icon: '🌙' }, { id: 102, name: 'Lápiz', icon: '✏️' }],
+                [{ id: 103, name: 'Lámpara', icon: '💡' }, { id: 104, name: 'Libro', icon: '📖' }, { id: 105, name: 'Lobo', icon: '🐺' }],
+                [{ id: 106, name: 'Limón', icon: '🍋' }, { id: 107, name: 'Llama', icon: '🦙' }, { id: 108, name: 'Lentes', icon: '👓' }]
+            ],
+            'M': [
+                [{ id: 109, name: 'Manzana', icon: '🍎' }, { id: 110, name: 'Mono', icon: '🐒' }, { id: 111, name: 'Mesa', icon: '🪑' }],
+                [{ id: 112, name: 'Mariposa', icon: '🦋' }, { id: 113, name: 'Mochila', icon: '🎒' }, { id: 114, name: 'Miel', icon: '🍯' }],
+                [{ id: 115, name: 'Martillo', icon: '🔨' }, { id: 116, name: 'Música', icon: '🎵' }, { id: 117, name: 'Mapa', icon: '🗺️' }]
+            ],
+            'N': [
+                [{ id: 118, name: 'Nube', icon: '☁️' }, { id: 119, name: 'Nido', icon: '🪹' }, { id: 120, name: 'Naranja', icon: '🍊' }],
+                [{ id: 121, name: 'Nieve', icon: '❄️' }, { id: 122, name: 'Nave', icon: '🚀' }, { id: 123, name: 'Noche', icon: '🌃' }],
+                [{ id: 124, name: 'Nuez', icon: '🥜' }, { id: 125, name: 'Nota', icon: '📝' }, { id: 126, name: 'Nadar', icon: '🏊' }]
+            ],
+            'Ñ': [
+                [{ id: 127, name: 'Ñandú', icon: '🦤' }, { id: 128, name: 'Ñame', icon: '🥔' }, { id: 129, name: 'Ñu', icon: '🐂' }],
+                [{ id: 130, name: 'Moño', icon: '🎀' }, { id: 131, name: 'Piña', icon: '🍍' }, { id: 132, name: 'Montaña', icon: '🏔️' }],
+                [{ id: 133, name: 'Cabaña', icon: '🛖' }, { id: 134, name: 'Araña', icon: '🕷️' }, { id: 135, name: 'Niño', icon: '👦' }]
+            ],
+            'O': [
+                [{ id: 136, name: 'Oso', icon: '🐻' }, { id: 137, name: 'Ojo', icon: '👁️' }, { id: 138, name: 'Oveja', icon: '🐑' }],
+                [{ id: 139, name: 'Olla', icon: '🍲' }, { id: 140, name: 'Ola', icon: '🌊' }, { id: 141, name: 'Oro', icon: '🥇' }],
+                [{ id: 142, name: 'Oreja', icon: '👂' }, { id: 143, name: 'Oruga', icon: '🐛' }, { id: 144, name: 'Ostra', icon: '🦪' }]
+            ],
+            'P': [
+                [{ id: 145, name: 'Perro', icon: '🐶' }, { id: 146, name: 'Pato', icon: '🦆' }, { id: 147, name: 'Pelota', icon: '⚽' }],
+                [{ id: 148, name: 'Pez', icon: '🐟' }, { id: 149, name: 'Pino', icon: '🌲' }, { id: 150, name: 'Pan', icon: '🍞' }],
+                [{ id: 151, name: 'Paraguas', icon: '☂️' }, { id: 152, name: 'Pera', icon: '🍐' }, { id: 153, name: 'Pájaro', icon: '🐦' }]
+            ],
+            'Q': [
+                [{ id: 154, name: 'Queso', icon: '🧀' }, { id: 155, name: 'Quimono', icon: '👘' }, { id: 156, name: 'Quetzal', icon: '🦜' }],
+                [{ id: 157, name: 'Quirófano', icon: '🏥' }, { id: 158, name: 'Química', icon: '🧪' }, { id: 159, name: 'Quemadura', icon: '🩹' }],
+                [{ id: 160, name: 'Quinta', icon: '🏡' }, { id: 161, name: 'Quinqué', icon: '🪔' }, { id: 162, name: 'Querubín', icon: '👼' }]
+            ],
+            'R': [
+                [{ id: 163, name: 'Ratón', icon: '🐭' }, { id: 164, name: 'Reloj', icon: '⏰' }, { id: 165, name: 'Rosa', icon: '🌹' }],
+                [{ id: 166, name: 'Rana', icon: '🐸' }, { id: 167, name: 'Rueda', icon: '🛞' }, { id: 168, name: 'Rayo', icon: '⚡' }],
+                [{ id: 169, name: 'Regaliz', icon: '🍬' }, { id: 170, name: 'Rinoceronte', icon: '🦏' }, { id: 171, name: 'Robot', icon: '🤖' }]
+            ],
+            'S': [
+                [{ id: 172, name: 'Sol', icon: '☀️' }, { id: 173, name: 'Sombra', icon: '👤' }, { id: 174, name: 'Silla', icon: '🪑' }],
+                [{ id: 175, name: 'Serpiente', icon: '🐍' }, { id: 176, name: 'Sombrero', icon: '🎩' }, { id: 177, name: 'Sopa', icon: '🍲' }],
+                [{ id: 178, name: 'Sandía', icon: '🍉' }, { id: 179, name: 'Sirena', icon: '🧜‍♀️' }, { id: 180, name: 'Submarino', icon: '🛥️' }]
+            ],
+            'T': [
+                [{ id: 181, name: 'Tigre', icon: '🐯' }, { id: 182, name: 'Tortuga', icon: '🐢' }, { id: 183, name: 'Tenedor', icon: '🍴' }],
+                [{ id: 184, name: 'Taza', icon: '☕' }, { id: 185, name: 'Teléfono', icon: '📞' }, { id: 186, name: 'Tambor', icon: '🥁' }],
+                [{ id: 187, name: 'Tijeras', icon: '✂️' }, { id: 188, name: 'Tomate', icon: '🍅' }, { id: 189, name: 'Tren', icon: '🚂' }]
+            ],
+            'U': [
+                [{ id: 190, name: 'Uva', icon: '🍇' }, { id: 191, name: 'Unicornio', icon: '🦄' }, { id: 192, name: 'Uña', icon: '💅' }],
+                [{ id: 193, name: 'Uno', icon: '1️⃣' }, { id: 194, name: 'Uniforme', icon: '👔' }, { id: 195, name: 'Urbano', icon: '🏙️' }],
+                [{ id: 196, name: 'Urna', icon: '🗳️' }, { id: 197, name: 'Ufólogo', icon: '🛸' }, { id: 198, name: 'Ukulele', icon: '🪕' }]
+            ],
+            'V': [
+                [{ id: 199, name: 'Vaca', icon: '🐮' }, { id: 200, name: 'Vela', icon: '🕯️' }, { id: 201, name: 'Viento', icon: '🌬️' }],
+                [{ id: 202, name: 'Vasos', icon: '🥛' }, { id: 203, name: 'Violín', icon: '🎻' }, { id: 204, name: 'Volcán', icon: '🌋' }],
+                [{ id: 205, name: 'Ventana', icon: '🪟' }, { id: 206, name: 'Vestido', icon: '👗' }, { id: 207, name: 'Vampiro', icon: '🧛' }]
+            ],
+            'W': [
+                [{ id: 208, name: 'Waffle', icon: '🧇' }, { id: 209, name: 'Waterpolo', icon: '🤽' }, { id: 210, name: 'Walkie', icon: '📻' }],
+                [{ id: 211, name: 'Web', icon: '🌐' }, { id: 212, name: 'Windsurf', icon: '🏄' }, { id: 213, name: 'Wok', icon: '🥘' }],
+                [{ id: 214, name: 'Wi-Fi', icon: '📶' }, { id: 215, name: 'Wombat', icon: '🐻' }, { id: 216, name: 'Western', icon: '🤠' }]
+            ],
+            'X': [
+                [{ id: 217, name: 'Xilófono', icon: '🎼' }, { id: 218, name: 'Xenón', icon: '💡' }, { id: 219, name: 'Xerografía', icon: '🖨️' }],
+                [{ id: 220, name: 'Xiphias', icon: '🗡️' }, { id: 221, name: 'Xoloitzcuintle', icon: '🐕' }, { id: 222, name: 'Taxi', icon: '🚕' }],
+                [{ id: 223, name: 'Sartén', icon: '🍳' }, { id: 224, name: 'Saxofón', icon: '🎷' }, { id: 225, name: 'Boxeo', icon: '🥊' }]
+            ],
+            'Y': [
+                [{ id: 226, name: 'Yate', icon: '🛥️' }, { id: 227, name: 'Yema', icon: '🍳' }, { id: 228, name: 'Yoyo', icon: '🪀' }],
+                [{ id: 229, name: 'Yogur', icon: '🥛' }, { id: 230, name: 'Yegua', icon: '🐎' }, { id: 231, name: 'Yeti', icon: '☃️' }],
+                [{ id: 232, name: 'Yunque', icon: '⚒️' }, { id: 233, name: 'Yoga', icon: '🧘' }, { id: 234, name: 'Yacaré', icon: '🐊' }]
+            ],
+            'Z': [
+                [{ id: 235, name: 'Zorro', icon: '🦊' }, { id: 236, name: 'Zapato', icon: '👞' }, { id: 237, name: 'Zanahoria', icon: '🥕' }],
+                [{ id: 238, name: 'Zebra', icon: '🦓' }, { id: 239, name: 'Zoológico', icon: '🦁' }, { id: 240, name: 'Zarcillo', icon: '💍' }],
+                [{ id: 241, name: 'Zumbido', icon: '🐝' }, { id: 242, name: 'Zueco', icon: '👡' }, { id: 243, name: 'Zigzag', icon: '⚡' }]
+            ]
+        };
+
+        const alphabetList = Object.keys(alphabetData);
+
+        /* ==========================================================================
+           2. GAME STATE MANAGEMENT
+           ========================================================================== */
+        let currentLetterIndex = 0;
+        let currentExerciseIndex = 0; // 0, 1, 2
+        let matchesFound = 0;
+        let activeStartDot = null;
+        let userConnections = []; // Array of completed line objects {startId, endId, color}
+        let isDragging = false;
+        let dragCurrentPos = { x: 0, y: 0 };
+        
+        // Progress persistence
+        let completedExercises = JSON.parse(localStorage.getItem('abc_completed_exercises') || '{}');
+
+        /* ==========================================================================
+           3. WEB AUDIO API - RETRO CHIPTUNE MUSIC & SFX
+           ========================================================================== */
+        let audioCtx = null;
+        let musicMuted = false;
+        let sfxMuted = false;
+        let bgmOscillator = null;
+        let bgmGain = null;
+        let isMusicPlaying = false;
+
+        function initAudio() {
+            if (!audioCtx) {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            }
+            if (audioCtx.state === 'suspended') {
+                audioCtx.resume();
+            }
+        }
+
+        // Play Chiptune SFX
+        function playSfx(type) {
+            if (sfxMuted) return;
+            initAudio();
+
+            const now = audioCtx.currentTime;
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+
+            if (type === 'click') {
+                osc.type = 'square';
+                osc.frequency.setValueAtTime(400, now);
+                osc.frequency.exponentialRampToValueAtTime(800, now + 0.05);
+                gain.gain.setValueAtTime(0.1, now);
+                gain.gain.linearRampToValueAtTime(0.01, now + 0.05);
+                osc.start(now);
+                osc.stop(now + 0.05);
+            } else if (type === 'correct') {
+                // Mario coin-like dual tone
+                osc.type = 'square';
+                osc.frequency.setValueAtTime(987.77, now); // B5
+                osc.frequency.setValueAtTime(1318.51, now + 0.08); // E6
+                gain.gain.setValueAtTime(0.15, now);
+                gain.gain.linearRampToValueAtTime(0.01, now + 0.25);
+                osc.start(now);
+                osc.stop(now + 0.25);
+            } else if (type === 'wrong') {
+                // Low error buzz
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(150, now);
+                osc.frequency.linearRampToValueAtTime(100, now + 0.2);
+                gain.gain.setValueAtTime(0.2, now);
+                gain.gain.linearRampToValueAtTime(0.01, now + 0.2);
+                osc.start(now);
+                osc.stop(now + 0.2);
+            } else if (type === 'win') {
+                // Retro Fanfare
+                const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6
+                notes.forEach((freq, idx) => {
+                    const noteOsc = audioCtx.createOscillator();
+                    const noteGain = audioCtx.createGain();
+                    noteOsc.type = 'square';
+                    noteOsc.frequency.setValueAtTime(freq, now + idx * 0.1);
+                    noteGain.gain.setValueAtTime(0.15, now + idx * 0.1);
+                    noteGain.gain.linearRampToValueAtTime(0.01, now + idx * 0.1 + 0.2);
+                    noteOsc.connect(noteGain);
+                    noteGain.connect(audioCtx.destination);
+                    noteOsc.start(now + idx * 0.1);
+                    noteOsc.stop(now + idx * 0.1 + 0.2);
+                });
+            }
+        }
+
+        // Synthesize Retro 8-Bit Background Loop
+        function startBgm() {
+            if (isMusicPlaying || musicMuted) return;
+            initAudio();
+
+            isMusicPlaying = true;
+            const melody = [261.63, 329.63, 392.00, 523.25, 392.00, 329.63, 293.66, 349.23, 440.00, 587.33, 440.00, 349.23];
+            let noteIndex = 0;
+
+            function playNextNote() {
+                if (!isMusicPlaying || musicMuted) return;
+                
+                const now = audioCtx.currentTime;
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(melody[noteIndex], now);
+                
+                gain.gain.setValueAtTime(0.03, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+                
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                
+                osc.start(now);
+                osc.stop(now + 0.25);
+                
+                noteIndex = (noteIndex + 1) % melody.length;
+                setTimeout(playNextNote, 250);
+            }
+
+            playNextNote();
+        }
+
+        function toggleMusic() {
+            musicMuted = !musicMuted;
+            const icon = document.getElementById('bgmIcon');
+            const btn = document.getElementById('bgmToggle');
+            
+            if (musicMuted) {
+                isMusicPlaying = false;
+                icon.className = 'fa-solid fa-music-slash text-lg';
+                btn.classList.replace('bg-purple-600', 'bg-gray-600');
+            } else {
+                icon.className = 'fa-solid fa-music text-lg';
+                btn.classList.replace('bg-gray-600', 'bg-purple-600');
+                startBgm();
+            }
+            playSfx('click');
+        }
+
+        function toggleSfx() {
+            sfxMuted = !sfxMuted;
+            const icon = document.getElementById('sfxIcon');
+            const btn = document.getElementById('sfxToggle');
+            
+            if (sfxMuted) {
+                icon.className = 'fa-solid fa-volume-xmark text-lg';
+                btn.classList.replace('bg-blue-600', 'bg-gray-600');
+            } else {
+                icon.className = 'fa-solid fa-volume-high text-lg';
+                btn.classList.replace('bg-gray-600', 'bg-blue-600');
+            }
+            playSfx('click');
+        }
+
+        /* ==========================================================================
+           4. GAME UI RENDER & INITIALIZATION
+           ========================================================================== */
+        window.onload = function() {
+            renderAlphabetPicker();
+            loadExercise();
+            setupGlobalDragListeners();
+            window.addEventListener('resize', redrawLines);
+        };
+
+        function renderAlphabetPicker() {
+            const bar = document.getElementById('alphabetBar');
+            bar.innerHTML = '';
+
+            alphabetList.forEach((letter, index) => {
+                const btn = document.createElement('button');
+                const isCurrent = index === currentLetterIndex;
+                
+                // Count completed
+                let letterDoneCount = 0;
+                for (let e = 0; e < 3; e++) {
+                    if (completedExercises[`${letter}_${e}`]) letterDoneCount++;
+                }
+
+                btn.className = `min-w-[40px] h-10 font-bold text-lg rounded-xl flex items-center justify-center border-2 transition shadow ${
+                    isCurrent 
+                        ? 'bg-yellow-400 border-yellow-100 text-yellow-950 scale-105 ring-2 ring-yellow-300' 
+                        : letterDoneCount === 3
+                            ? 'bg-emerald-500 border-emerald-700 text-white'
+                            : 'bg-amber-900/60 border-amber-700 text-amber-100 hover:bg-amber-800'
+                }`;
+                btn.innerText = letter;
+                btn.onclick = () => {
+                    playSfx('click');
+                    currentLetterIndex = index;
+                    currentExerciseIndex = 0;
+                    renderAlphabetPicker();
+                    loadExercise();
+                };
+                bar.appendChild(btn);
+            });
+        }
+
+        function loadExercise() {
+            const currentLetter = alphabetList[currentLetterIndex];
+            const exerciseData = alphabetData[currentLetter][currentExerciseIndex];
+
+            // Reset States
+            matchesFound = 0;
+            activeStartDot = null;
+            userConnections = [];
+            
+            // Header Info Updates
+            document.getElementById('currentLetterDisplay').innerText = currentLetter;
+            document.getElementById('letterName').innerText = currentLetter;
+            document.getElementById('exerciseNum').innerText = currentExerciseIndex + 1;
+
+            // Render Stars for Exercises
+            const starsContainer = document.getElementById('exerciseStars');
+            starsContainer.innerHTML = '';
+            for (let i = 0; i < 3; i++) {
+                const star = document.createElement('i');
+                const isCompleted = completedExercises[`${currentLetter}_${i}`];
+                star.className = `${isCompleted || i <= currentExerciseIndex ? 'fa-solid' : 'fa-regular'} fa-star ${isCompleted ? 'text-yellow-400' : i === currentExerciseIndex ? 'text-yellow-300' : 'text-gray-300'} text-lg`;
+                starsContainer.appendChild(star);
+            }
+
+            // Total Score Counter
+            const totalDone = Object.keys(completedExercises).length;
+            document.getElementById('totalProgressText').innerText = `${totalDone} / 81 Completados`;
+
+            // Prepare Left (Images) and Right (Words) Columns - Shuffled
+            const imagesList = [...exerciseData].sort(() => Math.random() - 0.5);
+            const wordsList = [...exerciseData].sort(() => Math.random() - 0.5);
+
+            renderColumns(imagesList, wordsList);
+            redrawLines();
+        }
+
+        function renderColumns(imagesList, wordsList) {
+            const imgCol = document.getElementById('imagesColumn');
+            const wordCol = document.getElementById('wordsColumn');
+
+            imgCol.innerHTML = '';
+            wordCol.innerHTML = '';
+
+            // Render Image Cards
+            imagesList.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "connect-card bg-white border-2 border-blue-200 rounded-2xl p-3 shadow-md flex items-center justify-between gap-3 relative";
+                card.innerHTML = `
+                    <div class="flex items-center space-x-3">
+                        <span class="text-4xl sm:text-5xl select-none filter drop-shadow">${item.icon}</span>
+                    </div>
+                    <div class="connect-dot" id="dot-img-${item.id}" data-type="img" data-id="${item.id}"></div>
+                `;
+                imgCol.appendChild(card);
+            });
+
+            // Render Word Cards
+            wordsList.forEach(item => {
+                const card = document.createElement('div');
+                card.className = "connect-card bg-white border-2 border-purple-200 rounded-2xl p-3 shadow-md flex items-center justify-between gap-3 relative";
+                card.innerHTML = `
+                    <div class="connect-dot" id="dot-word-${item.id}" data-type="word" data-id="${item.id}"></div>
+                    <div class="flex-grow text-right">
+                        <span class="text-lg sm:text-2xl font-bold text-gray-800 tracking-wide">${item.name}</span>
+                    </div>
+                `;
+                wordCol.appendChild(card);
+            });
+
+            setupDotEvents();
+        }
+
+        /* ==========================================================================
+           5. INTERACTIVE LINE DRAWING & MATCHING LOGIC
+           ========================================================================== */
+        function setupDotEvents() {
+            const dots = document.querySelectorAll('.connect-dot');
+            dots.forEach(dot => {
+                // Mouse & Touch Start
+                const startHandler = (e) => {
+                    e.preventDefault();
+                    initAudio();
+                    startBgm();
+
+                    const id = parseInt(dot.getAttribute('data-id'));
+                    const type = dot.getAttribute('data-type');
+
+                    // Don't restart if already matched
+                    if (isAlreadyMatched(id, type)) return;
+
+                    activeStartDot = { element: dot, id, type };
+                    dot.classList.add('active');
+                    isDragging = true;
+                    playSfx('click');
+
+                    updateDragPos(e);
+                };
+
+                dot.addEventListener('mousedown', startHandler);
+                dot.addEventListener('touchstart', startHandler, { passive: false });
+            });
+        }
+
+        function setupGlobalDragListeners() {
+            const handleMove = (e) => {
+                if (!isDragging || !activeStartDot) return;
+                updateDragPos(e);
+                redrawLines();
+            };
+
+            const handleEnd = (e) => {
+                if (!isDragging || !activeStartDot) return;
+
+                // Find element under touch/cursor
+                let targetEl = null;
+                if (e.changedTouches && e.changedTouches.length > 0) {
+                    const touch = e.changedTouches[0];
+                    targetEl = document.elementFromPoint(touch.clientX, touch.clientY);
+                } else {
+                    targetEl = e.target;
+                }
+
+                // Check if dropped over a valid dot
+                if (targetEl && targetEl.classList.contains('connect-dot')) {
+                    const targetId = parseInt(targetEl.getAttribute('data-id'));
+                    const targetType = targetEl.getAttribute('data-type');
+
+                    // Check if matching Image to Word
+                    if (activeStartDot.type !== targetType && !isAlreadyMatched(targetId, targetType)) {
+                        if (activeStartDot.id === targetId) {
+                            // CORRECT MATCH!
+                            playSfx('correct');
+                            activeStartDot.element.classList.remove('active');
+                            activeStartDot.element.classList.add('matched');
+                            targetEl.classList.add('matched');
+
+                            userConnections.push({
+                                startId: activeStartDot.id,
+                                endId: targetId,
+                                color: '#10b981' // Emerald Green
+                            });
+
+                            matchesFound++;
+                            if (matchesFound === 3) {
+                                handleExerciseVictory();
+                            }
+                        } else {
+                            // WRONG MATCH
+                            playSfx('wrong');
+                            activeStartDot.element.classList.remove('active');
+                        }
+                    } else {
+                        activeStartDot.element.classList.remove('active');
+                    }
+                } else {
+                    activeStartDot.element.classList.remove('active');
+                }
+
+                isDragging = false;
+                activeStartDot = null;
+                redrawLines();
+            };
+
+            window.addEventListener('mousemove', handleMove);
+            window.addEventListener('touchmove', handleMove, { passive: false });
+            window.addEventListener('mouseup', handleEnd);
+            window.addEventListener('touchend', handleEnd);
+        }
+
+        function updateDragPos(e) {
+            if (e.touches && e.touches.length > 0) {
+                dragCurrentPos = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            } else {
+                dragCurrentPos = { x: e.clientX, y: e.clientY };
+            }
+        }
+
+        function isAlreadyMatched(id, type) {
+            return userConnections.some(conn => conn.startId === id);
+        }
+
+        /* Redraw SVG connecting lines */
+        function redrawLines() {
+            const svg = document.getElementById('svgCanvas');
+            const svgRect = svg.getBoundingClientRect();
+            svg.innerHTML = '';
+
+            // Draw Completed Connections
+            userConnections.forEach(conn => {
+                const imgDot = document.getElementById(`dot-img-${conn.startId}`);
+                const wordDot = document.getElementById(`dot-word-${conn.endId}`);
+
+                if (imgDot && wordDot) {
+                    const p1 = getCenterCoords(imgDot, svgRect);
+                    const p2 = getCenterCoords(wordDot, svgRect);
+
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', p1.x);
+                    line.setAttribute('y1', p1.y);
+                    line.setAttribute('x2', p2.x);
+                    line.setAttribute('y2', p2.y);
+                    line.setAttribute('stroke', conn.color);
+                    line.setAttribute('stroke-width', '6');
+                    line.setAttribute('stroke-linecap', 'round');
+                    svg.appendChild(line);
+                }
+            });
+
+            // Draw Active Dragging Line
+            if (isDragging && activeStartDot) {
+                const startDot = activeStartDot.element;
+                const p1 = getCenterCoords(startDot, svgRect);
+                const p2 = {
+                    x: dragCurrentPos.x - svgRect.left,
+                    y: dragCurrentPos.y - svgRect.top
+                };
+
+                const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                line.setAttribute('x1', p1.x);
+                line.setAttribute('y1', p1.y);
+                line.setAttribute('x2', p2.x);
+                line.setAttribute('y2', p2.y);
+                line.setAttribute('stroke', '#f59e0b');
+                line.setAttribute('stroke-width', '5');
+                line.setAttribute('stroke-dasharray', '8,8');
+                line.setAttribute('stroke-linecap', 'round');
+                svg.appendChild(line);
+            }
+        }
+
+        function getCenterCoords(element, svgRect) {
+            const rect = element.getBoundingClientRect();
+            return {
+                x: rect.left + rect.width / 2 - svgRect.left,
+                y: rect.top + rect.height / 2 - svgRect.top
+            };
+        }
+
+        /* ==========================================================================
+           6. VICTORY AND NAVIGATION LOGIC
+           ========================================================================== */
+        function handleExerciseVictory() {
+            const currentLetter = alphabetList[currentLetterIndex];
+            completedExercises[`${currentLetter}_${currentExerciseIndex}`] = true;
+            localStorage.setItem('abc_completed_exercises', JSON.stringify(completedExercises));
+
+            playSfx('win');
+            triggerConfetti();
+
+            setTimeout(() => {
+                const modal = document.getElementById('winModal');
+                const title = document.getElementById('modalTitle');
+                const msg = document.getElementById('modalMessage');
+
+                if (currentExerciseIndex < 2) {
+                    title.innerText = "¡Muy Bien!";
+                    msg.innerText = `Has completado el ejercicio ${currentExerciseIndex + 1} de la Letra ${currentLetter}.`;
+                } else {
+                    title.innerText = "¡Fantástico!";
+                    msg.innerText = `¡Felicidades! Has completado todos los ejercicios de la Letra ${currentLetter}.`;
+                }
+
+                modal.classList.remove('hidden');
+                renderAlphabetPicker();
+            }, 500);
+        }
+
+        function closeModalAndContinue() {
+            document.getElementById('winModal').classList.add('hidden');
+            if (currentExerciseIndex < 2) {
+                currentExerciseIndex++;
+            } else {
+                currentExerciseIndex = 0;
+                currentLetterIndex = (currentLetterIndex + 1) % alphabetList.length;
+            }
+            renderAlphabetPicker();
+            loadExercise();
+        }
+
+        function resetCurrentExercise() {
+            playSfx('click');
+            loadExercise();
+        }
+
+        function nextExerciseManual() {
+            playSfx('click');
+            if (currentExerciseIndex < 2) {
+                currentExerciseIndex++;
+            } else {
+                currentExerciseIndex = 0;
+                currentLetterIndex = (currentLetterIndex + 1) % alphabetList.length;
+            }
+            renderAlphabetPicker();
+            loadExercise();
+        }
+
+        function prevLetter() {
+            playSfx('click');
+            if (currentExerciseIndex > 0) {
+                currentExerciseIndex--;
+            } else {
+                currentLetterIndex = (currentLetterIndex - 1 + alphabetList.length) % alphabetList.length;
+                currentExerciseIndex = 2;
+            }
+            renderAlphabetPicker();
+            loadExercise();
+        }
+
+        function triggerConfetti() {
+            if (window.confetti) {
+                confetti({
+                    particleCount: 80,
+                    spread: 70,
+                    origin: { y: 0.6 }
+                });
+            }
+        }
+    </script>
+</body>
+</html>
