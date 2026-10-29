@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "method": "Built-in image_gen.imagegen tool; no CLI fallback",
+  "reviewed_on": "2026-10-29",
+  "notes": "Final generated PNGs copied into the repository without raster editing. Godot slices the grid cells and supplies animation, physics and UI. Reference image used to preserve the existing llama identity.",
+  "assets": [
+    {
+      "id": "scenery",
+      "file": "assets/ui/math/activities/scenery-atlas.png",
+      "sha256": "4489d00ea9d573fcfb208b2fa4efeff60d6a87d20e26fa98c3997e624f290715",
+      "generated_filename": "exec-c6929565-5ad0-4637-95fb-90d81a1e4137.png",
+      "grid_columns_rows": [
+        2,
+        2
+      ],
+      "transparent_background": false,
+      "reference_images": [],
+      "prompt": "Use case: stylized-concept. Asset type: production background atlas for an offline educational game in Godot, matching a polished colorful 3D animated children's Andean adventure. Primary request: FOUR distinct wide environments in an EXACT 2-column by 2-row grid, each cell a clean 16:9 wide backdrop, full sheet 16:9 landscape. No gutters, no borders. Top-left: sunlit Andean village learning courtyard, distant terracotta roofs, lush flowers and snow mountains at the edges, broad uncluttered warm pale central teaching space. Top-right: a beautiful Andean orchard and village market, apple trees and corn plants along edges, empty light wooden low worktable at bottom, clear middle space. Bottom-left: adventurous panoramic Andean valley with layered blue mountains, ancient stone terraces and distant suspension bridge, deep readable parallax-like landscape, open central sky and lower green valley suitable for a side scrolling llama game; no foreground platforms or people. Bottom-right: cheerful dusk village festival with glowing hanging lanterns and colorful pennants along top edges, clear deep-blue central sky and distant terracotta village, inviting stage at bottom. Style: lush high-quality family animation rendering, tactile detailed materials, saturated accents with calm playable centers, soft cinematic light, visually consistent with a fluffy cream llama in colorful Andean woven poncho. Constraints: NO characters, NO letters, NO numbers, NO logos, NO user interface, NO buttons, NO watermarks. These are final game art backgrounds, not a screenshot or app mockup."
+    },
+    {
+      "id": "runner",
+      "file": "assets/characters/llama/adventure/run-atlas.png",
+      "sha256": "856fc431418ff0e67489343e85e68b6a7ff0cb85de9ef8ff5a838ee95fc832e6",
+      "generated_filename": "exec-b142a97a-c7b6-4734-8575-da45e2db5eb3.png",
+      "grid_columns_rows": [
+        4,
+        2
+      ],
+      "transparent_background": true,
+      "reference_images": [
+        "docs/reference/numbers/llama-reference.jpg"
+      ],
+      "prompt": "Use case: identity-preserve. Asset type: transparent game character sprite atlas. Input image is CHARACTER REFERENCE ONLY, preserve the exact friendly cream llama identity: huge warm brown eyes, tan face, fluffy curly cream wool, magenta turquoise orange woven Andean headband with pompom tassels, patterned poncho and small woven saddle blanket. Primary request: create an exact FOUR COLUMN by TWO ROW sprite grid, eight equally sized square cells, full image twice as wide as tall. One complete llama per cell, same scale and identical center/baseline, all bodies fully inside their own cells with at least 8% padding. Side/three-quarter view facing RIGHT, full body on four legs, no pointer or stick, lively but same proportions and costume throughout. Frames in reading order: 1 relaxed standing idle; 2 walking with front right leg extended, 3 walking alternate legs, 4 light trot tucked stride, 5 stretched running stride, 6 airborne happy jump with tucked hooves, 7 landing with bent legs, 8 happy victory with head raised and one front hoof lifted. Animate body and leg poses, not just faces. Render premium soft 3D storybook family-animation quality, clean readable silhouette. Background genuinely TRANSPARENT alpha everywhere outside the llama, including between cells. No ground plane, no opaque shadows, no panels, no colored backdrop, no text, no numbers, no duplicate extra characters. Keep headband, poncho colors and face consistent with the supplied reference. This is a real in-game sprite sheet, not an illustrated poster."
+    },
+    {
+      "id": "props",
+      "file": "assets/ui/math/activities/objects-atlas.png",
+      "sha256": "8185324e6f948f2d82fe0628f01b3731df577996c62f9ce878e1f83872f3373c",
+      "generated_filename": "exec-4e111660-81e3-4f35-a43a-cfde7094ad1c.png",
+      "grid_columns_rows": [
+        4,
+        2
+      ],
+      "transparent_background": true,
+      "reference_images": [],
+      "prompt": "Use case: stylized-concept. Asset type: final transparent game object sprite atlas for a colorful 3D Andean educational game. Exact FOUR columns by TWO rows, eight equal square cells, full sheet 2:1 landscape. Exactly one clean isolated object centered in each cell with generous 12% transparent padding, complete object contained inside its cell. Reading order: 1 a glossy red apple with green leaf; 2 a bright orange carrot with leafy top; 3 a golden corn cob with small green husk; 4 an empty small Andean woven basket; 5 a warm wooden produce crate; 6 a golden five-point collectible star with soft bevel and delightful shine; 7 a magenta turquoise striped festive round helium balloon with short tied ribbon, no long string; 8 a small closed treasure chest with brass star-shaped clasp. Premium tactile 3D family animation toy-like render, matching a fluffy llama in a colorful Andean woven poncho. Colors vibrant and objects instantly recognizable for young children, consistent lighting upper left, apple/carrot/corn similar visual size for counting. Genuine transparent alpha background and between all objects. No floors, no square panels, no backdrop, no labels, no letters, no numbers, no watermarks, no extra objects."
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "clips": {
+    "addition": {
+      "file": "addition.mp3",
+      "text": "Vamos a aprender a sumar. Elige una misión. Primero mueve las cantidades y después resuelve seis retos."
+    },
+    "subtraction": {
+      "file": "subtraction.mp3",
+      "text": "Vamos a aprender a restar. Mira la cantidad inicial, quita una parte y descubre cuánto queda."
+    },
+    "multiplication": {
+      "file": "multiplication.mp3",
+      "text": "Vamos a multiplicar. Forma grupos del mismo tamaño y descubre la suma que se repite."
+    },
+    "division": {
+      "file": "division.mp3",
+      "text": "Vamos a dividir. Reparte por igual y comprueba que todas las cestas reciben lo mismo."
+    },
+    "count_objects": {
+      "file": "count_objects.mp3",
+      "text": "Bienvenido al huerto. Toca cada objeto una sola vez para contarlo y elige cuántos hay. Son ocho rondas."
+    },
+    "solve_exercises": {
+      "file": "solve_exercises.mp3",
+      "text": "La feria necesita tu ayuda. Elige las operaciones y la dificultad. Lee o escucha cada problema, piensa y responde."
+    },
+    "level_game": {
+      "file": "level_game.mp3",
+      "text": "Una aventura por los Andes. Mueve la llama, salta y recoge estrellas. Resuelve las tres puertas matemáticas para llegar a la meta."
+    },
+    "quick_challenge": {
+      "file": "quick_challenge.mp3",
+      "text": "Bienvenido a la fiesta de globos. Resuelve la operación y toca el globo correcto. Puedes jugar con tiempo o sin reloj."
+    },
+    "correct": {
+      "file": "correct.mp3",
+      "text": "¡Muy bien pensado! Sigue así."
+    },
+    "retry": {
+      "file": "retry.mp3",
+      "text": "Todavía no. Puedes mirar la pista y probar otra vez. Aprender también es intentarlo."
+    },
+    "done": {
+      "file": "done.mp3",
+      "text": "¡Misión terminada! Tu avance se guardó en este dispositivo."
+    },
+    "model_done": {
+      "file": "model_done.mp3",
+      "text": "¡Lo descubriste paso a paso! Ahora te toca resolver seis retos."
+    },
+    "resume": {
+      "file": "resume.mp3",
+      "text": "Puedes continuar donde lo dejaste o empezar de nuevo para practicar."
+    },
+    "help": {
+      "file": "help.mp3",
+      "text": "Escucha la pregunta, observa el dibujo y mueve las cantidades. Puedes pedir una pista. No hay prisa para aprender."
+    },
+    "step_add": {
+      "file": "step_add.mp3",
+      "text": "Empezamos en la primera cantidad y avanzamos lo que agregamos. Observa cómo cambia el total."
+    },
+    "step_sub": {
+      "file": "step_sub.mp3",
+      "text": "Empezamos en la cantidad que teníamos. Cada salto hacia atrás representa una parte que quitamos."
+    },
+    "step_mult": {
+      "file": "step_mult.mp3",
+      "text": "Cada fila tiene la misma cantidad. Añade un grupo y observa cómo crece el total."
+    },
+    "step_div": {
+      "file": "step_div.mp3",
+      "text": "Reparte una ronda. Cada cesta recibe una manzana. Repite hasta que todas queden repartidas."
+    },
+    "pause": {
+      "file": "pause.mp3",
+      "text": "Hacemos una pausa. Puedes seguir cuando quieras."
+    },
+    "level_done": {
+      "file": "level_done.mp3",
+      "text": "¡Llegaste a la meta! Resolviste las tres puertas y completaste el camino."
+    },
+    "quick_ready": {
+      "file": "quick_ready.mp3",
+      "text": "Cuando estés listo, empieza la fiesta. Cada acierto enciende un globo. Los errores son otra oportunidad para aprender."
+    },
+    "choose_answer": {
+      "file": "choose_answer.mp3",
+      "text": "Piensa en la operación y elige tu respuesta."
+    },
+    "look_problem": {
+      "file": "look_problem.mp3",
+      "text": "Mira el problema. Puedes escucharlo y abrir la pista si necesitas ayuda."
+    },
+    "addition_1_intro": {
+      "file": "addition_1_intro.mp3",
+      "text": "Juntamos hasta 5. Junta dos cantidades para encontrar el total. En una canasta hay 2 manzanas. Agregamos 3 más. ¿Cuántas hay ahora? Vamos a descubrirlo juntos."
+    },
+    "addition_1_q1": {
+      "file": "addition_1_q1.mp3",
+      "text": "En una canasta hay 1 manzana. Agregamos 1 más. ¿Cuántas hay ahora?"
+    },
+    "addition_1_q2": {
+      "file": "addition_1_q2.mp3",
+      "text": "En una canasta hay 2 manzanas. Agregamos 1 más. ¿Cuántas hay ahora?"
+    },
+    "addition_1_q3": {
+      "file": "addition_1_q3.mp3",
+      "text": "En una canasta hay 0 manzanas. Agregamos 3 más. ¿Cuántas hay ahora?"
+    },
+    "addition_1_q4": {
+      "file": "addition_1_q4.mp3",
+      "text": "En una canasta hay 2 manzanas. Agregamos 2 más. ¿Cuántas hay ahora?"
+    },
+    "addition_1_q5": {
+      "file": "addition_1_q5.mp3",
+      "text": "En una canasta hay 3 manzanas. Agregamos 2 más. ¿Cuántas hay ahora?"
+    },
+    "addition_1_q6": {
+      "file": "addition_1_q6.mp3",
+      "text": "En una canasta hay 4 manzanas. Agregamos 0 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_intro": {
+      "file": "addition_2_intro.mp3",
+      "text": "Sumamos hasta 10. Empieza en el número mayor y cuenta lo que agregas. En una canasta hay 5 manzanas. Agregamos 4 más. ¿Cuántas hay ahora? Vamos a descubrirlo juntos."
+    },
+    "addition_2_q1": {
+      "file": "addition_2_q1.mp3",
+      "text": "En una canasta hay 5 manzanas. Agregamos 2 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_q2": {
+      "file": "addition_2_q2.mp3",
+      "text": "En una canasta hay 3 manzanas. Agregamos 4 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_q3": {
+      "file": "addition_2_q3.mp3",
+      "text": "En una canasta hay 6 manzanas. Agregamos 2 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_q4": {
+      "file": "addition_2_q4.mp3",
+      "text": "En una canasta hay 4 manzanas. Agregamos 5 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_q5": {
+      "file": "addition_2_q5.mp3",
+      "text": "En una canasta hay 7 manzanas. Agregamos 3 más. ¿Cuántas hay ahora?"
+    },
+    "addition_2_q6": {
+      "file": "addition_2_q6.mp3",
+      "text": "En una canasta hay 6 manzanas. Agregamos 4 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_intro": {
+      "file": "addition_3_intro.mp3",
+      "text": "Pasamos por el 10. Completa una decena y suma lo que falta. En una canasta hay 8 manzanas. Agregamos 5 más. ¿Cuántas hay ahora? Vamos a descubrirlo juntos."
+    },
+    "addition_3_q1": {
+      "file": "addition_3_q1.mp3",
+      "text": "En una canasta hay 8 manzanas. Agregamos 4 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_q2": {
+      "file": "addition_3_q2.mp3",
+      "text": "En una canasta hay 9 manzanas. Agregamos 3 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_q3": {
+      "file": "addition_3_q3.mp3",
+      "text": "En una canasta hay 7 manzanas. Agregamos 6 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_q4": {
+      "file": "addition_3_q4.mp3",
+      "text": "En una canasta hay 8 manzanas. Agregamos 7 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_q5": {
+      "file": "addition_3_q5.mp3",
+      "text": "En una canasta hay 6 manzanas. Agregamos 9 más. ¿Cuántas hay ahora?"
+    },
+    "addition_3_q6": {
+      "file": "addition_3_q6.mp3",
+      "text": "En una canasta hay 9 manzanas. Agregamos 8 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_intro": {
+      "file": "addition_4_intro.mp3",
+      "text": "Decenas y unidades. Suma unidades y decenas; cambia diez unidades por una decena. En una canasta hay 27 manzanas. Agregamos 18 más. ¿Cuántas hay ahora? Vamos a descubrirlo juntos."
+    },
+    "addition_4_q1": {
+      "file": "addition_4_q1.mp3",
+      "text": "En una canasta hay 24 manzanas. Agregamos 13 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_q2": {
+      "file": "addition_4_q2.mp3",
+      "text": "En una canasta hay 35 manzanas. Agregamos 22 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_q3": {
+      "file": "addition_4_q3.mp3",
+      "text": "En una canasta hay 28 manzanas. Agregamos 15 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_q4": {
+      "file": "addition_4_q4.mp3",
+      "text": "En una canasta hay 46 manzanas. Agregamos 27 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_q5": {
+      "file": "addition_4_q5.mp3",
+      "text": "En una canasta hay 57 manzanas. Agregamos 18 más. ¿Cuántas hay ahora?"
+    },
+    "addition_4_q6": {
+      "file": "addition_4_q6.mp3",
+      "text": "En una canasta hay 38 manzanas. Agregamos 26 más. ¿Cuántas hay ahora?"
+    },
+    "subtraction_1_intro": {
+      "file": "subtraction_1_intro.mp3",
+      "text": "Quitamos hasta 5. Descubre qué queda cuando quitamos una parte. En una canasta había 5 manzanas. Retiramos 2. ¿Cuántas quedan? Vamos a descubrirlo juntos."
+    },
+    "subtraction_1_q1": {
+      "file": "subtraction_1_q1.mp3",
+      "text": "En una canasta había 3 manzanas. Retiramos 1. ¿Cuántas quedan?"
+    },
+    "subtraction_1_q2": {
+      "file": "subtraction_1_q2.mp3",
+      "text": "En una canasta había 4 manzanas. Retiramos 2. ¿Cuántas quedan?"
+    },
+    "subtraction_1_q3": {
+      "file": "subtraction_1_q3.mp3",
+      "text": "En una canasta había 5 manzanas. Retiramos 1. ¿Cuántas quedan?"
+    },
+    "subtraction_1_q4": {
+      "file": "subtraction_1_q4.mp3",
+      "text": "En una canasta había 5 manzanas. Retiramos 3. ¿Cuántas quedan?"
+    },
+    "subtraction_1_q5": {
+      "file": "subtraction_1_q5.mp3",
+      "text": "En una canasta había 4 manzanas. Retiramos 3. ¿Cuántas quedan?"
+    },
+    "subtraction_1_q6": {
+      "file": "subtraction_1_q6.mp3",
+      "text": "En una canasta había 5 manzanas. Retiramos 5. ¿Cuántas quedan?"
+    },
+    "subtraction_2_intro": {
+      "file": "subtraction_2_intro.mp3",
+      "text": "Retrocedemos hasta 10. Empieza en la cantidad inicial y retrocede. En una canasta había 9 manzanas. Retiramos 4. ¿Cuántas quedan? Vamos a descubrirlo juntos."
+    },
+    "subtraction_2_q1": {
+      "file": "subtraction_2_q1.mp3",
+      "text": "En una canasta había 8 manzanas. Retiramos 2. ¿Cuántas quedan?"
+    },
+    "subtraction_2_q2": {
+      "file": "subtraction_2_q2.mp3",
+      "text": "En una canasta había 9 manzanas. Retiramos 3. ¿Cuántas quedan?"
+    },
+    "subtraction_2_q3": {
+      "file": "subtraction_2_q3.mp3",
+      "text": "En una canasta había 7 manzanas. Retiramos 4. ¿Cuántas quedan?"
+    },
+    "subtraction_2_q4": {
+      "file": "subtraction_2_q4.mp3",
+      "text": "En una canasta había 10 manzanas. Retiramos 5. ¿Cuántas quedan?"
+    },
+    "subtraction_2_q5": {
+      "file": "subtraction_2_q5.mp3",
+      "text": "En una canasta había 8 manzanas. Retiramos 0. ¿Cuántas quedan?"
+    },
+    "subtraction_2_q6": {
+      "file": "subtraction_2_q6.mp3",
+      "text": "En una canasta había 10 manzanas. Retiramos 7. ¿Cuántas quedan?"
+    },
+    "subtraction_3_intro": {
+      "file": "subtraction_3_intro.mp3",
+      "text": "Cruzamos una decena. Descompón lo que quitas para pasar por el diez. En una canasta había 14 manzanas. Retiramos 6. ¿Cuántas quedan? Vamos a descubrirlo juntos."
+    },
+    "subtraction_3_q1": {
+      "file": "subtraction_3_q1.mp3",
+      "text": "En una canasta había 12 manzanas. Retiramos 5. ¿Cuántas quedan?"
+    },
+    "subtraction_3_q2": {
+      "file": "subtraction_3_q2.mp3",
+      "text": "En una canasta había 13 manzanas. Retiramos 7. ¿Cuántas quedan?"
+    },
+    "subtraction_3_q3": {
+      "file": "subtraction_3_q3.mp3",
+      "text": "En una canasta había 15 manzanas. Retiramos 8. ¿Cuántas quedan?"
+    },
+    "subtraction_3_q4": {
+      "file": "subtraction_3_q4.mp3",
+      "text": "En una canasta había 16 manzanas. Retiramos 9. ¿Cuántas quedan?"
+    },
+    "subtraction_3_q5": {
+      "file": "subtraction_3_q5.mp3",
+      "text": "En una canasta había 14 manzanas. Retiramos 8. ¿Cuántas quedan?"
+    },
+    "subtraction_3_q6": {
+      "file": "subtraction_3_q6.mp3",
+      "text": "En una canasta había 17 manzanas. Retiramos 9. ¿Cuántas quedan?"
+    },
+    "subtraction_4_intro": {
+      "file": "subtraction_4_intro.mp3",
+      "text": "Cambiamos una decena. Cambia una decena por diez unidades cuando lo necesites. En una canasta había 42 manzanas. Retiramos 17. ¿Cuántas quedan? Vamos a descubrirlo juntos."
+    },
+    "subtraction_4_q1": {
+      "file": "subtraction_4_q1.mp3",
+      "text": "En una canasta había 38 manzanas. Retiramos 14. ¿Cuántas quedan?"
+    },
+    "subtraction_4_q2": {
+      "file": "subtraction_4_q2.mp3",
+      "text": "En una canasta había 57 manzanas. Retiramos 23. ¿Cuántas quedan?"
+    },
+    "subtraction_4_q3": {
+      "file": "subtraction_4_q3.mp3",
+      "text": "En una canasta había 43 manzanas. Retiramos 18. ¿Cuántas quedan?"
+    },
+    "subtraction_4_q4": {
+      "file": "subtraction_4_q4.mp3",
+      "text": "En una canasta había 62 manzanas. Retiramos 27. ¿Cuántas quedan?"
+    },
+    "subtraction_4_q5": {
+      "file": "subtraction_4_q5.mp3",
+      "text": "En una canasta había 71 manzanas. Retiramos 36. ¿Cuántas quedan?"
+    },
+    "subtraction_4_q6": {
+      "file": "subtraction_4_q6.mp3",
+      "text": "En una canasta había 54 manzanas. Retiramos 28. ¿Cuántas quedan?"
+    },
+    "multiplication_1_intro": {
+      "file": "multiplication_1_intro.mp3",
+      "text": "Grupos del mismo tamaño. Multiplicar cuenta objetos organizados en grupos iguales. Hay 3 cestas con 2 manzanas en cada una. ¿Cuántas manzanas hay en total? Vamos a descubrirlo juntos."
+    },
+    "multiplication_1_q1": {
+      "file": "multiplication_1_q1.mp3",
+      "text": "Hay 2 cestas con 2 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_1_q2": {
+      "file": "multiplication_1_q2.mp3",
+      "text": "Hay 3 cestas con 2 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_1_q3": {
+      "file": "multiplication_1_q3.mp3",
+      "text": "Hay 2 cestas con 3 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_1_q4": {
+      "file": "multiplication_1_q4.mp3",
+      "text": "Hay 4 cestas con 2 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_1_q5": {
+      "file": "multiplication_1_q5.mp3",
+      "text": "Hay 3 cestas con 3 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_1_q6": {
+      "file": "multiplication_1_q6.mp3",
+      "text": "Hay 2 cestas con 4 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_intro": {
+      "file": "multiplication_2_intro.mp3",
+      "text": "Saltos de 2, 5 y 10. Relaciona las tablas con sumas repetidas. Hay 5 cestas con 4 manzanas en cada una. ¿Cuántas manzanas hay en total? Vamos a descubrirlo juntos."
+    },
+    "multiplication_2_q1": {
+      "file": "multiplication_2_q1.mp3",
+      "text": "Hay 2 cestas con 6 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_q2": {
+      "file": "multiplication_2_q2.mp3",
+      "text": "Hay 5 cestas con 3 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_q3": {
+      "file": "multiplication_2_q3.mp3",
+      "text": "Hay 10 cestas con 2 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_q4": {
+      "file": "multiplication_2_q4.mp3",
+      "text": "Hay 2 cestas con 8 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_q5": {
+      "file": "multiplication_2_q5.mp3",
+      "text": "Hay 5 cestas con 6 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_2_q6": {
+      "file": "multiplication_2_q6.mp3",
+      "text": "Hay 10 cestas con 4 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_intro": {
+      "file": "multiplication_3_intro.mp3",
+      "text": "Filas y columnas. Una fila es un grupo; cuenta todas sin perder ninguna. Hay 4 cestas con 6 manzanas en cada una. ¿Cuántas manzanas hay en total? Vamos a descubrirlo juntos."
+    },
+    "multiplication_3_q1": {
+      "file": "multiplication_3_q1.mp3",
+      "text": "Hay 3 cestas con 4 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_q2": {
+      "file": "multiplication_3_q2.mp3",
+      "text": "Hay 4 cestas con 5 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_q3": {
+      "file": "multiplication_3_q3.mp3",
+      "text": "Hay 6 cestas con 3 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_q4": {
+      "file": "multiplication_3_q4.mp3",
+      "text": "Hay 3 cestas con 7 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_q5": {
+      "file": "multiplication_3_q5.mp3",
+      "text": "Hay 4 cestas con 8 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_3_q6": {
+      "file": "multiplication_3_q6.mp3",
+      "text": "Hay 6 cestas con 6 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_intro": {
+      "file": "multiplication_4_intro.mp3",
+      "text": "Tablas que se conectan. Usa grupos conocidos para construir productos nuevos. Hay 7 cestas con 8 manzanas en cada una. ¿Cuántas manzanas hay en total? Vamos a descubrirlo juntos."
+    },
+    "multiplication_4_q1": {
+      "file": "multiplication_4_q1.mp3",
+      "text": "Hay 7 cestas con 4 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_q2": {
+      "file": "multiplication_4_q2.mp3",
+      "text": "Hay 8 cestas con 3 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_q3": {
+      "file": "multiplication_4_q3.mp3",
+      "text": "Hay 9 cestas con 5 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_q4": {
+      "file": "multiplication_4_q4.mp3",
+      "text": "Hay 7 cestas con 6 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_q5": {
+      "file": "multiplication_4_q5.mp3",
+      "text": "Hay 8 cestas con 8 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "multiplication_4_q6": {
+      "file": "multiplication_4_q6.mp3",
+      "text": "Hay 9 cestas con 7 manzanas en cada una. ¿Cuántas manzanas hay en total?"
+    },
+    "division_1_intro": {
+      "file": "division_1_intro.mp3",
+      "text": "Repartimos por igual. Cada cesta recibe la misma cantidad. Repartimos 6 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta? Vamos a descubrirlo juntos."
+    },
+    "division_1_q1": {
+      "file": "division_1_q1.mp3",
+      "text": "Repartimos 4 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_1_q2": {
+      "file": "division_1_q2.mp3",
+      "text": "Repartimos 6 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_1_q3": {
+      "file": "division_1_q3.mp3",
+      "text": "Repartimos 6 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_1_q4": {
+      "file": "division_1_q4.mp3",
+      "text": "Repartimos 8 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_1_q5": {
+      "file": "division_1_q5.mp3",
+      "text": "Repartimos 9 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_1_q6": {
+      "file": "division_1_q6.mp3",
+      "text": "Repartimos 10 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_intro": {
+      "file": "division_2_intro.mp3",
+      "text": "Una ronda para cada cesta. Reparte una a cada cesta y repite hasta terminar. Repartimos 12 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta? Vamos a descubrirlo juntos."
+    },
+    "division_2_q1": {
+      "file": "division_2_q1.mp3",
+      "text": "Repartimos 12 manzanas por igual entre 2 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_q2": {
+      "file": "division_2_q2.mp3",
+      "text": "Repartimos 12 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_q3": {
+      "file": "division_2_q3.mp3",
+      "text": "Repartimos 15 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_q4": {
+      "file": "division_2_q4.mp3",
+      "text": "Repartimos 16 manzanas por igual entre 4 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_q5": {
+      "file": "division_2_q5.mp3",
+      "text": "Repartimos 18 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_2_q6": {
+      "file": "division_2_q6.mp3",
+      "text": "Repartimos 20 manzanas por igual entre 5 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_intro": {
+      "file": "division_3_intro.mp3",
+      "text": "Dividir y multiplicar. Comprueba el reparto multiplicando grupos por cantidad. Repartimos 24 manzanas por igual entre 4 cestas. ¿Cuántas van en cada cesta? Vamos a descubrirlo juntos."
+    },
+    "division_3_q1": {
+      "file": "division_3_q1.mp3",
+      "text": "Repartimos 24 manzanas por igual entre 3 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_q2": {
+      "file": "division_3_q2.mp3",
+      "text": "Repartimos 24 manzanas por igual entre 4 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_q3": {
+      "file": "division_3_q3.mp3",
+      "text": "Repartimos 28 manzanas por igual entre 4 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_q4": {
+      "file": "division_3_q4.mp3",
+      "text": "Repartimos 30 manzanas por igual entre 5 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_q5": {
+      "file": "division_3_q5.mp3",
+      "text": "Repartimos 36 manzanas por igual entre 6 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_3_q6": {
+      "file": "division_3_q6.mp3",
+      "text": "Repartimos 42 manzanas por igual entre 6 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_intro": {
+      "file": "division_4_intro.mp3",
+      "text": "El reparto completo. Encuentra cuánto recibe cada grupo y comprueba el total. Repartimos 56 manzanas por igual entre 7 cestas. ¿Cuántas van en cada cesta? Vamos a descubrirlo juntos."
+    },
+    "division_4_q1": {
+      "file": "division_4_q1.mp3",
+      "text": "Repartimos 35 manzanas por igual entre 7 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_q2": {
+      "file": "division_4_q2.mp3",
+      "text": "Repartimos 48 manzanas por igual entre 6 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_q3": {
+      "file": "division_4_q3.mp3",
+      "text": "Repartimos 56 manzanas por igual entre 8 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_q4": {
+      "file": "division_4_q4.mp3",
+      "text": "Repartimos 63 manzanas por igual entre 7 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_q5": {
+      "file": "division_4_q5.mp3",
+      "text": "Repartimos 72 manzanas por igual entre 9 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "division_4_q6": {
+      "file": "division_4_q6.mp3",
+      "text": "Repartimos 81 manzanas por igual entre 9 cestas. ¿Cuántas van en cada cesta?"
+    },
+    "count_1": {
+      "file": "count_1.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_2": {
+      "file": "count_2.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_3": {
+      "file": "count_3.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_4": {
+      "file": "count_4.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_5": {
+      "file": "count_5.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_6": {
+      "file": "count_6.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_7": {
+      "file": "count_7.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_8": {
+      "file": "count_8.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_9": {
+      "file": "count_9.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_10": {
+      "file": "count_10.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_11": {
+      "file": "count_11.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_12": {
+      "file": "count_12.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_13": {
+      "file": "count_13.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_14": {
+      "file": "count_14.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_15": {
+      "file": "count_15.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_16": {
+      "file": "count_16.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_17": {
+      "file": "count_17.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_18": {
+      "file": "count_18.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_19": {
+      "file": "count_19.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    },
+    "count_20": {
+      "file": "count_20.mp3",
+      "text": "Toca los objetos para contarlos. ¿Cuántos hay en total?"
+    }
+  }
+}

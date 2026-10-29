@@ -32,6 +32,7 @@ var elapsed := 0.0
 var talking_clock := 0.0
 var frame_index := -1
 var completed_activities: Dictionary = {}
+var math_activity: Control
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -175,6 +176,7 @@ func _build_progress() -> void:
 		level.add_child(text)
 
 func _process(delta: float) -> void:
+	if is_instance_valid(math_activity): return
 	elapsed += delta
 	var talking := is_instance_valid(voice) and voice.playing and not muted and volume > 0.0
 	if talking:
@@ -241,6 +243,9 @@ func _show_topic(id: String) -> void:
 		return
 	selected_topic = id
 	topic_selected.emit(id)
+	if section_id == "mathematics":
+		_open_math_activity(id)
+		return
 	var column := _open_dialog(topic.title, topic.color)
 	var example := _label(topic.example, 30, topic.color.darkened(0.25))
 	example.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -253,9 +258,35 @@ func _show_topic(id: String) -> void:
 	_add_close_button(column)
 	_speak(id)
 
+func _open_math_activity(id: String) -> void:
+	_close_dialog()
+	if is_instance_valid(math_activity): _close_math_activity()
+	_stop_voice()
+	design.hide()
+	var screen: Control = load("res://scenes/math_activity.tscn").instantiate()
+	screen.set("topic_id", id)
+	screen.connect("back_requested", _close_math_activity)
+	math_activity = screen
+	add_child(screen)
+
+func _close_math_activity() -> void:
+	if is_instance_valid(math_activity):
+		var activity_audio: Node = math_activity.get("audio")
+		if is_instance_valid(activity_audio): activity_audio.call("stop")
+		math_activity.hide()
+		math_activity.queue_free()
+	math_activity = null
+	design.show()
+	var settings := ProgressStore.read(SETTINGS_PATH)
+	muted = settings.get_value("audio", "muted", false) == true
+	volume = clampf(float(settings.get_value("audio", "volume", 85.0)), 0, 100)
+	_load_progress()
+
 func _show_help() -> void:
 	var column := _open_dialog("¡Vamos a explorar!", Color("#087ecc"))
-	_add_paragraph(column, "Toca una tarjeta para conocer su tema.\nToca la llama para repetir la bienvenida.\nEn Configuración puedes ajustar su voz.", 21)
+	var guidance := "Toca una tarjeta para conocer su tema.\nToca la llama para repetir la bienvenida.\nEn Configuración puedes ajustar su voz."
+	if section_id == "mathematics": guidance = "Las cuatro operaciones tienen misiones para aprender paso a paso. Abajo encontrarás cuatro juegos para practicar. En la aventura mueve la llama con flechas y salta con Espacio o con los controles táctiles."
+	_add_paragraph(column, guidance, 21)
 	_add_paragraph(column, "Tu progreso se guardará en este dispositivo al completar actividades. Explorar el menú no suma estrellas.", 18)
 	_add_close_button(column)
 	_speak("help")
@@ -378,12 +409,13 @@ func _valid_activity_id(id: String) -> bool:
 
 func _refresh_progress() -> void:
 	var count := completed_activities.size()
-	progress_label.text = "%d de %d actividades" % [count, section.total]
+	progress_label.text = ("%d de %d misiones" if section_id == "mathematics" else "%d de %d actividades") % [count, section.total]
 	progress_bar.value = count
 	for index in range(progress_stars.size()):
 		progress_stars[index].add_theme_color_override("font_color", Color("#ffc928") if count >= [1, int(section.total) / 2, int(section.total)][index] else Color("#899aab"))
 
 func _unhandled_key_input(event: InputEvent) -> void:
+	if is_instance_valid(math_activity): return
 	if event.is_action_pressed("ui_cancel"):
 		if is_instance_valid(dialog_layer):
 			_close_dialog()

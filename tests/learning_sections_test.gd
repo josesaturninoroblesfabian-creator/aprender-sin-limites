@@ -55,9 +55,16 @@ func _run() -> void:
 		for topic in section.topics:
 			(menu.get("buttons")[topic.id] as Button).pressed.emit()
 			_check(menu.get("selected_topic") == topic.id, "Wrong topic selected in %s" % pair[1])
-			_check(menu.get("current_voice") == topic.id, "Wrong topic narration in %s" % pair[1])
-			_check(is_instance_valid(menu.get("dialog_layer")), "Topic preview did not open")
-			menu.call("_close_dialog")
+			if pair[1] == "mathematics":
+				var activity: Control = menu.get("math_activity")
+				_check(is_instance_valid(activity) and activity.get("topic_id") == topic.id, "The real mathematics activity did not open")
+				_check(not menu.get("design").visible and not player.playing, "The mathematics menu overlapped its activity")
+				activity.emit_signal("back_requested")
+				await process_frame
+			else:
+				_check(menu.get("current_voice") == topic.id, "Wrong topic narration in %s" % pair[1])
+				_check(is_instance_valid(menu.get("dialog_layer")), "Topic preview did not open")
+				menu.call("_close_dialog")
 			_check(not player.playing and player.stream == null, "Dialog close did not release its audio")
 		var after := ConfigFile.new()
 		after.load(section.progress_path)
