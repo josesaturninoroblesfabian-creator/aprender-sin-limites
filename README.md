@@ -1,6 +1,6 @@
 # Aprende sin Límites
 
-Juego educativo en Godot para explorar letras, practicar su trazado y descubrir cuentos, con personajes y ambientación andina. Su público previsto es inicial y primaria; incluye cuatro actividades de comprensión para los mismos 16 cuentos.
+Juego educativo en Godot para explorar letras, practicar su trazado, descubrir cuentos, comprender números, aprender las cuatro operaciones y explorar geometría, con personajes y ambientación andina. Su público previsto es inicial y primaria; incluye cuatro actividades de comprensión para los mismos 16 cuentos y ocho actividades internas en Matemáticas, Números y Geometría.
 
 ## Ejecutar
 
@@ -10,7 +10,13 @@ Juego educativo en Godot para explorar letras, practicar su trazado y descubrir 
 
 Se conserva el estilo ilustrado original: fondos, botones y personajes por imágenes. Incluye **300 audios locales en español** (270 palabras, 27 letras y tres instrucciones); no necesita una voz española instalada para reproducirlos. No hay reconocimiento de voz ni una IA integrada actualmente.
 
-Los menús de **Matemáticas, Números y Geometría** comparten una llama animada y 33 audios neuronales locales, con ayuda y control de sonido. Se abren desde sus botones del inicio. Las tarjetas presentan cada tema; sus ejercicios y submenús internos se construirán de uno en uno. Detalles en [Menús matemáticos](docs/MENUS_MATEMATICOS.md).
+Los menús de **Matemáticas, Números y Geometría** comparten una llama animada y 33 audios neuronales locales, con ayuda y control de sonido. Se abren desde sus botones del inicio. Detalles en [Menús matemáticos](docs/MENUS_MATEMATICOS.md).
+
+**Matemáticas** ya permite jugar en sus ocho tarjetas: suma, resta, multiplicación, división, conteo, ejercicios, aventura por niveles y reto con globos. Incluye 16 misiones con ejemplos interactivos y 96 problemas narrados, doce caminos con plataformas y saltos, 155 audios locales adicionales y guardado para continuar. Todo funciona dentro de Godot sin conexión. Capturas, controles y guía para el equipo en [Actividades de Matemáticas](docs/MATEMATICAS_ACTIVIDADES.md).
+
+**Números** también tiene sus ocho actividades internas: una a cuatro cifras con 20 misiones y 100 retos; mercado para contar, puentes de secuencias, comparación con balanza y tren de retos. Incluye bloques que se arrastran, botones para añadir o quitar, canjes animados, 228 audios locales nuevos y guardado de misiones parciales. Funciona dentro de Godot sin navegador ni internet. Ver [Actividades de Números](docs/NUMEROS_ACTIVIDADES.md).
+
+**Geometría** tiene sus ocho actividades internas: figuras para encajar, cuerpos 3D que se giran, lados y vértices para marcar y patrones para completar. Incluye 20 ejemplos guiados, 100 retos, safari de formas, telar, contornos y vuelo en globo, con 286 audios locales y guardado parcial. Guía, controles y capturas en [Actividades de Geometría](docs/GEOMETRIA_ACTIVIDADES.md).
 
 **Cuentos** incluye a Carmelo animado con voz masculina peruana, 128 escenas ilustradas y 205 audios incluidos. Sus cuatro modos funcionan con los mismos 16 títulos: leer en viñetas, escuchar con palabras resaltadas, ordenar sucesos y responder preguntas con pistas y puntuación. Detalles, capturas y guía de edición en [Cuentos y Carmelo](docs/CUENTOS_Y_CARMELO.md).
 
@@ -21,10 +27,10 @@ Los menús de **Matemáticas, Números y Geometría** comparten una llama animad
 | Inicio | Menú, saludos grabados, animaciones y despedida |
 | Lenguaje | 27 letras, 10 ejemplos por letra, audio incluido y guardado de palabras escuchadas completas |
 | Traza la letra | Guías para 27 letras, ratón/táctil y guardado de repeticiones |
-| Otras cuatro actividades de Lenguaje | Botones con mensaje de futura disponibilidad |
-| Números | Menú ilustrado, llama animada, voz local, ocho presentaciones y ajustes de sonido persistentes; ejercicios pendientes |
-| Matemáticas | Menú de cuatro operaciones y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
-| Geometría | Menú de figuras y cuatro juegos, llama y voz neuronal; actividades internas pendientes |
+| Otras actividades de Lenguaje | Escucha y repite con grabación, Une con imagen, Encuentra la letra y niveles; tres juegos HTML locales y Cóndor Guerrero en escena propia, aportados por el compañero |
+| Números | Ocho actividades jugables, 20 misiones y 100 retos; mercado, puentes, comparación y tren; valor posicional, canjes, voz y progreso local |
+| Matemáticas | Ocho actividades jugables: cuatro operaciones con 16 misiones y 96 problemas, conteo, ejercicios, doce caminos con plataformas y reto de globos; voz local y progreso persistente |
+| Geometría | Ocho actividades jugables: 20 misiones y 100 retos; encaje, cuerpos 3D, conteo de partes, patrones, safari, telar, contornos y globo; voz y progreso local |
 | Cuentos | 16 cuentos × 8 escenas; historietas, narración, orden cronológico y 64 preguntas; Carmelo animado, voz masculina local, progreso por actividad y mejor puntuación |
 | Elegir personaje (Cuentos) | Juego del compañero integrado: ocho personajes, pistas y partidas de cinco rondas |
 | Otros tres juegos inferiores de Cuentos | Completa la escena, Busca el objeto y Reto rápido: mensajes de próxima etapa |
@@ -40,10 +46,15 @@ El contador registra **escuchas completadas**, no dominio educativo. Los antiguo
 scenes/             Escena principal y escenas de prototipos
 scripts/menu/       Catálogo del menú
 scripts/language/   Lección, alfabeto compartido y actividad de trazado
-scripts/math/       Controlador compartido y catálogos de Matemáticas, Números y Geometría
+scripts/math/       Menús compartidos y ocho actividades nativas de Matemáticas
+scripts/numbers/    Veinte misiones de Números y cuatro minijuegos nativos
+scripts/geometry/   Figuras, cuerpos 3D, veinte misiones y cuatro juegos nativos
 scripts/stories/    Repositorio, cuatro modos de cuentos, voz y animación de Carmelo
 scripts/prototypes/ Demostraciones 3D
 data/language/      Contenido del abecedario
+data/math/          Misiones matemáticas, guiones y procedencia de voces
+data/numbers/       Misiones, secuencias, comparaciones y narración de Números
+data/geometry/      Misiones de geometría, juegos y narración local
 data/stories/       Guiones editables y manifiesto de narración
 assets/audio/       Grabaciones y felicitaciones
 assets/backgrounds/ Fondos
@@ -63,6 +74,9 @@ tests/              Prueba de navegación y guardado en Godot
 
 - [Correcciones actuales de Lenguaje y audio](docs/CORRECCIONES_LENGUAJE.md)
 - [Cuentos: cuatro actividades, narración y Carmelo](docs/CUENTOS_Y_CARMELO.md)
+- [Matemáticas: ocho actividades, controles, capturas y edición](docs/MATEMATICAS_ACTIVIDADES.md)
+- [Números: valor posicional, ocho actividades, capturas y edición](docs/NUMEROS_ACTIVIDADES.md)
+- [Geometría: ocho actividades, cuerpos 3D, capturas y edición](docs/GEOMETRIA_ACTIVIDADES.md)
 - [Hack4Edu 2026: encaje, bases y diseño para el reto 02](docs/HACK4EDU_RETO_02.md)
 - [Plan de trabajo para el equipo](docs/PLAN_EQUIPO_HACK4EDU.md)
 - [Análisis detallado y propuesta de juego e IA](docs/ANALISIS_Y_PROPUESTA.md)
@@ -88,6 +102,10 @@ La validación importa recursos, compila los controladores, recorre Lenguaje y t
 También comprueba todas las letras con movimientos continuos y eventos espaciados, atajos incorrectos, interrupción de audio, conservación del guardado anterior, dos dedos y navegación después de completar una letra.
 
 Cuentos añade 510 comprobaciones: los 16 recorridos, escenas distintas, audio decodificable, cuatro entradas desde el menú, tarjetas sin recortes, pausa, cancelación y avance automático, orden correcto e incorrecto, pistas, puntuación sin duplicación, conservación del guardado anterior y convivencia con el juego Elegir personaje. Lenguaje y los tres menús matemáticos conservan sus 391 comprobaciones. Se añaden cuatro pruebas de integridad de tiempos de audio al compartir archivos por Git.
+
+Las actividades de Matemáticas añaden 1.003 comprobaciones: 16 misiones, 96 problemas, doce caminos recorridos con física, controles táctiles simultáneos, pistas, reloj, navegación, voces decodificables y guardado parcial compatible. Su revisión visual cubrió 176 composiciones a 1280 × 800 y otras 176 a 960 × 600.
+
+Números añade otras **1.510 comprobaciones** de misiones, canjes, arrastre, conteo táctil, orden, puentes, balanza, tren, reloj, pistas y guardado compatible. Geometría añade **1.441** de veinte misiones, cuerpos 3D, encaje, contornos, patrones, cuatro juegos, voz, reloj y progreso. El total del proyecto es ahora de **4.855 comprobaciones de Godot y cuatro de Python**. Números tiene revisión visual de 267 composiciones y Geometría de 796, en cada uno de los dos tamaños de ventana. La prueba en Android físico continúa pendiente.
 
 ## Generar o cambiar voces
 

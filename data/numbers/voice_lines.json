@@ -1,0 +1,916 @@
+{
+  "clips": {
+    "one_digit": {
+      "text": "Vamos a descubrir los números de una cifra. Cuenta, construye y escucha. Puedes empezar por cualquier misión y pedir una pista.",
+      "file": "one_digit.mp3"
+    },
+    "two_digits": {
+      "text": "Bienvenido al taller de las decenas. Diez unidades forman una decena. Mueve las cifras y observa cuánto vale cada una.",
+      "file": "two_digits.mp3"
+    },
+    "three_digits": {
+      "text": "Exploramos las centenas. Diez decenas forman cien. Coloca cada cifra en su columna y fíjate en los ceros.",
+      "file": "three_digits.mp3"
+    },
+    "four_digits": {
+      "text": "Una aventura con millares. Diez centenas forman mil. Construye, escucha y ordena sin perder el lugar de cada cifra.",
+      "file": "four_digits.mp3"
+    },
+    "count_objects": {
+      "text": "El mercado necesita un buen contador. Toca cada producto una sola vez. Cada diez marcados forman un grupo. Después elige cuántos hay. Si no hay ninguno, es cero.",
+      "file": "count_objects.mp3"
+    },
+    "sequences": {
+      "text": "Construye el puente de los números. Descubre la regla de los saltos. Arrastra la piedra correcta al hueco o tócala. La llama cruzará cuando completes la secuencia.",
+      "file": "sequences.mp3"
+    },
+    "compare": {
+      "text": "Compara los dos números. Empieza por la columna de mayor valor. Elige mayor que, menor que o igual. El lado abierto del signo mira al número mayor.",
+      "file": "compare.mp3"
+    },
+    "quick_challenge": {
+      "text": "¡Todos a bordo del tren de los números! Escucha la pregunta, elige una vía y pulsa Viajar. La respuesta correcta lleva el paquete a su estación. Puedes jugar sin reloj.",
+      "file": "quick_challenge.mp3"
+    },
+    "help": {
+      "text": "Escucha la consigna. Para construir, arrastra las piezas a su columna o toca Añadir. Cada cubito vale uno, una barra vale diez, una placa cien y un cubo grande mil. Para quitar una pieza, toca Quitar o devuélvela a la bandeja.",
+      "file": "help.mp3"
+    },
+    "blocks": {
+      "text": "Primero mira el número que queremos formar. Arrastra las piezas a la columna de su mismo color o toca Añadir. El número de abajo cambia con cada pieza. Si sobran piezas, toca Quitar. Cuando esté listo, pulsa Comprobar. Para formar cero, deja el espacio vacío.",
+      "file": "blocks.mp3"
+    },
+    "correct": {
+      "text": "¡Bien pensado! Descubriste cómo funciona el número.",
+      "file": "correct.mp3"
+    },
+    "retry": {
+      "text": "Observa otra vez. Cada columna tiene un valor. Puedes mirar la pista y volver a intentarlo.",
+      "file": "retry.mp3"
+    },
+    "done": {
+      "text": "¡Misión completada! Tus cinco descubrimientos quedaron guardados.",
+      "file": "done.mp3"
+    },
+    "model_done": {
+      "text": "¡Lo construiste! Ahora tienes cinco retos para practicar a tu ritmo.",
+      "file": "model_done.mp3"
+    },
+    "resume": {
+      "text": "Seguimos con tu misión. Tus respuestas y tus pistas anteriores se conservaron.",
+      "file": "resume.mp3"
+    },
+    "exchange_units": {
+      "text": "Aquí hay diez unidades. Toca Cambiar diez piezas por una para convertirlas en una decena. La cantidad sigue siendo diez.",
+      "file": "exchange_units.mp3"
+    },
+    "exchange_tens": {
+      "text": "Aquí hay diez decenas. Toca Cambiar diez piezas por una para convertirlas en una centena. La cantidad sigue siendo cien.",
+      "file": "exchange_tens.mp3"
+    },
+    "exchange_hundreds": {
+      "text": "Aquí hay diez centenas. Toca Cambiar diez piezas por una para convertirlas en una unidad de millar. La cantidad sigue siendo mil.",
+      "file": "exchange_hundreds.mp3"
+    },
+    "count": {
+      "text": "Toca cada producto una vez. Mira cómo viaja a la canasta. Cuando los marques todos, elige el total.",
+      "file": "count.mp3"
+    },
+    "sequence_done": {
+      "text": "¡El puente está completo! La regla sirve para todos sus pasos.",
+      "file": "sequence_done.mp3"
+    },
+    "comparison_done": {
+      "text": "¡Eso es! Puedes comparar primero la columna de mayor valor que cambia.",
+      "file": "comparison_done.mp3"
+    },
+    "train_ready": {
+      "text": "Elige la vía de la respuesta y toca Viajar. Puedes cambiar de vía antes de salir.",
+      "file": "train_ready.mp3"
+    },
+    "pause": {
+      "text": "El viaje espera. Continúa cuando estés listo.",
+      "file": "pause.mp3"
+    },
+    "finish": {
+      "text": "¡Buen trabajo! Mira lo que aprendiste y vuelve a jugar para mejorar tu mejor marca.",
+      "file": "finish.mp3"
+    },
+    "one_digit_1_q1": {
+      "text": "Forma el número 0 con las piezas.",
+      "file": "one_digit_1_q1.mp3"
+    },
+    "one_digit_1_q2": {
+      "text": "Forma el número 2 con las piezas.",
+      "file": "one_digit_1_q2.mp3"
+    },
+    "one_digit_1_q3": {
+      "text": "Forma el número 5 con las piezas.",
+      "file": "one_digit_1_q3.mp3"
+    },
+    "one_digit_1_q4": {
+      "text": "Forma el número 7 con las piezas.",
+      "file": "one_digit_1_q4.mp3"
+    },
+    "one_digit_1_q5": {
+      "text": "Forma el número 9 con las piezas.",
+      "file": "one_digit_1_q5.mp3"
+    },
+    "one_digit_1_model": {
+      "text": "Vamos a formar cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "one_digit_1_model.mp3"
+    },
+    "one_digit_1_intro": {
+      "text": "Reconozco cantidades. Cada objeto cuenta una vez. Cero significa que no hay ninguno. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "one_digit_1_intro.mp3"
+    },
+    "one_digit_2_q1": {
+      "text": "Forma el número 3 con las piezas.",
+      "file": "one_digit_2_q1.mp3"
+    },
+    "one_digit_2_q2": {
+      "text": "Forma el número 1 con las piezas.",
+      "file": "one_digit_2_q2.mp3"
+    },
+    "one_digit_2_q3": {
+      "text": "Forma el número 6 con las piezas.",
+      "file": "one_digit_2_q3.mp3"
+    },
+    "one_digit_2_q4": {
+      "text": "Forma el número 8 con las piezas.",
+      "file": "one_digit_2_q4.mp3"
+    },
+    "one_digit_2_q5": {
+      "text": "Forma el número 4 con las piezas.",
+      "file": "one_digit_2_q5.mp3"
+    },
+    "one_digit_2_model": {
+      "text": "Vamos a formar cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "one_digit_2_model.mp3"
+    },
+    "one_digit_2_intro": {
+      "text": "Construyo mi número. Las unidades forman los números de una cifra. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "one_digit_2_intro.mp3"
+    },
+    "one_digit_3_q1": {
+      "text": "Encuentra el número: cero.",
+      "file": "one_digit_3_q1.mp3"
+    },
+    "one_digit_3_q2": {
+      "text": "Encuentra el número: cuatro.",
+      "file": "one_digit_3_q2.mp3"
+    },
+    "one_digit_3_q3": {
+      "text": "Encuentra el número: seis.",
+      "file": "one_digit_3_q3.mp3"
+    },
+    "one_digit_3_q4": {
+      "text": "Encuentra el número: ocho.",
+      "file": "one_digit_3_q4.mp3"
+    },
+    "one_digit_3_q5": {
+      "text": "Encuentra el número: nueve.",
+      "file": "one_digit_3_q5.mp3"
+    },
+    "one_digit_3_model": {
+      "text": "Encuentra el número: cuatro.",
+      "file": "one_digit_3_model.mp3"
+    },
+    "one_digit_3_intro": {
+      "text": "Lo escucho y lo encuentro. Relaciona el nombre que escuchas con su cifra. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "one_digit_3_intro.mp3"
+    },
+    "one_digit_4_q1": {
+      "text": "¿Qué número va después de 0?",
+      "file": "one_digit_4_q1.mp3"
+    },
+    "one_digit_4_q2": {
+      "text": "¿Qué número va antes de 3?",
+      "file": "one_digit_4_q2.mp3"
+    },
+    "one_digit_4_q3": {
+      "text": "¿Qué número va después de 5?",
+      "file": "one_digit_4_q3.mp3"
+    },
+    "one_digit_4_q4": {
+      "text": "¿Qué número va antes de 8?",
+      "file": "one_digit_4_q4.mp3"
+    },
+    "one_digit_4_q5": {
+      "text": "¿Qué número va antes de 9?",
+      "file": "one_digit_4_q5.mp3"
+    },
+    "one_digit_4_model": {
+      "text": "¿Qué número va después de 4?",
+      "file": "one_digit_4_model.mp3"
+    },
+    "one_digit_4_intro": {
+      "text": "Antes y después. Avanza o retrocede un lugar en la recta. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "one_digit_4_intro.mp3"
+    },
+    "one_digit_5_q1": {
+      "text": "Ordena de menor a mayor: 3, 0, 1.",
+      "file": "one_digit_5_q1.mp3"
+    },
+    "one_digit_5_q2": {
+      "text": "Ordena de menor a mayor: 5, 2, 4.",
+      "file": "one_digit_5_q2.mp3"
+    },
+    "one_digit_5_q3": {
+      "text": "Ordena de menor a mayor: 9, 7, 8.",
+      "file": "one_digit_5_q3.mp3"
+    },
+    "one_digit_5_q4": {
+      "text": "Ordena de menor a mayor: 6, 3, 5.",
+      "file": "one_digit_5_q4.mp3"
+    },
+    "one_digit_5_q5": {
+      "text": "Ordena de menor a mayor: 8, 0, 4.",
+      "file": "one_digit_5_q5.mp3"
+    },
+    "one_digit_5_model": {
+      "text": "Ordena de menor a mayor: 4, 1, 3.",
+      "file": "one_digit_5_model.mp3"
+    },
+    "one_digit_5_intro": {
+      "text": "Del menor al mayor. Compara y coloca tres números en orden. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "one_digit_5_intro.mp3"
+    },
+    "two_digits_1_q1": {
+      "text": "Forma el número 10 con las piezas.",
+      "file": "two_digits_1_q1.mp3"
+    },
+    "two_digits_1_q2": {
+      "text": "Forma el número 12 con las piezas.",
+      "file": "two_digits_1_q2.mp3"
+    },
+    "two_digits_1_q3": {
+      "text": "Forma el número 15 con las piezas.",
+      "file": "two_digits_1_q3.mp3"
+    },
+    "two_digits_1_q4": {
+      "text": "Forma el número 18 con las piezas.",
+      "file": "two_digits_1_q4.mp3"
+    },
+    "two_digits_1_q5": {
+      "text": "Forma el número 19 con las piezas.",
+      "file": "two_digits_1_q5.mp3"
+    },
+    "two_digits_1_model": {
+      "text": "Vamos a formar diez. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "two_digits_1_model.mp3"
+    },
+    "two_digits_1_intro": {
+      "text": "Diez unidades, una decena. Cambia diez cubitos por una barra de diez. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "two_digits_1_intro.mp3"
+    },
+    "two_digits_2_q1": {
+      "text": "Forma el número 23 con las piezas.",
+      "file": "two_digits_2_q1.mp3"
+    },
+    "two_digits_2_q2": {
+      "text": "Forma el número 41 con las piezas.",
+      "file": "two_digits_2_q2.mp3"
+    },
+    "two_digits_2_q3": {
+      "text": "Forma el número 36 con las piezas.",
+      "file": "two_digits_2_q3.mp3"
+    },
+    "two_digits_2_q4": {
+      "text": "Forma el número 72 con las piezas.",
+      "file": "two_digits_2_q4.mp3"
+    },
+    "two_digits_2_q5": {
+      "text": "Forma el número 89 con las piezas.",
+      "file": "two_digits_2_q5.mp3"
+    },
+    "two_digits_2_model": {
+      "text": "Vamos a formar veintitrés. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "two_digits_2_model.mp3"
+    },
+    "two_digits_2_intro": {
+      "text": "Cada cifra tiene su lugar. Una decena vale diez unidades. Las columnas cambian el valor. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "two_digits_2_intro.mp3"
+    },
+    "two_digits_3_q1": {
+      "text": "Forma el número 20 con las piezas.",
+      "file": "two_digits_3_q1.mp3"
+    },
+    "two_digits_3_q2": {
+      "text": "Forma el número 40 con las piezas.",
+      "file": "two_digits_3_q2.mp3"
+    },
+    "two_digits_3_q3": {
+      "text": "Forma el número 60 con las piezas.",
+      "file": "two_digits_3_q3.mp3"
+    },
+    "two_digits_3_q4": {
+      "text": "Forma el número 80 con las piezas.",
+      "file": "two_digits_3_q4.mp3"
+    },
+    "two_digits_3_q5": {
+      "text": "Forma el número 90 con las piezas.",
+      "file": "two_digits_3_q5.mp3"
+    },
+    "two_digits_3_model": {
+      "text": "Vamos a formar veinte. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "two_digits_3_model.mp3"
+    },
+    "two_digits_3_intro": {
+      "text": "El lugar del cero. Un cero guarda una columna vacía; no la borres. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "two_digits_3_intro.mp3"
+    },
+    "two_digits_4_q1": {
+      "text": "Encuentra el número: veintiuno.",
+      "file": "two_digits_4_q1.mp3"
+    },
+    "two_digits_4_q2": {
+      "text": "Encuentra el número: treinta y dos.",
+      "file": "two_digits_4_q2.mp3"
+    },
+    "two_digits_4_q3": {
+      "text": "Encuentra el número: cuarenta y ocho.",
+      "file": "two_digits_4_q3.mp3"
+    },
+    "two_digits_4_q4": {
+      "text": "Encuentra el número: sesenta y siete.",
+      "file": "two_digits_4_q4.mp3"
+    },
+    "two_digits_4_q5": {
+      "text": "Encuentra el número: noventa y cinco.",
+      "file": "two_digits_4_q5.mp3"
+    },
+    "two_digits_4_model": {
+      "text": "Encuentra el número: veintitrés.",
+      "file": "two_digits_4_model.mp3"
+    },
+    "two_digits_4_intro": {
+      "text": "Leo y descompongo. Escucha el número y descubre sus decenas y unidades. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "two_digits_4_intro.mp3"
+    },
+    "two_digits_5_q1": {
+      "text": "¿Qué número va después de 19?",
+      "file": "two_digits_5_q1.mp3"
+    },
+    "two_digits_5_q2": {
+      "text": "¿Qué número va antes de 30?",
+      "file": "two_digits_5_q2.mp3"
+    },
+    "two_digits_5_q3": {
+      "text": "¿Qué número va después de 49?",
+      "file": "two_digits_5_q3.mp3"
+    },
+    "two_digits_5_q4": {
+      "text": "¿Qué número va antes de 70?",
+      "file": "two_digits_5_q4.mp3"
+    },
+    "two_digits_5_q5": {
+      "text": "¿Qué número va después de 98?",
+      "file": "two_digits_5_q5.mp3"
+    },
+    "two_digits_5_model": {
+      "text": "¿Qué número va después de 19?",
+      "file": "two_digits_5_model.mp3"
+    },
+    "two_digits_5_intro": {
+      "text": "Vecinos de dos cifras. Antes y después también funciona al cruzar una decena. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "two_digits_5_intro.mp3"
+    },
+    "three_digits_1_q1": {
+      "text": "Forma el número 100 con las piezas.",
+      "file": "three_digits_1_q1.mp3"
+    },
+    "three_digits_1_q2": {
+      "text": "Forma el número 110 con las piezas.",
+      "file": "three_digits_1_q2.mp3"
+    },
+    "three_digits_1_q3": {
+      "text": "Forma el número 120 con las piezas.",
+      "file": "three_digits_1_q3.mp3"
+    },
+    "three_digits_1_q4": {
+      "text": "Forma el número 150 con las piezas.",
+      "file": "three_digits_1_q4.mp3"
+    },
+    "three_digits_1_q5": {
+      "text": "Forma el número 190 con las piezas.",
+      "file": "three_digits_1_q5.mp3"
+    },
+    "three_digits_1_model": {
+      "text": "Vamos a formar cien. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "three_digits_1_model.mp3"
+    },
+    "three_digits_1_intro": {
+      "text": "Diez decenas, una centena. Cambia diez barras de diez por una placa de cien. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "three_digits_1_intro.mp3"
+    },
+    "three_digits_2_q1": {
+      "text": "Forma el número 234 con las piezas.",
+      "file": "three_digits_2_q1.mp3"
+    },
+    "three_digits_2_q2": {
+      "text": "Forma el número 341 con las piezas.",
+      "file": "three_digits_2_q2.mp3"
+    },
+    "three_digits_2_q3": {
+      "text": "Forma el número 526 con las piezas.",
+      "file": "three_digits_2_q3.mp3"
+    },
+    "three_digits_2_q4": {
+      "text": "Forma el número 672 con las piezas.",
+      "file": "three_digits_2_q4.mp3"
+    },
+    "three_digits_2_q5": {
+      "text": "Forma el número 893 con las piezas.",
+      "file": "three_digits_2_q5.mp3"
+    },
+    "three_digits_2_model": {
+      "text": "Vamos a formar doscientos treinta y cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "three_digits_2_model.mp3"
+    },
+    "three_digits_2_intro": {
+      "text": "Armo centenas. Combina centenas, decenas y unidades para construir. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "three_digits_2_intro.mp3"
+    },
+    "three_digits_3_q1": {
+      "text": "En 105, ¿cuánto vale el 0 de las decenas?",
+      "file": "three_digits_3_q1.mp3"
+    },
+    "three_digits_3_q2": {
+      "text": "En 208, ¿cuánto vale el 2 de las centenas?",
+      "file": "three_digits_3_q2.mp3"
+    },
+    "three_digits_3_q3": {
+      "text": "En 340, ¿cuánto vale el 0 de las unidades?",
+      "file": "three_digits_3_q3.mp3"
+    },
+    "three_digits_3_q4": {
+      "text": "En 506, ¿cuánto vale el 5 de las centenas?",
+      "file": "three_digits_3_q4.mp3"
+    },
+    "three_digits_3_q5": {
+      "text": "En 790, ¿cuánto vale el 9 de las decenas?",
+      "file": "three_digits_3_q5.mp3"
+    },
+    "three_digits_3_model": {
+      "text": "En 105, ¿cuánto vale el 0 de las decenas?",
+      "file": "three_digits_3_model.mp3"
+    },
+    "three_digits_3_intro": {
+      "text": "Ceros que importan. Una cifra puede valer cero sin mover las demás. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "three_digits_3_intro.mp3"
+    },
+    "three_digits_4_q1": {
+      "text": "¿Qué número forman 1 centena, 2 decenas, 5 unidades?",
+      "file": "three_digits_4_q1.mp3"
+    },
+    "three_digits_4_q2": {
+      "text": "¿Qué número forman 2 centenas, 6 decenas?",
+      "file": "three_digits_4_q2.mp3"
+    },
+    "three_digits_4_q3": {
+      "text": "¿Qué número forman 4 centenas, 7 unidades?",
+      "file": "three_digits_4_q3.mp3"
+    },
+    "three_digits_4_q4": {
+      "text": "¿Qué número forman 5 centenas, 1 decena, 8 unidades?",
+      "file": "three_digits_4_q4.mp3"
+    },
+    "three_digits_4_q5": {
+      "text": "¿Qué número forman 9 centenas, 3 decenas, 6 unidades?",
+      "file": "three_digits_4_q5.mp3"
+    },
+    "three_digits_4_model": {
+      "text": "¿Qué número forman 2 centenas, 3 decenas, 4 unidades?",
+      "file": "three_digits_4_model.mp3"
+    },
+    "three_digits_4_intro": {
+      "text": "Leo y reconstruyo. Une el nombre, las partes y el número completo. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "three_digits_4_intro.mp3"
+    },
+    "three_digits_5_q1": {
+      "text": "¿Qué número va después de 199?",
+      "file": "three_digits_5_q1.mp3"
+    },
+    "three_digits_5_q2": {
+      "text": "¿Qué número va antes de 300?",
+      "file": "three_digits_5_q2.mp3"
+    },
+    "three_digits_5_q3": {
+      "text": "¿Qué número va después de 499?",
+      "file": "three_digits_5_q3.mp3"
+    },
+    "three_digits_5_q4": {
+      "text": "¿Qué número va antes de 700?",
+      "file": "three_digits_5_q4.mp3"
+    },
+    "three_digits_5_q5": {
+      "text": "¿Qué número va después de 998?",
+      "file": "three_digits_5_q5.mp3"
+    },
+    "three_digits_5_model": {
+      "text": "¿Qué número va después de 199?",
+      "file": "three_digits_5_model.mp3"
+    },
+    "three_digits_5_intro": {
+      "text": "Cruzo la centena. Observa qué cambia al avanzar o retroceder un lugar. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "three_digits_5_intro.mp3"
+    },
+    "four_digits_1_q1": {
+      "text": "Forma el número 1000 con las piezas.",
+      "file": "four_digits_1_q1.mp3"
+    },
+    "four_digits_1_q2": {
+      "text": "Forma el número 1100 con las piezas.",
+      "file": "four_digits_1_q2.mp3"
+    },
+    "four_digits_1_q3": {
+      "text": "Forma el número 1200 con las piezas.",
+      "file": "four_digits_1_q3.mp3"
+    },
+    "four_digits_1_q4": {
+      "text": "Forma el número 1500 con las piezas.",
+      "file": "four_digits_1_q4.mp3"
+    },
+    "four_digits_1_q5": {
+      "text": "Forma el número 1900 con las piezas.",
+      "file": "four_digits_1_q5.mp3"
+    },
+    "four_digits_1_model": {
+      "text": "Vamos a formar mil. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "four_digits_1_model.mp3"
+    },
+    "four_digits_1_intro": {
+      "text": "Diez centenas, un millar. Diez placas de cien forman una unidad de millar. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "four_digits_1_intro.mp3"
+    },
+    "four_digits_2_q1": {
+      "text": "Forma el número 1234 con las piezas.",
+      "file": "four_digits_2_q1.mp3"
+    },
+    "four_digits_2_q2": {
+      "text": "Forma el número 2413 con las piezas.",
+      "file": "four_digits_2_q2.mp3"
+    },
+    "four_digits_2_q3": {
+      "text": "Forma el número 3562 con las piezas.",
+      "file": "four_digits_2_q3.mp3"
+    },
+    "four_digits_2_q4": {
+      "text": "Forma el número 4721 con las piezas.",
+      "file": "four_digits_2_q4.mp3"
+    },
+    "four_digits_2_q5": {
+      "text": "Forma el número 6983 con las piezas.",
+      "file": "four_digits_2_q5.mp3"
+    },
+    "four_digits_2_model": {
+      "text": "Vamos a formar mil doscientos treinta y cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+      "file": "four_digits_2_model.mp3"
+    },
+    "four_digits_2_intro": {
+      "text": "Mi taller de millares. Cada columna conserva su valor: millares, centenas, decenas y unidades. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "four_digits_2_intro.mp3"
+    },
+    "four_digits_3_q1": {
+      "text": "En 1002, ¿cuánto vale el 0 de las decenas?",
+      "file": "four_digits_3_q1.mp3"
+    },
+    "four_digits_3_q2": {
+      "text": "En 2030, ¿cuánto vale el 2 de las unidades de millar?",
+      "file": "four_digits_3_q2.mp3"
+    },
+    "four_digits_3_q3": {
+      "text": "En 4056, ¿cuánto vale el 0 de las centenas?",
+      "file": "four_digits_3_q3.mp3"
+    },
+    "four_digits_3_q4": {
+      "text": "En 7008, ¿cuánto vale el 8 de las unidades?",
+      "file": "four_digits_3_q4.mp3"
+    },
+    "four_digits_3_q5": {
+      "text": "En 8900, ¿cuánto vale el 9 de las centenas?",
+      "file": "four_digits_3_q5.mp3"
+    },
+    "four_digits_3_model": {
+      "text": "En 1002, ¿cuánto vale el 0 de las decenas?",
+      "file": "four_digits_3_model.mp3"
+    },
+    "four_digits_3_intro": {
+      "text": "Ceros entre las cifras. Distingue 1002 de 1020. Un lugar vacío también cuenta. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "four_digits_3_intro.mp3"
+    },
+    "four_digits_4_q1": {
+      "text": "Encuentra el número: mil veinticuatro.",
+      "file": "four_digits_4_q1.mp3"
+    },
+    "four_digits_4_q2": {
+      "text": "Encuentra el número: dos mil ciento seis.",
+      "file": "four_digits_4_q2.mp3"
+    },
+    "four_digits_4_q3": {
+      "text": "Encuentra el número: tres mil cuarenta.",
+      "file": "four_digits_4_q3.mp3"
+    },
+    "four_digits_4_q4": {
+      "text": "Encuentra el número: cinco mil setecientos ocho.",
+      "file": "four_digits_4_q4.mp3"
+    },
+    "four_digits_4_q5": {
+      "text": "Encuentra el número: nueve mil novecientos noventa y nueve.",
+      "file": "four_digits_4_q5.mp3"
+    },
+    "four_digits_4_model": {
+      "text": "Encuentra el número: mil doscientos treinta y cuatro.",
+      "file": "four_digits_4_model.mp3"
+    },
+    "four_digits_4_intro": {
+      "text": "Leo números grandes. Escucha, descompón y reconstruye hasta cuatro cifras. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "four_digits_4_intro.mp3"
+    },
+    "four_digits_5_q1": {
+      "text": "Ordena de menor a mayor: 1002, 1020, 1000.",
+      "file": "four_digits_5_q1.mp3"
+    },
+    "four_digits_5_q2": {
+      "text": "Ordena de menor a mayor: 2300, 2030, 2003.",
+      "file": "four_digits_5_q2.mp3"
+    },
+    "four_digits_5_q3": {
+      "text": "Ordena de menor a mayor: 4050, 4500, 4005.",
+      "file": "four_digits_5_q3.mp3"
+    },
+    "four_digits_5_q4": {
+      "text": "Ordena de menor a mayor: 8001, 7999, 8000.",
+      "file": "four_digits_5_q4.mp3"
+    },
+    "four_digits_5_q5": {
+      "text": "Ordena de menor a mayor: 9999, 9909, 9990.",
+      "file": "four_digits_5_q5.mp3"
+    },
+    "four_digits_5_model": {
+      "text": "Ordena de menor a mayor: 1234, 1024, 1204.",
+      "file": "four_digits_5_model.mp3"
+    },
+    "four_digits_5_intro": {
+      "text": "Vecinos y orden. Ordena por valor posicional y cruza límites con cuidado. Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos.",
+      "file": "four_digits_5_intro.mp3"
+    },
+    "sequence_1_1": {
+      "text": "Completa la secuencia: 0, 1, un hueco, 3, 4. ¿Qué número falta?",
+      "file": "sequence_1_1.mp3"
+    },
+    "sequence_1_2": {
+      "text": "Completa la secuencia: 1, 3, 5, 7, un hueco. ¿Qué número falta?",
+      "file": "sequence_1_2.mp3"
+    },
+    "sequence_1_3": {
+      "text": "Completa la secuencia: 9, un hueco, 7, 6, 5. ¿Qué número falta?",
+      "file": "sequence_1_3.mp3"
+    },
+    "sequence_1_4": {
+      "text": "Completa la secuencia: 8, 6, 4, un hueco, 0. ¿Qué número falta?",
+      "file": "sequence_1_4.mp3"
+    },
+    "sequence_1_5": {
+      "text": "Completa la secuencia: 2, 3, 4, 5, un hueco. ¿Qué número falta?",
+      "file": "sequence_1_5.mp3"
+    },
+    "sequence_1_6": {
+      "text": "Completa la secuencia: 7, 6, un hueco, 4, 3. ¿Qué número falta?",
+      "file": "sequence_1_6.mp3"
+    },
+    "sequence_1_7": {
+      "text": "Completa la secuencia: 0, un hueco, 4, 6, 8. ¿Qué número falta?",
+      "file": "sequence_1_7.mp3"
+    },
+    "sequence_1_8": {
+      "text": "Completa la secuencia: 5, 6, 7, un hueco, 9. ¿Qué número falta?",
+      "file": "sequence_1_8.mp3"
+    },
+    "comparison_1_1": {
+      "text": "Compara 3 con 7. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_1.mp3"
+    },
+    "comparison_1_2": {
+      "text": "Compara 9 con 2. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_2.mp3"
+    },
+    "comparison_1_3": {
+      "text": "Compara 4 con 4. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_3.mp3"
+    },
+    "comparison_1_4": {
+      "text": "Compara 0 con 5. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_4.mp3"
+    },
+    "comparison_1_5": {
+      "text": "Compara 8 con 6. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_5.mp3"
+    },
+    "comparison_1_6": {
+      "text": "Compara 0 con 0. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_6.mp3"
+    },
+    "comparison_1_7": {
+      "text": "Compara 1 con 9. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_7.mp3"
+    },
+    "comparison_1_8": {
+      "text": "Compara 7 con 7. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_1_8.mp3"
+    },
+    "sequence_2_1": {
+      "text": "Completa la secuencia: 18, 19, un hueco, 21, 22. ¿Qué número falta?",
+      "file": "sequence_2_1.mp3"
+    },
+    "sequence_2_2": {
+      "text": "Completa la secuencia: 25, 30, 35, un hueco, 45. ¿Qué número falta?",
+      "file": "sequence_2_2.mp3"
+    },
+    "sequence_2_3": {
+      "text": "Completa la secuencia: 90, un hueco, 70, 60, 50. ¿Qué número falta?",
+      "file": "sequence_2_3.mp3"
+    },
+    "sequence_2_4": {
+      "text": "Completa la secuencia: 48, 46, 44, 42, un hueco. ¿Qué número falta?",
+      "file": "sequence_2_4.mp3"
+    },
+    "sequence_2_5": {
+      "text": "Completa la secuencia: 31, 33, un hueco, 37, 39. ¿Qué número falta?",
+      "file": "sequence_2_5.mp3"
+    },
+    "sequence_2_6": {
+      "text": "Completa la secuencia: 60, un hueco, 70, 75, 80. ¿Qué número falta?",
+      "file": "sequence_2_6.mp3"
+    },
+    "sequence_2_7": {
+      "text": "Completa la secuencia: 74, 73, 72, un hueco, 70. ¿Qué número falta?",
+      "file": "sequence_2_7.mp3"
+    },
+    "sequence_2_8": {
+      "text": "Completa la secuencia: 12, 22, 32, 42, un hueco. ¿Qué número falta?",
+      "file": "sequence_2_8.mp3"
+    },
+    "comparison_2_1": {
+      "text": "Compara 12 con 21. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_1.mp3"
+    },
+    "comparison_2_2": {
+      "text": "Compara 54 con 45. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_2.mp3"
+    },
+    "comparison_2_3": {
+      "text": "Compara 30 con 30. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_3.mp3"
+    },
+    "comparison_2_4": {
+      "text": "Compara 19 con 20. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_4.mp3"
+    },
+    "comparison_2_5": {
+      "text": "Compara 90 con 89. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_5.mp3"
+    },
+    "comparison_2_6": {
+      "text": "Compara 60 con 60. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_6.mp3"
+    },
+    "comparison_2_7": {
+      "text": "Compara 42 con 47. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_7.mp3"
+    },
+    "comparison_2_8": {
+      "text": "Compara 81 con 18. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_2_8.mp3"
+    },
+    "sequence_3_1": {
+      "text": "Completa la secuencia: 198, 199, un hueco, 201, 202. ¿Qué número falta?",
+      "file": "sequence_3_1.mp3"
+    },
+    "sequence_3_2": {
+      "text": "Completa la secuencia: 150, 160, 170, 180, un hueco. ¿Qué número falta?",
+      "file": "sequence_3_2.mp3"
+    },
+    "sequence_3_3": {
+      "text": "Completa la secuencia: 900, un hueco, 700, 600, 500. ¿Qué número falta?",
+      "file": "sequence_3_3.mp3"
+    },
+    "sequence_3_4": {
+      "text": "Completa la secuencia: 550, 540, 530, un hueco, 510. ¿Qué número falta?",
+      "file": "sequence_3_4.mp3"
+    },
+    "sequence_3_5": {
+      "text": "Completa la secuencia: 321, 323, un hueco, 327, 329. ¿Qué número falta?",
+      "file": "sequence_3_5.mp3"
+    },
+    "sequence_3_6": {
+      "text": "Completa la secuencia: 600, un hueco, 700, 750, 800. ¿Qué número falta?",
+      "file": "sequence_3_6.mp3"
+    },
+    "sequence_3_7": {
+      "text": "Completa la secuencia: 704, 703, 702, 701, un hueco. ¿Qué número falta?",
+      "file": "sequence_3_7.mp3"
+    },
+    "sequence_3_8": {
+      "text": "Completa la secuencia: 125, 130, 135, un hueco, 145. ¿Qué número falta?",
+      "file": "sequence_3_8.mp3"
+    },
+    "comparison_3_1": {
+      "text": "Compara 301 con 299. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_1.mp3"
+    },
+    "comparison_3_2": {
+      "text": "Compara 105 con 150. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_2.mp3"
+    },
+    "comparison_3_3": {
+      "text": "Compara 400 con 400. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_3.mp3"
+    },
+    "comparison_3_4": {
+      "text": "Compara 620 con 602. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_4.mp3"
+    },
+    "comparison_3_5": {
+      "text": "Compara 199 con 200. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_5.mp3"
+    },
+    "comparison_3_6": {
+      "text": "Compara 707 con 770. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_6.mp3"
+    },
+    "comparison_3_7": {
+      "text": "Compara 890 con 809. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_7.mp3"
+    },
+    "comparison_3_8": {
+      "text": "Compara 999 con 999. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_3_8.mp3"
+    },
+    "sequence_4_1": {
+      "text": "Completa la secuencia: 1998, 1999, un hueco, 2001, 2002. ¿Qué número falta?",
+      "file": "sequence_4_1.mp3"
+    },
+    "sequence_4_2": {
+      "text": "Completa la secuencia: 1200, 1300, 1400, un hueco, 1600. ¿Qué número falta?",
+      "file": "sequence_4_2.mp3"
+    },
+    "sequence_4_3": {
+      "text": "Completa la secuencia: 9000, un hueco, 7000, 6000, 5000. ¿Qué número falta?",
+      "file": "sequence_4_3.mp3"
+    },
+    "sequence_4_4": {
+      "text": "Completa la secuencia: 5050, 5040, 5030, 5020, un hueco. ¿Qué número falta?",
+      "file": "sequence_4_4.mp3"
+    },
+    "sequence_4_5": {
+      "text": "Completa la secuencia: 3210, 3220, un hueco, 3240, 3250. ¿Qué número falta?",
+      "file": "sequence_4_5.mp3"
+    },
+    "sequence_4_6": {
+      "text": "Completa la secuencia: 6000, un hueco, 7000, 7500, 8000. ¿Qué número falta?",
+      "file": "sequence_4_6.mp3"
+    },
+    "sequence_4_7": {
+      "text": "Completa la secuencia: 7004, 7003, 7002, un hueco, 7000. ¿Qué número falta?",
+      "file": "sequence_4_7.mp3"
+    },
+    "sequence_4_8": {
+      "text": "Completa la secuencia: 1250, 1300, 1350, 1400, un hueco. ¿Qué número falta?",
+      "file": "sequence_4_8.mp3"
+    },
+    "comparison_4_1": {
+      "text": "Compara 1002 con 1020. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_1.mp3"
+    },
+    "comparison_4_2": {
+      "text": "Compara 2090 con 2009. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_2.mp3"
+    },
+    "comparison_4_3": {
+      "text": "Compara 4500 con 4500. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_3.mp3"
+    },
+    "comparison_4_4": {
+      "text": "Compara 7999 con 8000. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_4.mp3"
+    },
+    "comparison_4_5": {
+      "text": "Compara 3040 con 3400. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_5.mp3"
+    },
+    "comparison_4_6": {
+      "text": "Compara 9001 con 8999. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_6.mp3"
+    },
+    "comparison_4_7": {
+      "text": "Compara 5708 con 5780. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_7.mp3"
+    },
+    "comparison_4_8": {
+      "text": "Compara 9999 con 9999. ¿El primero es mayor, menor o igual?",
+      "file": "comparison_4_8.mp3"
+    }
+  }
+}
