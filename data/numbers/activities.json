@@ -1,0 +1,2089 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "one_digit_1",
+      "topic": "one_digit",
+      "tier": 1,
+      "width": 1,
+      "title": "Reconozco cantidades",
+      "aim": "Cada objeto cuenta una vez. Cero significa que no hay ninguno.",
+      "model_number": 4,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "one_digit_1_q1",
+          "kind": "build",
+          "number": 0,
+          "width": 1,
+          "text": "Construye el número 0. Coloca cada cifra en su columna.",
+          "result": 0,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q1.mp3"
+        },
+        {
+          "id": "one_digit_1_q2",
+          "kind": "build",
+          "number": 2,
+          "width": 1,
+          "text": "Construye el número 2. Coloca cada cifra en su columna.",
+          "result": 2,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q2.mp3"
+        },
+        {
+          "id": "one_digit_1_q3",
+          "kind": "build",
+          "number": 5,
+          "width": 1,
+          "text": "Construye el número 5. Coloca cada cifra en su columna.",
+          "result": 5,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q3.mp3"
+        },
+        {
+          "id": "one_digit_1_q4",
+          "kind": "build",
+          "number": 7,
+          "width": 1,
+          "text": "Construye el número 7. Coloca cada cifra en su columna.",
+          "result": 7,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q4.mp3"
+        },
+        {
+          "id": "one_digit_1_q5",
+          "kind": "build",
+          "number": 9,
+          "width": 1,
+          "text": "Construye el número 9. Coloca cada cifra en su columna.",
+          "result": 9,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "one_digit_2",
+      "topic": "one_digit",
+      "tier": 2,
+      "width": 1,
+      "title": "Construyo mi número",
+      "aim": "Las unidades forman los números de una cifra.",
+      "model_number": 4,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "one_digit_2_q1",
+          "kind": "build",
+          "number": 3,
+          "width": 1,
+          "text": "Construye el número 3. Coloca cada cifra en su columna.",
+          "result": 3,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q1.mp3"
+        },
+        {
+          "id": "one_digit_2_q2",
+          "kind": "build",
+          "number": 1,
+          "width": 1,
+          "text": "Construye el número 1. Coloca cada cifra en su columna.",
+          "result": 1,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q2.mp3"
+        },
+        {
+          "id": "one_digit_2_q3",
+          "kind": "build",
+          "number": 6,
+          "width": 1,
+          "text": "Construye el número 6. Coloca cada cifra en su columna.",
+          "result": 6,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q3.mp3"
+        },
+        {
+          "id": "one_digit_2_q4",
+          "kind": "build",
+          "number": 8,
+          "width": 1,
+          "text": "Construye el número 8. Coloca cada cifra en su columna.",
+          "result": 8,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q4.mp3"
+        },
+        {
+          "id": "one_digit_2_q5",
+          "kind": "build",
+          "number": 4,
+          "width": 1,
+          "text": "Construye el número 4. Coloca cada cifra en su columna.",
+          "result": 4,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "one_digit_3",
+      "topic": "one_digit",
+      "tier": 3,
+      "width": 1,
+      "title": "Lo escucho y lo encuentro",
+      "aim": "Relaciona el nombre que escuchas con su cifra.",
+      "model_number": 4,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "one_digit_3_q1",
+          "kind": "read",
+          "number": 0,
+          "width": 1,
+          "text": "Encuentra el número: cero.",
+          "result": 0,
+          "written": "cero",
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_q1.mp3"
+        },
+        {
+          "id": "one_digit_3_q2",
+          "kind": "read",
+          "number": 4,
+          "width": 1,
+          "text": "Encuentra el número: cuatro.",
+          "result": 4,
+          "written": "cuatro",
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_q2.mp3"
+        },
+        {
+          "id": "one_digit_3_q3",
+          "kind": "read",
+          "number": 6,
+          "width": 1,
+          "text": "Encuentra el número: seis.",
+          "result": 6,
+          "written": "seis",
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_q3.mp3"
+        },
+        {
+          "id": "one_digit_3_q4",
+          "kind": "read",
+          "number": 8,
+          "width": 1,
+          "text": "Encuentra el número: ocho.",
+          "result": 8,
+          "written": "ocho",
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_q4.mp3"
+        },
+        {
+          "id": "one_digit_3_q5",
+          "kind": "read",
+          "number": 9,
+          "width": 1,
+          "text": "Encuentra el número: nueve.",
+          "result": 9,
+          "written": "nueve",
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "one_digit_4",
+      "topic": "one_digit",
+      "tier": 4,
+      "width": 1,
+      "title": "Antes y después",
+      "aim": "Avanza o retrocede un lugar en la recta.",
+      "model_number": 4,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "one_digit_4_q1",
+          "kind": "neighbor",
+          "number": 0,
+          "width": 1,
+          "offset": 1,
+          "text": "¿Qué número va después de 0?",
+          "result": 1,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_q1.mp3"
+        },
+        {
+          "id": "one_digit_4_q2",
+          "kind": "neighbor",
+          "number": 3,
+          "width": 1,
+          "offset": -1,
+          "text": "¿Qué número va antes de 3?",
+          "result": 2,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_q2.mp3"
+        },
+        {
+          "id": "one_digit_4_q3",
+          "kind": "neighbor",
+          "number": 5,
+          "width": 1,
+          "offset": 1,
+          "text": "¿Qué número va después de 5?",
+          "result": 6,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_q3.mp3"
+        },
+        {
+          "id": "one_digit_4_q4",
+          "kind": "neighbor",
+          "number": 8,
+          "width": 1,
+          "offset": -1,
+          "text": "¿Qué número va antes de 8?",
+          "result": 7,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_q4.mp3"
+        },
+        {
+          "id": "one_digit_4_q5",
+          "kind": "neighbor",
+          "number": 9,
+          "width": 1,
+          "offset": -1,
+          "text": "¿Qué número va antes de 9?",
+          "result": 8,
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "one_digit_5",
+      "topic": "one_digit",
+      "tier": 5,
+      "width": 1,
+      "title": "Del menor al mayor",
+      "aim": "Compara y coloca tres números en orden.",
+      "model_number": 4,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "one_digit_5_q1",
+          "kind": "order",
+          "number": 3,
+          "width": 1,
+          "values": [
+            3,
+            0,
+            1
+          ],
+          "text": "Ordena de menor a mayor: 3, 0, 1.",
+          "result": [
+            0,
+            1,
+            3
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_q1.mp3"
+        },
+        {
+          "id": "one_digit_5_q2",
+          "kind": "order",
+          "number": 5,
+          "width": 1,
+          "values": [
+            5,
+            2,
+            4
+          ],
+          "text": "Ordena de menor a mayor: 5, 2, 4.",
+          "result": [
+            2,
+            4,
+            5
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_q2.mp3"
+        },
+        {
+          "id": "one_digit_5_q3",
+          "kind": "order",
+          "number": 9,
+          "width": 1,
+          "values": [
+            9,
+            7,
+            8
+          ],
+          "text": "Ordena de menor a mayor: 9, 7, 8.",
+          "result": [
+            7,
+            8,
+            9
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_q3.mp3"
+        },
+        {
+          "id": "one_digit_5_q4",
+          "kind": "order",
+          "number": 6,
+          "width": 1,
+          "values": [
+            6,
+            3,
+            5
+          ],
+          "text": "Ordena de menor a mayor: 6, 3, 5.",
+          "result": [
+            3,
+            5,
+            6
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_q4.mp3"
+        },
+        {
+          "id": "one_digit_5_q5",
+          "kind": "order",
+          "number": 8,
+          "width": 1,
+          "values": [
+            8,
+            0,
+            4
+          ],
+          "text": "Ordena de menor a mayor: 8, 0, 4.",
+          "result": [
+            0,
+            4,
+            8
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "two_digits_1",
+      "topic": "two_digits",
+      "tier": 1,
+      "width": 2,
+      "title": "Diez unidades, una decena",
+      "aim": "Cambia diez cubitos por una barra de diez.",
+      "model_number": 10,
+      "exchange_place": 0,
+      "questions": [
+        {
+          "id": "two_digits_1_q1",
+          "kind": "build",
+          "number": 10,
+          "width": 2,
+          "text": "Construye el número 10. Coloca cada cifra en su columna.",
+          "result": 10,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q1.mp3"
+        },
+        {
+          "id": "two_digits_1_q2",
+          "kind": "build",
+          "number": 12,
+          "width": 2,
+          "text": "Construye el número 12. Coloca cada cifra en su columna.",
+          "result": 12,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q2.mp3"
+        },
+        {
+          "id": "two_digits_1_q3",
+          "kind": "build",
+          "number": 15,
+          "width": 2,
+          "text": "Construye el número 15. Coloca cada cifra en su columna.",
+          "result": 15,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q3.mp3"
+        },
+        {
+          "id": "two_digits_1_q4",
+          "kind": "build",
+          "number": 18,
+          "width": 2,
+          "text": "Construye el número 18. Coloca cada cifra en su columna.",
+          "result": 18,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q4.mp3"
+        },
+        {
+          "id": "two_digits_1_q5",
+          "kind": "build",
+          "number": 19,
+          "width": 2,
+          "text": "Construye el número 19. Coloca cada cifra en su columna.",
+          "result": 19,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "two_digits_2",
+      "topic": "two_digits",
+      "tier": 2,
+      "width": 2,
+      "title": "Cada cifra tiene su lugar",
+      "aim": "Una decena vale diez unidades. Las columnas cambian el valor.",
+      "model_number": 23,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "two_digits_2_q1",
+          "kind": "build",
+          "number": 23,
+          "width": 2,
+          "text": "Construye el número 23. Coloca cada cifra en su columna.",
+          "result": 23,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q1.mp3"
+        },
+        {
+          "id": "two_digits_2_q2",
+          "kind": "build",
+          "number": 41,
+          "width": 2,
+          "text": "Construye el número 41. Coloca cada cifra en su columna.",
+          "result": 41,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q2.mp3"
+        },
+        {
+          "id": "two_digits_2_q3",
+          "kind": "build",
+          "number": 36,
+          "width": 2,
+          "text": "Construye el número 36. Coloca cada cifra en su columna.",
+          "result": 36,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q3.mp3"
+        },
+        {
+          "id": "two_digits_2_q4",
+          "kind": "build",
+          "number": 72,
+          "width": 2,
+          "text": "Construye el número 72. Coloca cada cifra en su columna.",
+          "result": 72,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q4.mp3"
+        },
+        {
+          "id": "two_digits_2_q5",
+          "kind": "build",
+          "number": 89,
+          "width": 2,
+          "text": "Construye el número 89. Coloca cada cifra en su columna.",
+          "result": 89,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "two_digits_3",
+      "topic": "two_digits",
+      "tier": 3,
+      "width": 2,
+      "title": "El lugar del cero",
+      "aim": "Un cero guarda una columna vacía; no la borres.",
+      "model_number": 20,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "two_digits_3_q1",
+          "kind": "build",
+          "number": 20,
+          "width": 2,
+          "text": "Construye el número 20. Coloca cada cifra en su columna.",
+          "result": 20,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q1.mp3"
+        },
+        {
+          "id": "two_digits_3_q2",
+          "kind": "build",
+          "number": 40,
+          "width": 2,
+          "text": "Construye el número 40. Coloca cada cifra en su columna.",
+          "result": 40,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q2.mp3"
+        },
+        {
+          "id": "two_digits_3_q3",
+          "kind": "build",
+          "number": 60,
+          "width": 2,
+          "text": "Construye el número 60. Coloca cada cifra en su columna.",
+          "result": 60,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q3.mp3"
+        },
+        {
+          "id": "two_digits_3_q4",
+          "kind": "build",
+          "number": 80,
+          "width": 2,
+          "text": "Construye el número 80. Coloca cada cifra en su columna.",
+          "result": 80,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q4.mp3"
+        },
+        {
+          "id": "two_digits_3_q5",
+          "kind": "build",
+          "number": 90,
+          "width": 2,
+          "text": "Construye el número 90. Coloca cada cifra en su columna.",
+          "result": 90,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "two_digits_4",
+      "topic": "two_digits",
+      "tier": 4,
+      "width": 2,
+      "title": "Leo y descompongo",
+      "aim": "Escucha el número y descubre sus decenas y unidades.",
+      "model_number": 23,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "two_digits_4_q1",
+          "kind": "read",
+          "number": 21,
+          "width": 2,
+          "text": "Encuentra el número: veintiuno.",
+          "result": 21,
+          "written": "veintiuno",
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_q1.mp3"
+        },
+        {
+          "id": "two_digits_4_q2",
+          "kind": "read",
+          "number": 32,
+          "width": 2,
+          "text": "Encuentra el número: treinta y dos.",
+          "result": 32,
+          "written": "treinta y dos",
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_q2.mp3"
+        },
+        {
+          "id": "two_digits_4_q3",
+          "kind": "read",
+          "number": 48,
+          "width": 2,
+          "text": "Encuentra el número: cuarenta y ocho.",
+          "result": 48,
+          "written": "cuarenta y ocho",
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_q3.mp3"
+        },
+        {
+          "id": "two_digits_4_q4",
+          "kind": "read",
+          "number": 67,
+          "width": 2,
+          "text": "Encuentra el número: sesenta y siete.",
+          "result": 67,
+          "written": "sesenta y siete",
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_q4.mp3"
+        },
+        {
+          "id": "two_digits_4_q5",
+          "kind": "read",
+          "number": 95,
+          "width": 2,
+          "text": "Encuentra el número: noventa y cinco.",
+          "result": 95,
+          "written": "noventa y cinco",
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "two_digits_5",
+      "topic": "two_digits",
+      "tier": 5,
+      "width": 2,
+      "title": "Vecinos de dos cifras",
+      "aim": "Antes y después también funciona al cruzar una decena.",
+      "model_number": 23,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "two_digits_5_q1",
+          "kind": "neighbor",
+          "number": 19,
+          "width": 2,
+          "offset": 1,
+          "text": "¿Qué número va después de 19?",
+          "result": 20,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_q1.mp3"
+        },
+        {
+          "id": "two_digits_5_q2",
+          "kind": "neighbor",
+          "number": 30,
+          "width": 2,
+          "offset": -1,
+          "text": "¿Qué número va antes de 30?",
+          "result": 29,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_q2.mp3"
+        },
+        {
+          "id": "two_digits_5_q3",
+          "kind": "neighbor",
+          "number": 49,
+          "width": 2,
+          "offset": 1,
+          "text": "¿Qué número va después de 49?",
+          "result": 50,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_q3.mp3"
+        },
+        {
+          "id": "two_digits_5_q4",
+          "kind": "neighbor",
+          "number": 70,
+          "width": 2,
+          "offset": -1,
+          "text": "¿Qué número va antes de 70?",
+          "result": 69,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_q4.mp3"
+        },
+        {
+          "id": "two_digits_5_q5",
+          "kind": "neighbor",
+          "number": 98,
+          "width": 2,
+          "offset": 1,
+          "text": "¿Qué número va después de 98?",
+          "result": 99,
+          "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "three_digits_1",
+      "topic": "three_digits",
+      "tier": 1,
+      "width": 3,
+      "title": "Diez decenas, una centena",
+      "aim": "Cambia diez barras de diez por una placa de cien.",
+      "model_number": 100,
+      "exchange_place": 1,
+      "questions": [
+        {
+          "id": "three_digits_1_q1",
+          "kind": "build",
+          "number": 100,
+          "width": 3,
+          "text": "Construye el número 100. Coloca cada cifra en su columna.",
+          "result": 100,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q1.mp3"
+        },
+        {
+          "id": "three_digits_1_q2",
+          "kind": "build",
+          "number": 110,
+          "width": 3,
+          "text": "Construye el número 110. Coloca cada cifra en su columna.",
+          "result": 110,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q2.mp3"
+        },
+        {
+          "id": "three_digits_1_q3",
+          "kind": "build",
+          "number": 120,
+          "width": 3,
+          "text": "Construye el número 120. Coloca cada cifra en su columna.",
+          "result": 120,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q3.mp3"
+        },
+        {
+          "id": "three_digits_1_q4",
+          "kind": "build",
+          "number": 150,
+          "width": 3,
+          "text": "Construye el número 150. Coloca cada cifra en su columna.",
+          "result": 150,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q4.mp3"
+        },
+        {
+          "id": "three_digits_1_q5",
+          "kind": "build",
+          "number": 190,
+          "width": 3,
+          "text": "Construye el número 190. Coloca cada cifra en su columna.",
+          "result": 190,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "three_digits_2",
+      "topic": "three_digits",
+      "tier": 2,
+      "width": 3,
+      "title": "Armo centenas",
+      "aim": "Combina centenas, decenas y unidades para construir.",
+      "model_number": 234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "three_digits_2_q1",
+          "kind": "build",
+          "number": 234,
+          "width": 3,
+          "text": "Construye el número 234. Coloca cada cifra en su columna.",
+          "result": 234,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q1.mp3"
+        },
+        {
+          "id": "three_digits_2_q2",
+          "kind": "build",
+          "number": 341,
+          "width": 3,
+          "text": "Construye el número 341. Coloca cada cifra en su columna.",
+          "result": 341,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q2.mp3"
+        },
+        {
+          "id": "three_digits_2_q3",
+          "kind": "build",
+          "number": 526,
+          "width": 3,
+          "text": "Construye el número 526. Coloca cada cifra en su columna.",
+          "result": 526,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q3.mp3"
+        },
+        {
+          "id": "three_digits_2_q4",
+          "kind": "build",
+          "number": 672,
+          "width": 3,
+          "text": "Construye el número 672. Coloca cada cifra en su columna.",
+          "result": 672,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q4.mp3"
+        },
+        {
+          "id": "three_digits_2_q5",
+          "kind": "build",
+          "number": 893,
+          "width": 3,
+          "text": "Construye el número 893. Coloca cada cifra en su columna.",
+          "result": 893,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "three_digits_3",
+      "topic": "three_digits",
+      "tier": 3,
+      "width": 3,
+      "title": "Ceros que importan",
+      "aim": "Una cifra puede valer cero sin mover las demás.",
+      "model_number": 105,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "three_digits_3_q1",
+          "kind": "place",
+          "number": 105,
+          "width": 3,
+          "place": 1,
+          "text": "En 105, ¿cuánto vale el 0 de las decenas?",
+          "result": 0,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_q1.mp3"
+        },
+        {
+          "id": "three_digits_3_q2",
+          "kind": "place",
+          "number": 208,
+          "width": 3,
+          "place": 2,
+          "text": "En 208, ¿cuánto vale el 2 de las centenas?",
+          "result": 200,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_q2.mp3"
+        },
+        {
+          "id": "three_digits_3_q3",
+          "kind": "place",
+          "number": 340,
+          "width": 3,
+          "place": 0,
+          "text": "En 340, ¿cuánto vale el 0 de las unidades?",
+          "result": 0,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_q3.mp3"
+        },
+        {
+          "id": "three_digits_3_q4",
+          "kind": "place",
+          "number": 506,
+          "width": 3,
+          "place": 2,
+          "text": "En 506, ¿cuánto vale el 5 de las centenas?",
+          "result": 500,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_q4.mp3"
+        },
+        {
+          "id": "three_digits_3_q5",
+          "kind": "place",
+          "number": 790,
+          "width": 3,
+          "place": 1,
+          "text": "En 790, ¿cuánto vale el 9 de las decenas?",
+          "result": 90,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "three_digits_4",
+      "topic": "three_digits",
+      "tier": 4,
+      "width": 3,
+      "title": "Leo y reconstruyo",
+      "aim": "Une el nombre, las partes y el número completo.",
+      "model_number": 234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "three_digits_4_q1",
+          "kind": "compose",
+          "number": 125,
+          "width": 3,
+          "text": "¿Qué número forman 1 centena, 2 decenas, 5 unidades?",
+          "result": 125,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_q1.mp3"
+        },
+        {
+          "id": "three_digits_4_q2",
+          "kind": "compose",
+          "number": 260,
+          "width": 3,
+          "text": "¿Qué número forman 2 centenas, 6 decenas?",
+          "result": 260,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_q2.mp3"
+        },
+        {
+          "id": "three_digits_4_q3",
+          "kind": "compose",
+          "number": 407,
+          "width": 3,
+          "text": "¿Qué número forman 4 centenas, 7 unidades?",
+          "result": 407,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_q3.mp3"
+        },
+        {
+          "id": "three_digits_4_q4",
+          "kind": "compose",
+          "number": 518,
+          "width": 3,
+          "text": "¿Qué número forman 5 centenas, 1 decena, 8 unidades?",
+          "result": 518,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_q4.mp3"
+        },
+        {
+          "id": "three_digits_4_q5",
+          "kind": "compose",
+          "number": 936,
+          "width": 3,
+          "text": "¿Qué número forman 9 centenas, 3 decenas, 6 unidades?",
+          "result": 936,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "three_digits_5",
+      "topic": "three_digits",
+      "tier": 5,
+      "width": 3,
+      "title": "Cruzo la centena",
+      "aim": "Observa qué cambia al avanzar o retroceder un lugar.",
+      "model_number": 234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "three_digits_5_q1",
+          "kind": "neighbor",
+          "number": 199,
+          "width": 3,
+          "offset": 1,
+          "text": "¿Qué número va después de 199?",
+          "result": 200,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_q1.mp3"
+        },
+        {
+          "id": "three_digits_5_q2",
+          "kind": "neighbor",
+          "number": 300,
+          "width": 3,
+          "offset": -1,
+          "text": "¿Qué número va antes de 300?",
+          "result": 299,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_q2.mp3"
+        },
+        {
+          "id": "three_digits_5_q3",
+          "kind": "neighbor",
+          "number": 499,
+          "width": 3,
+          "offset": 1,
+          "text": "¿Qué número va después de 499?",
+          "result": 500,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_q3.mp3"
+        },
+        {
+          "id": "three_digits_5_q4",
+          "kind": "neighbor",
+          "number": 700,
+          "width": 3,
+          "offset": -1,
+          "text": "¿Qué número va antes de 700?",
+          "result": 699,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_q4.mp3"
+        },
+        {
+          "id": "three_digits_5_q5",
+          "kind": "neighbor",
+          "number": 998,
+          "width": 3,
+          "offset": 1,
+          "text": "¿Qué número va después de 998?",
+          "result": 999,
+          "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "four_digits_1",
+      "topic": "four_digits",
+      "tier": 1,
+      "width": 4,
+      "title": "Diez centenas, un millar",
+      "aim": "Diez placas de cien forman una unidad de millar.",
+      "model_number": 1000,
+      "exchange_place": 2,
+      "questions": [
+        {
+          "id": "four_digits_1_q1",
+          "kind": "build",
+          "number": 1000,
+          "width": 4,
+          "text": "Construye el número 1000. Coloca cada cifra en su columna.",
+          "result": 1000,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q1.mp3"
+        },
+        {
+          "id": "four_digits_1_q2",
+          "kind": "build",
+          "number": 1100,
+          "width": 4,
+          "text": "Construye el número 1100. Coloca cada cifra en su columna.",
+          "result": 1100,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q2.mp3"
+        },
+        {
+          "id": "four_digits_1_q3",
+          "kind": "build",
+          "number": 1200,
+          "width": 4,
+          "text": "Construye el número 1200. Coloca cada cifra en su columna.",
+          "result": 1200,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q3.mp3"
+        },
+        {
+          "id": "four_digits_1_q4",
+          "kind": "build",
+          "number": 1500,
+          "width": 4,
+          "text": "Construye el número 1500. Coloca cada cifra en su columna.",
+          "result": 1500,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q4.mp3"
+        },
+        {
+          "id": "four_digits_1_q5",
+          "kind": "build",
+          "number": 1900,
+          "width": 4,
+          "text": "Construye el número 1900. Coloca cada cifra en su columna.",
+          "result": 1900,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "four_digits_2",
+      "topic": "four_digits",
+      "tier": 2,
+      "width": 4,
+      "title": "Mi taller de millares",
+      "aim": "Cada columna conserva su valor: millares, centenas, decenas y unidades.",
+      "model_number": 1234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "four_digits_2_q1",
+          "kind": "build",
+          "number": 1234,
+          "width": 4,
+          "text": "Construye el número 1234. Coloca cada cifra en su columna.",
+          "result": 1234,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q1.mp3"
+        },
+        {
+          "id": "four_digits_2_q2",
+          "kind": "build",
+          "number": 2413,
+          "width": 4,
+          "text": "Construye el número 2413. Coloca cada cifra en su columna.",
+          "result": 2413,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q2.mp3"
+        },
+        {
+          "id": "four_digits_2_q3",
+          "kind": "build",
+          "number": 3562,
+          "width": 4,
+          "text": "Construye el número 3562. Coloca cada cifra en su columna.",
+          "result": 3562,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q3.mp3"
+        },
+        {
+          "id": "four_digits_2_q4",
+          "kind": "build",
+          "number": 4721,
+          "width": 4,
+          "text": "Construye el número 4721. Coloca cada cifra en su columna.",
+          "result": 4721,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q4.mp3"
+        },
+        {
+          "id": "four_digits_2_q5",
+          "kind": "build",
+          "number": 6983,
+          "width": 4,
+          "text": "Construye el número 6983. Coloca cada cifra en su columna.",
+          "result": 6983,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "four_digits_3",
+      "topic": "four_digits",
+      "tier": 3,
+      "width": 4,
+      "title": "Ceros entre las cifras",
+      "aim": "Distingue 1002 de 1020. Un lugar vacío también cuenta.",
+      "model_number": 1002,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "four_digits_3_q1",
+          "kind": "place",
+          "number": 1002,
+          "width": 4,
+          "place": 1,
+          "text": "En 1002, ¿cuánto vale el 0 de las decenas?",
+          "result": 0,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_q1.mp3"
+        },
+        {
+          "id": "four_digits_3_q2",
+          "kind": "place",
+          "number": 2030,
+          "width": 4,
+          "place": 3,
+          "text": "En 2030, ¿cuánto vale el 2 de las unidades de millar?",
+          "result": 2000,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_q2.mp3"
+        },
+        {
+          "id": "four_digits_3_q3",
+          "kind": "place",
+          "number": 4056,
+          "width": 4,
+          "place": 2,
+          "text": "En 4056, ¿cuánto vale el 0 de las centenas?",
+          "result": 0,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_q3.mp3"
+        },
+        {
+          "id": "four_digits_3_q4",
+          "kind": "place",
+          "number": 7008,
+          "width": 4,
+          "place": 0,
+          "text": "En 7008, ¿cuánto vale el 8 de las unidades?",
+          "result": 8,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_q4.mp3"
+        },
+        {
+          "id": "four_digits_3_q5",
+          "kind": "place",
+          "number": 8900,
+          "width": 4,
+          "place": 2,
+          "text": "En 8900, ¿cuánto vale el 9 de las centenas?",
+          "result": 900,
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "four_digits_4",
+      "topic": "four_digits",
+      "tier": 4,
+      "width": 4,
+      "title": "Leo números grandes",
+      "aim": "Escucha, descompón y reconstruye hasta cuatro cifras.",
+      "model_number": 1234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "four_digits_4_q1",
+          "kind": "read",
+          "number": 1024,
+          "width": 4,
+          "text": "Encuentra el número: mil veinticuatro.",
+          "result": 1024,
+          "written": "mil veinticuatro",
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_q1.mp3"
+        },
+        {
+          "id": "four_digits_4_q2",
+          "kind": "read",
+          "number": 2106,
+          "width": 4,
+          "text": "Encuentra el número: dos mil ciento seis.",
+          "result": 2106,
+          "written": "dos mil ciento seis",
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_q2.mp3"
+        },
+        {
+          "id": "four_digits_4_q3",
+          "kind": "read",
+          "number": 3040,
+          "width": 4,
+          "text": "Encuentra el número: tres mil cuarenta.",
+          "result": 3040,
+          "written": "tres mil cuarenta",
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_q3.mp3"
+        },
+        {
+          "id": "four_digits_4_q4",
+          "kind": "read",
+          "number": 5708,
+          "width": 4,
+          "text": "Encuentra el número: cinco mil setecientos ocho.",
+          "result": 5708,
+          "written": "cinco mil setecientos ocho",
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_q4.mp3"
+        },
+        {
+          "id": "four_digits_4_q5",
+          "kind": "read",
+          "number": 9999,
+          "width": 4,
+          "text": "Encuentra el número: nueve mil novecientos noventa y nueve.",
+          "result": 9999,
+          "written": "nueve mil novecientos noventa y nueve",
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "four_digits_5",
+      "topic": "four_digits",
+      "tier": 5,
+      "width": 4,
+      "title": "Vecinos y orden",
+      "aim": "Ordena por valor posicional y cruza límites con cuidado.",
+      "model_number": 1234,
+      "exchange_place": -1,
+      "questions": [
+        {
+          "id": "four_digits_5_q1",
+          "kind": "order",
+          "number": 1002,
+          "width": 4,
+          "values": [
+            1002,
+            1020,
+            1000
+          ],
+          "text": "Ordena de menor a mayor: 1002, 1020, 1000.",
+          "result": [
+            1000,
+            1002,
+            1020
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_q1.mp3"
+        },
+        {
+          "id": "four_digits_5_q2",
+          "kind": "order",
+          "number": 2300,
+          "width": 4,
+          "values": [
+            2300,
+            2030,
+            2003
+          ],
+          "text": "Ordena de menor a mayor: 2300, 2030, 2003.",
+          "result": [
+            2003,
+            2030,
+            2300
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_q2.mp3"
+        },
+        {
+          "id": "four_digits_5_q3",
+          "kind": "order",
+          "number": 4050,
+          "width": 4,
+          "values": [
+            4050,
+            4500,
+            4005
+          ],
+          "text": "Ordena de menor a mayor: 4050, 4500, 4005.",
+          "result": [
+            4005,
+            4050,
+            4500
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_q3.mp3"
+        },
+        {
+          "id": "four_digits_5_q4",
+          "kind": "order",
+          "number": 8001,
+          "width": 4,
+          "values": [
+            8001,
+            7999,
+            8000
+          ],
+          "text": "Ordena de menor a mayor: 8001, 7999, 8000.",
+          "result": [
+            7999,
+            8000,
+            8001
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_q4.mp3"
+        },
+        {
+          "id": "four_digits_5_q5",
+          "kind": "order",
+          "number": 9999,
+          "width": 4,
+          "values": [
+            9999,
+            9909,
+            9990
+          ],
+          "text": "Ordena de menor a mayor: 9999, 9909, 9990.",
+          "result": [
+            9909,
+            9990,
+            9999
+          ],
+          "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_q5.mp3"
+        }
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "id": "sequence_1_1",
+      "width": 1,
+      "terms": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "step": 1,
+      "missing": 2,
+      "result": 2,
+      "text": "Completa la secuencia: 0, 1, un hueco, 3, 4. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_1.mp3"
+    },
+    {
+      "id": "sequence_1_2",
+      "width": 1,
+      "terms": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "step": 2,
+      "missing": 4,
+      "result": 9,
+      "text": "Completa la secuencia: 1, 3, 5, 7, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_2.mp3"
+    },
+    {
+      "id": "sequence_1_3",
+      "width": 1,
+      "terms": [
+        9,
+        8,
+        7,
+        6,
+        5
+      ],
+      "step": -1,
+      "missing": 1,
+      "result": 8,
+      "text": "Completa la secuencia: 9, un hueco, 7, 6, 5. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_3.mp3"
+    },
+    {
+      "id": "sequence_1_4",
+      "width": 1,
+      "terms": [
+        8,
+        6,
+        4,
+        2,
+        0
+      ],
+      "step": -2,
+      "missing": 3,
+      "result": 2,
+      "text": "Completa la secuencia: 8, 6, 4, un hueco, 0. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_4.mp3"
+    },
+    {
+      "id": "sequence_1_5",
+      "width": 1,
+      "terms": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "step": 1,
+      "missing": 4,
+      "result": 6,
+      "text": "Completa la secuencia: 2, 3, 4, 5, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_5.mp3"
+    },
+    {
+      "id": "sequence_1_6",
+      "width": 1,
+      "terms": [
+        7,
+        6,
+        5,
+        4,
+        3
+      ],
+      "step": -1,
+      "missing": 2,
+      "result": 5,
+      "text": "Completa la secuencia: 7, 6, un hueco, 4, 3. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_6.mp3"
+    },
+    {
+      "id": "sequence_1_7",
+      "width": 1,
+      "terms": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ],
+      "step": 2,
+      "missing": 1,
+      "result": 2,
+      "text": "Completa la secuencia: 0, un hueco, 4, 6, 8. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_7.mp3"
+    },
+    {
+      "id": "sequence_1_8",
+      "width": 1,
+      "terms": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "step": 1,
+      "missing": 3,
+      "result": 8,
+      "text": "Completa la secuencia: 5, 6, 7, un hueco, 9. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_1_8.mp3"
+    },
+    {
+      "id": "sequence_2_1",
+      "width": 2,
+      "terms": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "step": 1,
+      "missing": 2,
+      "result": 20,
+      "text": "Completa la secuencia: 18, 19, un hueco, 21, 22. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_1.mp3"
+    },
+    {
+      "id": "sequence_2_2",
+      "width": 2,
+      "terms": [
+        25,
+        30,
+        35,
+        40,
+        45
+      ],
+      "step": 5,
+      "missing": 3,
+      "result": 40,
+      "text": "Completa la secuencia: 25, 30, 35, un hueco, 45. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_2.mp3"
+    },
+    {
+      "id": "sequence_2_3",
+      "width": 2,
+      "terms": [
+        90,
+        80,
+        70,
+        60,
+        50
+      ],
+      "step": -10,
+      "missing": 1,
+      "result": 80,
+      "text": "Completa la secuencia: 90, un hueco, 70, 60, 50. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_3.mp3"
+    },
+    {
+      "id": "sequence_2_4",
+      "width": 2,
+      "terms": [
+        48,
+        46,
+        44,
+        42,
+        40
+      ],
+      "step": -2,
+      "missing": 4,
+      "result": 40,
+      "text": "Completa la secuencia: 48, 46, 44, 42, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_4.mp3"
+    },
+    {
+      "id": "sequence_2_5",
+      "width": 2,
+      "terms": [
+        31,
+        33,
+        35,
+        37,
+        39
+      ],
+      "step": 2,
+      "missing": 2,
+      "result": 35,
+      "text": "Completa la secuencia: 31, 33, un hueco, 37, 39. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_5.mp3"
+    },
+    {
+      "id": "sequence_2_6",
+      "width": 2,
+      "terms": [
+        60,
+        65,
+        70,
+        75,
+        80
+      ],
+      "step": 5,
+      "missing": 1,
+      "result": 65,
+      "text": "Completa la secuencia: 60, un hueco, 70, 75, 80. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_6.mp3"
+    },
+    {
+      "id": "sequence_2_7",
+      "width": 2,
+      "terms": [
+        74,
+        73,
+        72,
+        71,
+        70
+      ],
+      "step": -1,
+      "missing": 3,
+      "result": 71,
+      "text": "Completa la secuencia: 74, 73, 72, un hueco, 70. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_7.mp3"
+    },
+    {
+      "id": "sequence_2_8",
+      "width": 2,
+      "terms": [
+        12,
+        22,
+        32,
+        42,
+        52
+      ],
+      "step": 10,
+      "missing": 4,
+      "result": 52,
+      "text": "Completa la secuencia: 12, 22, 32, 42, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_2_8.mp3"
+    },
+    {
+      "id": "sequence_3_1",
+      "width": 3,
+      "terms": [
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "step": 1,
+      "missing": 2,
+      "result": 200,
+      "text": "Completa la secuencia: 198, 199, un hueco, 201, 202. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_1.mp3"
+    },
+    {
+      "id": "sequence_3_2",
+      "width": 3,
+      "terms": [
+        150,
+        160,
+        170,
+        180,
+        190
+      ],
+      "step": 10,
+      "missing": 4,
+      "result": 190,
+      "text": "Completa la secuencia: 150, 160, 170, 180, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_2.mp3"
+    },
+    {
+      "id": "sequence_3_3",
+      "width": 3,
+      "terms": [
+        900,
+        800,
+        700,
+        600,
+        500
+      ],
+      "step": -100,
+      "missing": 1,
+      "result": 800,
+      "text": "Completa la secuencia: 900, un hueco, 700, 600, 500. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_3.mp3"
+    },
+    {
+      "id": "sequence_3_4",
+      "width": 3,
+      "terms": [
+        550,
+        540,
+        530,
+        520,
+        510
+      ],
+      "step": -10,
+      "missing": 3,
+      "result": 520,
+      "text": "Completa la secuencia: 550, 540, 530, un hueco, 510. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_4.mp3"
+    },
+    {
+      "id": "sequence_3_5",
+      "width": 3,
+      "terms": [
+        321,
+        323,
+        325,
+        327,
+        329
+      ],
+      "step": 2,
+      "missing": 2,
+      "result": 325,
+      "text": "Completa la secuencia: 321, 323, un hueco, 327, 329. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_5.mp3"
+    },
+    {
+      "id": "sequence_3_6",
+      "width": 3,
+      "terms": [
+        600,
+        650,
+        700,
+        750,
+        800
+      ],
+      "step": 50,
+      "missing": 1,
+      "result": 650,
+      "text": "Completa la secuencia: 600, un hueco, 700, 750, 800. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_6.mp3"
+    },
+    {
+      "id": "sequence_3_7",
+      "width": 3,
+      "terms": [
+        704,
+        703,
+        702,
+        701,
+        700
+      ],
+      "step": -1,
+      "missing": 4,
+      "result": 700,
+      "text": "Completa la secuencia: 704, 703, 702, 701, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_7.mp3"
+    },
+    {
+      "id": "sequence_3_8",
+      "width": 3,
+      "terms": [
+        125,
+        130,
+        135,
+        140,
+        145
+      ],
+      "step": 5,
+      "missing": 3,
+      "result": 140,
+      "text": "Completa la secuencia: 125, 130, 135, un hueco, 145. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_3_8.mp3"
+    },
+    {
+      "id": "sequence_4_1",
+      "width": 4,
+      "terms": [
+        1998,
+        1999,
+        2000,
+        2001,
+        2002
+      ],
+      "step": 1,
+      "missing": 2,
+      "result": 2000,
+      "text": "Completa la secuencia: 1998, 1999, un hueco, 2001, 2002. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_1.mp3"
+    },
+    {
+      "id": "sequence_4_2",
+      "width": 4,
+      "terms": [
+        1200,
+        1300,
+        1400,
+        1500,
+        1600
+      ],
+      "step": 100,
+      "missing": 3,
+      "result": 1500,
+      "text": "Completa la secuencia: 1200, 1300, 1400, un hueco, 1600. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_2.mp3"
+    },
+    {
+      "id": "sequence_4_3",
+      "width": 4,
+      "terms": [
+        9000,
+        8000,
+        7000,
+        6000,
+        5000
+      ],
+      "step": -1000,
+      "missing": 1,
+      "result": 8000,
+      "text": "Completa la secuencia: 9000, un hueco, 7000, 6000, 5000. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_3.mp3"
+    },
+    {
+      "id": "sequence_4_4",
+      "width": 4,
+      "terms": [
+        5050,
+        5040,
+        5030,
+        5020,
+        5010
+      ],
+      "step": -10,
+      "missing": 4,
+      "result": 5010,
+      "text": "Completa la secuencia: 5050, 5040, 5030, 5020, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_4.mp3"
+    },
+    {
+      "id": "sequence_4_5",
+      "width": 4,
+      "terms": [
+        3210,
+        3220,
+        3230,
+        3240,
+        3250
+      ],
+      "step": 10,
+      "missing": 2,
+      "result": 3230,
+      "text": "Completa la secuencia: 3210, 3220, un hueco, 3240, 3250. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_5.mp3"
+    },
+    {
+      "id": "sequence_4_6",
+      "width": 4,
+      "terms": [
+        6000,
+        6500,
+        7000,
+        7500,
+        8000
+      ],
+      "step": 500,
+      "missing": 1,
+      "result": 6500,
+      "text": "Completa la secuencia: 6000, un hueco, 7000, 7500, 8000. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_6.mp3"
+    },
+    {
+      "id": "sequence_4_7",
+      "width": 4,
+      "terms": [
+        7004,
+        7003,
+        7002,
+        7001,
+        7000
+      ],
+      "step": -1,
+      "missing": 3,
+      "result": 7001,
+      "text": "Completa la secuencia: 7004, 7003, 7002, un hueco, 7000. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_7.mp3"
+    },
+    {
+      "id": "sequence_4_8",
+      "width": 4,
+      "terms": [
+        1250,
+        1300,
+        1350,
+        1400,
+        1450
+      ],
+      "step": 50,
+      "missing": 4,
+      "result": 1450,
+      "text": "Completa la secuencia: 1250, 1300, 1350, 1400, un hueco. ¿Qué número falta?",
+      "audio": "res://assets/audio/llama/numbers_activities/sequence_4_8.mp3"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "comparison_1_1",
+      "width": 1,
+      "left": 3,
+      "right": 7,
+      "result": "<",
+      "text": "Compara 3 con 7. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_1.mp3"
+    },
+    {
+      "id": "comparison_1_2",
+      "width": 1,
+      "left": 9,
+      "right": 2,
+      "result": ">",
+      "text": "Compara 9 con 2. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_2.mp3"
+    },
+    {
+      "id": "comparison_1_3",
+      "width": 1,
+      "left": 4,
+      "right": 4,
+      "result": "=",
+      "text": "Compara 4 con 4. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_3.mp3"
+    },
+    {
+      "id": "comparison_1_4",
+      "width": 1,
+      "left": 0,
+      "right": 5,
+      "result": "<",
+      "text": "Compara 0 con 5. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_4.mp3"
+    },
+    {
+      "id": "comparison_1_5",
+      "width": 1,
+      "left": 8,
+      "right": 6,
+      "result": ">",
+      "text": "Compara 8 con 6. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_5.mp3"
+    },
+    {
+      "id": "comparison_1_6",
+      "width": 1,
+      "left": 0,
+      "right": 0,
+      "result": "=",
+      "text": "Compara 0 con 0. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_6.mp3"
+    },
+    {
+      "id": "comparison_1_7",
+      "width": 1,
+      "left": 1,
+      "right": 9,
+      "result": "<",
+      "text": "Compara 1 con 9. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_7.mp3"
+    },
+    {
+      "id": "comparison_1_8",
+      "width": 1,
+      "left": 7,
+      "right": 7,
+      "result": "=",
+      "text": "Compara 7 con 7. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_1_8.mp3"
+    },
+    {
+      "id": "comparison_2_1",
+      "width": 2,
+      "left": 12,
+      "right": 21,
+      "result": "<",
+      "text": "Compara 12 con 21. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_1.mp3"
+    },
+    {
+      "id": "comparison_2_2",
+      "width": 2,
+      "left": 54,
+      "right": 45,
+      "result": ">",
+      "text": "Compara 54 con 45. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_2.mp3"
+    },
+    {
+      "id": "comparison_2_3",
+      "width": 2,
+      "left": 30,
+      "right": 30,
+      "result": "=",
+      "text": "Compara 30 con 30. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_3.mp3"
+    },
+    {
+      "id": "comparison_2_4",
+      "width": 2,
+      "left": 19,
+      "right": 20,
+      "result": "<",
+      "text": "Compara 19 con 20. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_4.mp3"
+    },
+    {
+      "id": "comparison_2_5",
+      "width": 2,
+      "left": 90,
+      "right": 89,
+      "result": ">",
+      "text": "Compara 90 con 89. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_5.mp3"
+    },
+    {
+      "id": "comparison_2_6",
+      "width": 2,
+      "left": 60,
+      "right": 60,
+      "result": "=",
+      "text": "Compara 60 con 60. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_6.mp3"
+    },
+    {
+      "id": "comparison_2_7",
+      "width": 2,
+      "left": 42,
+      "right": 47,
+      "result": "<",
+      "text": "Compara 42 con 47. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_7.mp3"
+    },
+    {
+      "id": "comparison_2_8",
+      "width": 2,
+      "left": 81,
+      "right": 18,
+      "result": ">",
+      "text": "Compara 81 con 18. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_2_8.mp3"
+    },
+    {
+      "id": "comparison_3_1",
+      "width": 3,
+      "left": 301,
+      "right": 299,
+      "result": ">",
+      "text": "Compara 301 con 299. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_1.mp3"
+    },
+    {
+      "id": "comparison_3_2",
+      "width": 3,
+      "left": 105,
+      "right": 150,
+      "result": "<",
+      "text": "Compara 105 con 150. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_2.mp3"
+    },
+    {
+      "id": "comparison_3_3",
+      "width": 3,
+      "left": 400,
+      "right": 400,
+      "result": "=",
+      "text": "Compara 400 con 400. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_3.mp3"
+    },
+    {
+      "id": "comparison_3_4",
+      "width": 3,
+      "left": 620,
+      "right": 602,
+      "result": ">",
+      "text": "Compara 620 con 602. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_4.mp3"
+    },
+    {
+      "id": "comparison_3_5",
+      "width": 3,
+      "left": 199,
+      "right": 200,
+      "result": "<",
+      "text": "Compara 199 con 200. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_5.mp3"
+    },
+    {
+      "id": "comparison_3_6",
+      "width": 3,
+      "left": 707,
+      "right": 770,
+      "result": "<",
+      "text": "Compara 707 con 770. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_6.mp3"
+    },
+    {
+      "id": "comparison_3_7",
+      "width": 3,
+      "left": 890,
+      "right": 809,
+      "result": ">",
+      "text": "Compara 890 con 809. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_7.mp3"
+    },
+    {
+      "id": "comparison_3_8",
+      "width": 3,
+      "left": 999,
+      "right": 999,
+      "result": "=",
+      "text": "Compara 999 con 999. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_3_8.mp3"
+    },
+    {
+      "id": "comparison_4_1",
+      "width": 4,
+      "left": 1002,
+      "right": 1020,
+      "result": "<",
+      "text": "Compara 1002 con 1020. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_1.mp3"
+    },
+    {
+      "id": "comparison_4_2",
+      "width": 4,
+      "left": 2090,
+      "right": 2009,
+      "result": ">",
+      "text": "Compara 2090 con 2009. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_2.mp3"
+    },
+    {
+      "id": "comparison_4_3",
+      "width": 4,
+      "left": 4500,
+      "right": 4500,
+      "result": "=",
+      "text": "Compara 4500 con 4500. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_3.mp3"
+    },
+    {
+      "id": "comparison_4_4",
+      "width": 4,
+      "left": 7999,
+      "right": 8000,
+      "result": "<",
+      "text": "Compara 7999 con 8000. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_4.mp3"
+    },
+    {
+      "id": "comparison_4_5",
+      "width": 4,
+      "left": 3040,
+      "right": 3400,
+      "result": "<",
+      "text": "Compara 3040 con 3400. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_5.mp3"
+    },
+    {
+      "id": "comparison_4_6",
+      "width": 4,
+      "left": 9001,
+      "right": 8999,
+      "result": ">",
+      "text": "Compara 9001 con 8999. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_6.mp3"
+    },
+    {
+      "id": "comparison_4_7",
+      "width": 4,
+      "left": 5708,
+      "right": 5780,
+      "result": "<",
+      "text": "Compara 5708 con 5780. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_7.mp3"
+    },
+    {
+      "id": "comparison_4_8",
+      "width": 4,
+      "left": 9999,
+      "right": 9999,
+      "result": "=",
+      "text": "Compara 9999 con 9999. ¿El primero es mayor, menor o igual?",
+      "audio": "res://assets/audio/llama/numbers_activities/comparison_4_8.mp3"
+    }
+  ],
+  "market_totals": [
+    0,
+    4,
+    7,
+    10,
+    13,
+    18,
+    25,
+    32
+  ]
+}

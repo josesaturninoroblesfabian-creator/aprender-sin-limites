@@ -243,7 +243,7 @@ func _show_topic(id: String) -> void:
 		return
 	selected_topic = id
 	topic_selected.emit(id)
-	if section_id == "mathematics":
+	if section_id in ["mathematics", "numbers"]:
 		_open_math_activity(id)
 		return
 	var column := _open_dialog(topic.title, topic.color)
@@ -263,7 +263,8 @@ func _open_math_activity(id: String) -> void:
 	if is_instance_valid(math_activity): _close_math_activity()
 	_stop_voice()
 	design.hide()
-	var screen: Control = load("res://scenes/math_activity.tscn").instantiate()
+	var scene_path := "res://scenes/number_activity.tscn" if section_id == "numbers" else "res://scenes/math_activity.tscn"
+	var screen: Control = load(scene_path).instantiate()
 	screen.set("topic_id", id)
 	screen.connect("back_requested", _close_math_activity)
 	math_activity = screen
@@ -286,6 +287,7 @@ func _show_help() -> void:
 	var column := _open_dialog("¡Vamos a explorar!", Color("#087ecc"))
 	var guidance := "Toca una tarjeta para conocer su tema.\nToca la llama para repetir la bienvenida.\nEn Configuración puedes ajustar su voz."
 	if section_id == "mathematics": guidance = "Las cuatro operaciones tienen misiones para aprender paso a paso. Abajo encontrarás cuatro juegos para practicar. En la aventura mueve la llama con flechas y salta con Espacio o con los controles táctiles."
+	if section_id == "numbers": guidance = "Las cifras tienen su lugar: unidades, decenas, centenas y millares. Cada sección central tiene cinco misiones. Abajo encontrarás el mercado, los puentes, las comparaciones y el tren. Puedes tocar, arrastrar cifras, escuchar y pedir pistas."
 	_add_paragraph(column, guidance, 21)
 	_add_paragraph(column, "Tu progreso se guardará en este dispositivo al completar actividades. Explorar el menú no suma estrellas.", 18)
 	_add_close_button(column)
@@ -409,7 +411,7 @@ func _valid_activity_id(id: String) -> bool:
 
 func _refresh_progress() -> void:
 	var count := completed_activities.size()
-	progress_label.text = ("%d de %d misiones" if section_id == "mathematics" else "%d de %d actividades") % [count, section.total]
+	progress_label.text = ("%d de %d misiones" if section_id in ["mathematics", "numbers"] else "%d de %d actividades") % [count, section.total]
 	progress_bar.value = count
 	for index in range(progress_stars.size()):
 		progress_stars[index].add_theme_color_override("font_color", Color("#ffc928") if count >= [1, int(section.total) / 2, int(section.total)][index] else Color("#899aab"))

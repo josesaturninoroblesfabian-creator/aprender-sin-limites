@@ -40,11 +40,13 @@ func _run() -> void:
 	for topic in ["one_digit", "two_digits", "three_digits", "four_digits", "count_objects", "sequences", "compare", "quick_challenge"]:
 		(buttons[topic] as Button).pressed.emit()
 		_check(numbers.get("selected_topic") == topic, "Topic button routed incorrectly: %s" % topic)
-		_check(is_instance_valid(numbers.get("dialog_layer")), "Topic button did not open its preview: %s" % topic)
-		_check(numbers.get("current_voice") == topic and numbers.get("voice").stream != null, "Topic did not use its local narration: %s" % topic)
-		numbers.call("_close_dialog")
-		_check(not numbers.get("voice").playing, "Closing a preview did not stop the voice")
-	_check(numbers.get("completed_activities").is_empty(), "Opening previews awarded progress")
+		var activity: Control = numbers.get("math_activity")
+		_check(is_instance_valid(activity) and activity.get("topic_id") == topic, "Topic did not open its native Numbers activity: %s" % topic)
+		_check(activity.get("audio").get("current_id") == topic and not numbers.get("voice").playing, "Topic did not use its own local narration: %s" % topic)
+		activity.emit_signal("back_requested")
+		await process_frame
+		_check(not numbers.get("voice").playing, "Closing an activity left the menu voice playing")
+	_check(numbers.get("completed_activities").is_empty(), "Opening Numbers activities awarded progress")
 	_check(not FileAccess.file_exists("user://progreso_numeros.cfg"), "Exploring Numbers wrote a progress save")
 	(buttons.help as Button).pressed.emit()
 	_check(numbers.get("current_voice") == "help", "Help button did not start its guidance")
