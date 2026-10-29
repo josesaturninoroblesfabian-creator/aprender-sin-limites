@@ -37,7 +37,15 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Mathematics activities validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/number_activities_test.gd --log-file (Join-Path $validationRoot 'number-activities.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'number-activities-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Number activities validation failed.' }
-    $logs = Get-Content -LiteralPath (Join-Path $validationRoot 'import.log'), (Join-Path $validationRoot 'runtime-console.log'), (Join-Path $validationRoot 'regression-console.log'), (Join-Path $validationRoot 'numbers-console.log'), (Join-Path $validationRoot 'learning-console.log'), (Join-Path $validationRoot 'stories-console.log'), (Join-Path $validationRoot 'mathematics-console.log'), (Join-Path $validationRoot 'number-activities-console.log')
+    & $Godot --headless --path $projectRoot --script res://tests/number_drag_test.gd --log-file (Join-Path $validationRoot 'number-drag.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'number-drag-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Number drag validation failed.' }
+    & $Godot --headless --path $projectRoot --script res://tests/geometry_activities_test.gd --log-file (Join-Path $validationRoot 'geometry.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'geometry-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Geometry activities validation failed.' }
+    & $Godot --headless --path $projectRoot --script res://tests/geometry_input_test.gd --log-file (Join-Path $validationRoot 'geometry-input.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'geometry-input-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Geometry input validation failed.' }
+    $geometryLogs = Get-Content -LiteralPath (Join-Path $validationRoot 'geometry-console.log'), (Join-Path $validationRoot 'geometry-input-console.log')
+    if ($geometryLogs | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Geometry reported errors.' }
+    $logs = Get-Content -LiteralPath (Join-Path $validationRoot 'import.log'), (Join-Path $validationRoot 'runtime-console.log'), (Join-Path $validationRoot 'regression-console.log'), (Join-Path $validationRoot 'numbers-console.log'), (Join-Path $validationRoot 'learning-console.log'), (Join-Path $validationRoot 'stories-console.log'), (Join-Path $validationRoot 'mathematics-console.log'), (Join-Path $validationRoot 'number-activities-console.log'), (Join-Path $validationRoot 'number-drag-console.log')
     if ($logs | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Godot reported errors. Review the validation logs.' }
     Write-Host "Validation passed. Logs: $validationRoot"
 }

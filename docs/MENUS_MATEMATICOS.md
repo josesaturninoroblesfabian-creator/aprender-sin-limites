@@ -6,13 +6,13 @@ Las tres secciones se abren desde sus botones originales del inicio y comparten 
 | --- | --- | --- | --- |
 | Matemáticas | Suma, resta, multiplicación y división, con cuatro misiones por operación | Contar, resolver ejercicios, doce caminos y globos, todos jugables | 16 misiones disponibles |
 | Números | Una, dos, tres y cuatro cifras, con cinco misiones por grupo | Mercado, puentes, comparación y tren, todos jugables | 20 misiones disponibles |
-| Geometría | Figuras planas, cuerpos geométricos, lados y vértices, patrones | Buscar figuras, armar patrones, contar lados y reto rápido | 20 actividades |
+| Geometría | Figuras, cuerpos 3D, lados y vértices, patrones; cinco misiones por grupo | Safari, telar, contornos y globo, todos jugables | 20 misiones disponibles |
 
 **Matemáticas ya tiene sus ocho actividades internas**, con ejemplos interactivos, 96 problemas, cuatro juegos, progreso y recompensas. Las tarjetas abren `scenes/math_activity.tscn` dentro de Godot. La descripción completa, capturas y guía de edición están en [Actividades de Matemáticas](MATEMATICAS_ACTIVIDADES.md).
 
 **Números también tiene sus ocho actividades internas**, con veinte misiones de valor posicional, cien retos, canjes, cuatro juegos y guardado parcial. Sus tarjetas abren `scenes/number_activity.tscn` dentro de Godot. Ver [Actividades de Números](NUMEROS_ACTIVIDADES.md).
 
-En **Geometría**, cada tarjeta sigue abriendo una presentación con ejemplo, descripción y narración. Sus submenús y ejercicios se construirán con los siguientes diseños del equipo; el total de 20 son plazas previstas, no actividades ya disponibles. No se concede progreso por visitar tarjetas en ninguna de las tres secciones.
+**Geometría también tiene sus ocho actividades internas**, con veinte ejemplos interactivos, cien retos, cuerpos 3D que se giran, piezas para arrastrar y partes para marcar. Sus tarjetas abren `scenes/geometry_activity.tscn`. Guía y capturas en [Actividades de Geometría](GEOMETRIA_ACTIVIDADES.md). No se concede progreso por visitar tarjetas en ninguna de las tres secciones.
 
 ## Voz más natural
 
@@ -22,9 +22,11 @@ Los MP3 están incluidos en `assets/audio/llama/{numbers,mathematics,geometry}/`
 
 Las actividades internas de Matemáticas añaden **155 MP3** con la misma voz y velocidad en `assets/audio/llama/activities/`. Su generador es `tools/generate_math_activity_voice.py`; el manifiesto de guiones y firmas está en `data/math/activities_voice_provenance.json`.
 
-Números añade **207 MP3** en `assets/audio/llama/numbers_activities/`, con generador `tools/generate_numbers_activity_voice.py` y manifiesto `data/numbers/voice_provenance.json`. También se reproducen sin conexión y comparten los ajustes de sonido existentes.
+Números añade **228 MP3** en `assets/audio/llama/numbers_activities/`, con generador `tools/generate_numbers_activity_voice.py` y manifiesto `data/numbers/voice_provenance.json`. También se reproducen sin conexión y comparten los ajustes de sonido existentes.
 
 Cada archivo tiene un hash y el hash de su texto en `data/math/*_voice_provenance.json`; la auditoría detecta archivos ausentes, cambios o guiones desactualizados. La voz y la versión de la herramienta también quedan documentadas ahí.
+
+Geometría añade **286 MP3** en `assets/audio/llama/geometry_activities/`, preparados por `tools/generate_geometry_activity_voice.py` y documentados en `data/geometry/voice_provenance.json`. Usa la misma voz, reproducción sin conexión y ajustes compartidos.
 
 Fuentes de la herramienta y de la voz: [edge-tts, repositorio del autor](https://github.com/rany2/edge-tts), [voces admitidas por Microsoft](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support?tabs=tts).
 
@@ -47,7 +49,9 @@ Matemáticas conserva los datos anteriores en su archivo y añade la sección `a
 
 Números conserva su archivo e identificadores y añade `exploracion_v1` para respuestas, construcciones y órdenes parciales, intentos y récords. Su contador muestra veinte misiones resueltas como máximo. Sus nuevos scripts están en `scripts/numbers/` y los datos en `data/numbers/`.
 
-El botón de regreso de Geometría reutiliza el recurso de madera existente en Lenguaje. No se modifica dicho recurso. Las pantallas mantienen proporción 16:9, tienen foco de teclado y permiten cerrar las presentaciones con Escape.
+Geometría conserva los identificadores y datos anteriores de su archivo y añade `exploracion_v1` para respuestas, piezas y marcas parciales, estrellas y récords. Sus scripts están en `scripts/geometry/`, los datos en `data/geometry/` y el arte nuevo en `assets/ui/geometry/activities/`.
+
+El botón de regreso de Geometría reutiliza el recurso de madera existente en Lenguaje. No se modifica dicho recurso. Los menús mantienen proporción 16:9 y Escape permite volver desde las actividades o cerrar las ayudas.
 
 ## Regeneración opcional de audio
 
@@ -69,6 +73,8 @@ Las pruebas verifican navegación, las 24 tarjetas, decodificación de los 33 MP
 
 Las actividades nuevas de Matemáticas tienen otras 1.003 comprobaciones y revisión visual en dos tamaños de ventana. Incluyen decodificación de los 155 MP3, dieciséis misiones completas, doce caminos con colisiones y puertas, pausa, reloj, dos dedos y conservación del guardado. Los detalles están en su guía.
 
-Números añade 1.422 comprobaciones de sus veinte misiones, cuatro juegos, 207 MP3, canjes, arrastre, pausa y guardado. Tiene revisión visual de 267 composiciones por tamaño de ventana. El total de Godot en el proyecto es 3.326, además de cuatro pruebas de Python.
+Números añade 1.510 comprobaciones de sus veinte misiones, cuatro juegos, 228 MP3, canjes, arrastre, pausa y guardado. Tiene revisión visual de 267 composiciones por tamaño de ventana.
+
+Geometría añade 1.441 comprobaciones: veinte misiones, cuatro juegos, cuerpos 3D, 286 MP3, encaje, marcas, patrones, pausa y guardado; 19 usan entrada real de ratón, teclado y toque. Se revisaron 796 composiciones por tamaño de ventana. El total de Godot en el proyecto es **4.855**, además de cuatro pruebas de Python.
 
 Revisado visualmente en Windows. Pendiente probar en una tablet Android física y preparar perfiles de exportación. No se ha publicado ni subido esta entrega a GitHub.

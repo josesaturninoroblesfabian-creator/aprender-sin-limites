@@ -11,6 +11,7 @@ import wave
 from audit_story_library import audit_stories
 from audit_math_activities import audit_math_activities
 from audit_numbers_activities import audit_numbers_activities
+from audit_geometry_activities import audit_geometry_activities
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -141,6 +142,7 @@ def audit() -> list[str]:
     errors.extend(audit_stories())
     errors.extend(audit_math_activities())
     errors.extend(audit_numbers_activities())
+    errors.extend(audit_geometry_activities())
     return errors
 
 
@@ -149,4 +151,4 @@ if __name__ == "__main__":
     if problems:
         print("\n".join(problems))
         sys.exit(1)
-    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples, 300 Language clips, 33 llama menu clips, 16 stories, 128 scenes, 64 story questions, 205 Carmelo clips; mathematics: 16 missions, 96 questions and 155 activity clips; Numbers: 20 missions, 100 challenges and 207 activity clips.")
+    print("OK: resource paths, script UIDs, 404 animation frames, 27 tracing images, 270 examples, 300 Language clips, 33 llama menu clips, 16 stories, 128 scenes, 64 story questions, 205 Carmelo clips; mathematics: 16 missions, 96 questions and 155 activity clips; Numbers: 20 missions, 100 challenges and 228 activity clips; Geometry: 20 missions, 100 challenges and 286 activity clips.")

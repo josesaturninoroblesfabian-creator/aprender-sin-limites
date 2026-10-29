@@ -15,6 +15,7 @@ static func load_data() -> Dictionary:
 			for lesson in data.lessons:
 				for key in ["width", "tier", "model_number", "exchange_place"]: lesson[key] = int(lesson[key])
 				for question in lesson.questions: _normalize(question)
+				_normalize(lesson.model)
 			for question in data.sequences:
 				for key in ["width", "step", "missing", "result"]: question[key] = int(question[key])
 				question.terms = _ints(question.terms)

@@ -19,9 +19,9 @@ Hay **20 misiones con 100 retos**, además de sus ejemplos interactivos; **32 se
 
 ## Cómo se enseña antes de evaluar
 
-Cada misión empieza con un ejemplo que requiere interacción. Para construir, el niño toca una columna y una cifra del 0 al 9; también puede arrastrar la cifra hasta su columna. Las piezas cambian al instante y se ve su valor: unidad, barra de diez, placa de cien o cubo de mil. Una columna vacía conserva el cero y su lugar.
+Cada misión empieza con un ejemplo del mismo tipo que sus retos: construir, leer, descomponer, buscar vecinos, valorar una cifra u ordenar. Para construir se arrastran piezas reales desde la bandeja a la columna de su color, o se toca Añadir: cubito de una unidad, barra de diez, placa de cien y cubo de mil. Las piezas viajan a su lugar y cambian el número formado. Una columna vacía representa cero.
 
-Los tres ejemplos de canje empiezan con **diez piezas**. El botón cambia diez unidades por una decena, diez decenas por una centena o diez centenas por un millar. Se muestra la cantidad antes y después para comprobar que sigue siendo la misma. No se puede pasar a los cinco retos antes de resolver el ejemplo.
+Los tres ejemplos de canje empiezan con **diez piezas**. El botón cambia diez unidades por una decena, diez decenas por una centena o diez centenas por un millar. Se muestra la cantidad antes y después y la pieza viaja a la columna izquierda para comprobar que sigue siendo la misma. No se puede pasar a los cinco retos antes de resolver el ejemplo.
 
 Los retos alternan construcción, reconocimiento del nombre, valor de una cifra, composición, vecinos y orden. Los números de una, dos, tres y cuatro cifras respetan sus rangos. Los vecinos de cero no producen valores negativos y los de cuatro cifras no pasan de 9999. Las secuencias incluyen pasos descendentes y cruces de decena, centena o millar.
 
@@ -29,7 +29,7 @@ Una respuesta equivocada no concede avance y permite volver a intentar. Las pist
 
 ## Controles y ritmo
 
-- **Taller:** tocar columna + cifra, o arrastrar la cifra. El teclado numérico también permite cambiar la columna elegida. En los retos de orden se toca del menor al mayor y se puede quitar la última elección.
+- **Taller:** arrastrar un bloque desde la bandeja a su columna o tocar Añadir. Se puede devolver un bloque a la bandeja o tocar Quitar. Vaciar permite empezar una construcción de nuevo. Las columnas muestran sus nombres completos, cuántas piezas hay, cuánto vale cada una y qué cantidad aportan. Al comprobar, se indica qué columna tiene piezas de más o de menos. El teclado numérico sigue disponible como alternativa y avanza hacia la siguiente columna. En los retos de orden se toca del menor al mayor y se puede quitar la última elección.
 - **Mercado:** tocar cada producto una sola vez; el producto viaja a la canasta y deja su número de conteo. Las opciones se habilitan al terminar de contar. Diez marcados forman un grupo de diez.
 - **Puentes:** arrastrar una respuesta al hueco o tocarla. La pista muestra el tamaño y sentido del salto; la animación de la llama confirma que el puente quedó completo.
 - **Comparar:** elegir el signo entre los números. La pista destaca la primera columna diferente; la balanza se mueve después de acertar.
@@ -44,7 +44,7 @@ Se conserva `user://progreso_numeros.cfg` y se añade la sección `exploracion_v
 
 El contador del menú representa **20 misiones completadas**. No se concede avance por abrir tarjetas, escuchar la presentación o visitar el ejemplo. Se requieren las cinco respuestas correctas de cada misión.
 
-Se guardan las respuestas completadas, los intentos fallidos y las pistas. También se conserva una construcción parcial o la elección parcial de un orden. Salir y regresar continúa por el primer reto pendiente. Resolver los cinco y salir antes de ver el resultado tampoco pierde la misión.
+Se guardan las respuestas completadas, los intentos fallidos y las pistas. También se conserva una construcción parcial, un canje pendiente de diez piezas o la elección parcial de un orden. Ver ejemplo permite repasar la explicación y volver a la construcción sin perderla. Salir y regresar continúa por el primer reto pendiente. Resolver los cinco y salir antes de ver el resultado tampoco pierde la misión.
 
 Las estrellas de las misiones dependen de los aciertos al primer intento sin pistas: tres por cinco, dos por al menos tres y una al completar. Repetir conserva la mejor marca. En los juegos se guarda la mejor puntuación y las mejores estrellas por actividad y cantidad de cifras; no se suman récords repetidos. Una respuesta sin ayuda ni error vale diez puntos y una resuelta después de ayuda o error vale cinco.
 
@@ -52,7 +52,7 @@ Los minijuegos guardan **resultados de partidas**, no partidas interrumpidas. Me
 
 ## Recursos locales y voces
 
-Las ocho actividades se ejecutan dentro de Godot sin navegador, cuenta, micrófono ni conexión a internet. Los **207 MP3** de `assets/audio/llama/numbers_activities/` usan `es-PE-CamilaNeural` con velocidad `-5 %`, la misma identidad vocal de la llama. Es voz sintética preparada durante el desarrollo; no se solicita una voz nueva al jugar.
+Las ocho actividades se ejecutan dentro de Godot sin navegador, cuenta, micrófono ni conexión a internet. Los **228 MP3** de `assets/audio/llama/numbers_activities/` usan `es-PE-CamilaNeural` con velocidad `-5 %`, la misma identidad vocal de la llama. Es voz sintética preparada durante el desarrollo; no se solicita una voz nueva al jugar.
 
 `data/numbers/voice_provenance.json` registra las firmas de los audios y los guiones. El volumen y silencio comparten `user://ajustes_numeros.cfg` con Matemáticas y Geometría. Los efectos breves se generan localmente y el cierre detiene voz y efectos.
 
@@ -76,7 +76,7 @@ Los [prompts exactos](reference/numbers/activities/art-prompts.json) y la [proce
 | `scripts/numbers/number_activity.gd` | Flujo de misiones, retos, partidas, pistas, ajustes y navegación. |
 | `scripts/numbers/number_catalog.gd` | Banco de actividades, selección por cifras y estaciones del tren. |
 | `scripts/numbers/number_rules.gd` | Composición, valor posicional, opciones, pistas y comprobación de respuestas. |
-| `scripts/numbers/place_board.gd`, `digit_token.gd` | Piezas y columnas interactivas, canjes y arrastre de cifras. |
+| `scripts/numbers/place_board.gd`, `block_token.gd`, `base_ten_piece.gd` | Bloques que se arrastran, bandeja para añadir o devolver piezas, columnas, botones Quitar y canjes animados. |
 | `scripts/numbers/market_counter.gd` | Conteo táctil sin duplicación, vuelo de productos y grupos de diez. |
 | `scripts/numbers/sequence_bridge.gd`, `bridge_choice.gd` | Huecos, piedras, arrastre y cruce de la llama. |
 | `scripts/numbers/comparison_stage.gd` | Columnas alineadas y balanza animada. |
@@ -110,7 +110,7 @@ Capturas reales del juego:
 | ![Centenas](reference/numbers/activities/centenas.png) | ![Comparación de números](reference/numbers/activities/comparar.png) |
 | ![Construcción de millares](reference/numbers/activities/millares.png) | ![Tren de los números](reference/numbers/activities/tren.png) |
 
-La validación completa pasó en Windows con **Godot 4.7.2 Compatibility**: **3.326 comprobaciones de Godot**, cuatro pruebas de metadatos de audio en Python y la auditoría de rutas, currículo y firmas. Números añade 1.422 comprobaciones: veinte misiones completas, cien retos, todos los puentes y comparaciones, trenes de una a cuatro cifras, conteo táctil, canjes, opciones incorrectas, pistas, pausa y guardado parcial. También se conserva la validación anterior de Matemáticas, Lenguaje y Cuentos.
+La validación completa pasó en Windows con **Godot 4.7.2 Compatibility**: **3.414 comprobaciones de Godot**, cuatro pruebas de metadatos de audio en Python y la auditoría de rutas, currículo y firmas. Números reúne 1.510 comprobaciones (1.448 funcionales y 62 de arrastre mediante eventos reales de entrada): veinte misiones completas, cien retos, todos los puentes y comparaciones, trenes de una a cuatro cifras, conteo táctil, canjes, opciones incorrectas, pistas, pausa y guardado parcial. También se conserva la validación anterior de Matemáticas, Lenguaje y Cuentos.
 
 La revisión visual cubrió **267 composiciones a 1280 × 800 y otras 267 a 960 × 600**. Queda pendiente comprobar rendimiento, sonido, arrastre y tacto en una **tablet Android física**, además de preparar la exportación. No hay instaladores ni publicación nueva.
 

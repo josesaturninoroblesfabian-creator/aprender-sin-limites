@@ -21,7 +21,7 @@ def audit_numbers_activities():
             low, high = (0 if width == 1 else 10 ** (width - 1)), 10 ** width - 1
             if lesson["topic"] != topics[width - 1] or not low <= lesson["model_number"] <= high or len(lesson["questions"]) != 5:
                 errors.append(f"Invalid Numbers mission: {lesson['id']}")
-            for q in lesson["questions"]:
+            for q in [lesson["model"], *lesson["questions"]]:
                 if q["width"] != width or not low <= q["number"] <= high or not q["text"]:
                     errors.append(f"Invalid Numbers question range: {q['id']}")
                 n = q["number"]
@@ -64,7 +64,7 @@ def audit_numbers_activities():
         if len(totals) != 8 or totals[0] != 0 or any(not isinstance(n, int) or not 0 <= n <= 40 for n in totals): errors.append("Invalid Numbers market rounds.")
         catalog = json.loads((ROOT / "data/numbers/voice_lines.json").read_text(encoding="utf-8"))["clips"]
         provenance = json.loads((ROOT / "data/numbers/voice_provenance.json").read_text(encoding="utf-8"))
-        if len(catalog) != 207 or set(catalog) != set(provenance["clips"]) or not referenced.issubset(catalog) or provenance["voice"] != "es-PE-CamilaNeural":
+        if len(catalog) != 228 or set(catalog) != set(provenance["clips"]) or not referenced.issubset(catalog) or provenance["voice"] != "es-PE-CamilaNeural":
             errors.append("Incomplete Numbers narration or inconsistent llama voice.")
         for key, entry in catalog.items():
             audio = (ROOT / "assets/audio/llama/numbers_activities" / entry["file"]).read_bytes()
@@ -81,5 +81,5 @@ def audit_numbers_activities():
 
 if __name__ == "__main__":
     problems = audit_numbers_activities()
-    print("\n".join(problems) if problems else "OK: 20 Numbers missions, 100 challenges, 32 sequences, 32 comparisons, 8 market rounds and 207 local voice clips.")
+    print("\n".join(problems) if problems else "OK: 20 Numbers missions, 100 challenges, 32 sequences, 32 comparisons, 8 market rounds and 228 local voice clips.")
     raise SystemExit(1 if problems else 0)

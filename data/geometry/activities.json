@@ -1,0 +1,5998 @@
+{
+  "version": 1,
+  "lessons": [
+    {
+      "id": "flat_shapes_1",
+      "topic": "flat_shapes",
+      "tier": 1,
+      "title": "Curvas y esquinas",
+      "aim": "Distingue el borde curvo del círculo de los lados rectos.",
+      "model": {
+        "id": "flat_shapes_1_model",
+        "kind": "plane",
+        "shape": "circle",
+        "angle": 25,
+        "color": "violet",
+        "options": [
+          "hexagon",
+          "circle",
+          "pentagon",
+          "rectangle"
+        ],
+        "result": "circle",
+        "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura.",
+        "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "flat_shapes_1_q1",
+          "kind": "plane",
+          "shape": "circle",
+          "angle": 0,
+          "color": "gold",
+          "options": [
+            "hexagon",
+            "circle",
+            "triangle",
+            "square"
+          ],
+          "result": "circle",
+          "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_q1.mp3"
+        },
+        {
+          "id": "flat_shapes_1_q2",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 35,
+          "color": "green",
+          "options": [
+            "circle",
+            "hexagon",
+            "triangle",
+            "square"
+          ],
+          "result": "triangle",
+          "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_q2.mp3"
+        },
+        {
+          "id": "flat_shapes_1_q3",
+          "kind": "plane",
+          "shape": "circle",
+          "angle": 90,
+          "color": "violet",
+          "options": [
+            "triangle",
+            "circle",
+            "rectangle",
+            "hexagon"
+          ],
+          "result": "circle",
+          "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_q3.mp3"
+        },
+        {
+          "id": "flat_shapes_1_q4",
+          "kind": "plane",
+          "shape": "square",
+          "angle": 160,
+          "color": "turquoise",
+          "options": [
+            "circle",
+            "hexagon",
+            "square",
+            "triangle"
+          ],
+          "result": "square",
+          "text": "Busca la figura con cuatro lados iguales y cuatro esquinas rectas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_q4.mp3"
+        },
+        {
+          "id": "flat_shapes_1_q5",
+          "kind": "plane",
+          "shape": "circle",
+          "angle": 240,
+          "color": "red",
+          "options": [
+            "pentagon",
+            "circle",
+            "rectangle",
+            "triangle"
+          ],
+          "result": "circle",
+          "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "flat_shapes_2",
+      "topic": "flat_shapes",
+      "tier": 2,
+      "title": "Tres lados: triángulos",
+      "aim": "Reconoce un triángulo por sus tres lados, aunque gire.",
+      "model": {
+        "id": "flat_shapes_2_model",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 25,
+        "color": "violet",
+        "options": [
+          "hexagon",
+          "triangle",
+          "pentagon",
+          "rectangle"
+        ],
+        "result": "triangle",
+        "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura.",
+        "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "flat_shapes_2_q1",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 0,
+          "color": "green",
+          "options": [
+            "circle",
+            "hexagon",
+            "triangle",
+            "square"
+          ],
+          "result": "triangle",
+          "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_q1.mp3"
+        },
+        {
+          "id": "flat_shapes_2_q2",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 35,
+          "color": "violet",
+          "options": [
+            "circle",
+            "triangle",
+            "rectangle",
+            "hexagon"
+          ],
+          "result": "triangle",
+          "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_q2.mp3"
+        },
+        {
+          "id": "flat_shapes_2_q3",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 90,
+          "color": "turquoise",
+          "options": [
+            "circle",
+            "hexagon",
+            "triangle",
+            "pentagon"
+          ],
+          "result": "triangle",
+          "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_q3.mp3"
+        },
+        {
+          "id": "flat_shapes_2_q4",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 160,
+          "color": "red",
+          "options": [
+            "square",
+            "triangle",
+            "rectangle",
+            "pentagon"
+          ],
+          "result": "triangle",
+          "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_q4.mp3"
+        },
+        {
+          "id": "flat_shapes_2_q5",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 240,
+          "color": "blue",
+          "options": [
+            "triangle",
+            "rectangle",
+            "hexagon",
+            "square"
+          ],
+          "result": "triangle",
+          "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "flat_shapes_3",
+      "topic": "flat_shapes",
+      "tier": 3,
+      "title": "Cuadrados y rectángulos",
+      "aim": "Mira los lados y las cuatro esquinas rectas, no solo la posición.",
+      "model": {
+        "id": "flat_shapes_3_model",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 25,
+        "color": "violet",
+        "options": [
+          "hexagon",
+          "square",
+          "pentagon",
+          "rectangle"
+        ],
+        "result": "square",
+        "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+        "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "flat_shapes_3_q1",
+          "kind": "plane",
+          "shape": "square",
+          "angle": 0,
+          "color": "violet",
+          "options": [
+            "circle",
+            "square",
+            "triangle",
+            "hexagon"
+          ],
+          "result": "square",
+          "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_q1.mp3"
+        },
+        {
+          "id": "flat_shapes_3_q2",
+          "kind": "plane",
+          "shape": "rectangle",
+          "angle": 35,
+          "color": "turquoise",
+          "options": [
+            "circle",
+            "hexagon",
+            "rectangle",
+            "triangle"
+          ],
+          "result": "rectangle",
+          "text": "Busca la figura con dos lados largos, dos cortos y cuatro esquinas rectas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_q2.mp3"
+        },
+        {
+          "id": "flat_shapes_3_q3",
+          "kind": "plane",
+          "shape": "square",
+          "angle": 90,
+          "color": "red",
+          "options": [
+            "pentagon",
+            "square",
+            "rectangle",
+            "triangle"
+          ],
+          "result": "square",
+          "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_q3.mp3"
+        },
+        {
+          "id": "flat_shapes_3_q4",
+          "kind": "plane",
+          "shape": "rectangle",
+          "angle": 160,
+          "color": "blue",
+          "options": [
+            "rectangle",
+            "square",
+            "triangle",
+            "hexagon"
+          ],
+          "result": "rectangle",
+          "text": "Busca la figura con dos lados largos, dos cortos y cuatro esquinas rectas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_q4.mp3"
+        },
+        {
+          "id": "flat_shapes_3_q5",
+          "kind": "plane",
+          "shape": "square",
+          "angle": 240,
+          "color": "gold",
+          "options": [
+            "circle",
+            "hexagon",
+            "pentagon",
+            "square"
+          ],
+          "result": "square",
+          "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "flat_shapes_4",
+      "topic": "flat_shapes",
+      "tier": 4,
+      "title": "Cinco y seis lados",
+      "aim": "Reconoce pentágonos y hexágonos contando sus lados.",
+      "model": {
+        "id": "flat_shapes_4_model",
+        "kind": "plane",
+        "shape": "pentagon",
+        "angle": 25,
+        "color": "violet",
+        "options": [
+          "hexagon",
+          "pentagon",
+          "square",
+          "rectangle"
+        ],
+        "result": "pentagon",
+        "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura.",
+        "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "flat_shapes_4_q1",
+          "kind": "plane",
+          "shape": "pentagon",
+          "angle": 0,
+          "color": "turquoise",
+          "options": [
+            "circle",
+            "hexagon",
+            "pentagon",
+            "triangle"
+          ],
+          "result": "pentagon",
+          "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_q1.mp3"
+        },
+        {
+          "id": "flat_shapes_4_q2",
+          "kind": "plane",
+          "shape": "hexagon",
+          "angle": 35,
+          "color": "red",
+          "options": [
+            "pentagon",
+            "hexagon",
+            "rectangle",
+            "triangle"
+          ],
+          "result": "hexagon",
+          "text": "Busca la figura con seis lados rectos y seis esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_q2.mp3"
+        },
+        {
+          "id": "flat_shapes_4_q3",
+          "kind": "plane",
+          "shape": "pentagon",
+          "angle": 90,
+          "color": "blue",
+          "options": [
+            "pentagon",
+            "rectangle",
+            "hexagon",
+            "square"
+          ],
+          "result": "pentagon",
+          "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_q3.mp3"
+        },
+        {
+          "id": "flat_shapes_4_q4",
+          "kind": "plane",
+          "shape": "hexagon",
+          "angle": 160,
+          "color": "gold",
+          "options": [
+            "square",
+            "circle",
+            "pentagon",
+            "hexagon"
+          ],
+          "result": "hexagon",
+          "text": "Busca la figura con seis lados rectos y seis esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_q4.mp3"
+        },
+        {
+          "id": "flat_shapes_4_q5",
+          "kind": "plane",
+          "shape": "pentagon",
+          "angle": 240,
+          "color": "green",
+          "options": [
+            "pentagon",
+            "circle",
+            "rectangle",
+            "square"
+          ],
+          "result": "pentagon",
+          "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "flat_shapes_5",
+      "topic": "flat_shapes",
+      "tier": 5,
+      "title": "La forma sigue siendo la misma",
+      "aim": "Girar, cambiar el tamaño o el color no cambia la figura.",
+      "model": {
+        "id": "flat_shapes_5_model",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 25,
+        "color": "violet",
+        "options": [
+          "hexagon",
+          "square",
+          "pentagon",
+          "rectangle"
+        ],
+        "result": "square",
+        "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+        "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "flat_shapes_5_q1",
+          "kind": "plane",
+          "shape": "square",
+          "angle": 0,
+          "color": "red",
+          "options": [
+            "pentagon",
+            "square",
+            "rectangle",
+            "triangle"
+          ],
+          "result": "square",
+          "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_q1.mp3"
+        },
+        {
+          "id": "flat_shapes_5_q2",
+          "kind": "plane",
+          "shape": "triangle",
+          "angle": 35,
+          "color": "blue",
+          "options": [
+            "triangle",
+            "rectangle",
+            "hexagon",
+            "square"
+          ],
+          "result": "triangle",
+          "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_q2.mp3"
+        },
+        {
+          "id": "flat_shapes_5_q3",
+          "kind": "plane",
+          "shape": "rectangle",
+          "angle": 90,
+          "color": "gold",
+          "options": [
+            "square",
+            "circle",
+            "pentagon",
+            "rectangle"
+          ],
+          "result": "rectangle",
+          "text": "Encaja el rectángulo alargado en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_q3.mp3"
+        },
+        {
+          "id": "flat_shapes_5_q4",
+          "kind": "plane",
+          "shape": "pentagon",
+          "angle": 160,
+          "color": "green",
+          "options": [
+            "pentagon",
+            "circle",
+            "rectangle",
+            "square"
+          ],
+          "result": "pentagon",
+          "text": "Busca la figura con cinco lados rectos y cinco esquinas. Encájala en su contorno.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_q4.mp3"
+        },
+        {
+          "id": "flat_shapes_5_q5",
+          "kind": "plane",
+          "shape": "hexagon",
+          "angle": 240,
+          "color": "violet",
+          "options": [
+            "circle",
+            "pentagon",
+            "hexagon",
+            "rectangle"
+          ],
+          "result": "hexagon",
+          "text": "Encaja el hexágono en su contorno. Aunque gire, sigue siendo la misma figura.",
+          "audio": "res://assets/audio/llama/geometry_activities/flat_shapes_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "solid_shapes_1",
+      "topic": "solid_shapes",
+      "tier": 1,
+      "title": "Un cubo para explorar",
+      "aim": "Gira el cubo y descubre sus seis caras cuadradas.",
+      "model": {
+        "id": "solid_shapes_1_model",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": false,
+        "options": [
+          "cylinder",
+          "sphere",
+          "cone",
+          "cube"
+        ],
+        "result": "cube",
+        "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cubo tiene seis caras planas cuadradas.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "solid_shapes_1_q1",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cone",
+            "sphere",
+            "cylinder"
+          ],
+          "result": "cube",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_q1.mp3"
+        },
+        {
+          "id": "solid_shapes_1_q2",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": true,
+          "options": [
+            "cube",
+            "cone",
+            "sphere",
+            "cylinder"
+          ],
+          "result": "cube",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_q2.mp3"
+        },
+        {
+          "id": "solid_shapes_1_q3",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": false,
+          "options": [
+            "cone",
+            "cylinder",
+            "cube",
+            "sphere"
+          ],
+          "result": "cube",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_q3.mp3"
+        },
+        {
+          "id": "solid_shapes_1_q4",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": true,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "cube",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_q4.mp3"
+        },
+        {
+          "id": "solid_shapes_1_q5",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": false,
+          "options": [
+            "sphere",
+            "cone",
+            "cylinder",
+            "cube"
+          ],
+          "result": "cube",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "solid_shapes_2",
+      "topic": "solid_shapes",
+      "tier": 2,
+      "title": "La esfera y su superficie",
+      "aim": "Una esfera es curva: no tiene caras planas ni esquinas.",
+      "model": {
+        "id": "solid_shapes_2_model",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": false,
+        "options": [
+          "cylinder",
+          "sphere",
+          "cone",
+          "cube"
+        ],
+        "result": "sphere",
+        "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. La esfera tiene una superficie curva y ninguna cara plana.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "solid_shapes_2_q1",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cone",
+            "sphere",
+            "cylinder"
+          ],
+          "result": "sphere",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_q1.mp3"
+        },
+        {
+          "id": "solid_shapes_2_q2",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": true,
+          "options": [
+            "cone",
+            "cylinder",
+            "cube",
+            "sphere"
+          ],
+          "result": "sphere",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_q2.mp3"
+        },
+        {
+          "id": "solid_shapes_2_q3",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "sphere",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_q3.mp3"
+        },
+        {
+          "id": "solid_shapes_2_q4",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cone",
+            "cylinder",
+            "cube"
+          ],
+          "result": "sphere",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_q4.mp3"
+        },
+        {
+          "id": "solid_shapes_2_q5",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "sphere",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "solid_shapes_3",
+      "topic": "solid_shapes",
+      "tier": 3,
+      "title": "Dos bases: el cilindro",
+      "aim": "Observa sus dos bases circulares y su superficie curva.",
+      "model": {
+        "id": "solid_shapes_3_model",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": false,
+        "options": [
+          "cylinder",
+          "sphere",
+          "cone",
+          "cube"
+        ],
+        "result": "cylinder",
+        "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "solid_shapes_3_q1",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": false,
+          "options": [
+            "cone",
+            "cylinder",
+            "cube",
+            "sphere"
+          ],
+          "result": "cylinder",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_q1.mp3"
+        },
+        {
+          "id": "solid_shapes_3_q2",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": true,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "cylinder",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_q2.mp3"
+        },
+        {
+          "id": "solid_shapes_3_q3",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": false,
+          "options": [
+            "sphere",
+            "cone",
+            "cylinder",
+            "cube"
+          ],
+          "result": "cylinder",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_q3.mp3"
+        },
+        {
+          "id": "solid_shapes_3_q4",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": true,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "cylinder",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_q4.mp3"
+        },
+        {
+          "id": "solid_shapes_3_q5",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": false,
+          "options": [
+            "sphere",
+            "cube",
+            "cone",
+            "cylinder"
+          ],
+          "result": "cylinder",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "solid_shapes_4",
+      "topic": "solid_shapes",
+      "tier": 4,
+      "title": "Una base y una punta",
+      "aim": "El cono tiene una base circular y una punta.",
+      "model": {
+        "id": "solid_shapes_4_model",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": false,
+        "options": [
+          "cylinder",
+          "sphere",
+          "cone",
+          "cube"
+        ],
+        "result": "cone",
+        "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cono tiene una base circular, una superficie curva y una punta.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "solid_shapes_4_q1",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "cone",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_q1.mp3"
+        },
+        {
+          "id": "solid_shapes_4_q2",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cone",
+            "cylinder",
+            "cube"
+          ],
+          "result": "cone",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_q2.mp3"
+        },
+        {
+          "id": "solid_shapes_4_q3",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": false,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "cone",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_q3.mp3"
+        },
+        {
+          "id": "solid_shapes_4_q4",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cube",
+            "cone",
+            "cylinder"
+          ],
+          "result": "cone",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_q4.mp3"
+        },
+        {
+          "id": "solid_shapes_4_q5",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": false,
+          "options": [
+            "cone",
+            "cube",
+            "sphere",
+            "cylinder"
+          ],
+          "result": "cone",
+          "text": "Observa el cuerpo. ¿Cómo se llama?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "solid_shapes_5",
+      "topic": "solid_shapes",
+      "tier": 5,
+      "title": "Cuerpos en nuestro mundo",
+      "aim": "Relaciona objetos cotidianos con los cuerpos a los que se parecen.",
+      "model": {
+        "id": "solid_shapes_5_model",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": false,
+        "options": [
+          "cylinder",
+          "sphere",
+          "cone",
+          "cube"
+        ],
+        "result": "sphere",
+        "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. La esfera tiene una superficie curva y ninguna cara plana.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "solid_shapes_5_q1",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cone",
+            "cylinder",
+            "cube"
+          ],
+          "result": "cube",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_q1.mp3"
+        },
+        {
+          "id": "solid_shapes_5_q2",
+          "kind": "solid",
+          "shape": "sphere",
+          "object_match": true,
+          "options": [
+            "cube",
+            "cylinder",
+            "cone",
+            "sphere"
+          ],
+          "result": "sphere",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+          "spoken_name": "la esfera",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_q2.mp3"
+        },
+        {
+          "id": "solid_shapes_5_q3",
+          "kind": "solid",
+          "shape": "cylinder",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cube",
+            "cone",
+            "cylinder"
+          ],
+          "result": "cylinder",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+          "spoken_name": "el cilindro",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_q3.mp3"
+        },
+        {
+          "id": "solid_shapes_5_q4",
+          "kind": "solid",
+          "shape": "cone",
+          "object_match": true,
+          "options": [
+            "cone",
+            "cube",
+            "sphere",
+            "cylinder"
+          ],
+          "result": "cone",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+          "spoken_name": "el cono",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_q4.mp3"
+        },
+        {
+          "id": "solid_shapes_5_q5",
+          "kind": "solid",
+          "shape": "cube",
+          "object_match": true,
+          "options": [
+            "sphere",
+            "cone",
+            "cube",
+            "cylinder"
+          ],
+          "result": "cube",
+          "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?",
+          "fact": "El cubo tiene seis caras planas cuadradas.",
+          "spoken_name": "el cubo",
+          "audio": "res://assets/audio/llama/geometry_activities/solid_shapes_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sides_vertices_1",
+      "topic": "sides_vertices",
+      "tier": 1,
+      "title": "Seguimos los lados",
+      "aim": "Cada lado recto se cuenta una sola vez.",
+      "model": {
+        "id": "sides_vertices_1_model",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 15,
+        "result": 3,
+        "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+        "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "sides_vertices_1_q1",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "sides",
+          "angle": 0,
+          "result": 3,
+          "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_q1.mp3"
+        },
+        {
+          "id": "sides_vertices_1_q2",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "sides",
+          "angle": 33,
+          "result": 3,
+          "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_q2.mp3"
+        },
+        {
+          "id": "sides_vertices_1_q3",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "sides",
+          "angle": 66,
+          "result": 3,
+          "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_q3.mp3"
+        },
+        {
+          "id": "sides_vertices_1_q4",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "sides",
+          "angle": 99,
+          "result": 3,
+          "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_q4.mp3"
+        },
+        {
+          "id": "sides_vertices_1_q5",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "sides",
+          "angle": 132,
+          "result": 3,
+          "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sides_vertices_2",
+      "topic": "sides_vertices",
+      "tier": 2,
+      "title": "Tocamos las esquinas",
+      "aim": "Un vértice es una esquina: toca cada una una vez.",
+      "model": {
+        "id": "sides_vertices_2_model",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 15,
+        "result": 3,
+        "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+        "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "sides_vertices_2_q1",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 0,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_q1.mp3"
+        },
+        {
+          "id": "sides_vertices_2_q2",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 33,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_q2.mp3"
+        },
+        {
+          "id": "sides_vertices_2_q3",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 66,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_q3.mp3"
+        },
+        {
+          "id": "sides_vertices_2_q4",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 99,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_q4.mp3"
+        },
+        {
+          "id": "sides_vertices_2_q5",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 132,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sides_vertices_3",
+      "topic": "sides_vertices",
+      "tier": 3,
+      "title": "Cuatro, aunque la figura gire",
+      "aim": "Cuadrados y rectángulos tienen cuatro lados y cuatro vértices.",
+      "model": {
+        "id": "sides_vertices_3_model",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 15,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+        "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "sides_vertices_3_q1",
+          "kind": "count",
+          "shape": "square",
+          "part": "sides",
+          "angle": 0,
+          "result": 4,
+          "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_q1.mp3"
+        },
+        {
+          "id": "sides_vertices_3_q2",
+          "kind": "count",
+          "shape": "rectangle",
+          "part": "vertices",
+          "angle": 33,
+          "result": 4,
+          "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_q2.mp3"
+        },
+        {
+          "id": "sides_vertices_3_q3",
+          "kind": "count",
+          "shape": "square",
+          "part": "vertices",
+          "angle": 66,
+          "result": 4,
+          "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_q3.mp3"
+        },
+        {
+          "id": "sides_vertices_3_q4",
+          "kind": "count",
+          "shape": "rectangle",
+          "part": "sides",
+          "angle": 99,
+          "result": 4,
+          "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_q4.mp3"
+        },
+        {
+          "id": "sides_vertices_3_q5",
+          "kind": "count",
+          "shape": "square",
+          "part": "sides",
+          "angle": 132,
+          "result": 4,
+          "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sides_vertices_4",
+      "topic": "sides_vertices",
+      "tier": 4,
+      "title": "Contornos de cinco y seis",
+      "aim": "Recorre pentágonos y hexágonos sin saltarte partes.",
+      "model": {
+        "id": "sides_vertices_4_model",
+        "kind": "count",
+        "shape": "pentagon",
+        "part": "sides",
+        "angle": 15,
+        "result": 5,
+        "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay.",
+        "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "sides_vertices_4_q1",
+          "kind": "count",
+          "shape": "pentagon",
+          "part": "sides",
+          "angle": 0,
+          "result": 5,
+          "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_q1.mp3"
+        },
+        {
+          "id": "sides_vertices_4_q2",
+          "kind": "count",
+          "shape": "hexagon",
+          "part": "vertices",
+          "angle": 33,
+          "result": 6,
+          "text": "Toca uno a uno los vértices o esquinas del hexágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_q2.mp3"
+        },
+        {
+          "id": "sides_vertices_4_q3",
+          "kind": "count",
+          "shape": "pentagon",
+          "part": "vertices",
+          "angle": 66,
+          "result": 5,
+          "text": "Toca uno a uno los vértices o esquinas del pentágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_q3.mp3"
+        },
+        {
+          "id": "sides_vertices_4_q4",
+          "kind": "count",
+          "shape": "hexagon",
+          "part": "sides",
+          "angle": 99,
+          "result": 6,
+          "text": "Toca uno a uno los lados rectos del hexágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_q4.mp3"
+        },
+        {
+          "id": "sides_vertices_4_q5",
+          "kind": "count",
+          "shape": "pentagon",
+          "part": "sides",
+          "angle": 132,
+          "result": 5,
+          "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "sides_vertices_5",
+      "topic": "sides_vertices",
+      "tier": 5,
+      "title": "Recto o curvo",
+      "aim": "El círculo no es un polígono: su borde es curvo y no tiene lados rectos.",
+      "model": {
+        "id": "sides_vertices_5_model",
+        "kind": "count",
+        "shape": "circle",
+        "part": "sides",
+        "angle": 15,
+        "result": 0,
+        "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?",
+        "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "sides_vertices_5_q1",
+          "kind": "count",
+          "shape": "circle",
+          "part": "sides",
+          "angle": 0,
+          "result": 0,
+          "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_q1.mp3"
+        },
+        {
+          "id": "sides_vertices_5_q2",
+          "kind": "count",
+          "shape": "triangle",
+          "part": "vertices",
+          "angle": 33,
+          "result": 3,
+          "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_q2.mp3"
+        },
+        {
+          "id": "sides_vertices_5_q3",
+          "kind": "count",
+          "shape": "circle",
+          "part": "sides",
+          "angle": 66,
+          "result": 0,
+          "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_q3.mp3"
+        },
+        {
+          "id": "sides_vertices_5_q4",
+          "kind": "count",
+          "shape": "square",
+          "part": "sides",
+          "angle": 99,
+          "result": 4,
+          "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_q4.mp3"
+        },
+        {
+          "id": "sides_vertices_5_q5",
+          "kind": "count",
+          "shape": "hexagon",
+          "part": "vertices",
+          "angle": 132,
+          "result": 6,
+          "text": "Toca uno a uno los vértices o esquinas del hexágono. Después elige cuántos hay.",
+          "audio": "res://assets/audio/llama/geometry_activities/sides_vertices_5_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shape_patterns_1",
+      "topic": "shape_patterns",
+      "tier": 1,
+      "title": "Una y otra vez",
+      "aim": "Reconoce una regla de dos figuras que alternan.",
+      "model": {
+        "id": "shape_patterns_1_model",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:gold",
+          "hexagon:turquoise",
+          "square:red",
+          "triangle:blue"
+        ],
+        "result": [
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "shape_patterns_1_q1",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            5
+          ],
+          "color_matters": false,
+          "options": [
+            "triangle:blue",
+            "hexagon:blue",
+            "pentagon:violet",
+            "rectangle:blue"
+          ],
+          "result": [
+            "triangle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_q1.mp3"
+        },
+        {
+          "id": "shape_patterns_1_q2",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            2
+          ],
+          "color_matters": false,
+          "options": [
+            "square:violet",
+            "rectangle:turquoise",
+            "hexagon:gold",
+            "circle:red"
+          ],
+          "result": [
+            "circle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_q2.mp3"
+        },
+        {
+          "id": "shape_patterns_1_q3",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            4
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:gold",
+            "triangle:violet",
+            "square:turquoise",
+            "circle:red"
+          ],
+          "result": [
+            "circle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_q3.mp3"
+        },
+        {
+          "id": "shape_patterns_1_q4",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            1
+          ],
+          "color_matters": false,
+          "options": [
+            "pentagon:blue",
+            "rectangle:green",
+            "circle:blue",
+            "triangle:blue"
+          ],
+          "result": [
+            "triangle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_q4.mp3"
+        },
+        {
+          "id": "shape_patterns_1_q5",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue",
+            "circle:red",
+            "triangle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            3
+          ],
+          "color_matters": false,
+          "options": [
+            "triangle:blue",
+            "pentagon:blue",
+            "square:violet",
+            "circle:turquoise"
+          ],
+          "result": [
+            "triangle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_1_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shape_patterns_2",
+      "topic": "shape_patterns",
+      "tier": 2,
+      "title": "Dos iguales y una distinta",
+      "aim": "Busca el grupo completo que se repite.",
+      "model": {
+        "id": "shape_patterns_2_model",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "square:red",
+          "hexagon:turquoise",
+          "rectangle:turquoise",
+          "circle:blue"
+        ],
+        "result": [
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "shape_patterns_2_q1",
+          "kind": "pattern",
+          "sequence": [
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue"
+          ],
+          "unit_size": 3,
+          "holes": [
+            8
+          ],
+          "color_matters": false,
+          "options": [
+            "square:violet",
+            "rectangle:turquoise",
+            "hexagon:gold",
+            "circle:blue"
+          ],
+          "result": [
+            "circle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_q1.mp3"
+        },
+        {
+          "id": "shape_patterns_2_q2",
+          "kind": "pattern",
+          "sequence": [
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue"
+          ],
+          "unit_size": 3,
+          "holes": [
+            2
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:gold",
+            "triangle:violet",
+            "square:turquoise",
+            "circle:blue"
+          ],
+          "result": [
+            "circle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_q2.mp3"
+        },
+        {
+          "id": "shape_patterns_2_q3",
+          "kind": "pattern",
+          "sequence": [
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue"
+          ],
+          "unit_size": 3,
+          "holes": [
+            7
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:green",
+            "triangle:green",
+            "pentagon:blue",
+            "square:gold"
+          ],
+          "result": [
+            "square"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_q3.mp3"
+        },
+        {
+          "id": "shape_patterns_2_q4",
+          "kind": "pattern",
+          "sequence": [
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue"
+          ],
+          "unit_size": 3,
+          "holes": [
+            1
+          ],
+          "color_matters": false,
+          "options": [
+            "square:gold",
+            "pentagon:blue",
+            "rectangle:turquoise",
+            "circle:turquoise"
+          ],
+          "result": [
+            "square"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_q4.mp3"
+        },
+        {
+          "id": "shape_patterns_2_q5",
+          "kind": "pattern",
+          "sequence": [
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue",
+            "square:gold",
+            "square:gold",
+            "circle:blue"
+          ],
+          "unit_size": 3,
+          "holes": [
+            6
+          ],
+          "color_matters": false,
+          "options": [
+            "triangle:violet",
+            "square:gold",
+            "pentagon:violet",
+            "hexagon:green"
+          ],
+          "result": [
+            "square"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_2_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shape_patterns_3",
+      "topic": "shape_patterns",
+      "tier": 3,
+      "title": "Tres figuras en una regla",
+      "aim": "Mantén el mismo orden en cada grupo.",
+      "model": {
+        "id": "shape_patterns_3_model",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:gold",
+          "hexagon:turquoise",
+          "square:red",
+          "triangle:gold"
+        ],
+        "result": [
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "shape_patterns_3_q1",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold"
+          ],
+          "unit_size": 3,
+          "holes": [
+            8
+          ],
+          "color_matters": false,
+          "options": [
+            "circle:red",
+            "rectangle:gold",
+            "square:turquoise",
+            "triangle:gold"
+          ],
+          "result": [
+            "triangle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_q1.mp3"
+        },
+        {
+          "id": "shape_patterns_3_q2",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold"
+          ],
+          "unit_size": 3,
+          "holes": [
+            2
+          ],
+          "color_matters": false,
+          "options": [
+            "pentagon:blue",
+            "rectangle:green",
+            "circle:blue",
+            "triangle:gold"
+          ],
+          "result": [
+            "triangle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_q2.mp3"
+        },
+        {
+          "id": "shape_patterns_3_q3",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold"
+          ],
+          "unit_size": 3,
+          "holes": [
+            7
+          ],
+          "color_matters": false,
+          "options": [
+            "square:blue",
+            "pentagon:blue",
+            "rectangle:turquoise",
+            "circle:turquoise"
+          ],
+          "result": [
+            "square"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_q3.mp3"
+        },
+        {
+          "id": "shape_patterns_3_q4",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold"
+          ],
+          "unit_size": 3,
+          "holes": [
+            1
+          ],
+          "color_matters": false,
+          "options": [
+            "triangle:violet",
+            "square:blue",
+            "pentagon:violet",
+            "hexagon:green"
+          ],
+          "result": [
+            "square"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_q4.mp3"
+        },
+        {
+          "id": "shape_patterns_3_q5",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold",
+            "circle:red",
+            "square:blue",
+            "triangle:gold"
+          ],
+          "unit_size": 3,
+          "holes": [
+            6
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:red",
+            "pentagon:red",
+            "triangle:green",
+            "circle:red"
+          ],
+          "result": [
+            "circle"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_3_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shape_patterns_4",
+      "topic": "shape_patterns",
+      "tier": 4,
+      "title": "Un hueco en medio",
+      "aim": "La regla también vale antes y después del hueco.",
+      "model": {
+        "id": "shape_patterns_4_model",
+        "kind": "pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": false,
+        "options": [
+          "square:red",
+          "circle:gold",
+          "rectangle:turquoise",
+          "hexagon:violet"
+        ],
+        "result": [
+          "hexagon"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "shape_patterns_4_q1",
+          "kind": "pattern",
+          "sequence": [
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet"
+          ],
+          "unit_size": 2,
+          "holes": [
+            5
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:green",
+            "triangle:green",
+            "pentagon:blue",
+            "hexagon:violet"
+          ],
+          "result": [
+            "hexagon"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: pentágono, hexágono.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_q1.mp3"
+        },
+        {
+          "id": "shape_patterns_4_q2",
+          "kind": "pattern",
+          "sequence": [
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet"
+          ],
+          "unit_size": 2,
+          "holes": [
+            2
+          ],
+          "color_matters": false,
+          "options": [
+            "pentagon:green",
+            "square:violet",
+            "rectangle:turquoise",
+            "circle:turquoise"
+          ],
+          "result": [
+            "pentagon"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: pentágono, hexágono.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_q2.mp3"
+        },
+        {
+          "id": "shape_patterns_4_q3",
+          "kind": "pattern",
+          "sequence": [
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet"
+          ],
+          "unit_size": 2,
+          "holes": [
+            4
+          ],
+          "color_matters": false,
+          "options": [
+            "triangle:violet",
+            "pentagon:green",
+            "rectangle:red",
+            "hexagon:green"
+          ],
+          "result": [
+            "pentagon"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: pentágono, hexágono.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_q3.mp3"
+        },
+        {
+          "id": "shape_patterns_4_q4",
+          "kind": "pattern",
+          "sequence": [
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet"
+          ],
+          "unit_size": 2,
+          "holes": [
+            1
+          ],
+          "color_matters": false,
+          "options": [
+            "rectangle:red",
+            "circle:turquoise",
+            "pentagon:red",
+            "hexagon:violet"
+          ],
+          "result": [
+            "hexagon"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: pentágono, hexágono.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_q4.mp3"
+        },
+        {
+          "id": "shape_patterns_4_q5",
+          "kind": "pattern",
+          "sequence": [
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet",
+            "pentagon:green",
+            "hexagon:violet"
+          ],
+          "unit_size": 2,
+          "holes": [
+            3
+          ],
+          "color_matters": false,
+          "options": [
+            "pentagon:turquoise",
+            "square:gold",
+            "hexagon:violet",
+            "rectangle:red"
+          ],
+          "result": [
+            "hexagon"
+          ],
+          "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+          "rule": "La parte que se repite es: pentágono, hexágono.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_4_q5.mp3"
+        }
+      ]
+    },
+    {
+      "id": "shape_patterns_5",
+      "topic": "shape_patterns",
+      "tier": 5,
+      "title": "Forma y color",
+      "aim": "En esta misión se repiten la forma y el color.",
+      "model": {
+        "id": "shape_patterns_5_model",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": true,
+        "options": [
+          "circle:gold",
+          "hexagon:turquoise",
+          "square:red",
+          "circle:blue"
+        ],
+        "result": [
+          "circle:blue"
+        ],
+        "text": "Completa los huecos del patrón. Mira la forma y el color.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_model.mp3"
+      },
+      "questions": [
+        {
+          "id": "shape_patterns_5_q1",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            5
+          ],
+          "color_matters": true,
+          "options": [
+            "circle:blue",
+            "pentagon:blue",
+            "square:violet",
+            "circle:turquoise"
+          ],
+          "result": [
+            "circle:blue"
+          ],
+          "text": "Completa los huecos del patrón. Mira la forma y el color.",
+          "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_q1.mp3"
+        },
+        {
+          "id": "shape_patterns_5_q2",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            2
+          ],
+          "color_matters": true,
+          "options": [
+            "triangle:violet",
+            "circle:red",
+            "hexagon:green",
+            "triangle:green"
+          ],
+          "result": [
+            "circle:red"
+          ],
+          "text": "Completa los huecos del patrón. Mira la forma y el color.",
+          "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_q2.mp3"
+        },
+        {
+          "id": "shape_patterns_5_q3",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            4
+          ],
+          "color_matters": true,
+          "options": [
+            "rectangle:red",
+            "circle:turquoise",
+            "pentagon:red",
+            "circle:red"
+          ],
+          "result": [
+            "circle:red"
+          ],
+          "text": "Completa los huecos del patrón. Mira la forma y el color.",
+          "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_q3.mp3"
+        },
+        {
+          "id": "shape_patterns_5_q4",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            1
+          ],
+          "color_matters": true,
+          "options": [
+            "rectangle:green",
+            "square:gold",
+            "circle:blue",
+            "rectangle:red"
+          ],
+          "result": [
+            "circle:blue"
+          ],
+          "text": "Completa los huecos del patrón. Mira la forma y el color.",
+          "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_q4.mp3"
+        },
+        {
+          "id": "shape_patterns_5_q5",
+          "kind": "pattern",
+          "sequence": [
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue",
+            "circle:red",
+            "circle:blue"
+          ],
+          "unit_size": 2,
+          "holes": [
+            3
+          ],
+          "color_matters": true,
+          "options": [
+            "rectangle:red",
+            "circle:blue",
+            "triangle:red",
+            "pentagon:violet"
+          ],
+          "result": [
+            "circle:blue"
+          ],
+          "text": "Completa los huecos del patrón. Mira la forma y el color.",
+          "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+          "audio": "res://assets/audio/llama/geometry_activities/shape_patterns_5_q5.mp3"
+        }
+      ]
+    }
+  ],
+  "games": {
+    "find_shape": [
+      {
+        "id": "find_1_1",
+        "kind": "find",
+        "target": "circle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 0,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 43,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "gold",
+            "angle": 86,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 129,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "violet",
+            "angle": 172,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "turquoise",
+            "angle": 215,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 258,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 301,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          0,
+          3,
+          6
+        ],
+        "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_1.mp3"
+      },
+      {
+        "id": "find_1_2",
+        "kind": "find",
+        "target": "triangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 29,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 72,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 115,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "violet",
+            "angle": 158,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 201,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "red",
+            "angle": 244,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 287,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 330,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          1,
+          4,
+          7
+        ],
+        "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_2.mp3"
+      },
+      {
+        "id": "find_1_3",
+        "kind": "find",
+        "target": "square",
+        "items": [
+          {
+            "shape": "square",
+            "color": "gold",
+            "angle": 58,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "green",
+            "angle": 101,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "violet",
+            "angle": 144,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "turquoise",
+            "angle": 187,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "red",
+            "angle": 230,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 273,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "gold",
+            "angle": 316,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "green",
+            "angle": 359,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          0,
+          2,
+          5
+        ],
+        "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_3.mp3"
+      },
+      {
+        "id": "find_1_4",
+        "kind": "find",
+        "target": "rectangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 87,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "violet",
+            "angle": 130,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "turquoise",
+            "angle": 173,
+            "scale": 0.9
+          },
+          {
+            "shape": "rectangle",
+            "color": "red",
+            "angle": 216,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "blue",
+            "angle": 259,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "gold",
+            "angle": 302,
+            "scale": 0.9
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 345,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "violet",
+            "angle": 28,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          1,
+          3,
+          6
+        ],
+        "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_4.mp3"
+      },
+      {
+        "id": "find_1_5",
+        "kind": "find",
+        "target": "circle",
+        "items": [
+          {
+            "shape": "triangle",
+            "color": "violet",
+            "angle": 116,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "turquoise",
+            "angle": 159,
+            "scale": 1.0
+          },
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 202,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "blue",
+            "angle": 245,
+            "scale": 0.8
+          },
+          {
+            "shape": "circle",
+            "color": "gold",
+            "angle": 288,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 331,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "violet",
+            "angle": 14,
+            "scale": 0.8
+          },
+          {
+            "shape": "circle",
+            "color": "turquoise",
+            "angle": 57,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          2,
+          4,
+          7
+        ],
+        "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_5.mp3"
+      },
+      {
+        "id": "find_1_6",
+        "kind": "find",
+        "target": "triangle",
+        "items": [
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 145,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "red",
+            "angle": 188,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "blue",
+            "angle": 231,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 274,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "green",
+            "angle": 317,
+            "scale": 1.0
+          },
+          {
+            "shape": "triangle",
+            "color": "violet",
+            "angle": 0,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "turquoise",
+            "angle": 43,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "red",
+            "angle": 86,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          0,
+          3,
+          5
+        ],
+        "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_6.mp3"
+      },
+      {
+        "id": "find_1_7",
+        "kind": "find",
+        "target": "square",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 174,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 217,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "gold",
+            "angle": 260,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 303,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "violet",
+            "angle": 346,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "turquoise",
+            "angle": 29,
+            "scale": 0.9
+          },
+          {
+            "shape": "square",
+            "color": "red",
+            "angle": 72,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "blue",
+            "angle": 115,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          1,
+          4,
+          6
+        ],
+        "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_7.mp3"
+      },
+      {
+        "id": "find_1_8",
+        "kind": "find",
+        "target": "rectangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 203,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 246,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 289,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "violet",
+            "angle": 332,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 15,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "red",
+            "angle": 58,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 101,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "gold",
+            "angle": 144,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 1,
+        "result": [
+          2,
+          5,
+          7
+        ],
+        "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_1_8.mp3"
+      },
+      {
+        "id": "find_2_1",
+        "kind": "find",
+        "target": "circle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 0,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 43,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "gold",
+            "angle": 86,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 129,
+            "scale": 0.8
+          },
+          {
+            "shape": "hexagon",
+            "color": "violet",
+            "angle": 172,
+            "scale": 1.0
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 215,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 258,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "blue",
+            "angle": 301,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          0,
+          3,
+          6
+        ],
+        "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_1.mp3"
+      },
+      {
+        "id": "find_2_2",
+        "kind": "find",
+        "target": "triangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 29,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 72,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 115,
+            "scale": 0.9
+          },
+          {
+            "shape": "pentagon",
+            "color": "violet",
+            "angle": 158,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 201,
+            "scale": 1.0
+          },
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 244,
+            "scale": 0.9
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 287,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 330,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          1,
+          4,
+          7
+        ],
+        "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_2.mp3"
+      },
+      {
+        "id": "find_2_3",
+        "kind": "find",
+        "target": "square",
+        "items": [
+          {
+            "shape": "square",
+            "color": "gold",
+            "angle": 58,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "green",
+            "angle": 101,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "violet",
+            "angle": 144,
+            "scale": 0.9
+          },
+          {
+            "shape": "pentagon",
+            "color": "turquoise",
+            "angle": 187,
+            "scale": 0.8
+          },
+          {
+            "shape": "hexagon",
+            "color": "red",
+            "angle": 230,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 273,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 316,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 359,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          0,
+          2,
+          5
+        ],
+        "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_3.mp3"
+      },
+      {
+        "id": "find_2_4",
+        "kind": "find",
+        "target": "rectangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 87,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "violet",
+            "angle": 130,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "turquoise",
+            "angle": 173,
+            "scale": 0.9
+          },
+          {
+            "shape": "rectangle",
+            "color": "red",
+            "angle": 216,
+            "scale": 0.8
+          },
+          {
+            "shape": "hexagon",
+            "color": "blue",
+            "angle": 259,
+            "scale": 1.0
+          },
+          {
+            "shape": "circle",
+            "color": "gold",
+            "angle": 302,
+            "scale": 0.9
+          },
+          {
+            "shape": "rectangle",
+            "color": "green",
+            "angle": 345,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "violet",
+            "angle": 28,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          1,
+          3,
+          6
+        ],
+        "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_4.mp3"
+      },
+      {
+        "id": "find_2_5",
+        "kind": "find",
+        "target": "pentagon",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "violet",
+            "angle": 116,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 159,
+            "scale": 1.0
+          },
+          {
+            "shape": "pentagon",
+            "color": "red",
+            "angle": 202,
+            "scale": 0.9
+          },
+          {
+            "shape": "rectangle",
+            "color": "blue",
+            "angle": 245,
+            "scale": 0.8
+          },
+          {
+            "shape": "pentagon",
+            "color": "gold",
+            "angle": 288,
+            "scale": 1.0
+          },
+          {
+            "shape": "circle",
+            "color": "green",
+            "angle": 331,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "violet",
+            "angle": 14,
+            "scale": 0.8
+          },
+          {
+            "shape": "pentagon",
+            "color": "turquoise",
+            "angle": 57,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          2,
+          4,
+          7
+        ],
+        "text": "Encuentra los tres pentágonos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_5.mp3"
+      },
+      {
+        "id": "find_2_6",
+        "kind": "find",
+        "target": "hexagon",
+        "items": [
+          {
+            "shape": "hexagon",
+            "color": "turquoise",
+            "angle": 145,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "red",
+            "angle": 188,
+            "scale": 1.0
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 231,
+            "scale": 0.9
+          },
+          {
+            "shape": "hexagon",
+            "color": "gold",
+            "angle": 274,
+            "scale": 0.8
+          },
+          {
+            "shape": "pentagon",
+            "color": "green",
+            "angle": 317,
+            "scale": 1.0
+          },
+          {
+            "shape": "hexagon",
+            "color": "violet",
+            "angle": 0,
+            "scale": 0.9
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 43,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "red",
+            "angle": 86,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          0,
+          3,
+          5
+        ],
+        "text": "Encuentra los tres hexágonos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_6.mp3"
+      },
+      {
+        "id": "find_2_7",
+        "kind": "find",
+        "target": "circle",
+        "items": [
+          {
+            "shape": "triangle",
+            "color": "red",
+            "angle": 174,
+            "scale": 0.8
+          },
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 217,
+            "scale": 1.0
+          },
+          {
+            "shape": "rectangle",
+            "color": "gold",
+            "angle": 260,
+            "scale": 0.9
+          },
+          {
+            "shape": "pentagon",
+            "color": "green",
+            "angle": 303,
+            "scale": 0.8
+          },
+          {
+            "shape": "circle",
+            "color": "violet",
+            "angle": 346,
+            "scale": 1.0
+          },
+          {
+            "shape": "triangle",
+            "color": "turquoise",
+            "angle": 29,
+            "scale": 0.9
+          },
+          {
+            "shape": "circle",
+            "color": "red",
+            "angle": 72,
+            "scale": 0.8
+          },
+          {
+            "shape": "rectangle",
+            "color": "blue",
+            "angle": 115,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          1,
+          4,
+          6
+        ],
+        "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_7.mp3"
+      },
+      {
+        "id": "find_2_8",
+        "kind": "find",
+        "target": "triangle",
+        "items": [
+          {
+            "shape": "circle",
+            "color": "blue",
+            "angle": 203,
+            "scale": 0.8
+          },
+          {
+            "shape": "square",
+            "color": "gold",
+            "angle": 246,
+            "scale": 1.0
+          },
+          {
+            "shape": "triangle",
+            "color": "green",
+            "angle": 289,
+            "scale": 0.9
+          },
+          {
+            "shape": "pentagon",
+            "color": "violet",
+            "angle": 332,
+            "scale": 0.8
+          },
+          {
+            "shape": "hexagon",
+            "color": "turquoise",
+            "angle": 15,
+            "scale": 1.0
+          },
+          {
+            "shape": "triangle",
+            "color": "red",
+            "angle": 58,
+            "scale": 0.9
+          },
+          {
+            "shape": "square",
+            "color": "blue",
+            "angle": 101,
+            "scale": 0.8
+          },
+          {
+            "shape": "triangle",
+            "color": "gold",
+            "angle": 144,
+            "scale": 1.0
+          }
+        ],
+        "difficulty": 2,
+        "result": [
+          2,
+          5,
+          7
+        ],
+        "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma.",
+        "audio": "res://assets/audio/llama/geometry_activities/find_2_8.mp3"
+      }
+    ],
+    "build_pattern": [
+      {
+        "id": "weave_1_1",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:red",
+          "rectangle:blue",
+          "square:red",
+          "triangle:blue"
+        ],
+        "result": [
+          "circle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_1.mp3"
+      },
+      {
+        "id": "weave_1_2",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:gold",
+          "circle:blue",
+          "rectangle:blue",
+          "hexagon:turquoise"
+        ],
+        "result": [
+          "square",
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_2.mp3"
+      },
+      {
+        "id": "weave_1_3",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:blue",
+          "hexagon:blue",
+          "triangle:gold",
+          "pentagon:turquoise"
+        ],
+        "result": [
+          "square",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_3.mp3"
+      },
+      {
+        "id": "weave_1_4",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:red",
+          "pentagon:red",
+          "triangle:blue",
+          "rectangle:gold"
+        ],
+        "result": [
+          "circle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_4.mp3"
+      },
+      {
+        "id": "weave_1_5",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:turquoise",
+          "hexagon:violet",
+          "square:gold",
+          "circle:blue"
+        ],
+        "result": [
+          "square",
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_5.mp3"
+      },
+      {
+        "id": "weave_1_6",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:blue",
+          "hexagon:turquoise",
+          "rectangle:green",
+          "triangle:gold"
+        ],
+        "result": [
+          "square",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_6.mp3"
+      },
+      {
+        "id": "weave_1_7",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:blue",
+          "pentagon:green",
+          "hexagon:gold",
+          "circle:red"
+        ],
+        "result": [
+          "circle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_7.mp3"
+      },
+      {
+        "id": "weave_1_8",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:gold",
+          "triangle:turquoise",
+          "hexagon:green",
+          "circle:blue"
+        ],
+        "result": [
+          "square",
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_1_8.mp3"
+      },
+      {
+        "id": "weave_2_1",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1,
+          3,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:blue",
+          "hexagon:turquoise",
+          "circle:turquoise",
+          "rectangle:blue"
+        ],
+        "result": [
+          "triangle",
+          "triangle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_1.mp3"
+      },
+      {
+        "id": "weave_2_2",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1,
+          6,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:gold",
+          "hexagon:blue",
+          "circle:blue",
+          "pentagon:turquoise"
+        ],
+        "result": [
+          "square",
+          "square",
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_2.mp3"
+      },
+      {
+        "id": "weave_2_3",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1,
+          6,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:blue",
+          "rectangle:gold",
+          "circle:red",
+          "triangle:gold"
+        ],
+        "result": [
+          "square",
+          "circle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_3.mp3"
+      },
+      {
+        "id": "weave_2_4",
+        "kind": "pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1,
+          3,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "square:green",
+          "circle:violet",
+          "hexagon:violet",
+          "rectangle:turquoise"
+        ],
+        "result": [
+          "hexagon",
+          "hexagon",
+          "hexagon"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_4.mp3"
+      },
+      {
+        "id": "weave_2_5",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1,
+          3,
+          5
+        ],
+        "color_matters": true,
+        "options": [
+          "circle:blue",
+          "triangle:red",
+          "square:gold",
+          "hexagon:turquoise"
+        ],
+        "result": [
+          "circle:blue",
+          "circle:blue",
+          "circle:blue"
+        ],
+        "text": "Completa los huecos del patrón. Mira la forma y el color.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_5.mp3"
+      },
+      {
+        "id": "weave_2_6",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1,
+          3,
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "hexagon:gold",
+          "circle:gold",
+          "pentagon:green",
+          "triangle:blue"
+        ],
+        "result": [
+          "triangle",
+          "triangle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_6.mp3"
+      },
+      {
+        "id": "weave_2_7",
+        "kind": "pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1,
+          6,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:gold",
+          "triangle:turquoise",
+          "hexagon:green",
+          "circle:blue"
+        ],
+        "result": [
+          "square",
+          "square",
+          "circle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_7.mp3"
+      },
+      {
+        "id": "weave_2_8",
+        "kind": "pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1,
+          6,
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:red",
+          "square:blue",
+          "rectangle:violet",
+          "triangle:gold"
+        ],
+        "result": [
+          "square",
+          "circle",
+          "triangle"
+        ],
+        "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/weave_2_8.mp3"
+      }
+    ],
+    "count_sides": [
+      {
+        "id": "outline_1_1",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 0,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_1.mp3"
+      },
+      {
+        "id": "outline_1_2",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "vertices",
+        "angle": 37,
+        "result": 4,
+        "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_2.mp3"
+      },
+      {
+        "id": "outline_1_3",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 74,
+        "result": 3,
+        "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_3.mp3"
+      },
+      {
+        "id": "outline_1_4",
+        "kind": "count",
+        "shape": "square",
+        "part": "vertices",
+        "angle": 111,
+        "result": 4,
+        "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_4.mp3"
+      },
+      {
+        "id": "outline_1_5",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "sides",
+        "angle": 148,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_5.mp3"
+      },
+      {
+        "id": "outline_1_6",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 185,
+        "result": 3,
+        "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_6.mp3"
+      },
+      {
+        "id": "outline_1_7",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 222,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_7.mp3"
+      },
+      {
+        "id": "outline_1_8",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "vertices",
+        "angle": 259,
+        "result": 4,
+        "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay.",
+        "difficulty": 1,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_1_8.mp3"
+      },
+      {
+        "id": "outline_2_1",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 0,
+        "result": 3,
+        "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_1.mp3"
+      },
+      {
+        "id": "outline_2_2",
+        "kind": "count",
+        "shape": "square",
+        "part": "vertices",
+        "angle": 37,
+        "result": 4,
+        "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_2.mp3"
+      },
+      {
+        "id": "outline_2_3",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "sides",
+        "angle": 74,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_3.mp3"
+      },
+      {
+        "id": "outline_2_4",
+        "kind": "count",
+        "shape": "pentagon",
+        "part": "vertices",
+        "angle": 111,
+        "result": 5,
+        "text": "Toca uno a uno los vértices o esquinas del pentágono. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_4.mp3"
+      },
+      {
+        "id": "outline_2_5",
+        "kind": "count",
+        "shape": "hexagon",
+        "part": "sides",
+        "angle": 148,
+        "result": 6,
+        "text": "Toca uno a uno los lados rectos del hexágono. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_5.mp3"
+      },
+      {
+        "id": "outline_2_6",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 185,
+        "result": 3,
+        "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_6.mp3"
+      },
+      {
+        "id": "outline_2_7",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 222,
+        "result": 4,
+        "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_7.mp3"
+      },
+      {
+        "id": "outline_2_8",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "vertices",
+        "angle": 259,
+        "result": 4,
+        "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay.",
+        "difficulty": 2,
+        "audio": "res://assets/audio/llama/geometry_activities/outline_2_8.mp3"
+      }
+    ],
+    "quick_challenge": [
+      {
+        "id": "sky_flat_shapes_1_q1",
+        "kind": "plane",
+        "shape": "circle",
+        "angle": 0,
+        "color": "gold",
+        "options": [
+          "hexagon",
+          "circle",
+          "triangle",
+          "square"
+        ],
+        "result": "circle",
+        "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_1_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_1_q2",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 35,
+        "color": "green",
+        "options": [
+          "circle",
+          "hexagon",
+          "triangle",
+          "square"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_1_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_1_q3",
+        "kind": "plane",
+        "shape": "circle",
+        "angle": 90,
+        "color": "violet",
+        "options": [
+          "triangle",
+          "circle",
+          "rectangle",
+          "hexagon"
+        ],
+        "result": "circle",
+        "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_1_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_1_q4",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 160,
+        "color": "turquoise",
+        "options": [
+          "circle",
+          "hexagon",
+          "square",
+          "triangle"
+        ],
+        "result": "square",
+        "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_1_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_1_q5",
+        "kind": "plane",
+        "shape": "circle",
+        "angle": 240,
+        "color": "red",
+        "options": [
+          "pentagon",
+          "circle",
+          "rectangle",
+          "triangle"
+        ],
+        "result": "circle",
+        "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_1_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_2_q1",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 0,
+        "color": "green",
+        "options": [
+          "circle",
+          "hexagon",
+          "triangle",
+          "square"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_2_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_2_q2",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 35,
+        "color": "violet",
+        "options": [
+          "circle",
+          "triangle",
+          "rectangle",
+          "hexagon"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_2_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_2_q3",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 90,
+        "color": "turquoise",
+        "options": [
+          "circle",
+          "hexagon",
+          "triangle",
+          "pentagon"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_2_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_2_q4",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 160,
+        "color": "red",
+        "options": [
+          "square",
+          "triangle",
+          "rectangle",
+          "pentagon"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_2_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_2_q5",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 240,
+        "color": "blue",
+        "options": [
+          "triangle",
+          "rectangle",
+          "hexagon",
+          "square"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_2_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_3_q1",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 0,
+        "color": "violet",
+        "options": [
+          "circle",
+          "square",
+          "triangle",
+          "hexagon"
+        ],
+        "result": "square",
+        "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_3_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_3_q2",
+        "kind": "plane",
+        "shape": "rectangle",
+        "angle": 35,
+        "color": "turquoise",
+        "options": [
+          "circle",
+          "hexagon",
+          "rectangle",
+          "triangle"
+        ],
+        "result": "rectangle",
+        "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_3_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_3_q3",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 90,
+        "color": "red",
+        "options": [
+          "pentagon",
+          "square",
+          "rectangle",
+          "triangle"
+        ],
+        "result": "square",
+        "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_3_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_3_q4",
+        "kind": "plane",
+        "shape": "rectangle",
+        "angle": 160,
+        "color": "blue",
+        "options": [
+          "rectangle",
+          "square",
+          "triangle",
+          "hexagon"
+        ],
+        "result": "rectangle",
+        "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_3_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_3_q5",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 240,
+        "color": "gold",
+        "options": [
+          "circle",
+          "hexagon",
+          "pentagon",
+          "square"
+        ],
+        "result": "square",
+        "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_3_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_4_q1",
+        "kind": "plane",
+        "shape": "pentagon",
+        "angle": 0,
+        "color": "turquoise",
+        "options": [
+          "circle",
+          "hexagon",
+          "pentagon",
+          "triangle"
+        ],
+        "result": "pentagon",
+        "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_4_q1.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_4_q2",
+        "kind": "plane",
+        "shape": "hexagon",
+        "angle": 35,
+        "color": "red",
+        "options": [
+          "pentagon",
+          "hexagon",
+          "rectangle",
+          "triangle"
+        ],
+        "result": "hexagon",
+        "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_4_q2.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_4_q3",
+        "kind": "plane",
+        "shape": "pentagon",
+        "angle": 90,
+        "color": "blue",
+        "options": [
+          "pentagon",
+          "rectangle",
+          "hexagon",
+          "square"
+        ],
+        "result": "pentagon",
+        "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_4_q3.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_4_q4",
+        "kind": "plane",
+        "shape": "hexagon",
+        "angle": 160,
+        "color": "gold",
+        "options": [
+          "square",
+          "circle",
+          "pentagon",
+          "hexagon"
+        ],
+        "result": "hexagon",
+        "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_4_q4.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_4_q5",
+        "kind": "plane",
+        "shape": "pentagon",
+        "angle": 240,
+        "color": "green",
+        "options": [
+          "pentagon",
+          "circle",
+          "rectangle",
+          "square"
+        ],
+        "result": "pentagon",
+        "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_4_q5.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_5_q1",
+        "kind": "plane",
+        "shape": "square",
+        "angle": 0,
+        "color": "red",
+        "options": [
+          "pentagon",
+          "square",
+          "rectangle",
+          "triangle"
+        ],
+        "result": "square",
+        "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_5_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_5_q2",
+        "kind": "plane",
+        "shape": "triangle",
+        "angle": 35,
+        "color": "blue",
+        "options": [
+          "triangle",
+          "rectangle",
+          "hexagon",
+          "square"
+        ],
+        "result": "triangle",
+        "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_5_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_5_q3",
+        "kind": "plane",
+        "shape": "rectangle",
+        "angle": 90,
+        "color": "gold",
+        "options": [
+          "square",
+          "circle",
+          "pentagon",
+          "rectangle"
+        ],
+        "result": "rectangle",
+        "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_5_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_flat_shapes_5_q4",
+        "kind": "plane",
+        "shape": "pentagon",
+        "angle": 160,
+        "color": "green",
+        "options": [
+          "pentagon",
+          "circle",
+          "rectangle",
+          "square"
+        ],
+        "result": "pentagon",
+        "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_5_q4.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_flat_shapes_5_q5",
+        "kind": "plane",
+        "shape": "hexagon",
+        "angle": 240,
+        "color": "violet",
+        "options": [
+          "circle",
+          "pentagon",
+          "hexagon",
+          "rectangle"
+        ],
+        "result": "hexagon",
+        "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_flat_shapes_5_q5.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_solid_shapes_1_q1",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cone",
+          "sphere",
+          "cylinder"
+        ],
+        "result": "cube",
+        "text": "Lleva el globo hasta el cubo. Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_1_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_1_q2",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": true,
+        "options": [
+          "cube",
+          "cone",
+          "sphere",
+          "cylinder"
+        ],
+        "result": "cube",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_1_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_1_q3",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": false,
+        "options": [
+          "cone",
+          "cylinder",
+          "cube",
+          "sphere"
+        ],
+        "result": "cube",
+        "text": "Lleva el globo hasta el cubo. Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_1_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_1_q4",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": true,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "cube",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_1_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_1_q5",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": false,
+        "options": [
+          "sphere",
+          "cone",
+          "cylinder",
+          "cube"
+        ],
+        "result": "cube",
+        "text": "Lleva el globo hasta el cubo. Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_1_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_2_q1",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cone",
+          "sphere",
+          "cylinder"
+        ],
+        "result": "sphere",
+        "text": "Lleva el globo hasta la esfera. Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_2_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_2_q2",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": true,
+        "options": [
+          "cone",
+          "cylinder",
+          "cube",
+          "sphere"
+        ],
+        "result": "sphere",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_2_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_2_q3",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "sphere",
+        "text": "Lleva el globo hasta la esfera. Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_2_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_2_q4",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cone",
+          "cylinder",
+          "cube"
+        ],
+        "result": "sphere",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_2_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_2_q5",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "sphere",
+        "text": "Lleva el globo hasta la esfera. Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_2_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_3_q1",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": false,
+        "options": [
+          "cone",
+          "cylinder",
+          "cube",
+          "sphere"
+        ],
+        "result": "cylinder",
+        "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_3_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_3_q2",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": true,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "cylinder",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_3_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_3_q3",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": false,
+        "options": [
+          "sphere",
+          "cone",
+          "cylinder",
+          "cube"
+        ],
+        "result": "cylinder",
+        "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_3_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_3_q4",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": true,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "cylinder",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_3_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_3_q5",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": false,
+        "options": [
+          "sphere",
+          "cube",
+          "cone",
+          "cylinder"
+        ],
+        "result": "cylinder",
+        "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_3_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_4_q1",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "cone",
+        "text": "Lleva el globo hasta el cono. Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_4_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_4_q2",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cone",
+          "cylinder",
+          "cube"
+        ],
+        "result": "cone",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_4_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_4_q3",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": false,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "cone",
+        "text": "Lleva el globo hasta el cono. Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_4_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_4_q4",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cube",
+          "cone",
+          "cylinder"
+        ],
+        "result": "cone",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_4_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_4_q5",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": false,
+        "options": [
+          "cone",
+          "cube",
+          "sphere",
+          "cylinder"
+        ],
+        "result": "cone",
+        "text": "Lleva el globo hasta el cono. Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_4_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_5_q1",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cone",
+          "cylinder",
+          "cube"
+        ],
+        "result": "cube",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_5_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_5_q2",
+        "kind": "solid",
+        "shape": "sphere",
+        "object_match": true,
+        "options": [
+          "cube",
+          "cylinder",
+          "cone",
+          "sphere"
+        ],
+        "result": "sphere",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "La esfera tiene una superficie curva y ninguna cara plana.",
+        "spoken_name": "la esfera",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_5_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_5_q3",
+        "kind": "solid",
+        "shape": "cylinder",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cube",
+          "cone",
+          "cylinder"
+        ],
+        "result": "cylinder",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cilindro tiene dos bases circulares y una superficie lateral curva.",
+        "spoken_name": "el cilindro",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_5_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_5_q4",
+        "kind": "solid",
+        "shape": "cone",
+        "object_match": true,
+        "options": [
+          "cone",
+          "cube",
+          "sphere",
+          "cylinder"
+        ],
+        "result": "cone",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cono tiene una base circular, una superficie curva y una punta.",
+        "spoken_name": "el cono",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_5_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_solid_shapes_5_q5",
+        "kind": "solid",
+        "shape": "cube",
+        "object_match": true,
+        "options": [
+          "sphere",
+          "cone",
+          "cube",
+          "cylinder"
+        ],
+        "result": "cube",
+        "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar.",
+        "fact": "El cubo tiene seis caras planas cuadradas.",
+        "spoken_name": "el cubo",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_solid_shapes_5_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_1_q1",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 0,
+        "result": 3,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_1_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_1_q2",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 33,
+        "result": 3,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_1_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_1_q3",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 66,
+        "result": 3,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_1_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_1_q4",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 99,
+        "result": 3,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_1_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_1_q5",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "sides",
+        "angle": 132,
+        "result": 3,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_1_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_2_q1",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 0,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_2_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_2_q2",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 33,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_2_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_2_q3",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 66,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_2_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_2_q4",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 99,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_2_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_2_q5",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 132,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_2_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_3_q1",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 0,
+        "result": 4,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_3_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_3_q2",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "vertices",
+        "angle": 33,
+        "result": 4,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_3_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_3_q3",
+        "kind": "count",
+        "shape": "square",
+        "part": "vertices",
+        "angle": 66,
+        "result": 4,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_3_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_3_q4",
+        "kind": "count",
+        "shape": "rectangle",
+        "part": "sides",
+        "angle": 99,
+        "result": 4,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_3_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_3_q5",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 132,
+        "result": 4,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_3_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_4_q1",
+        "kind": "count",
+        "shape": "pentagon",
+        "part": "sides",
+        "angle": 0,
+        "result": 5,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_4_q1.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_sides_vertices_4_q2",
+        "kind": "count",
+        "shape": "hexagon",
+        "part": "vertices",
+        "angle": 33,
+        "result": 6,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_4_q2.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_sides_vertices_4_q3",
+        "kind": "count",
+        "shape": "pentagon",
+        "part": "vertices",
+        "angle": 66,
+        "result": 5,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_4_q3.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_sides_vertices_4_q4",
+        "kind": "count",
+        "shape": "hexagon",
+        "part": "sides",
+        "angle": 99,
+        "result": 6,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_4_q4.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_sides_vertices_4_q5",
+        "kind": "count",
+        "shape": "pentagon",
+        "part": "sides",
+        "angle": 132,
+        "result": 5,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_4_q5.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_sides_vertices_5_q1",
+        "kind": "count",
+        "shape": "circle",
+        "part": "sides",
+        "angle": 0,
+        "result": 0,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_5_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_5_q2",
+        "kind": "count",
+        "shape": "triangle",
+        "part": "vertices",
+        "angle": 33,
+        "result": 3,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_5_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_5_q3",
+        "kind": "count",
+        "shape": "circle",
+        "part": "sides",
+        "angle": 66,
+        "result": 0,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_5_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_5_q4",
+        "kind": "count",
+        "shape": "square",
+        "part": "sides",
+        "angle": 99,
+        "result": 4,
+        "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_5_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_sides_vertices_5_q5",
+        "kind": "count",
+        "shape": "hexagon",
+        "part": "vertices",
+        "angle": 132,
+        "result": 6,
+        "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_sides_vertices_5_q5.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_shape_patterns_1_q1",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:blue",
+          "hexagon:blue",
+          "pentagon:violet",
+          "rectangle:blue"
+        ],
+        "result": "triangle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_1_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_1_q2",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          2
+        ],
+        "color_matters": false,
+        "options": [
+          "square:violet",
+          "rectangle:turquoise",
+          "hexagon:gold",
+          "circle:red"
+        ],
+        "result": "circle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_1_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_1_q3",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:gold",
+          "triangle:violet",
+          "square:turquoise",
+          "circle:red"
+        ],
+        "result": "circle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_1_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_1_q4",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1
+        ],
+        "color_matters": false,
+        "options": [
+          "pentagon:blue",
+          "rectangle:green",
+          "circle:blue",
+          "triangle:blue"
+        ],
+        "result": "triangle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_1_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_1_q5",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue",
+          "circle:red",
+          "triangle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:blue",
+          "pentagon:blue",
+          "square:violet",
+          "circle:turquoise"
+        ],
+        "result": "triangle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_1_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_2_q1",
+        "kind": "sky_pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "square:violet",
+          "rectangle:turquoise",
+          "hexagon:gold",
+          "circle:blue"
+        ],
+        "result": "circle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_2_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_2_q2",
+        "kind": "sky_pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          2
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:gold",
+          "triangle:violet",
+          "square:turquoise",
+          "circle:blue"
+        ],
+        "result": "circle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_2_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_2_q3",
+        "kind": "sky_pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:green",
+          "triangle:green",
+          "pentagon:blue",
+          "square:gold"
+        ],
+        "result": "square",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_2_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_2_q4",
+        "kind": "sky_pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1
+        ],
+        "color_matters": false,
+        "options": [
+          "square:gold",
+          "pentagon:blue",
+          "rectangle:turquoise",
+          "circle:turquoise"
+        ],
+        "result": "square",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_2_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_2_q5",
+        "kind": "sky_pattern",
+        "sequence": [
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue",
+          "square:gold",
+          "square:gold",
+          "circle:blue"
+        ],
+        "unit_size": 3,
+        "holes": [
+          6
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:violet",
+          "square:gold",
+          "pentagon:violet",
+          "hexagon:green"
+        ],
+        "result": "square",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: cuadrado, cuadrado, círculo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_2_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_3_q1",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          8
+        ],
+        "color_matters": false,
+        "options": [
+          "circle:red",
+          "rectangle:gold",
+          "square:turquoise",
+          "triangle:gold"
+        ],
+        "result": "triangle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_3_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_3_q2",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          2
+        ],
+        "color_matters": false,
+        "options": [
+          "pentagon:blue",
+          "rectangle:green",
+          "circle:blue",
+          "triangle:gold"
+        ],
+        "result": "triangle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_3_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_3_q3",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          7
+        ],
+        "color_matters": false,
+        "options": [
+          "square:blue",
+          "pentagon:blue",
+          "rectangle:turquoise",
+          "circle:turquoise"
+        ],
+        "result": "square",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_3_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_3_q4",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          1
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:violet",
+          "square:blue",
+          "pentagon:violet",
+          "hexagon:green"
+        ],
+        "result": "square",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_3_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_3_q5",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold",
+          "circle:red",
+          "square:blue",
+          "triangle:gold"
+        ],
+        "unit_size": 3,
+        "holes": [
+          6
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:red",
+          "pentagon:red",
+          "triangle:green",
+          "circle:red"
+        ],
+        "result": "circle",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo, cuadrado, triángulo.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_3_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_4_q1",
+        "kind": "sky_pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          5
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:green",
+          "triangle:green",
+          "pentagon:blue",
+          "hexagon:violet"
+        ],
+        "result": "hexagon",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_4_q1.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_4_q2",
+        "kind": "sky_pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          2
+        ],
+        "color_matters": false,
+        "options": [
+          "pentagon:green",
+          "square:violet",
+          "rectangle:turquoise",
+          "circle:turquoise"
+        ],
+        "result": "pentagon",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_4_q2.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_4_q3",
+        "kind": "sky_pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4
+        ],
+        "color_matters": false,
+        "options": [
+          "triangle:violet",
+          "pentagon:green",
+          "rectangle:red",
+          "hexagon:green"
+        ],
+        "result": "pentagon",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_4_q3.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_4_q4",
+        "kind": "sky_pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1
+        ],
+        "color_matters": false,
+        "options": [
+          "rectangle:red",
+          "circle:turquoise",
+          "pentagon:red",
+          "hexagon:violet"
+        ],
+        "result": "hexagon",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_4_q4.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_4_q5",
+        "kind": "sky_pattern",
+        "sequence": [
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet",
+          "pentagon:green",
+          "hexagon:violet"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": false,
+        "options": [
+          "pentagon:turquoise",
+          "square:gold",
+          "hexagon:violet",
+          "rectangle:red"
+        ],
+        "result": "hexagon",
+        "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: pentágono, hexágono.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_4_q5.mp3",
+        "difficulty": 1
+      },
+      {
+        "id": "sky_shape_patterns_5_q1",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          5
+        ],
+        "color_matters": true,
+        "options": [
+          "circle:blue",
+          "pentagon:blue",
+          "square:violet",
+          "circle:turquoise"
+        ],
+        "result": "circle:blue",
+        "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_5_q1.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_shape_patterns_5_q2",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          2
+        ],
+        "color_matters": true,
+        "options": [
+          "triangle:violet",
+          "circle:red",
+          "hexagon:green",
+          "triangle:green"
+        ],
+        "result": "circle:red",
+        "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_5_q2.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_shape_patterns_5_q3",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          4
+        ],
+        "color_matters": true,
+        "options": [
+          "rectangle:red",
+          "circle:turquoise",
+          "pentagon:red",
+          "circle:red"
+        ],
+        "result": "circle:red",
+        "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_5_q3.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_shape_patterns_5_q4",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          1
+        ],
+        "color_matters": true,
+        "options": [
+          "rectangle:green",
+          "square:gold",
+          "circle:blue",
+          "rectangle:red"
+        ],
+        "result": "circle:blue",
+        "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_5_q4.mp3",
+        "difficulty": 2
+      },
+      {
+        "id": "sky_shape_patterns_5_q5",
+        "kind": "sky_pattern",
+        "sequence": [
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue",
+          "circle:red",
+          "circle:blue"
+        ],
+        "unit_size": 2,
+        "holes": [
+          3
+        ],
+        "color_matters": true,
+        "options": [
+          "rectangle:red",
+          "circle:blue",
+          "triangle:red",
+          "pentagon:violet"
+        ],
+        "result": "circle:blue",
+        "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar.",
+        "rule": "La parte que se repite es: círculo rojo, círculo azul.",
+        "audio": "res://assets/audio/llama/geometry_activities/sky_shape_patterns_5_q5.mp3",
+        "difficulty": 2
+      }
+    ]
+  }
+}

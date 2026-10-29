@@ -243,7 +243,7 @@ func _show_topic(id: String) -> void:
 		return
 	selected_topic = id
 	topic_selected.emit(id)
-	if section_id in ["mathematics", "numbers"]:
+	if section_id in ["mathematics", "numbers", "geometry"]:
 		_open_math_activity(id)
 		return
 	var column := _open_dialog(topic.title, topic.color)
@@ -264,6 +264,7 @@ func _open_math_activity(id: String) -> void:
 	_stop_voice()
 	design.hide()
 	var scene_path := "res://scenes/number_activity.tscn" if section_id == "numbers" else "res://scenes/math_activity.tscn"
+	if section_id == "geometry": scene_path = "res://scenes/geometry_activity.tscn"
 	var screen: Control = load(scene_path).instantiate()
 	screen.set("topic_id", id)
 	screen.connect("back_requested", _close_math_activity)
@@ -288,6 +289,7 @@ func _show_help() -> void:
 	var guidance := "Toca una tarjeta para conocer su tema.\nToca la llama para repetir la bienvenida.\nEn Configuración puedes ajustar su voz."
 	if section_id == "mathematics": guidance = "Las cuatro operaciones tienen misiones para aprender paso a paso. Abajo encontrarás cuatro juegos para practicar. En la aventura mueve la llama con flechas y salta con Espacio o con los controles táctiles."
 	if section_id == "numbers": guidance = "Las cifras tienen su lugar: unidades, decenas, centenas y millares. Cada sección central tiene cinco misiones. Abajo encontrarás el mercado, los puentes, las comparaciones y el tren. Puedes tocar, arrastrar cifras, escuchar y pedir pistas."
+	if section_id == "geometry": guidance = "Explora figuras y gira cuerpos en 3D. Toca lados o vértices para contarlos y completa patrones. Cada tarjeta central tiene cinco misiones con un ejemplo guiado. Abajo encontrarás el safari, el telar, el taller de contornos y el vuelo en globo."
 	_add_paragraph(column, guidance, 21)
 	_add_paragraph(column, "Tu progreso se guardará en este dispositivo al completar actividades. Explorar el menú no suma estrellas.", 18)
 	_add_close_button(column)

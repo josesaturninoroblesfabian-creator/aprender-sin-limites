@@ -55,7 +55,7 @@ func _run() -> void:
 		for topic in section.topics:
 			(menu.get("buttons")[topic.id] as Button).pressed.emit()
 			_check(menu.get("selected_topic") == topic.id, "Wrong topic selected in %s" % pair[1])
-			if pair[1] in ["mathematics", "numbers"]:
+			if pair[1] in ["mathematics", "numbers", "geometry"]:
 				var activity: Control = menu.get("math_activity")
 				_check(is_instance_valid(activity) and activity.get("topic_id") == topic.id, "The native learning activity did not open")
 				_check(not menu.get("design").visible and not player.playing, "The learning menu overlapped its activity")

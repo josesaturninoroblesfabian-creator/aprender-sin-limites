@@ -45,7 +45,7 @@ def composition(n, width):
 def question(kind, n, width, qid, **extra):
     q = {"id": qid, "kind": kind, "number": n, "width": width, **extra}
     if kind == "build":
-        q.update(text=f"Construye el número {n}. Coloca cada cifra en su columna.", result=n)
+        q.update(text=f"Forma el número {n} con las piezas.", result=n)
     elif kind == "read":
         q.update(text=f"Encuentra el número: {words(n)}.", result=n, written=words(n))
     elif kind == "place":
@@ -104,15 +104,16 @@ def build():
         "sequences": "Construye el puente de los números. Descubre la regla de los saltos. Arrastra la piedra correcta al hueco o tócala. La llama cruzará cuando completes la secuencia.",
         "compare": "Compara los dos números. Empieza por la columna de mayor valor. Elige mayor que, menor que o igual. El lado abierto del signo mira al número mayor.",
         "quick_challenge": "¡Todos a bordo del tren de los números! Escucha la pregunta, elige una vía y pulsa Viajar. La respuesta correcta lleva el paquete a su estación. Puedes jugar sin reloj.",
-        "help": "Escucha la consigna. Toca una columna y elige una cifra, o arrástrala hasta su lugar. En cada juego puedes pedir una pista y volver a intentarlo.",
+        "help": "Escucha la consigna. Para construir, arrastra las piezas a su columna o toca Añadir. Cada cubito vale uno, una barra vale diez, una placa cien y un cubo grande mil. Para quitar una pieza, toca Quitar o devuélvela a la bandeja.",
+        "blocks": "Primero mira el número que queremos formar. Arrastra las piezas a la columna de su mismo color o toca Añadir. El número de abajo cambia con cada pieza. Si sobran piezas, toca Quitar. Cuando esté listo, pulsa Comprobar. Para formar cero, deja el espacio vacío.",
         "correct": "¡Bien pensado! Descubriste cómo funciona el número.",
         "retry": "Observa otra vez. Cada columna tiene un valor. Puedes mirar la pista y volver a intentarlo.",
         "done": "¡Misión completada! Tus cinco descubrimientos quedaron guardados.",
         "model_done": "¡Lo construiste! Ahora tienes cinco retos para practicar a tu ritmo.",
         "resume": "Seguimos con tu misión. Tus respuestas y tus pistas anteriores se conservaron.",
-        "exchange_units": "Aquí hay diez unidades. Toca Canjear para cambiarlas por una decena. La cantidad sigue siendo diez.",
-        "exchange_tens": "Aquí hay diez decenas. Cámbialas por una centena. La cantidad sigue siendo cien.",
-        "exchange_hundreds": "Aquí hay diez centenas. Cámbialas por una unidad de millar. La cantidad sigue siendo mil.",
+        "exchange_units": "Aquí hay diez unidades. Toca Cambiar diez piezas por una para convertirlas en una decena. La cantidad sigue siendo diez.",
+        "exchange_tens": "Aquí hay diez decenas. Toca Cambiar diez piezas por una para convertirlas en una centena. La cantidad sigue siendo cien.",
+        "exchange_hundreds": "Aquí hay diez centenas. Toca Cambiar diez piezas por una para convertirlas en una unidad de millar. La cantidad sigue siendo mil.",
         "count": "Toca cada producto una vez. Mira cómo viaja a la canasta. Cuando los marques todos, elige el total.",
         "sequence_done": "¡El puente está completo! La regla sirve para todos sus pasos.",
         "comparison_done": "¡Eso es! Puedes comparar primero la columna de mayor valor que cambia.",
@@ -140,10 +141,23 @@ def build():
         model_n = {1: 4, 2: 23, 3: 234, 4: 1234}[width]
         if tier == 1 and width > 1: model_n = 10 ** (width - 1)
         if tier == 3 and width > 1: model_n = {2: 20, 3: 105, 4: 1002}[width]
+        extra = {}
+        if kind == "neighbor":
+            model_n = {1: 4, 2: 19, 3: 199, 4: 1999}[width]
+            extra["offset"] = 1
+        elif kind == "place":
+            extra["place"] = 1
+        elif kind == "order":
+            extra["values"] = [4, 1, 3] if width == 1 else [1234, 1024, 1204]
+            model_n = extra["values"][0]
+        model = question(kind, model_n, width, lid + "_model", **extra)
+        if kind == "build":
+            model["text"] = f"Vamos a formar {words(model_n)}. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar."
+        clips[model["id"]] = {"text": model["text"], "file": model["id"] + ".mp3"}
         intro = title + ". " + aim + " Primero descubrimos un ejemplo moviendo las piezas. Después tienes cinco retos."
         clips[lid + "_intro"] = {"text": intro, "file": lid + "_intro.mp3"}
         lessons.append({"id": lid, "topic": topic, "tier": tier, "width": width, "title": title, "aim": aim,
-                        "model_number": model_n, "exchange_place": width - 2 if tier == 1 and width > 1 else -1,
+                        "model_number": model_n, "model": model, "exchange_place": width - 2 if tier == 1 and width > 1 else -1,
                         "questions": questions})
     sequences = []
     # Each row: first number, step, missing index. All five terms stay in range.

@@ -9,6 +9,15 @@
       "title": "Reconozco cantidades",
       "aim": "Cada objeto cuenta una vez. Cero significa que no hay ninguno.",
       "model_number": 4,
+      "model": {
+        "id": "one_digit_1_model",
+        "kind": "build",
+        "number": 4,
+        "width": 1,
+        "text": "Vamos a formar cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 4,
+        "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -16,7 +25,7 @@
           "kind": "build",
           "number": 0,
           "width": 1,
-          "text": "Construye el número 0. Coloca cada cifra en su columna.",
+          "text": "Forma el número 0 con las piezas.",
           "result": 0,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q1.mp3"
         },
@@ -25,7 +34,7 @@
           "kind": "build",
           "number": 2,
           "width": 1,
-          "text": "Construye el número 2. Coloca cada cifra en su columna.",
+          "text": "Forma el número 2 con las piezas.",
           "result": 2,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q2.mp3"
         },
@@ -34,7 +43,7 @@
           "kind": "build",
           "number": 5,
           "width": 1,
-          "text": "Construye el número 5. Coloca cada cifra en su columna.",
+          "text": "Forma el número 5 con las piezas.",
           "result": 5,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q3.mp3"
         },
@@ -43,7 +52,7 @@
           "kind": "build",
           "number": 7,
           "width": 1,
-          "text": "Construye el número 7. Coloca cada cifra en su columna.",
+          "text": "Forma el número 7 con las piezas.",
           "result": 7,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q4.mp3"
         },
@@ -52,7 +61,7 @@
           "kind": "build",
           "number": 9,
           "width": 1,
-          "text": "Construye el número 9. Coloca cada cifra en su columna.",
+          "text": "Forma el número 9 con las piezas.",
           "result": 9,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_1_q5.mp3"
         }
@@ -66,6 +75,15 @@
       "title": "Construyo mi número",
       "aim": "Las unidades forman los números de una cifra.",
       "model_number": 4,
+      "model": {
+        "id": "one_digit_2_model",
+        "kind": "build",
+        "number": 4,
+        "width": 1,
+        "text": "Vamos a formar cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 4,
+        "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -73,7 +91,7 @@
           "kind": "build",
           "number": 3,
           "width": 1,
-          "text": "Construye el número 3. Coloca cada cifra en su columna.",
+          "text": "Forma el número 3 con las piezas.",
           "result": 3,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q1.mp3"
         },
@@ -82,7 +100,7 @@
           "kind": "build",
           "number": 1,
           "width": 1,
-          "text": "Construye el número 1. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1 con las piezas.",
           "result": 1,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q2.mp3"
         },
@@ -91,7 +109,7 @@
           "kind": "build",
           "number": 6,
           "width": 1,
-          "text": "Construye el número 6. Coloca cada cifra en su columna.",
+          "text": "Forma el número 6 con las piezas.",
           "result": 6,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q3.mp3"
         },
@@ -100,7 +118,7 @@
           "kind": "build",
           "number": 8,
           "width": 1,
-          "text": "Construye el número 8. Coloca cada cifra en su columna.",
+          "text": "Forma el número 8 con las piezas.",
           "result": 8,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q4.mp3"
         },
@@ -109,7 +127,7 @@
           "kind": "build",
           "number": 4,
           "width": 1,
-          "text": "Construye el número 4. Coloca cada cifra en su columna.",
+          "text": "Forma el número 4 con las piezas.",
           "result": 4,
           "audio": "res://assets/audio/llama/numbers_activities/one_digit_2_q5.mp3"
         }
@@ -123,6 +141,16 @@
       "title": "Lo escucho y lo encuentro",
       "aim": "Relaciona el nombre que escuchas con su cifra.",
       "model_number": 4,
+      "model": {
+        "id": "one_digit_3_model",
+        "kind": "read",
+        "number": 4,
+        "width": 1,
+        "text": "Encuentra el número: cuatro.",
+        "result": 4,
+        "written": "cuatro",
+        "audio": "res://assets/audio/llama/numbers_activities/one_digit_3_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -185,6 +213,16 @@
       "title": "Antes y después",
       "aim": "Avanza o retrocede un lugar en la recta.",
       "model_number": 4,
+      "model": {
+        "id": "one_digit_4_model",
+        "kind": "neighbor",
+        "number": 4,
+        "width": 1,
+        "offset": 1,
+        "text": "¿Qué número va después de 4?",
+        "result": 5,
+        "audio": "res://assets/audio/llama/numbers_activities/one_digit_4_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -247,6 +285,24 @@
       "title": "Del menor al mayor",
       "aim": "Compara y coloca tres números en orden.",
       "model_number": 4,
+      "model": {
+        "id": "one_digit_5_model",
+        "kind": "order",
+        "number": 4,
+        "width": 1,
+        "values": [
+          4,
+          1,
+          3
+        ],
+        "text": "Ordena de menor a mayor: 4, 1, 3.",
+        "result": [
+          1,
+          3,
+          4
+        ],
+        "audio": "res://assets/audio/llama/numbers_activities/one_digit_5_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -349,6 +405,15 @@
       "title": "Diez unidades, una decena",
       "aim": "Cambia diez cubitos por una barra de diez.",
       "model_number": 10,
+      "model": {
+        "id": "two_digits_1_model",
+        "kind": "build",
+        "number": 10,
+        "width": 2,
+        "text": "Vamos a formar diez. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 10,
+        "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_model.mp3"
+      },
       "exchange_place": 0,
       "questions": [
         {
@@ -356,7 +421,7 @@
           "kind": "build",
           "number": 10,
           "width": 2,
-          "text": "Construye el número 10. Coloca cada cifra en su columna.",
+          "text": "Forma el número 10 con las piezas.",
           "result": 10,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q1.mp3"
         },
@@ -365,7 +430,7 @@
           "kind": "build",
           "number": 12,
           "width": 2,
-          "text": "Construye el número 12. Coloca cada cifra en su columna.",
+          "text": "Forma el número 12 con las piezas.",
           "result": 12,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q2.mp3"
         },
@@ -374,7 +439,7 @@
           "kind": "build",
           "number": 15,
           "width": 2,
-          "text": "Construye el número 15. Coloca cada cifra en su columna.",
+          "text": "Forma el número 15 con las piezas.",
           "result": 15,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q3.mp3"
         },
@@ -383,7 +448,7 @@
           "kind": "build",
           "number": 18,
           "width": 2,
-          "text": "Construye el número 18. Coloca cada cifra en su columna.",
+          "text": "Forma el número 18 con las piezas.",
           "result": 18,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q4.mp3"
         },
@@ -392,7 +457,7 @@
           "kind": "build",
           "number": 19,
           "width": 2,
-          "text": "Construye el número 19. Coloca cada cifra en su columna.",
+          "text": "Forma el número 19 con las piezas.",
           "result": 19,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_1_q5.mp3"
         }
@@ -406,6 +471,15 @@
       "title": "Cada cifra tiene su lugar",
       "aim": "Una decena vale diez unidades. Las columnas cambian el valor.",
       "model_number": 23,
+      "model": {
+        "id": "two_digits_2_model",
+        "kind": "build",
+        "number": 23,
+        "width": 2,
+        "text": "Vamos a formar veintitrés. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 23,
+        "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -413,7 +487,7 @@
           "kind": "build",
           "number": 23,
           "width": 2,
-          "text": "Construye el número 23. Coloca cada cifra en su columna.",
+          "text": "Forma el número 23 con las piezas.",
           "result": 23,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q1.mp3"
         },
@@ -422,7 +496,7 @@
           "kind": "build",
           "number": 41,
           "width": 2,
-          "text": "Construye el número 41. Coloca cada cifra en su columna.",
+          "text": "Forma el número 41 con las piezas.",
           "result": 41,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q2.mp3"
         },
@@ -431,7 +505,7 @@
           "kind": "build",
           "number": 36,
           "width": 2,
-          "text": "Construye el número 36. Coloca cada cifra en su columna.",
+          "text": "Forma el número 36 con las piezas.",
           "result": 36,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q3.mp3"
         },
@@ -440,7 +514,7 @@
           "kind": "build",
           "number": 72,
           "width": 2,
-          "text": "Construye el número 72. Coloca cada cifra en su columna.",
+          "text": "Forma el número 72 con las piezas.",
           "result": 72,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q4.mp3"
         },
@@ -449,7 +523,7 @@
           "kind": "build",
           "number": 89,
           "width": 2,
-          "text": "Construye el número 89. Coloca cada cifra en su columna.",
+          "text": "Forma el número 89 con las piezas.",
           "result": 89,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_2_q5.mp3"
         }
@@ -463,6 +537,15 @@
       "title": "El lugar del cero",
       "aim": "Un cero guarda una columna vacía; no la borres.",
       "model_number": 20,
+      "model": {
+        "id": "two_digits_3_model",
+        "kind": "build",
+        "number": 20,
+        "width": 2,
+        "text": "Vamos a formar veinte. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 20,
+        "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -470,7 +553,7 @@
           "kind": "build",
           "number": 20,
           "width": 2,
-          "text": "Construye el número 20. Coloca cada cifra en su columna.",
+          "text": "Forma el número 20 con las piezas.",
           "result": 20,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q1.mp3"
         },
@@ -479,7 +562,7 @@
           "kind": "build",
           "number": 40,
           "width": 2,
-          "text": "Construye el número 40. Coloca cada cifra en su columna.",
+          "text": "Forma el número 40 con las piezas.",
           "result": 40,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q2.mp3"
         },
@@ -488,7 +571,7 @@
           "kind": "build",
           "number": 60,
           "width": 2,
-          "text": "Construye el número 60. Coloca cada cifra en su columna.",
+          "text": "Forma el número 60 con las piezas.",
           "result": 60,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q3.mp3"
         },
@@ -497,7 +580,7 @@
           "kind": "build",
           "number": 80,
           "width": 2,
-          "text": "Construye el número 80. Coloca cada cifra en su columna.",
+          "text": "Forma el número 80 con las piezas.",
           "result": 80,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q4.mp3"
         },
@@ -506,7 +589,7 @@
           "kind": "build",
           "number": 90,
           "width": 2,
-          "text": "Construye el número 90. Coloca cada cifra en su columna.",
+          "text": "Forma el número 90 con las piezas.",
           "result": 90,
           "audio": "res://assets/audio/llama/numbers_activities/two_digits_3_q5.mp3"
         }
@@ -520,6 +603,16 @@
       "title": "Leo y descompongo",
       "aim": "Escucha el número y descubre sus decenas y unidades.",
       "model_number": 23,
+      "model": {
+        "id": "two_digits_4_model",
+        "kind": "read",
+        "number": 23,
+        "width": 2,
+        "text": "Encuentra el número: veintitrés.",
+        "result": 23,
+        "written": "veintitrés",
+        "audio": "res://assets/audio/llama/numbers_activities/two_digits_4_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -581,7 +674,17 @@
       "width": 2,
       "title": "Vecinos de dos cifras",
       "aim": "Antes y después también funciona al cruzar una decena.",
-      "model_number": 23,
+      "model_number": 19,
+      "model": {
+        "id": "two_digits_5_model",
+        "kind": "neighbor",
+        "number": 19,
+        "width": 2,
+        "offset": 1,
+        "text": "¿Qué número va después de 19?",
+        "result": 20,
+        "audio": "res://assets/audio/llama/numbers_activities/two_digits_5_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -644,6 +747,15 @@
       "title": "Diez decenas, una centena",
       "aim": "Cambia diez barras de diez por una placa de cien.",
       "model_number": 100,
+      "model": {
+        "id": "three_digits_1_model",
+        "kind": "build",
+        "number": 100,
+        "width": 3,
+        "text": "Vamos a formar cien. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 100,
+        "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_model.mp3"
+      },
       "exchange_place": 1,
       "questions": [
         {
@@ -651,7 +763,7 @@
           "kind": "build",
           "number": 100,
           "width": 3,
-          "text": "Construye el número 100. Coloca cada cifra en su columna.",
+          "text": "Forma el número 100 con las piezas.",
           "result": 100,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q1.mp3"
         },
@@ -660,7 +772,7 @@
           "kind": "build",
           "number": 110,
           "width": 3,
-          "text": "Construye el número 110. Coloca cada cifra en su columna.",
+          "text": "Forma el número 110 con las piezas.",
           "result": 110,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q2.mp3"
         },
@@ -669,7 +781,7 @@
           "kind": "build",
           "number": 120,
           "width": 3,
-          "text": "Construye el número 120. Coloca cada cifra en su columna.",
+          "text": "Forma el número 120 con las piezas.",
           "result": 120,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q3.mp3"
         },
@@ -678,7 +790,7 @@
           "kind": "build",
           "number": 150,
           "width": 3,
-          "text": "Construye el número 150. Coloca cada cifra en su columna.",
+          "text": "Forma el número 150 con las piezas.",
           "result": 150,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q4.mp3"
         },
@@ -687,7 +799,7 @@
           "kind": "build",
           "number": 190,
           "width": 3,
-          "text": "Construye el número 190. Coloca cada cifra en su columna.",
+          "text": "Forma el número 190 con las piezas.",
           "result": 190,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_1_q5.mp3"
         }
@@ -701,6 +813,15 @@
       "title": "Armo centenas",
       "aim": "Combina centenas, decenas y unidades para construir.",
       "model_number": 234,
+      "model": {
+        "id": "three_digits_2_model",
+        "kind": "build",
+        "number": 234,
+        "width": 3,
+        "text": "Vamos a formar doscientos treinta y cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 234,
+        "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -708,7 +829,7 @@
           "kind": "build",
           "number": 234,
           "width": 3,
-          "text": "Construye el número 234. Coloca cada cifra en su columna.",
+          "text": "Forma el número 234 con las piezas.",
           "result": 234,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q1.mp3"
         },
@@ -717,7 +838,7 @@
           "kind": "build",
           "number": 341,
           "width": 3,
-          "text": "Construye el número 341. Coloca cada cifra en su columna.",
+          "text": "Forma el número 341 con las piezas.",
           "result": 341,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q2.mp3"
         },
@@ -726,7 +847,7 @@
           "kind": "build",
           "number": 526,
           "width": 3,
-          "text": "Construye el número 526. Coloca cada cifra en su columna.",
+          "text": "Forma el número 526 con las piezas.",
           "result": 526,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q3.mp3"
         },
@@ -735,7 +856,7 @@
           "kind": "build",
           "number": 672,
           "width": 3,
-          "text": "Construye el número 672. Coloca cada cifra en su columna.",
+          "text": "Forma el número 672 con las piezas.",
           "result": 672,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q4.mp3"
         },
@@ -744,7 +865,7 @@
           "kind": "build",
           "number": 893,
           "width": 3,
-          "text": "Construye el número 893. Coloca cada cifra en su columna.",
+          "text": "Forma el número 893 con las piezas.",
           "result": 893,
           "audio": "res://assets/audio/llama/numbers_activities/three_digits_2_q5.mp3"
         }
@@ -758,6 +879,16 @@
       "title": "Ceros que importan",
       "aim": "Una cifra puede valer cero sin mover las demás.",
       "model_number": 105,
+      "model": {
+        "id": "three_digits_3_model",
+        "kind": "place",
+        "number": 105,
+        "width": 3,
+        "place": 1,
+        "text": "En 105, ¿cuánto vale el 0 de las decenas?",
+        "result": 0,
+        "audio": "res://assets/audio/llama/numbers_activities/three_digits_3_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -820,6 +951,15 @@
       "title": "Leo y reconstruyo",
       "aim": "Une el nombre, las partes y el número completo.",
       "model_number": 234,
+      "model": {
+        "id": "three_digits_4_model",
+        "kind": "compose",
+        "number": 234,
+        "width": 3,
+        "text": "¿Qué número forman 2 centenas, 3 decenas, 4 unidades?",
+        "result": 234,
+        "audio": "res://assets/audio/llama/numbers_activities/three_digits_4_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -876,7 +1016,17 @@
       "width": 3,
       "title": "Cruzo la centena",
       "aim": "Observa qué cambia al avanzar o retroceder un lugar.",
-      "model_number": 234,
+      "model_number": 199,
+      "model": {
+        "id": "three_digits_5_model",
+        "kind": "neighbor",
+        "number": 199,
+        "width": 3,
+        "offset": 1,
+        "text": "¿Qué número va después de 199?",
+        "result": 200,
+        "audio": "res://assets/audio/llama/numbers_activities/three_digits_5_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -939,6 +1089,15 @@
       "title": "Diez centenas, un millar",
       "aim": "Diez placas de cien forman una unidad de millar.",
       "model_number": 1000,
+      "model": {
+        "id": "four_digits_1_model",
+        "kind": "build",
+        "number": 1000,
+        "width": 4,
+        "text": "Vamos a formar mil. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 1000,
+        "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_model.mp3"
+      },
       "exchange_place": 2,
       "questions": [
         {
@@ -946,7 +1105,7 @@
           "kind": "build",
           "number": 1000,
           "width": 4,
-          "text": "Construye el número 1000. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1000 con las piezas.",
           "result": 1000,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q1.mp3"
         },
@@ -955,7 +1114,7 @@
           "kind": "build",
           "number": 1100,
           "width": 4,
-          "text": "Construye el número 1100. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1100 con las piezas.",
           "result": 1100,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q2.mp3"
         },
@@ -964,7 +1123,7 @@
           "kind": "build",
           "number": 1200,
           "width": 4,
-          "text": "Construye el número 1200. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1200 con las piezas.",
           "result": 1200,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q3.mp3"
         },
@@ -973,7 +1132,7 @@
           "kind": "build",
           "number": 1500,
           "width": 4,
-          "text": "Construye el número 1500. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1500 con las piezas.",
           "result": 1500,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q4.mp3"
         },
@@ -982,7 +1141,7 @@
           "kind": "build",
           "number": 1900,
           "width": 4,
-          "text": "Construye el número 1900. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1900 con las piezas.",
           "result": 1900,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_1_q5.mp3"
         }
@@ -996,6 +1155,15 @@
       "title": "Mi taller de millares",
       "aim": "Cada columna conserva su valor: millares, centenas, decenas y unidades.",
       "model_number": 1234,
+      "model": {
+        "id": "four_digits_2_model",
+        "kind": "build",
+        "number": 1234,
+        "width": 4,
+        "text": "Vamos a formar mil doscientos treinta y cuatro. Arrastra las piezas a su columna o toca Añadir. Mira cómo cambia el número de abajo. Cuando esté listo, pulsa Comprobar.",
+        "result": 1234,
+        "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -1003,7 +1171,7 @@
           "kind": "build",
           "number": 1234,
           "width": 4,
-          "text": "Construye el número 1234. Coloca cada cifra en su columna.",
+          "text": "Forma el número 1234 con las piezas.",
           "result": 1234,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q1.mp3"
         },
@@ -1012,7 +1180,7 @@
           "kind": "build",
           "number": 2413,
           "width": 4,
-          "text": "Construye el número 2413. Coloca cada cifra en su columna.",
+          "text": "Forma el número 2413 con las piezas.",
           "result": 2413,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q2.mp3"
         },
@@ -1021,7 +1189,7 @@
           "kind": "build",
           "number": 3562,
           "width": 4,
-          "text": "Construye el número 3562. Coloca cada cifra en su columna.",
+          "text": "Forma el número 3562 con las piezas.",
           "result": 3562,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q3.mp3"
         },
@@ -1030,7 +1198,7 @@
           "kind": "build",
           "number": 4721,
           "width": 4,
-          "text": "Construye el número 4721. Coloca cada cifra en su columna.",
+          "text": "Forma el número 4721 con las piezas.",
           "result": 4721,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q4.mp3"
         },
@@ -1039,7 +1207,7 @@
           "kind": "build",
           "number": 6983,
           "width": 4,
-          "text": "Construye el número 6983. Coloca cada cifra en su columna.",
+          "text": "Forma el número 6983 con las piezas.",
           "result": 6983,
           "audio": "res://assets/audio/llama/numbers_activities/four_digits_2_q5.mp3"
         }
@@ -1053,6 +1221,16 @@
       "title": "Ceros entre las cifras",
       "aim": "Distingue 1002 de 1020. Un lugar vacío también cuenta.",
       "model_number": 1002,
+      "model": {
+        "id": "four_digits_3_model",
+        "kind": "place",
+        "number": 1002,
+        "width": 4,
+        "place": 1,
+        "text": "En 1002, ¿cuánto vale el 0 de las decenas?",
+        "result": 0,
+        "audio": "res://assets/audio/llama/numbers_activities/four_digits_3_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -1115,6 +1293,16 @@
       "title": "Leo números grandes",
       "aim": "Escucha, descompón y reconstruye hasta cuatro cifras.",
       "model_number": 1234,
+      "model": {
+        "id": "four_digits_4_model",
+        "kind": "read",
+        "number": 1234,
+        "width": 4,
+        "text": "Encuentra el número: mil doscientos treinta y cuatro.",
+        "result": 1234,
+        "written": "mil doscientos treinta y cuatro",
+        "audio": "res://assets/audio/llama/numbers_activities/four_digits_4_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {
@@ -1177,6 +1365,24 @@
       "title": "Vecinos y orden",
       "aim": "Ordena por valor posicional y cruza límites con cuidado.",
       "model_number": 1234,
+      "model": {
+        "id": "four_digits_5_model",
+        "kind": "order",
+        "number": 1234,
+        "width": 4,
+        "values": [
+          1234,
+          1024,
+          1204
+        ],
+        "text": "Ordena de menor a mayor: 1234, 1024, 1204.",
+        "result": [
+          1024,
+          1204,
+          1234
+        ],
+        "audio": "res://assets/audio/llama/numbers_activities/four_digits_5_model.mp3"
+      },
       "exchange_place": -1,
       "questions": [
         {

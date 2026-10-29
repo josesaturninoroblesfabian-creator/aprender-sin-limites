@@ -32,17 +32,24 @@ func _settle() -> void:
 
 func _fill_board(screen: Control, number: int) -> void:
 	var digits := Rules.digits(number, int(screen.width))
+	screen._reset_construction()
 	for place in range(int(screen.width) - 1, -1, -1):
-		var touch := InputEventScreenTouch.new()
-		touch.pressed = true
-		touch.position = screen.board.column_rect(place).get_center()
-		screen.board._gui_input(touch)
-		(screen.find_child("Digit_" + str(digits[place]), true, false) as Button).pressed.emit()
+		for piece in range(digits[place]):
+			(screen.find_child("AddPiece_" + str(place), true, false) as Button).pressed.emit()
 
 func _finish_model(screen: Control) -> void:
 	await _settle()
-	if int(screen.lesson.exchange_place) < 0: _fill_board(screen, int(screen.lesson.model_number))
-	screen.model_button.pressed.emit()
+	if screen.question.kind == "build":
+		if int(screen.lesson.exchange_place) < 0: _fill_board(screen, int(screen.lesson.model_number))
+		screen.model_button.pressed.emit()
+	elif screen.question.kind == "order":
+		for value in screen.question.result:
+			for choice in screen.choices:
+				if choice.get_meta("answer") == value: choice.pressed.emit()
+		screen.model_button.pressed.emit()
+	else:
+		for choice in screen.choices:
+			if choice.get_meta("answer") == screen.question.result: choice.pressed.emit()
 	screen.next_button.pressed.emit()
 
 func _correct_practice(screen: Control) -> void:
@@ -109,6 +116,14 @@ func _run() -> void:
 			var before := Rules.value(board.counts)
 			_check(board.exchange(place) and Rules.value(board.counts) == before and board.counts[place] == 0 and board.counts[place + 1] == 1, "An exchange changed the value of the number")
 		_check(not board.exchange(width - 1), "Exchanging beyond the highest column was allowed")
+		if width == 3:
+			board.set_counts([10, 9, 1])
+			_check(board.exchange(0) and board.counts == [0, 10, 1], "Units could not form the tenth ten")
+			_check(board.exchange(1) and board.counts == [0, 0, 2], "A chained exchange did not preserve two hundred")
+		if width == 2:
+			board.set_counts([9, 9])
+			board.add_piece(0)
+			_check(Rules.value(board.counts) == 99, "Two-digit construction overflowed into three digits")
 		board.queue_free()
 		await process_frame
 	var expected_stars := 0
@@ -120,7 +135,7 @@ func _run() -> void:
 		_check(screen.view == "model" and not Progress.complete(lesson.id), "Opening a Numbers mission earned a result")
 		screen._begin_practice()
 		_check(screen.view == "model", "The model was skipped without interaction")
-		var quantity_before: int = Rules.value(screen.board.counts)
+		var quantity_before: int = Rules.value(screen.board.counts) if is_instance_valid(screen.board) else 0
 		await _finish_model(screen)
 		_check(screen.view == "practice", "The interactive model did not open five practice questions")
 		if int(lesson.exchange_place) >= 0: _check(quantity_before == int(lesson.model_number), "The exchange example started with the wrong total")
@@ -145,13 +160,22 @@ func _run() -> void:
 				screen.board.set_digit(1)
 				screen._go_back()
 				screen._start_lesson(lesson.id)
-				_check(screen.board.counts[3] == 1 and Rules.value(screen.board.counts) == 1000, "A partial place-value construction was lost")
+				screen._review_model()
+				await _finish_model(screen)
+				_check(screen.board.counts[3] == 1 and Rules.value(screen.board.counts) == 1000, "A partial construction was lost after reopening or reviewing the example")
 			if lesson.id == "one_digit_2" and index == 0:
-				var data := {"type": "number_digit", "digit": 3}
+				var data := {"type": "base_ten_piece", "place": 0, "source": null}
 				var point: Vector2 = screen.board.column_rect(0).get_center()
-				_check(screen.board._can_drop_data(point, data) and not screen.board._can_drop_data(point, {"type": "number_digit", "digit": 30}), "Digit drag accepted an invalid payload")
+				_check(screen.board._can_drop_data(point, data) and not screen.board._can_drop_data(point, {"type": "base_ten_piece", "place": 1}), "Piece drag accepted the wrong column")
 				screen.board._drop_data(point, data)
-				_check(screen.board.counts[0] == 3, "Dropping a digit did not change its column")
+				_check(screen.board.counts[0] == 1, "Dropping a real unit did not add one piece")
+			if lesson.id == "two_digits_1" and index == 0:
+				for piece in range(10): (screen.find_child("AddPiece_0", true, false) as Button).pressed.emit()
+				screen._go_back()
+				screen._start_lesson(lesson.id)
+				_check(screen.board.counts[0] == 10, "A pending exchange was lost when reopening")
+				screen.board.exchange_buttons[0].pressed.emit()
+				_check(screen.board.counts[0] == 0 and screen.board.counts[1] == 1, "The real exchange button did not preserve ten")
 			if lesson.id == "one_digit_2" and index == 1:
 				var key := InputEventKey.new()
 				key.keycode = KEY_KP_1

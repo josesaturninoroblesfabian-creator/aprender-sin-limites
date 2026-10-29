@@ -1,6 +1,7 @@
 extends RefCounted
 
 const PLACES := ["unidades", "decenas", "centenas", "unidades de millar"]
+const SINGULAR := ["unidad", "decena", "centena", "unidad de millar"]
 const SHORT := ["U", "D", "C", "UM"]
 const COLORS := [Color("#147cb2"), Color("#b87808"), Color("#25834c"), Color("#8344ad")]
 
@@ -25,7 +26,7 @@ static func decomposition(value_: int, width: int) -> String:
 	var pieces: Array[String] = []
 	var parts := digits(value_, width)
 	for place in range(width - 1, -1, -1):
-		pieces.append("%d %s" % [parts[place], PLACES[place]])
+		pieces.append("%d %s" % [parts[place], SINGULAR[place] if parts[place] == 1 else PLACES[place]])
 	return " · ".join(pieces)
 
 static func numeric_parts(value_: int, width: int) -> String:

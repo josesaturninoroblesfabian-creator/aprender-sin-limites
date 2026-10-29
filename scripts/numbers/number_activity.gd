@@ -9,7 +9,7 @@ const Art = preload("res://scripts/numbers/number_art.gd")
 const Audio = preload("res://scripts/numbers/number_audio.gd")
 const Guide = preload("res://scripts/math/llama_guide.gd")
 const Board = preload("res://scripts/numbers/place_board.gd")
-const Digit = preload("res://scripts/numbers/digit_token.gd")
+const Block = preload("res://scripts/numbers/block_token.gd")
 const Market = preload("res://scripts/numbers/market_counter.gd")
 const Bridge = preload("res://scripts/numbers/sequence_bridge.gd")
 const Stone = preload("res://scripts/numbers/bridge_choice.gd")
@@ -44,7 +44,7 @@ var selected_label: Label
 var submit_button: Button
 var next_button: Button
 var model_button: Button
-var digit_buttons: Array[Button] = []
+var piece_buttons: Array[Button] = []
 var choices: Array[Button] = []
 var ordered: Array[int] = []
 var order_labels: Array[Label] = []
@@ -131,7 +131,7 @@ func _clear(new_view: String, backdrop: int = 0) -> void:
 	submit_button = null
 	next_button = null
 	model_button = null
-	digit_buttons.clear()
+	piece_buttons.clear()
 	choices.clear()
 	order_labels.clear()
 	ordered.clear()
@@ -227,64 +227,120 @@ func _start_lesson(id: String) -> void:
 func _show_model() -> void:
 	_clear("model")
 	model_done = false
+	question = lesson.model
 	heading.text = lesson.title
-	subtitle.text = "Primero experimentamos · Sin reloj"
+	subtitle.text = "1. Mira el ejemplo · 2. Hazlo tú · 3. Practica cinco retos"
 	var split := UI.row(content, 12)
 	split.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	var paper := UI.paper(split)
-	paper.add_child(UI.text("Meta: " + str(lesson.model_number), 31, Catalog.COLORS[topic_id]))
-	paper.add_child(UI.text(lesson.aim, 21))
-	board = Board.new()
-	paper.add_child(board)
-	board.setup(0, width)
-	_companion(split, "Toca una columna y elige una cifra. También puedes arrastrarla.\n\nConstruye la meta sin cambiar el valor de cada lugar.")
-	if int(lesson.exchange_place) >= 0:
-		var counts := Rules.digits(0, width)
-		counts[int(lesson.exchange_place)] = 10
-		board.set_counts(counts)
-		board.editable = false
-		guide_text.text = "Son diez piezas del mismo tipo.\n\nAl canjearlas obtienes una pieza de la columna izquierda.\n\nLa cantidad se conserva."
-		model_button = _nav("Canjear 10 %s → 1 %s" % [Rules.SHORT[int(lesson.exchange_place)], Rules.SHORT[int(lesson.exchange_place) + 1]], _exchange_model, Catalog.COLORS[topic_id])
-		audio.speak(["exchange_units", "exchange_tens", "exchange_hundreds"][int(lesson.exchange_place)])
-	else:
-		_digit_palette(paper)
-		model_button = _nav("Comprobar construcción", _check_model, Catalog.COLORS[topic_id])
-		audio.speak(String(lesson.id) + "_intro")
-	next_button = _nav("¡Ahora tú! Cinco retos →", _begin_practice, Color("#21804e"))
+	paper.add_child(UI.text("Vamos a formar " + str(lesson.model_number) if question.kind == "build" else question.text, 25, Catalog.COLORS[topic_id]))
+	match question.kind:
+		"build":
+			board = Board.new()
+			paper.add_child(board)
+			board.setup(0, width)
+			if int(lesson.exchange_place) >= 0:
+				var parts := Rules.digits(0, width)
+				parts[int(lesson.exchange_place)] = 10
+				board.set_counts(parts)
+				board.editable = false
+				model_button = _nav("Cambiar 10 piezas por 1", _exchange_model, Catalog.COLORS[topic_id])
+			else:
+				_block_tray(paper)
+				model_button = _nav("Comprobar", _check_model, Catalog.COLORS[topic_id])
+		"order":
+			_order_controls(paper)
+			model_button = _nav("Comprobar orden", _check_model, Catalog.COLORS[topic_id])
+		"place":
+			board = Board.new()
+			paper.add_child(board)
+			board.setup(int(question.number), width, false)
+			board.highlighted = int(question.place)
+			board.show_total = false
+			_number_choices(paper, question)
+		"neighbor":
+			_neighbor_path(paper)
+			_number_choices(paper, question)
+		_:
+			var clue := UI.text(String(question.get("written", Rules.decomposition(int(question.number), width))), 33, Catalog.COLORS[topic_id])
+			clue.size_flags_vertical = Control.SIZE_EXPAND_FILL
+			clue.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+			clue.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+			paper.add_child(clue)
+			_number_choices(paper, question)
+	var guidance := _task_instruction(question.kind)
+	if question.kind == "build" and int(lesson.exchange_place) >= 0:
+		guidance = "Toca Cambiar 10 piezas por 1. Mira cómo pasan a la columna izquierda. La cantidad seguirá siendo la misma."
+	_companion(split, String(lesson.aim) + "\n\n" + guidance)
+	next_button = _nav("Practicar cinco retos →", _begin_practice, Color("#21804e"))
 	next_button.disabled = true
 	_nav("Repetir ejemplo", _show_model, Color("#75509e"))
-	status.text = "Mover las piezas nos ayuda a entender el número."
+	if question.kind == "build" and int(lesson.exchange_place) < 0:
+		_nav("Cómo mover las piezas", func(): audio.speak("blocks"), Color("#147b8a"))
+	status.text = guidance
+	audio.speak(String(question.id) if int(lesson.exchange_place) < 0 else ["exchange_units", "exchange_tens", "exchange_hundreds"][int(lesson.exchange_place)])
 
-func _digit_palette(parent: Node) -> void:
-	selected_label = UI.text("Columna elegida: " + Rules.PLACES[board.active_place], 18)
+func _task_instruction(kind: String) -> String:
+	match kind:
+		"build": return "Arrastra una pieza a su columna, o toca Añadir. Usa Quitar si sobra alguna."
+		"read": return "Escucha o lee el nombre. Toca el número que corresponde."
+		"compose": return "Junta el valor de las partes y toca el número completo."
+		"place": return "Mira la columna marcada. Toca cuánto vale esa cifra, no solo cómo se llama."
+		"neighbor": return "Mira el número del centro. Toca el que va antes o después, según la pregunta."
+		"order": return "Toca primero el menor, después el siguiente y al final el mayor."
+	return "Escucha, observa y elige."
+
+func _review_model() -> void:
+	_save_attempt()
+	_show_model()
+
+func _block_tray(parent: Node) -> void:
+	selected_label = UI.text("Arrastra una pieza a su columna o toca Añadir:", 18)
 	parent.add_child(selected_label)
-	var row := UI.row(parent, 6)
-	for value_ in range(10):
-		var button := Digit.new()
-		button.digit = value_
-		button.text = str(value_)
-		button.name = "Digit_" + str(value_)
-		button.custom_minimum_size = Vector2(46, 48)
+	var row := UI.row(parent, 8)
+	var labels := ["unidad", "decena", "centena", "millar"]
+	for place in range(width - 1, -1, -1):
+		var button := Block.new()
+		button.place = place
+		button.board = board
+		button.name = "AddPiece_" + str(place)
+		button.text = "Añadir 1 " + labels[place] + "\nVale " + str(int(pow(10, place)))
+		button.tooltip_text = "Arrastra esta pieza a " + Board.NAMES[place] + ". Para quitarla puedes devolverla aquí."
+		button.custom_minimum_size = Vector2(135, 66)
 		button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-		button.add_theme_font_size_override("font_size", 26)
-		button.add_theme_color_override("font_color", Color("#174765"))
-		for state in ["hover", "pressed", "focus"]: button.add_theme_color_override("font_" + state + "_color", Color("#174765"))
-		button.add_theme_stylebox_override("normal", UI.style(Color("#e9f7ff"), Color("#88bdd1"), 11, 4))
-		button.add_theme_stylebox_override("hover", UI.style(Color("#d4eeff"), Color("#3494bd"), 11, 4))
-		button.add_theme_stylebox_override("pressed", UI.style(Color("#b6e1fa"), Color("#167ba7"), 11, 4))
-		button.add_theme_stylebox_override("focus", UI.style(Color("#fff1c6"), Color("#c9912f"), 11, 4))
-		button.add_theme_stylebox_override("disabled", UI.style(Color("#e5e3d6"), Color("#aba994"), 11, 4))
-		button.add_theme_color_override("font_disabled_color", Color("#61717b"))
-		button.pressed.connect(func():
-			if is_instance_valid(board): board.set_digit(value_)
-		)
+		button.add_theme_font_size_override("font_size", 17)
+		var color: Color = Rules.COLORS[place]
+		for state in ["normal", "hover", "pressed", "focus", "disabled"]:
+			var box := UI.style(color.lightened(0.85) if state != "disabled" else Color("#e5e3d6"), color, 12, 6)
+			box.content_margin_left = 52
+			button.add_theme_stylebox_override(state, box)
+			button.add_theme_color_override("font_" + ("color" if state == "normal" else state + "_color"), color.darkened(0.3))
 		row.add_child(button)
-		digit_buttons.append(button)
-	board.selected.connect(func(place: int): selected_label.text = "Columna elegida: " + Rules.PLACES[place])
+		piece_buttons.append(button)
 	board.changed.connect(func(_value: int):
 		audio.effect("tap")
+		_update_construction_guide()
 		if view == "practice": _save_attempt()
 	)
+	board.rejected.connect(func(message: String):
+		status.text = message
+		audio.effect("retry")
+	)
+
+func _update_construction_guide() -> void:
+	if not is_instance_valid(board) or not is_instance_valid(guide_text): return
+	var total := Rules.value(board.counts)
+	var target := int(lesson.model_number) if view == "model" else int(question.result)
+	guide_text.text = "Queremos formar " + str(target) + ".\n\nAhora tienes " + str(total) + ":\n" + Rules.decomposition(total, width) + "."
+	if total == target and Rules.canonical(board.counts, width):
+		guide_text.text += "\n\n¡Ya está formado! Pulsa Comprobar."
+	else: guide_text.text += "\n\nCada pieza aporta su valor. Añade o quita las que necesites."
+
+func _reset_construction() -> void:
+	if not is_instance_valid(board) or not board.editable: return
+	board.motions.clear()
+	board.set_counts(Rules.digits(0, width))
+	board.changed.emit(0)
 
 func _exchange_model() -> void:
 	if view != "model" or model_done: return
@@ -296,27 +352,49 @@ func _exchange_model() -> void:
 		_complete_model()
 
 func _check_model() -> void:
-	if view != "model" or model_done or not is_instance_valid(board): return
-	if Rules.canonical(board.counts, width) and Rules.value(board.counts) == int(lesson.model_number):
-		guide_text.text = Rules.decomposition(int(lesson.model_number), width) + ".\n\n" + Rules.numeric_parts(int(lesson.model_number), width) + " = " + str(lesson.model_number)
-		_complete_model()
+	if view != "model" or model_done: return
+	if question.kind == "order":
+		_model_choice(ordered.duplicate())
+	elif is_instance_valid(board):
+		if Rules.canonical(board.counts, width) and Rules.value(board.counts) == int(lesson.model_number):
+			_complete_model()
+		else:
+			status.text = _construction_correction(int(lesson.model_number))
+			audio.effect("retry")
+
+func _model_choice(answer: Variant) -> void:
+	if view != "model" or model_done: return
+	if Rules.matches(question, answer): _complete_model()
 	else:
-		status.text = "Mira la meta. " + Rules.decomposition(int(lesson.model_number), width)
+		status.text = _task_instruction(question.kind) + " Puedes volver a intentar."
 		audio.effect("retry")
+
+func _construction_correction(target: int) -> String:
+	if not is_instance_valid(board): return "Revisa la respuesta."
+	var wanted := Rules.digits(target, width)
+	for place in range(width - 1, -1, -1):
+		if board.counts[place] != wanted[place]:
+			return "Revisa " + Board.NAMES[place] + ": necesitamos " + str(wanted[place]) + (" pieza" if wanted[place] == 1 else " piezas") + ", pero hay " + str(board.counts[place]) + "."
+	return "Cambia diez piezas por una de la columna izquierda."
 
 func _complete_model() -> void:
 	model_done = true
-	board.editable = false
-	for button in digit_buttons: button.disabled = true
-	model_button.disabled = true
+	solved_current = true
+	if is_instance_valid(board): board.editable = false
+	for button in piece_buttons: button.disabled = true
+	for button in choices: button.disabled = true
+	if is_instance_valid(model_button): model_button.disabled = true
 	next_button.disabled = false
-	status.text = "¡Lo descubriste! El número y sus piezas representan lo mismo."
+	guide_text.text = _explanation() + "\n\nEste fue un ejemplo. Ahora tendrás cinco retos parecidos para hacerlo tú."
+	status.text = "¡Ejemplo entendido! Pulsa Practicar cinco retos."
 	audio.effect("correct")
 	audio.speak("model_done")
 
 func _begin_practice() -> void:
 	if view != "model" or not model_done: return
 	_next_unsolved()
+	var saved := Progress.resume(lesson.id)
+	restored_draft = saved.get("draft", {})
 	_render_question()
 
 func _next_unsolved() -> void:
@@ -335,14 +413,15 @@ func _render_question() -> void:
 	split.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	var paper := UI.paper(split)
 	paper.add_child(UI.text(question.text, 23, Catalog.COLORS[topic_id]))
-	_companion(split, "Piensa en el valor de cada lugar.\nPuedes escuchar de nuevo o pedir una pista.\n\n" + lesson.aim)
+	_companion(split, _task_instruction(question.kind) + "\n\n" + String(lesson.aim))
 	match question.kind:
 		"build":
 			board = Board.new()
 			paper.add_child(board)
 			board.setup(0, width)
-			_digit_palette(paper)
+			_block_tray(paper)
 			submit_button = _nav("Comprobar", _submit_build, Catalog.COLORS[topic_id])
+			_nav("Vaciar", _reset_construction, Color("#846125"))
 		"place":
 			board = Board.new()
 			paper.add_child(board)
@@ -371,10 +450,11 @@ func _render_question() -> void:
 			_number_choices(paper, question)
 	_nav("Ver pista", _show_hint, Color("#75509e"))
 	_nav("Escuchar", _speak_question, Color("#147b8a"))
+	if view == "practice": _nav("Ver ejemplo", _review_model, Color("#846125"))
 	next_button = _nav("Siguiente →", _next_round, Color("#21804e"))
 	next_button.disabled = true
 	_restore_draft()
-	status.text = "Cada pieza vale 1, 10, 100 o 1000 según su columna."
+	status.text = _task_instruction(question.kind)
 	_speak_question()
 
 func _number_choices(parent: Node, item: Dictionary, bridge: bool = false) -> void:
@@ -479,7 +559,7 @@ func _restore_draft() -> void:
 	if restored_draft.get("id", "") != question.id: return
 	if question.kind == "build" and is_instance_valid(board):
 		var counts: Variant = restored_draft.get("counts", [])
-		if counts is Array and Rules.canonical(counts, width): board.set_counts(counts)
+		if counts is Array and board.valid_counts(counts): board.set_counts(counts)
 	elif question.kind == "order":
 		var values: Variant = restored_draft.get("order", [])
 		if values is Array:
@@ -490,6 +570,9 @@ func _restore_draft() -> void:
 	restored_draft.clear()
 
 func _submit(answer: Variant) -> void:
+	if view == "model":
+		_model_choice(answer)
+		return
 	if solved_current or is_instance_valid(dialog) or view not in ["practice", "market", "bridge", "compare", "train"]: return
 	if view == "market" and world.marked.size() != world.total:
 		status.text = "Primero toca todos los productos una sola vez."
@@ -504,7 +587,7 @@ func _submit(answer: Variant) -> void:
 		for button in choices:
 			if question.kind != "order" and button.get_meta("answer") == answer: button.disabled = true
 		if view == "train": world.reject()
-		status.text = "Todavía no. Revisa los lugares, escucha o pide una pista y vuelve a intentar."
+		status.text = _construction_correction(int(question.result)) if view == "practice" and question.kind == "build" else "Todavía no. " + _task_instruction(String(question.kind))
 		audio.effect("retry")
 		audio.speak("retry")
 		return
@@ -514,7 +597,7 @@ func _submit(answer: Variant) -> void:
 	score += 10 if clean else 5
 	if view != "practice": _update_game_subtitle()
 	for button in choices: button.disabled = true
-	for button in digit_buttons: button.disabled = true
+	for button in piece_buttons: button.disabled = true
 	if is_instance_valid(board): board.editable = false
 	if is_instance_valid(submit_button): submit_button.disabled = true
 	if is_instance_valid(next_button): next_button.disabled = false
@@ -534,6 +617,8 @@ func _explanation() -> String:
 	if question.kind == "sequence": return ("¡Puente completo! " if view == "bridge" else "¡Entrega correcta! ") + Rules.sequence_hint(question).split("\n")[0]
 	if question.kind == "order": return "¡En orden! " + " < ".join(PackedStringArray(question.result.map(func(n): return str(n))))
 	if question.kind == "place": return "El %d está en %s y vale %d." % [Rules.digits(int(question.number), width)[int(question.place)], Rules.PLACES[int(question.place)], int(question.result)]
+	if question.kind == "neighbor": return ("Después de %d viene %d." if int(question.offset) > 0 else "Antes de %d está %d.") % [int(question.number), int(question.result)]
+	if question.kind == "read": return String(question.written).capitalize() + " se escribe " + str(int(question.number)) + "."
 	return "%d = %s" % [int(question.result), Rules.numeric_parts(int(question.result), int(question.width))]
 
 func _next_round() -> void:
@@ -796,7 +881,7 @@ func _show_hint() -> void:
 
 func _show_help() -> void:
 	var stack := _modal("La llama te acompaña", "help")
-	stack.add_child(UI.text("En el taller: toca una columna y una cifra, o arrastra la cifra. Diez piezas pueden cambiarse por una de la columna izquierda sin cambiar la cantidad.", 24))
+	stack.add_child(UI.text("En el taller: arrastra un cubito, barra, placa o cubo a su columna, o toca Añadir. Usa Quitar para retirar piezas. Diez piezas cambian por una de la columna izquierda sin cambiar la cantidad.", 24))
 	stack.add_child(UI.text("En el mercado toca cada producto una vez. En el puente arrastra la piedra o toca su respuesta. Para comparar, empieza por la columna izquierda. En el tren elige vía y pulsa Viajar.", 23))
 	stack.add_child(UI.text("Puedes escuchar, pedir pistas y jugar sin reloj. Tu progreso se guarda en este dispositivo y funciona sin internet.", 22))
 	_close_button(stack)
@@ -877,7 +962,9 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		var digit := -1
 		if event.keycode >= KEY_0 and event.keycode <= KEY_9: digit = event.keycode - KEY_0
 		elif event.keycode >= KEY_KP_0 and event.keycode <= KEY_KP_9: digit = event.keycode - KEY_KP_0
-		if digit >= 0: board.set_digit(digit)
+		if digit >= 0:
+			board.set_digit(digit)
+			board.active_place = maxi(0, board.active_place - 1)
 		elif event.keycode == KEY_LEFT: board._select_at(board.column_rect(mini(width - 1, board.active_place + 1)).get_center())
 		elif event.keycode == KEY_RIGHT: board._select_at(board.column_rect(maxi(0, board.active_place - 1)).get_center())
 		elif event.keycode in [KEY_ENTER, KEY_KP_ENTER]: _check_model() if view == "model" else _submit_build()

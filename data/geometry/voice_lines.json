@@ -1,0 +1,1148 @@
+{
+  "clips": {
+    "flat_shapes": {
+      "file": "flat_shapes.mp3",
+      "text": "Exploramos figuras planas. Elige una misión. Escucha y arrastra la pieza a su contorno. También puedes tocar la pieza y después el hueco."
+    },
+    "solid_shapes": {
+      "file": "solid_shapes.mp3",
+      "text": "Vamos a descubrir cuerpos con volumen. Desliza el dedo para girarlos, o usa las flechas de giro. Observa sus caras y superficies y elige su nombre."
+    },
+    "sides_vertices": {
+      "file": "sides_vertices.mp3",
+      "text": "Los lados rectos unen las esquinas. Los vértices son esas esquinas. Toca cada parte una vez, cuenta y elige cuántas hay. El círculo tiene un borde curvo, sin lados rectos."
+    },
+    "shape_patterns": {
+      "file": "shape_patterns.mp3",
+      "text": "Un patrón repite una regla. Mira las piezas, encuentra lo que se repite y completa el hueco. Si lo indica la consigna, también importa el color."
+    },
+    "find_shape": {
+      "file": "find_shape.mp3",
+      "text": "Comienza el safari de las formas. Escucha qué figura buscamos. Encuentra todas las que son iguales por su forma, aunque cambien de color, tamaño o posición."
+    },
+    "build_pattern": {
+      "file": "build_pattern.mp3",
+      "text": "El telar necesita sus piezas. Arrastra una figura a un hueco, o toca la figura y después el hueco. Completa todos siguiendo la misma regla."
+    },
+    "count_sides": {
+      "file": "count_sides.mp3",
+      "text": "La llama recorre el contorno. Toca cada lado o cada esquina según la consigna. No cuentes una parte dos veces. Después elige la cantidad."
+    },
+    "quick_challenge": {
+      "file": "quick_challenge.mp3",
+      "text": "Vuela con la llama. Lee o escucha el reto. Puedes tocar la nube de tu respuesta para que el globo viaje hasta ella. También puedes usar los controles para volar. No se pierden vidas al equivocarse."
+    },
+    "help": {
+      "file": "help.mp3",
+      "text": "Escucha lo que pide el reto. Las figuras se arrastran a los huecos. Los cuerpos se giran deslizando el dedo. Los lados y las esquinas se tocan una vez para contarlos. Puedes pedir una pista y volver a intentar."
+    },
+    "retry": {
+      "file": "retry.mp3",
+      "text": "Observa otra vez. Mira la forma, no solo el color. Puedes pedir una pista y volver a intentarlo."
+    },
+    "correct": {
+      "file": "correct.mp3",
+      "text": "¡Lo descubriste! La forma y sus partes te ayudaron a pensar."
+    },
+    "model_done": {
+      "file": "model_done.mp3",
+      "text": "¡Ejemplo completado! Ahora tienes cinco retos parecidos para practicar a tu ritmo."
+    },
+    "done": {
+      "file": "done.mp3",
+      "text": "¡Misión completada! Tu progreso quedó guardado en este dispositivo."
+    },
+    "resume": {
+      "file": "resume.mp3",
+      "text": "Continuamos tu misión. Se conservaron tus respuestas y las piezas que ya habías colocado."
+    },
+    "pause": {
+      "file": "pause.mp3",
+      "text": "El viaje y el reloj esperan. Continúa cuando estés listo."
+    },
+    "finish": {
+      "file": "finish.mp3",
+      "text": "¡Buen trabajo! Mira tu resultado. Puedes volver a jugar para mejorar tu mejor marca."
+    },
+    "rotate": {
+      "file": "rotate.mp3",
+      "text": "Desliza sobre el cuerpo para girarlo, o toca una flecha de giro. Ahora puedes observarlo desde otro lado."
+    },
+    "square_rectangle": {
+      "file": "square_rectangle.mp3",
+      "text": "Un cuadrado también es un rectángulo: tiene cuatro esquinas rectas y sus cuatro lados son iguales. En estos retos, cuando pedimos un rectángulo alargado, buscamos uno con dos lados largos y dos cortos."
+    },
+    "flat_shapes_1_model": {
+      "file": "flat_shapes_1_model.mp3",
+      "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_1_q1": {
+      "file": "flat_shapes_1_q1.mp3",
+      "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_1_q2": {
+      "file": "flat_shapes_1_q2.mp3",
+      "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_1_q3": {
+      "file": "flat_shapes_1_q3.mp3",
+      "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_1_q4": {
+      "file": "flat_shapes_1_q4.mp3",
+      "text": "Busca la figura con cuatro lados iguales y cuatro esquinas rectas. Encájala en su contorno."
+    },
+    "flat_shapes_1_q5": {
+      "file": "flat_shapes_1_q5.mp3",
+      "text": "Encaja el círculo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_2_model": {
+      "file": "flat_shapes_2_model.mp3",
+      "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_2_q1": {
+      "file": "flat_shapes_2_q1.mp3",
+      "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_2_q2": {
+      "file": "flat_shapes_2_q2.mp3",
+      "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_2_q3": {
+      "file": "flat_shapes_2_q3.mp3",
+      "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_2_q4": {
+      "file": "flat_shapes_2_q4.mp3",
+      "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_2_q5": {
+      "file": "flat_shapes_2_q5.mp3",
+      "text": "Encaja el triángulo en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_3_model": {
+      "file": "flat_shapes_3_model.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_3_q1": {
+      "file": "flat_shapes_3_q1.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_3_q2": {
+      "file": "flat_shapes_3_q2.mp3",
+      "text": "Busca la figura con dos lados largos, dos cortos y cuatro esquinas rectas. Encájala en su contorno."
+    },
+    "flat_shapes_3_q3": {
+      "file": "flat_shapes_3_q3.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_3_q4": {
+      "file": "flat_shapes_3_q4.mp3",
+      "text": "Busca la figura con dos lados largos, dos cortos y cuatro esquinas rectas. Encájala en su contorno."
+    },
+    "flat_shapes_3_q5": {
+      "file": "flat_shapes_3_q5.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_4_model": {
+      "file": "flat_shapes_4_model.mp3",
+      "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_4_q1": {
+      "file": "flat_shapes_4_q1.mp3",
+      "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_4_q2": {
+      "file": "flat_shapes_4_q2.mp3",
+      "text": "Busca la figura con seis lados rectos y seis esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_4_q3": {
+      "file": "flat_shapes_4_q3.mp3",
+      "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_4_q4": {
+      "file": "flat_shapes_4_q4.mp3",
+      "text": "Busca la figura con seis lados rectos y seis esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_4_q5": {
+      "file": "flat_shapes_4_q5.mp3",
+      "text": "Encaja el pentágono en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_5_model": {
+      "file": "flat_shapes_5_model.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_5_q1": {
+      "file": "flat_shapes_5_q1.mp3",
+      "text": "Encaja el cuadrado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_5_q2": {
+      "file": "flat_shapes_5_q2.mp3",
+      "text": "Busca la figura con tres lados rectos y tres esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_5_q3": {
+      "file": "flat_shapes_5_q3.mp3",
+      "text": "Encaja el rectángulo alargado en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "flat_shapes_5_q4": {
+      "file": "flat_shapes_5_q4.mp3",
+      "text": "Busca la figura con cinco lados rectos y cinco esquinas. Encájala en su contorno."
+    },
+    "flat_shapes_5_q5": {
+      "file": "flat_shapes_5_q5.mp3",
+      "text": "Encaja el hexágono en su contorno. Aunque gire, sigue siendo la misma figura."
+    },
+    "solid_shapes_1_model": {
+      "file": "solid_shapes_1_model.mp3",
+      "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cubo tiene seis caras planas cuadradas."
+    },
+    "solid_shapes_1_q1": {
+      "file": "solid_shapes_1_q1.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_1_q2": {
+      "file": "solid_shapes_1_q2.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_1_q3": {
+      "file": "solid_shapes_1_q3.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_1_q4": {
+      "file": "solid_shapes_1_q4.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_1_q5": {
+      "file": "solid_shapes_1_q5.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_2_model": {
+      "file": "solid_shapes_2_model.mp3",
+      "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. La esfera tiene una superficie curva y ninguna cara plana."
+    },
+    "solid_shapes_2_q1": {
+      "file": "solid_shapes_2_q1.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_2_q2": {
+      "file": "solid_shapes_2_q2.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_2_q3": {
+      "file": "solid_shapes_2_q3.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_2_q4": {
+      "file": "solid_shapes_2_q4.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_2_q5": {
+      "file": "solid_shapes_2_q5.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_3_model": {
+      "file": "solid_shapes_3_model.mp3",
+      "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cilindro tiene dos bases circulares y una superficie lateral curva."
+    },
+    "solid_shapes_3_q1": {
+      "file": "solid_shapes_3_q1.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_3_q2": {
+      "file": "solid_shapes_3_q2.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_3_q3": {
+      "file": "solid_shapes_3_q3.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_3_q4": {
+      "file": "solid_shapes_3_q4.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_3_q5": {
+      "file": "solid_shapes_3_q5.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_4_model": {
+      "file": "solid_shapes_4_model.mp3",
+      "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. El cono tiene una base circular, una superficie curva y una punta."
+    },
+    "solid_shapes_4_q1": {
+      "file": "solid_shapes_4_q1.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_4_q2": {
+      "file": "solid_shapes_4_q2.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_4_q3": {
+      "file": "solid_shapes_4_q3.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_4_q4": {
+      "file": "solid_shapes_4_q4.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_4_q5": {
+      "file": "solid_shapes_4_q5.mp3",
+      "text": "Observa el cuerpo. ¿Cómo se llama?"
+    },
+    "solid_shapes_5_model": {
+      "file": "solid_shapes_5_model.mp3",
+      "text": "Gira el cuerpo para verlo desde otro lado. Después elige su nombre. La esfera tiene una superficie curva y ninguna cara plana."
+    },
+    "solid_shapes_5_q1": {
+      "file": "solid_shapes_5_q1.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_5_q2": {
+      "file": "solid_shapes_5_q2.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_5_q3": {
+      "file": "solid_shapes_5_q3.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_5_q4": {
+      "file": "solid_shapes_5_q4.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "solid_shapes_5_q5": {
+      "file": "solid_shapes_5_q5.mp3",
+      "text": "Mira el objeto. ¿A qué cuerpo geométrico se parece?"
+    },
+    "sides_vertices_1_model": {
+      "file": "sides_vertices_1_model.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_1_q1": {
+      "file": "sides_vertices_1_q1.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_1_q2": {
+      "file": "sides_vertices_1_q2.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_1_q3": {
+      "file": "sides_vertices_1_q3.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_1_q4": {
+      "file": "sides_vertices_1_q4.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_1_q5": {
+      "file": "sides_vertices_1_q5.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_model": {
+      "file": "sides_vertices_2_model.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_q1": {
+      "file": "sides_vertices_2_q1.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_q2": {
+      "file": "sides_vertices_2_q2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_q3": {
+      "file": "sides_vertices_2_q3.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_q4": {
+      "file": "sides_vertices_2_q4.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_2_q5": {
+      "file": "sides_vertices_2_q5.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_3_model": {
+      "file": "sides_vertices_3_model.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "sides_vertices_3_q1": {
+      "file": "sides_vertices_3_q1.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "sides_vertices_3_q2": {
+      "file": "sides_vertices_3_q2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay."
+    },
+    "sides_vertices_3_q3": {
+      "file": "sides_vertices_3_q3.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay."
+    },
+    "sides_vertices_3_q4": {
+      "file": "sides_vertices_3_q4.mp3",
+      "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay."
+    },
+    "sides_vertices_3_q5": {
+      "file": "sides_vertices_3_q5.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "sides_vertices_4_model": {
+      "file": "sides_vertices_4_model.mp3",
+      "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay."
+    },
+    "sides_vertices_4_q1": {
+      "file": "sides_vertices_4_q1.mp3",
+      "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay."
+    },
+    "sides_vertices_4_q2": {
+      "file": "sides_vertices_4_q2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del hexágono. Después elige cuántos hay."
+    },
+    "sides_vertices_4_q3": {
+      "file": "sides_vertices_4_q3.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del pentágono. Después elige cuántos hay."
+    },
+    "sides_vertices_4_q4": {
+      "file": "sides_vertices_4_q4.mp3",
+      "text": "Toca uno a uno los lados rectos del hexágono. Después elige cuántos hay."
+    },
+    "sides_vertices_4_q5": {
+      "file": "sides_vertices_4_q5.mp3",
+      "text": "Toca uno a uno los lados rectos del pentágono. Después elige cuántos hay."
+    },
+    "sides_vertices_5_model": {
+      "file": "sides_vertices_5_model.mp3",
+      "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?"
+    },
+    "sides_vertices_5_q1": {
+      "file": "sides_vertices_5_q1.mp3",
+      "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?"
+    },
+    "sides_vertices_5_q2": {
+      "file": "sides_vertices_5_q2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "sides_vertices_5_q3": {
+      "file": "sides_vertices_5_q3.mp3",
+      "text": "Toca el borde del círculo. Es curvo. ¿Cuántos lados rectos tiene?"
+    },
+    "sides_vertices_5_q4": {
+      "file": "sides_vertices_5_q4.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "sides_vertices_5_q5": {
+      "file": "sides_vertices_5_q5.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del hexágono. Después elige cuántos hay."
+    },
+    "shape_patterns_1_model": {
+      "file": "shape_patterns_1_model.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_1_q1": {
+      "file": "shape_patterns_1_q1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_1_q2": {
+      "file": "shape_patterns_1_q2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_1_q3": {
+      "file": "shape_patterns_1_q3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_1_q4": {
+      "file": "shape_patterns_1_q4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_1_q5": {
+      "file": "shape_patterns_1_q5.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_model": {
+      "file": "shape_patterns_2_model.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_q1": {
+      "file": "shape_patterns_2_q1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_q2": {
+      "file": "shape_patterns_2_q2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_q3": {
+      "file": "shape_patterns_2_q3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_q4": {
+      "file": "shape_patterns_2_q4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_2_q5": {
+      "file": "shape_patterns_2_q5.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_model": {
+      "file": "shape_patterns_3_model.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_q1": {
+      "file": "shape_patterns_3_q1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_q2": {
+      "file": "shape_patterns_3_q2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_q3": {
+      "file": "shape_patterns_3_q3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_q4": {
+      "file": "shape_patterns_3_q4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_3_q5": {
+      "file": "shape_patterns_3_q5.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_model": {
+      "file": "shape_patterns_4_model.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_q1": {
+      "file": "shape_patterns_4_q1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_q2": {
+      "file": "shape_patterns_4_q2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_q3": {
+      "file": "shape_patterns_4_q3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_q4": {
+      "file": "shape_patterns_4_q4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_4_q5": {
+      "file": "shape_patterns_4_q5.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "shape_patterns_5_model": {
+      "file": "shape_patterns_5_model.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "shape_patterns_5_q1": {
+      "file": "shape_patterns_5_q1.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "shape_patterns_5_q2": {
+      "file": "shape_patterns_5_q2.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "shape_patterns_5_q3": {
+      "file": "shape_patterns_5_q3.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "shape_patterns_5_q4": {
+      "file": "shape_patterns_5_q4.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "shape_patterns_5_q5": {
+      "file": "shape_patterns_5_q5.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "find_1_1": {
+      "file": "find_1_1.mp3",
+      "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_1": {
+      "file": "weave_1_1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_1": {
+      "file": "outline_1_1.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "find_1_2": {
+      "file": "find_1_2.mp3",
+      "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_2": {
+      "file": "weave_1_2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_2": {
+      "file": "outline_1_2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay."
+    },
+    "find_1_3": {
+      "file": "find_1_3.mp3",
+      "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_3": {
+      "file": "weave_1_3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_3": {
+      "file": "outline_1_3.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "find_1_4": {
+      "file": "find_1_4.mp3",
+      "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_4": {
+      "file": "weave_1_4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_4": {
+      "file": "outline_1_4.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay."
+    },
+    "find_1_5": {
+      "file": "find_1_5.mp3",
+      "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_5": {
+      "file": "weave_1_5.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_5": {
+      "file": "outline_1_5.mp3",
+      "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay."
+    },
+    "find_1_6": {
+      "file": "find_1_6.mp3",
+      "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_6": {
+      "file": "weave_1_6.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_6": {
+      "file": "outline_1_6.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "find_1_7": {
+      "file": "find_1_7.mp3",
+      "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_7": {
+      "file": "weave_1_7.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_7": {
+      "file": "outline_1_7.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "find_1_8": {
+      "file": "find_1_8.mp3",
+      "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_1_8": {
+      "file": "weave_1_8.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_1_8": {
+      "file": "outline_1_8.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay."
+    },
+    "find_2_1": {
+      "file": "find_2_1.mp3",
+      "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_1": {
+      "file": "weave_2_1.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_1": {
+      "file": "outline_2_1.mp3",
+      "text": "Toca uno a uno los lados rectos del triángulo. Después elige cuántos hay."
+    },
+    "find_2_2": {
+      "file": "find_2_2.mp3",
+      "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_2": {
+      "file": "weave_2_2.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_2": {
+      "file": "outline_2_2.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del cuadrado. Después elige cuántos hay."
+    },
+    "find_2_3": {
+      "file": "find_2_3.mp3",
+      "text": "Encuentra los tres cuadrados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_3": {
+      "file": "weave_2_3.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_3": {
+      "file": "outline_2_3.mp3",
+      "text": "Toca uno a uno los lados rectos del rectángulo alargado. Después elige cuántos hay."
+    },
+    "find_2_4": {
+      "file": "find_2_4.mp3",
+      "text": "Encuentra los tres rectángulos alargados. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_4": {
+      "file": "weave_2_4.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_4": {
+      "file": "outline_2_4.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del pentágono. Después elige cuántos hay."
+    },
+    "find_2_5": {
+      "file": "find_2_5.mp3",
+      "text": "Encuentra los tres pentágonos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_5": {
+      "file": "weave_2_5.mp3",
+      "text": "Completa los huecos del patrón. Mira la forma y el color."
+    },
+    "outline_2_5": {
+      "file": "outline_2_5.mp3",
+      "text": "Toca uno a uno los lados rectos del hexágono. Después elige cuántos hay."
+    },
+    "find_2_6": {
+      "file": "find_2_6.mp3",
+      "text": "Encuentra los tres hexágonos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_6": {
+      "file": "weave_2_6.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_6": {
+      "file": "outline_2_6.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del triángulo. Después elige cuántos hay."
+    },
+    "find_2_7": {
+      "file": "find_2_7.mp3",
+      "text": "Encuentra los tres círculos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_7": {
+      "file": "weave_2_7.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_7": {
+      "file": "outline_2_7.mp3",
+      "text": "Toca uno a uno los lados rectos del cuadrado. Después elige cuántos hay."
+    },
+    "find_2_8": {
+      "file": "find_2_8.mp3",
+      "text": "Encuentra los tres triángulos. Aunque cambien de posición, busca su forma."
+    },
+    "weave_2_8": {
+      "file": "weave_2_8.mp3",
+      "text": "Completa los huecos del patrón. Fíjate en la forma, aunque cambie de color."
+    },
+    "outline_2_8": {
+      "file": "outline_2_8.mp3",
+      "text": "Toca uno a uno los vértices o esquinas del rectángulo alargado. Después elige cuántos hay."
+    },
+    "sky_flat_shapes_1_q1": {
+      "file": "sky_flat_shapes_1_q1.mp3",
+      "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_1_q2": {
+      "file": "sky_flat_shapes_1_q2.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_1_q3": {
+      "file": "sky_flat_shapes_1_q3.mp3",
+      "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_1_q4": {
+      "file": "sky_flat_shapes_1_q4.mp3",
+      "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_1_q5": {
+      "file": "sky_flat_shapes_1_q5.mp3",
+      "text": "Lleva el globo al círculo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_2_q1": {
+      "file": "sky_flat_shapes_2_q1.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_2_q2": {
+      "file": "sky_flat_shapes_2_q2.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_2_q3": {
+      "file": "sky_flat_shapes_2_q3.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_2_q4": {
+      "file": "sky_flat_shapes_2_q4.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_2_q5": {
+      "file": "sky_flat_shapes_2_q5.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_3_q1": {
+      "file": "sky_flat_shapes_3_q1.mp3",
+      "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_3_q2": {
+      "file": "sky_flat_shapes_3_q2.mp3",
+      "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_3_q3": {
+      "file": "sky_flat_shapes_3_q3.mp3",
+      "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_3_q4": {
+      "file": "sky_flat_shapes_3_q4.mp3",
+      "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_3_q5": {
+      "file": "sky_flat_shapes_3_q5.mp3",
+      "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_4_q1": {
+      "file": "sky_flat_shapes_4_q1.mp3",
+      "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_4_q2": {
+      "file": "sky_flat_shapes_4_q2.mp3",
+      "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_4_q3": {
+      "file": "sky_flat_shapes_4_q3.mp3",
+      "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_4_q4": {
+      "file": "sky_flat_shapes_4_q4.mp3",
+      "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_4_q5": {
+      "file": "sky_flat_shapes_4_q5.mp3",
+      "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_5_q1": {
+      "file": "sky_flat_shapes_5_q1.mp3",
+      "text": "Lleva el globo al cuadrado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_5_q2": {
+      "file": "sky_flat_shapes_5_q2.mp3",
+      "text": "Lleva el globo al triángulo. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_5_q3": {
+      "file": "sky_flat_shapes_5_q3.mp3",
+      "text": "Lleva el globo al rectángulo alargado. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_5_q4": {
+      "file": "sky_flat_shapes_5_q4.mp3",
+      "text": "Lleva el globo al pentágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_flat_shapes_5_q5": {
+      "file": "sky_flat_shapes_5_q5.mp3",
+      "text": "Lleva el globo al hexágono. Toca su nube o usa los controles para volar."
+    },
+    "sky_solid_shapes_1_q1": {
+      "file": "sky_solid_shapes_1_q1.mp3",
+      "text": "Lleva el globo hasta el cubo. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_1_q2": {
+      "file": "sky_solid_shapes_1_q2.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_1_q3": {
+      "file": "sky_solid_shapes_1_q3.mp3",
+      "text": "Lleva el globo hasta el cubo. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_1_q4": {
+      "file": "sky_solid_shapes_1_q4.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_1_q5": {
+      "file": "sky_solid_shapes_1_q5.mp3",
+      "text": "Lleva el globo hasta el cubo. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_2_q1": {
+      "file": "sky_solid_shapes_2_q1.mp3",
+      "text": "Lleva el globo hasta la esfera. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_2_q2": {
+      "file": "sky_solid_shapes_2_q2.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_2_q3": {
+      "file": "sky_solid_shapes_2_q3.mp3",
+      "text": "Lleva el globo hasta la esfera. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_2_q4": {
+      "file": "sky_solid_shapes_2_q4.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_2_q5": {
+      "file": "sky_solid_shapes_2_q5.mp3",
+      "text": "Lleva el globo hasta la esfera. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_3_q1": {
+      "file": "sky_solid_shapes_3_q1.mp3",
+      "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_3_q2": {
+      "file": "sky_solid_shapes_3_q2.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_3_q3": {
+      "file": "sky_solid_shapes_3_q3.mp3",
+      "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_3_q4": {
+      "file": "sky_solid_shapes_3_q4.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_3_q5": {
+      "file": "sky_solid_shapes_3_q5.mp3",
+      "text": "Lleva el globo hasta el cilindro. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_4_q1": {
+      "file": "sky_solid_shapes_4_q1.mp3",
+      "text": "Lleva el globo hasta el cono. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_4_q2": {
+      "file": "sky_solid_shapes_4_q2.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_4_q3": {
+      "file": "sky_solid_shapes_4_q3.mp3",
+      "text": "Lleva el globo hasta el cono. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_4_q4": {
+      "file": "sky_solid_shapes_4_q4.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_4_q5": {
+      "file": "sky_solid_shapes_4_q5.mp3",
+      "text": "Lleva el globo hasta el cono. Toca su nube para viajar."
+    },
+    "sky_solid_shapes_5_q1": {
+      "file": "sky_solid_shapes_5_q1.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_5_q2": {
+      "file": "sky_solid_shapes_5_q2.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_5_q3": {
+      "file": "sky_solid_shapes_5_q3.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_5_q4": {
+      "file": "sky_solid_shapes_5_q4.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_solid_shapes_5_q5": {
+      "file": "sky_solid_shapes_5_q5.mp3",
+      "text": "¿A qué cuerpo se parece el objeto? Toca su nube para viajar."
+    },
+    "sky_sides_vertices_1_q1": {
+      "file": "sky_sides_vertices_1_q1.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_1_q2": {
+      "file": "sky_sides_vertices_1_q2.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_1_q3": {
+      "file": "sky_sides_vertices_1_q3.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_1_q4": {
+      "file": "sky_sides_vertices_1_q4.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_1_q5": {
+      "file": "sky_sides_vertices_1_q5.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_2_q1": {
+      "file": "sky_sides_vertices_2_q1.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_2_q2": {
+      "file": "sky_sides_vertices_2_q2.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_2_q3": {
+      "file": "sky_sides_vertices_2_q3.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_2_q4": {
+      "file": "sky_sides_vertices_2_q4.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_2_q5": {
+      "file": "sky_sides_vertices_2_q5.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_3_q1": {
+      "file": "sky_sides_vertices_3_q1.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_3_q2": {
+      "file": "sky_sides_vertices_3_q2.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_3_q3": {
+      "file": "sky_sides_vertices_3_q3.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_3_q4": {
+      "file": "sky_sides_vertices_3_q4.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_3_q5": {
+      "file": "sky_sides_vertices_3_q5.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_4_q1": {
+      "file": "sky_sides_vertices_4_q1.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_4_q2": {
+      "file": "sky_sides_vertices_4_q2.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_4_q3": {
+      "file": "sky_sides_vertices_4_q3.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_4_q4": {
+      "file": "sky_sides_vertices_4_q4.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_4_q5": {
+      "file": "sky_sides_vertices_4_q5.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_5_q1": {
+      "file": "sky_sides_vertices_5_q1.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_5_q2": {
+      "file": "sky_sides_vertices_5_q2.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_5_q3": {
+      "file": "sky_sides_vertices_5_q3.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_5_q4": {
+      "file": "sky_sides_vertices_5_q4.mp3",
+      "text": "¿Cuántos lados rectos tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_sides_vertices_5_q5": {
+      "file": "sky_sides_vertices_5_q5.mp3",
+      "text": "¿Cuántos vértices o esquinas tiene esta figura? Toca la nube con tu respuesta."
+    },
+    "sky_shape_patterns_1_q1": {
+      "file": "sky_shape_patterns_1_q1.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_1_q2": {
+      "file": "sky_shape_patterns_1_q2.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_1_q3": {
+      "file": "sky_shape_patterns_1_q3.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_1_q4": {
+      "file": "sky_shape_patterns_1_q4.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_1_q5": {
+      "file": "sky_shape_patterns_1_q5.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_2_q1": {
+      "file": "sky_shape_patterns_2_q1.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_2_q2": {
+      "file": "sky_shape_patterns_2_q2.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_2_q3": {
+      "file": "sky_shape_patterns_2_q3.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_2_q4": {
+      "file": "sky_shape_patterns_2_q4.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_2_q5": {
+      "file": "sky_shape_patterns_2_q5.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_3_q1": {
+      "file": "sky_shape_patterns_3_q1.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_3_q2": {
+      "file": "sky_shape_patterns_3_q2.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_3_q3": {
+      "file": "sky_shape_patterns_3_q3.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_3_q4": {
+      "file": "sky_shape_patterns_3_q4.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_3_q5": {
+      "file": "sky_shape_patterns_3_q5.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_4_q1": {
+      "file": "sky_shape_patterns_4_q1.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_4_q2": {
+      "file": "sky_shape_patterns_4_q2.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_4_q3": {
+      "file": "sky_shape_patterns_4_q3.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_4_q4": {
+      "file": "sky_shape_patterns_4_q4.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_4_q5": {
+      "file": "sky_shape_patterns_4_q5.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_5_q1": {
+      "file": "sky_shape_patterns_5_q1.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_5_q2": {
+      "file": "sky_shape_patterns_5_q2.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_5_q3": {
+      "file": "sky_shape_patterns_5_q3.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_5_q4": {
+      "file": "sky_shape_patterns_5_q4.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar."
+    },
+    "sky_shape_patterns_5_q5": {
+      "file": "sky_shape_patterns_5_q5.mp3",
+      "text": "¿Qué figura falta en el patrón? Mira la forma y el color. Toca su nube para viajar."
+    }
+  }
+}
