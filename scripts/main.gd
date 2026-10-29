@@ -41,6 +41,9 @@ var cuentos_menu_screen: Control
 var cuentos_selector_screen: Control
 var reading_screen: Control
 var character_game_screen: Control
+var puzzle_game_screen: Control
+var find_objects_screen: Control
+var quick_quiz_screen: Control
 var story_mode := "read"
 
 func _ready() -> void:
@@ -313,6 +316,15 @@ func _show_home() -> void:
 	if character_game_screen != null and is_instance_valid(character_game_screen):
 		character_game_screen.queue_free()
 	character_game_screen = null
+	if puzzle_game_screen != null and is_instance_valid(puzzle_game_screen):
+		puzzle_game_screen.queue_free()
+	puzzle_game_screen = null
+	if find_objects_screen != null and is_instance_valid(find_objects_screen):
+		find_objects_screen.queue_free()
+	find_objects_screen = null
+	if quick_quiz_screen != null and is_instance_valid(quick_quiz_screen):
+		quick_quiz_screen.queue_free()
+	quick_quiz_screen = null
 	if language_screen != null and is_instance_valid(language_screen):
 		language_screen.queue_free()
 	language_screen = null
@@ -384,7 +396,7 @@ func _open_cuentos_menu() -> void:
 	var cuentos: Control = load("res://scenes/cuentos_menu.tscn").instantiate()
 	cuentos.connect("back_requested", Callable(self, "_show_home"))
 	cuentos.connect("character_game_requested", Callable(self, "_open_character_game"))
-	cuentos.connect("activity_requested", Callable(self, "_open_story_activity"))
+	cuentos.connect("activity_requested", Callable(self, "_on_story_activity_requested"))
 	language_screen = cuentos
 	cuentos_menu_screen = cuentos
 	add_child(cuentos)
@@ -413,6 +425,33 @@ func _open_character_game() -> void:
 	character_game_screen = game
 	add_child(game)
 
+func _on_story_activity_requested(mode: String) -> void:
+	if mode == "quick_quiz":
+		if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+			cuentos_menu_screen.hide()
+		var game: Control = load("res://scenes/reto_rapido.tscn").instantiate()
+		game.connect("back_requested", Callable(self, "_return_to_cuentos"))
+		quick_quiz_screen = game
+		add_child(game)
+		return
+	if mode == "find_objects":
+		if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+			cuentos_menu_screen.hide()
+		var game: Control = load("res://scenes/busca_objeto.tscn").instantiate()
+		game.connect("back_requested", Callable(self, "_return_to_cuentos"))
+		find_objects_screen = game
+		add_child(game)
+		return
+	if mode != "puzzle":
+		_open_story_activity(mode)
+		return
+	if cuentos_menu_screen != null and is_instance_valid(cuentos_menu_screen):
+		cuentos_menu_screen.hide()
+	var game: Control = load("res://scenes/completa_escena.tscn").instantiate()
+	game.connect("back_requested", Callable(self, "_return_to_cuentos"))
+	puzzle_game_screen = game
+	add_child(game)
+
 func _open_story(story_data: Dictionary) -> void:
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
 		cuentos_selector_screen.hide()
@@ -436,6 +475,15 @@ func _return_to_cuentos() -> void:
 	if character_game_screen != null and is_instance_valid(character_game_screen):
 		character_game_screen.queue_free()
 	character_game_screen = null
+	if puzzle_game_screen != null and is_instance_valid(puzzle_game_screen):
+		puzzle_game_screen.queue_free()
+	puzzle_game_screen = null
+	if find_objects_screen != null and is_instance_valid(find_objects_screen):
+		find_objects_screen.queue_free()
+	find_objects_screen = null
+	if quick_quiz_screen != null and is_instance_valid(quick_quiz_screen):
+		quick_quiz_screen.queue_free()
+	quick_quiz_screen = null
 	if cuentos_selector_screen != null and is_instance_valid(cuentos_selector_screen):
 		cuentos_selector_screen.queue_free()
 	cuentos_selector_screen = null

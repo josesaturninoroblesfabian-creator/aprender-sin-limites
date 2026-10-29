@@ -302,6 +302,15 @@ func _on_hotspot_pressed(id: String) -> void:
 	elif id == "elegir_personaje":
 		StoryAudio.stop(self)
 		character_game_requested.emit()
+	elif id == "completa_escena":
+		StoryAudio.stop(self)
+		activity_requested.emit("puzzle")
+	elif id == "busca_objeto":
+		StoryAudio.stop(self)
+		activity_requested.emit("find_objects")
+	elif id == "reto_rapido":
+		StoryAudio.stop(self)
+		activity_requested.emit("quick_quiz")
 	elif id in ["cuentos_ilustrados", "escucha_cuento", "ordena_historia", "preguntas_retos"]:
 		StoryAudio.stop(self)
 		var modes := {"cuentos_ilustrados": "read", "escucha_cuento": "listen", "ordena_historia": "order", "preguntas_retos": "quiz"}
