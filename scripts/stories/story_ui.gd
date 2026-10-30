@@ -3,6 +3,7 @@ extends RefCounted
 const INK := Color("#173b70")
 const BLUE := Color("#086fb7")
 const PAPER := Color("#fffaf0")
+const StoryImage = preload("res://scripts/stories/story_image.gd")
 
 static func style(fill: Color, border: Color = Color("#c9dded"), radius: int = 18, margin: int = 12) -> StyleBoxFlat:
 	var box := StyleBoxFlat.new()
@@ -37,10 +38,12 @@ static func button(text: String, color: Color = BLUE, size: int = 20) -> Button:
 	return node
 
 static func picture(texture: Texture2D, minimum_height: float = 100) -> TextureRect:
-	var node := TextureRect.new()
-	node.texture = texture
+	var node: TextureRect = StoryImage.new() if texture is AtlasTexture else TextureRect.new()
+	if node is StoryImage: node.set_frame(texture)
+	else: node.texture = texture
 	node.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	node.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	node.clip_contents = true
 	node.custom_minimum_size.y = minimum_height
 	node.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	node.size_flags_vertical = Control.SIZE_EXPAND_FILL

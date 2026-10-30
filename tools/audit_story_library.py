@@ -17,10 +17,20 @@ def audit_stories() -> list[str]:
         if len(catalog) != 16 or {s["id"] for s in catalog} != {s["id"] for s in original}:
             errors.append("All 16 original story IDs must be preserved.")
         source_by_id = {story["id"]: story for story in source}
+        visuals = json.loads((ROOT / "data/stories/visuals.json").read_text(encoding="utf-8"))
+        for entry in visuals["characters"].values():
+            x, y, width, height = entry["crop"]
+            if entry["story"] not in source_by_id or not 0 <= entry["page"] < 8 or min(x, y, width, height) < 0 or x + width > 1.001 or y + height > 1.001:
+                errors.append("Character portrait must stay within its matching story scene.")
+        art = json.loads((ROOT / "docs/reference/stories/art-refresh/provenance.json").read_text(encoding="utf-8"))
+        if hashlib.sha256((ROOT / art["asset"]).read_bytes()).hexdigest() != art["sha256"]:
+            errors.append("Pinocho illustration differs from its documented asset.")
         jobs = {"guide/" + key: text for key, text in json.loads((ROOT / "data/stories/carmelo_lines.json").read_text(encoding="utf-8")).items()}
         answers = set()
         for story in catalog:
             story_id = story["id"]
+            if story_id in visuals["atlases"] and story["atlas"] != visuals["atlases"][story_id]:
+                errors.append(f"Rebuild the catalog to use the current illustration: {story_id}")
             if len(story["pages"]) != 8 or len(story["questions"]) != 4 or story["order"] != [0, 2, 5, 7]:
                 errors.append(f"Incomplete story journey: {story_id}")
             if len({page["heading"] for page in story["pages"]}) != 8:

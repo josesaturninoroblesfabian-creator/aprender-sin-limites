@@ -1,0 +1,17 @@
+{
+  "method": "Built-in image_gen.imagegen",
+  "asset": "assets/stories/pinocho-v2.png",
+  "sha256": "69236aaf572027e791da094a4dcc84abba75e3f7ce20d008bb79fc2683da9061",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "layout": "4 columns x 2 rows, eight story scenes",
+  "reference": "assets/stories/caperucita_roja.png (style only)",
+  "prompt_file": "docs/reference/stories/art-refresh/prompts.json",
+  "preserved_originals": [
+    "assets/stories/pinocho.png",
+    "assets/stories/pinocho.svg"
+  ],
+  "runtime": "Local PNG, no runtime image generation"
+}

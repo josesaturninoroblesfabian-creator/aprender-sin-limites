@@ -245,10 +245,16 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 
 	var cover_frame := PanelContainer.new()
 	cover_frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	cover_frame.custom_minimum_size = Vector2(0, 174)
 	cover_frame.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	cover_frame.add_theme_stylebox_override("panel", _style(accent.lightened(0.48), accent.darkened(0.12), 3, 17, 2))
-	stack.add_child(cover_frame)
+	var cover_fit := AspectRatioContainer.new()
+	cover_fit.custom_minimum_size.y = 210
+	cover_fit.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	cover_fit.ratio = 1.0
+	cover_fit.stretch_mode = AspectRatioContainer.STRETCH_FIT
+	cover_fit.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	stack.add_child(cover_fit)
+	cover_fit.add_child(cover_frame)
 	var cover_path := String(story.get("cover", ""))
 	if not cover_path.is_empty():
 		var cover := TextureRect.new()
@@ -256,6 +262,7 @@ func _build_story_card(story: Dictionary, index: int) -> Button:
 		cover.texture = Repo.cover_texture(story)
 		cover.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		cover.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		cover.clip_contents = true
 		cover.mouse_filter = Control.MOUSE_FILTER_IGNORE
 		cover.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 		cover.offset_left = 5

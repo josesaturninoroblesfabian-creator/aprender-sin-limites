@@ -2,6 +2,8 @@ extends Control
 
 signal back_requested
 
+const Art = preload("res://scripts/stories/story_art.gd")
+
 const INK := Color("#173b70")
 const GOLD := Color("#ffd45b")
 const CARD_COLORS: Array[Color] = [
@@ -12,42 +14,34 @@ const ROUNDS_TO_WIN := 5
 const CHARACTERS: Array[Dictionary] = [
 	{
 		"id": "caperucita", "name": "Caperucita Roja", "story": "Caperucita Roja",
-		"image": "res://assets/cuentos/caperucita-portada.svg",
 		"clue": "Lleva una capa roja y visita a su abuelita por el bosque."
 	},
 	{
 		"id": "patito", "name": "El Patito Feo", "story": "El Patito Feo",
-		"image": "res://assets/cuentos/patito-feo-portada.svg",
 		"clue": "Es un ave que crece y descubre que es un hermoso cisne."
 	},
 	{
 		"id": "leon", "name": "El León", "story": "El León y el Ratón",
-		"image": "res://assets/cuentos/leon-raton-portada.svg",
 		"clue": "Es un gran felino que aprende que hasta un ratoncito puede ayudarlo."
 	},
 	{
 		"id": "tortuga", "name": "La Tortuga", "story": "La Liebre y la Tortuga",
-		"image": "res://assets/cuentos/liebre-tortuga-portada.svg",
 		"clue": "Avanza despacito, sin detenerse, y gana una carrera."
 	},
 	{
 		"id": "pinocho", "name": "Pinocho", "story": "Pinocho",
-		"image": "res://assets/cuentos/pinocho-portada.svg",
 		"clue": "Es un muñeco de madera que aprende a decir la verdad."
 	},
 	{
 		"id": "gato_botas", "name": "El Gato con Botas", "story": "El Gato con Botas",
-		"image": "res://assets/cuentos/gato-botas-portada.svg",
 		"clue": "Es un gato muy ingenioso que recorre el reino con sus botas."
 	},
 	{
 		"id": "ricitos", "name": "Ricitos de Oro", "story": "Ricitos de Oro",
-		"image": "res://assets/cuentos/ricitos-oro-portada.svg",
 		"clue": "Encuentra una casa en el bosque con tres sillas, tres platos y tres camas."
 	},
 	{
 		"id": "zorra", "name": "La Zorra", "story": "La Zorra y las Uvas",
-		"image": "res://assets/cuentos/zorra-uvas-portada.svg",
 		"clue": "Intenta alcanzar un racimo de uvas que está muy alto."
 	}
 ]
@@ -73,7 +67,7 @@ func _ready() -> void:
 func _build_interface() -> void:
 	var background := TextureRect.new()
 	background.name = "FondoJuego"
-	background.texture = load("res://assets/backgrounds/fondo-andes.png") as Texture2D
+	background.texture = load("res://assets/backgrounds/fondo-paisaje-andino.png") as Texture2D
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_SCALE
@@ -197,15 +191,22 @@ func _build_character_card(character: Dictionary, index: int) -> Button:
 
 	var art_frame := PanelContainer.new()
 	art_frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	art_frame.custom_minimum_size.y = 142
 	art_frame.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	art_frame.add_theme_stylebox_override("panel", _style(accent.lightened(0.43), accent.darkened(0.1), 2, 13, 0))
-	stack.add_child(art_frame)
+	var art_fit := AspectRatioContainer.new()
+	art_fit.custom_minimum_size.y = 142
+	art_fit.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	art_fit.ratio = 1.0
+	art_fit.stretch_mode = AspectRatioContainer.STRETCH_FIT
+	art_fit.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	stack.add_child(art_fit)
+	art_fit.add_child(art_frame)
 	var art := TextureRect.new()
 	art.name = "Ilustracion"
-	art.texture = load(String(character.image)) as Texture2D
+	art.texture = Art.character_texture(String(character.id))
 	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	art.clip_contents = true
 	art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	art.offset_left = 3

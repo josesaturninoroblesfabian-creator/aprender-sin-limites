@@ -28,9 +28,9 @@ Los avances parciales se conservan durante la sesión de ese cuento. Al salir se
 ## Carmelo y las ilustraciones
 
 - Seis cuadros en un atlas con transparencia: reposo, variaciones del pico y parpadeo. La animación alterna el pico mientras hay voz, se detiene al pausar y añade un balanceo suave. Es una animación por imágenes; no es un modelo 3D ni sincronización fonética.
-- Quince cuentos tienen ilustraciones nuevas generadas por IA, ocho momentos por atlas. Pinocho tiene ocho escenas vectoriales editables, derivadas del lenguaje visual de su portada existente; el generador de imágenes rechazó su salida. Su PNG se exportó con Godot desde `assets/stories/pinocho.svg`.
+- Los dieciséis cuentos tienen ocho ilustraciones por atlas con un acabado de cuento 3D. Pinocho usa ahora `assets/stories/pinocho-v2.png`, preparado para sustituir su estilo vectorial anterior. Se conservan el PNG y el SVG originales.
 - Se conservan las portadas anteriores y los recursos originales del compañero. La biblioteca usa miniaturas pequeñas de las nuevas escenas y cada actividad carga el atlas de su cuento.
-- Referencias y prompts utilizados: [art-provenance.json](reference/stories/art-provenance.json). Las 16 hojas PNG de escenas ocupan aproximadamente 46 MiB; los 205 MP3, 22 MiB. Son tamaños de archivos fuente, no una medición de memoria de una tablet.
+- Referencias y prompts originales: [art-provenance.json](reference/stories/art-provenance.json). La revisión de Pinocho y de las imágenes de los juegos inferiores se documenta en [Coherencia visual de Cuentos](COHERENCIA_VISUAL_CUENTOS.md), con sus prompts y capturas. Los 205 MP3 se conservan.
 
 ## Voz sin conexión
 
@@ -78,13 +78,13 @@ El nuevo progreso usa la sección `journey_v2` de `user://progreso_cuentos.cfg`.
 
 ## Comprobación y límites actuales
 
-Validado en Windows con Godot 4.7.2 y Compatibility: auditoría de rutas y contenido, prueba de navegación y 901 comprobaciones automáticas (510 de Cuentos y 391 de Lenguaje/Números/Matemáticas/Geometría), sin fallos, más cuatro pruebas de integridad de tiempos de audio al compartir archivos por Git. Las pruebas aíslan los archivos de usuario en `.godot/validation/`.
+Validado en Windows con Godot 4.7.2 y Compatibility: auditoría de rutas y contenido y **5.230 comprobaciones del proyecto**, sin fallos, más cuatro pruebas de integridad de tiempos de audio al compartir archivos por Git. Cuentos tiene 510 comprobaciones de sus recorridos y otras 375 de arte, imágenes completas y juegos inferiores. Las pruebas aíslan los archivos de usuario en `.godot/validation/`.
 
 Se revisaron las pantallas con el renderizador real, las 64 dobles páginas y las 64 preguntas, además de la biblioteca, narración, resultado y sonido. Las capturas son del juego, no maquetas. También se revisa la presentación a 960 × 600.
 
 No se ha probado todavía en un dispositivo Android físico ni se han generado instaladores. Al preparar una exportación se deben incluir los JSON del catálogo y de tiempos en el filtro de archivos sin recurso (por ejemplo, `*.json`). El proyecto aún no tiene perfiles de exportación.
 
-Elegir personaje, desarrollado por el compañero, está integrado: conserva sus ocho personajes y sus partidas de cinco rondas. Su puntuación pertenece a esa partida y no altera el progreso de los cuatro recorridos principales. Los otros tres juegos inferiores —Completa la escena, Busca el objeto y Reto rápido— siguen mostrando su aviso de próxima etapa. Tampoco se añadió una IA que razone durante el juego ni sincronización con servidor.
+Los cuatro juegos inferiores del compañero están integrados: Elegir personaje conserva ocho personajes y cinco rondas; Completa la escena arma tres imágenes; Busca el objeto tiene tres escenarios y nueve objetivos; Reto rápido selecciona tres preguntas del catálogo. Sus partidas no alteran el progreso de los cuatro recorridos principales. Las imágenes se unificaron con las ilustraciones de los cuentos. No se añadió una IA que razone durante el juego ni sincronización con servidor.
 
 ## Capturas del resultado
 

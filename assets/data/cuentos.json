@@ -889,7 +889,7 @@
           "text": "El carpintero Gepeto talló un muñeco de madera y lo llamó Pinocho. Aquella noche, un hada le dio movimiento y voz. Gepeto se alegró al verlo caminar y decidió cuidarlo como a un hijo.",
           "speech": "Gepeto: Aprenderemos muchas cosas juntos.",
           "art": "Kind carpenter in a warm woodshop greets a newly living wooden puppet boy while gentle blue fairy glows nearby.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_00.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_00.timing.json",
           "narration": "El carpintero Gepeto talló un muñeco de madera y lo llamó Pinocho. Aquella noche, un hada le dio movimiento y voz. Gepeto se alegró al verlo caminar y decidió cuidarlo como a un hijo. Gepeto: Aprenderemos muchas cosas juntos."
@@ -899,7 +899,7 @@
           "text": "Gepeto preparó unos libros para que Pinocho pudiera ir a la escuela. Antes de salir, un grillo le aconsejó pensar en las consecuencias de sus decisiones. Pinocho prometió regresar después de las clases.",
           "speech": "Grillo: Si dudas, busca un consejo de confianza.",
           "art": "Wooden boy with books leaves carpenter's cottage accompanied by a tiny cricket.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_01.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_01.timing.json",
           "narration": "Gepeto preparó unos libros para que Pinocho pudiera ir a la escuela. Antes de salir, un grillo le aconsejó pensar en las consecuencias de sus decisiones. Pinocho prometió regresar después de las clases. Grillo: Si dudas, busca un consejo de confianza."
@@ -909,7 +909,7 @@
           "text": "En una plaza sonaba música de un teatro. Pinocho se detuvo y olvidó la escuela. Pasó la mañana mirando funciones y jugando. Cuando vio la hora, se preocupó: Gepeto pensaría que todavía estaba en clase.",
           "speech": "Pinocho: Me distraje y no cumplí mi promesa.",
           "art": "Puppet boy stops at a colorful outdoor puppet theater while school path lies behind him.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_02.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_02.timing.json",
           "narration": "En una plaza sonaba música de un teatro. Pinocho se detuvo y olvidó la escuela. Pasó la mañana mirando funciones y jugando. Cuando vio la hora, se preocupó: Gepeto pensaría que todavía estaba en clase. Pinocho: Me distraje y no cumplí mi promesa."
@@ -919,7 +919,7 @@
           "text": "El hada lo encontró junto a la plaza y preguntó por sus libros. Pinocho dijo que había estado en la escuela. Al mentir, su nariz de madera creció. Inventó otra excusa y la nariz creció un poco más.",
           "speech": "Hada: Decir la verdad es el primer paso para arreglarlo.",
           "art": "Blue fairy listens to embarrassed puppet boy whose wooden nose has grown long; books rest nearby.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_03.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_03.timing.json",
           "narration": "El hada lo encontró junto a la plaza y preguntó por sus libros. Pinocho dijo que había estado en la escuela. Al mentir, su nariz de madera creció. Inventó otra excusa y la nariz creció un poco más. Hada: Decir la verdad es el primer paso para arreglarlo."
@@ -929,7 +929,7 @@
           "text": "Pinocho respiró hondo y contó lo que había pasado. Su nariz volvió a su tamaño. Regresó al taller para disculparse, pero una vecina explicó que Gepeto había salido a buscarlo cerca del puerto.",
           "speech": "Pinocho: Debí avisar. Ahora iré a encontrarlo.",
           "art": "Boy with normal nose speaks honestly to fairy then reaches empty workshop with helpful neighbor.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_04.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_04.timing.json",
           "narration": "Pinocho respiró hondo y contó lo que había pasado. Su nariz volvió a su tamaño. Regresó al taller para disculparse, pero una vecina explicó que Gepeto había salido a buscarlo cerca del puerto. Pinocho: Debí avisar. Ahora iré a encontrarlo."
@@ -939,7 +939,7 @@
           "text": "En el puerto, Pinocho vio la barca de Gepeto junto a un muelle. El viento la había alejado y una cuerda estaba enredada. Con ayuda de una pescadora, Pinocho lanzó una soga y la sujetó al muelle.",
           "speech": "Pescadora: Tira conmigo cuando te avise.",
           "art": "Wooden boy and fisherwoman safely pull a rope from sturdy dock to Geppetto's small nearby boat.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_05.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_05.timing.json",
           "narration": "En el puerto, Pinocho vio la barca de Gepeto junto a un muelle. El viento la había alejado y una cuerda estaba enredada. Con ayuda de una pescadora, Pinocho lanzó una soga y la sujetó al muelle. Pescadora: Tira conmigo cuando te avise."
@@ -949,7 +949,7 @@
           "text": "Entre los dos acercaron la barca. Gepeto subió al muelle y abrazó a Pinocho. El niño contó la verdad sin buscar excusas. También explicó cómo pensaba recuperar la clase perdida y avisar si volvía a retrasarse.",
           "speech": "Gepeto: Gracias por hablar con sinceridad.",
           "art": "Geppetto embraces puppet boy on safe dock while fisherwoman smiles beside secured boat.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_06.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_06.timing.json",
           "narration": "Entre los dos acercaron la barca. Gepeto subió al muelle y abrazó a Pinocho. El niño contó la verdad sin buscar excusas. También explicó cómo pensaba recuperar la clase perdida y avisar si volvía a retrasarse. Gepeto: Gracias por hablar con sinceridad."
@@ -959,7 +959,7 @@
           "text": "El hada vio que Pinocho empezaba a actuar con honestidad y cuidado. Con su magia lo convirtió en un niño. Pinocho volvió a la escuela, sabiendo que hacerse responsable de los errores requiere practicar cada día.",
           "speech": "Pinocho: Puedo equivocarme y también aprender a repararlo.",
           "art": "Fully clothed schoolboy wearing full-length blue overalls, cream long-sleeved shirt and red cloth cap walks to school with books; Geppetto and cricket wave goodbye.",
-          "image": "res://assets/stories/pinocho.png",
+          "image": "res://assets/stories/pinocho-v2.png",
           "audio": "res://assets/audio/stories/pinocho/page_07.mp3",
           "timings": "res://assets/audio/stories/pinocho/page_07.timing.json",
           "narration": "El hada vio que Pinocho empezaba a actuar con honestidad y cuidado. Con su magia lo convirtió en un niño. Pinocho volvió a la escuela, sabiendo que hacerse responsable de los errores requiere practicar cada día. Pinocho: Puedo equivocarme y también aprender a repararlo."
@@ -1016,7 +1016,7 @@
         }
       ],
       "cover": "res://assets/cuentos/pinocho-portada.svg",
-      "atlas": "res://assets/stories/pinocho.png",
+      "atlas": "res://assets/stories/pinocho-v2.png",
       "order": [
         0,
         2,

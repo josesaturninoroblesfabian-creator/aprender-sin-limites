@@ -8,17 +8,17 @@ const Ink := Color("#173b70")
 const Gold := Color("#ffd34f")
 const LEVELS: Array[Dictionary] = [
 	{"id":"caperucita_roja", "page":1, "targets":[
-		{"name":"El letrero del camino", "icon":"🪧", "rect":Rect2(0.28,0.06,0.34,0.30)},
-		{"name":"La canasta", "icon":"🧺", "rect":Rect2(0.04,0.56,0.34,0.34)},
-		{"name":"El lobo", "icon":"🐺", "rect":Rect2(0.65,0.16,0.32,0.58)}]},
+		{"name":"El letrero del camino", "icon":"🪧", "rect":Rect2(0.34,0.06,0.27,0.19)},
+		{"name":"La canasta", "icon":"🧺", "rect":Rect2(0.06,0.57,0.27,0.23)},
+		{"name":"El lobo", "icon":"🐺", "rect":Rect2(0.66,0.26,0.31,0.45)}]},
 	{"id":"tres_chanchitos", "page":0, "targets":[
 		{"name":"La paja", "icon":"🌾", "rect":Rect2(0.03,0.59,0.30,0.30)},
 		{"name":"Las tablas", "icon":"🪵", "rect":Rect2(0.35,0.62,0.34,0.27)},
 		{"name":"Los ladrillos", "icon":"🧱", "rect":Rect2(0.76,0.59,0.22,0.27)}]},
 	{"id":"patito_feo", "page":2, "targets":[
-		{"name":"Los juncos", "icon":"🌿", "rect":Rect2(0.02,0.04,0.26,0.46)},
-		{"name":"El patito", "icon":"🐥", "rect":Rect2(0.30,0.31,0.34,0.51)},
-		{"name":"La roca", "icon":"🪨", "rect":Rect2(0.69,0.55,0.29,0.37)}]}
+		{"name":"Los juncos", "icon":"🌿", "rect":Rect2(0.02,0.02,0.24,0.21)},
+		{"name":"El patito", "icon":"🐥", "rect":Rect2(0.06,0.29,0.43,0.58)},
+		{"name":"La roca", "icon":"🪨", "rect":Rect2(0.74,0.62,0.25,0.26)}]}
 ]
 
 var level_index := 0
@@ -31,6 +31,9 @@ var image_area: Control
 var feedback: Label
 var next_button: Button
 var carmelo: TextureRect
+var source_frame: AtlasTexture
+var illustration: TextureRect
+var visible_region := Rect2()
 
 func _ready() -> void:
 	_build_ui()
@@ -39,7 +42,7 @@ func _ready() -> void:
 
 func _build_ui() -> void:
 	var background := TextureRect.new()
-	background.texture = load("res://assets/backgrounds/fondo-andes.png") as Texture2D
+	background.texture = load("res://assets/backgrounds/fondo-paisaje-andino.png") as Texture2D
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_SCALE
@@ -110,12 +113,21 @@ func _build_ui() -> void:
 	frame.size_flags_horizontal=Control.SIZE_EXPAND_FILL
 	frame.size_flags_vertical=Control.SIZE_EXPAND_FILL
 	frame.add_theme_stylebox_override("panel",_style(Color("#fff0c5"),Color("#b97232"),7,26))
-	body.add_child(frame)
+	var scene_fit := AspectRatioContainer.new()
+	scene_fit.name = "AjusteImagenCompleta"
+	scene_fit.ratio = 1.0
+	scene_fit.stretch_mode = AspectRatioContainer.STRETCH_FIT
+	scene_fit.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	scene_fit.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	body.add_child(scene_fit)
+	scene_fit.add_child(frame)
 	image_area=Control.new()
+	image_area.clip_contents = true
 	image_area.name="EscenaInteractiva"
 	image_area.size_flags_horizontal=Control.SIZE_EXPAND_FILL
 	image_area.size_flags_vertical=Control.SIZE_EXPAND_FILL
 	frame.add_child(image_area)
+	image_area.resized.connect(_layout_image)
 	var right:=PanelContainer.new()
 	right.custom_minimum_size.x=180
 	right.add_theme_stylebox_override("panel",_style(Color("#fff5df"),Color("#db9c44"),4,23))
@@ -150,14 +162,15 @@ func _show_level() -> void:
 	targets_found=0
 	var level:Dictionary=LEVELS[level_index]
 	var story:Dictionary=Repo.find_story(String(level.id))
-	var frame:Texture2D=Repo.page_texture(story,int(level.page))
+	source_frame=Repo.page_texture(story,int(level.page))
 	for child in image_area.get_children():
 		image_area.remove_child(child)
 		child.queue_free()
-	var illustration:=TextureRect.new()
-	illustration.texture=frame
+	illustration=TextureRect.new()
+	illustration.name = "IlustracionCompleta"
+	illustration.texture=source_frame
 	illustration.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
-	# The invisible search areas use normalized coordinates from this exact frame.
+	# Preserve the whole scene and its original target coordinates.
 	illustration.stretch_mode=TextureRect.STRETCH_SCALE
 	illustration.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	illustration.mouse_filter=Control.MOUSE_FILTER_IGNORE
@@ -194,6 +207,32 @@ func _show_level() -> void:
 		image_area.add_child(spot)
 	feedback.text="Encuentra los tres objetos de «%s»." % String(story.get("title","este cuento"))
 	next_button.visible=false
+	_layout_image()
+
+func _layout_image() -> void:
+	if source_frame == null or not is_instance_valid(illustration) or level_index >= LEVELS.size(): return
+	if image_area.size.x <= 0 or image_area.size.y <= 0: return
+	var level: Dictionary = LEVELS[level_index]
+	var source_size := source_frame.get_size()
+	visible_region = Rect2(Vector2.ZERO, source_frame.region.size)
+	illustration.texture = source_frame
+	for index in range(level.targets.size()):
+		var spot := image_area.get_node_or_null("Buscar_%d" % index) as Button
+		if spot == null: continue
+		var target: Rect2 = level.targets[index].rect
+		var source_rect := Rect2(target.position * source_size, target.size * source_size)
+		var shown := source_rect.intersection(visible_region)
+		spot.visible = shown.has_area()
+		if not spot.visible: continue
+		var area := Rect2((shown.position - visible_region.position) / visible_region.size, shown.size / visible_region.size)
+		spot.anchor_left = area.position.x
+		spot.anchor_top = area.position.y
+		spot.anchor_right = area.end.x
+		spot.anchor_bottom = area.end.y
+		spot.offset_left = 0
+		spot.offset_top = 0
+		spot.offset_right = 0
+		spot.offset_bottom = 0
 
 func _on_target_found(index:int) -> void:
 	var row:=target_list.get_node_or_null("Objetivo_%d" % index) as HBoxContainer

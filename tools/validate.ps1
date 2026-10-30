@@ -33,6 +33,9 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'Learning sections validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/stories_test.gd --log-file (Join-Path $validationRoot 'stories.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'stories-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Stories validation failed.' }
+    & $Godot --headless --path $projectRoot --script res://tests/story_art_test.gd --log-file (Join-Path $validationRoot 'story-art.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'story-art-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Story artwork validation failed.' }
+    if (Get-Content -LiteralPath (Join-Path $validationRoot 'story-art-console.log') | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Story artwork reported errors.' }
     & $Godot --headless --path $projectRoot --script res://tests/math_activities_test.gd --log-file (Join-Path $validationRoot 'mathematics.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'mathematics-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Mathematics activities validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/number_activities_test.gd --log-file (Join-Path $validationRoot 'number-activities.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'number-activities-console.log')

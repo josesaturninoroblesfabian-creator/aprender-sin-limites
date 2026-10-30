@@ -4,6 +4,7 @@ signal back_requested
 
 const Carmelo = preload("res://scripts/stories/carmelo_avatar.gd")
 const Repo = preload("res://scripts/stories/story_repository.gd")
+const StoryImage = preload("res://scripts/stories/story_image.gd")
 const Ink := Color("#173b70")
 const Gold := Color("#ffd34f")
 const ROUND_COUNT := 3
@@ -24,6 +25,9 @@ var next_button: Button
 var result_panel: PanelContainer
 var result_label: Label
 var carmelo: TextureRect
+var reference_art: TextureRect
+var question_area: HBoxContainer
+var footer_bar: Control
 
 func _ready() -> void:
 	_build_ui()
@@ -41,7 +45,7 @@ func _process(delta: float) -> void:
 
 func _build_ui() -> void:
 	var bg := TextureRect.new()
-	bg.texture = load("res://assets/backgrounds/fondo-andes.png") as Texture2D
+	bg.texture = load("res://assets/backgrounds/fondo-paisaje-andino.png") as Texture2D
 	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	bg.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	bg.stretch_mode = TextureRect.STRETCH_SCALE
@@ -66,6 +70,7 @@ func _build_ui() -> void:
 	root.add_child(instruction)
 	instruction.add_child(_label("Responde preguntas sobre el cuento", 22, Color.WHITE, true))
 	var body := HBoxContainer.new()
+	question_area = body
 	body.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	body.add_theme_constant_override("separation", 12)
 	root.add_child(body)
@@ -107,7 +112,6 @@ func _build_carmelo(parent: HBoxContainer) -> void:
 	stack.add_theme_constant_override("separation", 6)
 	panel.add_child(stack)
 	carmelo = Carmelo.new()
-	carmelo.texture = load("res://assets/carmelo-personaje.png") as Texture2D
 	carmelo.custom_minimum_size = Vector2(0, 280)
 	stack.add_child(carmelo)
 	var bubble := PanelContainer.new()
@@ -129,9 +133,29 @@ func _build_quiz_panel(parent: HBoxContainer) -> void:
 	panel.add_child(content)
 	story_label = _label("Cuento", 16, Color("#a34b25"), true)
 	content.add_child(story_label)
+	var reference_row := HBoxContainer.new()
+	reference_row.add_theme_constant_override("separation", 16)
+	content.add_child(reference_row)
+	reference_art = StoryImage.new()
+	reference_art.name = "EscenaDelCuento"
+	reference_art.custom_minimum_size = Vector2.ZERO
+	reference_art.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	reference_art.size_flags_stretch_ratio = 0.8
+	reference_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	reference_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	reference_art.clip_contents = true
+	reference_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	var reference_fit := AspectRatioContainer.new()
+	reference_fit.ratio = 1.0
+	reference_fit.stretch_mode = AspectRatioContainer.STRETCH_FIT
+	reference_fit.custom_minimum_size = Vector2(225, 225)
+	reference_row.add_child(reference_fit)
+	reference_fit.add_child(reference_art)
 	question_label = _label("¿Cuál es la respuesta?", 27, Color("#61351d"), true)
+	question_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	question_label.size_flags_stretch_ratio = 1.2
 	question_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	content.add_child(question_label)
+	reference_row.add_child(question_label)
 	options_grid = GridContainer.new()
 	options_grid.columns = 3
 	options_grid.size_flags_vertical = Control.SIZE_EXPAND_FILL
@@ -144,6 +168,7 @@ func _build_footer(parent: VBoxContainer) -> void:
 	# button. In an HBox, two expanding spacers can compress the timer on small
 	# window sizes and stack its label one character per line.
 	var footer := Control.new()
+	footer_bar = footer
 	footer.custom_minimum_size.y = 64
 	parent.add_child(footer)
 	var timer_center := CenterContainer.new()
@@ -215,6 +240,8 @@ func _show_question() -> void:
 	var question: Dictionary = questions[question_index]
 	question_label.text = String(question.get("prompt", "¿Cuál es la respuesta?"))
 	story_label.text = "📖  " + String(question.get("story_title", "Cuento"))
+	var story := Repo.find_story(String(question.get("story_id", "")))
+	reference_art.set_frame(Repo.page_texture(story, clampi(int(question.get("evidence", 0)), 0, 7)))
 	progress_label.text = "Progreso %d de %d\n%s" % [question_index + 1, ROUND_COUNT, _stars_for_round(question_index)]
 	for child in options_grid.get_children():
 		options_grid.remove_child(child)
@@ -230,7 +257,7 @@ func _build_option(choice: String, index: int) -> Button:
 	var button := Button.new()
 	button.name = "Opcion_%d" % index
 	button.set_meta("choice", choice)
-	button.custom_minimum_size = Vector2(170, 182)
+	button.custom_minimum_size = Vector2(170, 130)
 	button.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	button.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	button.clip_contents = true
@@ -254,26 +281,11 @@ func _build_option(choice: String, index: int) -> Button:
 	content.add_theme_constant_override("separation", 6)
 	content.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	button.add_child(content)
-	var artwork_frame := PanelContainer.new()
-	artwork_frame.custom_minimum_size = Vector2(0, 112)
-	artwork_frame.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	artwork_frame.clip_contents = true
-	artwork_frame.add_theme_stylebox_override("panel", _style(Color("#eaf6ff"), Color("#d5e3ef"), 2, 15))
-	artwork_frame.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	content.add_child(artwork_frame)
-	var artwork := TextureRect.new()
-	artwork.name = "IlustracionRespuesta"
-	artwork.texture = _illustration_for_choice(choice)
-	artwork.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	artwork.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
-	artwork.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	artwork.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	artwork.offset_left = 3
-	artwork.offset_top = 3
-	artwork.offset_right = -3
-	artwork.offset_bottom = -3
-	artwork_frame.add_child(artwork)
-	var answer_label := _label(choice, 19, Ink, true)
+	var badge := _label(["A", "B", "C"][index], 35, colors[index % colors.size()], true)
+	badge.name = "IdentificadorRespuesta"
+	content.add_child(badge)
+	var answer_label := _label(choice, 22, Ink, true)
+	answer_label.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	answer_label.name = "TextoRespuesta"
 	answer_label.custom_minimum_size = Vector2(0, 42)
 	answer_label.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -302,9 +314,10 @@ func _choose_answer(choice: String, selected: Button) -> void:
 				child.add_theme_stylebox_override("disabled", _style(Color("#d5f6d7"), Color("#28a84a"), 6, 22))
 	next_button.visible = true
 	if correct:
-		next_button.text = "¡Correcto! Siguiente ➜"
+		next_button.text = "¡Correcto! ➜"
 	else:
-		next_button.text = "La respuesta era: %s  ➜" % correct_answer
+		question_label.text = String(question.prompt) + "\n\nRespuesta: " + correct_answer
+		next_button.text = "Continuar ➜"
 
 func _on_time_up() -> void:
 	if answered:
@@ -315,7 +328,8 @@ func _on_time_up() -> void:
 			child.disabled = true
 			if String(questions[question_index].get("answer", "")) == String(child.get_meta("choice", "")):
 				child.add_theme_stylebox_override("disabled", _style(Color("#d5f6d7"), Color("#28a84a"), 6, 22))
-	next_button.text = "¡Se acabó el tiempo! ➜"
+	question_label.text = "Tiempo terminado.\nRespuesta: " + String(questions[question_index].answer)
+	next_button.text = "Continuar ➜"
 	next_button.visible = true
 	StoryAudio.guide("retry", self)
 
@@ -327,9 +341,12 @@ func _next_question() -> void:
 		_finish_quiz()
 
 func _finish_quiz() -> void:
+	question_area.hide()
+	footer_bar.hide()
 	options_grid.visible = false
 	question_label.visible = false
 	story_label.visible = false
+	reference_art.get_parent().visible = false
 	next_button.visible = false
 	result_panel.visible = true
 	progress_label.text = "¡Completado!\n⭐  ⭐  ⭐"
@@ -340,10 +357,13 @@ func _restart() -> void:
 	questions.clear()
 	question_index = 0
 	score = 0
+	question_area.show()
+	footer_bar.show()
 	result_panel.visible = false
 	options_grid.visible = true
 	question_label.visible = true
 	story_label.visible = true
+	reference_art.get_parent().visible = true
 	_load_questions()
 	_show_question()
 
@@ -359,71 +379,6 @@ func _stars_for_round(index: int) -> String:
 		result += "⭐  " if badge < index else "🧩  "
 	return result.strip_edges()
 
-func _icon_for_choice(choice: String) -> String:
-	var normalized := choice.to_lower()
-	if "lobo" in normalized or "zorro" in normalized:
-		return "🐺"
-	if "abuela" in normalized or "mujer" in normalized:
-		return "👵"
-	if "niñ" in normalized or "caperucita" in normalized:
-		return "🧒"
-	if "oso" in normalized:
-		return "🐻"
-	if "vecino" in normalized or "campesino" in normalized or "guardabosques" in normalized:
-		return "🧑‍🌾"
-	if "casa" in normalized or "ladrillo" in normalized:
-		return "🏠"
-	if "ratón" in normalized or "raton" in normalized:
-		return "🐭"
-	if "patito" in normalized or "cisne" in normalized:
-		return "🦢"
-	return "✨"
-
-func _illustration_for_choice(choice: String) -> Texture2D:
-	var normalized := choice.to_lower()
-	var question: Dictionary = questions[question_index]
-	var current_story_id := String(question.get("story_id", ""))
-	var story_id := current_story_id
-	if "lobo" in normalized or "zorro" in normalized:
-		story_id = "caperucita_roja"
-	elif "oso" in normalized:
-		story_id = "ricitos_de_oro"
-	elif "abuela" in normalized or "niñ" in normalized or "caperucita" in normalized:
-		story_id = "caperucita_roja"
-	elif "paja" in normalized or "ladrillo" in normalized or "chanchito" in normalized or "casa" in normalized:
-		story_id = "tres_chanchitos"
-	elif "cisne" in normalized or "patito" in normalized or "río" in normalized or "rio" in normalized:
-		story_id = "patito_feo"
-	elif "ratón" in normalized or "raton" in normalized or "león" in normalized or "leon" in normalized:
-		story_id = "leon_y_raton"
-	elif "sol" in normalized or "viento" in normalized:
-		story_id = "el_viento_y_el_sol"
-	var story := Repo.find_story(story_id)
-	if story.is_empty():
-		var stories := Repo.all_stories()
-		if stories.is_empty():
-			return null
-		story = stories[0]
-	if story_id == current_story_id:
-		# Use the evidence scene for the right answer and different scenes from
-		# the same cuento for distractors, so all three cards have visible art.
-		var evidence_page := clampi(int(question.get("evidence", 0)), 0, 7)
-		var page_index := evidence_page
-		if choice != String(question.get("answer", "")):
-			var choices: Array = question.get("choices", [])
-			var choice_index: int = maxi(0, choices.find(choice))
-			page_index = posmod(evidence_page + choice_index + 1, 8)
-			if page_index == evidence_page:
-				page_index = posmod(page_index + 1, 8)
-		return Repo.page_texture(story, page_index)
-	# The catalog provides dedicated cover art. Loading that path directly avoids
-	# depending on atlas cropping/import state for the option illustrations.
-	var cover_path := String(story.get("cover", ""))
-	if not cover_path.is_empty():
-		var cover := ResourceLoader.load(cover_path) as Texture2D
-		if cover != null:
-			return cover
-	return Repo.cover_texture(story)
 
 func _go_back() -> void:
 	StoryAudio.stop(self)

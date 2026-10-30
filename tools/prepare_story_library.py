@@ -8,6 +8,7 @@ source = json.loads((ROOT / "data/stories/library.json").read_text(encoding="utf
 catalog_path = ROOT / "assets/data/cuentos.json"
 old = json.loads(catalog_path.read_text(encoding="utf-8"))
 old_by_id = {story["id"]: story for story in old["stories"]}
+visuals = json.loads((ROOT / "data/stories/visuals.json").read_text(encoding="utf-8"))
 stories = []
 assert len(source["stories"]) == 16
 assert set(old_by_id) == {story["id"] for story in source["stories"]}, "Preserve all 16 existing story IDs"
@@ -15,7 +16,7 @@ for index, original in enumerate(source["stories"]):
     story = copy.deepcopy(original)
     assert len(story["pages"]) == 8 and len(story["questions"]) == 4
     story["cover"] = old_by_id[story["id"]]["cover"]
-    story["atlas"] = f"res://assets/stories/{story['id']}.png"
+    story["atlas"] = visuals["atlases"].get(story["id"], f"res://assets/stories/{story['id']}.png")
     story["order"] = [0, 2, 5, 7]
     for page_index, page in enumerate(story["pages"]):
         page["image"] = story["atlas"]

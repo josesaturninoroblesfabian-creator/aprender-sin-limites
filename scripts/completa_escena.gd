@@ -23,6 +23,10 @@ var missing_slots: Array[int] = []
 var placed_slots: Array[int] = []
 var round_index := 0
 var rounds := 3
+var source_scene: AtlasTexture
+var scene_image: TextureRect
+var piece_textures: Array[AtlasTexture] = []
+const SLOT_RECTS := [Rect2(0.55, 0.08, 0.29, 0.27), Rect2(0.10, 0.56, 0.28, 0.30), Rect2(0.62, 0.58, 0.28, 0.28)]
 
 func _ready() -> void:
 	_build_ui()
@@ -33,7 +37,7 @@ func _ready() -> void:
 
 func _build_ui() -> void:
 	var bg := TextureRect.new()
-	bg.texture = load("res://assets/backgrounds/fondo-andes.png") as Texture2D
+	bg.texture = load("res://assets/backgrounds/fondo-paisaje-andino.png") as Texture2D
 	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	bg.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	bg.stretch_mode = TextureRect.STRETCH_SCALE
@@ -105,7 +109,6 @@ func _build_ui() -> void:
 	left.add_child(left_stack)
 	guide = Carmelo.new()
 	guide.custom_minimum_size = Vector2(0, 300)
-	guide.texture = load("res://assets/carmelo-personaje.png") as Texture2D
 	guide.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	left_stack.add_child(guide)
 	var bubble := PanelContainer.new()
@@ -119,11 +122,21 @@ func _build_ui() -> void:
 	scene_panel.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scene_panel.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scene_panel.add_theme_stylebox_override("panel", _style(Color("#fff0c5"), Color("#b97232"), 7, 27))
-	content.add_child(scene_panel)
+	# Fit the visible frame itself around the whole illustration.
+	var scene_fit := AspectRatioContainer.new()
+	scene_fit.name = "AjusteImagenCompleta"
+	scene_fit.ratio = 1.0
+	scene_fit.stretch_mode = AspectRatioContainer.STRETCH_FIT
+	scene_fit.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	scene_fit.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	content.add_child(scene_fit)
+	scene_fit.add_child(scene_panel)
 	board = Control.new()
+	board.clip_contents = true
 	board.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	board.size_flags_vertical = Control.SIZE_EXPAND_FILL
 	scene_panel.add_child(board)
+	board.resized.connect(_layout_board)
 	var side := PanelContainer.new()
 	side.custom_minimum_size.x = 145
 	side.add_theme_stylebox_override("panel", _style(Color("#fff5df"), Color("#db9c44"), 4, 23))
@@ -176,9 +189,14 @@ func _start_round() -> void:
 	var scene := AtlasTexture.new()
 	scene.atlas = atlas
 	scene.region = Rect2(Vector2(int(order[0]) % 4, int(order[0]) / 4) * cell, cell)
-	for child in board.get_children(): child.queue_free()
-	for child in tray.get_children(): child.queue_free()
-	var scene_image := TextureRect.new()
+	source_scene = scene
+	piece_textures.clear()
+	for parent in [board, tray]:
+		for child in parent.get_children():
+			parent.remove_child(child)
+			child.queue_free()
+	scene_image = TextureRect.new()
+	scene_image.name = "IlustracionCompleta"
 	scene_image.texture = scene
 	scene_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	scene_image.stretch_mode = TextureRect.STRETCH_SCALE
@@ -191,7 +209,7 @@ func _start_round() -> void:
 	for badge_index in range(rounds):
 		badge_text += "⭐  " if badge_index <= round_index else "🧩  "
 	progress_badges.text = badge_text.strip_edges()
-	var slot_rects := [Rect2(0.55, 0.08, 0.29, 0.27), Rect2(0.10, 0.56, 0.28, 0.30), Rect2(0.62, 0.58, 0.28, 0.28)]
+	var slot_rects := SLOT_RECTS
 	for index in range(4):
 		if index == 3:
 			continue
@@ -221,14 +239,17 @@ func _start_round() -> void:
 		var piece_atlas := AtlasTexture.new()
 		piece_atlas.atlas = atlas
 		piece_atlas.region = Rect2(scene.region.position + target_rect.position * cell, target_rect.size * cell)
+		piece_textures.append(piece_atlas)
 		piece.texture = piece_atlas
 		piece.custom_minimum_size = Vector2(116, 78)
 		piece.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		piece.stretch_mode = TextureRect.STRETCH_SCALE
+		piece.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		piece.clip_contents = true
 		piece.mouse_filter = Control.MOUSE_FILTER_STOP
 		tray.add_child(piece)
 	feedback.text = "Arrastra las tres piezas a sus espacios."
 	next_button.visible = false
+	_layout_board()
 
 func on_piece_dropped(slot: Control, piece_index: int) -> void:
 	if not slot.has_meta("missing") or not bool(slot.get_meta("missing")) or piece_index != int(slot.get_meta("slot_index")):
@@ -253,7 +274,10 @@ func on_piece_dropped(slot: Control, piece_index: int) -> void:
 	placed_image.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	slot.add_child(placed_image)
 	slot.move_child(placed_image, 0)
-	slot.add_theme_stylebox_override("panel", _style(Color(0, 0, 0, 0), Color("#fffdf0"), 3, 28))
+	# The replacement crop must cover the exact hole without an inset or border.
+	var joined := StyleBoxFlat.new()
+	joined.bg_color = Color.TRANSPARENT
+	slot.add_theme_stylebox_override("panel", joined)
 	slot.get_child(1).visible = false
 	slot.set_meta("missing", false)
 	placed_slots.append(piece_index)
@@ -280,7 +304,13 @@ func _next_round() -> void:
 	_start_round()
 
 func _layout_board() -> void:
-	pass
+	if not is_instance_valid(scene_image) or source_scene == null or board.size.x <= 0 or board.size.y <= 0: return
+	var visible := Rect2(Vector2.ZERO, source_scene.region.size)
+	scene_image.texture = source_scene
+	# Pieces always refer to the entire original scene, including after resize.
+	for index in range(piece_textures.size()):
+		var slot: Rect2 = SLOT_RECTS[index]
+		piece_textures[index].region = Rect2(source_scene.region.position + visible.position + slot.position * visible.size, slot.size * visible.size)
 
 func _back() -> void:
 	StoryAudio.stop(self)

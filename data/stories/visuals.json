@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "atlases": {
+    "pinocho": "res://assets/stories/pinocho-v2.png"
+  },
+  "characters": {
+    "caperucita": {
+      "story": "caperucita_roja",
+      "page": 0,
+      "crop": [
+        0.45,
+        0.18,
+        0.55,
+        0.55
+      ]
+    },
+    "patito": {
+      "story": "patito_feo",
+      "page": 2,
+      "crop": [
+        0.01,
+        0.17,
+        0.63,
+        0.63
+      ]
+    },
+    "leon": {
+      "story": "leon_y_raton",
+      "page": 2,
+      "crop": [
+        0,
+        0,
+        0.78,
+        0.78
+      ]
+    },
+    "tortuga": {
+      "story": "liebre_y_tortuga",
+      "page": 4,
+      "crop": [
+        0.17,
+        0.27,
+        0.65,
+        0.65
+      ]
+    },
+    "pinocho": {
+      "story": "pinocho",
+      "page": 1,
+      "crop": [
+        0.26,
+        0.13,
+        0.66,
+        0.66
+      ]
+    },
+    "gato_botas": {
+      "story": "gato_con_botas",
+      "page": 2,
+      "crop": [
+        0.02,
+        0.29,
+        0.64,
+        0.64
+      ]
+    },
+    "ricitos": {
+      "story": "ricitos_de_oro",
+      "page": 1,
+      "crop": [
+        0.14,
+        0.03,
+        0.72,
+        0.72
+      ]
+    },
+    "zorra": {
+      "story": "zorra_y_uvas",
+      "page": 0,
+      "crop": [
+        0,
+        0.2,
+        0.78,
+        0.78
+      ]
+    }
+  }
+}
