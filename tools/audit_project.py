@@ -12,6 +12,7 @@ from audit_story_library import audit_stories
 from audit_math_activities import audit_math_activities
 from audit_numbers_activities import audit_numbers_activities
 from audit_geometry_activities import audit_geometry_activities
+from audit_operation_tables import audit_operation_tables
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -143,6 +144,7 @@ def audit() -> list[str]:
     errors.extend(audit_math_activities())
     errors.extend(audit_numbers_activities())
     errors.extend(audit_geometry_activities())
+    errors.extend(audit_operation_tables())
     return errors
 
 

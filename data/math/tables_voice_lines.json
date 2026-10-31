@@ -1,0 +1,3604 @@
+{
+  "clips": {
+    "addition_01_01": {
+      "file": "addition_01_01.mp3",
+      "text": "1 más 1, igual a 2."
+    },
+    "addition_01_02": {
+      "file": "addition_01_02.mp3",
+      "text": "1 más 2, igual a 3."
+    },
+    "addition_01_03": {
+      "file": "addition_01_03.mp3",
+      "text": "1 más 3, igual a 4."
+    },
+    "addition_01_04": {
+      "file": "addition_01_04.mp3",
+      "text": "1 más 4, igual a 5."
+    },
+    "addition_01_05": {
+      "file": "addition_01_05.mp3",
+      "text": "1 más 5, igual a 6."
+    },
+    "addition_01_06": {
+      "file": "addition_01_06.mp3",
+      "text": "1 más 6, igual a 7."
+    },
+    "addition_01_07": {
+      "file": "addition_01_07.mp3",
+      "text": "1 más 7, igual a 8."
+    },
+    "addition_01_08": {
+      "file": "addition_01_08.mp3",
+      "text": "1 más 8, igual a 9."
+    },
+    "addition_01_09": {
+      "file": "addition_01_09.mp3",
+      "text": "1 más 9, igual a 10."
+    },
+    "addition_01_10": {
+      "file": "addition_01_10.mp3",
+      "text": "1 más 10, igual a 11."
+    },
+    "addition_01_11": {
+      "file": "addition_01_11.mp3",
+      "text": "1 más 11, igual a 12."
+    },
+    "addition_01_12": {
+      "file": "addition_01_12.mp3",
+      "text": "1 más 12, igual a 13."
+    },
+    "addition_01_13": {
+      "file": "addition_01_13.mp3",
+      "text": "1 más 13, igual a 14."
+    },
+    "addition_01_14": {
+      "file": "addition_01_14.mp3",
+      "text": "1 más 14, igual a 15."
+    },
+    "addition_01_15": {
+      "file": "addition_01_15.mp3",
+      "text": "1 más 15, igual a 16."
+    },
+    "addition_02_01": {
+      "file": "addition_02_01.mp3",
+      "text": "2 más 1, igual a 3."
+    },
+    "addition_02_02": {
+      "file": "addition_02_02.mp3",
+      "text": "2 más 2, igual a 4."
+    },
+    "addition_02_03": {
+      "file": "addition_02_03.mp3",
+      "text": "2 más 3, igual a 5."
+    },
+    "addition_02_04": {
+      "file": "addition_02_04.mp3",
+      "text": "2 más 4, igual a 6."
+    },
+    "addition_02_05": {
+      "file": "addition_02_05.mp3",
+      "text": "2 más 5, igual a 7."
+    },
+    "addition_02_06": {
+      "file": "addition_02_06.mp3",
+      "text": "2 más 6, igual a 8."
+    },
+    "addition_02_07": {
+      "file": "addition_02_07.mp3",
+      "text": "2 más 7, igual a 9."
+    },
+    "addition_02_08": {
+      "file": "addition_02_08.mp3",
+      "text": "2 más 8, igual a 10."
+    },
+    "addition_02_09": {
+      "file": "addition_02_09.mp3",
+      "text": "2 más 9, igual a 11."
+    },
+    "addition_02_10": {
+      "file": "addition_02_10.mp3",
+      "text": "2 más 10, igual a 12."
+    },
+    "addition_02_11": {
+      "file": "addition_02_11.mp3",
+      "text": "2 más 11, igual a 13."
+    },
+    "addition_02_12": {
+      "file": "addition_02_12.mp3",
+      "text": "2 más 12, igual a 14."
+    },
+    "addition_02_13": {
+      "file": "addition_02_13.mp3",
+      "text": "2 más 13, igual a 15."
+    },
+    "addition_02_14": {
+      "file": "addition_02_14.mp3",
+      "text": "2 más 14, igual a 16."
+    },
+    "addition_02_15": {
+      "file": "addition_02_15.mp3",
+      "text": "2 más 15, igual a 17."
+    },
+    "addition_03_01": {
+      "file": "addition_03_01.mp3",
+      "text": "3 más 1, igual a 4."
+    },
+    "addition_03_02": {
+      "file": "addition_03_02.mp3",
+      "text": "3 más 2, igual a 5."
+    },
+    "addition_03_03": {
+      "file": "addition_03_03.mp3",
+      "text": "3 más 3, igual a 6."
+    },
+    "addition_03_04": {
+      "file": "addition_03_04.mp3",
+      "text": "3 más 4, igual a 7."
+    },
+    "addition_03_05": {
+      "file": "addition_03_05.mp3",
+      "text": "3 más 5, igual a 8."
+    },
+    "addition_03_06": {
+      "file": "addition_03_06.mp3",
+      "text": "3 más 6, igual a 9."
+    },
+    "addition_03_07": {
+      "file": "addition_03_07.mp3",
+      "text": "3 más 7, igual a 10."
+    },
+    "addition_03_08": {
+      "file": "addition_03_08.mp3",
+      "text": "3 más 8, igual a 11."
+    },
+    "addition_03_09": {
+      "file": "addition_03_09.mp3",
+      "text": "3 más 9, igual a 12."
+    },
+    "addition_03_10": {
+      "file": "addition_03_10.mp3",
+      "text": "3 más 10, igual a 13."
+    },
+    "addition_03_11": {
+      "file": "addition_03_11.mp3",
+      "text": "3 más 11, igual a 14."
+    },
+    "addition_03_12": {
+      "file": "addition_03_12.mp3",
+      "text": "3 más 12, igual a 15."
+    },
+    "addition_03_13": {
+      "file": "addition_03_13.mp3",
+      "text": "3 más 13, igual a 16."
+    },
+    "addition_03_14": {
+      "file": "addition_03_14.mp3",
+      "text": "3 más 14, igual a 17."
+    },
+    "addition_03_15": {
+      "file": "addition_03_15.mp3",
+      "text": "3 más 15, igual a 18."
+    },
+    "addition_04_01": {
+      "file": "addition_04_01.mp3",
+      "text": "4 más 1, igual a 5."
+    },
+    "addition_04_02": {
+      "file": "addition_04_02.mp3",
+      "text": "4 más 2, igual a 6."
+    },
+    "addition_04_03": {
+      "file": "addition_04_03.mp3",
+      "text": "4 más 3, igual a 7."
+    },
+    "addition_04_04": {
+      "file": "addition_04_04.mp3",
+      "text": "4 más 4, igual a 8."
+    },
+    "addition_04_05": {
+      "file": "addition_04_05.mp3",
+      "text": "4 más 5, igual a 9."
+    },
+    "addition_04_06": {
+      "file": "addition_04_06.mp3",
+      "text": "4 más 6, igual a 10."
+    },
+    "addition_04_07": {
+      "file": "addition_04_07.mp3",
+      "text": "4 más 7, igual a 11."
+    },
+    "addition_04_08": {
+      "file": "addition_04_08.mp3",
+      "text": "4 más 8, igual a 12."
+    },
+    "addition_04_09": {
+      "file": "addition_04_09.mp3",
+      "text": "4 más 9, igual a 13."
+    },
+    "addition_04_10": {
+      "file": "addition_04_10.mp3",
+      "text": "4 más 10, igual a 14."
+    },
+    "addition_04_11": {
+      "file": "addition_04_11.mp3",
+      "text": "4 más 11, igual a 15."
+    },
+    "addition_04_12": {
+      "file": "addition_04_12.mp3",
+      "text": "4 más 12, igual a 16."
+    },
+    "addition_04_13": {
+      "file": "addition_04_13.mp3",
+      "text": "4 más 13, igual a 17."
+    },
+    "addition_04_14": {
+      "file": "addition_04_14.mp3",
+      "text": "4 más 14, igual a 18."
+    },
+    "addition_04_15": {
+      "file": "addition_04_15.mp3",
+      "text": "4 más 15, igual a 19."
+    },
+    "addition_05_01": {
+      "file": "addition_05_01.mp3",
+      "text": "5 más 1, igual a 6."
+    },
+    "addition_05_02": {
+      "file": "addition_05_02.mp3",
+      "text": "5 más 2, igual a 7."
+    },
+    "addition_05_03": {
+      "file": "addition_05_03.mp3",
+      "text": "5 más 3, igual a 8."
+    },
+    "addition_05_04": {
+      "file": "addition_05_04.mp3",
+      "text": "5 más 4, igual a 9."
+    },
+    "addition_05_05": {
+      "file": "addition_05_05.mp3",
+      "text": "5 más 5, igual a 10."
+    },
+    "addition_05_06": {
+      "file": "addition_05_06.mp3",
+      "text": "5 más 6, igual a 11."
+    },
+    "addition_05_07": {
+      "file": "addition_05_07.mp3",
+      "text": "5 más 7, igual a 12."
+    },
+    "addition_05_08": {
+      "file": "addition_05_08.mp3",
+      "text": "5 más 8, igual a 13."
+    },
+    "addition_05_09": {
+      "file": "addition_05_09.mp3",
+      "text": "5 más 9, igual a 14."
+    },
+    "addition_05_10": {
+      "file": "addition_05_10.mp3",
+      "text": "5 más 10, igual a 15."
+    },
+    "addition_05_11": {
+      "file": "addition_05_11.mp3",
+      "text": "5 más 11, igual a 16."
+    },
+    "addition_05_12": {
+      "file": "addition_05_12.mp3",
+      "text": "5 más 12, igual a 17."
+    },
+    "addition_05_13": {
+      "file": "addition_05_13.mp3",
+      "text": "5 más 13, igual a 18."
+    },
+    "addition_05_14": {
+      "file": "addition_05_14.mp3",
+      "text": "5 más 14, igual a 19."
+    },
+    "addition_05_15": {
+      "file": "addition_05_15.mp3",
+      "text": "5 más 15, igual a 20."
+    },
+    "addition_06_01": {
+      "file": "addition_06_01.mp3",
+      "text": "6 más 1, igual a 7."
+    },
+    "addition_06_02": {
+      "file": "addition_06_02.mp3",
+      "text": "6 más 2, igual a 8."
+    },
+    "addition_06_03": {
+      "file": "addition_06_03.mp3",
+      "text": "6 más 3, igual a 9."
+    },
+    "addition_06_04": {
+      "file": "addition_06_04.mp3",
+      "text": "6 más 4, igual a 10."
+    },
+    "addition_06_05": {
+      "file": "addition_06_05.mp3",
+      "text": "6 más 5, igual a 11."
+    },
+    "addition_06_06": {
+      "file": "addition_06_06.mp3",
+      "text": "6 más 6, igual a 12."
+    },
+    "addition_06_07": {
+      "file": "addition_06_07.mp3",
+      "text": "6 más 7, igual a 13."
+    },
+    "addition_06_08": {
+      "file": "addition_06_08.mp3",
+      "text": "6 más 8, igual a 14."
+    },
+    "addition_06_09": {
+      "file": "addition_06_09.mp3",
+      "text": "6 más 9, igual a 15."
+    },
+    "addition_06_10": {
+      "file": "addition_06_10.mp3",
+      "text": "6 más 10, igual a 16."
+    },
+    "addition_06_11": {
+      "file": "addition_06_11.mp3",
+      "text": "6 más 11, igual a 17."
+    },
+    "addition_06_12": {
+      "file": "addition_06_12.mp3",
+      "text": "6 más 12, igual a 18."
+    },
+    "addition_06_13": {
+      "file": "addition_06_13.mp3",
+      "text": "6 más 13, igual a 19."
+    },
+    "addition_06_14": {
+      "file": "addition_06_14.mp3",
+      "text": "6 más 14, igual a 20."
+    },
+    "addition_06_15": {
+      "file": "addition_06_15.mp3",
+      "text": "6 más 15, igual a 21."
+    },
+    "addition_07_01": {
+      "file": "addition_07_01.mp3",
+      "text": "7 más 1, igual a 8."
+    },
+    "addition_07_02": {
+      "file": "addition_07_02.mp3",
+      "text": "7 más 2, igual a 9."
+    },
+    "addition_07_03": {
+      "file": "addition_07_03.mp3",
+      "text": "7 más 3, igual a 10."
+    },
+    "addition_07_04": {
+      "file": "addition_07_04.mp3",
+      "text": "7 más 4, igual a 11."
+    },
+    "addition_07_05": {
+      "file": "addition_07_05.mp3",
+      "text": "7 más 5, igual a 12."
+    },
+    "addition_07_06": {
+      "file": "addition_07_06.mp3",
+      "text": "7 más 6, igual a 13."
+    },
+    "addition_07_07": {
+      "file": "addition_07_07.mp3",
+      "text": "7 más 7, igual a 14."
+    },
+    "addition_07_08": {
+      "file": "addition_07_08.mp3",
+      "text": "7 más 8, igual a 15."
+    },
+    "addition_07_09": {
+      "file": "addition_07_09.mp3",
+      "text": "7 más 9, igual a 16."
+    },
+    "addition_07_10": {
+      "file": "addition_07_10.mp3",
+      "text": "7 más 10, igual a 17."
+    },
+    "addition_07_11": {
+      "file": "addition_07_11.mp3",
+      "text": "7 más 11, igual a 18."
+    },
+    "addition_07_12": {
+      "file": "addition_07_12.mp3",
+      "text": "7 más 12, igual a 19."
+    },
+    "addition_07_13": {
+      "file": "addition_07_13.mp3",
+      "text": "7 más 13, igual a 20."
+    },
+    "addition_07_14": {
+      "file": "addition_07_14.mp3",
+      "text": "7 más 14, igual a 21."
+    },
+    "addition_07_15": {
+      "file": "addition_07_15.mp3",
+      "text": "7 más 15, igual a 22."
+    },
+    "addition_08_01": {
+      "file": "addition_08_01.mp3",
+      "text": "8 más 1, igual a 9."
+    },
+    "addition_08_02": {
+      "file": "addition_08_02.mp3",
+      "text": "8 más 2, igual a 10."
+    },
+    "addition_08_03": {
+      "file": "addition_08_03.mp3",
+      "text": "8 más 3, igual a 11."
+    },
+    "addition_08_04": {
+      "file": "addition_08_04.mp3",
+      "text": "8 más 4, igual a 12."
+    },
+    "addition_08_05": {
+      "file": "addition_08_05.mp3",
+      "text": "8 más 5, igual a 13."
+    },
+    "addition_08_06": {
+      "file": "addition_08_06.mp3",
+      "text": "8 más 6, igual a 14."
+    },
+    "addition_08_07": {
+      "file": "addition_08_07.mp3",
+      "text": "8 más 7, igual a 15."
+    },
+    "addition_08_08": {
+      "file": "addition_08_08.mp3",
+      "text": "8 más 8, igual a 16."
+    },
+    "addition_08_09": {
+      "file": "addition_08_09.mp3",
+      "text": "8 más 9, igual a 17."
+    },
+    "addition_08_10": {
+      "file": "addition_08_10.mp3",
+      "text": "8 más 10, igual a 18."
+    },
+    "addition_08_11": {
+      "file": "addition_08_11.mp3",
+      "text": "8 más 11, igual a 19."
+    },
+    "addition_08_12": {
+      "file": "addition_08_12.mp3",
+      "text": "8 más 12, igual a 20."
+    },
+    "addition_08_13": {
+      "file": "addition_08_13.mp3",
+      "text": "8 más 13, igual a 21."
+    },
+    "addition_08_14": {
+      "file": "addition_08_14.mp3",
+      "text": "8 más 14, igual a 22."
+    },
+    "addition_08_15": {
+      "file": "addition_08_15.mp3",
+      "text": "8 más 15, igual a 23."
+    },
+    "addition_09_01": {
+      "file": "addition_09_01.mp3",
+      "text": "9 más 1, igual a 10."
+    },
+    "addition_09_02": {
+      "file": "addition_09_02.mp3",
+      "text": "9 más 2, igual a 11."
+    },
+    "addition_09_03": {
+      "file": "addition_09_03.mp3",
+      "text": "9 más 3, igual a 12."
+    },
+    "addition_09_04": {
+      "file": "addition_09_04.mp3",
+      "text": "9 más 4, igual a 13."
+    },
+    "addition_09_05": {
+      "file": "addition_09_05.mp3",
+      "text": "9 más 5, igual a 14."
+    },
+    "addition_09_06": {
+      "file": "addition_09_06.mp3",
+      "text": "9 más 6, igual a 15."
+    },
+    "addition_09_07": {
+      "file": "addition_09_07.mp3",
+      "text": "9 más 7, igual a 16."
+    },
+    "addition_09_08": {
+      "file": "addition_09_08.mp3",
+      "text": "9 más 8, igual a 17."
+    },
+    "addition_09_09": {
+      "file": "addition_09_09.mp3",
+      "text": "9 más 9, igual a 18."
+    },
+    "addition_09_10": {
+      "file": "addition_09_10.mp3",
+      "text": "9 más 10, igual a 19."
+    },
+    "addition_09_11": {
+      "file": "addition_09_11.mp3",
+      "text": "9 más 11, igual a 20."
+    },
+    "addition_09_12": {
+      "file": "addition_09_12.mp3",
+      "text": "9 más 12, igual a 21."
+    },
+    "addition_09_13": {
+      "file": "addition_09_13.mp3",
+      "text": "9 más 13, igual a 22."
+    },
+    "addition_09_14": {
+      "file": "addition_09_14.mp3",
+      "text": "9 más 14, igual a 23."
+    },
+    "addition_09_15": {
+      "file": "addition_09_15.mp3",
+      "text": "9 más 15, igual a 24."
+    },
+    "addition_10_01": {
+      "file": "addition_10_01.mp3",
+      "text": "10 más 1, igual a 11."
+    },
+    "addition_10_02": {
+      "file": "addition_10_02.mp3",
+      "text": "10 más 2, igual a 12."
+    },
+    "addition_10_03": {
+      "file": "addition_10_03.mp3",
+      "text": "10 más 3, igual a 13."
+    },
+    "addition_10_04": {
+      "file": "addition_10_04.mp3",
+      "text": "10 más 4, igual a 14."
+    },
+    "addition_10_05": {
+      "file": "addition_10_05.mp3",
+      "text": "10 más 5, igual a 15."
+    },
+    "addition_10_06": {
+      "file": "addition_10_06.mp3",
+      "text": "10 más 6, igual a 16."
+    },
+    "addition_10_07": {
+      "file": "addition_10_07.mp3",
+      "text": "10 más 7, igual a 17."
+    },
+    "addition_10_08": {
+      "file": "addition_10_08.mp3",
+      "text": "10 más 8, igual a 18."
+    },
+    "addition_10_09": {
+      "file": "addition_10_09.mp3",
+      "text": "10 más 9, igual a 19."
+    },
+    "addition_10_10": {
+      "file": "addition_10_10.mp3",
+      "text": "10 más 10, igual a 20."
+    },
+    "addition_10_11": {
+      "file": "addition_10_11.mp3",
+      "text": "10 más 11, igual a 21."
+    },
+    "addition_10_12": {
+      "file": "addition_10_12.mp3",
+      "text": "10 más 12, igual a 22."
+    },
+    "addition_10_13": {
+      "file": "addition_10_13.mp3",
+      "text": "10 más 13, igual a 23."
+    },
+    "addition_10_14": {
+      "file": "addition_10_14.mp3",
+      "text": "10 más 14, igual a 24."
+    },
+    "addition_10_15": {
+      "file": "addition_10_15.mp3",
+      "text": "10 más 15, igual a 25."
+    },
+    "addition_11_01": {
+      "file": "addition_11_01.mp3",
+      "text": "11 más 1, igual a 12."
+    },
+    "addition_11_02": {
+      "file": "addition_11_02.mp3",
+      "text": "11 más 2, igual a 13."
+    },
+    "addition_11_03": {
+      "file": "addition_11_03.mp3",
+      "text": "11 más 3, igual a 14."
+    },
+    "addition_11_04": {
+      "file": "addition_11_04.mp3",
+      "text": "11 más 4, igual a 15."
+    },
+    "addition_11_05": {
+      "file": "addition_11_05.mp3",
+      "text": "11 más 5, igual a 16."
+    },
+    "addition_11_06": {
+      "file": "addition_11_06.mp3",
+      "text": "11 más 6, igual a 17."
+    },
+    "addition_11_07": {
+      "file": "addition_11_07.mp3",
+      "text": "11 más 7, igual a 18."
+    },
+    "addition_11_08": {
+      "file": "addition_11_08.mp3",
+      "text": "11 más 8, igual a 19."
+    },
+    "addition_11_09": {
+      "file": "addition_11_09.mp3",
+      "text": "11 más 9, igual a 20."
+    },
+    "addition_11_10": {
+      "file": "addition_11_10.mp3",
+      "text": "11 más 10, igual a 21."
+    },
+    "addition_11_11": {
+      "file": "addition_11_11.mp3",
+      "text": "11 más 11, igual a 22."
+    },
+    "addition_11_12": {
+      "file": "addition_11_12.mp3",
+      "text": "11 más 12, igual a 23."
+    },
+    "addition_11_13": {
+      "file": "addition_11_13.mp3",
+      "text": "11 más 13, igual a 24."
+    },
+    "addition_11_14": {
+      "file": "addition_11_14.mp3",
+      "text": "11 más 14, igual a 25."
+    },
+    "addition_11_15": {
+      "file": "addition_11_15.mp3",
+      "text": "11 más 15, igual a 26."
+    },
+    "addition_12_01": {
+      "file": "addition_12_01.mp3",
+      "text": "12 más 1, igual a 13."
+    },
+    "addition_12_02": {
+      "file": "addition_12_02.mp3",
+      "text": "12 más 2, igual a 14."
+    },
+    "addition_12_03": {
+      "file": "addition_12_03.mp3",
+      "text": "12 más 3, igual a 15."
+    },
+    "addition_12_04": {
+      "file": "addition_12_04.mp3",
+      "text": "12 más 4, igual a 16."
+    },
+    "addition_12_05": {
+      "file": "addition_12_05.mp3",
+      "text": "12 más 5, igual a 17."
+    },
+    "addition_12_06": {
+      "file": "addition_12_06.mp3",
+      "text": "12 más 6, igual a 18."
+    },
+    "addition_12_07": {
+      "file": "addition_12_07.mp3",
+      "text": "12 más 7, igual a 19."
+    },
+    "addition_12_08": {
+      "file": "addition_12_08.mp3",
+      "text": "12 más 8, igual a 20."
+    },
+    "addition_12_09": {
+      "file": "addition_12_09.mp3",
+      "text": "12 más 9, igual a 21."
+    },
+    "addition_12_10": {
+      "file": "addition_12_10.mp3",
+      "text": "12 más 10, igual a 22."
+    },
+    "addition_12_11": {
+      "file": "addition_12_11.mp3",
+      "text": "12 más 11, igual a 23."
+    },
+    "addition_12_12": {
+      "file": "addition_12_12.mp3",
+      "text": "12 más 12, igual a 24."
+    },
+    "addition_12_13": {
+      "file": "addition_12_13.mp3",
+      "text": "12 más 13, igual a 25."
+    },
+    "addition_12_14": {
+      "file": "addition_12_14.mp3",
+      "text": "12 más 14, igual a 26."
+    },
+    "addition_12_15": {
+      "file": "addition_12_15.mp3",
+      "text": "12 más 15, igual a 27."
+    },
+    "addition_13_01": {
+      "file": "addition_13_01.mp3",
+      "text": "13 más 1, igual a 14."
+    },
+    "addition_13_02": {
+      "file": "addition_13_02.mp3",
+      "text": "13 más 2, igual a 15."
+    },
+    "addition_13_03": {
+      "file": "addition_13_03.mp3",
+      "text": "13 más 3, igual a 16."
+    },
+    "addition_13_04": {
+      "file": "addition_13_04.mp3",
+      "text": "13 más 4, igual a 17."
+    },
+    "addition_13_05": {
+      "file": "addition_13_05.mp3",
+      "text": "13 más 5, igual a 18."
+    },
+    "addition_13_06": {
+      "file": "addition_13_06.mp3",
+      "text": "13 más 6, igual a 19."
+    },
+    "addition_13_07": {
+      "file": "addition_13_07.mp3",
+      "text": "13 más 7, igual a 20."
+    },
+    "addition_13_08": {
+      "file": "addition_13_08.mp3",
+      "text": "13 más 8, igual a 21."
+    },
+    "addition_13_09": {
+      "file": "addition_13_09.mp3",
+      "text": "13 más 9, igual a 22."
+    },
+    "addition_13_10": {
+      "file": "addition_13_10.mp3",
+      "text": "13 más 10, igual a 23."
+    },
+    "addition_13_11": {
+      "file": "addition_13_11.mp3",
+      "text": "13 más 11, igual a 24."
+    },
+    "addition_13_12": {
+      "file": "addition_13_12.mp3",
+      "text": "13 más 12, igual a 25."
+    },
+    "addition_13_13": {
+      "file": "addition_13_13.mp3",
+      "text": "13 más 13, igual a 26."
+    },
+    "addition_13_14": {
+      "file": "addition_13_14.mp3",
+      "text": "13 más 14, igual a 27."
+    },
+    "addition_13_15": {
+      "file": "addition_13_15.mp3",
+      "text": "13 más 15, igual a 28."
+    },
+    "addition_14_01": {
+      "file": "addition_14_01.mp3",
+      "text": "14 más 1, igual a 15."
+    },
+    "addition_14_02": {
+      "file": "addition_14_02.mp3",
+      "text": "14 más 2, igual a 16."
+    },
+    "addition_14_03": {
+      "file": "addition_14_03.mp3",
+      "text": "14 más 3, igual a 17."
+    },
+    "addition_14_04": {
+      "file": "addition_14_04.mp3",
+      "text": "14 más 4, igual a 18."
+    },
+    "addition_14_05": {
+      "file": "addition_14_05.mp3",
+      "text": "14 más 5, igual a 19."
+    },
+    "addition_14_06": {
+      "file": "addition_14_06.mp3",
+      "text": "14 más 6, igual a 20."
+    },
+    "addition_14_07": {
+      "file": "addition_14_07.mp3",
+      "text": "14 más 7, igual a 21."
+    },
+    "addition_14_08": {
+      "file": "addition_14_08.mp3",
+      "text": "14 más 8, igual a 22."
+    },
+    "addition_14_09": {
+      "file": "addition_14_09.mp3",
+      "text": "14 más 9, igual a 23."
+    },
+    "addition_14_10": {
+      "file": "addition_14_10.mp3",
+      "text": "14 más 10, igual a 24."
+    },
+    "addition_14_11": {
+      "file": "addition_14_11.mp3",
+      "text": "14 más 11, igual a 25."
+    },
+    "addition_14_12": {
+      "file": "addition_14_12.mp3",
+      "text": "14 más 12, igual a 26."
+    },
+    "addition_14_13": {
+      "file": "addition_14_13.mp3",
+      "text": "14 más 13, igual a 27."
+    },
+    "addition_14_14": {
+      "file": "addition_14_14.mp3",
+      "text": "14 más 14, igual a 28."
+    },
+    "addition_14_15": {
+      "file": "addition_14_15.mp3",
+      "text": "14 más 15, igual a 29."
+    },
+    "addition_15_01": {
+      "file": "addition_15_01.mp3",
+      "text": "15 más 1, igual a 16."
+    },
+    "addition_15_02": {
+      "file": "addition_15_02.mp3",
+      "text": "15 más 2, igual a 17."
+    },
+    "addition_15_03": {
+      "file": "addition_15_03.mp3",
+      "text": "15 más 3, igual a 18."
+    },
+    "addition_15_04": {
+      "file": "addition_15_04.mp3",
+      "text": "15 más 4, igual a 19."
+    },
+    "addition_15_05": {
+      "file": "addition_15_05.mp3",
+      "text": "15 más 5, igual a 20."
+    },
+    "addition_15_06": {
+      "file": "addition_15_06.mp3",
+      "text": "15 más 6, igual a 21."
+    },
+    "addition_15_07": {
+      "file": "addition_15_07.mp3",
+      "text": "15 más 7, igual a 22."
+    },
+    "addition_15_08": {
+      "file": "addition_15_08.mp3",
+      "text": "15 más 8, igual a 23."
+    },
+    "addition_15_09": {
+      "file": "addition_15_09.mp3",
+      "text": "15 más 9, igual a 24."
+    },
+    "addition_15_10": {
+      "file": "addition_15_10.mp3",
+      "text": "15 más 10, igual a 25."
+    },
+    "addition_15_11": {
+      "file": "addition_15_11.mp3",
+      "text": "15 más 11, igual a 26."
+    },
+    "addition_15_12": {
+      "file": "addition_15_12.mp3",
+      "text": "15 más 12, igual a 27."
+    },
+    "addition_15_13": {
+      "file": "addition_15_13.mp3",
+      "text": "15 más 13, igual a 28."
+    },
+    "addition_15_14": {
+      "file": "addition_15_14.mp3",
+      "text": "15 más 14, igual a 29."
+    },
+    "addition_15_15": {
+      "file": "addition_15_15.mp3",
+      "text": "15 más 15, igual a 30."
+    },
+    "subtraction_01_01": {
+      "file": "subtraction_01_01.mp3",
+      "text": "2 menos 1, igual a 1."
+    },
+    "subtraction_01_02": {
+      "file": "subtraction_01_02.mp3",
+      "text": "3 menos 1, igual a 2."
+    },
+    "subtraction_01_03": {
+      "file": "subtraction_01_03.mp3",
+      "text": "4 menos 1, igual a 3."
+    },
+    "subtraction_01_04": {
+      "file": "subtraction_01_04.mp3",
+      "text": "5 menos 1, igual a 4."
+    },
+    "subtraction_01_05": {
+      "file": "subtraction_01_05.mp3",
+      "text": "6 menos 1, igual a 5."
+    },
+    "subtraction_01_06": {
+      "file": "subtraction_01_06.mp3",
+      "text": "7 menos 1, igual a 6."
+    },
+    "subtraction_01_07": {
+      "file": "subtraction_01_07.mp3",
+      "text": "8 menos 1, igual a 7."
+    },
+    "subtraction_01_08": {
+      "file": "subtraction_01_08.mp3",
+      "text": "9 menos 1, igual a 8."
+    },
+    "subtraction_01_09": {
+      "file": "subtraction_01_09.mp3",
+      "text": "10 menos 1, igual a 9."
+    },
+    "subtraction_01_10": {
+      "file": "subtraction_01_10.mp3",
+      "text": "11 menos 1, igual a 10."
+    },
+    "subtraction_01_11": {
+      "file": "subtraction_01_11.mp3",
+      "text": "12 menos 1, igual a 11."
+    },
+    "subtraction_01_12": {
+      "file": "subtraction_01_12.mp3",
+      "text": "13 menos 1, igual a 12."
+    },
+    "subtraction_01_13": {
+      "file": "subtraction_01_13.mp3",
+      "text": "14 menos 1, igual a 13."
+    },
+    "subtraction_01_14": {
+      "file": "subtraction_01_14.mp3",
+      "text": "15 menos 1, igual a 14."
+    },
+    "subtraction_01_15": {
+      "file": "subtraction_01_15.mp3",
+      "text": "16 menos 1, igual a 15."
+    },
+    "subtraction_02_01": {
+      "file": "subtraction_02_01.mp3",
+      "text": "3 menos 2, igual a 1."
+    },
+    "subtraction_02_02": {
+      "file": "subtraction_02_02.mp3",
+      "text": "4 menos 2, igual a 2."
+    },
+    "subtraction_02_03": {
+      "file": "subtraction_02_03.mp3",
+      "text": "5 menos 2, igual a 3."
+    },
+    "subtraction_02_04": {
+      "file": "subtraction_02_04.mp3",
+      "text": "6 menos 2, igual a 4."
+    },
+    "subtraction_02_05": {
+      "file": "subtraction_02_05.mp3",
+      "text": "7 menos 2, igual a 5."
+    },
+    "subtraction_02_06": {
+      "file": "subtraction_02_06.mp3",
+      "text": "8 menos 2, igual a 6."
+    },
+    "subtraction_02_07": {
+      "file": "subtraction_02_07.mp3",
+      "text": "9 menos 2, igual a 7."
+    },
+    "subtraction_02_08": {
+      "file": "subtraction_02_08.mp3",
+      "text": "10 menos 2, igual a 8."
+    },
+    "subtraction_02_09": {
+      "file": "subtraction_02_09.mp3",
+      "text": "11 menos 2, igual a 9."
+    },
+    "subtraction_02_10": {
+      "file": "subtraction_02_10.mp3",
+      "text": "12 menos 2, igual a 10."
+    },
+    "subtraction_02_11": {
+      "file": "subtraction_02_11.mp3",
+      "text": "13 menos 2, igual a 11."
+    },
+    "subtraction_02_12": {
+      "file": "subtraction_02_12.mp3",
+      "text": "14 menos 2, igual a 12."
+    },
+    "subtraction_02_13": {
+      "file": "subtraction_02_13.mp3",
+      "text": "15 menos 2, igual a 13."
+    },
+    "subtraction_02_14": {
+      "file": "subtraction_02_14.mp3",
+      "text": "16 menos 2, igual a 14."
+    },
+    "subtraction_02_15": {
+      "file": "subtraction_02_15.mp3",
+      "text": "17 menos 2, igual a 15."
+    },
+    "subtraction_03_01": {
+      "file": "subtraction_03_01.mp3",
+      "text": "4 menos 3, igual a 1."
+    },
+    "subtraction_03_02": {
+      "file": "subtraction_03_02.mp3",
+      "text": "5 menos 3, igual a 2."
+    },
+    "subtraction_03_03": {
+      "file": "subtraction_03_03.mp3",
+      "text": "6 menos 3, igual a 3."
+    },
+    "subtraction_03_04": {
+      "file": "subtraction_03_04.mp3",
+      "text": "7 menos 3, igual a 4."
+    },
+    "subtraction_03_05": {
+      "file": "subtraction_03_05.mp3",
+      "text": "8 menos 3, igual a 5."
+    },
+    "subtraction_03_06": {
+      "file": "subtraction_03_06.mp3",
+      "text": "9 menos 3, igual a 6."
+    },
+    "subtraction_03_07": {
+      "file": "subtraction_03_07.mp3",
+      "text": "10 menos 3, igual a 7."
+    },
+    "subtraction_03_08": {
+      "file": "subtraction_03_08.mp3",
+      "text": "11 menos 3, igual a 8."
+    },
+    "subtraction_03_09": {
+      "file": "subtraction_03_09.mp3",
+      "text": "12 menos 3, igual a 9."
+    },
+    "subtraction_03_10": {
+      "file": "subtraction_03_10.mp3",
+      "text": "13 menos 3, igual a 10."
+    },
+    "subtraction_03_11": {
+      "file": "subtraction_03_11.mp3",
+      "text": "14 menos 3, igual a 11."
+    },
+    "subtraction_03_12": {
+      "file": "subtraction_03_12.mp3",
+      "text": "15 menos 3, igual a 12."
+    },
+    "subtraction_03_13": {
+      "file": "subtraction_03_13.mp3",
+      "text": "16 menos 3, igual a 13."
+    },
+    "subtraction_03_14": {
+      "file": "subtraction_03_14.mp3",
+      "text": "17 menos 3, igual a 14."
+    },
+    "subtraction_03_15": {
+      "file": "subtraction_03_15.mp3",
+      "text": "18 menos 3, igual a 15."
+    },
+    "subtraction_04_01": {
+      "file": "subtraction_04_01.mp3",
+      "text": "5 menos 4, igual a 1."
+    },
+    "subtraction_04_02": {
+      "file": "subtraction_04_02.mp3",
+      "text": "6 menos 4, igual a 2."
+    },
+    "subtraction_04_03": {
+      "file": "subtraction_04_03.mp3",
+      "text": "7 menos 4, igual a 3."
+    },
+    "subtraction_04_04": {
+      "file": "subtraction_04_04.mp3",
+      "text": "8 menos 4, igual a 4."
+    },
+    "subtraction_04_05": {
+      "file": "subtraction_04_05.mp3",
+      "text": "9 menos 4, igual a 5."
+    },
+    "subtraction_04_06": {
+      "file": "subtraction_04_06.mp3",
+      "text": "10 menos 4, igual a 6."
+    },
+    "subtraction_04_07": {
+      "file": "subtraction_04_07.mp3",
+      "text": "11 menos 4, igual a 7."
+    },
+    "subtraction_04_08": {
+      "file": "subtraction_04_08.mp3",
+      "text": "12 menos 4, igual a 8."
+    },
+    "subtraction_04_09": {
+      "file": "subtraction_04_09.mp3",
+      "text": "13 menos 4, igual a 9."
+    },
+    "subtraction_04_10": {
+      "file": "subtraction_04_10.mp3",
+      "text": "14 menos 4, igual a 10."
+    },
+    "subtraction_04_11": {
+      "file": "subtraction_04_11.mp3",
+      "text": "15 menos 4, igual a 11."
+    },
+    "subtraction_04_12": {
+      "file": "subtraction_04_12.mp3",
+      "text": "16 menos 4, igual a 12."
+    },
+    "subtraction_04_13": {
+      "file": "subtraction_04_13.mp3",
+      "text": "17 menos 4, igual a 13."
+    },
+    "subtraction_04_14": {
+      "file": "subtraction_04_14.mp3",
+      "text": "18 menos 4, igual a 14."
+    },
+    "subtraction_04_15": {
+      "file": "subtraction_04_15.mp3",
+      "text": "19 menos 4, igual a 15."
+    },
+    "subtraction_05_01": {
+      "file": "subtraction_05_01.mp3",
+      "text": "6 menos 5, igual a 1."
+    },
+    "subtraction_05_02": {
+      "file": "subtraction_05_02.mp3",
+      "text": "7 menos 5, igual a 2."
+    },
+    "subtraction_05_03": {
+      "file": "subtraction_05_03.mp3",
+      "text": "8 menos 5, igual a 3."
+    },
+    "subtraction_05_04": {
+      "file": "subtraction_05_04.mp3",
+      "text": "9 menos 5, igual a 4."
+    },
+    "subtraction_05_05": {
+      "file": "subtraction_05_05.mp3",
+      "text": "10 menos 5, igual a 5."
+    },
+    "subtraction_05_06": {
+      "file": "subtraction_05_06.mp3",
+      "text": "11 menos 5, igual a 6."
+    },
+    "subtraction_05_07": {
+      "file": "subtraction_05_07.mp3",
+      "text": "12 menos 5, igual a 7."
+    },
+    "subtraction_05_08": {
+      "file": "subtraction_05_08.mp3",
+      "text": "13 menos 5, igual a 8."
+    },
+    "subtraction_05_09": {
+      "file": "subtraction_05_09.mp3",
+      "text": "14 menos 5, igual a 9."
+    },
+    "subtraction_05_10": {
+      "file": "subtraction_05_10.mp3",
+      "text": "15 menos 5, igual a 10."
+    },
+    "subtraction_05_11": {
+      "file": "subtraction_05_11.mp3",
+      "text": "16 menos 5, igual a 11."
+    },
+    "subtraction_05_12": {
+      "file": "subtraction_05_12.mp3",
+      "text": "17 menos 5, igual a 12."
+    },
+    "subtraction_05_13": {
+      "file": "subtraction_05_13.mp3",
+      "text": "18 menos 5, igual a 13."
+    },
+    "subtraction_05_14": {
+      "file": "subtraction_05_14.mp3",
+      "text": "19 menos 5, igual a 14."
+    },
+    "subtraction_05_15": {
+      "file": "subtraction_05_15.mp3",
+      "text": "20 menos 5, igual a 15."
+    },
+    "subtraction_06_01": {
+      "file": "subtraction_06_01.mp3",
+      "text": "7 menos 6, igual a 1."
+    },
+    "subtraction_06_02": {
+      "file": "subtraction_06_02.mp3",
+      "text": "8 menos 6, igual a 2."
+    },
+    "subtraction_06_03": {
+      "file": "subtraction_06_03.mp3",
+      "text": "9 menos 6, igual a 3."
+    },
+    "subtraction_06_04": {
+      "file": "subtraction_06_04.mp3",
+      "text": "10 menos 6, igual a 4."
+    },
+    "subtraction_06_05": {
+      "file": "subtraction_06_05.mp3",
+      "text": "11 menos 6, igual a 5."
+    },
+    "subtraction_06_06": {
+      "file": "subtraction_06_06.mp3",
+      "text": "12 menos 6, igual a 6."
+    },
+    "subtraction_06_07": {
+      "file": "subtraction_06_07.mp3",
+      "text": "13 menos 6, igual a 7."
+    },
+    "subtraction_06_08": {
+      "file": "subtraction_06_08.mp3",
+      "text": "14 menos 6, igual a 8."
+    },
+    "subtraction_06_09": {
+      "file": "subtraction_06_09.mp3",
+      "text": "15 menos 6, igual a 9."
+    },
+    "subtraction_06_10": {
+      "file": "subtraction_06_10.mp3",
+      "text": "16 menos 6, igual a 10."
+    },
+    "subtraction_06_11": {
+      "file": "subtraction_06_11.mp3",
+      "text": "17 menos 6, igual a 11."
+    },
+    "subtraction_06_12": {
+      "file": "subtraction_06_12.mp3",
+      "text": "18 menos 6, igual a 12."
+    },
+    "subtraction_06_13": {
+      "file": "subtraction_06_13.mp3",
+      "text": "19 menos 6, igual a 13."
+    },
+    "subtraction_06_14": {
+      "file": "subtraction_06_14.mp3",
+      "text": "20 menos 6, igual a 14."
+    },
+    "subtraction_06_15": {
+      "file": "subtraction_06_15.mp3",
+      "text": "21 menos 6, igual a 15."
+    },
+    "subtraction_07_01": {
+      "file": "subtraction_07_01.mp3",
+      "text": "8 menos 7, igual a 1."
+    },
+    "subtraction_07_02": {
+      "file": "subtraction_07_02.mp3",
+      "text": "9 menos 7, igual a 2."
+    },
+    "subtraction_07_03": {
+      "file": "subtraction_07_03.mp3",
+      "text": "10 menos 7, igual a 3."
+    },
+    "subtraction_07_04": {
+      "file": "subtraction_07_04.mp3",
+      "text": "11 menos 7, igual a 4."
+    },
+    "subtraction_07_05": {
+      "file": "subtraction_07_05.mp3",
+      "text": "12 menos 7, igual a 5."
+    },
+    "subtraction_07_06": {
+      "file": "subtraction_07_06.mp3",
+      "text": "13 menos 7, igual a 6."
+    },
+    "subtraction_07_07": {
+      "file": "subtraction_07_07.mp3",
+      "text": "14 menos 7, igual a 7."
+    },
+    "subtraction_07_08": {
+      "file": "subtraction_07_08.mp3",
+      "text": "15 menos 7, igual a 8."
+    },
+    "subtraction_07_09": {
+      "file": "subtraction_07_09.mp3",
+      "text": "16 menos 7, igual a 9."
+    },
+    "subtraction_07_10": {
+      "file": "subtraction_07_10.mp3",
+      "text": "17 menos 7, igual a 10."
+    },
+    "subtraction_07_11": {
+      "file": "subtraction_07_11.mp3",
+      "text": "18 menos 7, igual a 11."
+    },
+    "subtraction_07_12": {
+      "file": "subtraction_07_12.mp3",
+      "text": "19 menos 7, igual a 12."
+    },
+    "subtraction_07_13": {
+      "file": "subtraction_07_13.mp3",
+      "text": "20 menos 7, igual a 13."
+    },
+    "subtraction_07_14": {
+      "file": "subtraction_07_14.mp3",
+      "text": "21 menos 7, igual a 14."
+    },
+    "subtraction_07_15": {
+      "file": "subtraction_07_15.mp3",
+      "text": "22 menos 7, igual a 15."
+    },
+    "subtraction_08_01": {
+      "file": "subtraction_08_01.mp3",
+      "text": "9 menos 8, igual a 1."
+    },
+    "subtraction_08_02": {
+      "file": "subtraction_08_02.mp3",
+      "text": "10 menos 8, igual a 2."
+    },
+    "subtraction_08_03": {
+      "file": "subtraction_08_03.mp3",
+      "text": "11 menos 8, igual a 3."
+    },
+    "subtraction_08_04": {
+      "file": "subtraction_08_04.mp3",
+      "text": "12 menos 8, igual a 4."
+    },
+    "subtraction_08_05": {
+      "file": "subtraction_08_05.mp3",
+      "text": "13 menos 8, igual a 5."
+    },
+    "subtraction_08_06": {
+      "file": "subtraction_08_06.mp3",
+      "text": "14 menos 8, igual a 6."
+    },
+    "subtraction_08_07": {
+      "file": "subtraction_08_07.mp3",
+      "text": "15 menos 8, igual a 7."
+    },
+    "subtraction_08_08": {
+      "file": "subtraction_08_08.mp3",
+      "text": "16 menos 8, igual a 8."
+    },
+    "subtraction_08_09": {
+      "file": "subtraction_08_09.mp3",
+      "text": "17 menos 8, igual a 9."
+    },
+    "subtraction_08_10": {
+      "file": "subtraction_08_10.mp3",
+      "text": "18 menos 8, igual a 10."
+    },
+    "subtraction_08_11": {
+      "file": "subtraction_08_11.mp3",
+      "text": "19 menos 8, igual a 11."
+    },
+    "subtraction_08_12": {
+      "file": "subtraction_08_12.mp3",
+      "text": "20 menos 8, igual a 12."
+    },
+    "subtraction_08_13": {
+      "file": "subtraction_08_13.mp3",
+      "text": "21 menos 8, igual a 13."
+    },
+    "subtraction_08_14": {
+      "file": "subtraction_08_14.mp3",
+      "text": "22 menos 8, igual a 14."
+    },
+    "subtraction_08_15": {
+      "file": "subtraction_08_15.mp3",
+      "text": "23 menos 8, igual a 15."
+    },
+    "subtraction_09_01": {
+      "file": "subtraction_09_01.mp3",
+      "text": "10 menos 9, igual a 1."
+    },
+    "subtraction_09_02": {
+      "file": "subtraction_09_02.mp3",
+      "text": "11 menos 9, igual a 2."
+    },
+    "subtraction_09_03": {
+      "file": "subtraction_09_03.mp3",
+      "text": "12 menos 9, igual a 3."
+    },
+    "subtraction_09_04": {
+      "file": "subtraction_09_04.mp3",
+      "text": "13 menos 9, igual a 4."
+    },
+    "subtraction_09_05": {
+      "file": "subtraction_09_05.mp3",
+      "text": "14 menos 9, igual a 5."
+    },
+    "subtraction_09_06": {
+      "file": "subtraction_09_06.mp3",
+      "text": "15 menos 9, igual a 6."
+    },
+    "subtraction_09_07": {
+      "file": "subtraction_09_07.mp3",
+      "text": "16 menos 9, igual a 7."
+    },
+    "subtraction_09_08": {
+      "file": "subtraction_09_08.mp3",
+      "text": "17 menos 9, igual a 8."
+    },
+    "subtraction_09_09": {
+      "file": "subtraction_09_09.mp3",
+      "text": "18 menos 9, igual a 9."
+    },
+    "subtraction_09_10": {
+      "file": "subtraction_09_10.mp3",
+      "text": "19 menos 9, igual a 10."
+    },
+    "subtraction_09_11": {
+      "file": "subtraction_09_11.mp3",
+      "text": "20 menos 9, igual a 11."
+    },
+    "subtraction_09_12": {
+      "file": "subtraction_09_12.mp3",
+      "text": "21 menos 9, igual a 12."
+    },
+    "subtraction_09_13": {
+      "file": "subtraction_09_13.mp3",
+      "text": "22 menos 9, igual a 13."
+    },
+    "subtraction_09_14": {
+      "file": "subtraction_09_14.mp3",
+      "text": "23 menos 9, igual a 14."
+    },
+    "subtraction_09_15": {
+      "file": "subtraction_09_15.mp3",
+      "text": "24 menos 9, igual a 15."
+    },
+    "subtraction_10_01": {
+      "file": "subtraction_10_01.mp3",
+      "text": "11 menos 10, igual a 1."
+    },
+    "subtraction_10_02": {
+      "file": "subtraction_10_02.mp3",
+      "text": "12 menos 10, igual a 2."
+    },
+    "subtraction_10_03": {
+      "file": "subtraction_10_03.mp3",
+      "text": "13 menos 10, igual a 3."
+    },
+    "subtraction_10_04": {
+      "file": "subtraction_10_04.mp3",
+      "text": "14 menos 10, igual a 4."
+    },
+    "subtraction_10_05": {
+      "file": "subtraction_10_05.mp3",
+      "text": "15 menos 10, igual a 5."
+    },
+    "subtraction_10_06": {
+      "file": "subtraction_10_06.mp3",
+      "text": "16 menos 10, igual a 6."
+    },
+    "subtraction_10_07": {
+      "file": "subtraction_10_07.mp3",
+      "text": "17 menos 10, igual a 7."
+    },
+    "subtraction_10_08": {
+      "file": "subtraction_10_08.mp3",
+      "text": "18 menos 10, igual a 8."
+    },
+    "subtraction_10_09": {
+      "file": "subtraction_10_09.mp3",
+      "text": "19 menos 10, igual a 9."
+    },
+    "subtraction_10_10": {
+      "file": "subtraction_10_10.mp3",
+      "text": "20 menos 10, igual a 10."
+    },
+    "subtraction_10_11": {
+      "file": "subtraction_10_11.mp3",
+      "text": "21 menos 10, igual a 11."
+    },
+    "subtraction_10_12": {
+      "file": "subtraction_10_12.mp3",
+      "text": "22 menos 10, igual a 12."
+    },
+    "subtraction_10_13": {
+      "file": "subtraction_10_13.mp3",
+      "text": "23 menos 10, igual a 13."
+    },
+    "subtraction_10_14": {
+      "file": "subtraction_10_14.mp3",
+      "text": "24 menos 10, igual a 14."
+    },
+    "subtraction_10_15": {
+      "file": "subtraction_10_15.mp3",
+      "text": "25 menos 10, igual a 15."
+    },
+    "subtraction_11_01": {
+      "file": "subtraction_11_01.mp3",
+      "text": "12 menos 11, igual a 1."
+    },
+    "subtraction_11_02": {
+      "file": "subtraction_11_02.mp3",
+      "text": "13 menos 11, igual a 2."
+    },
+    "subtraction_11_03": {
+      "file": "subtraction_11_03.mp3",
+      "text": "14 menos 11, igual a 3."
+    },
+    "subtraction_11_04": {
+      "file": "subtraction_11_04.mp3",
+      "text": "15 menos 11, igual a 4."
+    },
+    "subtraction_11_05": {
+      "file": "subtraction_11_05.mp3",
+      "text": "16 menos 11, igual a 5."
+    },
+    "subtraction_11_06": {
+      "file": "subtraction_11_06.mp3",
+      "text": "17 menos 11, igual a 6."
+    },
+    "subtraction_11_07": {
+      "file": "subtraction_11_07.mp3",
+      "text": "18 menos 11, igual a 7."
+    },
+    "subtraction_11_08": {
+      "file": "subtraction_11_08.mp3",
+      "text": "19 menos 11, igual a 8."
+    },
+    "subtraction_11_09": {
+      "file": "subtraction_11_09.mp3",
+      "text": "20 menos 11, igual a 9."
+    },
+    "subtraction_11_10": {
+      "file": "subtraction_11_10.mp3",
+      "text": "21 menos 11, igual a 10."
+    },
+    "subtraction_11_11": {
+      "file": "subtraction_11_11.mp3",
+      "text": "22 menos 11, igual a 11."
+    },
+    "subtraction_11_12": {
+      "file": "subtraction_11_12.mp3",
+      "text": "23 menos 11, igual a 12."
+    },
+    "subtraction_11_13": {
+      "file": "subtraction_11_13.mp3",
+      "text": "24 menos 11, igual a 13."
+    },
+    "subtraction_11_14": {
+      "file": "subtraction_11_14.mp3",
+      "text": "25 menos 11, igual a 14."
+    },
+    "subtraction_11_15": {
+      "file": "subtraction_11_15.mp3",
+      "text": "26 menos 11, igual a 15."
+    },
+    "subtraction_12_01": {
+      "file": "subtraction_12_01.mp3",
+      "text": "13 menos 12, igual a 1."
+    },
+    "subtraction_12_02": {
+      "file": "subtraction_12_02.mp3",
+      "text": "14 menos 12, igual a 2."
+    },
+    "subtraction_12_03": {
+      "file": "subtraction_12_03.mp3",
+      "text": "15 menos 12, igual a 3."
+    },
+    "subtraction_12_04": {
+      "file": "subtraction_12_04.mp3",
+      "text": "16 menos 12, igual a 4."
+    },
+    "subtraction_12_05": {
+      "file": "subtraction_12_05.mp3",
+      "text": "17 menos 12, igual a 5."
+    },
+    "subtraction_12_06": {
+      "file": "subtraction_12_06.mp3",
+      "text": "18 menos 12, igual a 6."
+    },
+    "subtraction_12_07": {
+      "file": "subtraction_12_07.mp3",
+      "text": "19 menos 12, igual a 7."
+    },
+    "subtraction_12_08": {
+      "file": "subtraction_12_08.mp3",
+      "text": "20 menos 12, igual a 8."
+    },
+    "subtraction_12_09": {
+      "file": "subtraction_12_09.mp3",
+      "text": "21 menos 12, igual a 9."
+    },
+    "subtraction_12_10": {
+      "file": "subtraction_12_10.mp3",
+      "text": "22 menos 12, igual a 10."
+    },
+    "subtraction_12_11": {
+      "file": "subtraction_12_11.mp3",
+      "text": "23 menos 12, igual a 11."
+    },
+    "subtraction_12_12": {
+      "file": "subtraction_12_12.mp3",
+      "text": "24 menos 12, igual a 12."
+    },
+    "subtraction_12_13": {
+      "file": "subtraction_12_13.mp3",
+      "text": "25 menos 12, igual a 13."
+    },
+    "subtraction_12_14": {
+      "file": "subtraction_12_14.mp3",
+      "text": "26 menos 12, igual a 14."
+    },
+    "subtraction_12_15": {
+      "file": "subtraction_12_15.mp3",
+      "text": "27 menos 12, igual a 15."
+    },
+    "subtraction_13_01": {
+      "file": "subtraction_13_01.mp3",
+      "text": "14 menos 13, igual a 1."
+    },
+    "subtraction_13_02": {
+      "file": "subtraction_13_02.mp3",
+      "text": "15 menos 13, igual a 2."
+    },
+    "subtraction_13_03": {
+      "file": "subtraction_13_03.mp3",
+      "text": "16 menos 13, igual a 3."
+    },
+    "subtraction_13_04": {
+      "file": "subtraction_13_04.mp3",
+      "text": "17 menos 13, igual a 4."
+    },
+    "subtraction_13_05": {
+      "file": "subtraction_13_05.mp3",
+      "text": "18 menos 13, igual a 5."
+    },
+    "subtraction_13_06": {
+      "file": "subtraction_13_06.mp3",
+      "text": "19 menos 13, igual a 6."
+    },
+    "subtraction_13_07": {
+      "file": "subtraction_13_07.mp3",
+      "text": "20 menos 13, igual a 7."
+    },
+    "subtraction_13_08": {
+      "file": "subtraction_13_08.mp3",
+      "text": "21 menos 13, igual a 8."
+    },
+    "subtraction_13_09": {
+      "file": "subtraction_13_09.mp3",
+      "text": "22 menos 13, igual a 9."
+    },
+    "subtraction_13_10": {
+      "file": "subtraction_13_10.mp3",
+      "text": "23 menos 13, igual a 10."
+    },
+    "subtraction_13_11": {
+      "file": "subtraction_13_11.mp3",
+      "text": "24 menos 13, igual a 11."
+    },
+    "subtraction_13_12": {
+      "file": "subtraction_13_12.mp3",
+      "text": "25 menos 13, igual a 12."
+    },
+    "subtraction_13_13": {
+      "file": "subtraction_13_13.mp3",
+      "text": "26 menos 13, igual a 13."
+    },
+    "subtraction_13_14": {
+      "file": "subtraction_13_14.mp3",
+      "text": "27 menos 13, igual a 14."
+    },
+    "subtraction_13_15": {
+      "file": "subtraction_13_15.mp3",
+      "text": "28 menos 13, igual a 15."
+    },
+    "subtraction_14_01": {
+      "file": "subtraction_14_01.mp3",
+      "text": "15 menos 14, igual a 1."
+    },
+    "subtraction_14_02": {
+      "file": "subtraction_14_02.mp3",
+      "text": "16 menos 14, igual a 2."
+    },
+    "subtraction_14_03": {
+      "file": "subtraction_14_03.mp3",
+      "text": "17 menos 14, igual a 3."
+    },
+    "subtraction_14_04": {
+      "file": "subtraction_14_04.mp3",
+      "text": "18 menos 14, igual a 4."
+    },
+    "subtraction_14_05": {
+      "file": "subtraction_14_05.mp3",
+      "text": "19 menos 14, igual a 5."
+    },
+    "subtraction_14_06": {
+      "file": "subtraction_14_06.mp3",
+      "text": "20 menos 14, igual a 6."
+    },
+    "subtraction_14_07": {
+      "file": "subtraction_14_07.mp3",
+      "text": "21 menos 14, igual a 7."
+    },
+    "subtraction_14_08": {
+      "file": "subtraction_14_08.mp3",
+      "text": "22 menos 14, igual a 8."
+    },
+    "subtraction_14_09": {
+      "file": "subtraction_14_09.mp3",
+      "text": "23 menos 14, igual a 9."
+    },
+    "subtraction_14_10": {
+      "file": "subtraction_14_10.mp3",
+      "text": "24 menos 14, igual a 10."
+    },
+    "subtraction_14_11": {
+      "file": "subtraction_14_11.mp3",
+      "text": "25 menos 14, igual a 11."
+    },
+    "subtraction_14_12": {
+      "file": "subtraction_14_12.mp3",
+      "text": "26 menos 14, igual a 12."
+    },
+    "subtraction_14_13": {
+      "file": "subtraction_14_13.mp3",
+      "text": "27 menos 14, igual a 13."
+    },
+    "subtraction_14_14": {
+      "file": "subtraction_14_14.mp3",
+      "text": "28 menos 14, igual a 14."
+    },
+    "subtraction_14_15": {
+      "file": "subtraction_14_15.mp3",
+      "text": "29 menos 14, igual a 15."
+    },
+    "subtraction_15_01": {
+      "file": "subtraction_15_01.mp3",
+      "text": "16 menos 15, igual a 1."
+    },
+    "subtraction_15_02": {
+      "file": "subtraction_15_02.mp3",
+      "text": "17 menos 15, igual a 2."
+    },
+    "subtraction_15_03": {
+      "file": "subtraction_15_03.mp3",
+      "text": "18 menos 15, igual a 3."
+    },
+    "subtraction_15_04": {
+      "file": "subtraction_15_04.mp3",
+      "text": "19 menos 15, igual a 4."
+    },
+    "subtraction_15_05": {
+      "file": "subtraction_15_05.mp3",
+      "text": "20 menos 15, igual a 5."
+    },
+    "subtraction_15_06": {
+      "file": "subtraction_15_06.mp3",
+      "text": "21 menos 15, igual a 6."
+    },
+    "subtraction_15_07": {
+      "file": "subtraction_15_07.mp3",
+      "text": "22 menos 15, igual a 7."
+    },
+    "subtraction_15_08": {
+      "file": "subtraction_15_08.mp3",
+      "text": "23 menos 15, igual a 8."
+    },
+    "subtraction_15_09": {
+      "file": "subtraction_15_09.mp3",
+      "text": "24 menos 15, igual a 9."
+    },
+    "subtraction_15_10": {
+      "file": "subtraction_15_10.mp3",
+      "text": "25 menos 15, igual a 10."
+    },
+    "subtraction_15_11": {
+      "file": "subtraction_15_11.mp3",
+      "text": "26 menos 15, igual a 11."
+    },
+    "subtraction_15_12": {
+      "file": "subtraction_15_12.mp3",
+      "text": "27 menos 15, igual a 12."
+    },
+    "subtraction_15_13": {
+      "file": "subtraction_15_13.mp3",
+      "text": "28 menos 15, igual a 13."
+    },
+    "subtraction_15_14": {
+      "file": "subtraction_15_14.mp3",
+      "text": "29 menos 15, igual a 14."
+    },
+    "subtraction_15_15": {
+      "file": "subtraction_15_15.mp3",
+      "text": "30 menos 15, igual a 15."
+    },
+    "multiplication_01_01": {
+      "file": "multiplication_01_01.mp3",
+      "text": "1 por 1, igual a 1."
+    },
+    "multiplication_01_02": {
+      "file": "multiplication_01_02.mp3",
+      "text": "1 por 2, igual a 2."
+    },
+    "multiplication_01_03": {
+      "file": "multiplication_01_03.mp3",
+      "text": "1 por 3, igual a 3."
+    },
+    "multiplication_01_04": {
+      "file": "multiplication_01_04.mp3",
+      "text": "1 por 4, igual a 4."
+    },
+    "multiplication_01_05": {
+      "file": "multiplication_01_05.mp3",
+      "text": "1 por 5, igual a 5."
+    },
+    "multiplication_01_06": {
+      "file": "multiplication_01_06.mp3",
+      "text": "1 por 6, igual a 6."
+    },
+    "multiplication_01_07": {
+      "file": "multiplication_01_07.mp3",
+      "text": "1 por 7, igual a 7."
+    },
+    "multiplication_01_08": {
+      "file": "multiplication_01_08.mp3",
+      "text": "1 por 8, igual a 8."
+    },
+    "multiplication_01_09": {
+      "file": "multiplication_01_09.mp3",
+      "text": "1 por 9, igual a 9."
+    },
+    "multiplication_01_10": {
+      "file": "multiplication_01_10.mp3",
+      "text": "1 por 10, igual a 10."
+    },
+    "multiplication_01_11": {
+      "file": "multiplication_01_11.mp3",
+      "text": "1 por 11, igual a 11."
+    },
+    "multiplication_01_12": {
+      "file": "multiplication_01_12.mp3",
+      "text": "1 por 12, igual a 12."
+    },
+    "multiplication_01_13": {
+      "file": "multiplication_01_13.mp3",
+      "text": "1 por 13, igual a 13."
+    },
+    "multiplication_01_14": {
+      "file": "multiplication_01_14.mp3",
+      "text": "1 por 14, igual a 14."
+    },
+    "multiplication_01_15": {
+      "file": "multiplication_01_15.mp3",
+      "text": "1 por 15, igual a 15."
+    },
+    "multiplication_02_01": {
+      "file": "multiplication_02_01.mp3",
+      "text": "2 por 1, igual a 2."
+    },
+    "multiplication_02_02": {
+      "file": "multiplication_02_02.mp3",
+      "text": "2 por 2, igual a 4."
+    },
+    "multiplication_02_03": {
+      "file": "multiplication_02_03.mp3",
+      "text": "2 por 3, igual a 6."
+    },
+    "multiplication_02_04": {
+      "file": "multiplication_02_04.mp3",
+      "text": "2 por 4, igual a 8."
+    },
+    "multiplication_02_05": {
+      "file": "multiplication_02_05.mp3",
+      "text": "2 por 5, igual a 10."
+    },
+    "multiplication_02_06": {
+      "file": "multiplication_02_06.mp3",
+      "text": "2 por 6, igual a 12."
+    },
+    "multiplication_02_07": {
+      "file": "multiplication_02_07.mp3",
+      "text": "2 por 7, igual a 14."
+    },
+    "multiplication_02_08": {
+      "file": "multiplication_02_08.mp3",
+      "text": "2 por 8, igual a 16."
+    },
+    "multiplication_02_09": {
+      "file": "multiplication_02_09.mp3",
+      "text": "2 por 9, igual a 18."
+    },
+    "multiplication_02_10": {
+      "file": "multiplication_02_10.mp3",
+      "text": "2 por 10, igual a 20."
+    },
+    "multiplication_02_11": {
+      "file": "multiplication_02_11.mp3",
+      "text": "2 por 11, igual a 22."
+    },
+    "multiplication_02_12": {
+      "file": "multiplication_02_12.mp3",
+      "text": "2 por 12, igual a 24."
+    },
+    "multiplication_02_13": {
+      "file": "multiplication_02_13.mp3",
+      "text": "2 por 13, igual a 26."
+    },
+    "multiplication_02_14": {
+      "file": "multiplication_02_14.mp3",
+      "text": "2 por 14, igual a 28."
+    },
+    "multiplication_02_15": {
+      "file": "multiplication_02_15.mp3",
+      "text": "2 por 15, igual a 30."
+    },
+    "multiplication_03_01": {
+      "file": "multiplication_03_01.mp3",
+      "text": "3 por 1, igual a 3."
+    },
+    "multiplication_03_02": {
+      "file": "multiplication_03_02.mp3",
+      "text": "3 por 2, igual a 6."
+    },
+    "multiplication_03_03": {
+      "file": "multiplication_03_03.mp3",
+      "text": "3 por 3, igual a 9."
+    },
+    "multiplication_03_04": {
+      "file": "multiplication_03_04.mp3",
+      "text": "3 por 4, igual a 12."
+    },
+    "multiplication_03_05": {
+      "file": "multiplication_03_05.mp3",
+      "text": "3 por 5, igual a 15."
+    },
+    "multiplication_03_06": {
+      "file": "multiplication_03_06.mp3",
+      "text": "3 por 6, igual a 18."
+    },
+    "multiplication_03_07": {
+      "file": "multiplication_03_07.mp3",
+      "text": "3 por 7, igual a 21."
+    },
+    "multiplication_03_08": {
+      "file": "multiplication_03_08.mp3",
+      "text": "3 por 8, igual a 24."
+    },
+    "multiplication_03_09": {
+      "file": "multiplication_03_09.mp3",
+      "text": "3 por 9, igual a 27."
+    },
+    "multiplication_03_10": {
+      "file": "multiplication_03_10.mp3",
+      "text": "3 por 10, igual a 30."
+    },
+    "multiplication_03_11": {
+      "file": "multiplication_03_11.mp3",
+      "text": "3 por 11, igual a 33."
+    },
+    "multiplication_03_12": {
+      "file": "multiplication_03_12.mp3",
+      "text": "3 por 12, igual a 36."
+    },
+    "multiplication_03_13": {
+      "file": "multiplication_03_13.mp3",
+      "text": "3 por 13, igual a 39."
+    },
+    "multiplication_03_14": {
+      "file": "multiplication_03_14.mp3",
+      "text": "3 por 14, igual a 42."
+    },
+    "multiplication_03_15": {
+      "file": "multiplication_03_15.mp3",
+      "text": "3 por 15, igual a 45."
+    },
+    "multiplication_04_01": {
+      "file": "multiplication_04_01.mp3",
+      "text": "4 por 1, igual a 4."
+    },
+    "multiplication_04_02": {
+      "file": "multiplication_04_02.mp3",
+      "text": "4 por 2, igual a 8."
+    },
+    "multiplication_04_03": {
+      "file": "multiplication_04_03.mp3",
+      "text": "4 por 3, igual a 12."
+    },
+    "multiplication_04_04": {
+      "file": "multiplication_04_04.mp3",
+      "text": "4 por 4, igual a 16."
+    },
+    "multiplication_04_05": {
+      "file": "multiplication_04_05.mp3",
+      "text": "4 por 5, igual a 20."
+    },
+    "multiplication_04_06": {
+      "file": "multiplication_04_06.mp3",
+      "text": "4 por 6, igual a 24."
+    },
+    "multiplication_04_07": {
+      "file": "multiplication_04_07.mp3",
+      "text": "4 por 7, igual a 28."
+    },
+    "multiplication_04_08": {
+      "file": "multiplication_04_08.mp3",
+      "text": "4 por 8, igual a 32."
+    },
+    "multiplication_04_09": {
+      "file": "multiplication_04_09.mp3",
+      "text": "4 por 9, igual a 36."
+    },
+    "multiplication_04_10": {
+      "file": "multiplication_04_10.mp3",
+      "text": "4 por 10, igual a 40."
+    },
+    "multiplication_04_11": {
+      "file": "multiplication_04_11.mp3",
+      "text": "4 por 11, igual a 44."
+    },
+    "multiplication_04_12": {
+      "file": "multiplication_04_12.mp3",
+      "text": "4 por 12, igual a 48."
+    },
+    "multiplication_04_13": {
+      "file": "multiplication_04_13.mp3",
+      "text": "4 por 13, igual a 52."
+    },
+    "multiplication_04_14": {
+      "file": "multiplication_04_14.mp3",
+      "text": "4 por 14, igual a 56."
+    },
+    "multiplication_04_15": {
+      "file": "multiplication_04_15.mp3",
+      "text": "4 por 15, igual a 60."
+    },
+    "multiplication_05_01": {
+      "file": "multiplication_05_01.mp3",
+      "text": "5 por 1, igual a 5."
+    },
+    "multiplication_05_02": {
+      "file": "multiplication_05_02.mp3",
+      "text": "5 por 2, igual a 10."
+    },
+    "multiplication_05_03": {
+      "file": "multiplication_05_03.mp3",
+      "text": "5 por 3, igual a 15."
+    },
+    "multiplication_05_04": {
+      "file": "multiplication_05_04.mp3",
+      "text": "5 por 4, igual a 20."
+    },
+    "multiplication_05_05": {
+      "file": "multiplication_05_05.mp3",
+      "text": "5 por 5, igual a 25."
+    },
+    "multiplication_05_06": {
+      "file": "multiplication_05_06.mp3",
+      "text": "5 por 6, igual a 30."
+    },
+    "multiplication_05_07": {
+      "file": "multiplication_05_07.mp3",
+      "text": "5 por 7, igual a 35."
+    },
+    "multiplication_05_08": {
+      "file": "multiplication_05_08.mp3",
+      "text": "5 por 8, igual a 40."
+    },
+    "multiplication_05_09": {
+      "file": "multiplication_05_09.mp3",
+      "text": "5 por 9, igual a 45."
+    },
+    "multiplication_05_10": {
+      "file": "multiplication_05_10.mp3",
+      "text": "5 por 10, igual a 50."
+    },
+    "multiplication_05_11": {
+      "file": "multiplication_05_11.mp3",
+      "text": "5 por 11, igual a 55."
+    },
+    "multiplication_05_12": {
+      "file": "multiplication_05_12.mp3",
+      "text": "5 por 12, igual a 60."
+    },
+    "multiplication_05_13": {
+      "file": "multiplication_05_13.mp3",
+      "text": "5 por 13, igual a 65."
+    },
+    "multiplication_05_14": {
+      "file": "multiplication_05_14.mp3",
+      "text": "5 por 14, igual a 70."
+    },
+    "multiplication_05_15": {
+      "file": "multiplication_05_15.mp3",
+      "text": "5 por 15, igual a 75."
+    },
+    "multiplication_06_01": {
+      "file": "multiplication_06_01.mp3",
+      "text": "6 por 1, igual a 6."
+    },
+    "multiplication_06_02": {
+      "file": "multiplication_06_02.mp3",
+      "text": "6 por 2, igual a 12."
+    },
+    "multiplication_06_03": {
+      "file": "multiplication_06_03.mp3",
+      "text": "6 por 3, igual a 18."
+    },
+    "multiplication_06_04": {
+      "file": "multiplication_06_04.mp3",
+      "text": "6 por 4, igual a 24."
+    },
+    "multiplication_06_05": {
+      "file": "multiplication_06_05.mp3",
+      "text": "6 por 5, igual a 30."
+    },
+    "multiplication_06_06": {
+      "file": "multiplication_06_06.mp3",
+      "text": "6 por 6, igual a 36."
+    },
+    "multiplication_06_07": {
+      "file": "multiplication_06_07.mp3",
+      "text": "6 por 7, igual a 42."
+    },
+    "multiplication_06_08": {
+      "file": "multiplication_06_08.mp3",
+      "text": "6 por 8, igual a 48."
+    },
+    "multiplication_06_09": {
+      "file": "multiplication_06_09.mp3",
+      "text": "6 por 9, igual a 54."
+    },
+    "multiplication_06_10": {
+      "file": "multiplication_06_10.mp3",
+      "text": "6 por 10, igual a 60."
+    },
+    "multiplication_06_11": {
+      "file": "multiplication_06_11.mp3",
+      "text": "6 por 11, igual a 66."
+    },
+    "multiplication_06_12": {
+      "file": "multiplication_06_12.mp3",
+      "text": "6 por 12, igual a 72."
+    },
+    "multiplication_06_13": {
+      "file": "multiplication_06_13.mp3",
+      "text": "6 por 13, igual a 78."
+    },
+    "multiplication_06_14": {
+      "file": "multiplication_06_14.mp3",
+      "text": "6 por 14, igual a 84."
+    },
+    "multiplication_06_15": {
+      "file": "multiplication_06_15.mp3",
+      "text": "6 por 15, igual a 90."
+    },
+    "multiplication_07_01": {
+      "file": "multiplication_07_01.mp3",
+      "text": "7 por 1, igual a 7."
+    },
+    "multiplication_07_02": {
+      "file": "multiplication_07_02.mp3",
+      "text": "7 por 2, igual a 14."
+    },
+    "multiplication_07_03": {
+      "file": "multiplication_07_03.mp3",
+      "text": "7 por 3, igual a 21."
+    },
+    "multiplication_07_04": {
+      "file": "multiplication_07_04.mp3",
+      "text": "7 por 4, igual a 28."
+    },
+    "multiplication_07_05": {
+      "file": "multiplication_07_05.mp3",
+      "text": "7 por 5, igual a 35."
+    },
+    "multiplication_07_06": {
+      "file": "multiplication_07_06.mp3",
+      "text": "7 por 6, igual a 42."
+    },
+    "multiplication_07_07": {
+      "file": "multiplication_07_07.mp3",
+      "text": "7 por 7, igual a 49."
+    },
+    "multiplication_07_08": {
+      "file": "multiplication_07_08.mp3",
+      "text": "7 por 8, igual a 56."
+    },
+    "multiplication_07_09": {
+      "file": "multiplication_07_09.mp3",
+      "text": "7 por 9, igual a 63."
+    },
+    "multiplication_07_10": {
+      "file": "multiplication_07_10.mp3",
+      "text": "7 por 10, igual a 70."
+    },
+    "multiplication_07_11": {
+      "file": "multiplication_07_11.mp3",
+      "text": "7 por 11, igual a 77."
+    },
+    "multiplication_07_12": {
+      "file": "multiplication_07_12.mp3",
+      "text": "7 por 12, igual a 84."
+    },
+    "multiplication_07_13": {
+      "file": "multiplication_07_13.mp3",
+      "text": "7 por 13, igual a 91."
+    },
+    "multiplication_07_14": {
+      "file": "multiplication_07_14.mp3",
+      "text": "7 por 14, igual a 98."
+    },
+    "multiplication_07_15": {
+      "file": "multiplication_07_15.mp3",
+      "text": "7 por 15, igual a 105."
+    },
+    "multiplication_08_01": {
+      "file": "multiplication_08_01.mp3",
+      "text": "8 por 1, igual a 8."
+    },
+    "multiplication_08_02": {
+      "file": "multiplication_08_02.mp3",
+      "text": "8 por 2, igual a 16."
+    },
+    "multiplication_08_03": {
+      "file": "multiplication_08_03.mp3",
+      "text": "8 por 3, igual a 24."
+    },
+    "multiplication_08_04": {
+      "file": "multiplication_08_04.mp3",
+      "text": "8 por 4, igual a 32."
+    },
+    "multiplication_08_05": {
+      "file": "multiplication_08_05.mp3",
+      "text": "8 por 5, igual a 40."
+    },
+    "multiplication_08_06": {
+      "file": "multiplication_08_06.mp3",
+      "text": "8 por 6, igual a 48."
+    },
+    "multiplication_08_07": {
+      "file": "multiplication_08_07.mp3",
+      "text": "8 por 7, igual a 56."
+    },
+    "multiplication_08_08": {
+      "file": "multiplication_08_08.mp3",
+      "text": "8 por 8, igual a 64."
+    },
+    "multiplication_08_09": {
+      "file": "multiplication_08_09.mp3",
+      "text": "8 por 9, igual a 72."
+    },
+    "multiplication_08_10": {
+      "file": "multiplication_08_10.mp3",
+      "text": "8 por 10, igual a 80."
+    },
+    "multiplication_08_11": {
+      "file": "multiplication_08_11.mp3",
+      "text": "8 por 11, igual a 88."
+    },
+    "multiplication_08_12": {
+      "file": "multiplication_08_12.mp3",
+      "text": "8 por 12, igual a 96."
+    },
+    "multiplication_08_13": {
+      "file": "multiplication_08_13.mp3",
+      "text": "8 por 13, igual a 104."
+    },
+    "multiplication_08_14": {
+      "file": "multiplication_08_14.mp3",
+      "text": "8 por 14, igual a 112."
+    },
+    "multiplication_08_15": {
+      "file": "multiplication_08_15.mp3",
+      "text": "8 por 15, igual a 120."
+    },
+    "multiplication_09_01": {
+      "file": "multiplication_09_01.mp3",
+      "text": "9 por 1, igual a 9."
+    },
+    "multiplication_09_02": {
+      "file": "multiplication_09_02.mp3",
+      "text": "9 por 2, igual a 18."
+    },
+    "multiplication_09_03": {
+      "file": "multiplication_09_03.mp3",
+      "text": "9 por 3, igual a 27."
+    },
+    "multiplication_09_04": {
+      "file": "multiplication_09_04.mp3",
+      "text": "9 por 4, igual a 36."
+    },
+    "multiplication_09_05": {
+      "file": "multiplication_09_05.mp3",
+      "text": "9 por 5, igual a 45."
+    },
+    "multiplication_09_06": {
+      "file": "multiplication_09_06.mp3",
+      "text": "9 por 6, igual a 54."
+    },
+    "multiplication_09_07": {
+      "file": "multiplication_09_07.mp3",
+      "text": "9 por 7, igual a 63."
+    },
+    "multiplication_09_08": {
+      "file": "multiplication_09_08.mp3",
+      "text": "9 por 8, igual a 72."
+    },
+    "multiplication_09_09": {
+      "file": "multiplication_09_09.mp3",
+      "text": "9 por 9, igual a 81."
+    },
+    "multiplication_09_10": {
+      "file": "multiplication_09_10.mp3",
+      "text": "9 por 10, igual a 90."
+    },
+    "multiplication_09_11": {
+      "file": "multiplication_09_11.mp3",
+      "text": "9 por 11, igual a 99."
+    },
+    "multiplication_09_12": {
+      "file": "multiplication_09_12.mp3",
+      "text": "9 por 12, igual a 108."
+    },
+    "multiplication_09_13": {
+      "file": "multiplication_09_13.mp3",
+      "text": "9 por 13, igual a 117."
+    },
+    "multiplication_09_14": {
+      "file": "multiplication_09_14.mp3",
+      "text": "9 por 14, igual a 126."
+    },
+    "multiplication_09_15": {
+      "file": "multiplication_09_15.mp3",
+      "text": "9 por 15, igual a 135."
+    },
+    "multiplication_10_01": {
+      "file": "multiplication_10_01.mp3",
+      "text": "10 por 1, igual a 10."
+    },
+    "multiplication_10_02": {
+      "file": "multiplication_10_02.mp3",
+      "text": "10 por 2, igual a 20."
+    },
+    "multiplication_10_03": {
+      "file": "multiplication_10_03.mp3",
+      "text": "10 por 3, igual a 30."
+    },
+    "multiplication_10_04": {
+      "file": "multiplication_10_04.mp3",
+      "text": "10 por 4, igual a 40."
+    },
+    "multiplication_10_05": {
+      "file": "multiplication_10_05.mp3",
+      "text": "10 por 5, igual a 50."
+    },
+    "multiplication_10_06": {
+      "file": "multiplication_10_06.mp3",
+      "text": "10 por 6, igual a 60."
+    },
+    "multiplication_10_07": {
+      "file": "multiplication_10_07.mp3",
+      "text": "10 por 7, igual a 70."
+    },
+    "multiplication_10_08": {
+      "file": "multiplication_10_08.mp3",
+      "text": "10 por 8, igual a 80."
+    },
+    "multiplication_10_09": {
+      "file": "multiplication_10_09.mp3",
+      "text": "10 por 9, igual a 90."
+    },
+    "multiplication_10_10": {
+      "file": "multiplication_10_10.mp3",
+      "text": "10 por 10, igual a 100."
+    },
+    "multiplication_10_11": {
+      "file": "multiplication_10_11.mp3",
+      "text": "10 por 11, igual a 110."
+    },
+    "multiplication_10_12": {
+      "file": "multiplication_10_12.mp3",
+      "text": "10 por 12, igual a 120."
+    },
+    "multiplication_10_13": {
+      "file": "multiplication_10_13.mp3",
+      "text": "10 por 13, igual a 130."
+    },
+    "multiplication_10_14": {
+      "file": "multiplication_10_14.mp3",
+      "text": "10 por 14, igual a 140."
+    },
+    "multiplication_10_15": {
+      "file": "multiplication_10_15.mp3",
+      "text": "10 por 15, igual a 150."
+    },
+    "multiplication_11_01": {
+      "file": "multiplication_11_01.mp3",
+      "text": "11 por 1, igual a 11."
+    },
+    "multiplication_11_02": {
+      "file": "multiplication_11_02.mp3",
+      "text": "11 por 2, igual a 22."
+    },
+    "multiplication_11_03": {
+      "file": "multiplication_11_03.mp3",
+      "text": "11 por 3, igual a 33."
+    },
+    "multiplication_11_04": {
+      "file": "multiplication_11_04.mp3",
+      "text": "11 por 4, igual a 44."
+    },
+    "multiplication_11_05": {
+      "file": "multiplication_11_05.mp3",
+      "text": "11 por 5, igual a 55."
+    },
+    "multiplication_11_06": {
+      "file": "multiplication_11_06.mp3",
+      "text": "11 por 6, igual a 66."
+    },
+    "multiplication_11_07": {
+      "file": "multiplication_11_07.mp3",
+      "text": "11 por 7, igual a 77."
+    },
+    "multiplication_11_08": {
+      "file": "multiplication_11_08.mp3",
+      "text": "11 por 8, igual a 88."
+    },
+    "multiplication_11_09": {
+      "file": "multiplication_11_09.mp3",
+      "text": "11 por 9, igual a 99."
+    },
+    "multiplication_11_10": {
+      "file": "multiplication_11_10.mp3",
+      "text": "11 por 10, igual a 110."
+    },
+    "multiplication_11_11": {
+      "file": "multiplication_11_11.mp3",
+      "text": "11 por 11, igual a 121."
+    },
+    "multiplication_11_12": {
+      "file": "multiplication_11_12.mp3",
+      "text": "11 por 12, igual a 132."
+    },
+    "multiplication_11_13": {
+      "file": "multiplication_11_13.mp3",
+      "text": "11 por 13, igual a 143."
+    },
+    "multiplication_11_14": {
+      "file": "multiplication_11_14.mp3",
+      "text": "11 por 14, igual a 154."
+    },
+    "multiplication_11_15": {
+      "file": "multiplication_11_15.mp3",
+      "text": "11 por 15, igual a 165."
+    },
+    "multiplication_12_01": {
+      "file": "multiplication_12_01.mp3",
+      "text": "12 por 1, igual a 12."
+    },
+    "multiplication_12_02": {
+      "file": "multiplication_12_02.mp3",
+      "text": "12 por 2, igual a 24."
+    },
+    "multiplication_12_03": {
+      "file": "multiplication_12_03.mp3",
+      "text": "12 por 3, igual a 36."
+    },
+    "multiplication_12_04": {
+      "file": "multiplication_12_04.mp3",
+      "text": "12 por 4, igual a 48."
+    },
+    "multiplication_12_05": {
+      "file": "multiplication_12_05.mp3",
+      "text": "12 por 5, igual a 60."
+    },
+    "multiplication_12_06": {
+      "file": "multiplication_12_06.mp3",
+      "text": "12 por 6, igual a 72."
+    },
+    "multiplication_12_07": {
+      "file": "multiplication_12_07.mp3",
+      "text": "12 por 7, igual a 84."
+    },
+    "multiplication_12_08": {
+      "file": "multiplication_12_08.mp3",
+      "text": "12 por 8, igual a 96."
+    },
+    "multiplication_12_09": {
+      "file": "multiplication_12_09.mp3",
+      "text": "12 por 9, igual a 108."
+    },
+    "multiplication_12_10": {
+      "file": "multiplication_12_10.mp3",
+      "text": "12 por 10, igual a 120."
+    },
+    "multiplication_12_11": {
+      "file": "multiplication_12_11.mp3",
+      "text": "12 por 11, igual a 132."
+    },
+    "multiplication_12_12": {
+      "file": "multiplication_12_12.mp3",
+      "text": "12 por 12, igual a 144."
+    },
+    "multiplication_12_13": {
+      "file": "multiplication_12_13.mp3",
+      "text": "12 por 13, igual a 156."
+    },
+    "multiplication_12_14": {
+      "file": "multiplication_12_14.mp3",
+      "text": "12 por 14, igual a 168."
+    },
+    "multiplication_12_15": {
+      "file": "multiplication_12_15.mp3",
+      "text": "12 por 15, igual a 180."
+    },
+    "multiplication_13_01": {
+      "file": "multiplication_13_01.mp3",
+      "text": "13 por 1, igual a 13."
+    },
+    "multiplication_13_02": {
+      "file": "multiplication_13_02.mp3",
+      "text": "13 por 2, igual a 26."
+    },
+    "multiplication_13_03": {
+      "file": "multiplication_13_03.mp3",
+      "text": "13 por 3, igual a 39."
+    },
+    "multiplication_13_04": {
+      "file": "multiplication_13_04.mp3",
+      "text": "13 por 4, igual a 52."
+    },
+    "multiplication_13_05": {
+      "file": "multiplication_13_05.mp3",
+      "text": "13 por 5, igual a 65."
+    },
+    "multiplication_13_06": {
+      "file": "multiplication_13_06.mp3",
+      "text": "13 por 6, igual a 78."
+    },
+    "multiplication_13_07": {
+      "file": "multiplication_13_07.mp3",
+      "text": "13 por 7, igual a 91."
+    },
+    "multiplication_13_08": {
+      "file": "multiplication_13_08.mp3",
+      "text": "13 por 8, igual a 104."
+    },
+    "multiplication_13_09": {
+      "file": "multiplication_13_09.mp3",
+      "text": "13 por 9, igual a 117."
+    },
+    "multiplication_13_10": {
+      "file": "multiplication_13_10.mp3",
+      "text": "13 por 10, igual a 130."
+    },
+    "multiplication_13_11": {
+      "file": "multiplication_13_11.mp3",
+      "text": "13 por 11, igual a 143."
+    },
+    "multiplication_13_12": {
+      "file": "multiplication_13_12.mp3",
+      "text": "13 por 12, igual a 156."
+    },
+    "multiplication_13_13": {
+      "file": "multiplication_13_13.mp3",
+      "text": "13 por 13, igual a 169."
+    },
+    "multiplication_13_14": {
+      "file": "multiplication_13_14.mp3",
+      "text": "13 por 14, igual a 182."
+    },
+    "multiplication_13_15": {
+      "file": "multiplication_13_15.mp3",
+      "text": "13 por 15, igual a 195."
+    },
+    "multiplication_14_01": {
+      "file": "multiplication_14_01.mp3",
+      "text": "14 por 1, igual a 14."
+    },
+    "multiplication_14_02": {
+      "file": "multiplication_14_02.mp3",
+      "text": "14 por 2, igual a 28."
+    },
+    "multiplication_14_03": {
+      "file": "multiplication_14_03.mp3",
+      "text": "14 por 3, igual a 42."
+    },
+    "multiplication_14_04": {
+      "file": "multiplication_14_04.mp3",
+      "text": "14 por 4, igual a 56."
+    },
+    "multiplication_14_05": {
+      "file": "multiplication_14_05.mp3",
+      "text": "14 por 5, igual a 70."
+    },
+    "multiplication_14_06": {
+      "file": "multiplication_14_06.mp3",
+      "text": "14 por 6, igual a 84."
+    },
+    "multiplication_14_07": {
+      "file": "multiplication_14_07.mp3",
+      "text": "14 por 7, igual a 98."
+    },
+    "multiplication_14_08": {
+      "file": "multiplication_14_08.mp3",
+      "text": "14 por 8, igual a 112."
+    },
+    "multiplication_14_09": {
+      "file": "multiplication_14_09.mp3",
+      "text": "14 por 9, igual a 126."
+    },
+    "multiplication_14_10": {
+      "file": "multiplication_14_10.mp3",
+      "text": "14 por 10, igual a 140."
+    },
+    "multiplication_14_11": {
+      "file": "multiplication_14_11.mp3",
+      "text": "14 por 11, igual a 154."
+    },
+    "multiplication_14_12": {
+      "file": "multiplication_14_12.mp3",
+      "text": "14 por 12, igual a 168."
+    },
+    "multiplication_14_13": {
+      "file": "multiplication_14_13.mp3",
+      "text": "14 por 13, igual a 182."
+    },
+    "multiplication_14_14": {
+      "file": "multiplication_14_14.mp3",
+      "text": "14 por 14, igual a 196."
+    },
+    "multiplication_14_15": {
+      "file": "multiplication_14_15.mp3",
+      "text": "14 por 15, igual a 210."
+    },
+    "multiplication_15_01": {
+      "file": "multiplication_15_01.mp3",
+      "text": "15 por 1, igual a 15."
+    },
+    "multiplication_15_02": {
+      "file": "multiplication_15_02.mp3",
+      "text": "15 por 2, igual a 30."
+    },
+    "multiplication_15_03": {
+      "file": "multiplication_15_03.mp3",
+      "text": "15 por 3, igual a 45."
+    },
+    "multiplication_15_04": {
+      "file": "multiplication_15_04.mp3",
+      "text": "15 por 4, igual a 60."
+    },
+    "multiplication_15_05": {
+      "file": "multiplication_15_05.mp3",
+      "text": "15 por 5, igual a 75."
+    },
+    "multiplication_15_06": {
+      "file": "multiplication_15_06.mp3",
+      "text": "15 por 6, igual a 90."
+    },
+    "multiplication_15_07": {
+      "file": "multiplication_15_07.mp3",
+      "text": "15 por 7, igual a 105."
+    },
+    "multiplication_15_08": {
+      "file": "multiplication_15_08.mp3",
+      "text": "15 por 8, igual a 120."
+    },
+    "multiplication_15_09": {
+      "file": "multiplication_15_09.mp3",
+      "text": "15 por 9, igual a 135."
+    },
+    "multiplication_15_10": {
+      "file": "multiplication_15_10.mp3",
+      "text": "15 por 10, igual a 150."
+    },
+    "multiplication_15_11": {
+      "file": "multiplication_15_11.mp3",
+      "text": "15 por 11, igual a 165."
+    },
+    "multiplication_15_12": {
+      "file": "multiplication_15_12.mp3",
+      "text": "15 por 12, igual a 180."
+    },
+    "multiplication_15_13": {
+      "file": "multiplication_15_13.mp3",
+      "text": "15 por 13, igual a 195."
+    },
+    "multiplication_15_14": {
+      "file": "multiplication_15_14.mp3",
+      "text": "15 por 14, igual a 210."
+    },
+    "multiplication_15_15": {
+      "file": "multiplication_15_15.mp3",
+      "text": "15 por 15, igual a 225."
+    },
+    "division_01_01": {
+      "file": "division_01_01.mp3",
+      "text": "1 dividido entre 1, igual a 1."
+    },
+    "division_01_02": {
+      "file": "division_01_02.mp3",
+      "text": "2 dividido entre 1, igual a 2."
+    },
+    "division_01_03": {
+      "file": "division_01_03.mp3",
+      "text": "3 dividido entre 1, igual a 3."
+    },
+    "division_01_04": {
+      "file": "division_01_04.mp3",
+      "text": "4 dividido entre 1, igual a 4."
+    },
+    "division_01_05": {
+      "file": "division_01_05.mp3",
+      "text": "5 dividido entre 1, igual a 5."
+    },
+    "division_01_06": {
+      "file": "division_01_06.mp3",
+      "text": "6 dividido entre 1, igual a 6."
+    },
+    "division_01_07": {
+      "file": "division_01_07.mp3",
+      "text": "7 dividido entre 1, igual a 7."
+    },
+    "division_01_08": {
+      "file": "division_01_08.mp3",
+      "text": "8 dividido entre 1, igual a 8."
+    },
+    "division_01_09": {
+      "file": "division_01_09.mp3",
+      "text": "9 dividido entre 1, igual a 9."
+    },
+    "division_01_10": {
+      "file": "division_01_10.mp3",
+      "text": "10 dividido entre 1, igual a 10."
+    },
+    "division_01_11": {
+      "file": "division_01_11.mp3",
+      "text": "11 dividido entre 1, igual a 11."
+    },
+    "division_01_12": {
+      "file": "division_01_12.mp3",
+      "text": "12 dividido entre 1, igual a 12."
+    },
+    "division_01_13": {
+      "file": "division_01_13.mp3",
+      "text": "13 dividido entre 1, igual a 13."
+    },
+    "division_01_14": {
+      "file": "division_01_14.mp3",
+      "text": "14 dividido entre 1, igual a 14."
+    },
+    "division_01_15": {
+      "file": "division_01_15.mp3",
+      "text": "15 dividido entre 1, igual a 15."
+    },
+    "division_02_01": {
+      "file": "division_02_01.mp3",
+      "text": "2 dividido entre 2, igual a 1."
+    },
+    "division_02_02": {
+      "file": "division_02_02.mp3",
+      "text": "4 dividido entre 2, igual a 2."
+    },
+    "division_02_03": {
+      "file": "division_02_03.mp3",
+      "text": "6 dividido entre 2, igual a 3."
+    },
+    "division_02_04": {
+      "file": "division_02_04.mp3",
+      "text": "8 dividido entre 2, igual a 4."
+    },
+    "division_02_05": {
+      "file": "division_02_05.mp3",
+      "text": "10 dividido entre 2, igual a 5."
+    },
+    "division_02_06": {
+      "file": "division_02_06.mp3",
+      "text": "12 dividido entre 2, igual a 6."
+    },
+    "division_02_07": {
+      "file": "division_02_07.mp3",
+      "text": "14 dividido entre 2, igual a 7."
+    },
+    "division_02_08": {
+      "file": "division_02_08.mp3",
+      "text": "16 dividido entre 2, igual a 8."
+    },
+    "division_02_09": {
+      "file": "division_02_09.mp3",
+      "text": "18 dividido entre 2, igual a 9."
+    },
+    "division_02_10": {
+      "file": "division_02_10.mp3",
+      "text": "20 dividido entre 2, igual a 10."
+    },
+    "division_02_11": {
+      "file": "division_02_11.mp3",
+      "text": "22 dividido entre 2, igual a 11."
+    },
+    "division_02_12": {
+      "file": "division_02_12.mp3",
+      "text": "24 dividido entre 2, igual a 12."
+    },
+    "division_02_13": {
+      "file": "division_02_13.mp3",
+      "text": "26 dividido entre 2, igual a 13."
+    },
+    "division_02_14": {
+      "file": "division_02_14.mp3",
+      "text": "28 dividido entre 2, igual a 14."
+    },
+    "division_02_15": {
+      "file": "division_02_15.mp3",
+      "text": "30 dividido entre 2, igual a 15."
+    },
+    "division_03_01": {
+      "file": "division_03_01.mp3",
+      "text": "3 dividido entre 3, igual a 1."
+    },
+    "division_03_02": {
+      "file": "division_03_02.mp3",
+      "text": "6 dividido entre 3, igual a 2."
+    },
+    "division_03_03": {
+      "file": "division_03_03.mp3",
+      "text": "9 dividido entre 3, igual a 3."
+    },
+    "division_03_04": {
+      "file": "division_03_04.mp3",
+      "text": "12 dividido entre 3, igual a 4."
+    },
+    "division_03_05": {
+      "file": "division_03_05.mp3",
+      "text": "15 dividido entre 3, igual a 5."
+    },
+    "division_03_06": {
+      "file": "division_03_06.mp3",
+      "text": "18 dividido entre 3, igual a 6."
+    },
+    "division_03_07": {
+      "file": "division_03_07.mp3",
+      "text": "21 dividido entre 3, igual a 7."
+    },
+    "division_03_08": {
+      "file": "division_03_08.mp3",
+      "text": "24 dividido entre 3, igual a 8."
+    },
+    "division_03_09": {
+      "file": "division_03_09.mp3",
+      "text": "27 dividido entre 3, igual a 9."
+    },
+    "division_03_10": {
+      "file": "division_03_10.mp3",
+      "text": "30 dividido entre 3, igual a 10."
+    },
+    "division_03_11": {
+      "file": "division_03_11.mp3",
+      "text": "33 dividido entre 3, igual a 11."
+    },
+    "division_03_12": {
+      "file": "division_03_12.mp3",
+      "text": "36 dividido entre 3, igual a 12."
+    },
+    "division_03_13": {
+      "file": "division_03_13.mp3",
+      "text": "39 dividido entre 3, igual a 13."
+    },
+    "division_03_14": {
+      "file": "division_03_14.mp3",
+      "text": "42 dividido entre 3, igual a 14."
+    },
+    "division_03_15": {
+      "file": "division_03_15.mp3",
+      "text": "45 dividido entre 3, igual a 15."
+    },
+    "division_04_01": {
+      "file": "division_04_01.mp3",
+      "text": "4 dividido entre 4, igual a 1."
+    },
+    "division_04_02": {
+      "file": "division_04_02.mp3",
+      "text": "8 dividido entre 4, igual a 2."
+    },
+    "division_04_03": {
+      "file": "division_04_03.mp3",
+      "text": "12 dividido entre 4, igual a 3."
+    },
+    "division_04_04": {
+      "file": "division_04_04.mp3",
+      "text": "16 dividido entre 4, igual a 4."
+    },
+    "division_04_05": {
+      "file": "division_04_05.mp3",
+      "text": "20 dividido entre 4, igual a 5."
+    },
+    "division_04_06": {
+      "file": "division_04_06.mp3",
+      "text": "24 dividido entre 4, igual a 6."
+    },
+    "division_04_07": {
+      "file": "division_04_07.mp3",
+      "text": "28 dividido entre 4, igual a 7."
+    },
+    "division_04_08": {
+      "file": "division_04_08.mp3",
+      "text": "32 dividido entre 4, igual a 8."
+    },
+    "division_04_09": {
+      "file": "division_04_09.mp3",
+      "text": "36 dividido entre 4, igual a 9."
+    },
+    "division_04_10": {
+      "file": "division_04_10.mp3",
+      "text": "40 dividido entre 4, igual a 10."
+    },
+    "division_04_11": {
+      "file": "division_04_11.mp3",
+      "text": "44 dividido entre 4, igual a 11."
+    },
+    "division_04_12": {
+      "file": "division_04_12.mp3",
+      "text": "48 dividido entre 4, igual a 12."
+    },
+    "division_04_13": {
+      "file": "division_04_13.mp3",
+      "text": "52 dividido entre 4, igual a 13."
+    },
+    "division_04_14": {
+      "file": "division_04_14.mp3",
+      "text": "56 dividido entre 4, igual a 14."
+    },
+    "division_04_15": {
+      "file": "division_04_15.mp3",
+      "text": "60 dividido entre 4, igual a 15."
+    },
+    "division_05_01": {
+      "file": "division_05_01.mp3",
+      "text": "5 dividido entre 5, igual a 1."
+    },
+    "division_05_02": {
+      "file": "division_05_02.mp3",
+      "text": "10 dividido entre 5, igual a 2."
+    },
+    "division_05_03": {
+      "file": "division_05_03.mp3",
+      "text": "15 dividido entre 5, igual a 3."
+    },
+    "division_05_04": {
+      "file": "division_05_04.mp3",
+      "text": "20 dividido entre 5, igual a 4."
+    },
+    "division_05_05": {
+      "file": "division_05_05.mp3",
+      "text": "25 dividido entre 5, igual a 5."
+    },
+    "division_05_06": {
+      "file": "division_05_06.mp3",
+      "text": "30 dividido entre 5, igual a 6."
+    },
+    "division_05_07": {
+      "file": "division_05_07.mp3",
+      "text": "35 dividido entre 5, igual a 7."
+    },
+    "division_05_08": {
+      "file": "division_05_08.mp3",
+      "text": "40 dividido entre 5, igual a 8."
+    },
+    "division_05_09": {
+      "file": "division_05_09.mp3",
+      "text": "45 dividido entre 5, igual a 9."
+    },
+    "division_05_10": {
+      "file": "division_05_10.mp3",
+      "text": "50 dividido entre 5, igual a 10."
+    },
+    "division_05_11": {
+      "file": "division_05_11.mp3",
+      "text": "55 dividido entre 5, igual a 11."
+    },
+    "division_05_12": {
+      "file": "division_05_12.mp3",
+      "text": "60 dividido entre 5, igual a 12."
+    },
+    "division_05_13": {
+      "file": "division_05_13.mp3",
+      "text": "65 dividido entre 5, igual a 13."
+    },
+    "division_05_14": {
+      "file": "division_05_14.mp3",
+      "text": "70 dividido entre 5, igual a 14."
+    },
+    "division_05_15": {
+      "file": "division_05_15.mp3",
+      "text": "75 dividido entre 5, igual a 15."
+    },
+    "division_06_01": {
+      "file": "division_06_01.mp3",
+      "text": "6 dividido entre 6, igual a 1."
+    },
+    "division_06_02": {
+      "file": "division_06_02.mp3",
+      "text": "12 dividido entre 6, igual a 2."
+    },
+    "division_06_03": {
+      "file": "division_06_03.mp3",
+      "text": "18 dividido entre 6, igual a 3."
+    },
+    "division_06_04": {
+      "file": "division_06_04.mp3",
+      "text": "24 dividido entre 6, igual a 4."
+    },
+    "division_06_05": {
+      "file": "division_06_05.mp3",
+      "text": "30 dividido entre 6, igual a 5."
+    },
+    "division_06_06": {
+      "file": "division_06_06.mp3",
+      "text": "36 dividido entre 6, igual a 6."
+    },
+    "division_06_07": {
+      "file": "division_06_07.mp3",
+      "text": "42 dividido entre 6, igual a 7."
+    },
+    "division_06_08": {
+      "file": "division_06_08.mp3",
+      "text": "48 dividido entre 6, igual a 8."
+    },
+    "division_06_09": {
+      "file": "division_06_09.mp3",
+      "text": "54 dividido entre 6, igual a 9."
+    },
+    "division_06_10": {
+      "file": "division_06_10.mp3",
+      "text": "60 dividido entre 6, igual a 10."
+    },
+    "division_06_11": {
+      "file": "division_06_11.mp3",
+      "text": "66 dividido entre 6, igual a 11."
+    },
+    "division_06_12": {
+      "file": "division_06_12.mp3",
+      "text": "72 dividido entre 6, igual a 12."
+    },
+    "division_06_13": {
+      "file": "division_06_13.mp3",
+      "text": "78 dividido entre 6, igual a 13."
+    },
+    "division_06_14": {
+      "file": "division_06_14.mp3",
+      "text": "84 dividido entre 6, igual a 14."
+    },
+    "division_06_15": {
+      "file": "division_06_15.mp3",
+      "text": "90 dividido entre 6, igual a 15."
+    },
+    "division_07_01": {
+      "file": "division_07_01.mp3",
+      "text": "7 dividido entre 7, igual a 1."
+    },
+    "division_07_02": {
+      "file": "division_07_02.mp3",
+      "text": "14 dividido entre 7, igual a 2."
+    },
+    "division_07_03": {
+      "file": "division_07_03.mp3",
+      "text": "21 dividido entre 7, igual a 3."
+    },
+    "division_07_04": {
+      "file": "division_07_04.mp3",
+      "text": "28 dividido entre 7, igual a 4."
+    },
+    "division_07_05": {
+      "file": "division_07_05.mp3",
+      "text": "35 dividido entre 7, igual a 5."
+    },
+    "division_07_06": {
+      "file": "division_07_06.mp3",
+      "text": "42 dividido entre 7, igual a 6."
+    },
+    "division_07_07": {
+      "file": "division_07_07.mp3",
+      "text": "49 dividido entre 7, igual a 7."
+    },
+    "division_07_08": {
+      "file": "division_07_08.mp3",
+      "text": "56 dividido entre 7, igual a 8."
+    },
+    "division_07_09": {
+      "file": "division_07_09.mp3",
+      "text": "63 dividido entre 7, igual a 9."
+    },
+    "division_07_10": {
+      "file": "division_07_10.mp3",
+      "text": "70 dividido entre 7, igual a 10."
+    },
+    "division_07_11": {
+      "file": "division_07_11.mp3",
+      "text": "77 dividido entre 7, igual a 11."
+    },
+    "division_07_12": {
+      "file": "division_07_12.mp3",
+      "text": "84 dividido entre 7, igual a 12."
+    },
+    "division_07_13": {
+      "file": "division_07_13.mp3",
+      "text": "91 dividido entre 7, igual a 13."
+    },
+    "division_07_14": {
+      "file": "division_07_14.mp3",
+      "text": "98 dividido entre 7, igual a 14."
+    },
+    "division_07_15": {
+      "file": "division_07_15.mp3",
+      "text": "105 dividido entre 7, igual a 15."
+    },
+    "division_08_01": {
+      "file": "division_08_01.mp3",
+      "text": "8 dividido entre 8, igual a 1."
+    },
+    "division_08_02": {
+      "file": "division_08_02.mp3",
+      "text": "16 dividido entre 8, igual a 2."
+    },
+    "division_08_03": {
+      "file": "division_08_03.mp3",
+      "text": "24 dividido entre 8, igual a 3."
+    },
+    "division_08_04": {
+      "file": "division_08_04.mp3",
+      "text": "32 dividido entre 8, igual a 4."
+    },
+    "division_08_05": {
+      "file": "division_08_05.mp3",
+      "text": "40 dividido entre 8, igual a 5."
+    },
+    "division_08_06": {
+      "file": "division_08_06.mp3",
+      "text": "48 dividido entre 8, igual a 6."
+    },
+    "division_08_07": {
+      "file": "division_08_07.mp3",
+      "text": "56 dividido entre 8, igual a 7."
+    },
+    "division_08_08": {
+      "file": "division_08_08.mp3",
+      "text": "64 dividido entre 8, igual a 8."
+    },
+    "division_08_09": {
+      "file": "division_08_09.mp3",
+      "text": "72 dividido entre 8, igual a 9."
+    },
+    "division_08_10": {
+      "file": "division_08_10.mp3",
+      "text": "80 dividido entre 8, igual a 10."
+    },
+    "division_08_11": {
+      "file": "division_08_11.mp3",
+      "text": "88 dividido entre 8, igual a 11."
+    },
+    "division_08_12": {
+      "file": "division_08_12.mp3",
+      "text": "96 dividido entre 8, igual a 12."
+    },
+    "division_08_13": {
+      "file": "division_08_13.mp3",
+      "text": "104 dividido entre 8, igual a 13."
+    },
+    "division_08_14": {
+      "file": "division_08_14.mp3",
+      "text": "112 dividido entre 8, igual a 14."
+    },
+    "division_08_15": {
+      "file": "division_08_15.mp3",
+      "text": "120 dividido entre 8, igual a 15."
+    },
+    "division_09_01": {
+      "file": "division_09_01.mp3",
+      "text": "9 dividido entre 9, igual a 1."
+    },
+    "division_09_02": {
+      "file": "division_09_02.mp3",
+      "text": "18 dividido entre 9, igual a 2."
+    },
+    "division_09_03": {
+      "file": "division_09_03.mp3",
+      "text": "27 dividido entre 9, igual a 3."
+    },
+    "division_09_04": {
+      "file": "division_09_04.mp3",
+      "text": "36 dividido entre 9, igual a 4."
+    },
+    "division_09_05": {
+      "file": "division_09_05.mp3",
+      "text": "45 dividido entre 9, igual a 5."
+    },
+    "division_09_06": {
+      "file": "division_09_06.mp3",
+      "text": "54 dividido entre 9, igual a 6."
+    },
+    "division_09_07": {
+      "file": "division_09_07.mp3",
+      "text": "63 dividido entre 9, igual a 7."
+    },
+    "division_09_08": {
+      "file": "division_09_08.mp3",
+      "text": "72 dividido entre 9, igual a 8."
+    },
+    "division_09_09": {
+      "file": "division_09_09.mp3",
+      "text": "81 dividido entre 9, igual a 9."
+    },
+    "division_09_10": {
+      "file": "division_09_10.mp3",
+      "text": "90 dividido entre 9, igual a 10."
+    },
+    "division_09_11": {
+      "file": "division_09_11.mp3",
+      "text": "99 dividido entre 9, igual a 11."
+    },
+    "division_09_12": {
+      "file": "division_09_12.mp3",
+      "text": "108 dividido entre 9, igual a 12."
+    },
+    "division_09_13": {
+      "file": "division_09_13.mp3",
+      "text": "117 dividido entre 9, igual a 13."
+    },
+    "division_09_14": {
+      "file": "division_09_14.mp3",
+      "text": "126 dividido entre 9, igual a 14."
+    },
+    "division_09_15": {
+      "file": "division_09_15.mp3",
+      "text": "135 dividido entre 9, igual a 15."
+    },
+    "division_10_01": {
+      "file": "division_10_01.mp3",
+      "text": "10 dividido entre 10, igual a 1."
+    },
+    "division_10_02": {
+      "file": "division_10_02.mp3",
+      "text": "20 dividido entre 10, igual a 2."
+    },
+    "division_10_03": {
+      "file": "division_10_03.mp3",
+      "text": "30 dividido entre 10, igual a 3."
+    },
+    "division_10_04": {
+      "file": "division_10_04.mp3",
+      "text": "40 dividido entre 10, igual a 4."
+    },
+    "division_10_05": {
+      "file": "division_10_05.mp3",
+      "text": "50 dividido entre 10, igual a 5."
+    },
+    "division_10_06": {
+      "file": "division_10_06.mp3",
+      "text": "60 dividido entre 10, igual a 6."
+    },
+    "division_10_07": {
+      "file": "division_10_07.mp3",
+      "text": "70 dividido entre 10, igual a 7."
+    },
+    "division_10_08": {
+      "file": "division_10_08.mp3",
+      "text": "80 dividido entre 10, igual a 8."
+    },
+    "division_10_09": {
+      "file": "division_10_09.mp3",
+      "text": "90 dividido entre 10, igual a 9."
+    },
+    "division_10_10": {
+      "file": "division_10_10.mp3",
+      "text": "100 dividido entre 10, igual a 10."
+    },
+    "division_10_11": {
+      "file": "division_10_11.mp3",
+      "text": "110 dividido entre 10, igual a 11."
+    },
+    "division_10_12": {
+      "file": "division_10_12.mp3",
+      "text": "120 dividido entre 10, igual a 12."
+    },
+    "division_10_13": {
+      "file": "division_10_13.mp3",
+      "text": "130 dividido entre 10, igual a 13."
+    },
+    "division_10_14": {
+      "file": "division_10_14.mp3",
+      "text": "140 dividido entre 10, igual a 14."
+    },
+    "division_10_15": {
+      "file": "division_10_15.mp3",
+      "text": "150 dividido entre 10, igual a 15."
+    },
+    "division_11_01": {
+      "file": "division_11_01.mp3",
+      "text": "11 dividido entre 11, igual a 1."
+    },
+    "division_11_02": {
+      "file": "division_11_02.mp3",
+      "text": "22 dividido entre 11, igual a 2."
+    },
+    "division_11_03": {
+      "file": "division_11_03.mp3",
+      "text": "33 dividido entre 11, igual a 3."
+    },
+    "division_11_04": {
+      "file": "division_11_04.mp3",
+      "text": "44 dividido entre 11, igual a 4."
+    },
+    "division_11_05": {
+      "file": "division_11_05.mp3",
+      "text": "55 dividido entre 11, igual a 5."
+    },
+    "division_11_06": {
+      "file": "division_11_06.mp3",
+      "text": "66 dividido entre 11, igual a 6."
+    },
+    "division_11_07": {
+      "file": "division_11_07.mp3",
+      "text": "77 dividido entre 11, igual a 7."
+    },
+    "division_11_08": {
+      "file": "division_11_08.mp3",
+      "text": "88 dividido entre 11, igual a 8."
+    },
+    "division_11_09": {
+      "file": "division_11_09.mp3",
+      "text": "99 dividido entre 11, igual a 9."
+    },
+    "division_11_10": {
+      "file": "division_11_10.mp3",
+      "text": "110 dividido entre 11, igual a 10."
+    },
+    "division_11_11": {
+      "file": "division_11_11.mp3",
+      "text": "121 dividido entre 11, igual a 11."
+    },
+    "division_11_12": {
+      "file": "division_11_12.mp3",
+      "text": "132 dividido entre 11, igual a 12."
+    },
+    "division_11_13": {
+      "file": "division_11_13.mp3",
+      "text": "143 dividido entre 11, igual a 13."
+    },
+    "division_11_14": {
+      "file": "division_11_14.mp3",
+      "text": "154 dividido entre 11, igual a 14."
+    },
+    "division_11_15": {
+      "file": "division_11_15.mp3",
+      "text": "165 dividido entre 11, igual a 15."
+    },
+    "division_12_01": {
+      "file": "division_12_01.mp3",
+      "text": "12 dividido entre 12, igual a 1."
+    },
+    "division_12_02": {
+      "file": "division_12_02.mp3",
+      "text": "24 dividido entre 12, igual a 2."
+    },
+    "division_12_03": {
+      "file": "division_12_03.mp3",
+      "text": "36 dividido entre 12, igual a 3."
+    },
+    "division_12_04": {
+      "file": "division_12_04.mp3",
+      "text": "48 dividido entre 12, igual a 4."
+    },
+    "division_12_05": {
+      "file": "division_12_05.mp3",
+      "text": "60 dividido entre 12, igual a 5."
+    },
+    "division_12_06": {
+      "file": "division_12_06.mp3",
+      "text": "72 dividido entre 12, igual a 6."
+    },
+    "division_12_07": {
+      "file": "division_12_07.mp3",
+      "text": "84 dividido entre 12, igual a 7."
+    },
+    "division_12_08": {
+      "file": "division_12_08.mp3",
+      "text": "96 dividido entre 12, igual a 8."
+    },
+    "division_12_09": {
+      "file": "division_12_09.mp3",
+      "text": "108 dividido entre 12, igual a 9."
+    },
+    "division_12_10": {
+      "file": "division_12_10.mp3",
+      "text": "120 dividido entre 12, igual a 10."
+    },
+    "division_12_11": {
+      "file": "division_12_11.mp3",
+      "text": "132 dividido entre 12, igual a 11."
+    },
+    "division_12_12": {
+      "file": "division_12_12.mp3",
+      "text": "144 dividido entre 12, igual a 12."
+    },
+    "division_12_13": {
+      "file": "division_12_13.mp3",
+      "text": "156 dividido entre 12, igual a 13."
+    },
+    "division_12_14": {
+      "file": "division_12_14.mp3",
+      "text": "168 dividido entre 12, igual a 14."
+    },
+    "division_12_15": {
+      "file": "division_12_15.mp3",
+      "text": "180 dividido entre 12, igual a 15."
+    },
+    "division_13_01": {
+      "file": "division_13_01.mp3",
+      "text": "13 dividido entre 13, igual a 1."
+    },
+    "division_13_02": {
+      "file": "division_13_02.mp3",
+      "text": "26 dividido entre 13, igual a 2."
+    },
+    "division_13_03": {
+      "file": "division_13_03.mp3",
+      "text": "39 dividido entre 13, igual a 3."
+    },
+    "division_13_04": {
+      "file": "division_13_04.mp3",
+      "text": "52 dividido entre 13, igual a 4."
+    },
+    "division_13_05": {
+      "file": "division_13_05.mp3",
+      "text": "65 dividido entre 13, igual a 5."
+    },
+    "division_13_06": {
+      "file": "division_13_06.mp3",
+      "text": "78 dividido entre 13, igual a 6."
+    },
+    "division_13_07": {
+      "file": "division_13_07.mp3",
+      "text": "91 dividido entre 13, igual a 7."
+    },
+    "division_13_08": {
+      "file": "division_13_08.mp3",
+      "text": "104 dividido entre 13, igual a 8."
+    },
+    "division_13_09": {
+      "file": "division_13_09.mp3",
+      "text": "117 dividido entre 13, igual a 9."
+    },
+    "division_13_10": {
+      "file": "division_13_10.mp3",
+      "text": "130 dividido entre 13, igual a 10."
+    },
+    "division_13_11": {
+      "file": "division_13_11.mp3",
+      "text": "143 dividido entre 13, igual a 11."
+    },
+    "division_13_12": {
+      "file": "division_13_12.mp3",
+      "text": "156 dividido entre 13, igual a 12."
+    },
+    "division_13_13": {
+      "file": "division_13_13.mp3",
+      "text": "169 dividido entre 13, igual a 13."
+    },
+    "division_13_14": {
+      "file": "division_13_14.mp3",
+      "text": "182 dividido entre 13, igual a 14."
+    },
+    "division_13_15": {
+      "file": "division_13_15.mp3",
+      "text": "195 dividido entre 13, igual a 15."
+    },
+    "division_14_01": {
+      "file": "division_14_01.mp3",
+      "text": "14 dividido entre 14, igual a 1."
+    },
+    "division_14_02": {
+      "file": "division_14_02.mp3",
+      "text": "28 dividido entre 14, igual a 2."
+    },
+    "division_14_03": {
+      "file": "division_14_03.mp3",
+      "text": "42 dividido entre 14, igual a 3."
+    },
+    "division_14_04": {
+      "file": "division_14_04.mp3",
+      "text": "56 dividido entre 14, igual a 4."
+    },
+    "division_14_05": {
+      "file": "division_14_05.mp3",
+      "text": "70 dividido entre 14, igual a 5."
+    },
+    "division_14_06": {
+      "file": "division_14_06.mp3",
+      "text": "84 dividido entre 14, igual a 6."
+    },
+    "division_14_07": {
+      "file": "division_14_07.mp3",
+      "text": "98 dividido entre 14, igual a 7."
+    },
+    "division_14_08": {
+      "file": "division_14_08.mp3",
+      "text": "112 dividido entre 14, igual a 8."
+    },
+    "division_14_09": {
+      "file": "division_14_09.mp3",
+      "text": "126 dividido entre 14, igual a 9."
+    },
+    "division_14_10": {
+      "file": "division_14_10.mp3",
+      "text": "140 dividido entre 14, igual a 10."
+    },
+    "division_14_11": {
+      "file": "division_14_11.mp3",
+      "text": "154 dividido entre 14, igual a 11."
+    },
+    "division_14_12": {
+      "file": "division_14_12.mp3",
+      "text": "168 dividido entre 14, igual a 12."
+    },
+    "division_14_13": {
+      "file": "division_14_13.mp3",
+      "text": "182 dividido entre 14, igual a 13."
+    },
+    "division_14_14": {
+      "file": "division_14_14.mp3",
+      "text": "196 dividido entre 14, igual a 14."
+    },
+    "division_14_15": {
+      "file": "division_14_15.mp3",
+      "text": "210 dividido entre 14, igual a 15."
+    },
+    "division_15_01": {
+      "file": "division_15_01.mp3",
+      "text": "15 dividido entre 15, igual a 1."
+    },
+    "division_15_02": {
+      "file": "division_15_02.mp3",
+      "text": "30 dividido entre 15, igual a 2."
+    },
+    "division_15_03": {
+      "file": "division_15_03.mp3",
+      "text": "45 dividido entre 15, igual a 3."
+    },
+    "division_15_04": {
+      "file": "division_15_04.mp3",
+      "text": "60 dividido entre 15, igual a 4."
+    },
+    "division_15_05": {
+      "file": "division_15_05.mp3",
+      "text": "75 dividido entre 15, igual a 5."
+    },
+    "division_15_06": {
+      "file": "division_15_06.mp3",
+      "text": "90 dividido entre 15, igual a 6."
+    },
+    "division_15_07": {
+      "file": "division_15_07.mp3",
+      "text": "105 dividido entre 15, igual a 7."
+    },
+    "division_15_08": {
+      "file": "division_15_08.mp3",
+      "text": "120 dividido entre 15, igual a 8."
+    },
+    "division_15_09": {
+      "file": "division_15_09.mp3",
+      "text": "135 dividido entre 15, igual a 9."
+    },
+    "division_15_10": {
+      "file": "division_15_10.mp3",
+      "text": "150 dividido entre 15, igual a 10."
+    },
+    "division_15_11": {
+      "file": "division_15_11.mp3",
+      "text": "165 dividido entre 15, igual a 11."
+    },
+    "division_15_12": {
+      "file": "division_15_12.mp3",
+      "text": "180 dividido entre 15, igual a 12."
+    },
+    "division_15_13": {
+      "file": "division_15_13.mp3",
+      "text": "195 dividido entre 15, igual a 13."
+    },
+    "division_15_14": {
+      "file": "division_15_14.mp3",
+      "text": "210 dividido entre 15, igual a 14."
+    },
+    "division_15_15": {
+      "file": "division_15_15.mp3",
+      "text": "225 dividido entre 15, igual a 15."
+    }
+  }
+}

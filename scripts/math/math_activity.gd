@@ -11,6 +11,7 @@ const Model = preload("res://scripts/math/math_model.gd")
 const Balloons = preload("res://scripts/math/balloon_game.gd")
 const Adventure = preload("res://scripts/math/andes_adventure.gd")
 const Map = preload("res://scripts/math/adventure_map.gd")
+const TableLesson = preload("res://scripts/math/table_lesson.gd")
 
 var topic_id := "addition"
 var view := "hub"
@@ -63,6 +64,7 @@ var gate_hint: Label
 var gate_options: Array[Button] = []
 var count_buttons: Array[Button] = []
 var elapsed := 0.0
+var tables: Control
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -70,7 +72,7 @@ func _ready() -> void:
 	audio = Audio.new()
 	add_child(audio)
 	_build_shell()
-	if topic_id in Catalog.OPERATIONS: _show_hub()
+	if topic_id in Catalog.OPERATIONS: _show_tables()
 	elif topic_id == "level_game": _show_map()
 	else: _show_setup()
 	audio.speak(topic_id)
@@ -133,6 +135,8 @@ func _clear_children(parent: Node) -> void:
 
 func _clear(new_view: String, backdrop_index: int = 0) -> void:
 	_close_dialog()
+	if is_instance_valid(tables): tables.stop()
+	tables = null
 	audio.stop()
 	if is_instance_valid(arcade):
 		_save_route()
@@ -148,7 +152,7 @@ func _clear(new_view: String, backdrop_index: int = 0) -> void:
 	view = new_view
 	background.texture = UI.backdrop(backdrop_index)
 	pause_button.visible = view in ["adventure", "quick"]
-	back_button.text = "‹ Matemáticas" if view in ["hub", "setup", "map"] else ("‹ Caminos" if topic_id == "level_game" else "‹ Misiones" if topic_id in Catalog.OPERATIONS else "‹ Preparar")
+	back_button.text = "‹ Matemáticas" if view in ["tables", "hub", "setup", "map"] else ("‹ Caminos" if topic_id == "level_game" else "‹ Misiones" if topic_id in Catalog.OPERATIONS else "‹ Preparar")
 	heading.text = Catalog.TITLES[topic_id]
 
 func _nav(value: String, callback: Callable, color: Color = UI.BLUE) -> Button:
@@ -174,6 +178,16 @@ func _companion(parent: Node, message: String, height: int = 215) -> VBoxContain
 	guide_text.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	scroll.add_child(guide_text)
 	return stack
+
+func _show_tables() -> void:
+	_clear("tables")
+	subtitle.text = "Escucha, mira y aprende · 15 tablas por operación"
+	tables = TableLesson.new()
+	tables.operation = topic_id
+	tables.audio = audio
+	content.add_child(tables)
+	status.text = "Cada operación se ilumina al escucharla. Puedes pausar, repetir y elegir otra tabla."
+	_nav("Practicar · Misiones y retos →", _show_hub, Catalog.COLORS[topic_id])
 
 func _show_hub() -> void:
 	_clear("hub")
@@ -220,6 +234,7 @@ func _show_hub() -> void:
 	companion.add_child(UI.text("%d / 16 misiones completadas\n%d estrellas en misiones" % [totals.lessons, totals.stars], 19, Catalog.COLORS[topic_id]))
 	status.text = "Puedes elegir cualquier misión y volver a practicar. Tu mejor resultado se conserva."
 	_nav("Escuchar la guía", func(): audio.speak(topic_id), Catalog.COLORS[topic_id])
+	_nav("Tablas del 1 al 15", _show_tables, Color("#b12672"))
 
 func _start_lesson(id: String) -> void:
 	lesson = Catalog.find(id)
@@ -775,6 +790,7 @@ func _finish_level() -> void:
 	audio.speak("level_done")
 
 func _modal(title: String, kind: String) -> VBoxContainer:
+	if is_instance_valid(tables): tables.stop()
 	_close_dialog()
 	if is_instance_valid(arcade): arcade.set_paused(true)
 	if is_instance_valid(balloons): balloons.active = false
@@ -827,6 +843,12 @@ func _show_hint() -> void:
 	audio.speak("help")
 
 func _show_help() -> void:
+	if view == "tables":
+		var help := _modal("Aprendemos con las tablas", "help")
+		help.add_child(UI.text("Elige una tabla del 1 al 15. Toca una operación para escucharla y ver sus cantidades. Reproducir tabla lee las quince operaciones, en orden, e ilumina la que está diciendo la llama.", 24))
+		help.add_child(UI.text("Puedes pausar, continuar o parar. Las restas quitan siempre el número de la tabla; las divisiones reparten entre ese número y no dejan sobrantes. Practicar abre las misiones que ya conoces.", 23))
+		_close_button(help)
+		return
 	var stack := _modal("La llama te acompaña", "help")
 	stack.add_child(UI.text("En las misiones primero movemos las cantidades. Después resolvemos seis retos con el teclado o los botones. Puedes escuchar, pedir pistas y repetir.", 25))
 	stack.add_child(UI.text("En la aventura: flechas o A/D para moverte, Espacio para saltar. En tablet puedes usar dos dedos. Las puertas tienen operaciones; el suelo continuo permite volver a intentar los saltos.", 23))
@@ -902,7 +924,8 @@ func _go_back() -> void:
 			_close_dialog()
 			if is_instance_valid(arcade) and arcade.awaiting_gate >= 0: _show_gate(arcade.awaiting_gate, false)
 		return
-	if view in ["hub", "setup", "map"]:
+	if view in ["tables", "hub", "setup", "map"]:
+		if is_instance_valid(tables): tables.stop()
 		audio.stop()
 		back_requested.emit()
 	elif topic_id in Catalog.OPERATIONS: _show_hub()

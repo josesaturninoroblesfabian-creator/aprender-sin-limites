@@ -15,7 +15,7 @@ Entrega revisada el 29 de octubre de 2026. Abrir `project.godot`, ejecutar con *
 | Juego por niveles | **Aventura por los Andes**: doce caminos con movimiento, saltos, plataformas, cajas, cinco estrellas y tres puertas matemáticas por camino. |
 | Reto rápido | **Fiesta de globos**: tocar el globo que contiene la respuesta. Elegir operaciones, dificultad y 60 segundos, 90 segundos o una partida sin reloj de diez aciertos. |
 
-Suma tiene un recorrido para **aprender la operación**, separado del juego de contar. Por ejemplo, en `8 + 5` la llama avanza hasta diez y después completa los tres que faltan; en `27 + 18` aparecen decenas y unidades. El niño participa en el ejemplo antes de pasar a los seis problemas de la misión. No se presentan las tablas del 1 al 15 como actividad principal.
+Desde el 31 de octubre, las cuatro operaciones abren primero sus **tablas del 1 al 15**, con lectura completa y ejemplos visuales. **Practicar · Misiones y retos** abre el recorrido interactivo anterior, separado del juego de contar. Por ejemplo, en `8 + 5` la llama avanza hasta diez y después completa los tres que faltan; en `27 + 18` aparecen decenas y unidades. El niño participa en el ejemplo antes de pasar a los seis problemas de la misión. Ver [Tablas de operaciones](TABLAS_OPERACIONES.md) para los 900 nuevos ejemplos y sus controles.
 
 ## Secuencia de aprendizaje
 

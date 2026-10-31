@@ -31,10 +31,16 @@ func reload_settings() -> void:
 		stop()
 
 func speak(id: String) -> bool:
+	return _speak_path("res://assets/audio/llama/activities/" + id + ".mp3", id)
+
+func speak_table(id: String) -> bool:
+	# IDs come from the local table catalog, never from a network request.
+	return _speak_path("res://assets/audio/llama/tables/" + id + ".mp3", id)
+
+func _speak_path(path: String, id: String) -> bool:
 	stop()
 	if muted or volume <= 0:
 		return false
-	var path := "res://assets/audio/llama/activities/" + id + ".mp3"
 	if not ResourceLoader.exists(path):
 		return false
 	player.stream = load(path)
@@ -47,6 +53,7 @@ func speak(id: String) -> bool:
 func stop() -> void:
 	current_id = ""
 	if is_instance_valid(player):
+		player.stream_paused = false
 		player.stop()
 		player.stream = null
 	if is_instance_valid(effects):
@@ -54,7 +61,7 @@ func stop() -> void:
 	changed.emit()
 
 func speaking() -> bool:
-	return is_instance_valid(player) and player.playing
+	return is_instance_valid(player) and player.playing and not player.stream_paused
 
 func effect(id: String) -> void:
 	if muted or volume <= 0 or not tones.has(id):

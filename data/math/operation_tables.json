@@ -1,0 +1,7565 @@
+{
+  "version": 1,
+  "tables": [
+    {
+      "operation": "addition",
+      "number": 1,
+      "rows": [
+        {
+          "id": "addition_01_01",
+          "a": 1,
+          "b": 1,
+          "result": 2,
+          "step": 1,
+          "text": "1 más 1, igual a 2."
+        },
+        {
+          "id": "addition_01_02",
+          "a": 1,
+          "b": 2,
+          "result": 3,
+          "step": 2,
+          "text": "1 más 2, igual a 3."
+        },
+        {
+          "id": "addition_01_03",
+          "a": 1,
+          "b": 3,
+          "result": 4,
+          "step": 3,
+          "text": "1 más 3, igual a 4."
+        },
+        {
+          "id": "addition_01_04",
+          "a": 1,
+          "b": 4,
+          "result": 5,
+          "step": 4,
+          "text": "1 más 4, igual a 5."
+        },
+        {
+          "id": "addition_01_05",
+          "a": 1,
+          "b": 5,
+          "result": 6,
+          "step": 5,
+          "text": "1 más 5, igual a 6."
+        },
+        {
+          "id": "addition_01_06",
+          "a": 1,
+          "b": 6,
+          "result": 7,
+          "step": 6,
+          "text": "1 más 6, igual a 7."
+        },
+        {
+          "id": "addition_01_07",
+          "a": 1,
+          "b": 7,
+          "result": 8,
+          "step": 7,
+          "text": "1 más 7, igual a 8."
+        },
+        {
+          "id": "addition_01_08",
+          "a": 1,
+          "b": 8,
+          "result": 9,
+          "step": 8,
+          "text": "1 más 8, igual a 9."
+        },
+        {
+          "id": "addition_01_09",
+          "a": 1,
+          "b": 9,
+          "result": 10,
+          "step": 9,
+          "text": "1 más 9, igual a 10."
+        },
+        {
+          "id": "addition_01_10",
+          "a": 1,
+          "b": 10,
+          "result": 11,
+          "step": 10,
+          "text": "1 más 10, igual a 11."
+        },
+        {
+          "id": "addition_01_11",
+          "a": 1,
+          "b": 11,
+          "result": 12,
+          "step": 11,
+          "text": "1 más 11, igual a 12."
+        },
+        {
+          "id": "addition_01_12",
+          "a": 1,
+          "b": 12,
+          "result": 13,
+          "step": 12,
+          "text": "1 más 12, igual a 13."
+        },
+        {
+          "id": "addition_01_13",
+          "a": 1,
+          "b": 13,
+          "result": 14,
+          "step": 13,
+          "text": "1 más 13, igual a 14."
+        },
+        {
+          "id": "addition_01_14",
+          "a": 1,
+          "b": 14,
+          "result": 15,
+          "step": 14,
+          "text": "1 más 14, igual a 15."
+        },
+        {
+          "id": "addition_01_15",
+          "a": 1,
+          "b": 15,
+          "result": 16,
+          "step": 15,
+          "text": "1 más 15, igual a 16."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 2,
+      "rows": [
+        {
+          "id": "addition_02_01",
+          "a": 2,
+          "b": 1,
+          "result": 3,
+          "step": 1,
+          "text": "2 más 1, igual a 3."
+        },
+        {
+          "id": "addition_02_02",
+          "a": 2,
+          "b": 2,
+          "result": 4,
+          "step": 2,
+          "text": "2 más 2, igual a 4."
+        },
+        {
+          "id": "addition_02_03",
+          "a": 2,
+          "b": 3,
+          "result": 5,
+          "step": 3,
+          "text": "2 más 3, igual a 5."
+        },
+        {
+          "id": "addition_02_04",
+          "a": 2,
+          "b": 4,
+          "result": 6,
+          "step": 4,
+          "text": "2 más 4, igual a 6."
+        },
+        {
+          "id": "addition_02_05",
+          "a": 2,
+          "b": 5,
+          "result": 7,
+          "step": 5,
+          "text": "2 más 5, igual a 7."
+        },
+        {
+          "id": "addition_02_06",
+          "a": 2,
+          "b": 6,
+          "result": 8,
+          "step": 6,
+          "text": "2 más 6, igual a 8."
+        },
+        {
+          "id": "addition_02_07",
+          "a": 2,
+          "b": 7,
+          "result": 9,
+          "step": 7,
+          "text": "2 más 7, igual a 9."
+        },
+        {
+          "id": "addition_02_08",
+          "a": 2,
+          "b": 8,
+          "result": 10,
+          "step": 8,
+          "text": "2 más 8, igual a 10."
+        },
+        {
+          "id": "addition_02_09",
+          "a": 2,
+          "b": 9,
+          "result": 11,
+          "step": 9,
+          "text": "2 más 9, igual a 11."
+        },
+        {
+          "id": "addition_02_10",
+          "a": 2,
+          "b": 10,
+          "result": 12,
+          "step": 10,
+          "text": "2 más 10, igual a 12."
+        },
+        {
+          "id": "addition_02_11",
+          "a": 2,
+          "b": 11,
+          "result": 13,
+          "step": 11,
+          "text": "2 más 11, igual a 13."
+        },
+        {
+          "id": "addition_02_12",
+          "a": 2,
+          "b": 12,
+          "result": 14,
+          "step": 12,
+          "text": "2 más 12, igual a 14."
+        },
+        {
+          "id": "addition_02_13",
+          "a": 2,
+          "b": 13,
+          "result": 15,
+          "step": 13,
+          "text": "2 más 13, igual a 15."
+        },
+        {
+          "id": "addition_02_14",
+          "a": 2,
+          "b": 14,
+          "result": 16,
+          "step": 14,
+          "text": "2 más 14, igual a 16."
+        },
+        {
+          "id": "addition_02_15",
+          "a": 2,
+          "b": 15,
+          "result": 17,
+          "step": 15,
+          "text": "2 más 15, igual a 17."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 3,
+      "rows": [
+        {
+          "id": "addition_03_01",
+          "a": 3,
+          "b": 1,
+          "result": 4,
+          "step": 1,
+          "text": "3 más 1, igual a 4."
+        },
+        {
+          "id": "addition_03_02",
+          "a": 3,
+          "b": 2,
+          "result": 5,
+          "step": 2,
+          "text": "3 más 2, igual a 5."
+        },
+        {
+          "id": "addition_03_03",
+          "a": 3,
+          "b": 3,
+          "result": 6,
+          "step": 3,
+          "text": "3 más 3, igual a 6."
+        },
+        {
+          "id": "addition_03_04",
+          "a": 3,
+          "b": 4,
+          "result": 7,
+          "step": 4,
+          "text": "3 más 4, igual a 7."
+        },
+        {
+          "id": "addition_03_05",
+          "a": 3,
+          "b": 5,
+          "result": 8,
+          "step": 5,
+          "text": "3 más 5, igual a 8."
+        },
+        {
+          "id": "addition_03_06",
+          "a": 3,
+          "b": 6,
+          "result": 9,
+          "step": 6,
+          "text": "3 más 6, igual a 9."
+        },
+        {
+          "id": "addition_03_07",
+          "a": 3,
+          "b": 7,
+          "result": 10,
+          "step": 7,
+          "text": "3 más 7, igual a 10."
+        },
+        {
+          "id": "addition_03_08",
+          "a": 3,
+          "b": 8,
+          "result": 11,
+          "step": 8,
+          "text": "3 más 8, igual a 11."
+        },
+        {
+          "id": "addition_03_09",
+          "a": 3,
+          "b": 9,
+          "result": 12,
+          "step": 9,
+          "text": "3 más 9, igual a 12."
+        },
+        {
+          "id": "addition_03_10",
+          "a": 3,
+          "b": 10,
+          "result": 13,
+          "step": 10,
+          "text": "3 más 10, igual a 13."
+        },
+        {
+          "id": "addition_03_11",
+          "a": 3,
+          "b": 11,
+          "result": 14,
+          "step": 11,
+          "text": "3 más 11, igual a 14."
+        },
+        {
+          "id": "addition_03_12",
+          "a": 3,
+          "b": 12,
+          "result": 15,
+          "step": 12,
+          "text": "3 más 12, igual a 15."
+        },
+        {
+          "id": "addition_03_13",
+          "a": 3,
+          "b": 13,
+          "result": 16,
+          "step": 13,
+          "text": "3 más 13, igual a 16."
+        },
+        {
+          "id": "addition_03_14",
+          "a": 3,
+          "b": 14,
+          "result": 17,
+          "step": 14,
+          "text": "3 más 14, igual a 17."
+        },
+        {
+          "id": "addition_03_15",
+          "a": 3,
+          "b": 15,
+          "result": 18,
+          "step": 15,
+          "text": "3 más 15, igual a 18."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 4,
+      "rows": [
+        {
+          "id": "addition_04_01",
+          "a": 4,
+          "b": 1,
+          "result": 5,
+          "step": 1,
+          "text": "4 más 1, igual a 5."
+        },
+        {
+          "id": "addition_04_02",
+          "a": 4,
+          "b": 2,
+          "result": 6,
+          "step": 2,
+          "text": "4 más 2, igual a 6."
+        },
+        {
+          "id": "addition_04_03",
+          "a": 4,
+          "b": 3,
+          "result": 7,
+          "step": 3,
+          "text": "4 más 3, igual a 7."
+        },
+        {
+          "id": "addition_04_04",
+          "a": 4,
+          "b": 4,
+          "result": 8,
+          "step": 4,
+          "text": "4 más 4, igual a 8."
+        },
+        {
+          "id": "addition_04_05",
+          "a": 4,
+          "b": 5,
+          "result": 9,
+          "step": 5,
+          "text": "4 más 5, igual a 9."
+        },
+        {
+          "id": "addition_04_06",
+          "a": 4,
+          "b": 6,
+          "result": 10,
+          "step": 6,
+          "text": "4 más 6, igual a 10."
+        },
+        {
+          "id": "addition_04_07",
+          "a": 4,
+          "b": 7,
+          "result": 11,
+          "step": 7,
+          "text": "4 más 7, igual a 11."
+        },
+        {
+          "id": "addition_04_08",
+          "a": 4,
+          "b": 8,
+          "result": 12,
+          "step": 8,
+          "text": "4 más 8, igual a 12."
+        },
+        {
+          "id": "addition_04_09",
+          "a": 4,
+          "b": 9,
+          "result": 13,
+          "step": 9,
+          "text": "4 más 9, igual a 13."
+        },
+        {
+          "id": "addition_04_10",
+          "a": 4,
+          "b": 10,
+          "result": 14,
+          "step": 10,
+          "text": "4 más 10, igual a 14."
+        },
+        {
+          "id": "addition_04_11",
+          "a": 4,
+          "b": 11,
+          "result": 15,
+          "step": 11,
+          "text": "4 más 11, igual a 15."
+        },
+        {
+          "id": "addition_04_12",
+          "a": 4,
+          "b": 12,
+          "result": 16,
+          "step": 12,
+          "text": "4 más 12, igual a 16."
+        },
+        {
+          "id": "addition_04_13",
+          "a": 4,
+          "b": 13,
+          "result": 17,
+          "step": 13,
+          "text": "4 más 13, igual a 17."
+        },
+        {
+          "id": "addition_04_14",
+          "a": 4,
+          "b": 14,
+          "result": 18,
+          "step": 14,
+          "text": "4 más 14, igual a 18."
+        },
+        {
+          "id": "addition_04_15",
+          "a": 4,
+          "b": 15,
+          "result": 19,
+          "step": 15,
+          "text": "4 más 15, igual a 19."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 5,
+      "rows": [
+        {
+          "id": "addition_05_01",
+          "a": 5,
+          "b": 1,
+          "result": 6,
+          "step": 1,
+          "text": "5 más 1, igual a 6."
+        },
+        {
+          "id": "addition_05_02",
+          "a": 5,
+          "b": 2,
+          "result": 7,
+          "step": 2,
+          "text": "5 más 2, igual a 7."
+        },
+        {
+          "id": "addition_05_03",
+          "a": 5,
+          "b": 3,
+          "result": 8,
+          "step": 3,
+          "text": "5 más 3, igual a 8."
+        },
+        {
+          "id": "addition_05_04",
+          "a": 5,
+          "b": 4,
+          "result": 9,
+          "step": 4,
+          "text": "5 más 4, igual a 9."
+        },
+        {
+          "id": "addition_05_05",
+          "a": 5,
+          "b": 5,
+          "result": 10,
+          "step": 5,
+          "text": "5 más 5, igual a 10."
+        },
+        {
+          "id": "addition_05_06",
+          "a": 5,
+          "b": 6,
+          "result": 11,
+          "step": 6,
+          "text": "5 más 6, igual a 11."
+        },
+        {
+          "id": "addition_05_07",
+          "a": 5,
+          "b": 7,
+          "result": 12,
+          "step": 7,
+          "text": "5 más 7, igual a 12."
+        },
+        {
+          "id": "addition_05_08",
+          "a": 5,
+          "b": 8,
+          "result": 13,
+          "step": 8,
+          "text": "5 más 8, igual a 13."
+        },
+        {
+          "id": "addition_05_09",
+          "a": 5,
+          "b": 9,
+          "result": 14,
+          "step": 9,
+          "text": "5 más 9, igual a 14."
+        },
+        {
+          "id": "addition_05_10",
+          "a": 5,
+          "b": 10,
+          "result": 15,
+          "step": 10,
+          "text": "5 más 10, igual a 15."
+        },
+        {
+          "id": "addition_05_11",
+          "a": 5,
+          "b": 11,
+          "result": 16,
+          "step": 11,
+          "text": "5 más 11, igual a 16."
+        },
+        {
+          "id": "addition_05_12",
+          "a": 5,
+          "b": 12,
+          "result": 17,
+          "step": 12,
+          "text": "5 más 12, igual a 17."
+        },
+        {
+          "id": "addition_05_13",
+          "a": 5,
+          "b": 13,
+          "result": 18,
+          "step": 13,
+          "text": "5 más 13, igual a 18."
+        },
+        {
+          "id": "addition_05_14",
+          "a": 5,
+          "b": 14,
+          "result": 19,
+          "step": 14,
+          "text": "5 más 14, igual a 19."
+        },
+        {
+          "id": "addition_05_15",
+          "a": 5,
+          "b": 15,
+          "result": 20,
+          "step": 15,
+          "text": "5 más 15, igual a 20."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 6,
+      "rows": [
+        {
+          "id": "addition_06_01",
+          "a": 6,
+          "b": 1,
+          "result": 7,
+          "step": 1,
+          "text": "6 más 1, igual a 7."
+        },
+        {
+          "id": "addition_06_02",
+          "a": 6,
+          "b": 2,
+          "result": 8,
+          "step": 2,
+          "text": "6 más 2, igual a 8."
+        },
+        {
+          "id": "addition_06_03",
+          "a": 6,
+          "b": 3,
+          "result": 9,
+          "step": 3,
+          "text": "6 más 3, igual a 9."
+        },
+        {
+          "id": "addition_06_04",
+          "a": 6,
+          "b": 4,
+          "result": 10,
+          "step": 4,
+          "text": "6 más 4, igual a 10."
+        },
+        {
+          "id": "addition_06_05",
+          "a": 6,
+          "b": 5,
+          "result": 11,
+          "step": 5,
+          "text": "6 más 5, igual a 11."
+        },
+        {
+          "id": "addition_06_06",
+          "a": 6,
+          "b": 6,
+          "result": 12,
+          "step": 6,
+          "text": "6 más 6, igual a 12."
+        },
+        {
+          "id": "addition_06_07",
+          "a": 6,
+          "b": 7,
+          "result": 13,
+          "step": 7,
+          "text": "6 más 7, igual a 13."
+        },
+        {
+          "id": "addition_06_08",
+          "a": 6,
+          "b": 8,
+          "result": 14,
+          "step": 8,
+          "text": "6 más 8, igual a 14."
+        },
+        {
+          "id": "addition_06_09",
+          "a": 6,
+          "b": 9,
+          "result": 15,
+          "step": 9,
+          "text": "6 más 9, igual a 15."
+        },
+        {
+          "id": "addition_06_10",
+          "a": 6,
+          "b": 10,
+          "result": 16,
+          "step": 10,
+          "text": "6 más 10, igual a 16."
+        },
+        {
+          "id": "addition_06_11",
+          "a": 6,
+          "b": 11,
+          "result": 17,
+          "step": 11,
+          "text": "6 más 11, igual a 17."
+        },
+        {
+          "id": "addition_06_12",
+          "a": 6,
+          "b": 12,
+          "result": 18,
+          "step": 12,
+          "text": "6 más 12, igual a 18."
+        },
+        {
+          "id": "addition_06_13",
+          "a": 6,
+          "b": 13,
+          "result": 19,
+          "step": 13,
+          "text": "6 más 13, igual a 19."
+        },
+        {
+          "id": "addition_06_14",
+          "a": 6,
+          "b": 14,
+          "result": 20,
+          "step": 14,
+          "text": "6 más 14, igual a 20."
+        },
+        {
+          "id": "addition_06_15",
+          "a": 6,
+          "b": 15,
+          "result": 21,
+          "step": 15,
+          "text": "6 más 15, igual a 21."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 7,
+      "rows": [
+        {
+          "id": "addition_07_01",
+          "a": 7,
+          "b": 1,
+          "result": 8,
+          "step": 1,
+          "text": "7 más 1, igual a 8."
+        },
+        {
+          "id": "addition_07_02",
+          "a": 7,
+          "b": 2,
+          "result": 9,
+          "step": 2,
+          "text": "7 más 2, igual a 9."
+        },
+        {
+          "id": "addition_07_03",
+          "a": 7,
+          "b": 3,
+          "result": 10,
+          "step": 3,
+          "text": "7 más 3, igual a 10."
+        },
+        {
+          "id": "addition_07_04",
+          "a": 7,
+          "b": 4,
+          "result": 11,
+          "step": 4,
+          "text": "7 más 4, igual a 11."
+        },
+        {
+          "id": "addition_07_05",
+          "a": 7,
+          "b": 5,
+          "result": 12,
+          "step": 5,
+          "text": "7 más 5, igual a 12."
+        },
+        {
+          "id": "addition_07_06",
+          "a": 7,
+          "b": 6,
+          "result": 13,
+          "step": 6,
+          "text": "7 más 6, igual a 13."
+        },
+        {
+          "id": "addition_07_07",
+          "a": 7,
+          "b": 7,
+          "result": 14,
+          "step": 7,
+          "text": "7 más 7, igual a 14."
+        },
+        {
+          "id": "addition_07_08",
+          "a": 7,
+          "b": 8,
+          "result": 15,
+          "step": 8,
+          "text": "7 más 8, igual a 15."
+        },
+        {
+          "id": "addition_07_09",
+          "a": 7,
+          "b": 9,
+          "result": 16,
+          "step": 9,
+          "text": "7 más 9, igual a 16."
+        },
+        {
+          "id": "addition_07_10",
+          "a": 7,
+          "b": 10,
+          "result": 17,
+          "step": 10,
+          "text": "7 más 10, igual a 17."
+        },
+        {
+          "id": "addition_07_11",
+          "a": 7,
+          "b": 11,
+          "result": 18,
+          "step": 11,
+          "text": "7 más 11, igual a 18."
+        },
+        {
+          "id": "addition_07_12",
+          "a": 7,
+          "b": 12,
+          "result": 19,
+          "step": 12,
+          "text": "7 más 12, igual a 19."
+        },
+        {
+          "id": "addition_07_13",
+          "a": 7,
+          "b": 13,
+          "result": 20,
+          "step": 13,
+          "text": "7 más 13, igual a 20."
+        },
+        {
+          "id": "addition_07_14",
+          "a": 7,
+          "b": 14,
+          "result": 21,
+          "step": 14,
+          "text": "7 más 14, igual a 21."
+        },
+        {
+          "id": "addition_07_15",
+          "a": 7,
+          "b": 15,
+          "result": 22,
+          "step": 15,
+          "text": "7 más 15, igual a 22."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 8,
+      "rows": [
+        {
+          "id": "addition_08_01",
+          "a": 8,
+          "b": 1,
+          "result": 9,
+          "step": 1,
+          "text": "8 más 1, igual a 9."
+        },
+        {
+          "id": "addition_08_02",
+          "a": 8,
+          "b": 2,
+          "result": 10,
+          "step": 2,
+          "text": "8 más 2, igual a 10."
+        },
+        {
+          "id": "addition_08_03",
+          "a": 8,
+          "b": 3,
+          "result": 11,
+          "step": 3,
+          "text": "8 más 3, igual a 11."
+        },
+        {
+          "id": "addition_08_04",
+          "a": 8,
+          "b": 4,
+          "result": 12,
+          "step": 4,
+          "text": "8 más 4, igual a 12."
+        },
+        {
+          "id": "addition_08_05",
+          "a": 8,
+          "b": 5,
+          "result": 13,
+          "step": 5,
+          "text": "8 más 5, igual a 13."
+        },
+        {
+          "id": "addition_08_06",
+          "a": 8,
+          "b": 6,
+          "result": 14,
+          "step": 6,
+          "text": "8 más 6, igual a 14."
+        },
+        {
+          "id": "addition_08_07",
+          "a": 8,
+          "b": 7,
+          "result": 15,
+          "step": 7,
+          "text": "8 más 7, igual a 15."
+        },
+        {
+          "id": "addition_08_08",
+          "a": 8,
+          "b": 8,
+          "result": 16,
+          "step": 8,
+          "text": "8 más 8, igual a 16."
+        },
+        {
+          "id": "addition_08_09",
+          "a": 8,
+          "b": 9,
+          "result": 17,
+          "step": 9,
+          "text": "8 más 9, igual a 17."
+        },
+        {
+          "id": "addition_08_10",
+          "a": 8,
+          "b": 10,
+          "result": 18,
+          "step": 10,
+          "text": "8 más 10, igual a 18."
+        },
+        {
+          "id": "addition_08_11",
+          "a": 8,
+          "b": 11,
+          "result": 19,
+          "step": 11,
+          "text": "8 más 11, igual a 19."
+        },
+        {
+          "id": "addition_08_12",
+          "a": 8,
+          "b": 12,
+          "result": 20,
+          "step": 12,
+          "text": "8 más 12, igual a 20."
+        },
+        {
+          "id": "addition_08_13",
+          "a": 8,
+          "b": 13,
+          "result": 21,
+          "step": 13,
+          "text": "8 más 13, igual a 21."
+        },
+        {
+          "id": "addition_08_14",
+          "a": 8,
+          "b": 14,
+          "result": 22,
+          "step": 14,
+          "text": "8 más 14, igual a 22."
+        },
+        {
+          "id": "addition_08_15",
+          "a": 8,
+          "b": 15,
+          "result": 23,
+          "step": 15,
+          "text": "8 más 15, igual a 23."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 9,
+      "rows": [
+        {
+          "id": "addition_09_01",
+          "a": 9,
+          "b": 1,
+          "result": 10,
+          "step": 1,
+          "text": "9 más 1, igual a 10."
+        },
+        {
+          "id": "addition_09_02",
+          "a": 9,
+          "b": 2,
+          "result": 11,
+          "step": 2,
+          "text": "9 más 2, igual a 11."
+        },
+        {
+          "id": "addition_09_03",
+          "a": 9,
+          "b": 3,
+          "result": 12,
+          "step": 3,
+          "text": "9 más 3, igual a 12."
+        },
+        {
+          "id": "addition_09_04",
+          "a": 9,
+          "b": 4,
+          "result": 13,
+          "step": 4,
+          "text": "9 más 4, igual a 13."
+        },
+        {
+          "id": "addition_09_05",
+          "a": 9,
+          "b": 5,
+          "result": 14,
+          "step": 5,
+          "text": "9 más 5, igual a 14."
+        },
+        {
+          "id": "addition_09_06",
+          "a": 9,
+          "b": 6,
+          "result": 15,
+          "step": 6,
+          "text": "9 más 6, igual a 15."
+        },
+        {
+          "id": "addition_09_07",
+          "a": 9,
+          "b": 7,
+          "result": 16,
+          "step": 7,
+          "text": "9 más 7, igual a 16."
+        },
+        {
+          "id": "addition_09_08",
+          "a": 9,
+          "b": 8,
+          "result": 17,
+          "step": 8,
+          "text": "9 más 8, igual a 17."
+        },
+        {
+          "id": "addition_09_09",
+          "a": 9,
+          "b": 9,
+          "result": 18,
+          "step": 9,
+          "text": "9 más 9, igual a 18."
+        },
+        {
+          "id": "addition_09_10",
+          "a": 9,
+          "b": 10,
+          "result": 19,
+          "step": 10,
+          "text": "9 más 10, igual a 19."
+        },
+        {
+          "id": "addition_09_11",
+          "a": 9,
+          "b": 11,
+          "result": 20,
+          "step": 11,
+          "text": "9 más 11, igual a 20."
+        },
+        {
+          "id": "addition_09_12",
+          "a": 9,
+          "b": 12,
+          "result": 21,
+          "step": 12,
+          "text": "9 más 12, igual a 21."
+        },
+        {
+          "id": "addition_09_13",
+          "a": 9,
+          "b": 13,
+          "result": 22,
+          "step": 13,
+          "text": "9 más 13, igual a 22."
+        },
+        {
+          "id": "addition_09_14",
+          "a": 9,
+          "b": 14,
+          "result": 23,
+          "step": 14,
+          "text": "9 más 14, igual a 23."
+        },
+        {
+          "id": "addition_09_15",
+          "a": 9,
+          "b": 15,
+          "result": 24,
+          "step": 15,
+          "text": "9 más 15, igual a 24."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 10,
+      "rows": [
+        {
+          "id": "addition_10_01",
+          "a": 10,
+          "b": 1,
+          "result": 11,
+          "step": 1,
+          "text": "10 más 1, igual a 11."
+        },
+        {
+          "id": "addition_10_02",
+          "a": 10,
+          "b": 2,
+          "result": 12,
+          "step": 2,
+          "text": "10 más 2, igual a 12."
+        },
+        {
+          "id": "addition_10_03",
+          "a": 10,
+          "b": 3,
+          "result": 13,
+          "step": 3,
+          "text": "10 más 3, igual a 13."
+        },
+        {
+          "id": "addition_10_04",
+          "a": 10,
+          "b": 4,
+          "result": 14,
+          "step": 4,
+          "text": "10 más 4, igual a 14."
+        },
+        {
+          "id": "addition_10_05",
+          "a": 10,
+          "b": 5,
+          "result": 15,
+          "step": 5,
+          "text": "10 más 5, igual a 15."
+        },
+        {
+          "id": "addition_10_06",
+          "a": 10,
+          "b": 6,
+          "result": 16,
+          "step": 6,
+          "text": "10 más 6, igual a 16."
+        },
+        {
+          "id": "addition_10_07",
+          "a": 10,
+          "b": 7,
+          "result": 17,
+          "step": 7,
+          "text": "10 más 7, igual a 17."
+        },
+        {
+          "id": "addition_10_08",
+          "a": 10,
+          "b": 8,
+          "result": 18,
+          "step": 8,
+          "text": "10 más 8, igual a 18."
+        },
+        {
+          "id": "addition_10_09",
+          "a": 10,
+          "b": 9,
+          "result": 19,
+          "step": 9,
+          "text": "10 más 9, igual a 19."
+        },
+        {
+          "id": "addition_10_10",
+          "a": 10,
+          "b": 10,
+          "result": 20,
+          "step": 10,
+          "text": "10 más 10, igual a 20."
+        },
+        {
+          "id": "addition_10_11",
+          "a": 10,
+          "b": 11,
+          "result": 21,
+          "step": 11,
+          "text": "10 más 11, igual a 21."
+        },
+        {
+          "id": "addition_10_12",
+          "a": 10,
+          "b": 12,
+          "result": 22,
+          "step": 12,
+          "text": "10 más 12, igual a 22."
+        },
+        {
+          "id": "addition_10_13",
+          "a": 10,
+          "b": 13,
+          "result": 23,
+          "step": 13,
+          "text": "10 más 13, igual a 23."
+        },
+        {
+          "id": "addition_10_14",
+          "a": 10,
+          "b": 14,
+          "result": 24,
+          "step": 14,
+          "text": "10 más 14, igual a 24."
+        },
+        {
+          "id": "addition_10_15",
+          "a": 10,
+          "b": 15,
+          "result": 25,
+          "step": 15,
+          "text": "10 más 15, igual a 25."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 11,
+      "rows": [
+        {
+          "id": "addition_11_01",
+          "a": 11,
+          "b": 1,
+          "result": 12,
+          "step": 1,
+          "text": "11 más 1, igual a 12."
+        },
+        {
+          "id": "addition_11_02",
+          "a": 11,
+          "b": 2,
+          "result": 13,
+          "step": 2,
+          "text": "11 más 2, igual a 13."
+        },
+        {
+          "id": "addition_11_03",
+          "a": 11,
+          "b": 3,
+          "result": 14,
+          "step": 3,
+          "text": "11 más 3, igual a 14."
+        },
+        {
+          "id": "addition_11_04",
+          "a": 11,
+          "b": 4,
+          "result": 15,
+          "step": 4,
+          "text": "11 más 4, igual a 15."
+        },
+        {
+          "id": "addition_11_05",
+          "a": 11,
+          "b": 5,
+          "result": 16,
+          "step": 5,
+          "text": "11 más 5, igual a 16."
+        },
+        {
+          "id": "addition_11_06",
+          "a": 11,
+          "b": 6,
+          "result": 17,
+          "step": 6,
+          "text": "11 más 6, igual a 17."
+        },
+        {
+          "id": "addition_11_07",
+          "a": 11,
+          "b": 7,
+          "result": 18,
+          "step": 7,
+          "text": "11 más 7, igual a 18."
+        },
+        {
+          "id": "addition_11_08",
+          "a": 11,
+          "b": 8,
+          "result": 19,
+          "step": 8,
+          "text": "11 más 8, igual a 19."
+        },
+        {
+          "id": "addition_11_09",
+          "a": 11,
+          "b": 9,
+          "result": 20,
+          "step": 9,
+          "text": "11 más 9, igual a 20."
+        },
+        {
+          "id": "addition_11_10",
+          "a": 11,
+          "b": 10,
+          "result": 21,
+          "step": 10,
+          "text": "11 más 10, igual a 21."
+        },
+        {
+          "id": "addition_11_11",
+          "a": 11,
+          "b": 11,
+          "result": 22,
+          "step": 11,
+          "text": "11 más 11, igual a 22."
+        },
+        {
+          "id": "addition_11_12",
+          "a": 11,
+          "b": 12,
+          "result": 23,
+          "step": 12,
+          "text": "11 más 12, igual a 23."
+        },
+        {
+          "id": "addition_11_13",
+          "a": 11,
+          "b": 13,
+          "result": 24,
+          "step": 13,
+          "text": "11 más 13, igual a 24."
+        },
+        {
+          "id": "addition_11_14",
+          "a": 11,
+          "b": 14,
+          "result": 25,
+          "step": 14,
+          "text": "11 más 14, igual a 25."
+        },
+        {
+          "id": "addition_11_15",
+          "a": 11,
+          "b": 15,
+          "result": 26,
+          "step": 15,
+          "text": "11 más 15, igual a 26."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 12,
+      "rows": [
+        {
+          "id": "addition_12_01",
+          "a": 12,
+          "b": 1,
+          "result": 13,
+          "step": 1,
+          "text": "12 más 1, igual a 13."
+        },
+        {
+          "id": "addition_12_02",
+          "a": 12,
+          "b": 2,
+          "result": 14,
+          "step": 2,
+          "text": "12 más 2, igual a 14."
+        },
+        {
+          "id": "addition_12_03",
+          "a": 12,
+          "b": 3,
+          "result": 15,
+          "step": 3,
+          "text": "12 más 3, igual a 15."
+        },
+        {
+          "id": "addition_12_04",
+          "a": 12,
+          "b": 4,
+          "result": 16,
+          "step": 4,
+          "text": "12 más 4, igual a 16."
+        },
+        {
+          "id": "addition_12_05",
+          "a": 12,
+          "b": 5,
+          "result": 17,
+          "step": 5,
+          "text": "12 más 5, igual a 17."
+        },
+        {
+          "id": "addition_12_06",
+          "a": 12,
+          "b": 6,
+          "result": 18,
+          "step": 6,
+          "text": "12 más 6, igual a 18."
+        },
+        {
+          "id": "addition_12_07",
+          "a": 12,
+          "b": 7,
+          "result": 19,
+          "step": 7,
+          "text": "12 más 7, igual a 19."
+        },
+        {
+          "id": "addition_12_08",
+          "a": 12,
+          "b": 8,
+          "result": 20,
+          "step": 8,
+          "text": "12 más 8, igual a 20."
+        },
+        {
+          "id": "addition_12_09",
+          "a": 12,
+          "b": 9,
+          "result": 21,
+          "step": 9,
+          "text": "12 más 9, igual a 21."
+        },
+        {
+          "id": "addition_12_10",
+          "a": 12,
+          "b": 10,
+          "result": 22,
+          "step": 10,
+          "text": "12 más 10, igual a 22."
+        },
+        {
+          "id": "addition_12_11",
+          "a": 12,
+          "b": 11,
+          "result": 23,
+          "step": 11,
+          "text": "12 más 11, igual a 23."
+        },
+        {
+          "id": "addition_12_12",
+          "a": 12,
+          "b": 12,
+          "result": 24,
+          "step": 12,
+          "text": "12 más 12, igual a 24."
+        },
+        {
+          "id": "addition_12_13",
+          "a": 12,
+          "b": 13,
+          "result": 25,
+          "step": 13,
+          "text": "12 más 13, igual a 25."
+        },
+        {
+          "id": "addition_12_14",
+          "a": 12,
+          "b": 14,
+          "result": 26,
+          "step": 14,
+          "text": "12 más 14, igual a 26."
+        },
+        {
+          "id": "addition_12_15",
+          "a": 12,
+          "b": 15,
+          "result": 27,
+          "step": 15,
+          "text": "12 más 15, igual a 27."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 13,
+      "rows": [
+        {
+          "id": "addition_13_01",
+          "a": 13,
+          "b": 1,
+          "result": 14,
+          "step": 1,
+          "text": "13 más 1, igual a 14."
+        },
+        {
+          "id": "addition_13_02",
+          "a": 13,
+          "b": 2,
+          "result": 15,
+          "step": 2,
+          "text": "13 más 2, igual a 15."
+        },
+        {
+          "id": "addition_13_03",
+          "a": 13,
+          "b": 3,
+          "result": 16,
+          "step": 3,
+          "text": "13 más 3, igual a 16."
+        },
+        {
+          "id": "addition_13_04",
+          "a": 13,
+          "b": 4,
+          "result": 17,
+          "step": 4,
+          "text": "13 más 4, igual a 17."
+        },
+        {
+          "id": "addition_13_05",
+          "a": 13,
+          "b": 5,
+          "result": 18,
+          "step": 5,
+          "text": "13 más 5, igual a 18."
+        },
+        {
+          "id": "addition_13_06",
+          "a": 13,
+          "b": 6,
+          "result": 19,
+          "step": 6,
+          "text": "13 más 6, igual a 19."
+        },
+        {
+          "id": "addition_13_07",
+          "a": 13,
+          "b": 7,
+          "result": 20,
+          "step": 7,
+          "text": "13 más 7, igual a 20."
+        },
+        {
+          "id": "addition_13_08",
+          "a": 13,
+          "b": 8,
+          "result": 21,
+          "step": 8,
+          "text": "13 más 8, igual a 21."
+        },
+        {
+          "id": "addition_13_09",
+          "a": 13,
+          "b": 9,
+          "result": 22,
+          "step": 9,
+          "text": "13 más 9, igual a 22."
+        },
+        {
+          "id": "addition_13_10",
+          "a": 13,
+          "b": 10,
+          "result": 23,
+          "step": 10,
+          "text": "13 más 10, igual a 23."
+        },
+        {
+          "id": "addition_13_11",
+          "a": 13,
+          "b": 11,
+          "result": 24,
+          "step": 11,
+          "text": "13 más 11, igual a 24."
+        },
+        {
+          "id": "addition_13_12",
+          "a": 13,
+          "b": 12,
+          "result": 25,
+          "step": 12,
+          "text": "13 más 12, igual a 25."
+        },
+        {
+          "id": "addition_13_13",
+          "a": 13,
+          "b": 13,
+          "result": 26,
+          "step": 13,
+          "text": "13 más 13, igual a 26."
+        },
+        {
+          "id": "addition_13_14",
+          "a": 13,
+          "b": 14,
+          "result": 27,
+          "step": 14,
+          "text": "13 más 14, igual a 27."
+        },
+        {
+          "id": "addition_13_15",
+          "a": 13,
+          "b": 15,
+          "result": 28,
+          "step": 15,
+          "text": "13 más 15, igual a 28."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 14,
+      "rows": [
+        {
+          "id": "addition_14_01",
+          "a": 14,
+          "b": 1,
+          "result": 15,
+          "step": 1,
+          "text": "14 más 1, igual a 15."
+        },
+        {
+          "id": "addition_14_02",
+          "a": 14,
+          "b": 2,
+          "result": 16,
+          "step": 2,
+          "text": "14 más 2, igual a 16."
+        },
+        {
+          "id": "addition_14_03",
+          "a": 14,
+          "b": 3,
+          "result": 17,
+          "step": 3,
+          "text": "14 más 3, igual a 17."
+        },
+        {
+          "id": "addition_14_04",
+          "a": 14,
+          "b": 4,
+          "result": 18,
+          "step": 4,
+          "text": "14 más 4, igual a 18."
+        },
+        {
+          "id": "addition_14_05",
+          "a": 14,
+          "b": 5,
+          "result": 19,
+          "step": 5,
+          "text": "14 más 5, igual a 19."
+        },
+        {
+          "id": "addition_14_06",
+          "a": 14,
+          "b": 6,
+          "result": 20,
+          "step": 6,
+          "text": "14 más 6, igual a 20."
+        },
+        {
+          "id": "addition_14_07",
+          "a": 14,
+          "b": 7,
+          "result": 21,
+          "step": 7,
+          "text": "14 más 7, igual a 21."
+        },
+        {
+          "id": "addition_14_08",
+          "a": 14,
+          "b": 8,
+          "result": 22,
+          "step": 8,
+          "text": "14 más 8, igual a 22."
+        },
+        {
+          "id": "addition_14_09",
+          "a": 14,
+          "b": 9,
+          "result": 23,
+          "step": 9,
+          "text": "14 más 9, igual a 23."
+        },
+        {
+          "id": "addition_14_10",
+          "a": 14,
+          "b": 10,
+          "result": 24,
+          "step": 10,
+          "text": "14 más 10, igual a 24."
+        },
+        {
+          "id": "addition_14_11",
+          "a": 14,
+          "b": 11,
+          "result": 25,
+          "step": 11,
+          "text": "14 más 11, igual a 25."
+        },
+        {
+          "id": "addition_14_12",
+          "a": 14,
+          "b": 12,
+          "result": 26,
+          "step": 12,
+          "text": "14 más 12, igual a 26."
+        },
+        {
+          "id": "addition_14_13",
+          "a": 14,
+          "b": 13,
+          "result": 27,
+          "step": 13,
+          "text": "14 más 13, igual a 27."
+        },
+        {
+          "id": "addition_14_14",
+          "a": 14,
+          "b": 14,
+          "result": 28,
+          "step": 14,
+          "text": "14 más 14, igual a 28."
+        },
+        {
+          "id": "addition_14_15",
+          "a": 14,
+          "b": 15,
+          "result": 29,
+          "step": 15,
+          "text": "14 más 15, igual a 29."
+        }
+      ]
+    },
+    {
+      "operation": "addition",
+      "number": 15,
+      "rows": [
+        {
+          "id": "addition_15_01",
+          "a": 15,
+          "b": 1,
+          "result": 16,
+          "step": 1,
+          "text": "15 más 1, igual a 16."
+        },
+        {
+          "id": "addition_15_02",
+          "a": 15,
+          "b": 2,
+          "result": 17,
+          "step": 2,
+          "text": "15 más 2, igual a 17."
+        },
+        {
+          "id": "addition_15_03",
+          "a": 15,
+          "b": 3,
+          "result": 18,
+          "step": 3,
+          "text": "15 más 3, igual a 18."
+        },
+        {
+          "id": "addition_15_04",
+          "a": 15,
+          "b": 4,
+          "result": 19,
+          "step": 4,
+          "text": "15 más 4, igual a 19."
+        },
+        {
+          "id": "addition_15_05",
+          "a": 15,
+          "b": 5,
+          "result": 20,
+          "step": 5,
+          "text": "15 más 5, igual a 20."
+        },
+        {
+          "id": "addition_15_06",
+          "a": 15,
+          "b": 6,
+          "result": 21,
+          "step": 6,
+          "text": "15 más 6, igual a 21."
+        },
+        {
+          "id": "addition_15_07",
+          "a": 15,
+          "b": 7,
+          "result": 22,
+          "step": 7,
+          "text": "15 más 7, igual a 22."
+        },
+        {
+          "id": "addition_15_08",
+          "a": 15,
+          "b": 8,
+          "result": 23,
+          "step": 8,
+          "text": "15 más 8, igual a 23."
+        },
+        {
+          "id": "addition_15_09",
+          "a": 15,
+          "b": 9,
+          "result": 24,
+          "step": 9,
+          "text": "15 más 9, igual a 24."
+        },
+        {
+          "id": "addition_15_10",
+          "a": 15,
+          "b": 10,
+          "result": 25,
+          "step": 10,
+          "text": "15 más 10, igual a 25."
+        },
+        {
+          "id": "addition_15_11",
+          "a": 15,
+          "b": 11,
+          "result": 26,
+          "step": 11,
+          "text": "15 más 11, igual a 26."
+        },
+        {
+          "id": "addition_15_12",
+          "a": 15,
+          "b": 12,
+          "result": 27,
+          "step": 12,
+          "text": "15 más 12, igual a 27."
+        },
+        {
+          "id": "addition_15_13",
+          "a": 15,
+          "b": 13,
+          "result": 28,
+          "step": 13,
+          "text": "15 más 13, igual a 28."
+        },
+        {
+          "id": "addition_15_14",
+          "a": 15,
+          "b": 14,
+          "result": 29,
+          "step": 14,
+          "text": "15 más 14, igual a 29."
+        },
+        {
+          "id": "addition_15_15",
+          "a": 15,
+          "b": 15,
+          "result": 30,
+          "step": 15,
+          "text": "15 más 15, igual a 30."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 1,
+      "rows": [
+        {
+          "id": "subtraction_01_01",
+          "a": 2,
+          "b": 1,
+          "result": 1,
+          "step": 1,
+          "text": "2 menos 1, igual a 1."
+        },
+        {
+          "id": "subtraction_01_02",
+          "a": 3,
+          "b": 1,
+          "result": 2,
+          "step": 2,
+          "text": "3 menos 1, igual a 2."
+        },
+        {
+          "id": "subtraction_01_03",
+          "a": 4,
+          "b": 1,
+          "result": 3,
+          "step": 3,
+          "text": "4 menos 1, igual a 3."
+        },
+        {
+          "id": "subtraction_01_04",
+          "a": 5,
+          "b": 1,
+          "result": 4,
+          "step": 4,
+          "text": "5 menos 1, igual a 4."
+        },
+        {
+          "id": "subtraction_01_05",
+          "a": 6,
+          "b": 1,
+          "result": 5,
+          "step": 5,
+          "text": "6 menos 1, igual a 5."
+        },
+        {
+          "id": "subtraction_01_06",
+          "a": 7,
+          "b": 1,
+          "result": 6,
+          "step": 6,
+          "text": "7 menos 1, igual a 6."
+        },
+        {
+          "id": "subtraction_01_07",
+          "a": 8,
+          "b": 1,
+          "result": 7,
+          "step": 7,
+          "text": "8 menos 1, igual a 7."
+        },
+        {
+          "id": "subtraction_01_08",
+          "a": 9,
+          "b": 1,
+          "result": 8,
+          "step": 8,
+          "text": "9 menos 1, igual a 8."
+        },
+        {
+          "id": "subtraction_01_09",
+          "a": 10,
+          "b": 1,
+          "result": 9,
+          "step": 9,
+          "text": "10 menos 1, igual a 9."
+        },
+        {
+          "id": "subtraction_01_10",
+          "a": 11,
+          "b": 1,
+          "result": 10,
+          "step": 10,
+          "text": "11 menos 1, igual a 10."
+        },
+        {
+          "id": "subtraction_01_11",
+          "a": 12,
+          "b": 1,
+          "result": 11,
+          "step": 11,
+          "text": "12 menos 1, igual a 11."
+        },
+        {
+          "id": "subtraction_01_12",
+          "a": 13,
+          "b": 1,
+          "result": 12,
+          "step": 12,
+          "text": "13 menos 1, igual a 12."
+        },
+        {
+          "id": "subtraction_01_13",
+          "a": 14,
+          "b": 1,
+          "result": 13,
+          "step": 13,
+          "text": "14 menos 1, igual a 13."
+        },
+        {
+          "id": "subtraction_01_14",
+          "a": 15,
+          "b": 1,
+          "result": 14,
+          "step": 14,
+          "text": "15 menos 1, igual a 14."
+        },
+        {
+          "id": "subtraction_01_15",
+          "a": 16,
+          "b": 1,
+          "result": 15,
+          "step": 15,
+          "text": "16 menos 1, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 2,
+      "rows": [
+        {
+          "id": "subtraction_02_01",
+          "a": 3,
+          "b": 2,
+          "result": 1,
+          "step": 1,
+          "text": "3 menos 2, igual a 1."
+        },
+        {
+          "id": "subtraction_02_02",
+          "a": 4,
+          "b": 2,
+          "result": 2,
+          "step": 2,
+          "text": "4 menos 2, igual a 2."
+        },
+        {
+          "id": "subtraction_02_03",
+          "a": 5,
+          "b": 2,
+          "result": 3,
+          "step": 3,
+          "text": "5 menos 2, igual a 3."
+        },
+        {
+          "id": "subtraction_02_04",
+          "a": 6,
+          "b": 2,
+          "result": 4,
+          "step": 4,
+          "text": "6 menos 2, igual a 4."
+        },
+        {
+          "id": "subtraction_02_05",
+          "a": 7,
+          "b": 2,
+          "result": 5,
+          "step": 5,
+          "text": "7 menos 2, igual a 5."
+        },
+        {
+          "id": "subtraction_02_06",
+          "a": 8,
+          "b": 2,
+          "result": 6,
+          "step": 6,
+          "text": "8 menos 2, igual a 6."
+        },
+        {
+          "id": "subtraction_02_07",
+          "a": 9,
+          "b": 2,
+          "result": 7,
+          "step": 7,
+          "text": "9 menos 2, igual a 7."
+        },
+        {
+          "id": "subtraction_02_08",
+          "a": 10,
+          "b": 2,
+          "result": 8,
+          "step": 8,
+          "text": "10 menos 2, igual a 8."
+        },
+        {
+          "id": "subtraction_02_09",
+          "a": 11,
+          "b": 2,
+          "result": 9,
+          "step": 9,
+          "text": "11 menos 2, igual a 9."
+        },
+        {
+          "id": "subtraction_02_10",
+          "a": 12,
+          "b": 2,
+          "result": 10,
+          "step": 10,
+          "text": "12 menos 2, igual a 10."
+        },
+        {
+          "id": "subtraction_02_11",
+          "a": 13,
+          "b": 2,
+          "result": 11,
+          "step": 11,
+          "text": "13 menos 2, igual a 11."
+        },
+        {
+          "id": "subtraction_02_12",
+          "a": 14,
+          "b": 2,
+          "result": 12,
+          "step": 12,
+          "text": "14 menos 2, igual a 12."
+        },
+        {
+          "id": "subtraction_02_13",
+          "a": 15,
+          "b": 2,
+          "result": 13,
+          "step": 13,
+          "text": "15 menos 2, igual a 13."
+        },
+        {
+          "id": "subtraction_02_14",
+          "a": 16,
+          "b": 2,
+          "result": 14,
+          "step": 14,
+          "text": "16 menos 2, igual a 14."
+        },
+        {
+          "id": "subtraction_02_15",
+          "a": 17,
+          "b": 2,
+          "result": 15,
+          "step": 15,
+          "text": "17 menos 2, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 3,
+      "rows": [
+        {
+          "id": "subtraction_03_01",
+          "a": 4,
+          "b": 3,
+          "result": 1,
+          "step": 1,
+          "text": "4 menos 3, igual a 1."
+        },
+        {
+          "id": "subtraction_03_02",
+          "a": 5,
+          "b": 3,
+          "result": 2,
+          "step": 2,
+          "text": "5 menos 3, igual a 2."
+        },
+        {
+          "id": "subtraction_03_03",
+          "a": 6,
+          "b": 3,
+          "result": 3,
+          "step": 3,
+          "text": "6 menos 3, igual a 3."
+        },
+        {
+          "id": "subtraction_03_04",
+          "a": 7,
+          "b": 3,
+          "result": 4,
+          "step": 4,
+          "text": "7 menos 3, igual a 4."
+        },
+        {
+          "id": "subtraction_03_05",
+          "a": 8,
+          "b": 3,
+          "result": 5,
+          "step": 5,
+          "text": "8 menos 3, igual a 5."
+        },
+        {
+          "id": "subtraction_03_06",
+          "a": 9,
+          "b": 3,
+          "result": 6,
+          "step": 6,
+          "text": "9 menos 3, igual a 6."
+        },
+        {
+          "id": "subtraction_03_07",
+          "a": 10,
+          "b": 3,
+          "result": 7,
+          "step": 7,
+          "text": "10 menos 3, igual a 7."
+        },
+        {
+          "id": "subtraction_03_08",
+          "a": 11,
+          "b": 3,
+          "result": 8,
+          "step": 8,
+          "text": "11 menos 3, igual a 8."
+        },
+        {
+          "id": "subtraction_03_09",
+          "a": 12,
+          "b": 3,
+          "result": 9,
+          "step": 9,
+          "text": "12 menos 3, igual a 9."
+        },
+        {
+          "id": "subtraction_03_10",
+          "a": 13,
+          "b": 3,
+          "result": 10,
+          "step": 10,
+          "text": "13 menos 3, igual a 10."
+        },
+        {
+          "id": "subtraction_03_11",
+          "a": 14,
+          "b": 3,
+          "result": 11,
+          "step": 11,
+          "text": "14 menos 3, igual a 11."
+        },
+        {
+          "id": "subtraction_03_12",
+          "a": 15,
+          "b": 3,
+          "result": 12,
+          "step": 12,
+          "text": "15 menos 3, igual a 12."
+        },
+        {
+          "id": "subtraction_03_13",
+          "a": 16,
+          "b": 3,
+          "result": 13,
+          "step": 13,
+          "text": "16 menos 3, igual a 13."
+        },
+        {
+          "id": "subtraction_03_14",
+          "a": 17,
+          "b": 3,
+          "result": 14,
+          "step": 14,
+          "text": "17 menos 3, igual a 14."
+        },
+        {
+          "id": "subtraction_03_15",
+          "a": 18,
+          "b": 3,
+          "result": 15,
+          "step": 15,
+          "text": "18 menos 3, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 4,
+      "rows": [
+        {
+          "id": "subtraction_04_01",
+          "a": 5,
+          "b": 4,
+          "result": 1,
+          "step": 1,
+          "text": "5 menos 4, igual a 1."
+        },
+        {
+          "id": "subtraction_04_02",
+          "a": 6,
+          "b": 4,
+          "result": 2,
+          "step": 2,
+          "text": "6 menos 4, igual a 2."
+        },
+        {
+          "id": "subtraction_04_03",
+          "a": 7,
+          "b": 4,
+          "result": 3,
+          "step": 3,
+          "text": "7 menos 4, igual a 3."
+        },
+        {
+          "id": "subtraction_04_04",
+          "a": 8,
+          "b": 4,
+          "result": 4,
+          "step": 4,
+          "text": "8 menos 4, igual a 4."
+        },
+        {
+          "id": "subtraction_04_05",
+          "a": 9,
+          "b": 4,
+          "result": 5,
+          "step": 5,
+          "text": "9 menos 4, igual a 5."
+        },
+        {
+          "id": "subtraction_04_06",
+          "a": 10,
+          "b": 4,
+          "result": 6,
+          "step": 6,
+          "text": "10 menos 4, igual a 6."
+        },
+        {
+          "id": "subtraction_04_07",
+          "a": 11,
+          "b": 4,
+          "result": 7,
+          "step": 7,
+          "text": "11 menos 4, igual a 7."
+        },
+        {
+          "id": "subtraction_04_08",
+          "a": 12,
+          "b": 4,
+          "result": 8,
+          "step": 8,
+          "text": "12 menos 4, igual a 8."
+        },
+        {
+          "id": "subtraction_04_09",
+          "a": 13,
+          "b": 4,
+          "result": 9,
+          "step": 9,
+          "text": "13 menos 4, igual a 9."
+        },
+        {
+          "id": "subtraction_04_10",
+          "a": 14,
+          "b": 4,
+          "result": 10,
+          "step": 10,
+          "text": "14 menos 4, igual a 10."
+        },
+        {
+          "id": "subtraction_04_11",
+          "a": 15,
+          "b": 4,
+          "result": 11,
+          "step": 11,
+          "text": "15 menos 4, igual a 11."
+        },
+        {
+          "id": "subtraction_04_12",
+          "a": 16,
+          "b": 4,
+          "result": 12,
+          "step": 12,
+          "text": "16 menos 4, igual a 12."
+        },
+        {
+          "id": "subtraction_04_13",
+          "a": 17,
+          "b": 4,
+          "result": 13,
+          "step": 13,
+          "text": "17 menos 4, igual a 13."
+        },
+        {
+          "id": "subtraction_04_14",
+          "a": 18,
+          "b": 4,
+          "result": 14,
+          "step": 14,
+          "text": "18 menos 4, igual a 14."
+        },
+        {
+          "id": "subtraction_04_15",
+          "a": 19,
+          "b": 4,
+          "result": 15,
+          "step": 15,
+          "text": "19 menos 4, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 5,
+      "rows": [
+        {
+          "id": "subtraction_05_01",
+          "a": 6,
+          "b": 5,
+          "result": 1,
+          "step": 1,
+          "text": "6 menos 5, igual a 1."
+        },
+        {
+          "id": "subtraction_05_02",
+          "a": 7,
+          "b": 5,
+          "result": 2,
+          "step": 2,
+          "text": "7 menos 5, igual a 2."
+        },
+        {
+          "id": "subtraction_05_03",
+          "a": 8,
+          "b": 5,
+          "result": 3,
+          "step": 3,
+          "text": "8 menos 5, igual a 3."
+        },
+        {
+          "id": "subtraction_05_04",
+          "a": 9,
+          "b": 5,
+          "result": 4,
+          "step": 4,
+          "text": "9 menos 5, igual a 4."
+        },
+        {
+          "id": "subtraction_05_05",
+          "a": 10,
+          "b": 5,
+          "result": 5,
+          "step": 5,
+          "text": "10 menos 5, igual a 5."
+        },
+        {
+          "id": "subtraction_05_06",
+          "a": 11,
+          "b": 5,
+          "result": 6,
+          "step": 6,
+          "text": "11 menos 5, igual a 6."
+        },
+        {
+          "id": "subtraction_05_07",
+          "a": 12,
+          "b": 5,
+          "result": 7,
+          "step": 7,
+          "text": "12 menos 5, igual a 7."
+        },
+        {
+          "id": "subtraction_05_08",
+          "a": 13,
+          "b": 5,
+          "result": 8,
+          "step": 8,
+          "text": "13 menos 5, igual a 8."
+        },
+        {
+          "id": "subtraction_05_09",
+          "a": 14,
+          "b": 5,
+          "result": 9,
+          "step": 9,
+          "text": "14 menos 5, igual a 9."
+        },
+        {
+          "id": "subtraction_05_10",
+          "a": 15,
+          "b": 5,
+          "result": 10,
+          "step": 10,
+          "text": "15 menos 5, igual a 10."
+        },
+        {
+          "id": "subtraction_05_11",
+          "a": 16,
+          "b": 5,
+          "result": 11,
+          "step": 11,
+          "text": "16 menos 5, igual a 11."
+        },
+        {
+          "id": "subtraction_05_12",
+          "a": 17,
+          "b": 5,
+          "result": 12,
+          "step": 12,
+          "text": "17 menos 5, igual a 12."
+        },
+        {
+          "id": "subtraction_05_13",
+          "a": 18,
+          "b": 5,
+          "result": 13,
+          "step": 13,
+          "text": "18 menos 5, igual a 13."
+        },
+        {
+          "id": "subtraction_05_14",
+          "a": 19,
+          "b": 5,
+          "result": 14,
+          "step": 14,
+          "text": "19 menos 5, igual a 14."
+        },
+        {
+          "id": "subtraction_05_15",
+          "a": 20,
+          "b": 5,
+          "result": 15,
+          "step": 15,
+          "text": "20 menos 5, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 6,
+      "rows": [
+        {
+          "id": "subtraction_06_01",
+          "a": 7,
+          "b": 6,
+          "result": 1,
+          "step": 1,
+          "text": "7 menos 6, igual a 1."
+        },
+        {
+          "id": "subtraction_06_02",
+          "a": 8,
+          "b": 6,
+          "result": 2,
+          "step": 2,
+          "text": "8 menos 6, igual a 2."
+        },
+        {
+          "id": "subtraction_06_03",
+          "a": 9,
+          "b": 6,
+          "result": 3,
+          "step": 3,
+          "text": "9 menos 6, igual a 3."
+        },
+        {
+          "id": "subtraction_06_04",
+          "a": 10,
+          "b": 6,
+          "result": 4,
+          "step": 4,
+          "text": "10 menos 6, igual a 4."
+        },
+        {
+          "id": "subtraction_06_05",
+          "a": 11,
+          "b": 6,
+          "result": 5,
+          "step": 5,
+          "text": "11 menos 6, igual a 5."
+        },
+        {
+          "id": "subtraction_06_06",
+          "a": 12,
+          "b": 6,
+          "result": 6,
+          "step": 6,
+          "text": "12 menos 6, igual a 6."
+        },
+        {
+          "id": "subtraction_06_07",
+          "a": 13,
+          "b": 6,
+          "result": 7,
+          "step": 7,
+          "text": "13 menos 6, igual a 7."
+        },
+        {
+          "id": "subtraction_06_08",
+          "a": 14,
+          "b": 6,
+          "result": 8,
+          "step": 8,
+          "text": "14 menos 6, igual a 8."
+        },
+        {
+          "id": "subtraction_06_09",
+          "a": 15,
+          "b": 6,
+          "result": 9,
+          "step": 9,
+          "text": "15 menos 6, igual a 9."
+        },
+        {
+          "id": "subtraction_06_10",
+          "a": 16,
+          "b": 6,
+          "result": 10,
+          "step": 10,
+          "text": "16 menos 6, igual a 10."
+        },
+        {
+          "id": "subtraction_06_11",
+          "a": 17,
+          "b": 6,
+          "result": 11,
+          "step": 11,
+          "text": "17 menos 6, igual a 11."
+        },
+        {
+          "id": "subtraction_06_12",
+          "a": 18,
+          "b": 6,
+          "result": 12,
+          "step": 12,
+          "text": "18 menos 6, igual a 12."
+        },
+        {
+          "id": "subtraction_06_13",
+          "a": 19,
+          "b": 6,
+          "result": 13,
+          "step": 13,
+          "text": "19 menos 6, igual a 13."
+        },
+        {
+          "id": "subtraction_06_14",
+          "a": 20,
+          "b": 6,
+          "result": 14,
+          "step": 14,
+          "text": "20 menos 6, igual a 14."
+        },
+        {
+          "id": "subtraction_06_15",
+          "a": 21,
+          "b": 6,
+          "result": 15,
+          "step": 15,
+          "text": "21 menos 6, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 7,
+      "rows": [
+        {
+          "id": "subtraction_07_01",
+          "a": 8,
+          "b": 7,
+          "result": 1,
+          "step": 1,
+          "text": "8 menos 7, igual a 1."
+        },
+        {
+          "id": "subtraction_07_02",
+          "a": 9,
+          "b": 7,
+          "result": 2,
+          "step": 2,
+          "text": "9 menos 7, igual a 2."
+        },
+        {
+          "id": "subtraction_07_03",
+          "a": 10,
+          "b": 7,
+          "result": 3,
+          "step": 3,
+          "text": "10 menos 7, igual a 3."
+        },
+        {
+          "id": "subtraction_07_04",
+          "a": 11,
+          "b": 7,
+          "result": 4,
+          "step": 4,
+          "text": "11 menos 7, igual a 4."
+        },
+        {
+          "id": "subtraction_07_05",
+          "a": 12,
+          "b": 7,
+          "result": 5,
+          "step": 5,
+          "text": "12 menos 7, igual a 5."
+        },
+        {
+          "id": "subtraction_07_06",
+          "a": 13,
+          "b": 7,
+          "result": 6,
+          "step": 6,
+          "text": "13 menos 7, igual a 6."
+        },
+        {
+          "id": "subtraction_07_07",
+          "a": 14,
+          "b": 7,
+          "result": 7,
+          "step": 7,
+          "text": "14 menos 7, igual a 7."
+        },
+        {
+          "id": "subtraction_07_08",
+          "a": 15,
+          "b": 7,
+          "result": 8,
+          "step": 8,
+          "text": "15 menos 7, igual a 8."
+        },
+        {
+          "id": "subtraction_07_09",
+          "a": 16,
+          "b": 7,
+          "result": 9,
+          "step": 9,
+          "text": "16 menos 7, igual a 9."
+        },
+        {
+          "id": "subtraction_07_10",
+          "a": 17,
+          "b": 7,
+          "result": 10,
+          "step": 10,
+          "text": "17 menos 7, igual a 10."
+        },
+        {
+          "id": "subtraction_07_11",
+          "a": 18,
+          "b": 7,
+          "result": 11,
+          "step": 11,
+          "text": "18 menos 7, igual a 11."
+        },
+        {
+          "id": "subtraction_07_12",
+          "a": 19,
+          "b": 7,
+          "result": 12,
+          "step": 12,
+          "text": "19 menos 7, igual a 12."
+        },
+        {
+          "id": "subtraction_07_13",
+          "a": 20,
+          "b": 7,
+          "result": 13,
+          "step": 13,
+          "text": "20 menos 7, igual a 13."
+        },
+        {
+          "id": "subtraction_07_14",
+          "a": 21,
+          "b": 7,
+          "result": 14,
+          "step": 14,
+          "text": "21 menos 7, igual a 14."
+        },
+        {
+          "id": "subtraction_07_15",
+          "a": 22,
+          "b": 7,
+          "result": 15,
+          "step": 15,
+          "text": "22 menos 7, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 8,
+      "rows": [
+        {
+          "id": "subtraction_08_01",
+          "a": 9,
+          "b": 8,
+          "result": 1,
+          "step": 1,
+          "text": "9 menos 8, igual a 1."
+        },
+        {
+          "id": "subtraction_08_02",
+          "a": 10,
+          "b": 8,
+          "result": 2,
+          "step": 2,
+          "text": "10 menos 8, igual a 2."
+        },
+        {
+          "id": "subtraction_08_03",
+          "a": 11,
+          "b": 8,
+          "result": 3,
+          "step": 3,
+          "text": "11 menos 8, igual a 3."
+        },
+        {
+          "id": "subtraction_08_04",
+          "a": 12,
+          "b": 8,
+          "result": 4,
+          "step": 4,
+          "text": "12 menos 8, igual a 4."
+        },
+        {
+          "id": "subtraction_08_05",
+          "a": 13,
+          "b": 8,
+          "result": 5,
+          "step": 5,
+          "text": "13 menos 8, igual a 5."
+        },
+        {
+          "id": "subtraction_08_06",
+          "a": 14,
+          "b": 8,
+          "result": 6,
+          "step": 6,
+          "text": "14 menos 8, igual a 6."
+        },
+        {
+          "id": "subtraction_08_07",
+          "a": 15,
+          "b": 8,
+          "result": 7,
+          "step": 7,
+          "text": "15 menos 8, igual a 7."
+        },
+        {
+          "id": "subtraction_08_08",
+          "a": 16,
+          "b": 8,
+          "result": 8,
+          "step": 8,
+          "text": "16 menos 8, igual a 8."
+        },
+        {
+          "id": "subtraction_08_09",
+          "a": 17,
+          "b": 8,
+          "result": 9,
+          "step": 9,
+          "text": "17 menos 8, igual a 9."
+        },
+        {
+          "id": "subtraction_08_10",
+          "a": 18,
+          "b": 8,
+          "result": 10,
+          "step": 10,
+          "text": "18 menos 8, igual a 10."
+        },
+        {
+          "id": "subtraction_08_11",
+          "a": 19,
+          "b": 8,
+          "result": 11,
+          "step": 11,
+          "text": "19 menos 8, igual a 11."
+        },
+        {
+          "id": "subtraction_08_12",
+          "a": 20,
+          "b": 8,
+          "result": 12,
+          "step": 12,
+          "text": "20 menos 8, igual a 12."
+        },
+        {
+          "id": "subtraction_08_13",
+          "a": 21,
+          "b": 8,
+          "result": 13,
+          "step": 13,
+          "text": "21 menos 8, igual a 13."
+        },
+        {
+          "id": "subtraction_08_14",
+          "a": 22,
+          "b": 8,
+          "result": 14,
+          "step": 14,
+          "text": "22 menos 8, igual a 14."
+        },
+        {
+          "id": "subtraction_08_15",
+          "a": 23,
+          "b": 8,
+          "result": 15,
+          "step": 15,
+          "text": "23 menos 8, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 9,
+      "rows": [
+        {
+          "id": "subtraction_09_01",
+          "a": 10,
+          "b": 9,
+          "result": 1,
+          "step": 1,
+          "text": "10 menos 9, igual a 1."
+        },
+        {
+          "id": "subtraction_09_02",
+          "a": 11,
+          "b": 9,
+          "result": 2,
+          "step": 2,
+          "text": "11 menos 9, igual a 2."
+        },
+        {
+          "id": "subtraction_09_03",
+          "a": 12,
+          "b": 9,
+          "result": 3,
+          "step": 3,
+          "text": "12 menos 9, igual a 3."
+        },
+        {
+          "id": "subtraction_09_04",
+          "a": 13,
+          "b": 9,
+          "result": 4,
+          "step": 4,
+          "text": "13 menos 9, igual a 4."
+        },
+        {
+          "id": "subtraction_09_05",
+          "a": 14,
+          "b": 9,
+          "result": 5,
+          "step": 5,
+          "text": "14 menos 9, igual a 5."
+        },
+        {
+          "id": "subtraction_09_06",
+          "a": 15,
+          "b": 9,
+          "result": 6,
+          "step": 6,
+          "text": "15 menos 9, igual a 6."
+        },
+        {
+          "id": "subtraction_09_07",
+          "a": 16,
+          "b": 9,
+          "result": 7,
+          "step": 7,
+          "text": "16 menos 9, igual a 7."
+        },
+        {
+          "id": "subtraction_09_08",
+          "a": 17,
+          "b": 9,
+          "result": 8,
+          "step": 8,
+          "text": "17 menos 9, igual a 8."
+        },
+        {
+          "id": "subtraction_09_09",
+          "a": 18,
+          "b": 9,
+          "result": 9,
+          "step": 9,
+          "text": "18 menos 9, igual a 9."
+        },
+        {
+          "id": "subtraction_09_10",
+          "a": 19,
+          "b": 9,
+          "result": 10,
+          "step": 10,
+          "text": "19 menos 9, igual a 10."
+        },
+        {
+          "id": "subtraction_09_11",
+          "a": 20,
+          "b": 9,
+          "result": 11,
+          "step": 11,
+          "text": "20 menos 9, igual a 11."
+        },
+        {
+          "id": "subtraction_09_12",
+          "a": 21,
+          "b": 9,
+          "result": 12,
+          "step": 12,
+          "text": "21 menos 9, igual a 12."
+        },
+        {
+          "id": "subtraction_09_13",
+          "a": 22,
+          "b": 9,
+          "result": 13,
+          "step": 13,
+          "text": "22 menos 9, igual a 13."
+        },
+        {
+          "id": "subtraction_09_14",
+          "a": 23,
+          "b": 9,
+          "result": 14,
+          "step": 14,
+          "text": "23 menos 9, igual a 14."
+        },
+        {
+          "id": "subtraction_09_15",
+          "a": 24,
+          "b": 9,
+          "result": 15,
+          "step": 15,
+          "text": "24 menos 9, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 10,
+      "rows": [
+        {
+          "id": "subtraction_10_01",
+          "a": 11,
+          "b": 10,
+          "result": 1,
+          "step": 1,
+          "text": "11 menos 10, igual a 1."
+        },
+        {
+          "id": "subtraction_10_02",
+          "a": 12,
+          "b": 10,
+          "result": 2,
+          "step": 2,
+          "text": "12 menos 10, igual a 2."
+        },
+        {
+          "id": "subtraction_10_03",
+          "a": 13,
+          "b": 10,
+          "result": 3,
+          "step": 3,
+          "text": "13 menos 10, igual a 3."
+        },
+        {
+          "id": "subtraction_10_04",
+          "a": 14,
+          "b": 10,
+          "result": 4,
+          "step": 4,
+          "text": "14 menos 10, igual a 4."
+        },
+        {
+          "id": "subtraction_10_05",
+          "a": 15,
+          "b": 10,
+          "result": 5,
+          "step": 5,
+          "text": "15 menos 10, igual a 5."
+        },
+        {
+          "id": "subtraction_10_06",
+          "a": 16,
+          "b": 10,
+          "result": 6,
+          "step": 6,
+          "text": "16 menos 10, igual a 6."
+        },
+        {
+          "id": "subtraction_10_07",
+          "a": 17,
+          "b": 10,
+          "result": 7,
+          "step": 7,
+          "text": "17 menos 10, igual a 7."
+        },
+        {
+          "id": "subtraction_10_08",
+          "a": 18,
+          "b": 10,
+          "result": 8,
+          "step": 8,
+          "text": "18 menos 10, igual a 8."
+        },
+        {
+          "id": "subtraction_10_09",
+          "a": 19,
+          "b": 10,
+          "result": 9,
+          "step": 9,
+          "text": "19 menos 10, igual a 9."
+        },
+        {
+          "id": "subtraction_10_10",
+          "a": 20,
+          "b": 10,
+          "result": 10,
+          "step": 10,
+          "text": "20 menos 10, igual a 10."
+        },
+        {
+          "id": "subtraction_10_11",
+          "a": 21,
+          "b": 10,
+          "result": 11,
+          "step": 11,
+          "text": "21 menos 10, igual a 11."
+        },
+        {
+          "id": "subtraction_10_12",
+          "a": 22,
+          "b": 10,
+          "result": 12,
+          "step": 12,
+          "text": "22 menos 10, igual a 12."
+        },
+        {
+          "id": "subtraction_10_13",
+          "a": 23,
+          "b": 10,
+          "result": 13,
+          "step": 13,
+          "text": "23 menos 10, igual a 13."
+        },
+        {
+          "id": "subtraction_10_14",
+          "a": 24,
+          "b": 10,
+          "result": 14,
+          "step": 14,
+          "text": "24 menos 10, igual a 14."
+        },
+        {
+          "id": "subtraction_10_15",
+          "a": 25,
+          "b": 10,
+          "result": 15,
+          "step": 15,
+          "text": "25 menos 10, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 11,
+      "rows": [
+        {
+          "id": "subtraction_11_01",
+          "a": 12,
+          "b": 11,
+          "result": 1,
+          "step": 1,
+          "text": "12 menos 11, igual a 1."
+        },
+        {
+          "id": "subtraction_11_02",
+          "a": 13,
+          "b": 11,
+          "result": 2,
+          "step": 2,
+          "text": "13 menos 11, igual a 2."
+        },
+        {
+          "id": "subtraction_11_03",
+          "a": 14,
+          "b": 11,
+          "result": 3,
+          "step": 3,
+          "text": "14 menos 11, igual a 3."
+        },
+        {
+          "id": "subtraction_11_04",
+          "a": 15,
+          "b": 11,
+          "result": 4,
+          "step": 4,
+          "text": "15 menos 11, igual a 4."
+        },
+        {
+          "id": "subtraction_11_05",
+          "a": 16,
+          "b": 11,
+          "result": 5,
+          "step": 5,
+          "text": "16 menos 11, igual a 5."
+        },
+        {
+          "id": "subtraction_11_06",
+          "a": 17,
+          "b": 11,
+          "result": 6,
+          "step": 6,
+          "text": "17 menos 11, igual a 6."
+        },
+        {
+          "id": "subtraction_11_07",
+          "a": 18,
+          "b": 11,
+          "result": 7,
+          "step": 7,
+          "text": "18 menos 11, igual a 7."
+        },
+        {
+          "id": "subtraction_11_08",
+          "a": 19,
+          "b": 11,
+          "result": 8,
+          "step": 8,
+          "text": "19 menos 11, igual a 8."
+        },
+        {
+          "id": "subtraction_11_09",
+          "a": 20,
+          "b": 11,
+          "result": 9,
+          "step": 9,
+          "text": "20 menos 11, igual a 9."
+        },
+        {
+          "id": "subtraction_11_10",
+          "a": 21,
+          "b": 11,
+          "result": 10,
+          "step": 10,
+          "text": "21 menos 11, igual a 10."
+        },
+        {
+          "id": "subtraction_11_11",
+          "a": 22,
+          "b": 11,
+          "result": 11,
+          "step": 11,
+          "text": "22 menos 11, igual a 11."
+        },
+        {
+          "id": "subtraction_11_12",
+          "a": 23,
+          "b": 11,
+          "result": 12,
+          "step": 12,
+          "text": "23 menos 11, igual a 12."
+        },
+        {
+          "id": "subtraction_11_13",
+          "a": 24,
+          "b": 11,
+          "result": 13,
+          "step": 13,
+          "text": "24 menos 11, igual a 13."
+        },
+        {
+          "id": "subtraction_11_14",
+          "a": 25,
+          "b": 11,
+          "result": 14,
+          "step": 14,
+          "text": "25 menos 11, igual a 14."
+        },
+        {
+          "id": "subtraction_11_15",
+          "a": 26,
+          "b": 11,
+          "result": 15,
+          "step": 15,
+          "text": "26 menos 11, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 12,
+      "rows": [
+        {
+          "id": "subtraction_12_01",
+          "a": 13,
+          "b": 12,
+          "result": 1,
+          "step": 1,
+          "text": "13 menos 12, igual a 1."
+        },
+        {
+          "id": "subtraction_12_02",
+          "a": 14,
+          "b": 12,
+          "result": 2,
+          "step": 2,
+          "text": "14 menos 12, igual a 2."
+        },
+        {
+          "id": "subtraction_12_03",
+          "a": 15,
+          "b": 12,
+          "result": 3,
+          "step": 3,
+          "text": "15 menos 12, igual a 3."
+        },
+        {
+          "id": "subtraction_12_04",
+          "a": 16,
+          "b": 12,
+          "result": 4,
+          "step": 4,
+          "text": "16 menos 12, igual a 4."
+        },
+        {
+          "id": "subtraction_12_05",
+          "a": 17,
+          "b": 12,
+          "result": 5,
+          "step": 5,
+          "text": "17 menos 12, igual a 5."
+        },
+        {
+          "id": "subtraction_12_06",
+          "a": 18,
+          "b": 12,
+          "result": 6,
+          "step": 6,
+          "text": "18 menos 12, igual a 6."
+        },
+        {
+          "id": "subtraction_12_07",
+          "a": 19,
+          "b": 12,
+          "result": 7,
+          "step": 7,
+          "text": "19 menos 12, igual a 7."
+        },
+        {
+          "id": "subtraction_12_08",
+          "a": 20,
+          "b": 12,
+          "result": 8,
+          "step": 8,
+          "text": "20 menos 12, igual a 8."
+        },
+        {
+          "id": "subtraction_12_09",
+          "a": 21,
+          "b": 12,
+          "result": 9,
+          "step": 9,
+          "text": "21 menos 12, igual a 9."
+        },
+        {
+          "id": "subtraction_12_10",
+          "a": 22,
+          "b": 12,
+          "result": 10,
+          "step": 10,
+          "text": "22 menos 12, igual a 10."
+        },
+        {
+          "id": "subtraction_12_11",
+          "a": 23,
+          "b": 12,
+          "result": 11,
+          "step": 11,
+          "text": "23 menos 12, igual a 11."
+        },
+        {
+          "id": "subtraction_12_12",
+          "a": 24,
+          "b": 12,
+          "result": 12,
+          "step": 12,
+          "text": "24 menos 12, igual a 12."
+        },
+        {
+          "id": "subtraction_12_13",
+          "a": 25,
+          "b": 12,
+          "result": 13,
+          "step": 13,
+          "text": "25 menos 12, igual a 13."
+        },
+        {
+          "id": "subtraction_12_14",
+          "a": 26,
+          "b": 12,
+          "result": 14,
+          "step": 14,
+          "text": "26 menos 12, igual a 14."
+        },
+        {
+          "id": "subtraction_12_15",
+          "a": 27,
+          "b": 12,
+          "result": 15,
+          "step": 15,
+          "text": "27 menos 12, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 13,
+      "rows": [
+        {
+          "id": "subtraction_13_01",
+          "a": 14,
+          "b": 13,
+          "result": 1,
+          "step": 1,
+          "text": "14 menos 13, igual a 1."
+        },
+        {
+          "id": "subtraction_13_02",
+          "a": 15,
+          "b": 13,
+          "result": 2,
+          "step": 2,
+          "text": "15 menos 13, igual a 2."
+        },
+        {
+          "id": "subtraction_13_03",
+          "a": 16,
+          "b": 13,
+          "result": 3,
+          "step": 3,
+          "text": "16 menos 13, igual a 3."
+        },
+        {
+          "id": "subtraction_13_04",
+          "a": 17,
+          "b": 13,
+          "result": 4,
+          "step": 4,
+          "text": "17 menos 13, igual a 4."
+        },
+        {
+          "id": "subtraction_13_05",
+          "a": 18,
+          "b": 13,
+          "result": 5,
+          "step": 5,
+          "text": "18 menos 13, igual a 5."
+        },
+        {
+          "id": "subtraction_13_06",
+          "a": 19,
+          "b": 13,
+          "result": 6,
+          "step": 6,
+          "text": "19 menos 13, igual a 6."
+        },
+        {
+          "id": "subtraction_13_07",
+          "a": 20,
+          "b": 13,
+          "result": 7,
+          "step": 7,
+          "text": "20 menos 13, igual a 7."
+        },
+        {
+          "id": "subtraction_13_08",
+          "a": 21,
+          "b": 13,
+          "result": 8,
+          "step": 8,
+          "text": "21 menos 13, igual a 8."
+        },
+        {
+          "id": "subtraction_13_09",
+          "a": 22,
+          "b": 13,
+          "result": 9,
+          "step": 9,
+          "text": "22 menos 13, igual a 9."
+        },
+        {
+          "id": "subtraction_13_10",
+          "a": 23,
+          "b": 13,
+          "result": 10,
+          "step": 10,
+          "text": "23 menos 13, igual a 10."
+        },
+        {
+          "id": "subtraction_13_11",
+          "a": 24,
+          "b": 13,
+          "result": 11,
+          "step": 11,
+          "text": "24 menos 13, igual a 11."
+        },
+        {
+          "id": "subtraction_13_12",
+          "a": 25,
+          "b": 13,
+          "result": 12,
+          "step": 12,
+          "text": "25 menos 13, igual a 12."
+        },
+        {
+          "id": "subtraction_13_13",
+          "a": 26,
+          "b": 13,
+          "result": 13,
+          "step": 13,
+          "text": "26 menos 13, igual a 13."
+        },
+        {
+          "id": "subtraction_13_14",
+          "a": 27,
+          "b": 13,
+          "result": 14,
+          "step": 14,
+          "text": "27 menos 13, igual a 14."
+        },
+        {
+          "id": "subtraction_13_15",
+          "a": 28,
+          "b": 13,
+          "result": 15,
+          "step": 15,
+          "text": "28 menos 13, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 14,
+      "rows": [
+        {
+          "id": "subtraction_14_01",
+          "a": 15,
+          "b": 14,
+          "result": 1,
+          "step": 1,
+          "text": "15 menos 14, igual a 1."
+        },
+        {
+          "id": "subtraction_14_02",
+          "a": 16,
+          "b": 14,
+          "result": 2,
+          "step": 2,
+          "text": "16 menos 14, igual a 2."
+        },
+        {
+          "id": "subtraction_14_03",
+          "a": 17,
+          "b": 14,
+          "result": 3,
+          "step": 3,
+          "text": "17 menos 14, igual a 3."
+        },
+        {
+          "id": "subtraction_14_04",
+          "a": 18,
+          "b": 14,
+          "result": 4,
+          "step": 4,
+          "text": "18 menos 14, igual a 4."
+        },
+        {
+          "id": "subtraction_14_05",
+          "a": 19,
+          "b": 14,
+          "result": 5,
+          "step": 5,
+          "text": "19 menos 14, igual a 5."
+        },
+        {
+          "id": "subtraction_14_06",
+          "a": 20,
+          "b": 14,
+          "result": 6,
+          "step": 6,
+          "text": "20 menos 14, igual a 6."
+        },
+        {
+          "id": "subtraction_14_07",
+          "a": 21,
+          "b": 14,
+          "result": 7,
+          "step": 7,
+          "text": "21 menos 14, igual a 7."
+        },
+        {
+          "id": "subtraction_14_08",
+          "a": 22,
+          "b": 14,
+          "result": 8,
+          "step": 8,
+          "text": "22 menos 14, igual a 8."
+        },
+        {
+          "id": "subtraction_14_09",
+          "a": 23,
+          "b": 14,
+          "result": 9,
+          "step": 9,
+          "text": "23 menos 14, igual a 9."
+        },
+        {
+          "id": "subtraction_14_10",
+          "a": 24,
+          "b": 14,
+          "result": 10,
+          "step": 10,
+          "text": "24 menos 14, igual a 10."
+        },
+        {
+          "id": "subtraction_14_11",
+          "a": 25,
+          "b": 14,
+          "result": 11,
+          "step": 11,
+          "text": "25 menos 14, igual a 11."
+        },
+        {
+          "id": "subtraction_14_12",
+          "a": 26,
+          "b": 14,
+          "result": 12,
+          "step": 12,
+          "text": "26 menos 14, igual a 12."
+        },
+        {
+          "id": "subtraction_14_13",
+          "a": 27,
+          "b": 14,
+          "result": 13,
+          "step": 13,
+          "text": "27 menos 14, igual a 13."
+        },
+        {
+          "id": "subtraction_14_14",
+          "a": 28,
+          "b": 14,
+          "result": 14,
+          "step": 14,
+          "text": "28 menos 14, igual a 14."
+        },
+        {
+          "id": "subtraction_14_15",
+          "a": 29,
+          "b": 14,
+          "result": 15,
+          "step": 15,
+          "text": "29 menos 14, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "subtraction",
+      "number": 15,
+      "rows": [
+        {
+          "id": "subtraction_15_01",
+          "a": 16,
+          "b": 15,
+          "result": 1,
+          "step": 1,
+          "text": "16 menos 15, igual a 1."
+        },
+        {
+          "id": "subtraction_15_02",
+          "a": 17,
+          "b": 15,
+          "result": 2,
+          "step": 2,
+          "text": "17 menos 15, igual a 2."
+        },
+        {
+          "id": "subtraction_15_03",
+          "a": 18,
+          "b": 15,
+          "result": 3,
+          "step": 3,
+          "text": "18 menos 15, igual a 3."
+        },
+        {
+          "id": "subtraction_15_04",
+          "a": 19,
+          "b": 15,
+          "result": 4,
+          "step": 4,
+          "text": "19 menos 15, igual a 4."
+        },
+        {
+          "id": "subtraction_15_05",
+          "a": 20,
+          "b": 15,
+          "result": 5,
+          "step": 5,
+          "text": "20 menos 15, igual a 5."
+        },
+        {
+          "id": "subtraction_15_06",
+          "a": 21,
+          "b": 15,
+          "result": 6,
+          "step": 6,
+          "text": "21 menos 15, igual a 6."
+        },
+        {
+          "id": "subtraction_15_07",
+          "a": 22,
+          "b": 15,
+          "result": 7,
+          "step": 7,
+          "text": "22 menos 15, igual a 7."
+        },
+        {
+          "id": "subtraction_15_08",
+          "a": 23,
+          "b": 15,
+          "result": 8,
+          "step": 8,
+          "text": "23 menos 15, igual a 8."
+        },
+        {
+          "id": "subtraction_15_09",
+          "a": 24,
+          "b": 15,
+          "result": 9,
+          "step": 9,
+          "text": "24 menos 15, igual a 9."
+        },
+        {
+          "id": "subtraction_15_10",
+          "a": 25,
+          "b": 15,
+          "result": 10,
+          "step": 10,
+          "text": "25 menos 15, igual a 10."
+        },
+        {
+          "id": "subtraction_15_11",
+          "a": 26,
+          "b": 15,
+          "result": 11,
+          "step": 11,
+          "text": "26 menos 15, igual a 11."
+        },
+        {
+          "id": "subtraction_15_12",
+          "a": 27,
+          "b": 15,
+          "result": 12,
+          "step": 12,
+          "text": "27 menos 15, igual a 12."
+        },
+        {
+          "id": "subtraction_15_13",
+          "a": 28,
+          "b": 15,
+          "result": 13,
+          "step": 13,
+          "text": "28 menos 15, igual a 13."
+        },
+        {
+          "id": "subtraction_15_14",
+          "a": 29,
+          "b": 15,
+          "result": 14,
+          "step": 14,
+          "text": "29 menos 15, igual a 14."
+        },
+        {
+          "id": "subtraction_15_15",
+          "a": 30,
+          "b": 15,
+          "result": 15,
+          "step": 15,
+          "text": "30 menos 15, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 1,
+      "rows": [
+        {
+          "id": "multiplication_01_01",
+          "a": 1,
+          "b": 1,
+          "result": 1,
+          "step": 1,
+          "text": "1 por 1, igual a 1."
+        },
+        {
+          "id": "multiplication_01_02",
+          "a": 1,
+          "b": 2,
+          "result": 2,
+          "step": 2,
+          "text": "1 por 2, igual a 2."
+        },
+        {
+          "id": "multiplication_01_03",
+          "a": 1,
+          "b": 3,
+          "result": 3,
+          "step": 3,
+          "text": "1 por 3, igual a 3."
+        },
+        {
+          "id": "multiplication_01_04",
+          "a": 1,
+          "b": 4,
+          "result": 4,
+          "step": 4,
+          "text": "1 por 4, igual a 4."
+        },
+        {
+          "id": "multiplication_01_05",
+          "a": 1,
+          "b": 5,
+          "result": 5,
+          "step": 5,
+          "text": "1 por 5, igual a 5."
+        },
+        {
+          "id": "multiplication_01_06",
+          "a": 1,
+          "b": 6,
+          "result": 6,
+          "step": 6,
+          "text": "1 por 6, igual a 6."
+        },
+        {
+          "id": "multiplication_01_07",
+          "a": 1,
+          "b": 7,
+          "result": 7,
+          "step": 7,
+          "text": "1 por 7, igual a 7."
+        },
+        {
+          "id": "multiplication_01_08",
+          "a": 1,
+          "b": 8,
+          "result": 8,
+          "step": 8,
+          "text": "1 por 8, igual a 8."
+        },
+        {
+          "id": "multiplication_01_09",
+          "a": 1,
+          "b": 9,
+          "result": 9,
+          "step": 9,
+          "text": "1 por 9, igual a 9."
+        },
+        {
+          "id": "multiplication_01_10",
+          "a": 1,
+          "b": 10,
+          "result": 10,
+          "step": 10,
+          "text": "1 por 10, igual a 10."
+        },
+        {
+          "id": "multiplication_01_11",
+          "a": 1,
+          "b": 11,
+          "result": 11,
+          "step": 11,
+          "text": "1 por 11, igual a 11."
+        },
+        {
+          "id": "multiplication_01_12",
+          "a": 1,
+          "b": 12,
+          "result": 12,
+          "step": 12,
+          "text": "1 por 12, igual a 12."
+        },
+        {
+          "id": "multiplication_01_13",
+          "a": 1,
+          "b": 13,
+          "result": 13,
+          "step": 13,
+          "text": "1 por 13, igual a 13."
+        },
+        {
+          "id": "multiplication_01_14",
+          "a": 1,
+          "b": 14,
+          "result": 14,
+          "step": 14,
+          "text": "1 por 14, igual a 14."
+        },
+        {
+          "id": "multiplication_01_15",
+          "a": 1,
+          "b": 15,
+          "result": 15,
+          "step": 15,
+          "text": "1 por 15, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 2,
+      "rows": [
+        {
+          "id": "multiplication_02_01",
+          "a": 2,
+          "b": 1,
+          "result": 2,
+          "step": 1,
+          "text": "2 por 1, igual a 2."
+        },
+        {
+          "id": "multiplication_02_02",
+          "a": 2,
+          "b": 2,
+          "result": 4,
+          "step": 2,
+          "text": "2 por 2, igual a 4."
+        },
+        {
+          "id": "multiplication_02_03",
+          "a": 2,
+          "b": 3,
+          "result": 6,
+          "step": 3,
+          "text": "2 por 3, igual a 6."
+        },
+        {
+          "id": "multiplication_02_04",
+          "a": 2,
+          "b": 4,
+          "result": 8,
+          "step": 4,
+          "text": "2 por 4, igual a 8."
+        },
+        {
+          "id": "multiplication_02_05",
+          "a": 2,
+          "b": 5,
+          "result": 10,
+          "step": 5,
+          "text": "2 por 5, igual a 10."
+        },
+        {
+          "id": "multiplication_02_06",
+          "a": 2,
+          "b": 6,
+          "result": 12,
+          "step": 6,
+          "text": "2 por 6, igual a 12."
+        },
+        {
+          "id": "multiplication_02_07",
+          "a": 2,
+          "b": 7,
+          "result": 14,
+          "step": 7,
+          "text": "2 por 7, igual a 14."
+        },
+        {
+          "id": "multiplication_02_08",
+          "a": 2,
+          "b": 8,
+          "result": 16,
+          "step": 8,
+          "text": "2 por 8, igual a 16."
+        },
+        {
+          "id": "multiplication_02_09",
+          "a": 2,
+          "b": 9,
+          "result": 18,
+          "step": 9,
+          "text": "2 por 9, igual a 18."
+        },
+        {
+          "id": "multiplication_02_10",
+          "a": 2,
+          "b": 10,
+          "result": 20,
+          "step": 10,
+          "text": "2 por 10, igual a 20."
+        },
+        {
+          "id": "multiplication_02_11",
+          "a": 2,
+          "b": 11,
+          "result": 22,
+          "step": 11,
+          "text": "2 por 11, igual a 22."
+        },
+        {
+          "id": "multiplication_02_12",
+          "a": 2,
+          "b": 12,
+          "result": 24,
+          "step": 12,
+          "text": "2 por 12, igual a 24."
+        },
+        {
+          "id": "multiplication_02_13",
+          "a": 2,
+          "b": 13,
+          "result": 26,
+          "step": 13,
+          "text": "2 por 13, igual a 26."
+        },
+        {
+          "id": "multiplication_02_14",
+          "a": 2,
+          "b": 14,
+          "result": 28,
+          "step": 14,
+          "text": "2 por 14, igual a 28."
+        },
+        {
+          "id": "multiplication_02_15",
+          "a": 2,
+          "b": 15,
+          "result": 30,
+          "step": 15,
+          "text": "2 por 15, igual a 30."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 3,
+      "rows": [
+        {
+          "id": "multiplication_03_01",
+          "a": 3,
+          "b": 1,
+          "result": 3,
+          "step": 1,
+          "text": "3 por 1, igual a 3."
+        },
+        {
+          "id": "multiplication_03_02",
+          "a": 3,
+          "b": 2,
+          "result": 6,
+          "step": 2,
+          "text": "3 por 2, igual a 6."
+        },
+        {
+          "id": "multiplication_03_03",
+          "a": 3,
+          "b": 3,
+          "result": 9,
+          "step": 3,
+          "text": "3 por 3, igual a 9."
+        },
+        {
+          "id": "multiplication_03_04",
+          "a": 3,
+          "b": 4,
+          "result": 12,
+          "step": 4,
+          "text": "3 por 4, igual a 12."
+        },
+        {
+          "id": "multiplication_03_05",
+          "a": 3,
+          "b": 5,
+          "result": 15,
+          "step": 5,
+          "text": "3 por 5, igual a 15."
+        },
+        {
+          "id": "multiplication_03_06",
+          "a": 3,
+          "b": 6,
+          "result": 18,
+          "step": 6,
+          "text": "3 por 6, igual a 18."
+        },
+        {
+          "id": "multiplication_03_07",
+          "a": 3,
+          "b": 7,
+          "result": 21,
+          "step": 7,
+          "text": "3 por 7, igual a 21."
+        },
+        {
+          "id": "multiplication_03_08",
+          "a": 3,
+          "b": 8,
+          "result": 24,
+          "step": 8,
+          "text": "3 por 8, igual a 24."
+        },
+        {
+          "id": "multiplication_03_09",
+          "a": 3,
+          "b": 9,
+          "result": 27,
+          "step": 9,
+          "text": "3 por 9, igual a 27."
+        },
+        {
+          "id": "multiplication_03_10",
+          "a": 3,
+          "b": 10,
+          "result": 30,
+          "step": 10,
+          "text": "3 por 10, igual a 30."
+        },
+        {
+          "id": "multiplication_03_11",
+          "a": 3,
+          "b": 11,
+          "result": 33,
+          "step": 11,
+          "text": "3 por 11, igual a 33."
+        },
+        {
+          "id": "multiplication_03_12",
+          "a": 3,
+          "b": 12,
+          "result": 36,
+          "step": 12,
+          "text": "3 por 12, igual a 36."
+        },
+        {
+          "id": "multiplication_03_13",
+          "a": 3,
+          "b": 13,
+          "result": 39,
+          "step": 13,
+          "text": "3 por 13, igual a 39."
+        },
+        {
+          "id": "multiplication_03_14",
+          "a": 3,
+          "b": 14,
+          "result": 42,
+          "step": 14,
+          "text": "3 por 14, igual a 42."
+        },
+        {
+          "id": "multiplication_03_15",
+          "a": 3,
+          "b": 15,
+          "result": 45,
+          "step": 15,
+          "text": "3 por 15, igual a 45."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 4,
+      "rows": [
+        {
+          "id": "multiplication_04_01",
+          "a": 4,
+          "b": 1,
+          "result": 4,
+          "step": 1,
+          "text": "4 por 1, igual a 4."
+        },
+        {
+          "id": "multiplication_04_02",
+          "a": 4,
+          "b": 2,
+          "result": 8,
+          "step": 2,
+          "text": "4 por 2, igual a 8."
+        },
+        {
+          "id": "multiplication_04_03",
+          "a": 4,
+          "b": 3,
+          "result": 12,
+          "step": 3,
+          "text": "4 por 3, igual a 12."
+        },
+        {
+          "id": "multiplication_04_04",
+          "a": 4,
+          "b": 4,
+          "result": 16,
+          "step": 4,
+          "text": "4 por 4, igual a 16."
+        },
+        {
+          "id": "multiplication_04_05",
+          "a": 4,
+          "b": 5,
+          "result": 20,
+          "step": 5,
+          "text": "4 por 5, igual a 20."
+        },
+        {
+          "id": "multiplication_04_06",
+          "a": 4,
+          "b": 6,
+          "result": 24,
+          "step": 6,
+          "text": "4 por 6, igual a 24."
+        },
+        {
+          "id": "multiplication_04_07",
+          "a": 4,
+          "b": 7,
+          "result": 28,
+          "step": 7,
+          "text": "4 por 7, igual a 28."
+        },
+        {
+          "id": "multiplication_04_08",
+          "a": 4,
+          "b": 8,
+          "result": 32,
+          "step": 8,
+          "text": "4 por 8, igual a 32."
+        },
+        {
+          "id": "multiplication_04_09",
+          "a": 4,
+          "b": 9,
+          "result": 36,
+          "step": 9,
+          "text": "4 por 9, igual a 36."
+        },
+        {
+          "id": "multiplication_04_10",
+          "a": 4,
+          "b": 10,
+          "result": 40,
+          "step": 10,
+          "text": "4 por 10, igual a 40."
+        },
+        {
+          "id": "multiplication_04_11",
+          "a": 4,
+          "b": 11,
+          "result": 44,
+          "step": 11,
+          "text": "4 por 11, igual a 44."
+        },
+        {
+          "id": "multiplication_04_12",
+          "a": 4,
+          "b": 12,
+          "result": 48,
+          "step": 12,
+          "text": "4 por 12, igual a 48."
+        },
+        {
+          "id": "multiplication_04_13",
+          "a": 4,
+          "b": 13,
+          "result": 52,
+          "step": 13,
+          "text": "4 por 13, igual a 52."
+        },
+        {
+          "id": "multiplication_04_14",
+          "a": 4,
+          "b": 14,
+          "result": 56,
+          "step": 14,
+          "text": "4 por 14, igual a 56."
+        },
+        {
+          "id": "multiplication_04_15",
+          "a": 4,
+          "b": 15,
+          "result": 60,
+          "step": 15,
+          "text": "4 por 15, igual a 60."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 5,
+      "rows": [
+        {
+          "id": "multiplication_05_01",
+          "a": 5,
+          "b": 1,
+          "result": 5,
+          "step": 1,
+          "text": "5 por 1, igual a 5."
+        },
+        {
+          "id": "multiplication_05_02",
+          "a": 5,
+          "b": 2,
+          "result": 10,
+          "step": 2,
+          "text": "5 por 2, igual a 10."
+        },
+        {
+          "id": "multiplication_05_03",
+          "a": 5,
+          "b": 3,
+          "result": 15,
+          "step": 3,
+          "text": "5 por 3, igual a 15."
+        },
+        {
+          "id": "multiplication_05_04",
+          "a": 5,
+          "b": 4,
+          "result": 20,
+          "step": 4,
+          "text": "5 por 4, igual a 20."
+        },
+        {
+          "id": "multiplication_05_05",
+          "a": 5,
+          "b": 5,
+          "result": 25,
+          "step": 5,
+          "text": "5 por 5, igual a 25."
+        },
+        {
+          "id": "multiplication_05_06",
+          "a": 5,
+          "b": 6,
+          "result": 30,
+          "step": 6,
+          "text": "5 por 6, igual a 30."
+        },
+        {
+          "id": "multiplication_05_07",
+          "a": 5,
+          "b": 7,
+          "result": 35,
+          "step": 7,
+          "text": "5 por 7, igual a 35."
+        },
+        {
+          "id": "multiplication_05_08",
+          "a": 5,
+          "b": 8,
+          "result": 40,
+          "step": 8,
+          "text": "5 por 8, igual a 40."
+        },
+        {
+          "id": "multiplication_05_09",
+          "a": 5,
+          "b": 9,
+          "result": 45,
+          "step": 9,
+          "text": "5 por 9, igual a 45."
+        },
+        {
+          "id": "multiplication_05_10",
+          "a": 5,
+          "b": 10,
+          "result": 50,
+          "step": 10,
+          "text": "5 por 10, igual a 50."
+        },
+        {
+          "id": "multiplication_05_11",
+          "a": 5,
+          "b": 11,
+          "result": 55,
+          "step": 11,
+          "text": "5 por 11, igual a 55."
+        },
+        {
+          "id": "multiplication_05_12",
+          "a": 5,
+          "b": 12,
+          "result": 60,
+          "step": 12,
+          "text": "5 por 12, igual a 60."
+        },
+        {
+          "id": "multiplication_05_13",
+          "a": 5,
+          "b": 13,
+          "result": 65,
+          "step": 13,
+          "text": "5 por 13, igual a 65."
+        },
+        {
+          "id": "multiplication_05_14",
+          "a": 5,
+          "b": 14,
+          "result": 70,
+          "step": 14,
+          "text": "5 por 14, igual a 70."
+        },
+        {
+          "id": "multiplication_05_15",
+          "a": 5,
+          "b": 15,
+          "result": 75,
+          "step": 15,
+          "text": "5 por 15, igual a 75."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 6,
+      "rows": [
+        {
+          "id": "multiplication_06_01",
+          "a": 6,
+          "b": 1,
+          "result": 6,
+          "step": 1,
+          "text": "6 por 1, igual a 6."
+        },
+        {
+          "id": "multiplication_06_02",
+          "a": 6,
+          "b": 2,
+          "result": 12,
+          "step": 2,
+          "text": "6 por 2, igual a 12."
+        },
+        {
+          "id": "multiplication_06_03",
+          "a": 6,
+          "b": 3,
+          "result": 18,
+          "step": 3,
+          "text": "6 por 3, igual a 18."
+        },
+        {
+          "id": "multiplication_06_04",
+          "a": 6,
+          "b": 4,
+          "result": 24,
+          "step": 4,
+          "text": "6 por 4, igual a 24."
+        },
+        {
+          "id": "multiplication_06_05",
+          "a": 6,
+          "b": 5,
+          "result": 30,
+          "step": 5,
+          "text": "6 por 5, igual a 30."
+        },
+        {
+          "id": "multiplication_06_06",
+          "a": 6,
+          "b": 6,
+          "result": 36,
+          "step": 6,
+          "text": "6 por 6, igual a 36."
+        },
+        {
+          "id": "multiplication_06_07",
+          "a": 6,
+          "b": 7,
+          "result": 42,
+          "step": 7,
+          "text": "6 por 7, igual a 42."
+        },
+        {
+          "id": "multiplication_06_08",
+          "a": 6,
+          "b": 8,
+          "result": 48,
+          "step": 8,
+          "text": "6 por 8, igual a 48."
+        },
+        {
+          "id": "multiplication_06_09",
+          "a": 6,
+          "b": 9,
+          "result": 54,
+          "step": 9,
+          "text": "6 por 9, igual a 54."
+        },
+        {
+          "id": "multiplication_06_10",
+          "a": 6,
+          "b": 10,
+          "result": 60,
+          "step": 10,
+          "text": "6 por 10, igual a 60."
+        },
+        {
+          "id": "multiplication_06_11",
+          "a": 6,
+          "b": 11,
+          "result": 66,
+          "step": 11,
+          "text": "6 por 11, igual a 66."
+        },
+        {
+          "id": "multiplication_06_12",
+          "a": 6,
+          "b": 12,
+          "result": 72,
+          "step": 12,
+          "text": "6 por 12, igual a 72."
+        },
+        {
+          "id": "multiplication_06_13",
+          "a": 6,
+          "b": 13,
+          "result": 78,
+          "step": 13,
+          "text": "6 por 13, igual a 78."
+        },
+        {
+          "id": "multiplication_06_14",
+          "a": 6,
+          "b": 14,
+          "result": 84,
+          "step": 14,
+          "text": "6 por 14, igual a 84."
+        },
+        {
+          "id": "multiplication_06_15",
+          "a": 6,
+          "b": 15,
+          "result": 90,
+          "step": 15,
+          "text": "6 por 15, igual a 90."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 7,
+      "rows": [
+        {
+          "id": "multiplication_07_01",
+          "a": 7,
+          "b": 1,
+          "result": 7,
+          "step": 1,
+          "text": "7 por 1, igual a 7."
+        },
+        {
+          "id": "multiplication_07_02",
+          "a": 7,
+          "b": 2,
+          "result": 14,
+          "step": 2,
+          "text": "7 por 2, igual a 14."
+        },
+        {
+          "id": "multiplication_07_03",
+          "a": 7,
+          "b": 3,
+          "result": 21,
+          "step": 3,
+          "text": "7 por 3, igual a 21."
+        },
+        {
+          "id": "multiplication_07_04",
+          "a": 7,
+          "b": 4,
+          "result": 28,
+          "step": 4,
+          "text": "7 por 4, igual a 28."
+        },
+        {
+          "id": "multiplication_07_05",
+          "a": 7,
+          "b": 5,
+          "result": 35,
+          "step": 5,
+          "text": "7 por 5, igual a 35."
+        },
+        {
+          "id": "multiplication_07_06",
+          "a": 7,
+          "b": 6,
+          "result": 42,
+          "step": 6,
+          "text": "7 por 6, igual a 42."
+        },
+        {
+          "id": "multiplication_07_07",
+          "a": 7,
+          "b": 7,
+          "result": 49,
+          "step": 7,
+          "text": "7 por 7, igual a 49."
+        },
+        {
+          "id": "multiplication_07_08",
+          "a": 7,
+          "b": 8,
+          "result": 56,
+          "step": 8,
+          "text": "7 por 8, igual a 56."
+        },
+        {
+          "id": "multiplication_07_09",
+          "a": 7,
+          "b": 9,
+          "result": 63,
+          "step": 9,
+          "text": "7 por 9, igual a 63."
+        },
+        {
+          "id": "multiplication_07_10",
+          "a": 7,
+          "b": 10,
+          "result": 70,
+          "step": 10,
+          "text": "7 por 10, igual a 70."
+        },
+        {
+          "id": "multiplication_07_11",
+          "a": 7,
+          "b": 11,
+          "result": 77,
+          "step": 11,
+          "text": "7 por 11, igual a 77."
+        },
+        {
+          "id": "multiplication_07_12",
+          "a": 7,
+          "b": 12,
+          "result": 84,
+          "step": 12,
+          "text": "7 por 12, igual a 84."
+        },
+        {
+          "id": "multiplication_07_13",
+          "a": 7,
+          "b": 13,
+          "result": 91,
+          "step": 13,
+          "text": "7 por 13, igual a 91."
+        },
+        {
+          "id": "multiplication_07_14",
+          "a": 7,
+          "b": 14,
+          "result": 98,
+          "step": 14,
+          "text": "7 por 14, igual a 98."
+        },
+        {
+          "id": "multiplication_07_15",
+          "a": 7,
+          "b": 15,
+          "result": 105,
+          "step": 15,
+          "text": "7 por 15, igual a 105."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 8,
+      "rows": [
+        {
+          "id": "multiplication_08_01",
+          "a": 8,
+          "b": 1,
+          "result": 8,
+          "step": 1,
+          "text": "8 por 1, igual a 8."
+        },
+        {
+          "id": "multiplication_08_02",
+          "a": 8,
+          "b": 2,
+          "result": 16,
+          "step": 2,
+          "text": "8 por 2, igual a 16."
+        },
+        {
+          "id": "multiplication_08_03",
+          "a": 8,
+          "b": 3,
+          "result": 24,
+          "step": 3,
+          "text": "8 por 3, igual a 24."
+        },
+        {
+          "id": "multiplication_08_04",
+          "a": 8,
+          "b": 4,
+          "result": 32,
+          "step": 4,
+          "text": "8 por 4, igual a 32."
+        },
+        {
+          "id": "multiplication_08_05",
+          "a": 8,
+          "b": 5,
+          "result": 40,
+          "step": 5,
+          "text": "8 por 5, igual a 40."
+        },
+        {
+          "id": "multiplication_08_06",
+          "a": 8,
+          "b": 6,
+          "result": 48,
+          "step": 6,
+          "text": "8 por 6, igual a 48."
+        },
+        {
+          "id": "multiplication_08_07",
+          "a": 8,
+          "b": 7,
+          "result": 56,
+          "step": 7,
+          "text": "8 por 7, igual a 56."
+        },
+        {
+          "id": "multiplication_08_08",
+          "a": 8,
+          "b": 8,
+          "result": 64,
+          "step": 8,
+          "text": "8 por 8, igual a 64."
+        },
+        {
+          "id": "multiplication_08_09",
+          "a": 8,
+          "b": 9,
+          "result": 72,
+          "step": 9,
+          "text": "8 por 9, igual a 72."
+        },
+        {
+          "id": "multiplication_08_10",
+          "a": 8,
+          "b": 10,
+          "result": 80,
+          "step": 10,
+          "text": "8 por 10, igual a 80."
+        },
+        {
+          "id": "multiplication_08_11",
+          "a": 8,
+          "b": 11,
+          "result": 88,
+          "step": 11,
+          "text": "8 por 11, igual a 88."
+        },
+        {
+          "id": "multiplication_08_12",
+          "a": 8,
+          "b": 12,
+          "result": 96,
+          "step": 12,
+          "text": "8 por 12, igual a 96."
+        },
+        {
+          "id": "multiplication_08_13",
+          "a": 8,
+          "b": 13,
+          "result": 104,
+          "step": 13,
+          "text": "8 por 13, igual a 104."
+        },
+        {
+          "id": "multiplication_08_14",
+          "a": 8,
+          "b": 14,
+          "result": 112,
+          "step": 14,
+          "text": "8 por 14, igual a 112."
+        },
+        {
+          "id": "multiplication_08_15",
+          "a": 8,
+          "b": 15,
+          "result": 120,
+          "step": 15,
+          "text": "8 por 15, igual a 120."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 9,
+      "rows": [
+        {
+          "id": "multiplication_09_01",
+          "a": 9,
+          "b": 1,
+          "result": 9,
+          "step": 1,
+          "text": "9 por 1, igual a 9."
+        },
+        {
+          "id": "multiplication_09_02",
+          "a": 9,
+          "b": 2,
+          "result": 18,
+          "step": 2,
+          "text": "9 por 2, igual a 18."
+        },
+        {
+          "id": "multiplication_09_03",
+          "a": 9,
+          "b": 3,
+          "result": 27,
+          "step": 3,
+          "text": "9 por 3, igual a 27."
+        },
+        {
+          "id": "multiplication_09_04",
+          "a": 9,
+          "b": 4,
+          "result": 36,
+          "step": 4,
+          "text": "9 por 4, igual a 36."
+        },
+        {
+          "id": "multiplication_09_05",
+          "a": 9,
+          "b": 5,
+          "result": 45,
+          "step": 5,
+          "text": "9 por 5, igual a 45."
+        },
+        {
+          "id": "multiplication_09_06",
+          "a": 9,
+          "b": 6,
+          "result": 54,
+          "step": 6,
+          "text": "9 por 6, igual a 54."
+        },
+        {
+          "id": "multiplication_09_07",
+          "a": 9,
+          "b": 7,
+          "result": 63,
+          "step": 7,
+          "text": "9 por 7, igual a 63."
+        },
+        {
+          "id": "multiplication_09_08",
+          "a": 9,
+          "b": 8,
+          "result": 72,
+          "step": 8,
+          "text": "9 por 8, igual a 72."
+        },
+        {
+          "id": "multiplication_09_09",
+          "a": 9,
+          "b": 9,
+          "result": 81,
+          "step": 9,
+          "text": "9 por 9, igual a 81."
+        },
+        {
+          "id": "multiplication_09_10",
+          "a": 9,
+          "b": 10,
+          "result": 90,
+          "step": 10,
+          "text": "9 por 10, igual a 90."
+        },
+        {
+          "id": "multiplication_09_11",
+          "a": 9,
+          "b": 11,
+          "result": 99,
+          "step": 11,
+          "text": "9 por 11, igual a 99."
+        },
+        {
+          "id": "multiplication_09_12",
+          "a": 9,
+          "b": 12,
+          "result": 108,
+          "step": 12,
+          "text": "9 por 12, igual a 108."
+        },
+        {
+          "id": "multiplication_09_13",
+          "a": 9,
+          "b": 13,
+          "result": 117,
+          "step": 13,
+          "text": "9 por 13, igual a 117."
+        },
+        {
+          "id": "multiplication_09_14",
+          "a": 9,
+          "b": 14,
+          "result": 126,
+          "step": 14,
+          "text": "9 por 14, igual a 126."
+        },
+        {
+          "id": "multiplication_09_15",
+          "a": 9,
+          "b": 15,
+          "result": 135,
+          "step": 15,
+          "text": "9 por 15, igual a 135."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 10,
+      "rows": [
+        {
+          "id": "multiplication_10_01",
+          "a": 10,
+          "b": 1,
+          "result": 10,
+          "step": 1,
+          "text": "10 por 1, igual a 10."
+        },
+        {
+          "id": "multiplication_10_02",
+          "a": 10,
+          "b": 2,
+          "result": 20,
+          "step": 2,
+          "text": "10 por 2, igual a 20."
+        },
+        {
+          "id": "multiplication_10_03",
+          "a": 10,
+          "b": 3,
+          "result": 30,
+          "step": 3,
+          "text": "10 por 3, igual a 30."
+        },
+        {
+          "id": "multiplication_10_04",
+          "a": 10,
+          "b": 4,
+          "result": 40,
+          "step": 4,
+          "text": "10 por 4, igual a 40."
+        },
+        {
+          "id": "multiplication_10_05",
+          "a": 10,
+          "b": 5,
+          "result": 50,
+          "step": 5,
+          "text": "10 por 5, igual a 50."
+        },
+        {
+          "id": "multiplication_10_06",
+          "a": 10,
+          "b": 6,
+          "result": 60,
+          "step": 6,
+          "text": "10 por 6, igual a 60."
+        },
+        {
+          "id": "multiplication_10_07",
+          "a": 10,
+          "b": 7,
+          "result": 70,
+          "step": 7,
+          "text": "10 por 7, igual a 70."
+        },
+        {
+          "id": "multiplication_10_08",
+          "a": 10,
+          "b": 8,
+          "result": 80,
+          "step": 8,
+          "text": "10 por 8, igual a 80."
+        },
+        {
+          "id": "multiplication_10_09",
+          "a": 10,
+          "b": 9,
+          "result": 90,
+          "step": 9,
+          "text": "10 por 9, igual a 90."
+        },
+        {
+          "id": "multiplication_10_10",
+          "a": 10,
+          "b": 10,
+          "result": 100,
+          "step": 10,
+          "text": "10 por 10, igual a 100."
+        },
+        {
+          "id": "multiplication_10_11",
+          "a": 10,
+          "b": 11,
+          "result": 110,
+          "step": 11,
+          "text": "10 por 11, igual a 110."
+        },
+        {
+          "id": "multiplication_10_12",
+          "a": 10,
+          "b": 12,
+          "result": 120,
+          "step": 12,
+          "text": "10 por 12, igual a 120."
+        },
+        {
+          "id": "multiplication_10_13",
+          "a": 10,
+          "b": 13,
+          "result": 130,
+          "step": 13,
+          "text": "10 por 13, igual a 130."
+        },
+        {
+          "id": "multiplication_10_14",
+          "a": 10,
+          "b": 14,
+          "result": 140,
+          "step": 14,
+          "text": "10 por 14, igual a 140."
+        },
+        {
+          "id": "multiplication_10_15",
+          "a": 10,
+          "b": 15,
+          "result": 150,
+          "step": 15,
+          "text": "10 por 15, igual a 150."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 11,
+      "rows": [
+        {
+          "id": "multiplication_11_01",
+          "a": 11,
+          "b": 1,
+          "result": 11,
+          "step": 1,
+          "text": "11 por 1, igual a 11."
+        },
+        {
+          "id": "multiplication_11_02",
+          "a": 11,
+          "b": 2,
+          "result": 22,
+          "step": 2,
+          "text": "11 por 2, igual a 22."
+        },
+        {
+          "id": "multiplication_11_03",
+          "a": 11,
+          "b": 3,
+          "result": 33,
+          "step": 3,
+          "text": "11 por 3, igual a 33."
+        },
+        {
+          "id": "multiplication_11_04",
+          "a": 11,
+          "b": 4,
+          "result": 44,
+          "step": 4,
+          "text": "11 por 4, igual a 44."
+        },
+        {
+          "id": "multiplication_11_05",
+          "a": 11,
+          "b": 5,
+          "result": 55,
+          "step": 5,
+          "text": "11 por 5, igual a 55."
+        },
+        {
+          "id": "multiplication_11_06",
+          "a": 11,
+          "b": 6,
+          "result": 66,
+          "step": 6,
+          "text": "11 por 6, igual a 66."
+        },
+        {
+          "id": "multiplication_11_07",
+          "a": 11,
+          "b": 7,
+          "result": 77,
+          "step": 7,
+          "text": "11 por 7, igual a 77."
+        },
+        {
+          "id": "multiplication_11_08",
+          "a": 11,
+          "b": 8,
+          "result": 88,
+          "step": 8,
+          "text": "11 por 8, igual a 88."
+        },
+        {
+          "id": "multiplication_11_09",
+          "a": 11,
+          "b": 9,
+          "result": 99,
+          "step": 9,
+          "text": "11 por 9, igual a 99."
+        },
+        {
+          "id": "multiplication_11_10",
+          "a": 11,
+          "b": 10,
+          "result": 110,
+          "step": 10,
+          "text": "11 por 10, igual a 110."
+        },
+        {
+          "id": "multiplication_11_11",
+          "a": 11,
+          "b": 11,
+          "result": 121,
+          "step": 11,
+          "text": "11 por 11, igual a 121."
+        },
+        {
+          "id": "multiplication_11_12",
+          "a": 11,
+          "b": 12,
+          "result": 132,
+          "step": 12,
+          "text": "11 por 12, igual a 132."
+        },
+        {
+          "id": "multiplication_11_13",
+          "a": 11,
+          "b": 13,
+          "result": 143,
+          "step": 13,
+          "text": "11 por 13, igual a 143."
+        },
+        {
+          "id": "multiplication_11_14",
+          "a": 11,
+          "b": 14,
+          "result": 154,
+          "step": 14,
+          "text": "11 por 14, igual a 154."
+        },
+        {
+          "id": "multiplication_11_15",
+          "a": 11,
+          "b": 15,
+          "result": 165,
+          "step": 15,
+          "text": "11 por 15, igual a 165."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 12,
+      "rows": [
+        {
+          "id": "multiplication_12_01",
+          "a": 12,
+          "b": 1,
+          "result": 12,
+          "step": 1,
+          "text": "12 por 1, igual a 12."
+        },
+        {
+          "id": "multiplication_12_02",
+          "a": 12,
+          "b": 2,
+          "result": 24,
+          "step": 2,
+          "text": "12 por 2, igual a 24."
+        },
+        {
+          "id": "multiplication_12_03",
+          "a": 12,
+          "b": 3,
+          "result": 36,
+          "step": 3,
+          "text": "12 por 3, igual a 36."
+        },
+        {
+          "id": "multiplication_12_04",
+          "a": 12,
+          "b": 4,
+          "result": 48,
+          "step": 4,
+          "text": "12 por 4, igual a 48."
+        },
+        {
+          "id": "multiplication_12_05",
+          "a": 12,
+          "b": 5,
+          "result": 60,
+          "step": 5,
+          "text": "12 por 5, igual a 60."
+        },
+        {
+          "id": "multiplication_12_06",
+          "a": 12,
+          "b": 6,
+          "result": 72,
+          "step": 6,
+          "text": "12 por 6, igual a 72."
+        },
+        {
+          "id": "multiplication_12_07",
+          "a": 12,
+          "b": 7,
+          "result": 84,
+          "step": 7,
+          "text": "12 por 7, igual a 84."
+        },
+        {
+          "id": "multiplication_12_08",
+          "a": 12,
+          "b": 8,
+          "result": 96,
+          "step": 8,
+          "text": "12 por 8, igual a 96."
+        },
+        {
+          "id": "multiplication_12_09",
+          "a": 12,
+          "b": 9,
+          "result": 108,
+          "step": 9,
+          "text": "12 por 9, igual a 108."
+        },
+        {
+          "id": "multiplication_12_10",
+          "a": 12,
+          "b": 10,
+          "result": 120,
+          "step": 10,
+          "text": "12 por 10, igual a 120."
+        },
+        {
+          "id": "multiplication_12_11",
+          "a": 12,
+          "b": 11,
+          "result": 132,
+          "step": 11,
+          "text": "12 por 11, igual a 132."
+        },
+        {
+          "id": "multiplication_12_12",
+          "a": 12,
+          "b": 12,
+          "result": 144,
+          "step": 12,
+          "text": "12 por 12, igual a 144."
+        },
+        {
+          "id": "multiplication_12_13",
+          "a": 12,
+          "b": 13,
+          "result": 156,
+          "step": 13,
+          "text": "12 por 13, igual a 156."
+        },
+        {
+          "id": "multiplication_12_14",
+          "a": 12,
+          "b": 14,
+          "result": 168,
+          "step": 14,
+          "text": "12 por 14, igual a 168."
+        },
+        {
+          "id": "multiplication_12_15",
+          "a": 12,
+          "b": 15,
+          "result": 180,
+          "step": 15,
+          "text": "12 por 15, igual a 180."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 13,
+      "rows": [
+        {
+          "id": "multiplication_13_01",
+          "a": 13,
+          "b": 1,
+          "result": 13,
+          "step": 1,
+          "text": "13 por 1, igual a 13."
+        },
+        {
+          "id": "multiplication_13_02",
+          "a": 13,
+          "b": 2,
+          "result": 26,
+          "step": 2,
+          "text": "13 por 2, igual a 26."
+        },
+        {
+          "id": "multiplication_13_03",
+          "a": 13,
+          "b": 3,
+          "result": 39,
+          "step": 3,
+          "text": "13 por 3, igual a 39."
+        },
+        {
+          "id": "multiplication_13_04",
+          "a": 13,
+          "b": 4,
+          "result": 52,
+          "step": 4,
+          "text": "13 por 4, igual a 52."
+        },
+        {
+          "id": "multiplication_13_05",
+          "a": 13,
+          "b": 5,
+          "result": 65,
+          "step": 5,
+          "text": "13 por 5, igual a 65."
+        },
+        {
+          "id": "multiplication_13_06",
+          "a": 13,
+          "b": 6,
+          "result": 78,
+          "step": 6,
+          "text": "13 por 6, igual a 78."
+        },
+        {
+          "id": "multiplication_13_07",
+          "a": 13,
+          "b": 7,
+          "result": 91,
+          "step": 7,
+          "text": "13 por 7, igual a 91."
+        },
+        {
+          "id": "multiplication_13_08",
+          "a": 13,
+          "b": 8,
+          "result": 104,
+          "step": 8,
+          "text": "13 por 8, igual a 104."
+        },
+        {
+          "id": "multiplication_13_09",
+          "a": 13,
+          "b": 9,
+          "result": 117,
+          "step": 9,
+          "text": "13 por 9, igual a 117."
+        },
+        {
+          "id": "multiplication_13_10",
+          "a": 13,
+          "b": 10,
+          "result": 130,
+          "step": 10,
+          "text": "13 por 10, igual a 130."
+        },
+        {
+          "id": "multiplication_13_11",
+          "a": 13,
+          "b": 11,
+          "result": 143,
+          "step": 11,
+          "text": "13 por 11, igual a 143."
+        },
+        {
+          "id": "multiplication_13_12",
+          "a": 13,
+          "b": 12,
+          "result": 156,
+          "step": 12,
+          "text": "13 por 12, igual a 156."
+        },
+        {
+          "id": "multiplication_13_13",
+          "a": 13,
+          "b": 13,
+          "result": 169,
+          "step": 13,
+          "text": "13 por 13, igual a 169."
+        },
+        {
+          "id": "multiplication_13_14",
+          "a": 13,
+          "b": 14,
+          "result": 182,
+          "step": 14,
+          "text": "13 por 14, igual a 182."
+        },
+        {
+          "id": "multiplication_13_15",
+          "a": 13,
+          "b": 15,
+          "result": 195,
+          "step": 15,
+          "text": "13 por 15, igual a 195."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 14,
+      "rows": [
+        {
+          "id": "multiplication_14_01",
+          "a": 14,
+          "b": 1,
+          "result": 14,
+          "step": 1,
+          "text": "14 por 1, igual a 14."
+        },
+        {
+          "id": "multiplication_14_02",
+          "a": 14,
+          "b": 2,
+          "result": 28,
+          "step": 2,
+          "text": "14 por 2, igual a 28."
+        },
+        {
+          "id": "multiplication_14_03",
+          "a": 14,
+          "b": 3,
+          "result": 42,
+          "step": 3,
+          "text": "14 por 3, igual a 42."
+        },
+        {
+          "id": "multiplication_14_04",
+          "a": 14,
+          "b": 4,
+          "result": 56,
+          "step": 4,
+          "text": "14 por 4, igual a 56."
+        },
+        {
+          "id": "multiplication_14_05",
+          "a": 14,
+          "b": 5,
+          "result": 70,
+          "step": 5,
+          "text": "14 por 5, igual a 70."
+        },
+        {
+          "id": "multiplication_14_06",
+          "a": 14,
+          "b": 6,
+          "result": 84,
+          "step": 6,
+          "text": "14 por 6, igual a 84."
+        },
+        {
+          "id": "multiplication_14_07",
+          "a": 14,
+          "b": 7,
+          "result": 98,
+          "step": 7,
+          "text": "14 por 7, igual a 98."
+        },
+        {
+          "id": "multiplication_14_08",
+          "a": 14,
+          "b": 8,
+          "result": 112,
+          "step": 8,
+          "text": "14 por 8, igual a 112."
+        },
+        {
+          "id": "multiplication_14_09",
+          "a": 14,
+          "b": 9,
+          "result": 126,
+          "step": 9,
+          "text": "14 por 9, igual a 126."
+        },
+        {
+          "id": "multiplication_14_10",
+          "a": 14,
+          "b": 10,
+          "result": 140,
+          "step": 10,
+          "text": "14 por 10, igual a 140."
+        },
+        {
+          "id": "multiplication_14_11",
+          "a": 14,
+          "b": 11,
+          "result": 154,
+          "step": 11,
+          "text": "14 por 11, igual a 154."
+        },
+        {
+          "id": "multiplication_14_12",
+          "a": 14,
+          "b": 12,
+          "result": 168,
+          "step": 12,
+          "text": "14 por 12, igual a 168."
+        },
+        {
+          "id": "multiplication_14_13",
+          "a": 14,
+          "b": 13,
+          "result": 182,
+          "step": 13,
+          "text": "14 por 13, igual a 182."
+        },
+        {
+          "id": "multiplication_14_14",
+          "a": 14,
+          "b": 14,
+          "result": 196,
+          "step": 14,
+          "text": "14 por 14, igual a 196."
+        },
+        {
+          "id": "multiplication_14_15",
+          "a": 14,
+          "b": 15,
+          "result": 210,
+          "step": 15,
+          "text": "14 por 15, igual a 210."
+        }
+      ]
+    },
+    {
+      "operation": "multiplication",
+      "number": 15,
+      "rows": [
+        {
+          "id": "multiplication_15_01",
+          "a": 15,
+          "b": 1,
+          "result": 15,
+          "step": 1,
+          "text": "15 por 1, igual a 15."
+        },
+        {
+          "id": "multiplication_15_02",
+          "a": 15,
+          "b": 2,
+          "result": 30,
+          "step": 2,
+          "text": "15 por 2, igual a 30."
+        },
+        {
+          "id": "multiplication_15_03",
+          "a": 15,
+          "b": 3,
+          "result": 45,
+          "step": 3,
+          "text": "15 por 3, igual a 45."
+        },
+        {
+          "id": "multiplication_15_04",
+          "a": 15,
+          "b": 4,
+          "result": 60,
+          "step": 4,
+          "text": "15 por 4, igual a 60."
+        },
+        {
+          "id": "multiplication_15_05",
+          "a": 15,
+          "b": 5,
+          "result": 75,
+          "step": 5,
+          "text": "15 por 5, igual a 75."
+        },
+        {
+          "id": "multiplication_15_06",
+          "a": 15,
+          "b": 6,
+          "result": 90,
+          "step": 6,
+          "text": "15 por 6, igual a 90."
+        },
+        {
+          "id": "multiplication_15_07",
+          "a": 15,
+          "b": 7,
+          "result": 105,
+          "step": 7,
+          "text": "15 por 7, igual a 105."
+        },
+        {
+          "id": "multiplication_15_08",
+          "a": 15,
+          "b": 8,
+          "result": 120,
+          "step": 8,
+          "text": "15 por 8, igual a 120."
+        },
+        {
+          "id": "multiplication_15_09",
+          "a": 15,
+          "b": 9,
+          "result": 135,
+          "step": 9,
+          "text": "15 por 9, igual a 135."
+        },
+        {
+          "id": "multiplication_15_10",
+          "a": 15,
+          "b": 10,
+          "result": 150,
+          "step": 10,
+          "text": "15 por 10, igual a 150."
+        },
+        {
+          "id": "multiplication_15_11",
+          "a": 15,
+          "b": 11,
+          "result": 165,
+          "step": 11,
+          "text": "15 por 11, igual a 165."
+        },
+        {
+          "id": "multiplication_15_12",
+          "a": 15,
+          "b": 12,
+          "result": 180,
+          "step": 12,
+          "text": "15 por 12, igual a 180."
+        },
+        {
+          "id": "multiplication_15_13",
+          "a": 15,
+          "b": 13,
+          "result": 195,
+          "step": 13,
+          "text": "15 por 13, igual a 195."
+        },
+        {
+          "id": "multiplication_15_14",
+          "a": 15,
+          "b": 14,
+          "result": 210,
+          "step": 14,
+          "text": "15 por 14, igual a 210."
+        },
+        {
+          "id": "multiplication_15_15",
+          "a": 15,
+          "b": 15,
+          "result": 225,
+          "step": 15,
+          "text": "15 por 15, igual a 225."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 1,
+      "rows": [
+        {
+          "id": "division_01_01",
+          "a": 1,
+          "b": 1,
+          "result": 1,
+          "step": 1,
+          "text": "1 dividido entre 1, igual a 1."
+        },
+        {
+          "id": "division_01_02",
+          "a": 2,
+          "b": 1,
+          "result": 2,
+          "step": 2,
+          "text": "2 dividido entre 1, igual a 2."
+        },
+        {
+          "id": "division_01_03",
+          "a": 3,
+          "b": 1,
+          "result": 3,
+          "step": 3,
+          "text": "3 dividido entre 1, igual a 3."
+        },
+        {
+          "id": "division_01_04",
+          "a": 4,
+          "b": 1,
+          "result": 4,
+          "step": 4,
+          "text": "4 dividido entre 1, igual a 4."
+        },
+        {
+          "id": "division_01_05",
+          "a": 5,
+          "b": 1,
+          "result": 5,
+          "step": 5,
+          "text": "5 dividido entre 1, igual a 5."
+        },
+        {
+          "id": "division_01_06",
+          "a": 6,
+          "b": 1,
+          "result": 6,
+          "step": 6,
+          "text": "6 dividido entre 1, igual a 6."
+        },
+        {
+          "id": "division_01_07",
+          "a": 7,
+          "b": 1,
+          "result": 7,
+          "step": 7,
+          "text": "7 dividido entre 1, igual a 7."
+        },
+        {
+          "id": "division_01_08",
+          "a": 8,
+          "b": 1,
+          "result": 8,
+          "step": 8,
+          "text": "8 dividido entre 1, igual a 8."
+        },
+        {
+          "id": "division_01_09",
+          "a": 9,
+          "b": 1,
+          "result": 9,
+          "step": 9,
+          "text": "9 dividido entre 1, igual a 9."
+        },
+        {
+          "id": "division_01_10",
+          "a": 10,
+          "b": 1,
+          "result": 10,
+          "step": 10,
+          "text": "10 dividido entre 1, igual a 10."
+        },
+        {
+          "id": "division_01_11",
+          "a": 11,
+          "b": 1,
+          "result": 11,
+          "step": 11,
+          "text": "11 dividido entre 1, igual a 11."
+        },
+        {
+          "id": "division_01_12",
+          "a": 12,
+          "b": 1,
+          "result": 12,
+          "step": 12,
+          "text": "12 dividido entre 1, igual a 12."
+        },
+        {
+          "id": "division_01_13",
+          "a": 13,
+          "b": 1,
+          "result": 13,
+          "step": 13,
+          "text": "13 dividido entre 1, igual a 13."
+        },
+        {
+          "id": "division_01_14",
+          "a": 14,
+          "b": 1,
+          "result": 14,
+          "step": 14,
+          "text": "14 dividido entre 1, igual a 14."
+        },
+        {
+          "id": "division_01_15",
+          "a": 15,
+          "b": 1,
+          "result": 15,
+          "step": 15,
+          "text": "15 dividido entre 1, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 2,
+      "rows": [
+        {
+          "id": "division_02_01",
+          "a": 2,
+          "b": 2,
+          "result": 1,
+          "step": 1,
+          "text": "2 dividido entre 2, igual a 1."
+        },
+        {
+          "id": "division_02_02",
+          "a": 4,
+          "b": 2,
+          "result": 2,
+          "step": 2,
+          "text": "4 dividido entre 2, igual a 2."
+        },
+        {
+          "id": "division_02_03",
+          "a": 6,
+          "b": 2,
+          "result": 3,
+          "step": 3,
+          "text": "6 dividido entre 2, igual a 3."
+        },
+        {
+          "id": "division_02_04",
+          "a": 8,
+          "b": 2,
+          "result": 4,
+          "step": 4,
+          "text": "8 dividido entre 2, igual a 4."
+        },
+        {
+          "id": "division_02_05",
+          "a": 10,
+          "b": 2,
+          "result": 5,
+          "step": 5,
+          "text": "10 dividido entre 2, igual a 5."
+        },
+        {
+          "id": "division_02_06",
+          "a": 12,
+          "b": 2,
+          "result": 6,
+          "step": 6,
+          "text": "12 dividido entre 2, igual a 6."
+        },
+        {
+          "id": "division_02_07",
+          "a": 14,
+          "b": 2,
+          "result": 7,
+          "step": 7,
+          "text": "14 dividido entre 2, igual a 7."
+        },
+        {
+          "id": "division_02_08",
+          "a": 16,
+          "b": 2,
+          "result": 8,
+          "step": 8,
+          "text": "16 dividido entre 2, igual a 8."
+        },
+        {
+          "id": "division_02_09",
+          "a": 18,
+          "b": 2,
+          "result": 9,
+          "step": 9,
+          "text": "18 dividido entre 2, igual a 9."
+        },
+        {
+          "id": "division_02_10",
+          "a": 20,
+          "b": 2,
+          "result": 10,
+          "step": 10,
+          "text": "20 dividido entre 2, igual a 10."
+        },
+        {
+          "id": "division_02_11",
+          "a": 22,
+          "b": 2,
+          "result": 11,
+          "step": 11,
+          "text": "22 dividido entre 2, igual a 11."
+        },
+        {
+          "id": "division_02_12",
+          "a": 24,
+          "b": 2,
+          "result": 12,
+          "step": 12,
+          "text": "24 dividido entre 2, igual a 12."
+        },
+        {
+          "id": "division_02_13",
+          "a": 26,
+          "b": 2,
+          "result": 13,
+          "step": 13,
+          "text": "26 dividido entre 2, igual a 13."
+        },
+        {
+          "id": "division_02_14",
+          "a": 28,
+          "b": 2,
+          "result": 14,
+          "step": 14,
+          "text": "28 dividido entre 2, igual a 14."
+        },
+        {
+          "id": "division_02_15",
+          "a": 30,
+          "b": 2,
+          "result": 15,
+          "step": 15,
+          "text": "30 dividido entre 2, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 3,
+      "rows": [
+        {
+          "id": "division_03_01",
+          "a": 3,
+          "b": 3,
+          "result": 1,
+          "step": 1,
+          "text": "3 dividido entre 3, igual a 1."
+        },
+        {
+          "id": "division_03_02",
+          "a": 6,
+          "b": 3,
+          "result": 2,
+          "step": 2,
+          "text": "6 dividido entre 3, igual a 2."
+        },
+        {
+          "id": "division_03_03",
+          "a": 9,
+          "b": 3,
+          "result": 3,
+          "step": 3,
+          "text": "9 dividido entre 3, igual a 3."
+        },
+        {
+          "id": "division_03_04",
+          "a": 12,
+          "b": 3,
+          "result": 4,
+          "step": 4,
+          "text": "12 dividido entre 3, igual a 4."
+        },
+        {
+          "id": "division_03_05",
+          "a": 15,
+          "b": 3,
+          "result": 5,
+          "step": 5,
+          "text": "15 dividido entre 3, igual a 5."
+        },
+        {
+          "id": "division_03_06",
+          "a": 18,
+          "b": 3,
+          "result": 6,
+          "step": 6,
+          "text": "18 dividido entre 3, igual a 6."
+        },
+        {
+          "id": "division_03_07",
+          "a": 21,
+          "b": 3,
+          "result": 7,
+          "step": 7,
+          "text": "21 dividido entre 3, igual a 7."
+        },
+        {
+          "id": "division_03_08",
+          "a": 24,
+          "b": 3,
+          "result": 8,
+          "step": 8,
+          "text": "24 dividido entre 3, igual a 8."
+        },
+        {
+          "id": "division_03_09",
+          "a": 27,
+          "b": 3,
+          "result": 9,
+          "step": 9,
+          "text": "27 dividido entre 3, igual a 9."
+        },
+        {
+          "id": "division_03_10",
+          "a": 30,
+          "b": 3,
+          "result": 10,
+          "step": 10,
+          "text": "30 dividido entre 3, igual a 10."
+        },
+        {
+          "id": "division_03_11",
+          "a": 33,
+          "b": 3,
+          "result": 11,
+          "step": 11,
+          "text": "33 dividido entre 3, igual a 11."
+        },
+        {
+          "id": "division_03_12",
+          "a": 36,
+          "b": 3,
+          "result": 12,
+          "step": 12,
+          "text": "36 dividido entre 3, igual a 12."
+        },
+        {
+          "id": "division_03_13",
+          "a": 39,
+          "b": 3,
+          "result": 13,
+          "step": 13,
+          "text": "39 dividido entre 3, igual a 13."
+        },
+        {
+          "id": "division_03_14",
+          "a": 42,
+          "b": 3,
+          "result": 14,
+          "step": 14,
+          "text": "42 dividido entre 3, igual a 14."
+        },
+        {
+          "id": "division_03_15",
+          "a": 45,
+          "b": 3,
+          "result": 15,
+          "step": 15,
+          "text": "45 dividido entre 3, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 4,
+      "rows": [
+        {
+          "id": "division_04_01",
+          "a": 4,
+          "b": 4,
+          "result": 1,
+          "step": 1,
+          "text": "4 dividido entre 4, igual a 1."
+        },
+        {
+          "id": "division_04_02",
+          "a": 8,
+          "b": 4,
+          "result": 2,
+          "step": 2,
+          "text": "8 dividido entre 4, igual a 2."
+        },
+        {
+          "id": "division_04_03",
+          "a": 12,
+          "b": 4,
+          "result": 3,
+          "step": 3,
+          "text": "12 dividido entre 4, igual a 3."
+        },
+        {
+          "id": "division_04_04",
+          "a": 16,
+          "b": 4,
+          "result": 4,
+          "step": 4,
+          "text": "16 dividido entre 4, igual a 4."
+        },
+        {
+          "id": "division_04_05",
+          "a": 20,
+          "b": 4,
+          "result": 5,
+          "step": 5,
+          "text": "20 dividido entre 4, igual a 5."
+        },
+        {
+          "id": "division_04_06",
+          "a": 24,
+          "b": 4,
+          "result": 6,
+          "step": 6,
+          "text": "24 dividido entre 4, igual a 6."
+        },
+        {
+          "id": "division_04_07",
+          "a": 28,
+          "b": 4,
+          "result": 7,
+          "step": 7,
+          "text": "28 dividido entre 4, igual a 7."
+        },
+        {
+          "id": "division_04_08",
+          "a": 32,
+          "b": 4,
+          "result": 8,
+          "step": 8,
+          "text": "32 dividido entre 4, igual a 8."
+        },
+        {
+          "id": "division_04_09",
+          "a": 36,
+          "b": 4,
+          "result": 9,
+          "step": 9,
+          "text": "36 dividido entre 4, igual a 9."
+        },
+        {
+          "id": "division_04_10",
+          "a": 40,
+          "b": 4,
+          "result": 10,
+          "step": 10,
+          "text": "40 dividido entre 4, igual a 10."
+        },
+        {
+          "id": "division_04_11",
+          "a": 44,
+          "b": 4,
+          "result": 11,
+          "step": 11,
+          "text": "44 dividido entre 4, igual a 11."
+        },
+        {
+          "id": "division_04_12",
+          "a": 48,
+          "b": 4,
+          "result": 12,
+          "step": 12,
+          "text": "48 dividido entre 4, igual a 12."
+        },
+        {
+          "id": "division_04_13",
+          "a": 52,
+          "b": 4,
+          "result": 13,
+          "step": 13,
+          "text": "52 dividido entre 4, igual a 13."
+        },
+        {
+          "id": "division_04_14",
+          "a": 56,
+          "b": 4,
+          "result": 14,
+          "step": 14,
+          "text": "56 dividido entre 4, igual a 14."
+        },
+        {
+          "id": "division_04_15",
+          "a": 60,
+          "b": 4,
+          "result": 15,
+          "step": 15,
+          "text": "60 dividido entre 4, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 5,
+      "rows": [
+        {
+          "id": "division_05_01",
+          "a": 5,
+          "b": 5,
+          "result": 1,
+          "step": 1,
+          "text": "5 dividido entre 5, igual a 1."
+        },
+        {
+          "id": "division_05_02",
+          "a": 10,
+          "b": 5,
+          "result": 2,
+          "step": 2,
+          "text": "10 dividido entre 5, igual a 2."
+        },
+        {
+          "id": "division_05_03",
+          "a": 15,
+          "b": 5,
+          "result": 3,
+          "step": 3,
+          "text": "15 dividido entre 5, igual a 3."
+        },
+        {
+          "id": "division_05_04",
+          "a": 20,
+          "b": 5,
+          "result": 4,
+          "step": 4,
+          "text": "20 dividido entre 5, igual a 4."
+        },
+        {
+          "id": "division_05_05",
+          "a": 25,
+          "b": 5,
+          "result": 5,
+          "step": 5,
+          "text": "25 dividido entre 5, igual a 5."
+        },
+        {
+          "id": "division_05_06",
+          "a": 30,
+          "b": 5,
+          "result": 6,
+          "step": 6,
+          "text": "30 dividido entre 5, igual a 6."
+        },
+        {
+          "id": "division_05_07",
+          "a": 35,
+          "b": 5,
+          "result": 7,
+          "step": 7,
+          "text": "35 dividido entre 5, igual a 7."
+        },
+        {
+          "id": "division_05_08",
+          "a": 40,
+          "b": 5,
+          "result": 8,
+          "step": 8,
+          "text": "40 dividido entre 5, igual a 8."
+        },
+        {
+          "id": "division_05_09",
+          "a": 45,
+          "b": 5,
+          "result": 9,
+          "step": 9,
+          "text": "45 dividido entre 5, igual a 9."
+        },
+        {
+          "id": "division_05_10",
+          "a": 50,
+          "b": 5,
+          "result": 10,
+          "step": 10,
+          "text": "50 dividido entre 5, igual a 10."
+        },
+        {
+          "id": "division_05_11",
+          "a": 55,
+          "b": 5,
+          "result": 11,
+          "step": 11,
+          "text": "55 dividido entre 5, igual a 11."
+        },
+        {
+          "id": "division_05_12",
+          "a": 60,
+          "b": 5,
+          "result": 12,
+          "step": 12,
+          "text": "60 dividido entre 5, igual a 12."
+        },
+        {
+          "id": "division_05_13",
+          "a": 65,
+          "b": 5,
+          "result": 13,
+          "step": 13,
+          "text": "65 dividido entre 5, igual a 13."
+        },
+        {
+          "id": "division_05_14",
+          "a": 70,
+          "b": 5,
+          "result": 14,
+          "step": 14,
+          "text": "70 dividido entre 5, igual a 14."
+        },
+        {
+          "id": "division_05_15",
+          "a": 75,
+          "b": 5,
+          "result": 15,
+          "step": 15,
+          "text": "75 dividido entre 5, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 6,
+      "rows": [
+        {
+          "id": "division_06_01",
+          "a": 6,
+          "b": 6,
+          "result": 1,
+          "step": 1,
+          "text": "6 dividido entre 6, igual a 1."
+        },
+        {
+          "id": "division_06_02",
+          "a": 12,
+          "b": 6,
+          "result": 2,
+          "step": 2,
+          "text": "12 dividido entre 6, igual a 2."
+        },
+        {
+          "id": "division_06_03",
+          "a": 18,
+          "b": 6,
+          "result": 3,
+          "step": 3,
+          "text": "18 dividido entre 6, igual a 3."
+        },
+        {
+          "id": "division_06_04",
+          "a": 24,
+          "b": 6,
+          "result": 4,
+          "step": 4,
+          "text": "24 dividido entre 6, igual a 4."
+        },
+        {
+          "id": "division_06_05",
+          "a": 30,
+          "b": 6,
+          "result": 5,
+          "step": 5,
+          "text": "30 dividido entre 6, igual a 5."
+        },
+        {
+          "id": "division_06_06",
+          "a": 36,
+          "b": 6,
+          "result": 6,
+          "step": 6,
+          "text": "36 dividido entre 6, igual a 6."
+        },
+        {
+          "id": "division_06_07",
+          "a": 42,
+          "b": 6,
+          "result": 7,
+          "step": 7,
+          "text": "42 dividido entre 6, igual a 7."
+        },
+        {
+          "id": "division_06_08",
+          "a": 48,
+          "b": 6,
+          "result": 8,
+          "step": 8,
+          "text": "48 dividido entre 6, igual a 8."
+        },
+        {
+          "id": "division_06_09",
+          "a": 54,
+          "b": 6,
+          "result": 9,
+          "step": 9,
+          "text": "54 dividido entre 6, igual a 9."
+        },
+        {
+          "id": "division_06_10",
+          "a": 60,
+          "b": 6,
+          "result": 10,
+          "step": 10,
+          "text": "60 dividido entre 6, igual a 10."
+        },
+        {
+          "id": "division_06_11",
+          "a": 66,
+          "b": 6,
+          "result": 11,
+          "step": 11,
+          "text": "66 dividido entre 6, igual a 11."
+        },
+        {
+          "id": "division_06_12",
+          "a": 72,
+          "b": 6,
+          "result": 12,
+          "step": 12,
+          "text": "72 dividido entre 6, igual a 12."
+        },
+        {
+          "id": "division_06_13",
+          "a": 78,
+          "b": 6,
+          "result": 13,
+          "step": 13,
+          "text": "78 dividido entre 6, igual a 13."
+        },
+        {
+          "id": "division_06_14",
+          "a": 84,
+          "b": 6,
+          "result": 14,
+          "step": 14,
+          "text": "84 dividido entre 6, igual a 14."
+        },
+        {
+          "id": "division_06_15",
+          "a": 90,
+          "b": 6,
+          "result": 15,
+          "step": 15,
+          "text": "90 dividido entre 6, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 7,
+      "rows": [
+        {
+          "id": "division_07_01",
+          "a": 7,
+          "b": 7,
+          "result": 1,
+          "step": 1,
+          "text": "7 dividido entre 7, igual a 1."
+        },
+        {
+          "id": "division_07_02",
+          "a": 14,
+          "b": 7,
+          "result": 2,
+          "step": 2,
+          "text": "14 dividido entre 7, igual a 2."
+        },
+        {
+          "id": "division_07_03",
+          "a": 21,
+          "b": 7,
+          "result": 3,
+          "step": 3,
+          "text": "21 dividido entre 7, igual a 3."
+        },
+        {
+          "id": "division_07_04",
+          "a": 28,
+          "b": 7,
+          "result": 4,
+          "step": 4,
+          "text": "28 dividido entre 7, igual a 4."
+        },
+        {
+          "id": "division_07_05",
+          "a": 35,
+          "b": 7,
+          "result": 5,
+          "step": 5,
+          "text": "35 dividido entre 7, igual a 5."
+        },
+        {
+          "id": "division_07_06",
+          "a": 42,
+          "b": 7,
+          "result": 6,
+          "step": 6,
+          "text": "42 dividido entre 7, igual a 6."
+        },
+        {
+          "id": "division_07_07",
+          "a": 49,
+          "b": 7,
+          "result": 7,
+          "step": 7,
+          "text": "49 dividido entre 7, igual a 7."
+        },
+        {
+          "id": "division_07_08",
+          "a": 56,
+          "b": 7,
+          "result": 8,
+          "step": 8,
+          "text": "56 dividido entre 7, igual a 8."
+        },
+        {
+          "id": "division_07_09",
+          "a": 63,
+          "b": 7,
+          "result": 9,
+          "step": 9,
+          "text": "63 dividido entre 7, igual a 9."
+        },
+        {
+          "id": "division_07_10",
+          "a": 70,
+          "b": 7,
+          "result": 10,
+          "step": 10,
+          "text": "70 dividido entre 7, igual a 10."
+        },
+        {
+          "id": "division_07_11",
+          "a": 77,
+          "b": 7,
+          "result": 11,
+          "step": 11,
+          "text": "77 dividido entre 7, igual a 11."
+        },
+        {
+          "id": "division_07_12",
+          "a": 84,
+          "b": 7,
+          "result": 12,
+          "step": 12,
+          "text": "84 dividido entre 7, igual a 12."
+        },
+        {
+          "id": "division_07_13",
+          "a": 91,
+          "b": 7,
+          "result": 13,
+          "step": 13,
+          "text": "91 dividido entre 7, igual a 13."
+        },
+        {
+          "id": "division_07_14",
+          "a": 98,
+          "b": 7,
+          "result": 14,
+          "step": 14,
+          "text": "98 dividido entre 7, igual a 14."
+        },
+        {
+          "id": "division_07_15",
+          "a": 105,
+          "b": 7,
+          "result": 15,
+          "step": 15,
+          "text": "105 dividido entre 7, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 8,
+      "rows": [
+        {
+          "id": "division_08_01",
+          "a": 8,
+          "b": 8,
+          "result": 1,
+          "step": 1,
+          "text": "8 dividido entre 8, igual a 1."
+        },
+        {
+          "id": "division_08_02",
+          "a": 16,
+          "b": 8,
+          "result": 2,
+          "step": 2,
+          "text": "16 dividido entre 8, igual a 2."
+        },
+        {
+          "id": "division_08_03",
+          "a": 24,
+          "b": 8,
+          "result": 3,
+          "step": 3,
+          "text": "24 dividido entre 8, igual a 3."
+        },
+        {
+          "id": "division_08_04",
+          "a": 32,
+          "b": 8,
+          "result": 4,
+          "step": 4,
+          "text": "32 dividido entre 8, igual a 4."
+        },
+        {
+          "id": "division_08_05",
+          "a": 40,
+          "b": 8,
+          "result": 5,
+          "step": 5,
+          "text": "40 dividido entre 8, igual a 5."
+        },
+        {
+          "id": "division_08_06",
+          "a": 48,
+          "b": 8,
+          "result": 6,
+          "step": 6,
+          "text": "48 dividido entre 8, igual a 6."
+        },
+        {
+          "id": "division_08_07",
+          "a": 56,
+          "b": 8,
+          "result": 7,
+          "step": 7,
+          "text": "56 dividido entre 8, igual a 7."
+        },
+        {
+          "id": "division_08_08",
+          "a": 64,
+          "b": 8,
+          "result": 8,
+          "step": 8,
+          "text": "64 dividido entre 8, igual a 8."
+        },
+        {
+          "id": "division_08_09",
+          "a": 72,
+          "b": 8,
+          "result": 9,
+          "step": 9,
+          "text": "72 dividido entre 8, igual a 9."
+        },
+        {
+          "id": "division_08_10",
+          "a": 80,
+          "b": 8,
+          "result": 10,
+          "step": 10,
+          "text": "80 dividido entre 8, igual a 10."
+        },
+        {
+          "id": "division_08_11",
+          "a": 88,
+          "b": 8,
+          "result": 11,
+          "step": 11,
+          "text": "88 dividido entre 8, igual a 11."
+        },
+        {
+          "id": "division_08_12",
+          "a": 96,
+          "b": 8,
+          "result": 12,
+          "step": 12,
+          "text": "96 dividido entre 8, igual a 12."
+        },
+        {
+          "id": "division_08_13",
+          "a": 104,
+          "b": 8,
+          "result": 13,
+          "step": 13,
+          "text": "104 dividido entre 8, igual a 13."
+        },
+        {
+          "id": "division_08_14",
+          "a": 112,
+          "b": 8,
+          "result": 14,
+          "step": 14,
+          "text": "112 dividido entre 8, igual a 14."
+        },
+        {
+          "id": "division_08_15",
+          "a": 120,
+          "b": 8,
+          "result": 15,
+          "step": 15,
+          "text": "120 dividido entre 8, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 9,
+      "rows": [
+        {
+          "id": "division_09_01",
+          "a": 9,
+          "b": 9,
+          "result": 1,
+          "step": 1,
+          "text": "9 dividido entre 9, igual a 1."
+        },
+        {
+          "id": "division_09_02",
+          "a": 18,
+          "b": 9,
+          "result": 2,
+          "step": 2,
+          "text": "18 dividido entre 9, igual a 2."
+        },
+        {
+          "id": "division_09_03",
+          "a": 27,
+          "b": 9,
+          "result": 3,
+          "step": 3,
+          "text": "27 dividido entre 9, igual a 3."
+        },
+        {
+          "id": "division_09_04",
+          "a": 36,
+          "b": 9,
+          "result": 4,
+          "step": 4,
+          "text": "36 dividido entre 9, igual a 4."
+        },
+        {
+          "id": "division_09_05",
+          "a": 45,
+          "b": 9,
+          "result": 5,
+          "step": 5,
+          "text": "45 dividido entre 9, igual a 5."
+        },
+        {
+          "id": "division_09_06",
+          "a": 54,
+          "b": 9,
+          "result": 6,
+          "step": 6,
+          "text": "54 dividido entre 9, igual a 6."
+        },
+        {
+          "id": "division_09_07",
+          "a": 63,
+          "b": 9,
+          "result": 7,
+          "step": 7,
+          "text": "63 dividido entre 9, igual a 7."
+        },
+        {
+          "id": "division_09_08",
+          "a": 72,
+          "b": 9,
+          "result": 8,
+          "step": 8,
+          "text": "72 dividido entre 9, igual a 8."
+        },
+        {
+          "id": "division_09_09",
+          "a": 81,
+          "b": 9,
+          "result": 9,
+          "step": 9,
+          "text": "81 dividido entre 9, igual a 9."
+        },
+        {
+          "id": "division_09_10",
+          "a": 90,
+          "b": 9,
+          "result": 10,
+          "step": 10,
+          "text": "90 dividido entre 9, igual a 10."
+        },
+        {
+          "id": "division_09_11",
+          "a": 99,
+          "b": 9,
+          "result": 11,
+          "step": 11,
+          "text": "99 dividido entre 9, igual a 11."
+        },
+        {
+          "id": "division_09_12",
+          "a": 108,
+          "b": 9,
+          "result": 12,
+          "step": 12,
+          "text": "108 dividido entre 9, igual a 12."
+        },
+        {
+          "id": "division_09_13",
+          "a": 117,
+          "b": 9,
+          "result": 13,
+          "step": 13,
+          "text": "117 dividido entre 9, igual a 13."
+        },
+        {
+          "id": "division_09_14",
+          "a": 126,
+          "b": 9,
+          "result": 14,
+          "step": 14,
+          "text": "126 dividido entre 9, igual a 14."
+        },
+        {
+          "id": "division_09_15",
+          "a": 135,
+          "b": 9,
+          "result": 15,
+          "step": 15,
+          "text": "135 dividido entre 9, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 10,
+      "rows": [
+        {
+          "id": "division_10_01",
+          "a": 10,
+          "b": 10,
+          "result": 1,
+          "step": 1,
+          "text": "10 dividido entre 10, igual a 1."
+        },
+        {
+          "id": "division_10_02",
+          "a": 20,
+          "b": 10,
+          "result": 2,
+          "step": 2,
+          "text": "20 dividido entre 10, igual a 2."
+        },
+        {
+          "id": "division_10_03",
+          "a": 30,
+          "b": 10,
+          "result": 3,
+          "step": 3,
+          "text": "30 dividido entre 10, igual a 3."
+        },
+        {
+          "id": "division_10_04",
+          "a": 40,
+          "b": 10,
+          "result": 4,
+          "step": 4,
+          "text": "40 dividido entre 10, igual a 4."
+        },
+        {
+          "id": "division_10_05",
+          "a": 50,
+          "b": 10,
+          "result": 5,
+          "step": 5,
+          "text": "50 dividido entre 10, igual a 5."
+        },
+        {
+          "id": "division_10_06",
+          "a": 60,
+          "b": 10,
+          "result": 6,
+          "step": 6,
+          "text": "60 dividido entre 10, igual a 6."
+        },
+        {
+          "id": "division_10_07",
+          "a": 70,
+          "b": 10,
+          "result": 7,
+          "step": 7,
+          "text": "70 dividido entre 10, igual a 7."
+        },
+        {
+          "id": "division_10_08",
+          "a": 80,
+          "b": 10,
+          "result": 8,
+          "step": 8,
+          "text": "80 dividido entre 10, igual a 8."
+        },
+        {
+          "id": "division_10_09",
+          "a": 90,
+          "b": 10,
+          "result": 9,
+          "step": 9,
+          "text": "90 dividido entre 10, igual a 9."
+        },
+        {
+          "id": "division_10_10",
+          "a": 100,
+          "b": 10,
+          "result": 10,
+          "step": 10,
+          "text": "100 dividido entre 10, igual a 10."
+        },
+        {
+          "id": "division_10_11",
+          "a": 110,
+          "b": 10,
+          "result": 11,
+          "step": 11,
+          "text": "110 dividido entre 10, igual a 11."
+        },
+        {
+          "id": "division_10_12",
+          "a": 120,
+          "b": 10,
+          "result": 12,
+          "step": 12,
+          "text": "120 dividido entre 10, igual a 12."
+        },
+        {
+          "id": "division_10_13",
+          "a": 130,
+          "b": 10,
+          "result": 13,
+          "step": 13,
+          "text": "130 dividido entre 10, igual a 13."
+        },
+        {
+          "id": "division_10_14",
+          "a": 140,
+          "b": 10,
+          "result": 14,
+          "step": 14,
+          "text": "140 dividido entre 10, igual a 14."
+        },
+        {
+          "id": "division_10_15",
+          "a": 150,
+          "b": 10,
+          "result": 15,
+          "step": 15,
+          "text": "150 dividido entre 10, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 11,
+      "rows": [
+        {
+          "id": "division_11_01",
+          "a": 11,
+          "b": 11,
+          "result": 1,
+          "step": 1,
+          "text": "11 dividido entre 11, igual a 1."
+        },
+        {
+          "id": "division_11_02",
+          "a": 22,
+          "b": 11,
+          "result": 2,
+          "step": 2,
+          "text": "22 dividido entre 11, igual a 2."
+        },
+        {
+          "id": "division_11_03",
+          "a": 33,
+          "b": 11,
+          "result": 3,
+          "step": 3,
+          "text": "33 dividido entre 11, igual a 3."
+        },
+        {
+          "id": "division_11_04",
+          "a": 44,
+          "b": 11,
+          "result": 4,
+          "step": 4,
+          "text": "44 dividido entre 11, igual a 4."
+        },
+        {
+          "id": "division_11_05",
+          "a": 55,
+          "b": 11,
+          "result": 5,
+          "step": 5,
+          "text": "55 dividido entre 11, igual a 5."
+        },
+        {
+          "id": "division_11_06",
+          "a": 66,
+          "b": 11,
+          "result": 6,
+          "step": 6,
+          "text": "66 dividido entre 11, igual a 6."
+        },
+        {
+          "id": "division_11_07",
+          "a": 77,
+          "b": 11,
+          "result": 7,
+          "step": 7,
+          "text": "77 dividido entre 11, igual a 7."
+        },
+        {
+          "id": "division_11_08",
+          "a": 88,
+          "b": 11,
+          "result": 8,
+          "step": 8,
+          "text": "88 dividido entre 11, igual a 8."
+        },
+        {
+          "id": "division_11_09",
+          "a": 99,
+          "b": 11,
+          "result": 9,
+          "step": 9,
+          "text": "99 dividido entre 11, igual a 9."
+        },
+        {
+          "id": "division_11_10",
+          "a": 110,
+          "b": 11,
+          "result": 10,
+          "step": 10,
+          "text": "110 dividido entre 11, igual a 10."
+        },
+        {
+          "id": "division_11_11",
+          "a": 121,
+          "b": 11,
+          "result": 11,
+          "step": 11,
+          "text": "121 dividido entre 11, igual a 11."
+        },
+        {
+          "id": "division_11_12",
+          "a": 132,
+          "b": 11,
+          "result": 12,
+          "step": 12,
+          "text": "132 dividido entre 11, igual a 12."
+        },
+        {
+          "id": "division_11_13",
+          "a": 143,
+          "b": 11,
+          "result": 13,
+          "step": 13,
+          "text": "143 dividido entre 11, igual a 13."
+        },
+        {
+          "id": "division_11_14",
+          "a": 154,
+          "b": 11,
+          "result": 14,
+          "step": 14,
+          "text": "154 dividido entre 11, igual a 14."
+        },
+        {
+          "id": "division_11_15",
+          "a": 165,
+          "b": 11,
+          "result": 15,
+          "step": 15,
+          "text": "165 dividido entre 11, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 12,
+      "rows": [
+        {
+          "id": "division_12_01",
+          "a": 12,
+          "b": 12,
+          "result": 1,
+          "step": 1,
+          "text": "12 dividido entre 12, igual a 1."
+        },
+        {
+          "id": "division_12_02",
+          "a": 24,
+          "b": 12,
+          "result": 2,
+          "step": 2,
+          "text": "24 dividido entre 12, igual a 2."
+        },
+        {
+          "id": "division_12_03",
+          "a": 36,
+          "b": 12,
+          "result": 3,
+          "step": 3,
+          "text": "36 dividido entre 12, igual a 3."
+        },
+        {
+          "id": "division_12_04",
+          "a": 48,
+          "b": 12,
+          "result": 4,
+          "step": 4,
+          "text": "48 dividido entre 12, igual a 4."
+        },
+        {
+          "id": "division_12_05",
+          "a": 60,
+          "b": 12,
+          "result": 5,
+          "step": 5,
+          "text": "60 dividido entre 12, igual a 5."
+        },
+        {
+          "id": "division_12_06",
+          "a": 72,
+          "b": 12,
+          "result": 6,
+          "step": 6,
+          "text": "72 dividido entre 12, igual a 6."
+        },
+        {
+          "id": "division_12_07",
+          "a": 84,
+          "b": 12,
+          "result": 7,
+          "step": 7,
+          "text": "84 dividido entre 12, igual a 7."
+        },
+        {
+          "id": "division_12_08",
+          "a": 96,
+          "b": 12,
+          "result": 8,
+          "step": 8,
+          "text": "96 dividido entre 12, igual a 8."
+        },
+        {
+          "id": "division_12_09",
+          "a": 108,
+          "b": 12,
+          "result": 9,
+          "step": 9,
+          "text": "108 dividido entre 12, igual a 9."
+        },
+        {
+          "id": "division_12_10",
+          "a": 120,
+          "b": 12,
+          "result": 10,
+          "step": 10,
+          "text": "120 dividido entre 12, igual a 10."
+        },
+        {
+          "id": "division_12_11",
+          "a": 132,
+          "b": 12,
+          "result": 11,
+          "step": 11,
+          "text": "132 dividido entre 12, igual a 11."
+        },
+        {
+          "id": "division_12_12",
+          "a": 144,
+          "b": 12,
+          "result": 12,
+          "step": 12,
+          "text": "144 dividido entre 12, igual a 12."
+        },
+        {
+          "id": "division_12_13",
+          "a": 156,
+          "b": 12,
+          "result": 13,
+          "step": 13,
+          "text": "156 dividido entre 12, igual a 13."
+        },
+        {
+          "id": "division_12_14",
+          "a": 168,
+          "b": 12,
+          "result": 14,
+          "step": 14,
+          "text": "168 dividido entre 12, igual a 14."
+        },
+        {
+          "id": "division_12_15",
+          "a": 180,
+          "b": 12,
+          "result": 15,
+          "step": 15,
+          "text": "180 dividido entre 12, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 13,
+      "rows": [
+        {
+          "id": "division_13_01",
+          "a": 13,
+          "b": 13,
+          "result": 1,
+          "step": 1,
+          "text": "13 dividido entre 13, igual a 1."
+        },
+        {
+          "id": "division_13_02",
+          "a": 26,
+          "b": 13,
+          "result": 2,
+          "step": 2,
+          "text": "26 dividido entre 13, igual a 2."
+        },
+        {
+          "id": "division_13_03",
+          "a": 39,
+          "b": 13,
+          "result": 3,
+          "step": 3,
+          "text": "39 dividido entre 13, igual a 3."
+        },
+        {
+          "id": "division_13_04",
+          "a": 52,
+          "b": 13,
+          "result": 4,
+          "step": 4,
+          "text": "52 dividido entre 13, igual a 4."
+        },
+        {
+          "id": "division_13_05",
+          "a": 65,
+          "b": 13,
+          "result": 5,
+          "step": 5,
+          "text": "65 dividido entre 13, igual a 5."
+        },
+        {
+          "id": "division_13_06",
+          "a": 78,
+          "b": 13,
+          "result": 6,
+          "step": 6,
+          "text": "78 dividido entre 13, igual a 6."
+        },
+        {
+          "id": "division_13_07",
+          "a": 91,
+          "b": 13,
+          "result": 7,
+          "step": 7,
+          "text": "91 dividido entre 13, igual a 7."
+        },
+        {
+          "id": "division_13_08",
+          "a": 104,
+          "b": 13,
+          "result": 8,
+          "step": 8,
+          "text": "104 dividido entre 13, igual a 8."
+        },
+        {
+          "id": "division_13_09",
+          "a": 117,
+          "b": 13,
+          "result": 9,
+          "step": 9,
+          "text": "117 dividido entre 13, igual a 9."
+        },
+        {
+          "id": "division_13_10",
+          "a": 130,
+          "b": 13,
+          "result": 10,
+          "step": 10,
+          "text": "130 dividido entre 13, igual a 10."
+        },
+        {
+          "id": "division_13_11",
+          "a": 143,
+          "b": 13,
+          "result": 11,
+          "step": 11,
+          "text": "143 dividido entre 13, igual a 11."
+        },
+        {
+          "id": "division_13_12",
+          "a": 156,
+          "b": 13,
+          "result": 12,
+          "step": 12,
+          "text": "156 dividido entre 13, igual a 12."
+        },
+        {
+          "id": "division_13_13",
+          "a": 169,
+          "b": 13,
+          "result": 13,
+          "step": 13,
+          "text": "169 dividido entre 13, igual a 13."
+        },
+        {
+          "id": "division_13_14",
+          "a": 182,
+          "b": 13,
+          "result": 14,
+          "step": 14,
+          "text": "182 dividido entre 13, igual a 14."
+        },
+        {
+          "id": "division_13_15",
+          "a": 195,
+          "b": 13,
+          "result": 15,
+          "step": 15,
+          "text": "195 dividido entre 13, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 14,
+      "rows": [
+        {
+          "id": "division_14_01",
+          "a": 14,
+          "b": 14,
+          "result": 1,
+          "step": 1,
+          "text": "14 dividido entre 14, igual a 1."
+        },
+        {
+          "id": "division_14_02",
+          "a": 28,
+          "b": 14,
+          "result": 2,
+          "step": 2,
+          "text": "28 dividido entre 14, igual a 2."
+        },
+        {
+          "id": "division_14_03",
+          "a": 42,
+          "b": 14,
+          "result": 3,
+          "step": 3,
+          "text": "42 dividido entre 14, igual a 3."
+        },
+        {
+          "id": "division_14_04",
+          "a": 56,
+          "b": 14,
+          "result": 4,
+          "step": 4,
+          "text": "56 dividido entre 14, igual a 4."
+        },
+        {
+          "id": "division_14_05",
+          "a": 70,
+          "b": 14,
+          "result": 5,
+          "step": 5,
+          "text": "70 dividido entre 14, igual a 5."
+        },
+        {
+          "id": "division_14_06",
+          "a": 84,
+          "b": 14,
+          "result": 6,
+          "step": 6,
+          "text": "84 dividido entre 14, igual a 6."
+        },
+        {
+          "id": "division_14_07",
+          "a": 98,
+          "b": 14,
+          "result": 7,
+          "step": 7,
+          "text": "98 dividido entre 14, igual a 7."
+        },
+        {
+          "id": "division_14_08",
+          "a": 112,
+          "b": 14,
+          "result": 8,
+          "step": 8,
+          "text": "112 dividido entre 14, igual a 8."
+        },
+        {
+          "id": "division_14_09",
+          "a": 126,
+          "b": 14,
+          "result": 9,
+          "step": 9,
+          "text": "126 dividido entre 14, igual a 9."
+        },
+        {
+          "id": "division_14_10",
+          "a": 140,
+          "b": 14,
+          "result": 10,
+          "step": 10,
+          "text": "140 dividido entre 14, igual a 10."
+        },
+        {
+          "id": "division_14_11",
+          "a": 154,
+          "b": 14,
+          "result": 11,
+          "step": 11,
+          "text": "154 dividido entre 14, igual a 11."
+        },
+        {
+          "id": "division_14_12",
+          "a": 168,
+          "b": 14,
+          "result": 12,
+          "step": 12,
+          "text": "168 dividido entre 14, igual a 12."
+        },
+        {
+          "id": "division_14_13",
+          "a": 182,
+          "b": 14,
+          "result": 13,
+          "step": 13,
+          "text": "182 dividido entre 14, igual a 13."
+        },
+        {
+          "id": "division_14_14",
+          "a": 196,
+          "b": 14,
+          "result": 14,
+          "step": 14,
+          "text": "196 dividido entre 14, igual a 14."
+        },
+        {
+          "id": "division_14_15",
+          "a": 210,
+          "b": 14,
+          "result": 15,
+          "step": 15,
+          "text": "210 dividido entre 14, igual a 15."
+        }
+      ]
+    },
+    {
+      "operation": "division",
+      "number": 15,
+      "rows": [
+        {
+          "id": "division_15_01",
+          "a": 15,
+          "b": 15,
+          "result": 1,
+          "step": 1,
+          "text": "15 dividido entre 15, igual a 1."
+        },
+        {
+          "id": "division_15_02",
+          "a": 30,
+          "b": 15,
+          "result": 2,
+          "step": 2,
+          "text": "30 dividido entre 15, igual a 2."
+        },
+        {
+          "id": "division_15_03",
+          "a": 45,
+          "b": 15,
+          "result": 3,
+          "step": 3,
+          "text": "45 dividido entre 15, igual a 3."
+        },
+        {
+          "id": "division_15_04",
+          "a": 60,
+          "b": 15,
+          "result": 4,
+          "step": 4,
+          "text": "60 dividido entre 15, igual a 4."
+        },
+        {
+          "id": "division_15_05",
+          "a": 75,
+          "b": 15,
+          "result": 5,
+          "step": 5,
+          "text": "75 dividido entre 15, igual a 5."
+        },
+        {
+          "id": "division_15_06",
+          "a": 90,
+          "b": 15,
+          "result": 6,
+          "step": 6,
+          "text": "90 dividido entre 15, igual a 6."
+        },
+        {
+          "id": "division_15_07",
+          "a": 105,
+          "b": 15,
+          "result": 7,
+          "step": 7,
+          "text": "105 dividido entre 15, igual a 7."
+        },
+        {
+          "id": "division_15_08",
+          "a": 120,
+          "b": 15,
+          "result": 8,
+          "step": 8,
+          "text": "120 dividido entre 15, igual a 8."
+        },
+        {
+          "id": "division_15_09",
+          "a": 135,
+          "b": 15,
+          "result": 9,
+          "step": 9,
+          "text": "135 dividido entre 15, igual a 9."
+        },
+        {
+          "id": "division_15_10",
+          "a": 150,
+          "b": 15,
+          "result": 10,
+          "step": 10,
+          "text": "150 dividido entre 15, igual a 10."
+        },
+        {
+          "id": "division_15_11",
+          "a": 165,
+          "b": 15,
+          "result": 11,
+          "step": 11,
+          "text": "165 dividido entre 15, igual a 11."
+        },
+        {
+          "id": "division_15_12",
+          "a": 180,
+          "b": 15,
+          "result": 12,
+          "step": 12,
+          "text": "180 dividido entre 15, igual a 12."
+        },
+        {
+          "id": "division_15_13",
+          "a": 195,
+          "b": 15,
+          "result": 13,
+          "step": 13,
+          "text": "195 dividido entre 15, igual a 13."
+        },
+        {
+          "id": "division_15_14",
+          "a": 210,
+          "b": 15,
+          "result": 14,
+          "step": 14,
+          "text": "210 dividido entre 15, igual a 14."
+        },
+        {
+          "id": "division_15_15",
+          "a": 225,
+          "b": 15,
+          "result": 15,
+          "step": 15,
+          "text": "225 dividido entre 15, igual a 15."
+        }
+      ]
+    }
+  ]
+}

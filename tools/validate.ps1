@@ -38,6 +38,9 @@ try {
     if (Get-Content -LiteralPath (Join-Path $validationRoot 'story-art-console.log') | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Story artwork reported errors.' }
     & $Godot --headless --path $projectRoot --script res://tests/math_activities_test.gd --log-file (Join-Path $validationRoot 'mathematics.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'mathematics-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Mathematics activities validation failed.' }
+    & $Godot --headless --path $projectRoot --script res://tests/operation_tables_test.gd --log-file (Join-Path $validationRoot 'operation-tables.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'operation-tables-console.log')
+    if ($LASTEXITCODE -ne 0) { throw 'Operation tables validation failed.' }
+    if (Get-Content -LiteralPath (Join-Path $validationRoot 'operation-tables-console.log') | Select-String -Pattern 'SCRIPT ERROR:|^ERROR:') { throw 'Operation tables reported errors.' }
     & $Godot --headless --path $projectRoot --script res://tests/number_activities_test.gd --log-file (Join-Path $validationRoot 'number-activities.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'number-activities-console.log')
     if ($LASTEXITCODE -ne 0) { throw 'Number activities validation failed.' }
     & $Godot --headless --path $projectRoot --script res://tests/number_drag_test.gd --log-file (Join-Path $validationRoot 'number-drag.log') 2>&1 | Tee-Object -FilePath (Join-Path $validationRoot 'number-drag-console.log')
