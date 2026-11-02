@@ -35,6 +35,18 @@ const PLAYER_HURT_SOUND_PATH := "res://assets/audio/level4/dolor-condor-herido.m
 const ZOMBIE_CAT_PATH := "res://assets/games/level4/zombi-gato.png"
 const ZOMBIE_CUY_PATH := "res://assets/games/level4/zombi-cuy.png"
 const ZOMBIE_DOG_PATH := "res://assets/games/level4/zombi-perro-limpio.png"
+const FOX_WALK_PATH := "res://assets/games/level4/zorro-jefe-caminata.png"
+const FOX_ATTACK_PATH := "res://assets/games/level4/zorro-jefe-ataque-acido.png"
+const FOX_ACID_PATH := "res://assets/games/level4/zorro-acido-proyectiles.png"
+const CROCODILE_WALK_PATH := "res://assets/games/level4/cocodrilo-jefe-caminata-atlas.png"
+const CROCODILE_ATTACK_PATH := "res://assets/games/level4/cocodrilo-jefe-ataque-atlas.png"
+const CROCODILE_ROCK_PATH := "res://assets/games/level4/cocodrilo-piedras-atlas.png"
+const LLAMA_WALK_PATH := "res://assets/games/level4/llama-jefe-carga-alpha.png"
+const LLAMA_ATTACK_PATH := "res://assets/games/level4/llama-jefe-escupitajo.png"
+const LLAMA_ACID_PATH := "res://assets/games/level4/llama-acido-proyectil.png"
+const GORILLA_ATTACK_PATH := "res://assets/games/level4/gorila-jefe-ataque.png"
+const GORILLA_ROCKS_PATH := "res://assets/games/level4/gorila-rocas-atlas.png"
+const FOX_ACID_DAMAGE := 30.0
 const ZOMBIE_GROAN_PATHS: Array[String] = [
 	"res://assets/audio/level4/gruñido-zombi.mp3",
 	"res://assets/audio/level4/gruñido-zombi-ambiente.mp3"
@@ -71,6 +83,17 @@ var bomb_atlas: Texture2D
 var zombie_cat_texture: Texture2D
 var zombie_cuy_texture: Texture2D
 var zombie_dog_texture: Texture2D
+var fox_walk_texture: Texture2D
+var fox_attack_texture: Texture2D
+var fox_acid_texture: Texture2D
+var crocodile_walk_texture: Texture2D
+var crocodile_attack_texture: Texture2D
+var crocodile_rock_texture: Texture2D
+var llama_walk_texture: Texture2D
+var llama_attack_texture: Texture2D
+var llama_acid_texture: Texture2D
+var gorilla_attack_texture: Texture2D
+var gorilla_rocks_texture: Texture2D
 var music_player: AudioStreamPlayer
 var shotgun_player: AudioStreamPlayer
 var ally_shotgun_players: Array[AudioStreamPlayer] = []
@@ -104,6 +127,7 @@ var game_finished := false
 var shelter_active := false
 var upgrade_pending := false
 var boss_active := false
+var llama_boss_defeated := false
 var bomb_count := 1
 var shotgun_upgrades := 0
 var companion_count := 0
@@ -166,6 +190,17 @@ func _ready() -> void:
 	zombie_cat_texture = load(ZOMBIE_CAT_PATH) as Texture2D
 	zombie_cuy_texture = load(ZOMBIE_CUY_PATH) as Texture2D
 	zombie_dog_texture = load(ZOMBIE_DOG_PATH) as Texture2D
+	fox_walk_texture = load(FOX_WALK_PATH) as Texture2D
+	fox_attack_texture = load(FOX_ATTACK_PATH) as Texture2D
+	fox_acid_texture = load(FOX_ACID_PATH) as Texture2D
+	crocodile_walk_texture = load(CROCODILE_WALK_PATH) as Texture2D
+	crocodile_attack_texture = load(CROCODILE_ATTACK_PATH) as Texture2D
+	crocodile_rock_texture = load(CROCODILE_ROCK_PATH) as Texture2D
+	llama_walk_texture = load(LLAMA_WALK_PATH) as Texture2D
+	llama_attack_texture = load(LLAMA_ATTACK_PATH) as Texture2D
+	llama_acid_texture = load(LLAMA_ACID_PATH) as Texture2D
+	gorilla_attack_texture = load(GORILLA_ATTACK_PATH) as Texture2D
+	gorilla_rocks_texture = load(GORILLA_ROCKS_PATH) as Texture2D
 	shotgun_player = AudioStreamPlayer.new()
 	shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
 	shotgun_player.volume_db = 3.0
@@ -300,9 +335,17 @@ func _update_player(delta: float) -> void:
 	_check_shelter_entry()
 
 func _update_spawning(delta: float) -> void:
-	# Los animales zombis siguen apareciendo mientras el jugador busca las cinco letras.
-	if upgrade_pending or boss_active or game_finished:
+	if game_finished or upgrade_pending:
 		return
+	# La llama mantiene presión con refuerzos, con un límite para no saturar la partida.
+	if boss_active:
+		if _is_llama_boss_active() and enemies.size() < 14:
+			spawn_clock -= delta
+			if spawn_clock <= 0.0:
+				_spawn_zombie()
+				spawn_clock = randf_range(1.35, 1.9)
+		return
+	# Los animales zombis siguen apareciendo mientras el jugador busca las cinco letras.
 	spawn_clock -= delta
 	if spawn_clock <= 0.0 and enemies.size() < 42:
 		_spawn_zombie()
@@ -325,16 +368,24 @@ func _update_enemies(delta: float) -> void:
 		var to_player := target_position - position
 		var distance := to_player.length()
 		if distance > 0.001:
-			position += to_player / distance * float(enemy["speed"]) * delta
+			var enemy_speed := float(enemy["speed"])
+			if _is_llama_boss_active():
+				enemy_speed *= 1.18
+			position += to_player / distance * enemy_speed * delta
 		enemy["position"] = position
 		enemy["facing_left"] = to_player.x < 0.0
 		enemy["attack_clock"] = maxf(0.0, float(enemy.get("attack_clock", 0.0)) - delta)
-		if distance < 33.0 and float(enemy["attack_clock"]) <= 0.0:
-			enemy["attack_clock"] = 0.8
-			if target_companion_id >= 0:
-				_damage_companion(target_companion_id, 12.0)
-			elif hurt_clock <= 0.0:
-				_damage_player(12.0)
+		if float(enemy["attack_clock"]) <= 0.0:
+			if _llama_acid_mode_active() and distance >= 110.0 and distance <= 520.0:
+				var vomit_direction := (player_position - position).normalized()
+				hazards.append({"kind": "zombie_acid_projectile", "position": position + vomit_direction * 20.0, "velocity": vomit_direction * 365.0, "radius": 20.0, "delay": 0.0, "life": 2.1, "age": 0.0, "damage": 10.0})
+				enemy["attack_clock"] = randf_range(1.35, 2.0)
+			elif distance < 37.0:
+				enemy["attack_clock"] = 0.68 if _is_llama_boss_active() else 0.8
+				if target_companion_id >= 0:
+					_damage_companion(target_companion_id, 12.0)
+				elif hurt_clock <= 0.0:
+					_damage_player(12.0)
 		enemies[index] = enemy
 
 func _update_zombie_audio(delta: float) -> void:
@@ -386,9 +437,12 @@ func _update_bullets(delta: float) -> void:
 			for boss_index in range(bosses.size() - 1, -1, -1):
 				var boss: Dictionary = bosses[boss_index]
 				var boss_position: Vector2 = boss["position"]
-				if position.distance_to(boss_position) <= 52.0:
+				var hit_radius := 98.0 if String(boss["name"]).contains("Cocodrilo") else 52.0
+				if position.distance_to(boss_position) <= hit_radius:
 					boss["hp"] = int(boss["hp"]) - int(bullet.get("damage", 1))
 					if int(boss["hp"]) <= 0:
+						if String(boss.get("name", "")).contains("Llama"):
+							llama_boss_defeated = true
 						score += 250
 						bosses.remove_at(boss_index)
 					else:
@@ -419,9 +473,10 @@ func _spawn_zombie() -> void:
 		2: position = Vector2(25.0, randf_range(130.0, screen_size.y - 35.0))
 		_: position = Vector2(screen_size.x - 25.0, randf_range(130.0, screen_size.y - 35.0))
 	var kind: String = ["gato", "perro", "cuy"][randi_range(0, 2)]
+	var speed_multiplier := 1.55 if _is_llama_boss_active() else 1.0
 	enemies.append({
 		"position": position,
-		"speed": randf_range(48.0, 66.0) + float(letter_index) * 1.2,
+		"speed": (randf_range(48.0, 66.0) + float(letter_index) * 1.2) * speed_multiplier,
 		"hp": 2 + int(letter_index / 8) if kind != "cuy" else 1 + int(letter_index / 10),
 		"kind": kind,
 		"phase": randf_range(0.0, TAU),
@@ -780,20 +835,38 @@ func _start_boss_fight(letter: String) -> void:
 	spawn_clock = 1.0
 	var boss_name: String = BOSS_LETTERS[letter]
 	bosses.clear()
-	var count := 3 if letter == "Z" else 1
+	var count := 3 if letter == "Z" else (2 if letter == "S" else 1)
 	for index in range(count):
+		var current_boss_name: String = boss_name
+		if letter == "S":
+			current_boss_name = "Gorila gigante" if index == 0 else "Zorro gigante zombi"
+		elif letter == "Z":
+			current_boss_name = ["Gorila gigante", "Llama gigante", "Conejo artillero"][index]
+		var boss_hp := 26
+		if current_boss_name.contains("Zorro"):
+			boss_hp = 75 if letter == "S" else 110
+		elif current_boss_name.contains("Gorila"):
+			boss_hp = 250 if letter == "S" else 17
+		elif current_boss_name.contains("Llama"):
+			boss_hp = 190 if count == 1 else 17
+		elif current_boss_name.contains("Cocodrilo"):
+			boss_hp = 80
+		elif current_boss_name.contains("Conejo"):
+			boss_hp = 17
 		bosses.append({
-			"name": boss_name if count == 1 else ["Gorila gigante", "Llama gigante", "Conejo artillero"][index],
+			"name": current_boss_name,
 			"kind": "jefe_%d" % index if count > 1 else letter,
 			"position": player_position + Vector2(310.0 + index * 72.0, -120.0 + index * 120.0),
-			"hp": 26 if count == 1 else 17,
-			"max_hp": 26 if count == 1 else 17,
+			"hp": boss_hp,
+			"max_hp": boss_hp,
 			"final_battle": letter == "Z",
 			"cooldown": 1.6 + randf(),
+			"attack_sequence": 0,
+			"attack_type": "charge",
 			"warning": 0.0,
 			"target": Vector2.ZERO
 		})
-	stage_text.text = "¡JEFE!  %s" % boss_name
+	stage_text.text = "¡JEFE DOBLE!  Gorila gigante y Zorro zombi" if letter == "S" else "¡JEFE!  %s" % boss_name
 	_update_hud()
 
 func _update_bosses(delta: float) -> void:
@@ -803,18 +876,38 @@ func _update_bosses(delta: float) -> void:
 		var boss: Dictionary = bosses[index]
 		var position: Vector2 = boss["position"]
 		var to_player := player_position - position
-		if to_player.length() > 185.0:
-			position += to_player.normalized() * (42.0 + letter_index * 0.4) * delta
+		boss["facing_left"] = to_player.x < 0.0
+		boss["attack_clock"] = maxf(0.0, float(boss.get("attack_clock", 0.0)) - delta)
+		var charge_time := float(boss.get("charge_time", 0.0))
+		if charge_time > 0.0:
+			var charge_target: Vector2 = boss.get("charge_target", player_position)
+			position = position.move_toward(charge_target, 850.0 * delta)
+			charge_time = maxf(0.0, charge_time - delta)
+			if position.distance_to(player_position) <= 64.0:
+				_damage_player(_boss_attack_damage(boss) * 1.25)
+				charge_time = 0.0
+			boss["charge_time"] = charge_time
+		elif to_player.length() > 185.0:
+			var chase_speed := 70.0 if String(boss["name"]).contains("Llama") else 42.0 + float(letter_index) * 0.4
+			position += to_player.normalized() * chase_speed * delta
 		boss["position"] = position
 		boss["cooldown"] = float(boss["cooldown"]) - delta
 		if float(boss["cooldown"]) <= 0.0 and float(boss["warning"]) <= 0.0:
-			boss["warning"] = 0.85
+			var boss_name: String = boss["name"]
+			boss["warning"] = 0.34 if boss_name.contains("Llama") else (0.58 if boss_name.contains("Zorro") else (0.48 if boss_name.contains("Cocodrilo") else (0.7 if boss_name.contains("Gorila") else 0.85)))
+			if boss_name.contains("Cocodrilo"):
+				boss["attack_clock"] = 0.95
+			# El zorro ajusta la puntería durante la advertencia para que el ácido
+			# persiga la posición actual, dejando una ventana corta para esquivar.
 			boss["target"] = player_position
 		elif float(boss["warning"]) > 0.0:
 			boss["warning"] = float(boss["warning"]) - delta
 			if float(boss["warning"]) <= 0.0:
 				_spawn_boss_attack(boss)
-				boss["cooldown"] = 2.5 if int(boss["hp"]) > int(boss["max_hp"]) / 2 else 1.7
+				if String(boss["name"]).contains("Llama"):
+					boss["cooldown"] = randf_range(1.0, 1.35) if int(boss["hp"]) > int(boss["max_hp"]) / 2 else randf_range(0.72, 1.0)
+				else:
+					boss["cooldown"] = 2.5 if int(boss["hp"]) > int(boss["max_hp"]) / 2 else 1.7
 		bosses[index] = boss
 
 func _spawn_boss_attack(boss: Dictionary) -> void:
@@ -823,16 +916,74 @@ func _spawn_boss_attack(boss: Dictionary) -> void:
 	var origin: Vector2 = boss["position"]
 	var damage := _boss_attack_damage(boss)
 	if boss_name.contains("Zorro"):
-		var acid_offsets: Array[Vector2] = [Vector2(-42, 0), Vector2(0, 0), Vector2(42, 0)]
-		for offset in acid_offsets:
-			_add_ground_hazard("acid", target + offset, 38.0, 0.35, 2.0, damage * 0.55)
+		var aim_target := player_position + (target - player_position) * 0.15
+		var muzzle := origin + Vector2(-1.0 if aim_target.x < origin.x else 1.0, -8.0)
+		var direction := (aim_target - muzzle).normalized()
+		if direction == Vector2.ZERO:
+			direction = Vector2.RIGHT
+		hazards.append({
+			"kind": "fox_acid_projectile",
+			"position": muzzle,
+			"velocity": direction * 465.0,
+			"radius": 29.0,
+			"delay": 0.0,
+			"life": 2.8,
+			"age": 0.0,
+			"damage": FOX_ACID_DAMAGE
+		})
+		boss["attack_clock"] = 0.42
 	elif boss_name.contains("Cocodrilo"):
-		_add_ground_hazard("rock", target, 56.0, 0.65, 0.3, damage)
+		var muzzle := origin + Vector2(-72.0 if bool(boss.get("facing_left", false)) else 72.0, -14.0)
+		var direction := (target - muzzle).normalized()
+		if direction == Vector2.ZERO:
+			direction = Vector2.RIGHT
+		hazards.append({
+			"kind": "crocodile_rock",
+			"position": muzzle,
+			"velocity": direction * 535.0,
+			"radius": 27.0,
+			"delay": 0.0,
+			"life": 2.6,
+			"age": 0.0,
+			"damage": damage
+		})
 	elif boss_name.contains("Llama"):
-		hazards.append({"kind": "charge", "position": origin, "target": target, "radius": 34.0, "delay": 0.55, "life": 2.0, "speed": 500.0, "damage": damage})
+		var sequence := int(boss.get("attack_sequence", 0))
+		boss["attack_sequence"] = sequence + 1
+		if sequence % 2 == 0:
+			# Embestida veloz hacia el punto que ocupaba el jugador al comenzar.
+			var dash_direction := (target - origin).normalized()
+			if dash_direction == Vector2.ZERO:
+				dash_direction = Vector2.RIGHT
+			var dash_target := target + dash_direction * 220.0
+			dash_target.x = clampf(dash_target.x, 40.0, WORLD_SIZE.x - 40.0)
+			dash_target.y = clampf(dash_target.y, 120.0, WORLD_SIZE.y - 40.0)
+			boss["charge_target"] = dash_target
+			boss["charge_time"] = 0.68
+			boss["attack_type"] = "charge"
+			boss["attack_clock"] = 0.68
+		else:
+			var direction := (target - origin).normalized()
+			if direction == Vector2.ZERO:
+				direction = Vector2.RIGHT
+			hazards.append({"kind": "llama_acid_projectile", "position": origin + direction * 68.0 + Vector2(0.0, -36.0), "velocity": direction * 510.0, "radius": 31.0, "delay": 0.0, "life": 2.3, "age": 0.0, "damage": damage * 1.1})
+			boss["attack_type"] = "acid"
+			boss["attack_clock"] = 0.8
 	elif boss_name.contains("Gorila"):
-		_add_ground_hazard("rock", target + Vector2(-62, 0), 49.0, 0.7, 0.3, damage * 0.75)
-		_add_ground_hazard("rock", target + Vector2(62, 0), 49.0, 0.7, 0.3, damage * 0.75)
+		# Dos pedrones salen juntos hacia la posición prevista del jugador,
+		# con una separación pequeña para que puedan esquivarse como pareja.
+		var facing_sign := -1.0 if bool(boss.get("facing_left", false)) else 1.0
+		var muzzle := origin + Vector2(72.0 * facing_sign, -32.0)
+		for rock_index in range(2):
+			var side_offset := -24.0 if rock_index == 0 else 24.0
+			var rock_target := target + Vector2(side_offset, 0.0)
+			var direction := (rock_target - muzzle).normalized()
+			if direction == Vector2.ZERO:
+				direction = Vector2(facing_sign, 0.0)
+			hazards.append({"kind": "gorilla_rock", "position": muzzle + Vector2(0.0, float(rock_index) * 13.0), "velocity": direction * 610.0, "radius": 37.0, "delay": 0.0, "life": 2.7, "age": 0.0, "damage": 40.0})
+		# El ciclo visual dura lo mismo que el gesto completo: levantar,
+		# preparar y lanzar. Así no queda una pose de ataque congelada.
+		boss["attack_clock"] = 0.62
 	elif boss_name.contains("Conejo"):
 		var aim := (target - origin).normalized()
 		for pellet_index in range(5):
@@ -847,10 +998,13 @@ func _add_ground_hazard(kind: String, position: Vector2, radius: float, delay: f
 func _update_hazards(delta: float) -> void:
 	for index in range(hazards.size() - 1, -1, -1):
 		var hazard: Dictionary = hazards[index]
-		hazard["delay"] = maxf(0.0, float(hazard["delay"]) - delta)
+		# Los efectos instantáneos (por ejemplo, el impacto de una piedra)
+		# no siempre tienen retardo; tratarlos como delay 0 evita detener el juego.
+		var hazard_delay: float = maxf(0.0, float(hazard.get("delay", 0.0)) - delta)
+		hazard["delay"] = hazard_delay
 		var kind: String = hazard["kind"]
 		var position: Vector2 = hazard["position"]
-		if float(hazard["delay"]) > 0.0:
+		if hazard_delay > 0.0:
 			hazards[index] = hazard
 			continue
 		if kind == "charge":
@@ -874,6 +1028,63 @@ func _update_hazards(delta: float) -> void:
 				hazards.remove_at(index)
 				continue
 			if float(hazard["life"]) <= 0.0 or not Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+				hazards.remove_at(index)
+				continue
+		elif kind == "fox_acid_projectile" or kind == "llama_acid_projectile" or kind == "zombie_vomit" or kind == "zombie_acid_projectile":
+			var velocity: Vector2 = hazard["velocity"]
+			position += velocity * delta
+			hazard["position"] = position
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
+			hazard["life"] = float(hazard["life"]) - delta
+			if player_position.distance_to(position) <= float(hazard["radius"]) + 13.0:
+				_damage_player(float(hazard["damage"]))
+				hazards.remove_at(index)
+				continue
+			if float(hazard["life"]) <= 0.0 or not Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+				hazards.remove_at(index)
+				continue
+		elif kind == "crocodile_rock":
+			var rock_velocity: Vector2 = hazard["velocity"]
+			position += rock_velocity * delta
+			hazard["position"] = position
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
+			hazard["life"] = float(hazard["life"]) - delta
+			if player_position.distance_to(position) <= float(hazard["radius"]) + 13.0:
+				_damage_player(float(hazard["damage"]))
+				hazards.append({"kind": "crocodile_impact", "position": position, "delay": 0.0, "age": 0.0, "life": 0.48})
+				hazards.remove_at(index)
+				continue
+			if float(hazard["life"]) <= 0.0 or not Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+				if Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+					hazards.append({"kind": "crocodile_impact", "position": position, "delay": 0.0, "age": 0.0, "life": 0.48})
+				hazards.remove_at(index)
+				continue
+		elif kind == "gorilla_rock":
+			var gorilla_velocity: Vector2 = hazard["velocity"]
+			position += gorilla_velocity * delta
+			hazard["position"] = position
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
+			hazard["life"] = float(hazard["life"]) - delta
+			if player_position.distance_to(position) <= float(hazard["radius"]) + 13.0:
+				_damage_player(float(hazard["damage"]))
+				hazards.append({"kind": "gorilla_impact", "position": position, "delay": 0.0, "age": 0.0, "life": 0.48})
+				hazards.remove_at(index)
+				continue
+			if float(hazard["life"]) <= 0.0 or not Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+				if Rect2(Vector2.ZERO, WORLD_SIZE).has_point(position):
+					hazards.append({"kind": "gorilla_impact", "position": position, "delay": 0.0, "age": 0.0, "life": 0.48})
+				hazards.remove_at(index)
+				continue
+		elif kind == "crocodile_impact":
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
+			hazard["life"] = float(hazard["life"]) - delta
+			if float(hazard["life"]) <= 0.0:
+				hazards.remove_at(index)
+				continue
+		elif kind == "gorilla_impact":
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
+			hazard["life"] = float(hazard["life"]) - delta
+			if float(hazard["life"]) <= 0.0:
 				hazards.remove_at(index)
 				continue
 		elif kind == "acid":
@@ -919,11 +1130,26 @@ func _boss_attack_radius(boss: Dictionary) -> float:
 		radius -= 22.0
 	return radius
 
+func _is_llama_boss_active() -> bool:
+	if not boss_active:
+		return false
+	for boss in bosses:
+		if String(boss.get("name", "")).contains("Llama"):
+			return true
+	return false
+
+func _llama_acid_mode_active() -> bool:
+	# Tras vencer al jefe llama, los zombis comunes conservan el ataque ácido
+	# durante el resto de esta partida.
+	return llama_boss_defeated or _is_llama_boss_active()
+
 func _boss_attack_damage(boss: Dictionary) -> float:
 	var damage := 16.0 if int(boss["hp"]) > int(boss["max_hp"]) / 2 else 20.0
 	if bool(boss.get("final_battle", false)):
 		return 9.0 if int(boss["hp"]) > int(boss["max_hp"]) / 2 else 12.0
 	var boss_name: String = boss["name"]
+	if boss_name.contains("Gorila"):
+		return 40.0
 	if boss_name.contains("Conejo"):
 		damage += 3.0
 	return damage
@@ -1127,6 +1353,7 @@ func _reset_game() -> void:
 	shelter_active = false
 	upgrade_pending = false
 	boss_active = false
+	llama_boss_defeated = false
 	enemies.clear()
 	bullets.clear()
 	hearts.clear()
@@ -1447,9 +1674,16 @@ func _draw_condor() -> void:
 
 	var frame_index := int(animation_clock * 10.0) % 12 if player_moving else 0
 	var frame_size := Vector2(float(condor_sprites.get_width()) / 6.0, float(condor_sprites.get_height()) / 2.0) if condor_sprites != null else Vector2.ZERO
-	# Al caminar conserva su animación. El arma gira hacia el apuntado; el cuerpo permanece erguido.
+	# Al caminar conserva su animación y el cuerpo permanece erguido.
 	if shotgun_texture != null:
-		draw_set_transform(player_position, aim_direction.angle())
+		var weapon_rotation := aim_direction.angle()
+		var weapon_scale := Vector2.ONE
+		if player_moving:
+			# Durante la caminata el arma solo mira a izquierda o derecha; nunca queda invertida por apuntar arriba/abajo.
+			weapon_rotation = 0.0
+			if aim_direction.x < -0.05:
+				weapon_scale.x = -1.0
+		draw_set_transform(player_position, weapon_rotation, weapon_scale)
 		var recoil := 7.0 if muzzle_flash > 0.0 else 0.0
 		draw_texture_rect(shotgun_texture, Rect2(Vector2(8.0 - recoil, -23.0), Vector2(112.0, 37.0)), false)
 		if muzzle_flash > 0.0:
@@ -1564,6 +1798,122 @@ func _draw_shelter() -> void:
 func _draw_boss(boss: Dictionary) -> void:
 	var position: Vector2 = boss["position"]
 	var boss_name: String = boss["name"]
+	if boss_name.contains("Cocodrilo") and crocodile_walk_texture != null:
+		var flip_left := bool(boss.get("facing_left", false))
+		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
+		var destination := Rect2(Vector2(-119.0, -142.0), Vector2(238.0, 284.0))
+		if float(boss.get("attack_clock", 0.0)) > 0.0 and crocodile_attack_texture != null:
+			var attack_frame := clampi(int((0.95 - float(boss["attack_clock"])) * 7.0), 0, 5)
+			var attack_cell_size := Vector2(float(crocodile_attack_texture.get_width()) / 3.0, float(crocodile_attack_texture.get_height()) / 2.0)
+			var attack_source := Rect2(Vector2(float(attack_frame % 3) * attack_cell_size.x, float(floori(float(attack_frame) / 3.0)) * attack_cell_size.y), attack_cell_size)
+			draw_texture_rect_region(crocodile_attack_texture, destination, attack_source, Color.WHITE, false, true)
+		else:
+			var cell_size := Vector2(float(crocodile_walk_texture.get_width()) / 4.0, float(crocodile_walk_texture.get_height()) / 2.0)
+			var frame := int(animation_clock * 7.0) % 8
+			var column := frame % 4
+			var row := floori(float(frame) / 4.0)
+			var source := Rect2(Vector2(float(column) * cell_size.x, float(row) * cell_size.y), cell_size)
+			draw_texture_rect_region(crocodile_walk_texture, destination, source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		var croc_bar := Rect2(position + Vector2(-78.0, -156.0), Vector2(156.0, 13.0))
+		draw_rect(croc_bar, Color("#34303a"))
+		var croc_ratio := clampf(float(boss["hp"]) / float(boss["max_hp"]), 0.0, 1.0)
+		draw_rect(Rect2(croc_bar.position, Vector2(croc_bar.size.x * croc_ratio, croc_bar.size.y)), Color("#ff5870"))
+		if float(boss["warning"]) > 0.0:
+			var croc_target: Vector2 = boss["target"]
+			var croc_mouth := position + Vector2(-60.0 if flip_left else 60.0, -32.0)
+			draw_line(croc_mouth, croc_target, Color(1.0, 0.45, 0.12, 0.28), 20.0, true)
+			draw_line(croc_mouth, croc_target, Color("#ffab45"), 4.0, true)
+			draw_arc(croc_target, 22.0, 0.0, TAU, 28, Color("#ffe06b"), 4.0, true)
+		return
+	if boss_name.contains("Zorro") and fox_walk_texture != null:
+		var attacking := float(boss.get("attack_clock", 0.0)) > 0.0 and fox_attack_texture != null
+		var frame_size := Vector2(float(fox_walk_texture.get_width()) / 6.0, float(fox_walk_texture.get_height()) / 2.0)
+		var destination := Rect2(Vector2(-77.0, -73.0), Vector2(154.0, 146.0))
+		var flip_left := bool(boss.get("facing_left", false))
+		# Solo voltea horizontalmente: nunca transpone ni gira el sprite.
+		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
+		if attacking:
+			# Las celdas 3 y 4 (índice desde cero) muestran el gesto y la salida del ácido.
+			var attack_frame := 2 if float(boss.get("attack_clock", 0.0)) > 0.21 else 3
+			var attack_cell := Rect2(Vector2(float(attack_frame) * frame_size.x, 0.0), frame_size)
+			draw_texture_rect_region(fox_attack_texture, destination, attack_cell, Color.WHITE, false, true)
+		else:
+			# Índice de fila entero: evita recortes fraccionarios que mezclaban dos poses.
+			var walk_frame := int(animation_clock * 6.0 + float(boss.get("phase", 0.0))) % 12
+			var walk_column := walk_frame % 6
+			var walk_row := floori(float(walk_frame) / 6.0)
+			var walk_cell := Rect2(Vector2(float(walk_column) * frame_size.x, float(walk_row) * frame_size.y), frame_size)
+			draw_texture_rect_region(fox_walk_texture, destination, walk_cell, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		var fox_bar := Rect2(position + Vector2(-47.0, -87.0), Vector2(94.0, 10.0))
+		draw_rect(fox_bar, Color("#34303a"))
+		var fox_ratio := clampf(float(boss["hp"]) / float(boss["max_hp"]), 0.0, 1.0)
+		draw_rect(Rect2(fox_bar.position, Vector2(fox_bar.size.x * fox_ratio, fox_bar.size.y)), Color("#ff5870"))
+		if float(boss["warning"]) > 0.0:
+			var fox_target: Vector2 = boss["target"]
+			var mouth := position + Vector2(-1.0 if flip_left else 1.0, -10.0)
+			draw_line(mouth, fox_target, Color(0.55, 1.0, 0.12, 0.28), 18.0, true)
+			draw_line(mouth, fox_target, Color("#c5ff37"), 3.0, true)
+			var aim_marker := 15.0 + sin(animation_clock * 12.0) * 3.0
+			draw_arc(fox_target, aim_marker, 0.0, TAU, 28, Color("#d4ff45"), 4.0, true)
+		return
+	if boss_name.contains("Llama") and llama_walk_texture != null:
+		var flip_left := bool(boss.get("facing_left", false))
+		var attacking := float(boss.get("attack_clock", 0.0)) > 0.0
+		var destination := Rect2(Vector2(-105.0, -96.0), Vector2(210.0, 192.0))
+		var cell_size := Vector2(float(llama_walk_texture.get_width()) / 4.0, float(llama_walk_texture.get_height()) / 2.0)
+		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
+		if attacking and String(boss.get("attack_type", "charge")) == "acid" and llama_attack_texture != null:
+			# Las poses de la hoja están pegadas y se solapan; usar el recorte
+			# aislado del extremo evita que aparezca una segunda llama al escupir.
+			var spit_source := Rect2(760.0, 0.0, 140.0, float(llama_attack_texture.get_height()))
+			draw_texture_rect_region(llama_attack_texture, destination, spit_source, Color.WHITE, false, true)
+		else:
+			# Cuatro poses alternas de carrera; en embestida se usa la pose con polvo.
+			var run_columns: Array[int] = [2, 0, 1, 2]
+			var run_rows: Array[int] = [0, 1, 1, 1]
+			var run_index := 3 if attacking else int(animation_clock * 7.0 + float(boss.get("phase", 0.0))) % run_columns.size()
+			var run_source := Rect2(Vector2(float(run_columns[run_index]) * cell_size.x, float(run_rows[run_index]) * cell_size.y), cell_size)
+			draw_texture_rect_region(llama_walk_texture, destination, run_source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		var llama_bar := Rect2(position + Vector2(-82.0, -112.0), Vector2(164.0, 14.0))
+		draw_rect(llama_bar, Color("#34303a"))
+		var llama_ratio := clampf(float(boss["hp"]) / float(boss["max_hp"]), 0.0, 1.0)
+		draw_rect(Rect2(llama_bar.position, Vector2(llama_bar.size.x * llama_ratio, llama_bar.size.y)), Color("#ff5870"))
+		if float(boss["warning"]) > 0.0:
+			var llama_target: Vector2 = boss["target"]
+			var charge_line := Color("#ff7955")
+			draw_line(position, llama_target, Color(charge_line.r, charge_line.g, charge_line.b, 0.28), 28.0, true)
+			draw_line(position, llama_target, charge_line, 4.0, true)
+			draw_circle(llama_target, 23.0 + sin(animation_clock * 16.0) * 4.0, Color("#ffe177"))
+		return
+	if boss_name.contains("Gorila") and gorilla_attack_texture != null:
+		var flip_left := bool(boss.get("facing_left", false))
+		var attack_clock := float(boss.get("attack_clock", 0.0))
+		var frame_x := 1344.0
+		if attack_clock > 0.0:
+			if attack_clock > 0.42:
+				frame_x = 0.0
+			elif attack_clock > 0.20:
+				frame_x = 448.0
+			else:
+				frame_x = 896.0
+		var source := Rect2(frame_x, 0.0, 448.0, 640.0)
+		var destination := Rect2(Vector2(-132.0, -154.0), Vector2(264.0, 308.0))
+		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
+		draw_texture_rect_region(gorilla_attack_texture, destination, source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		var gorilla_bar := Rect2(position + Vector2(-112.0, -173.0), Vector2(224.0, 16.0))
+		draw_rect(gorilla_bar, Color("#34303a"))
+		var gorilla_ratio := clampf(float(boss["hp"]) / float(boss["max_hp"]), 0.0, 1.0)
+		draw_rect(Rect2(gorilla_bar.position, Vector2(gorilla_bar.size.x * gorilla_ratio, gorilla_bar.size.y)), Color("#ff5870"))
+		if float(boss["warning"]) > 0.0:
+			var gorilla_target: Vector2 = boss["target"]
+			draw_line(position + Vector2(50.0 if not flip_left else -50.0, -42.0), gorilla_target, Color(1.0, 0.67, 0.18, 0.42), 12.0, true)
+			draw_arc(gorilla_target + Vector2(-24.0, 0.0), 20.0, 0.0, TAU, 28, Color("#ffdf6b"), 4.0, true)
+			draw_arc(gorilla_target + Vector2(24.0, 0.0), 20.0, 0.0, TAU, 28, Color("#ffdf6b"), 4.0, true)
+		return
 	var color := Color("#b86a4a")
 	if boss_name.contains("Cocodrilo"):
 		color = Color("#55a873")
@@ -1644,6 +1994,62 @@ func _draw_bomb_explosion(explosion: Dictionary) -> void:
 func _draw_hazard(hazard: Dictionary) -> void:
 	var kind: String = hazard["kind"]
 	var position: Vector2 = hazard["position"]
+	if kind == "gorilla_rock" and gorilla_rocks_texture != null:
+		var cell_width := float(gorilla_rocks_texture.get_width()) / 11.0
+		var frame := mini(int(float(hazard.get("age", 0.0)) * 14.0), 6)
+		var source := Rect2(Vector2(float(frame) * cell_width, 0.0), Vector2(cell_width, float(gorilla_rocks_texture.get_height())))
+		var velocity: Vector2 = hazard["velocity"]
+		draw_set_transform(position, velocity.angle(), Vector2.ONE)
+		draw_texture_rect_region(gorilla_rocks_texture, Rect2(Vector2(-54.0, -45.0), Vector2(108.0, 90.0)), source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		return
+	if kind == "gorilla_impact" and gorilla_rocks_texture != null:
+		var cell_width := float(gorilla_rocks_texture.get_width()) / 11.0
+		var frame := 7 + mini(int(float(hazard.get("age", 0.0)) * 9.0), 3)
+		var source := Rect2(Vector2(float(frame) * cell_width, 0.0), Vector2(cell_width, float(gorilla_rocks_texture.get_height())))
+		var fade := clampf(float(hazard["life"]) / 0.2, 0.0, 1.0)
+		draw_texture_rect_region(gorilla_rocks_texture, Rect2(position - Vector2(66.0, 52.0), Vector2(132.0, 104.0)), source, Color(1.0, 1.0, 1.0, fade), false, true)
+		return
+	if kind == "crocodile_rock" and crocodile_rock_texture != null:
+		var cell_width := float(crocodile_rock_texture.get_width()) / 11.0
+		var frame := mini(int(float(hazard.get("age", 0.0)) * 12.0), 6)
+		var source := Rect2(Vector2(float(frame) * cell_width, 0.0), Vector2(cell_width, float(crocodile_rock_texture.get_height())))
+		var velocity: Vector2 = hazard["velocity"]
+		draw_set_transform(position, velocity.angle(), Vector2.ONE)
+		draw_texture_rect_region(crocodile_rock_texture, Rect2(Vector2(-39.0, -32.0), Vector2(78.0, 64.0)), source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		return
+	if kind == "crocodile_impact" and crocodile_rock_texture != null:
+		var cell_width := float(crocodile_rock_texture.get_width()) / 11.0
+		var impact_frame := 7 + mini(int(float(hazard.get("age", 0.0)) * 9.0), 3)
+		var source := Rect2(Vector2(float(impact_frame) * cell_width, 0.0), Vector2(cell_width, float(crocodile_rock_texture.get_height())))
+		var fade := clampf(float(hazard["life"]) / 0.2, 0.0, 1.0)
+		draw_texture_rect_region(crocodile_rock_texture, Rect2(position - Vector2(57.0, 41.0), Vector2(114.0, 82.0)), source, Color(1.0, 1.0, 1.0, fade), false, true)
+		return
+	if kind == "fox_acid_projectile" or kind == "llama_acid_projectile" or kind == "zombie_vomit" or kind == "zombie_acid_projectile":
+		var velocity: Vector2 = hazard["velocity"]
+		var angle := velocity.angle()
+		var age := float(hazard.get("age", 0.0))
+		if kind == "zombie_vomit":
+			draw_set_transform(position, angle, Vector2(1.5, 1.0))
+			draw_circle(Vector2.ZERO, 12.0, Color("#75bf32"))
+			draw_circle(Vector2(-8.0, -8.0), 5.0, Color("#b9ed52"))
+			draw_circle(Vector2(9.0, 6.0), 4.0, Color("#d9ff72"))
+			draw_set_transform(Vector2.ZERO)
+		elif ((kind == "llama_acid_projectile" or kind == "zombie_acid_projectile") and llama_acid_texture != null) or (kind == "fox_acid_projectile" and fox_acid_texture != null):
+			var acid_texture: Texture2D = fox_acid_texture if kind == "fox_acid_projectile" else llama_acid_texture
+			# El primer renglón de ambos atlas muestra el ácido durante el vuelo.
+			var cell_width := float(acid_texture.get_width()) / 7.0
+			var frame := mini(int(age * 13.0), 6)
+			var source := Rect2(Vector2(float(frame) * cell_width, 0.0), Vector2(cell_width, float(acid_texture.get_height()) / 3.0))
+			var size := Vector2(54.0, 48.0) * (1.0 + float(frame) * 0.045)
+			draw_set_transform(position, angle, Vector2.ONE)
+			draw_texture_rect_region(acid_texture, Rect2(-size * 0.5, size), source, Color.WHITE, false, true)
+			draw_set_transform(Vector2.ZERO)
+		else:
+			draw_circle(position, float(hazard["radius"]), Color("#b7ff22"))
+			draw_circle(position, 11.0, Color("#edff70"))
+		return
 	if kind == "charge":
 		var target: Vector2 = hazard["target"]
 		draw_line(position, target, Color(1.0, 0.18, 0.24, 0.28), 44.0, true)
