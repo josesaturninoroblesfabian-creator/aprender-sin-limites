@@ -46,6 +46,9 @@ const LLAMA_ATTACK_PATH := "res://assets/games/level4/llama-jefe-escupitajo.png"
 const LLAMA_ACID_PATH := "res://assets/games/level4/llama-acido-proyectil.png"
 const GORILLA_ATTACK_PATH := "res://assets/games/level4/gorila-jefe-ataque.png"
 const GORILLA_ROCKS_PATH := "res://assets/games/level4/gorila-rocas-atlas.png"
+const RABBIT_WALK_PATH := "res://assets/games/level4/conejo-jefe-caminata.png"
+const RABBIT_ATTACK_PATH := "res://assets/games/level4/conejo-jefe-ametralladora.png"
+const RABBIT_BULLETS_PATH := "res://assets/games/level4/conejo-jefe-proyectiles.png"
 const FOX_ACID_DAMAGE := 30.0
 const ZOMBIE_GROAN_PATHS: Array[String] = [
 	"res://assets/audio/level4/gruñido-zombi.mp3",
@@ -94,6 +97,9 @@ var llama_attack_texture: Texture2D
 var llama_acid_texture: Texture2D
 var gorilla_attack_texture: Texture2D
 var gorilla_rocks_texture: Texture2D
+var rabbit_walk_texture: Texture2D
+var rabbit_attack_texture: Texture2D
+var rabbit_bullets_texture: Texture2D
 var music_player: AudioStreamPlayer
 var shotgun_player: AudioStreamPlayer
 var ally_shotgun_players: Array[AudioStreamPlayer] = []
@@ -201,6 +207,9 @@ func _ready() -> void:
 	llama_acid_texture = load(LLAMA_ACID_PATH) as Texture2D
 	gorilla_attack_texture = load(GORILLA_ATTACK_PATH) as Texture2D
 	gorilla_rocks_texture = load(GORILLA_ROCKS_PATH) as Texture2D
+	rabbit_walk_texture = load(RABBIT_WALK_PATH) as Texture2D
+	rabbit_attack_texture = load(RABBIT_ATTACK_PATH) as Texture2D
+	rabbit_bullets_texture = load(RABBIT_BULLETS_PATH) as Texture2D
 	shotgun_player = AudioStreamPlayer.new()
 	shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
 	shotgun_player.volume_db = 3.0
@@ -337,13 +346,16 @@ func _update_player(delta: float) -> void:
 func _update_spawning(delta: float) -> void:
 	if game_finished or upgrade_pending:
 		return
-	# La llama mantiene presión con refuerzos, con un límite para no saturar la partida.
+	# Desde que aparece la llama, los enemigos comunes también refuerzan
+	# cualquier pelea de jefe y conservan su ataque ácido tras derrotarla.
 	if boss_active:
-		if _is_llama_boss_active() and enemies.size() < 14:
+		var final_battle := letter_index == SPANISH_LETTERS.length() - 1
+		var enemy_limit := 7 if final_battle else 14
+		if _llama_acid_mode_active() and enemies.size() < enemy_limit:
 			spawn_clock -= delta
 			if spawn_clock <= 0.0:
 				_spawn_zombie()
-				spawn_clock = randf_range(1.35, 1.9)
+				spawn_clock = randf_range(2.6, 3.5) if final_battle else randf_range(1.15, 1.65)
 		return
 	# Los animales zombis siguen apareciendo mientras el jugador busca las cinco letras.
 	spawn_clock -= delta
@@ -370,16 +382,17 @@ func _update_enemies(delta: float) -> void:
 		if distance > 0.001:
 			var enemy_speed := float(enemy["speed"])
 			if _is_llama_boss_active():
-				enemy_speed *= 1.18
+				enemy_speed *= 1.08 if letter_index == SPANISH_LETTERS.length() - 1 else 1.18
 			position += to_player / distance * enemy_speed * delta
 		enemy["position"] = position
 		enemy["facing_left"] = to_player.x < 0.0
 		enemy["attack_clock"] = maxf(0.0, float(enemy.get("attack_clock", 0.0)) - delta)
 		if float(enemy["attack_clock"]) <= 0.0:
-			if _llama_acid_mode_active() and distance >= 110.0 and distance <= 520.0:
+			var player_distance := player_position.distance_to(position)
+			if _llama_acid_mode_active() and player_distance >= 110.0 and player_distance <= 520.0:
 				var vomit_direction := (player_position - position).normalized()
 				hazards.append({"kind": "zombie_acid_projectile", "position": position + vomit_direction * 20.0, "velocity": vomit_direction * 365.0, "radius": 20.0, "delay": 0.0, "life": 2.1, "age": 0.0, "damage": 10.0})
-				enemy["attack_clock"] = randf_range(1.35, 2.0)
+				enemy["attack_clock"] = randf_range(2.5, 3.3) if letter_index == SPANISH_LETTERS.length() - 1 else randf_range(1.15, 1.75)
 			elif distance < 37.0:
 				enemy["attack_clock"] = 0.68 if _is_llama_boss_active() else 0.8
 				if target_companion_id >= 0:
@@ -846,13 +859,18 @@ func _start_boss_fight(letter: String) -> void:
 		if current_boss_name.contains("Zorro"):
 			boss_hp = 75 if letter == "S" else 110
 		elif current_boss_name.contains("Gorila"):
-			boss_hp = 250 if letter == "S" else 17
+			boss_hp = 650 if letter == "Z" else (250 if letter == "S" else 17)
 		elif current_boss_name.contains("Llama"):
-			boss_hp = 190 if count == 1 else 17
+			boss_hp = 700 if letter == "Z" else (190 if count == 1 else 17)
 		elif current_boss_name.contains("Cocodrilo"):
 			boss_hp = 80
 		elif current_boss_name.contains("Conejo"):
-			boss_hp = 17
+			boss_hp = 550 if letter == "Z" else (420 if letter == "X" else 95)
+		var initial_cooldown := 1.6 + randf()
+		if letter == "Z":
+			# Los tres jefes empiezan separados para que sus ataques no coincidan.
+			var final_cooldowns: Array[float] = [0.8, 2.45, 4.1]
+			initial_cooldown = final_cooldowns[index] + randf_range(0.0, 0.55)
 		bosses.append({
 			"name": current_boss_name,
 			"kind": "jefe_%d" % index if count > 1 else letter,
@@ -860,11 +878,14 @@ func _start_boss_fight(letter: String) -> void:
 			"hp": boss_hp,
 			"max_hp": boss_hp,
 			"final_battle": letter == "Z",
-			"cooldown": 1.6 + randf(),
+			"cooldown": initial_cooldown,
 			"attack_sequence": 0,
 			"attack_type": "charge",
 			"warning": 0.0,
-			"target": Vector2.ZERO
+			"target": Vector2.ZERO,
+			"dodge_clock": 0.0,
+			"dodge_direction": Vector2.ZERO,
+			"phase": randf_range(0.0, TAU)
 		})
 	stage_text.text = "¡JEFE DOBLE!  Gorila gigante y Zorro zombi" if letter == "S" else "¡JEFE!  %s" % boss_name
 	_update_hud()
@@ -887,6 +908,40 @@ func _update_bosses(delta: float) -> void:
 				_damage_player(_boss_attack_damage(boss) * 1.25)
 				charge_time = 0.0
 			boss["charge_time"] = charge_time
+		elif String(boss["name"]).contains("Conejo"):
+			var rabbit_distance := to_player.length()
+			var dodge_clock := maxf(0.0, float(boss.get("dodge_clock", 0.0)) - delta)
+			var dodge_direction: Vector2 = boss.get("dodge_direction", Vector2.ZERO)
+			if dodge_clock <= 0.0:
+				# Lee la trayectoria de los disparos y se aparta perpendicularmente.
+				for player_bullet in bullets:
+					var shot_position: Vector2 = player_bullet["position"]
+					var shot_direction: Vector2 = player_bullet["direction"]
+					var to_rabbit := position - shot_position
+					var forward_distance := to_rabbit.dot(shot_direction)
+					if forward_distance >= 0.0 and forward_distance <= 205.0:
+						var closest_point := shot_position + shot_direction * forward_distance
+						if closest_point.distance_to(position) < 82.0:
+							var side := -1.0 if shot_direction.rotated(PI / 2.0).dot(to_rabbit) < 0.0 else 1.0
+							dodge_direction = shot_direction.rotated(PI / 2.0) * side
+							dodge_clock = 0.34
+							break
+			if dodge_clock > 0.0 and dodge_direction.length_squared() > 0.01:
+				position += dodge_direction.normalized() * 310.0 * delta
+			else:
+				# Mantiene distancia, cambia de lado y no se queda quieto al atacar.
+				var orbit := to_player.normalized().rotated(PI / 2.0)
+				var side_sign := -1.0 if sin(animation_clock * 1.7 + float(boss.get("phase", 0.0))) < 0.0 else 1.0
+				var radial := Vector2.ZERO
+				if rabbit_distance > 310.0:
+					radial = to_player.normalized() * 0.72
+				elif rabbit_distance < 205.0:
+					radial = -to_player.normalized() * 0.78
+				position += (radial + orbit * side_sign * 0.72).normalized() * 205.0 * delta
+			boss["dodge_clock"] = dodge_clock
+			boss["dodge_direction"] = dodge_direction
+			position.x = clampf(position.x, 70.0, WORLD_SIZE.x - 70.0)
+			position.y = clampf(position.y, 125.0, WORLD_SIZE.y - 65.0)
 		elif to_player.length() > 185.0:
 			var chase_speed := 70.0 if String(boss["name"]).contains("Llama") else 42.0 + float(letter_index) * 0.4
 			position += to_player.normalized() * chase_speed * delta
@@ -894,7 +949,26 @@ func _update_bosses(delta: float) -> void:
 		boss["cooldown"] = float(boss["cooldown"]) - delta
 		if float(boss["cooldown"]) <= 0.0 and float(boss["warning"]) <= 0.0:
 			var boss_name: String = boss["name"]
-			boss["warning"] = 0.34 if boss_name.contains("Llama") else (0.58 if boss_name.contains("Zorro") else (0.48 if boss_name.contains("Cocodrilo") else (0.7 if boss_name.contains("Gorila") else 0.85)))
+			if bool(boss.get("final_battle", false)):
+				if boss_name.contains("Gorila"):
+					boss["warning"] = 0.9
+				elif boss_name.contains("Llama"):
+					boss["warning"] = 0.72
+				else:
+					boss["warning"] = 0.58
+			else:
+				if boss_name.contains("Llama"):
+					boss["warning"] = 0.34
+				elif boss_name.contains("Zorro"):
+					boss["warning"] = 0.58
+				elif boss_name.contains("Cocodrilo"):
+					boss["warning"] = 0.48
+				elif boss_name.contains("Gorila"):
+					boss["warning"] = 0.7
+				elif boss_name.contains("Conejo"):
+					boss["warning"] = 0.32
+				else:
+					boss["warning"] = 0.85
 			if boss_name.contains("Cocodrilo"):
 				boss["attack_clock"] = 0.95
 			# El zorro ajusta la puntería durante la advertencia para que el ácido
@@ -902,10 +976,16 @@ func _update_bosses(delta: float) -> void:
 			boss["target"] = player_position
 		elif float(boss["warning"]) > 0.0:
 			boss["warning"] = float(boss["warning"]) - delta
+			if String(boss["name"]).contains("Conejo"):
+				boss["target"] = player_position
 			if float(boss["warning"]) <= 0.0:
 				_spawn_boss_attack(boss)
-				if String(boss["name"]).contains("Llama"):
+				if bool(boss.get("final_battle", false)):
+					boss["cooldown"] = randf_range(3.0, 3.8) if int(boss["hp"]) > int(boss["max_hp"]) / 2 else randf_range(2.5, 3.2)
+				elif String(boss["name"]).contains("Llama"):
 					boss["cooldown"] = randf_range(1.0, 1.35) if int(boss["hp"]) > int(boss["max_hp"]) / 2 else randf_range(0.72, 1.0)
+				elif String(boss["name"]).contains("Conejo"):
+					boss["cooldown"] = randf_range(0.62, 0.82)
 				else:
 					boss["cooldown"] = 2.5 if int(boss["hp"]) > int(boss["max_hp"]) / 2 else 1.7
 		bosses[index] = boss
@@ -980,15 +1060,22 @@ func _spawn_boss_attack(boss: Dictionary) -> void:
 			var direction := (rock_target - muzzle).normalized()
 			if direction == Vector2.ZERO:
 				direction = Vector2(facing_sign, 0.0)
-			hazards.append({"kind": "gorilla_rock", "position": muzzle + Vector2(0.0, float(rock_index) * 13.0), "velocity": direction * 610.0, "radius": 37.0, "delay": 0.0, "life": 2.7, "age": 0.0, "damage": 40.0})
+			var rock_damage := 14.0 if bool(boss.get("final_battle", false)) else 40.0
+			hazards.append({"kind": "gorilla_rock", "position": muzzle + Vector2(0.0, float(rock_index) * 13.0), "velocity": direction * 610.0, "radius": 37.0, "delay": 0.0, "life": 2.7, "age": 0.0, "damage": rock_damage})
 		# El ciclo visual dura lo mismo que el gesto completo: levantar,
 		# preparar y lanzar. Así no queda una pose de ataque congelada.
 		boss["attack_clock"] = 0.62
 	elif boss_name.contains("Conejo"):
-		var aim := (target - origin).normalized()
-		for pellet_index in range(5):
-			var spread := float(pellet_index - 2) * 0.13
-			hazards.append({"kind": "carrot", "position": origin, "velocity": aim.rotated(spread) * 430.0, "radius": 15.0, "delay": 0.0, "life": 2.0, "damage": damage * 0.48})
+		var muzzle := origin + Vector2(-36.0 if bool(boss.get("facing_left", false)) else 36.0, -12.0)
+		var aim := (player_position - muzzle).normalized()
+		if aim == Vector2.ZERO:
+			aim = Vector2.LEFT if bool(boss.get("facing_left", false)) else Vector2.RIGHT
+		# Ráfaga estrecha: muchas balas, alta velocidad y poca dispersión para
+		# premiar el movimiento continuo del jugador sin volverlo imposible.
+		for bullet_index in range(7):
+			var spread := float(bullet_index - 3) * 0.018
+			hazards.append({"kind": "rabbit_bullet", "position": muzzle, "velocity": aim.rotated(spread) * 760.0, "radius": 11.0, "delay": float(bullet_index) * 0.075, "life": 2.15, "age": 0.0, "damage": maxf(8.0, damage * 0.62)})
+		boss["attack_clock"] = 0.78
 	else:
 		_add_ground_hazard("shockwave", target, _boss_attack_radius(boss), 0.55, 0.25, damage)
 
@@ -1018,11 +1105,12 @@ func _update_hazards(delta: float) -> void:
 			if position.distance_to(target) <= 18.0:
 				hazards.remove_at(index)
 				continue
-		elif kind == "carrot":
+		elif kind == "carrot" or kind == "rabbit_bullet":
 			var velocity: Vector2 = hazard["velocity"]
 			position += velocity * delta
 			hazard["position"] = position
 			hazard["life"] = float(hazard["life"]) - delta
+			hazard["age"] = float(hazard.get("age", 0.0)) + delta
 			if player_position.distance_to(position) <= float(hazard["radius"]):
 				_damage_player(float(hazard["damage"]))
 				hazards.remove_at(index)
@@ -1379,7 +1467,10 @@ func _update_hud() -> void:
 	score_text.text = "Puntos: %d" % score
 	if stage_text != null:
 		if boss_active and not bosses.is_empty():
-			stage_text.text = "JEFE  •  %s" % bosses[0]["name"]
+			if letter_index == SPANISH_LETTERS.length() - 1:
+				stage_text.text = "JEFE FINAL  •  %d restantes" % bosses.size()
+			else:
+				stage_text.text = "JEFE  •  %s" % bosses[0]["name"]
 		elif shelter_active:
 			stage_text.text = "¡Busca el refugio para elegir tu mejora!"
 		else:
@@ -1394,7 +1485,10 @@ func _update_hud() -> void:
 			for boss in bosses:
 				total_health += float(boss["hp"])
 				total_max_health += float(boss["max_hp"])
-			boss_status_label.text = "JEFE  •  %s" % bosses[0]["name"]
+			if letter_index == SPANISH_LETTERS.length() - 1:
+				boss_status_label.text = "JEFE FINAL  •  %d restantes" % bosses.size()
+			else:
+				boss_status_label.text = "JEFE  •  %s" % bosses[0]["name"]
 			boss_health_bar.max_value = maxf(1.0, total_max_health)
 			boss_health_bar.value = total_health
 	if is_instance_valid(bomb_touch_button):
@@ -1798,6 +1892,33 @@ func _draw_shelter() -> void:
 func _draw_boss(boss: Dictionary) -> void:
 	var position: Vector2 = boss["position"]
 	var boss_name: String = boss["name"]
+	if boss_name.contains("Conejo") and rabbit_walk_texture != null:
+		var flip_left := bool(boss.get("facing_left", false))
+		var attacking := float(boss.get("attack_clock", 0.0)) > 0.0 and rabbit_attack_texture != null
+		var destination := Rect2(Vector2(-78.0, -91.0), Vector2(156.0, 182.0))
+		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
+		if attacking:
+			# La fila superior contiene ocho cuadros limpios de la ráfaga.
+			var cell_size := Vector2(float(rabbit_attack_texture.get_width()) / 8.0, float(rabbit_attack_texture.get_height()))
+			var elapsed := 0.78 - float(boss.get("attack_clock", 0.0))
+			var frame := clampi(int(elapsed * 10.0), 0, 7)
+			var source := Rect2(Vector2(float(frame) * cell_size.x, 0.0), cell_size)
+			draw_texture_rect_region(rabbit_attack_texture, destination, source, Color.WHITE, false, true)
+		else:
+			var cell_size := Vector2(float(rabbit_walk_texture.get_width()) / 6.0, float(rabbit_walk_texture.get_height()) / 2.0)
+			var frame := int(animation_clock * 10.0 + float(boss.get("phase", 0.0))) % 12
+			var source := Rect2(Vector2(float(frame % 6) * cell_size.x, float(frame / 6) * cell_size.y), cell_size)
+			draw_texture_rect_region(rabbit_walk_texture, destination, source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		var rabbit_bar := Rect2(position + Vector2(-70.0, -105.0), Vector2(140.0, 12.0))
+		draw_rect(rabbit_bar, Color("#34303a"))
+		var rabbit_ratio := clampf(float(boss["hp"]) / float(boss["max_hp"]), 0.0, 1.0)
+		draw_rect(Rect2(rabbit_bar.position, Vector2(rabbit_bar.size.x * rabbit_ratio, rabbit_bar.size.y)), Color("#ff5870"))
+		if float(boss.get("warning", 0.0)) > 0.0:
+			var target: Vector2 = boss["target"]
+			draw_line(position + Vector2(-1.0 if flip_left else 1.0, -20.0) * 36.0, target, Color(1.0, 0.25, 0.16, 0.22), 12.0, true)
+			draw_arc(target, 12.0 + sin(animation_clock * 20.0) * 3.0, 0.0, TAU, 24, Color("#ffb64a"), 3.0, true)
+		return
 	if boss_name.contains("Cocodrilo") and crocodile_walk_texture != null:
 		var flip_left := bool(boss.get("facing_left", false))
 		draw_set_transform(position, 0.0, Vector2(-1.0 if flip_left else 1.0, 1.0))
@@ -1994,6 +2115,15 @@ func _draw_bomb_explosion(explosion: Dictionary) -> void:
 func _draw_hazard(hazard: Dictionary) -> void:
 	var kind: String = hazard["kind"]
 	var position: Vector2 = hazard["position"]
+	if kind == "rabbit_bullet" and rabbit_bullets_texture != null:
+		var velocity: Vector2 = hazard["velocity"]
+		var cell_width := float(rabbit_bullets_texture.get_width()) / 12.0
+		var frame := mini(int(float(hazard.get("age", 0.0)) * 19.0), 11)
+		var source := Rect2(Vector2(float(frame) * cell_width, 0.0), Vector2(cell_width, float(rabbit_bullets_texture.get_height())))
+		draw_set_transform(position, velocity.angle(), Vector2.ONE)
+		draw_texture_rect_region(rabbit_bullets_texture, Rect2(-23.0, -11.0, 46.0, 22.0), source, Color.WHITE, false, true)
+		draw_set_transform(Vector2.ZERO)
+		return
 	if kind == "gorilla_rock" and gorilla_rocks_texture != null:
 		var cell_width := float(gorilla_rocks_texture.get_width()) / 11.0
 		var frame := mini(int(float(hazard.get("age", 0.0)) * 14.0), 6)

@@ -11,6 +11,8 @@ const LEVEL_THREE_IMAGE_PATH := "res://assets/games/une-palabras-imagenes-portad
 const LEVEL_THREE_GAME_PATH := "res://assets/games/matching_game.html"
 const LEVEL_FOUR_IMAGE_PATH := "res://assets/games/condor-guerrero-portada.jpg"
 const LEVEL_FOUR_SCENE_PATH := "res://scenes/language/condor_zombie_game.tscn"
+const LEVEL_FIVE_IMAGE_PATH := "res://assets/games/level5/condor-andino-portada.jpg"
+const LEVEL_FIVE_GAME_PATH := "res://assets/games/level5/condor-andino-leyenda-cielos.html"
 const SOURCE_SIZE := Vector2(1672.0, 941.0)
 
 var background: TextureRect
@@ -23,6 +25,7 @@ var level_one_art: TextureRect
 var level_two_art: TextureRect
 var level_three_art: TextureRect
 var level_four_art: TextureRect
+var level_five_art: TextureRect
 var level_four_game: Node2D
 
 func _ready() -> void:
@@ -111,6 +114,20 @@ func _build_screen() -> void:
 			level_four_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 			level_four_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 			button.add_child(level_four_art)
+		elif index == 4:
+			button.text = ""
+			button.tooltip_text = "Nivel 5: El protector de los cielos"
+			level_five_art = TextureRect.new()
+			level_five_art.texture = load(LEVEL_FIVE_IMAGE_PATH)
+			level_five_art.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			level_five_art.offset_left = 12.0
+			level_five_art.offset_top = 12.0
+			level_five_art.offset_right = -12.0
+			level_five_art.offset_bottom = -12.0
+			level_five_art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+			level_five_art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+			level_five_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
+			button.add_child(level_five_art)
 		level_buttons.append(button)
 		add_child(button)
 
@@ -181,6 +198,9 @@ func _on_level_pressed(level: int) -> void:
 		return
 	if level == 4:
 		_open_level_four_game()
+		return
+	if level == 5:
+		_open_html_game(LEVEL_FIVE_GAME_PATH, "El protector de los cielos")
 		return
 	level_dialog.dialog_text = "Seleccionaste el nivel %d. Aquí aparecerán sus juegos." % level
 	level_dialog.popup_centered()
