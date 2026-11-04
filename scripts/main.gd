@@ -44,6 +44,7 @@ var character_game_screen: Control
 var puzzle_game_screen: Control
 var find_objects_screen: Control
 var quick_quiz_screen: Control
+var dictionary_screen: Control
 var story_mode := "read"
 
 func _ready() -> void:
@@ -307,6 +308,9 @@ func _add_menu_card(module_name: String, icon_path: String, x: float, y: float, 
 	menu_overlay.add_child(button)
 
 func _show_home() -> void:
+	if dictionary_screen != null and is_instance_valid(dictionary_screen):
+		dictionary_screen.queue_free()
+	dictionary_screen = null
 	if reading_screen != null and is_instance_valid(reading_screen):
 		reading_screen.queue_free()
 	reading_screen = null
@@ -359,6 +363,9 @@ func _menu_selection(module_name: String) -> void:
 	_open_module(module_name, details)
 
 func _open_module(module_name: String, description: String) -> void:
+	if module_name == "Diccionario":
+		_open_dictionary()
+		return
 	if module_name == "Lenguaje":
 		_open_language_game()
 		return
@@ -375,6 +382,18 @@ func _open_module(module_name: String, description: String) -> void:
 		_open_llama_menu("res://scenes/geometry_menu.tscn")
 		return
 	_show_module_placeholder(module_name, description)
+
+func _open_dictionary() -> void:
+	menu_overlay.visible = false
+	artwork.visible = false
+	girl_avatar.visible = false
+	boy_avatar.visible = false
+	root_box.visible = false
+	var screen := Control.new()
+	screen.set_script(load("res://scripts/dictionary/dictionary_screen.gd"))
+	screen.connect("back_requested", Callable(self, "_show_home"))
+	dictionary_screen = screen
+	add_child(screen)
 
 func _open_llama_menu(scene_path: String) -> void:
 	menu_overlay.visible = false
