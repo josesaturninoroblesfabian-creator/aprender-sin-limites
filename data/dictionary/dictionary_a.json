@@ -1,0 +1,4702 @@
+[
+  {
+    "palabra": "Acera",
+    "tipo": "sustantivo",
+    "significado": "Parte de la calle preparada para caminar, junto a los edificios."
+  },
+  {
+    "palabra": "Acercar",
+    "tipo": "verbo",
+    "significado": "Poner algo a menor distancia."
+  },
+  {
+    "palabra": "Acero",
+    "tipo": "sustantivo",
+    "significado": "Material resistente fabricado principalmente con hierro y una pequeña cantidad de carbono."
+  },
+  {
+    "palabra": "Acertar",
+    "tipo": "verbo",
+    "significado": "Encontrar la respuesta correcta o dar en un objetivo."
+  },
+  {
+    "palabra": "Achicar",
+    "tipo": "verbo",
+    "significado": "Hacer algo más pequeño. También significa sacar agua acumulada."
+  },
+  {
+    "palabra": "Achira",
+    "tipo": "sustantivo",
+    "significado": "Planta de hojas grandes y flores vistosas; algunas variedades tienen partes subterráneas comestibles."
+  },
+  {
+    "palabra": "Aclarar",
+    "tipo": "verbo",
+    "significado": "Explicar algo para entenderlo mejor o hacerlo menos oscuro."
+  },
+  {
+    "palabra": "Aclimatarse",
+    "tipo": "verbo",
+    "significado": "Acostumbrarse poco a poco al clima o las condiciones de un lugar."
+  },
+  {
+    "palabra": "Acné",
+    "tipo": "sustantivo",
+    "significado": "Cambio de la piel que produce granitos y es frecuente durante la adolescencia."
+  },
+  {
+    "palabra": "Acobardarse",
+    "tipo": "verbo",
+    "significado": "Perder el ánimo para hacer algo por sentir miedo."
+  },
+  {
+    "palabra": "Acoger",
+    "tipo": "verbo",
+    "significado": "Recibir a alguien y ofrecerle compañía, atención o refugio."
+  },
+  {
+    "palabra": "Acolchado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un relleno blando para dar comodidad o protección."
+  },
+  {
+    "palabra": "Acomodar",
+    "tipo": "verbo",
+    "significado": "Colocar algo en un lugar adecuado o cómodo."
+  },
+  {
+    "palabra": "Acompañar",
+    "tipo": "verbo",
+    "significado": "Estar con alguien o ir a su lado."
+  },
+  {
+    "palabra": "Aconsejar",
+    "tipo": "verbo",
+    "significado": "Ofrecer una idea que puede ayudar a otra persona."
+  },
+  {
+    "palabra": "Acontecimiento",
+    "tipo": "sustantivo",
+    "significado": "Hecho que sucede y tiene importancia para alguien."
+  },
+  {
+    "palabra": "Acoplar",
+    "tipo": "verbo",
+    "significado": "Unir piezas para que encajen o funcionen juntas."
+  },
+  {
+    "palabra": "Acordar",
+    "tipo": "verbo",
+    "significado": "Decidir algo entre varias personas."
+  },
+  {
+    "palabra": "Acorde",
+    "tipo": "sustantivo",
+    "significado": "Grupo de notas musicales que suenan al mismo tiempo."
+  },
+  {
+    "palabra": "Acordeón",
+    "tipo": "sustantivo",
+    "significado": "Instrumento musical que suena al mover un fuelle y pulsar teclas o botones."
+  },
+  {
+    "palabra": "Acortar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo tenga menos longitud o dure menos tiempo."
+  },
+  {
+    "palabra": "Acostar",
+    "tipo": "verbo",
+    "significado": "Poner a alguien tumbado para descansar o dormir."
+  },
+  {
+    "palabra": "Acostumbrarse",
+    "tipo": "verbo",
+    "significado": "Hacer que algo nuevo resulte familiar después de repetirlo o vivirlo."
+  },
+  {
+    "palabra": "Actitud",
+    "tipo": "sustantivo",
+    "significado": "Manera de comportarse o de afrontar una situación."
+  },
+  {
+    "palabra": "Activo",
+    "tipo": "adjetivo",
+    "significado": "Que está en funcionamiento o realiza muchas actividades."
+  },
+  {
+    "palabra": "Acto",
+    "tipo": "sustantivo",
+    "significado": "Acción que se realiza. También puede ser una celebración o parte de una obra teatral."
+  },
+  {
+    "palabra": "Actriz",
+    "tipo": "sustantivo",
+    "significado": "Mujer que representa personajes en el teatro, el cine o la televisión."
+  },
+  {
+    "palabra": "Actuar",
+    "tipo": "verbo",
+    "significado": "Hacer algo ante una situación o representar un personaje."
+  },
+  {
+    "palabra": "Actualizar",
+    "tipo": "verbo",
+    "significado": "Añadir información reciente o mejorar algo para ponerlo al día."
+  },
+  {
+    "palabra": "Acuático",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el agua o que vive en ella."
+  },
+  {
+    "palabra": "Acueducto",
+    "tipo": "sustantivo",
+    "significado": "Construcción que transporta agua de un lugar a otro."
+  },
+  {
+    "palabra": "Acuerdo",
+    "tipo": "sustantivo",
+    "significado": "Decisión que aceptan dos o más personas."
+  },
+  {
+    "palabra": "Acumular",
+    "tipo": "verbo",
+    "significado": "Juntar cada vez más cosas, como hojas en un montón."
+  },
+  {
+    "palabra": "Acunar",
+    "tipo": "verbo",
+    "significado": "Mecer suavemente a un bebé para calmarlo o ayudarlo a dormir."
+  },
+  {
+    "palabra": "Acurrucarse",
+    "tipo": "verbo",
+    "significado": "Encoger el cuerpo para estar cómodo, calentito o cerca de alguien."
+  },
+  {
+    "palabra": "Acústico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el sonido y con cómo se produce o se escucha."
+  },
+  {
+    "palabra": "Adaptar",
+    "tipo": "verbo",
+    "significado": "Cambiar algo para que sirva en una situación diferente."
+  },
+  {
+    "palabra": "Adecuado",
+    "tipo": "adjetivo",
+    "significado": "Que sirve bien para una tarea o situación."
+  },
+  {
+    "palabra": "Adelantar",
+    "tipo": "verbo",
+    "significado": "Pasar por delante o hacer algo antes de lo previsto."
+  },
+  {
+    "palabra": "Adelante",
+    "tipo": "adverbio",
+    "significado": "Hacia la parte que está frente a ti."
+  },
+  {
+    "palabra": "Además",
+    "tipo": "adverbio",
+    "significado": "Palabra que añade otra idea a lo que ya se ha dicho."
+  },
+  {
+    "palabra": "Adentro",
+    "tipo": "adverbio",
+    "significado": "En la parte interior de un lugar."
+  },
+  {
+    "palabra": "Adhesivo",
+    "tipo": "sustantivo",
+    "significado": "Material que sirve para pegar unas cosas con otras."
+  },
+  {
+    "palabra": "Adición",
+    "tipo": "sustantivo",
+    "significado": "Operación de sumar o acción de añadir algo."
+  },
+  {
+    "palabra": "Adiós",
+    "tipo": "interjección",
+    "significado": "Palabra que usamos para despedirnos."
+  },
+  {
+    "palabra": "Adivinar",
+    "tipo": "verbo",
+    "significado": "Descubrir algo usando pistas o acertar sin saberlo con seguridad."
+  },
+  {
+    "palabra": "Adjetivo",
+    "tipo": "sustantivo",
+    "significado": "Palabra que expresa cómo es algo, como suave, verde o pequeño."
+  },
+  {
+    "palabra": "Administrar",
+    "tipo": "verbo",
+    "significado": "Organizar y cuidar recursos, como el tiempo o los materiales."
+  },
+  {
+    "palabra": "Admirar",
+    "tipo": "verbo",
+    "significado": "Valorar mucho una cualidad, una acción o algo que resulta hermoso."
+  },
+  {
+    "palabra": "Admitir",
+    "tipo": "verbo",
+    "significado": "Permitir la entrada o reconocer que algo es cierto."
+  },
+  {
+    "palabra": "Adolescencia",
+    "tipo": "sustantivo",
+    "significado": "Etapa entre la infancia y la edad adulta, con muchos cambios y aprendizajes."
+  },
+  {
+    "palabra": "Adolescente",
+    "tipo": "sustantivo",
+    "significado": "Persona que está creciendo entre la infancia y la edad adulta."
+  },
+  {
+    "palabra": "Adorable",
+    "tipo": "adjetivo",
+    "significado": "Que despierta mucho cariño o ternura."
+  },
+  {
+    "palabra": "Adormecer",
+    "tipo": "verbo",
+    "significado": "Producir sueño o hacer que una parte del cuerpo pierda sensibilidad temporalmente."
+  },
+  {
+    "palabra": "Adornar",
+    "tipo": "verbo",
+    "significado": "Decorar algo para darle un aspecto especial."
+  },
+  {
+    "palabra": "Adquirir",
+    "tipo": "verbo",
+    "significado": "Conseguir algo, como un libro o una nueva habilidad."
+  },
+  {
+    "palabra": "Aduana",
+    "tipo": "sustantivo",
+    "significado": "Oficina que controla las mercancías que entran o salen de un país."
+  },
+  {
+    "palabra": "Adulto",
+    "tipo": "sustantivo",
+    "significado": "Persona que ha llegado a una etapa de madurez después de la adolescencia."
+  },
+  {
+    "palabra": "Adverbio",
+    "tipo": "sustantivo",
+    "significado": "Palabra que indica detalles como dónde, cuándo o cómo sucede algo."
+  },
+  {
+    "palabra": "Advertir",
+    "tipo": "verbo",
+    "significado": "Avisar de algo importante o darse cuenta de algo."
+  },
+  {
+    "palabra": "Aéreo",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el aire o con los viajes por el cielo."
+  },
+  {
+    "palabra": "Aerodinámico",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una forma que facilita moverse a través del aire."
+  },
+  {
+    "palabra": "Aerogenerador",
+    "tipo": "sustantivo",
+    "significado": "Máquina con grandes palas que aprovecha el viento para producir electricidad."
+  },
+  {
+    "palabra": "Aeroplano",
+    "tipo": "sustantivo",
+    "significado": "Otro nombre del avión, una máquina que vuela con alas y motor."
+  },
+  {
+    "palabra": "Aerosol",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de partículas diminutas suspendidas en el aire. También es un envase que pulveriza productos."
+  },
+  {
+    "palabra": "Afable",
+    "tipo": "adjetivo",
+    "significado": "Que trata a los demás con amabilidad."
+  },
+  {
+    "palabra": "Afán",
+    "tipo": "sustantivo",
+    "significado": "Muchas ganas y esfuerzo por conseguir algo."
+  },
+  {
+    "palabra": "Afecto",
+    "tipo": "sustantivo",
+    "significado": "Cariño que sentimos por una persona, un animal o algo especial."
+  },
+  {
+    "palabra": "Afectuoso",
+    "tipo": "adjetivo",
+    "significado": "Que expresa cariño con palabras o gestos."
+  },
+  {
+    "palabra": "Afición",
+    "tipo": "sustantivo",
+    "significado": "Actividad que disfrutas hacer, como leer o patinar."
+  },
+  {
+    "palabra": "Aficionado",
+    "tipo": "sustantivo",
+    "significado": "Persona que disfruta de una actividad y la practica o la sigue con interés."
+  },
+  {
+    "palabra": "Afilar",
+    "tipo": "verbo",
+    "significado": "Hacer que una punta o un borde corte mejor."
+  },
+  {
+    "palabra": "Afinar",
+    "tipo": "verbo",
+    "significado": "Ajustar un instrumento o la voz para producir las notas correctas."
+  },
+  {
+    "palabra": "Afirmar",
+    "tipo": "verbo",
+    "significado": "Decir que algo es cierto o sujetar algo con firmeza."
+  },
+  {
+    "palabra": "Afiche",
+    "tipo": "sustantivo",
+    "significado": "Cartel con imágenes y palabras que anuncia o explica algo."
+  },
+  {
+    "palabra": "Aflojar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo esté menos apretado."
+  },
+  {
+    "palabra": "Aflorar",
+    "tipo": "verbo",
+    "significado": "Aparecer en la superficie, como una roca entre la tierra."
+  },
+  {
+    "palabra": "Afortunado",
+    "tipo": "adjetivo",
+    "significado": "Que ha tenido buena suerte."
+  },
+  {
+    "palabra": "Africano",
+    "tipo": "adjetivo",
+    "significado": "Que pertenece a África o está relacionado con ese continente."
+  },
+  {
+    "palabra": "Afrontar",
+    "tipo": "verbo",
+    "significado": "Hacer frente a una dificultad o situación."
+  },
+  {
+    "palabra": "Afuera",
+    "tipo": "adverbio",
+    "significado": "En la parte exterior de un lugar."
+  },
+  {
+    "palabra": "Agacharse",
+    "tipo": "verbo",
+    "significado": "Bajar el cuerpo doblando las piernas o la espalda."
+  },
+  {
+    "palabra": "Agarrar",
+    "tipo": "verbo",
+    "significado": "Sujetar algo con la mano o con otra parte del cuerpo."
+  },
+  {
+    "palabra": "Ágata",
+    "tipo": "sustantivo",
+    "significado": "Piedra que suele tener bandas de distintos colores."
+  },
+  {
+    "palabra": "Agave",
+    "tipo": "sustantivo",
+    "significado": "Planta de hojas gruesas y alargadas que almacena agua."
+  },
+  {
+    "palabra": "Agencia",
+    "tipo": "sustantivo",
+    "significado": "Empresa u oficina que organiza servicios, como viajes."
+  },
+  {
+    "palabra": "Agenda",
+    "tipo": "sustantivo",
+    "significado": "Cuaderno o aplicación donde anotas tareas, fechas y planes."
+  },
+  {
+    "palabra": "Agente",
+    "tipo": "sustantivo",
+    "significado": "Persona que realiza un trabajo en nombre de una organización."
+  },
+  {
+    "palabra": "Agilidad",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de moverse o pensar con rapidez y facilidad."
+  },
+  {
+    "palabra": "Agitar",
+    "tipo": "verbo",
+    "significado": "Mover algo repetidamente, como una bandera al saludar."
+  },
+  {
+    "palabra": "Aglomeración",
+    "tipo": "sustantivo",
+    "significado": "Gran cantidad de personas o cosas reunidas en poco espacio."
+  },
+  {
+    "palabra": "Agosto",
+    "tipo": "sustantivo",
+    "significado": "Octavo mes del año, situado entre julio y septiembre."
+  },
+  {
+    "palabra": "Agotar",
+    "tipo": "verbo",
+    "significado": "Gastar algo por completo o dejar a alguien muy cansado."
+  },
+  {
+    "palabra": "Agradable",
+    "tipo": "adjetivo",
+    "significado": "Que produce bienestar o resulta placentero."
+  },
+  {
+    "palabra": "Agradecer",
+    "tipo": "verbo",
+    "significado": "Expresar gratitud por algo que hemos recibido."
+  },
+  {
+    "palabra": "Agradecimiento",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento de gratitud por una ayuda o un gesto amable."
+  },
+  {
+    "palabra": "Agrandar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo sea más grande."
+  },
+  {
+    "palabra": "Agricultor",
+    "tipo": "sustantivo",
+    "significado": "Persona que trabaja la tierra para cultivar plantas."
+  },
+  {
+    "palabra": "Agricultura",
+    "tipo": "sustantivo",
+    "significado": "Actividad de cultivar la tierra para obtener alimentos y otros productos."
+  },
+  {
+    "palabra": "Agrio",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un sabor ácido, como algunos limones."
+  },
+  {
+    "palabra": "Agrupar",
+    "tipo": "verbo",
+    "significado": "Reunir personas o cosas formando un conjunto."
+  },
+  {
+    "palabra": "Aguacate",
+    "tipo": "sustantivo",
+    "significado": "Fruto de pulpa cremosa y semilla grande, también llamado palta."
+  },
+  {
+    "palabra": "Aguacero",
+    "tipo": "sustantivo",
+    "significado": "Lluvia fuerte que suele durar poco tiempo."
+  },
+  {
+    "palabra": "Aguamarina",
+    "tipo": "sustantivo",
+    "significado": "Piedra de color azul verdoso, parecido al de algunas aguas del mar."
+  },
+  {
+    "palabra": "Aguardar",
+    "tipo": "verbo",
+    "significado": "Esperar a alguien o a que ocurra algo."
+  },
+  {
+    "palabra": "Agudeza",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de notar detalles o comprender algo con rapidez."
+  },
+  {
+    "palabra": "Agudo",
+    "tipo": "adjetivo",
+    "significado": "Dicho de un sonido, que es alto y fino, como un silbido."
+  },
+  {
+    "palabra": "Aguijón",
+    "tipo": "sustantivo",
+    "significado": "Punta que algunos animales usan para defenderse o capturar alimento."
+  },
+  {
+    "palabra": "Aguilucho",
+    "tipo": "sustantivo",
+    "significado": "Cría de un águila. También es el nombre de algunas aves cazadoras."
+  },
+  {
+    "palabra": "Agujero",
+    "tipo": "sustantivo",
+    "significado": "Abertura o hueco que atraviesa algo o se hunde en ello."
+  },
+  {
+    "palabra": "Ahí",
+    "tipo": "adverbio",
+    "significado": "En ese lugar que señalas, algo alejado de quien habla."
+  },
+  {
+    "palabra": "Ahijado",
+    "tipo": "sustantivo",
+    "significado": "Persona que tiene padrinos en una ceremonia o celebración."
+  },
+  {
+    "palabra": "Ahondar",
+    "tipo": "verbo",
+    "significado": "Hacer algo más profundo o estudiar un tema con más detalle."
+  },
+  {
+    "palabra": "Ahora",
+    "tipo": "adverbio",
+    "significado": "En este momento."
+  },
+  {
+    "palabra": "Ahorrar",
+    "tipo": "verbo",
+    "significado": "Guardar parte del dinero o gastar menos recursos, como agua."
+  },
+  {
+    "palabra": "Ahorro",
+    "tipo": "sustantivo",
+    "significado": "Dinero o recursos que se guardan para utilizarlos después."
+  },
+  {
+    "palabra": "Ahuecar",
+    "tipo": "verbo",
+    "significado": "Dar forma de hueco a algo, como a las manos para recoger agua."
+  },
+  {
+    "palabra": "Ahuyentar",
+    "tipo": "verbo",
+    "significado": "Hacer que alguien o un animal se aleje."
+  },
+  {
+    "palabra": "Airado",
+    "tipo": "adjetivo",
+    "significado": "Que está muy enfadado."
+  },
+  {
+    "palabra": "Airear",
+    "tipo": "verbo",
+    "significado": "Permitir que entre aire fresco en un lugar o en una prenda."
+  },
+  {
+    "palabra": "Aislado",
+    "tipo": "adjetivo",
+    "significado": "Que está separado o lejos de otras personas o cosas."
+  },
+  {
+    "palabra": "Aislante",
+    "tipo": "sustantivo",
+    "significado": "Material que dificulta el paso del calor, el sonido o la electricidad."
+  },
+  {
+    "palabra": "Aislar",
+    "tipo": "verbo",
+    "significado": "Separar algo de lo que lo rodea."
+  },
+  {
+    "palabra": "Ajeno",
+    "tipo": "adjetivo",
+    "significado": "Que pertenece a otra persona."
+  },
+  {
+    "palabra": "Ají",
+    "tipo": "sustantivo",
+    "significado": "Fruto que se usa para dar sabor a las comidas y puede ser picante."
+  },
+  {
+    "palabra": "Ajo",
+    "tipo": "sustantivo",
+    "significado": "Planta cuyo bulbo se divide en dientes y se usa para cocinar."
+  },
+  {
+    "palabra": "Ajonjolí",
+    "tipo": "sustantivo",
+    "significado": "Semilla pequeña que se usa en panes y otros alimentos; también se llama sésamo."
+  },
+  {
+    "palabra": "Ajustar",
+    "tipo": "verbo",
+    "significado": "Cambiar algo un poco para que encaje o funcione mejor."
+  },
+  {
+    "palabra": "Ala",
+    "tipo": "sustantivo",
+    "significado": "Parte del cuerpo de muchos animales que les permite volar."
+  },
+  {
+    "palabra": "Alabanza",
+    "tipo": "sustantivo",
+    "significado": "Palabras que reconocen algo bueno de una persona o de sus acciones."
+  },
+  {
+    "palabra": "Alabastro",
+    "tipo": "sustantivo",
+    "significado": "Piedra clara y relativamente blanda que se utiliza para hacer adornos y esculturas."
+  },
+  {
+    "palabra": "Alacena",
+    "tipo": "sustantivo",
+    "significado": "Mueble donde se guardan alimentos, platos u otros utensilios."
+  },
+  {
+    "palabra": "Alambre",
+    "tipo": "sustantivo",
+    "significado": "Hilo de metal que puede doblarse y sirve para sujetar o fabricar objetos."
+  },
+  {
+    "palabra": "Álamo",
+    "tipo": "sustantivo",
+    "significado": "Árbol que suele crecer cerca del agua y tiene hojas que tiemblan con el viento."
+  },
+  {
+    "palabra": "Alarma",
+    "tipo": "sustantivo",
+    "significado": "Señal que avisa de un peligro o recuerda que es hora de hacer algo."
+  },
+  {
+    "palabra": "Alba",
+    "tipo": "sustantivo",
+    "significado": "Primera claridad del día, antes de que salga el Sol."
+  },
+  {
+    "palabra": "Albahaca",
+    "tipo": "sustantivo",
+    "significado": "Planta de hojas aromáticas que se usa para dar sabor a la comida."
+  },
+  {
+    "palabra": "Albañil",
+    "tipo": "sustantivo",
+    "significado": "Persona que construye o repara paredes y otras partes de los edificios."
+  },
+  {
+    "palabra": "Albatros",
+    "tipo": "sustantivo",
+    "significado": "Ave marina de alas muy largas que puede recorrer grandes distancias."
+  },
+  {
+    "palabra": "Albergar",
+    "tipo": "verbo",
+    "significado": "Dar alojamiento o contener algo en su interior."
+  },
+  {
+    "palabra": "Albergue",
+    "tipo": "sustantivo",
+    "significado": "Lugar que ofrece alojamiento y refugio."
+  },
+  {
+    "palabra": "Alboroto",
+    "tipo": "sustantivo",
+    "significado": "Ruido y movimiento de muchas personas o cosas."
+  },
+  {
+    "palabra": "Alcachofa",
+    "tipo": "sustantivo",
+    "significado": "Planta de la que comemos una parte de la flor antes de que se abra."
+  },
+  {
+    "palabra": "Alcalde",
+    "tipo": "sustantivo",
+    "significado": "Persona que dirige el gobierno de un municipio."
+  },
+  {
+    "palabra": "Alcance",
+    "tipo": "sustantivo",
+    "significado": "Distancia hasta la que se puede llegar o hacer llegar algo."
+  },
+  {
+    "palabra": "Alcancía",
+    "tipo": "sustantivo",
+    "significado": "Recipiente donde se guardan monedas para ahorrar."
+  },
+  {
+    "palabra": "Alcanzar",
+    "tipo": "verbo",
+    "significado": "Llegar hasta algo o conseguir una meta."
+  },
+  {
+    "palabra": "Alce",
+    "tipo": "sustantivo",
+    "significado": "Animal grande de la familia de los ciervos; los machos tienen astas anchas."
+  },
+  {
+    "palabra": "Aldea",
+    "tipo": "sustantivo",
+    "significado": "Población pequeña, normalmente situada en el campo."
+  },
+  {
+    "palabra": "Aldeano",
+    "tipo": "sustantivo",
+    "significado": "Persona que vive en una aldea."
+  },
+  {
+    "palabra": "Alegre",
+    "tipo": "adjetivo",
+    "significado": "Que siente o expresa alegría."
+  },
+  {
+    "palabra": "Alejar",
+    "tipo": "verbo",
+    "significado": "Poner algo a mayor distancia."
+  },
+  {
+    "palabra": "Alergia",
+    "tipo": "sustantivo",
+    "significado": "Reacción de las defensas del cuerpo ante sustancias normalmente inofensivas para otras personas."
+  },
+  {
+    "palabra": "Alerta",
+    "tipo": "adjetivo",
+    "significado": "Que presta atención y está preparado para reaccionar."
+  },
+  {
+    "palabra": "Aleta",
+    "tipo": "sustantivo",
+    "significado": "Parte del cuerpo de muchos animales acuáticos que ayuda a nadar y mantener el equilibrio."
+  },
+  {
+    "palabra": "Aletear",
+    "tipo": "verbo",
+    "significado": "Mover las alas repetidamente."
+  },
+  {
+    "palabra": "Alfombra",
+    "tipo": "sustantivo",
+    "significado": "Pieza de tejido que cubre parte del suelo."
+  },
+  {
+    "palabra": "Alga",
+    "tipo": "sustantivo",
+    "significado": "Ser vivo que suele vivir en el agua y aprovecha la luz para producir alimento."
+  },
+  {
+    "palabra": "Algodón",
+    "tipo": "sustantivo",
+    "significado": "Fibra suave que crece alrededor de las semillas de una planta y sirve para hacer telas."
+  },
+  {
+    "palabra": "Algoritmo",
+    "tipo": "sustantivo",
+    "significado": "Serie ordenada de pasos para resolver un problema o realizar una tarea."
+  },
+  {
+    "palabra": "Alguien",
+    "tipo": "pronombre",
+    "significado": "Palabra que se refiere a una persona sin decir quién es."
+  },
+  {
+    "palabra": "Alguno",
+    "tipo": "pronombre",
+    "significado": "Palabra que señala una persona o cosa de un grupo sin precisar cuál."
+  },
+  {
+    "palabra": "Aliado",
+    "tipo": "sustantivo",
+    "significado": "Persona o grupo que colabora con otro para lograr una meta."
+  },
+  {
+    "palabra": "Aliento",
+    "tipo": "sustantivo",
+    "significado": "Aire que sale al respirar. También significa ánimo para seguir adelante."
+  },
+  {
+    "palabra": "Aligerar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo pese menos o resulte menos difícil."
+  },
+  {
+    "palabra": "Alimentar",
+    "tipo": "verbo",
+    "significado": "Dar alimento a un ser vivo."
+  },
+  {
+    "palabra": "Alinear",
+    "tipo": "verbo",
+    "significado": "Colocar varias cosas formando una línea."
+  },
+  {
+    "palabra": "Alisar",
+    "tipo": "verbo",
+    "significado": "Quitar arrugas o irregularidades de una superficie."
+  },
+  {
+    "palabra": "Aliviar",
+    "tipo": "verbo",
+    "significado": "Hacer que una molestia, un dolor o una preocupación disminuya."
+  },
+  {
+    "palabra": "Alivio",
+    "tipo": "sustantivo",
+    "significado": "Bienestar que sentimos cuando disminuye una molestia o preocupación."
+  },
+  {
+    "palabra": "Allá",
+    "tipo": "adverbio",
+    "significado": "En un lugar alejado de quien habla."
+  },
+  {
+    "palabra": "Allí",
+    "tipo": "adverbio",
+    "significado": "En aquel lugar que se indica."
+  },
+  {
+    "palabra": "Almacén",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde se guardan productos o materiales."
+  },
+  {
+    "palabra": "Almacenar",
+    "tipo": "verbo",
+    "significado": "Guardar cosas o información para utilizarlas después."
+  },
+  {
+    "palabra": "Almendra",
+    "tipo": "sustantivo",
+    "significado": "Semilla comestible del almendro, protegida por una cáscara dura."
+  },
+  {
+    "palabra": "Almendro",
+    "tipo": "sustantivo",
+    "significado": "Árbol que produce almendras y tiene flores blancas o rosadas."
+  },
+  {
+    "palabra": "Almíbar",
+    "tipo": "sustantivo",
+    "significado": "Líquido dulce preparado con azúcar disuelta en agua."
+  },
+  {
+    "palabra": "Almidón",
+    "tipo": "sustantivo",
+    "significado": "Sustancia que las plantas almacenan y que está presente en papas, arroz y otros alimentos."
+  },
+  {
+    "palabra": "Almohadilla",
+    "tipo": "sustantivo",
+    "significado": "Pieza pequeña y blanda que sirve de apoyo o protección."
+  },
+  {
+    "palabra": "Almorzar",
+    "tipo": "verbo",
+    "significado": "Comer al mediodía o cerca de esa hora."
+  },
+  {
+    "palabra": "Almuerzo",
+    "tipo": "sustantivo",
+    "significado": "Comida que se toma generalmente hacia el mediodía."
+  },
+  {
+    "palabra": "Alojar",
+    "tipo": "verbo",
+    "significado": "Dar a alguien un lugar donde quedarse."
+  },
+  {
+    "palabra": "Alondra",
+    "tipo": "sustantivo",
+    "significado": "Ave pequeña conocida por su canto, que a veces canta mientras vuela."
+  },
+  {
+    "palabra": "Alpaca",
+    "tipo": "sustantivo",
+    "significado": "Animal doméstico de los Andes, pariente de la llama, criado por su fibra suave."
+  },
+  {
+    "palabra": "Alpinismo",
+    "tipo": "sustantivo",
+    "significado": "Actividad de subir montañas con preparación y equipo adecuado."
+  },
+  {
+    "palabra": "Alrededor",
+    "tipo": "adverbio",
+    "significado": "En el espacio que rodea a una persona o cosa."
+  },
+  {
+    "palabra": "Al revés",
+    "tipo": "locución adverbial",
+    "significado": "En posición o sentido contrario al habitual."
+  },
+  {
+    "palabra": "Alta",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucha altura o está en un lugar elevado."
+  },
+  {
+    "palabra": "Altavoz",
+    "tipo": "sustantivo",
+    "significado": "Aparato que convierte señales eléctricas en sonidos que podemos escuchar."
+  },
+  {
+    "palabra": "Alternar",
+    "tipo": "verbo",
+    "significado": "Hacer o colocar cosas por turnos, una después de otra."
+  },
+  {
+    "palabra": "Alternativa",
+    "tipo": "sustantivo",
+    "significado": "Otra opción que puedes elegir."
+  },
+  {
+    "palabra": "Altitud",
+    "tipo": "sustantivo",
+    "significado": "Altura de un lugar respecto al nivel del mar."
+  },
+  {
+    "palabra": "Alto",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucha altura, como una torre."
+  },
+  {
+    "palabra": "Altura",
+    "tipo": "sustantivo",
+    "significado": "Distancia desde la base de algo hasta su parte superior."
+  },
+  {
+    "palabra": "Alubia",
+    "tipo": "sustantivo",
+    "significado": "Semilla comestible de una planta, también llamada frijol o judía."
+  },
+  {
+    "palabra": "Alumbrar",
+    "tipo": "verbo",
+    "significado": "Dar luz para que se pueda ver."
+  },
+  {
+    "palabra": "Aluminio",
+    "tipo": "sustantivo",
+    "significado": "Metal ligero de color plateado que se usa en envases, ventanas y otros objetos."
+  },
+  {
+    "palabra": "Alumno",
+    "tipo": "sustantivo",
+    "significado": "Persona que aprende con la ayuda de un docente."
+  },
+  {
+    "palabra": "Alzar",
+    "tipo": "verbo",
+    "significado": "Levantar algo o moverlo hacia arriba."
+  },
+  {
+    "palabra": "Amabilidad",
+    "tipo": "sustantivo",
+    "significado": "Forma de tratar a los demás con respeto y atención."
+  },
+  {
+    "palabra": "Amable",
+    "tipo": "adjetivo",
+    "significado": "Que trata a los demás con respeto y cariño."
+  },
+  {
+    "palabra": "Amamantar",
+    "tipo": "verbo",
+    "significado": "Alimentar a una cría con leche producida por el cuerpo de su madre."
+  },
+  {
+    "palabra": "Amanecer",
+    "tipo": "sustantivo",
+    "significado": "Momento en que empieza a aparecer la luz del día."
+  },
+  {
+    "palabra": "Amansar",
+    "tipo": "verbo",
+    "significado": "Hacer que un animal se acostumbre al trato tranquilo con las personas."
+  },
+  {
+    "palabra": "Amapola",
+    "tipo": "sustantivo",
+    "significado": "Planta de flores delicadas, muchas veces rojas."
+  },
+  {
+    "palabra": "Amar",
+    "tipo": "verbo",
+    "significado": "Sentir un cariño profundo por alguien o algo."
+  },
+  {
+    "palabra": "Amargo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un sabor como el del cacao sin azúcar."
+  },
+  {
+    "palabra": "Amarillo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un color como el de un limón maduro."
+  },
+  {
+    "palabra": "Amarrar",
+    "tipo": "verbo",
+    "significado": "Sujetar algo con una cuerda u otra tira."
+  },
+  {
+    "palabra": "Amasar",
+    "tipo": "verbo",
+    "significado": "Mezclar y trabajar una masa, normalmente con las manos."
+  },
+  {
+    "palabra": "Amatista",
+    "tipo": "sustantivo",
+    "significado": "Variedad de cuarzo de color violeta."
+  },
+  {
+    "palabra": "Ámbar",
+    "tipo": "sustantivo",
+    "significado": "Resina de árboles antiguos que se endureció durante muchísimo tiempo."
+  },
+  {
+    "palabra": "Ambición",
+    "tipo": "sustantivo",
+    "significado": "Deseo intenso de alcanzar una meta o conseguir algo."
+  },
+  {
+    "palabra": "Ambiente",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de condiciones que rodean a los seres vivos o a una actividad."
+  },
+  {
+    "palabra": "Ambos",
+    "tipo": "pronombre",
+    "significado": "Los dos, cuando hablamos de dos personas o cosas."
+  },
+  {
+    "palabra": "Ambulancia",
+    "tipo": "sustantivo",
+    "significado": "Vehículo equipado para atender y transportar personas que necesitan ayuda médica."
+  },
+  {
+    "palabra": "Ameba",
+    "tipo": "sustantivo",
+    "significado": "Ser vivo de una sola célula que cambia de forma para moverse y alimentarse."
+  },
+  {
+    "palabra": "Amenizar",
+    "tipo": "verbo",
+    "significado": "Hacer que un momento resulte más agradable o entretenido."
+  },
+  {
+    "palabra": "Ameno",
+    "tipo": "adjetivo",
+    "significado": "Que resulta agradable y entretenido."
+  },
+  {
+    "palabra": "Americano",
+    "tipo": "adjetivo",
+    "significado": "Que pertenece a América o está relacionado con ese continente."
+  },
+  {
+    "palabra": "Amigo",
+    "tipo": "sustantivo",
+    "significado": "Persona con quien compartes cariño, confianza y respeto."
+  },
+  {
+    "palabra": "Amistoso",
+    "tipo": "adjetivo",
+    "significado": "Que muestra amistad o ganas de llevarse bien."
+  },
+  {
+    "palabra": "Amontonar",
+    "tipo": "verbo",
+    "significado": "Colocar muchas cosas unas sobre otras formando un montón."
+  },
+  {
+    "palabra": "Amor",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento profundo de cariño, cuidado y conexión."
+  },
+  {
+    "palabra": "Amortiguar",
+    "tipo": "verbo",
+    "significado": "Disminuir la fuerza de un golpe, un ruido o un movimiento."
+  },
+  {
+    "palabra": "Ampliar",
+    "tipo": "verbo",
+    "significado": "Hacer algo más grande o añadirle más información."
+  },
+  {
+    "palabra": "Amplio",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucho espacio."
+  },
+  {
+    "palabra": "Ampolla",
+    "tipo": "sustantivo",
+    "significado": "Pequeña bolsa de líquido que puede aparecer en la piel por roce u otras causas."
+  },
+  {
+    "palabra": "Amuleto",
+    "tipo": "sustantivo",
+    "significado": "Objeto al que algunas personas atribuyen suerte o protección."
+  },
+  {
+    "palabra": "Anaconda",
+    "tipo": "sustantivo",
+    "significado": "Serpiente grande de Sudamérica que pasa mucho tiempo en el agua."
+  },
+  {
+    "palabra": "Añadir",
+    "tipo": "verbo",
+    "significado": "Poner algo más junto a lo que ya había."
+  },
+  {
+    "palabra": "Análisis",
+    "tipo": "sustantivo",
+    "significado": "Estudio detallado de algo para comprenderlo mejor."
+  },
+  {
+    "palabra": "Analizar",
+    "tipo": "verbo",
+    "significado": "Examinar las partes de algo para entender cómo es o funciona."
+  },
+  {
+    "palabra": "Anaranjado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un color parecido al de una naranja."
+  },
+  {
+    "palabra": "Anatomía",
+    "tipo": "sustantivo",
+    "significado": "Estudio de las partes del cuerpo de los seres vivos."
+  },
+  {
+    "palabra": "Ancho",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucha distancia de un lado al otro."
+  },
+  {
+    "palabra": "Anchoveta",
+    "tipo": "sustantivo",
+    "significado": "Pez marino pequeño que forma grandes grupos y sirve de alimento a muchos animales."
+  },
+  {
+    "palabra": "Anchura",
+    "tipo": "sustantivo",
+    "significado": "Medida de algo de un lado al otro."
+  },
+  {
+    "palabra": "Anciano",
+    "tipo": "sustantivo",
+    "significado": "Persona de edad avanzada."
+  },
+  {
+    "palabra": "Ancla",
+    "tipo": "sustantivo",
+    "significado": "Objeto pesado que ayuda a mantener un barco en un lugar."
+  },
+  {
+    "palabra": "Andamio",
+    "tipo": "sustantivo",
+    "significado": "Estructura temporal que permite trabajar en partes altas de una construcción."
+  },
+  {
+    "palabra": "Andar",
+    "tipo": "verbo",
+    "significado": "Moverse dando pasos."
+  },
+  {
+    "palabra": "Andén",
+    "tipo": "sustantivo",
+    "significado": "Plataforma para subir a un tren. En los Andes, también es una terraza de cultivo."
+  },
+  {
+    "palabra": "Andino",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la cordillera de los Andes y sus regiones."
+  },
+  {
+    "palabra": "Anécdota",
+    "tipo": "sustantivo",
+    "significado": "Relato breve de algo curioso o interesante que ocurrió."
+  },
+  {
+    "palabra": "Anémona",
+    "tipo": "sustantivo",
+    "significado": "Animal marino con tentáculos. También es el nombre de una planta con flores."
+  },
+  {
+    "palabra": "Anfibio",
+    "tipo": "sustantivo",
+    "significado": "Animal vertebrado como la rana o la salamandra, que suele tener piel húmeda."
+  },
+  {
+    "palabra": "Anfitrión",
+    "tipo": "sustantivo",
+    "significado": "Persona que recibe invitados y los atiende."
+  },
+  {
+    "palabra": "Ángulo",
+    "tipo": "sustantivo",
+    "significado": "Abertura entre dos líneas que parten de un mismo punto."
+  },
+  {
+    "palabra": "Anguila",
+    "tipo": "sustantivo",
+    "significado": "Pez de cuerpo alargado que recuerda a una serpiente."
+  },
+  {
+    "palabra": "Anidar",
+    "tipo": "verbo",
+    "significado": "Hacer un nido o vivir en él."
+  },
+  {
+    "palabra": "Anillo",
+    "tipo": "sustantivo",
+    "significado": "Objeto con forma de aro que puede llevarse en un dedo."
+  },
+  {
+    "palabra": "Animación",
+    "tipo": "sustantivo",
+    "significado": "Técnica que muestra imágenes seguidas para crear la sensación de movimiento."
+  },
+  {
+    "palabra": "Animado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene entusiasmo. También describe imágenes que parecen moverse."
+  },
+  {
+    "palabra": "Animar",
+    "tipo": "verbo",
+    "significado": "Dar entusiasmo o apoyo a alguien."
+  },
+  {
+    "palabra": "Ánimo",
+    "tipo": "sustantivo",
+    "significado": "Energía y disposición para hacer algo o afrontar una situación."
+  },
+  {
+    "palabra": "Anís",
+    "tipo": "sustantivo",
+    "significado": "Planta de semillas aromáticas usadas para dar sabor a algunos alimentos."
+  },
+  {
+    "palabra": "Aniversario",
+    "tipo": "sustantivo",
+    "significado": "Fecha en que se recuerda un acontecimiento ocurrido en un año anterior."
+  },
+  {
+    "palabra": "Año",
+    "tipo": "sustantivo",
+    "significado": "Tiempo que tarda la Tierra en dar una vuelta alrededor del Sol, aproximadamente 365 días."
+  },
+  {
+    "palabra": "Anoche",
+    "tipo": "adverbio",
+    "significado": "Durante la noche anterior a hoy."
+  },
+  {
+    "palabra": "Anochecer",
+    "tipo": "sustantivo",
+    "significado": "Momento en que termina la luz del día y comienza la noche."
+  },
+  {
+    "palabra": "Anónimo",
+    "tipo": "adjetivo",
+    "significado": "Cuyo nombre no se conoce o no se indica."
+  },
+  {
+    "palabra": "Añorar",
+    "tipo": "verbo",
+    "significado": "Echar de menos a alguien, un lugar o un momento."
+  },
+  {
+    "palabra": "Anotar",
+    "tipo": "verbo",
+    "significado": "Escribir algo para recordarlo."
+  },
+  {
+    "palabra": "Anual",
+    "tipo": "adjetivo",
+    "significado": "Que ocurre una vez al año o dura un año."
+  },
+  {
+    "palabra": "Anudar",
+    "tipo": "verbo",
+    "significado": "Hacer uno o varios nudos."
+  },
+  {
+    "palabra": "Anunciar",
+    "tipo": "verbo",
+    "significado": "Dar a conocer una noticia, una actividad o un producto."
+  },
+  {
+    "palabra": "Anuncio",
+    "tipo": "sustantivo",
+    "significado": "Mensaje que informa o invita a conocer algo."
+  },
+  {
+    "palabra": "Anzuelo",
+    "tipo": "sustantivo",
+    "significado": "Gancho pequeño que se utiliza para pescar."
+  },
+  {
+    "palabra": "Añil",
+    "tipo": "sustantivo",
+    "significado": "Color azul intenso y sustancia que se utiliza para teñir de ese color."
+  },
+  {
+    "palabra": "Anteayer",
+    "tipo": "adverbio",
+    "significado": "El día que ocurrió antes de ayer."
+  },
+  {
+    "palabra": "Antebrazo",
+    "tipo": "sustantivo",
+    "significado": "Parte del brazo que está entre el codo y la muñeca."
+  },
+  {
+    "palabra": "Antecedente",
+    "tipo": "sustantivo",
+    "significado": "Hecho anterior que ayuda a comprender algo que sucede después."
+  },
+  {
+    "palabra": "Anteojos",
+    "tipo": "sustantivo",
+    "significado": "Lentes que se colocan delante de los ojos para ver mejor o protegerlos."
+  },
+  {
+    "palabra": "Antepasado",
+    "tipo": "sustantivo",
+    "significado": "Familiar que vivió antes que nosotros, como un bisabuelo."
+  },
+  {
+    "palabra": "Antena",
+    "tipo": "sustantivo",
+    "significado": "Órgano de algunos animales para percibir su entorno; también, dispositivo que recibe o envía señales."
+  },
+  {
+    "palabra": "Anterior",
+    "tipo": "adjetivo",
+    "significado": "Que está antes en el tiempo o en un orden."
+  },
+  {
+    "palabra": "Antes",
+    "tipo": "adverbio",
+    "significado": "En un momento previo."
+  },
+  {
+    "palabra": "Anticipar",
+    "tipo": "verbo",
+    "significado": "Hacer algo antes de lo esperado o prever que va a ocurrir."
+  },
+  {
+    "palabra": "Antifaz",
+    "tipo": "sustantivo",
+    "significado": "Pieza que cubre parte de la cara en un disfraz o los ojos para dormir."
+  },
+  {
+    "palabra": "Antiguo",
+    "tipo": "adjetivo",
+    "significado": "Que existe desde hace mucho tiempo."
+  },
+  {
+    "palabra": "Antílope",
+    "tipo": "sustantivo",
+    "significado": "Mamífero herbívoro de patas generalmente delgadas, muchas de cuyas especies tienen cuernos."
+  },
+  {
+    "palabra": "Antónimo",
+    "tipo": "sustantivo",
+    "significado": "Palabra de significado contrario a otra, como frío y caliente."
+  },
+  {
+    "palabra": "Antorcha",
+    "tipo": "sustantivo",
+    "significado": "Objeto que lleva una llama en un extremo y sirve para iluminar."
+  },
+  {
+    "palabra": "Antracita",
+    "tipo": "sustantivo",
+    "significado": "Tipo de carbón mineral duro, oscuro y brillante."
+  },
+  {
+    "palabra": "Anular",
+    "tipo": "verbo",
+    "significado": "Cancelar algo o dejarlo sin efecto."
+  },
+  {
+    "palabra": "Apagar",
+    "tipo": "verbo",
+    "significado": "Hacer que una luz, un fuego o un aparato deje de funcionar."
+  },
+  {
+    "palabra": "Apacible",
+    "tipo": "adjetivo",
+    "significado": "Tranquilo y agradable."
+  },
+  {
+    "palabra": "Apadrinar",
+    "tipo": "verbo",
+    "significado": "Ser padrino o madrina de alguien, o apoyar una iniciativa."
+  },
+  {
+    "palabra": "Apañar",
+    "tipo": "verbo",
+    "significado": "Arreglar algo con los medios disponibles."
+  },
+  {
+    "palabra": "Aparato",
+    "tipo": "sustantivo",
+    "significado": "Objeto formado por piezas que realizan una función."
+  },
+  {
+    "palabra": "Aparecer",
+    "tipo": "verbo",
+    "significado": "Empezar a verse o encontrarse en un lugar."
+  },
+  {
+    "palabra": "Apariencia",
+    "tipo": "sustantivo",
+    "significado": "Aspecto que muestra una persona o una cosa."
+  },
+  {
+    "palabra": "Apartar",
+    "tipo": "verbo",
+    "significado": "Mover algo a un lado o separarlo de otras cosas."
+  },
+  {
+    "palabra": "Apartamento",
+    "tipo": "sustantivo",
+    "significado": "Vivienda que forma parte de un edificio."
+  },
+  {
+    "palabra": "Apasionado",
+    "tipo": "adjetivo",
+    "significado": "Que siente mucho entusiasmo e interés por algo."
+  },
+  {
+    "palabra": "Apelar",
+    "tipo": "verbo",
+    "significado": "Pedir que se revise una decisión o solicitar ayuda."
+  },
+  {
+    "palabra": "Apellido",
+    "tipo": "sustantivo",
+    "significado": "Nombre de familia que acompaña al nombre de una persona."
+  },
+  {
+    "palabra": "Aperitivo",
+    "tipo": "sustantivo",
+    "significado": "Pequeña porción de comida que se toma antes de la comida principal."
+  },
+  {
+    "palabra": "Apetito",
+    "tipo": "sustantivo",
+    "significado": "Ganas de comer."
+  },
+  {
+    "palabra": "Apicultor",
+    "tipo": "sustantivo",
+    "significado": "Persona que cuida colmenas de abejas."
+  },
+  {
+    "palabra": "Apicultura",
+    "tipo": "sustantivo",
+    "significado": "Actividad de criar y cuidar abejas."
+  },
+  {
+    "palabra": "Apilar",
+    "tipo": "verbo",
+    "significado": "Colocar objetos unos encima de otros de forma ordenada."
+  },
+  {
+    "palabra": "Apiñar",
+    "tipo": "verbo",
+    "significado": "Juntar muchas personas o cosas muy cerca unas de otras."
+  },
+  {
+    "palabra": "Apio",
+    "tipo": "sustantivo",
+    "significado": "Verdura de tallos largos y crujientes que se usa en ensaladas y sopas."
+  },
+  {
+    "palabra": "Aplacar",
+    "tipo": "verbo",
+    "significado": "Disminuir la intensidad de algo, como el enfado."
+  },
+  {
+    "palabra": "Aplanar",
+    "tipo": "verbo",
+    "significado": "Hacer que una superficie quede plana."
+  },
+  {
+    "palabra": "Aplastar",
+    "tipo": "verbo",
+    "significado": "Presionar algo hasta deformarlo o hacerlo más plano."
+  },
+  {
+    "palabra": "Aplaudir",
+    "tipo": "verbo",
+    "significado": "Juntar las palmas repetidamente para expresar alegría o reconocimiento."
+  },
+  {
+    "palabra": "Aplauso",
+    "tipo": "sustantivo",
+    "significado": "Sonido que hacemos al golpear una palma contra otra para felicitar."
+  },
+  {
+    "palabra": "Aplazar",
+    "tipo": "verbo",
+    "significado": "Dejar una actividad para un momento posterior."
+  },
+  {
+    "palabra": "Aplicación",
+    "tipo": "sustantivo",
+    "significado": "Programa que permite realizar tareas en una computadora, tableta o teléfono."
+  },
+  {
+    "palabra": "Aplicar",
+    "tipo": "verbo",
+    "significado": "Poner algo en práctica o colocarlo sobre una superficie."
+  },
+  {
+    "palabra": "Apodo",
+    "tipo": "sustantivo",
+    "significado": "Nombre informal que se da a alguien y que debe usarse con respeto."
+  },
+  {
+    "palabra": "Apogeo",
+    "tipo": "sustantivo",
+    "significado": "Momento de mayor éxito o desarrollo de algo."
+  },
+  {
+    "palabra": "Apolo",
+    "tipo": "personaje mitológico",
+    "significado": "Dios de los antiguos relatos griegos relacionado con la música, la poesía y otras artes."
+  },
+  {
+    "palabra": "Aportar",
+    "tipo": "verbo",
+    "significado": "Dar algo que ayuda a una tarea común, como una idea."
+  },
+  {
+    "palabra": "Apoyar",
+    "tipo": "verbo",
+    "significado": "Ayudar a alguien o colocar una cosa sobre otra para sostenerla."
+  },
+  {
+    "palabra": "Apoyo",
+    "tipo": "sustantivo",
+    "significado": "Ayuda que recibimos o cosa que sostiene a otra."
+  },
+  {
+    "palabra": "Apreciar",
+    "tipo": "verbo",
+    "significado": "Reconocer el valor de algo o sentir cariño por alguien."
+  },
+  {
+    "palabra": "Aprendiz",
+    "tipo": "sustantivo",
+    "significado": "Persona que está aprendiendo una actividad u oficio."
+  },
+  {
+    "palabra": "Aprendizaje",
+    "tipo": "sustantivo",
+    "significado": "Proceso de adquirir conocimientos y habilidades."
+  },
+  {
+    "palabra": "Apresar",
+    "tipo": "verbo",
+    "significado": "Capturar o retener a alguien o a un animal."
+  },
+  {
+    "palabra": "Apretar",
+    "tipo": "verbo",
+    "significado": "Hacer presión o sujetar con fuerza."
+  },
+  {
+    "palabra": "Aprisa",
+    "tipo": "adverbio",
+    "significado": "Con rapidez."
+  },
+  {
+    "palabra": "Aprobar",
+    "tipo": "verbo",
+    "significado": "Dar por bueno algo o alcanzar el resultado necesario en una evaluación."
+  },
+  {
+    "palabra": "Aprovechar",
+    "tipo": "verbo",
+    "significado": "Utilizar bien algo, como el tiempo o los materiales."
+  },
+  {
+    "palabra": "Aproximar",
+    "tipo": "verbo",
+    "significado": "Acercar algo o calcular una cantidad cercana a la exacta."
+  },
+  {
+    "palabra": "Apto",
+    "tipo": "adjetivo",
+    "significado": "Que reúne las condiciones necesarias para una actividad o uso."
+  },
+  {
+    "palabra": "Apuesta",
+    "tipo": "sustantivo",
+    "significado": "Acuerdo en el que se arriesga algo según lo que ocurra."
+  },
+  {
+    "palabra": "Apuntar",
+    "tipo": "verbo",
+    "significado": "Anotar algo o señalar una dirección."
+  },
+  {
+    "palabra": "Apunte",
+    "tipo": "sustantivo",
+    "significado": "Nota breve que escribes para recordar una idea."
+  },
+  {
+    "palabra": "Apurar",
+    "tipo": "verbo",
+    "significado": "Hacer algo más deprisa o consumir lo que queda."
+  },
+  {
+    "palabra": "Apuro",
+    "tipo": "sustantivo",
+    "significado": "Situación difícil o sensación de tener mucha prisa."
+  },
+  {
+    "palabra": "Aquí",
+    "tipo": "adverbio",
+    "significado": "En este lugar, cerca de quien habla."
+  },
+  {
+    "palabra": "Aquello",
+    "tipo": "pronombre",
+    "significado": "Palabra que señala algo alejado o mencionado antes."
+  },
+  {
+    "palabra": "Arado",
+    "tipo": "sustantivo",
+    "significado": "Herramienta que remueve la tierra para prepararla para el cultivo."
+  },
+  {
+    "palabra": "Arándano",
+    "tipo": "sustantivo",
+    "significado": "Fruto pequeño y redondeado que puede ser azul oscuro o rojo, según su variedad."
+  },
+  {
+    "palabra": "Araña",
+    "tipo": "sustantivo",
+    "significado": "Animal de ocho patas que produce seda; muchas arañas la usan para tejer redes."
+  },
+  {
+    "palabra": "Arañazo",
+    "tipo": "sustantivo",
+    "significado": "Marca que deja una uña o una punta al rozar una superficie."
+  },
+  {
+    "palabra": "Arar",
+    "tipo": "verbo",
+    "significado": "Remover la tierra para prepararla antes de sembrar."
+  },
+  {
+    "palabra": "Árbitro",
+    "tipo": "sustantivo",
+    "significado": "Persona que vigila que se cumplan las reglas de un juego o deporte."
+  },
+  {
+    "palabra": "Arboleda",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde crecen muchos árboles."
+  },
+  {
+    "palabra": "Arbusto",
+    "tipo": "sustantivo",
+    "significado": "Planta leñosa que suele tener varios tallos desde cerca del suelo."
+  },
+  {
+    "palabra": "Arca",
+    "tipo": "sustantivo",
+    "significado": "Caja grande y resistente que sirve para guardar objetos."
+  },
+  {
+    "palabra": "Arcilla",
+    "tipo": "sustantivo",
+    "significado": "Material de granos muy finos que, mezclado con agua, puede moldearse."
+  },
+  {
+    "palabra": "Archivo",
+    "tipo": "sustantivo",
+    "significado": "Conjunto organizado de documentos; en informática, información guardada con un nombre."
+  },
+  {
+    "palabra": "Archipiélago",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de islas próximas entre sí."
+  },
+  {
+    "palabra": "Arco",
+    "tipo": "sustantivo",
+    "significado": "Forma curva que une dos extremos. También es una estructura de construcción."
+  },
+  {
+    "palabra": "Ardilla",
+    "tipo": "sustantivo",
+    "significado": "Roedor de cola generalmente larga y peluda; muchas especies trepan a los árboles."
+  },
+  {
+    "palabra": "Ardor",
+    "tipo": "sustantivo",
+    "significado": "Sensación de calor intenso o quemazón."
+  },
+  {
+    "palabra": "Área",
+    "tipo": "sustantivo",
+    "significado": "Medida de una superficie o parte de un lugar dedicada a algo."
+  },
+  {
+    "palabra": "Arepa",
+    "tipo": "sustantivo",
+    "significado": "Alimento redondo y aplanado hecho con masa de maíz."
+  },
+  {
+    "palabra": "Arete",
+    "tipo": "sustantivo",
+    "significado": "Adorno que se lleva en la oreja."
+  },
+  {
+    "palabra": "Argumento",
+    "tipo": "sustantivo",
+    "significado": "Razón que apoya una idea. También es el conjunto de hechos de una historia."
+  },
+  {
+    "palabra": "Árido",
+    "tipo": "adjetivo",
+    "significado": "Muy seco y con pocas lluvias."
+  },
+  {
+    "palabra": "Arista",
+    "tipo": "sustantivo",
+    "significado": "Borde donde se unen dos caras de un cuerpo geométrico, como un cubo."
+  },
+  {
+    "palabra": "Aritmética",
+    "tipo": "sustantivo",
+    "significado": "Parte de las matemáticas que estudia los números y operaciones como sumar."
+  },
+  {
+    "palabra": "Armadillo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero americano con placas duras que protegen su cuerpo."
+  },
+  {
+    "palabra": "Armadura",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de piezas resistentes que protege el cuerpo o sostiene una estructura."
+  },
+  {
+    "palabra": "Armario",
+    "tipo": "sustantivo",
+    "significado": "Mueble con puertas donde se guardan ropa u otros objetos."
+  },
+  {
+    "palabra": "Armar",
+    "tipo": "verbo",
+    "significado": "Unir piezas para construir algo."
+  },
+  {
+    "palabra": "Armonía",
+    "tipo": "sustantivo",
+    "significado": "Combinación agradable de elementos o convivencia tranquila entre personas."
+  },
+  {
+    "palabra": "Armónica",
+    "tipo": "sustantivo",
+    "significado": "Instrumento pequeño que produce música al soplar y aspirar aire."
+  },
+  {
+    "palabra": "Aro",
+    "tipo": "sustantivo",
+    "significado": "Objeto con forma de círculo y centro vacío."
+  },
+  {
+    "palabra": "Aroma",
+    "tipo": "sustantivo",
+    "significado": "Olor generalmente agradable, como el de una flor."
+  },
+  {
+    "palabra": "Arpa",
+    "tipo": "sustantivo",
+    "significado": "Instrumento musical de cuerdas que se tocan con los dedos."
+  },
+  {
+    "palabra": "Arqueología",
+    "tipo": "sustantivo",
+    "significado": "Estudio de las sociedades del pasado mediante los objetos y construcciones que dejaron."
+  },
+  {
+    "palabra": "Arqueólogo",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga el pasado estudiando restos de antiguas sociedades."
+  },
+  {
+    "palabra": "Arquero",
+    "tipo": "sustantivo",
+    "significado": "Persona que practica el tiro con arco; en algunos deportes, quien protege la portería."
+  },
+  {
+    "palabra": "Arquitecto",
+    "tipo": "sustantivo",
+    "significado": "Profesional que diseña edificios y otros espacios."
+  },
+  {
+    "palabra": "Arquitectura",
+    "tipo": "sustantivo",
+    "significado": "Arte y técnica de diseñar edificios y espacios."
+  },
+  {
+    "palabra": "Arrancar",
+    "tipo": "verbo",
+    "significado": "Poner en marcha una máquina o sacar algo tirando de ello."
+  },
+  {
+    "palabra": "Arrastrar",
+    "tipo": "verbo",
+    "significado": "Mover algo tirando de ello mientras roza el suelo."
+  },
+  {
+    "palabra": "Arrebato",
+    "tipo": "sustantivo",
+    "significado": "Emoción muy intensa y repentina que puede hacernos actuar sin pensar."
+  },
+  {
+    "palabra": "Arrecife",
+    "tipo": "sustantivo",
+    "significado": "Formación de roca o coral situada cerca de la superficie del mar."
+  },
+  {
+    "palabra": "Arreglar",
+    "tipo": "verbo",
+    "significado": "Reparar algo, ordenarlo o buscar una solución."
+  },
+  {
+    "palabra": "Arremangar",
+    "tipo": "verbo",
+    "significado": "Subir las mangas de una prenda."
+  },
+  {
+    "palabra": "Arrepentirse",
+    "tipo": "verbo",
+    "significado": "Reconocer que una acción estuvo mal o desear haber actuado de otra manera."
+  },
+  {
+    "palabra": "Arriba",
+    "tipo": "adverbio",
+    "significado": "En un lugar más alto o hacia él."
+  },
+  {
+    "palabra": "Arrimar",
+    "tipo": "verbo",
+    "significado": "Acercar algo a otra cosa."
+  },
+  {
+    "palabra": "Arrinconar",
+    "tipo": "verbo",
+    "significado": "Poner algo en un rincón."
+  },
+  {
+    "palabra": "Arrodillarse",
+    "tipo": "verbo",
+    "significado": "Apoyar una o las dos rodillas en el suelo."
+  },
+  {
+    "palabra": "Arrojar",
+    "tipo": "verbo",
+    "significado": "Lanzar algo en una dirección."
+  },
+  {
+    "palabra": "Arropar",
+    "tipo": "verbo",
+    "significado": "Cubrir con ropa o mantas para dar calor y comodidad."
+  },
+  {
+    "palabra": "Arroyo",
+    "tipo": "sustantivo",
+    "significado": "Corriente natural de agua más pequeña que un río."
+  },
+  {
+    "palabra": "Arroz",
+    "tipo": "sustantivo",
+    "significado": "Cereal cuyos granos se cocinan y se comen en muchos países."
+  },
+  {
+    "palabra": "Arruga",
+    "tipo": "sustantivo",
+    "significado": "Pliegue que aparece en una tela, un papel o la piel."
+  },
+  {
+    "palabra": "Arrugar",
+    "tipo": "verbo",
+    "significado": "Formar pliegues en algo."
+  },
+  {
+    "palabra": "Arrullar",
+    "tipo": "verbo",
+    "significado": "Calmar con sonidos suaves. También es el sonido que hacen algunas aves."
+  },
+  {
+    "palabra": "Arsenal",
+    "tipo": "sustantivo",
+    "significado": "Gran conjunto de recursos disponibles; por ejemplo, un arsenal de ideas."
+  },
+  {
+    "palabra": "Arteria",
+    "tipo": "sustantivo",
+    "significado": "Conducto que lleva sangre desde el corazón hacia otras partes del cuerpo."
+  },
+  {
+    "palabra": "Artesanía",
+    "tipo": "sustantivo",
+    "significado": "Trabajo de crear objetos principalmente a mano y con habilidades tradicionales."
+  },
+  {
+    "palabra": "Artesano",
+    "tipo": "sustantivo",
+    "significado": "Persona que elabora objetos principalmente con sus manos y herramientas."
+  },
+  {
+    "palabra": "Artículo",
+    "tipo": "sustantivo",
+    "significado": "Texto sobre un tema, objeto de venta o palabra como el, la, un y una."
+  },
+  {
+    "palabra": "Articulación",
+    "tipo": "sustantivo",
+    "significado": "Unión entre huesos, como la rodilla; muchas permiten mover el cuerpo."
+  },
+  {
+    "palabra": "Artificial",
+    "tipo": "adjetivo",
+    "significado": "Fabricado por las personas en lugar de producido directamente por la naturaleza."
+  },
+  {
+    "palabra": "Artista",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea o interpreta obras de arte."
+  },
+  {
+    "palabra": "Arveja",
+    "tipo": "sustantivo",
+    "significado": "Semilla redonda y generalmente verde que crece dentro de una vaina."
+  },
+  {
+    "palabra": "Asa",
+    "tipo": "sustantivo",
+    "significado": "Parte de un objeto que sirve para agarrarlo, como la de una taza."
+  },
+  {
+    "palabra": "Asado",
+    "tipo": "sustantivo",
+    "significado": "Comida preparada mediante calor, por ejemplo en un horno o una parrilla."
+  },
+  {
+    "palabra": "Asamblea",
+    "tipo": "sustantivo",
+    "significado": "Reunión de personas para hablar y tomar decisiones."
+  },
+  {
+    "palabra": "Asar",
+    "tipo": "verbo",
+    "significado": "Cocinar un alimento con calor, normalmente sin sumergirlo en agua."
+  },
+  {
+    "palabra": "Ascender",
+    "tipo": "verbo",
+    "significado": "Subir a un lugar más alto."
+  },
+  {
+    "palabra": "Ascensor",
+    "tipo": "sustantivo",
+    "significado": "Máquina que transporta personas o cosas entre los pisos de un edificio."
+  },
+  {
+    "palabra": "Ascenso",
+    "tipo": "sustantivo",
+    "significado": "Movimiento hacia arriba o paso a una posición superior."
+  },
+  {
+    "palabra": "Asco",
+    "tipo": "sustantivo",
+    "significado": "Sensación de rechazo ante algo que resulta desagradable."
+  },
+  {
+    "palabra": "Asear",
+    "tipo": "verbo",
+    "significado": "Limpiar el cuerpo o un lugar."
+  },
+  {
+    "palabra": "Asegurar",
+    "tipo": "verbo",
+    "significado": "Sujetar algo para que no se mueva o decir algo con certeza."
+  },
+  {
+    "palabra": "Asemejarse",
+    "tipo": "verbo",
+    "significado": "Parecerse a alguien o a algo."
+  },
+  {
+    "palabra": "Asentir",
+    "tipo": "verbo",
+    "significado": "Mostrar que estás de acuerdo, por ejemplo moviendo la cabeza."
+  },
+  {
+    "palabra": "Aseo",
+    "tipo": "sustantivo",
+    "significado": "Limpieza del cuerpo o de un espacio."
+  },
+  {
+    "palabra": "Aserrín",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de partículas pequeñas que quedan al cortar madera con una sierra."
+  },
+  {
+    "palabra": "Asesor",
+    "tipo": "sustantivo",
+    "significado": "Persona que ofrece orientación sobre un tema que conoce bien."
+  },
+  {
+    "palabra": "Asfalto",
+    "tipo": "sustantivo",
+    "significado": "Material oscuro que se usa, mezclado con piedras, para cubrir muchas carreteras."
+  },
+  {
+    "palabra": "Así",
+    "tipo": "adverbio",
+    "significado": "De esta manera o de esa manera."
+  },
+  {
+    "palabra": "Asiento",
+    "tipo": "sustantivo",
+    "significado": "Lugar u objeto preparado para sentarse."
+  },
+  {
+    "palabra": "Asignar",
+    "tipo": "verbo",
+    "significado": "Dar a alguien una tarea, un lugar o un recurso."
+  },
+  {
+    "palabra": "Asignatura",
+    "tipo": "sustantivo",
+    "significado": "Materia que se estudia, como Matemáticas o Comunicación."
+  },
+  {
+    "palabra": "Asimilar",
+    "tipo": "verbo",
+    "significado": "Comprender e incorporar una idea nueva o aprovechar sustancias de los alimentos."
+  },
+  {
+    "palabra": "Asistir",
+    "tipo": "verbo",
+    "significado": "Acudir a un lugar o prestar ayuda."
+  },
+  {
+    "palabra": "Asno",
+    "tipo": "sustantivo",
+    "significado": "Mamífero doméstico de orejas largas, también llamado burro."
+  },
+  {
+    "palabra": "Asociar",
+    "tipo": "verbo",
+    "significado": "Relacionar ideas o unir personas para colaborar."
+  },
+  {
+    "palabra": "Asomar",
+    "tipo": "verbo",
+    "significado": "Empezar a mostrar una parte de algo, como la cabeza por una ventana."
+  },
+  {
+    "palabra": "Asombrar",
+    "tipo": "verbo",
+    "significado": "Provocar mucha sorpresa."
+  },
+  {
+    "palabra": "Asombro",
+    "tipo": "sustantivo",
+    "significado": "Gran sorpresa ante algo nuevo, inesperado o impresionante."
+  },
+  {
+    "palabra": "Aspecto",
+    "tipo": "sustantivo",
+    "significado": "Apariencia de algo o una parte de un tema."
+  },
+  {
+    "palabra": "Áspero",
+    "tipo": "adjetivo",
+    "significado": "Que no se siente liso al tocarlo."
+  },
+  {
+    "palabra": "Aspiradora",
+    "tipo": "sustantivo",
+    "significado": "Máquina que recoge polvo y suciedad succionando aire."
+  },
+  {
+    "palabra": "Aspirar",
+    "tipo": "verbo",
+    "significado": "Introducir aire al respirar o desear alcanzar una meta."
+  },
+  {
+    "palabra": "Asta",
+    "tipo": "sustantivo",
+    "significado": "Palo que sostiene una bandera; también, estructura de la cabeza de los ciervos."
+  },
+  {
+    "palabra": "Asteroide",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo rocoso o metálico, menor que un planeta, que gira alrededor del Sol."
+  },
+  {
+    "palabra": "Astilla",
+    "tipo": "sustantivo",
+    "significado": "Fragmento pequeño y alargado que se desprende de la madera u otro material."
+  },
+  {
+    "palabra": "Astro",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo natural del espacio, como una estrella, un planeta o una luna."
+  },
+  {
+    "palabra": "Astronomía",
+    "tipo": "sustantivo",
+    "significado": "Ciencia que estudia los astros y el universo."
+  },
+  {
+    "palabra": "Astrónomo",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga las estrellas, los planetas y otros objetos del universo."
+  },
+  {
+    "palabra": "Astucia",
+    "tipo": "sustantivo",
+    "significado": "Habilidad para encontrar soluciones ingeniosas o evitar dificultades."
+  },
+  {
+    "palabra": "Asumir",
+    "tipo": "verbo",
+    "significado": "Aceptar una responsabilidad o dar algo por cierto."
+  },
+  {
+    "palabra": "Asunto",
+    "tipo": "sustantivo",
+    "significado": "Tema del que se habla o tarea que necesita atención."
+  },
+  {
+    "palabra": "Asustar",
+    "tipo": "verbo",
+    "significado": "Hacer que alguien sienta miedo o sobresalto."
+  },
+  {
+    "palabra": "Atajo",
+    "tipo": "sustantivo",
+    "significado": "Camino más corto para llegar a un lugar."
+  },
+  {
+    "palabra": "Atar",
+    "tipo": "verbo",
+    "significado": "Unir o sujetar algo mediante un nudo."
+  },
+  {
+    "palabra": "Atardecer",
+    "tipo": "sustantivo",
+    "significado": "Momento del día en que el Sol se acerca al horizonte y empieza a oscurecer."
+  },
+  {
+    "palabra": "Atasco",
+    "tipo": "sustantivo",
+    "significado": "Acumulación que impide avanzar, como muchos vehículos detenidos en una calle."
+  },
+  {
+    "palabra": "Atención",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de concentrarse en algo; también, cuidado que se ofrece a alguien."
+  },
+  {
+    "palabra": "Atender",
+    "tipo": "verbo",
+    "significado": "Prestar atención o cuidar a quien necesita ayuda."
+  },
+  {
+    "palabra": "Atento",
+    "tipo": "adjetivo",
+    "significado": "Que escucha o mira con cuidado; también, que trata bien a los demás."
+  },
+  {
+    "palabra": "Aterrizar",
+    "tipo": "verbo",
+    "significado": "Llegar al suelo después de volar."
+  },
+  {
+    "palabra": "Atesorar",
+    "tipo": "verbo",
+    "significado": "Guardar y valorar mucho algo, como un recuerdo."
+  },
+  {
+    "palabra": "Atleta",
+    "tipo": "sustantivo",
+    "significado": "Persona que practica un deporte, especialmente pruebas de atletismo."
+  },
+  {
+    "palabra": "Atletismo",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de pruebas deportivas que incluyen carreras, saltos y lanzamientos."
+  },
+  {
+    "palabra": "Atlas",
+    "tipo": "sustantivo",
+    "significado": "Colección de mapas reunidos en un libro u otro formato."
+  },
+  {
+    "palabra": "Atmósfera",
+    "tipo": "sustantivo",
+    "significado": "Capa de gases que rodea la Tierra u otro astro."
+  },
+  {
+    "palabra": "Átomo",
+    "tipo": "sustantivo",
+    "significado": "Unidad diminuta de un elemento químico, formada por un núcleo y electrones."
+  },
+  {
+    "palabra": "Atornillar",
+    "tipo": "verbo",
+    "significado": "Introducir o ajustar un tornillo haciéndolo girar."
+  },
+  {
+    "palabra": "Atraer",
+    "tipo": "verbo",
+    "significado": "Hacer que algo se acerque o despierte interés."
+  },
+  {
+    "palabra": "Atrapar",
+    "tipo": "verbo",
+    "significado": "Agarrar algo que se mueve, como una pelota."
+  },
+  {
+    "palabra": "Atrás",
+    "tipo": "adverbio",
+    "significado": "En la parte posterior o hacia ella."
+  },
+  {
+    "palabra": "Atravesar",
+    "tipo": "verbo",
+    "significado": "Pasar de un lado al otro de algo."
+  },
+  {
+    "palabra": "Atreverse",
+    "tipo": "verbo",
+    "significado": "Decidir hacer algo aunque produzca nervios o miedo."
+  },
+  {
+    "palabra": "Atril",
+    "tipo": "sustantivo",
+    "significado": "Soporte que mantiene un libro o una partitura en posición cómoda para leer."
+  },
+  {
+    "palabra": "Atún",
+    "tipo": "sustantivo",
+    "significado": "Pez marino que nada con rapidez y puede recorrer grandes distancias."
+  },
+  {
+    "palabra": "Audaz",
+    "tipo": "adjetivo",
+    "significado": "Que se anima a afrontar retos o probar ideas nuevas."
+  },
+  {
+    "palabra": "Audición",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de escuchar; también, prueba para seleccionar músicos o intérpretes."
+  },
+  {
+    "palabra": "Audífono",
+    "tipo": "sustantivo",
+    "significado": "Dispositivo que ayuda a escuchar; en algunos países, también significa auricular."
+  },
+  {
+    "palabra": "Audio",
+    "tipo": "sustantivo",
+    "significado": "Sonido grabado, transmitido o reproducido mediante un aparato."
+  },
+  {
+    "palabra": "Auditorio",
+    "tipo": "sustantivo",
+    "significado": "Sala para conciertos y presentaciones, o conjunto de personas que escucha."
+  },
+  {
+    "palabra": "Auge",
+    "tipo": "sustantivo",
+    "significado": "Momento de gran crecimiento, éxito o popularidad."
+  },
+  {
+    "palabra": "Aula",
+    "tipo": "sustantivo",
+    "significado": "Espacio donde se reúnen estudiantes y docentes para aprender."
+  },
+  {
+    "palabra": "Aullar",
+    "tipo": "verbo",
+    "significado": "Emitir un sonido largo y fuerte, como hacen los lobos."
+  },
+  {
+    "palabra": "Aumentar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo sea mayor en tamaño, cantidad o intensidad."
+  },
+  {
+    "palabra": "Aumento",
+    "tipo": "sustantivo",
+    "significado": "Crecimiento de una cantidad, tamaño o intensidad."
+  },
+  {
+    "palabra": "Aun",
+    "tipo": "adverbio",
+    "significado": "Palabra que puede significar incluso, como en aun los pequeños participaron."
+  },
+  {
+    "palabra": "Aún",
+    "tipo": "adverbio",
+    "significado": "Todavía, como cuando dices que aún estás leyendo."
+  },
+  {
+    "palabra": "Aunque",
+    "tipo": "conjunción",
+    "significado": "Une ideas que presentan una dificultad que no impide lo demás: aunque llueva, leeremos."
+  },
+  {
+    "palabra": "Auricular",
+    "tipo": "sustantivo",
+    "significado": "Dispositivo que se coloca cerca del oído para escuchar sonido."
+  },
+  {
+    "palabra": "Aurora",
+    "tipo": "sustantivo",
+    "significado": "Claridad del amanecer; también, luces de colores que pueden verse cerca de los polos."
+  },
+  {
+    "palabra": "Ausencia",
+    "tipo": "sustantivo",
+    "significado": "Falta de alguien o de algo en un lugar."
+  },
+  {
+    "palabra": "Ausente",
+    "tipo": "adjetivo",
+    "significado": "Que no está en el lugar del que se habla."
+  },
+  {
+    "palabra": "Auténtico",
+    "tipo": "adjetivo",
+    "significado": "Que es verdadero y no una imitación."
+  },
+  {
+    "palabra": "Autobús",
+    "tipo": "sustantivo",
+    "significado": "Vehículo grande que transporta a muchas personas."
+  },
+  {
+    "palabra": "Autocuidado",
+    "tipo": "sustantivo",
+    "significado": "Acciones para cuidar tu bienestar, como descansar, asearte y pedir ayuda."
+  },
+  {
+    "palabra": "Autógrafo",
+    "tipo": "sustantivo",
+    "significado": "Firma escrita por una persona, a veces como recuerdo para sus admiradores."
+  },
+  {
+    "palabra": "Automático",
+    "tipo": "adjetivo",
+    "significado": "Que realiza una tarea mediante un mecanismo, sin dirigir cada paso a mano."
+  },
+  {
+    "palabra": "Automóvil",
+    "tipo": "sustantivo",
+    "significado": "Vehículo con motor y ruedas que transporta personas por tierra."
+  },
+  {
+    "palabra": "Autonomía",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de tomar decisiones y hacer tareas por ti mismo, según tus posibilidades."
+  },
+  {
+    "palabra": "Autor",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea una obra, como un cuento o una canción."
+  },
+  {
+    "palabra": "Autorretrato",
+    "tipo": "sustantivo",
+    "significado": "Retrato que una persona hace de sí misma."
+  },
+  {
+    "palabra": "Auxiliar",
+    "tipo": "verbo",
+    "significado": "Ayudar a alguien que lo necesita."
+  },
+  {
+    "palabra": "Auxilio",
+    "tipo": "sustantivo",
+    "significado": "Ayuda que se presta ante una necesidad o un peligro."
+  },
+  {
+    "palabra": "Avalancha",
+    "tipo": "sustantivo",
+    "significado": "Gran cantidad de nieve, tierra u otros materiales que cae rápidamente por una pendiente."
+  },
+  {
+    "palabra": "Avanzar",
+    "tipo": "verbo",
+    "significado": "Moverse hacia delante o progresar en una tarea."
+  },
+  {
+    "palabra": "Ave",
+    "tipo": "sustantivo",
+    "significado": "Animal vertebrado con plumas y pico que se reproduce poniendo huevos."
+  },
+  {
+    "palabra": "Avellana",
+    "tipo": "sustantivo",
+    "significado": "Fruto del avellano, con cáscara dura y una parte interior comestible."
+  },
+  {
+    "palabra": "Avena",
+    "tipo": "sustantivo",
+    "significado": "Cereal cuyos granos se usan para preparar alimentos como gachas y galletas."
+  },
+  {
+    "palabra": "Avenida",
+    "tipo": "sustantivo",
+    "significado": "Calle generalmente ancha e importante de una población."
+  },
+  {
+    "palabra": "Aventurero",
+    "tipo": "adjetivo",
+    "significado": "Que disfruta explorando y viviendo experiencias nuevas."
+  },
+  {
+    "palabra": "Avergonzarse",
+    "tipo": "verbo",
+    "significado": "Sentir vergüenza o incomodidad por una situación."
+  },
+  {
+    "palabra": "Averiguar",
+    "tipo": "verbo",
+    "significado": "Buscar información para descubrir algo."
+  },
+  {
+    "palabra": "Avestruz",
+    "tipo": "sustantivo",
+    "significado": "Ave africana muy grande que no vuela y corre rápidamente."
+  },
+  {
+    "palabra": "Aviador",
+    "tipo": "sustantivo",
+    "significado": "Persona que pilota una aeronave."
+  },
+  {
+    "palabra": "Avisar",
+    "tipo": "verbo",
+    "significado": "Comunicar algo para que otra persona lo sepa."
+  },
+  {
+    "palabra": "Aviso",
+    "tipo": "sustantivo",
+    "significado": "Mensaje que informa o advierte de algo."
+  },
+  {
+    "palabra": "Avispa",
+    "tipo": "sustantivo",
+    "significado": "Insecto que suele tener cintura estrecha; muchas especies ayudan a controlar otros insectos."
+  },
+  {
+    "palabra": "Avistar",
+    "tipo": "verbo",
+    "significado": "Ver algo desde cierta distancia."
+  },
+  {
+    "palabra": "Axila",
+    "tipo": "sustantivo",
+    "significado": "Hueco que está debajo de la unión del brazo con el hombro."
+  },
+  {
+    "palabra": "Ayer",
+    "tipo": "adverbio",
+    "significado": "El día anterior a hoy."
+  },
+  {
+    "palabra": "Ayudante",
+    "tipo": "sustantivo",
+    "significado": "Persona que colabora con otra en una tarea."
+  },
+  {
+    "palabra": "Ayuntamiento",
+    "tipo": "sustantivo",
+    "significado": "Institución que gobierna un municipio y edificio donde trabaja."
+  },
+  {
+    "palabra": "Azada",
+    "tipo": "sustantivo",
+    "significado": "Herramienta de mango largo que sirve para trabajar la tierra."
+  },
+  {
+    "palabra": "Azafrán",
+    "tipo": "sustantivo",
+    "significado": "Especia obtenida de partes de una flor, usada para dar color y sabor."
+  },
+  {
+    "palabra": "Azahar",
+    "tipo": "sustantivo",
+    "significado": "Flor blanca y aromática del naranjo y de otros cítricos."
+  },
+  {
+    "palabra": "Azalea",
+    "tipo": "sustantivo",
+    "significado": "Arbusto cultivado por sus flores vistosas de diversos colores."
+  },
+  {
+    "palabra": "Azar",
+    "tipo": "sustantivo",
+    "significado": "Casualidad, como el resultado que sale al lanzar un dado."
+  },
+  {
+    "palabra": "Azotea",
+    "tipo": "sustantivo",
+    "significado": "Parte superior y plana de un edificio que puede utilizarse como terraza."
+  },
+  {
+    "palabra": "Azucarero",
+    "tipo": "sustantivo",
+    "significado": "Recipiente donde se guarda el azúcar para servirla."
+  },
+  {
+    "palabra": "Azucena",
+    "tipo": "sustantivo",
+    "significado": "Planta de flores grandes y vistosas, a menudo blancas y perfumadas."
+  },
+  {
+    "palabra": "Azulejo",
+    "tipo": "sustantivo",
+    "significado": "Pieza de cerámica que se coloca en paredes o suelos."
+  },
+  {
+    "palabra": "Azulado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un tono parecido al azul."
+  },
+  {
+    "palabra": "Azufre",
+    "tipo": "sustantivo",
+    "significado": "Elemento químico de color amarillo que aparece en minerales y forma parte de los seres vivos."
+  },
+  {
+    "palabra": "Abelardo",
+    "tipo": "personaje ficticio",
+    "significado": "Ave grande y de colores de Plaza Sésamo que participa en historias para aprender."
+  },
+  {
+    "palabra": "Alicia",
+    "tipo": "personaje literario",
+    "significado": "Protagonista de Alicia en el país de las maravillas, una niña curiosa que vive aventuras imaginarias."
+  },
+  {
+    "palabra": "Aladino",
+    "tipo": "personaje literario",
+    "significado": "Personaje de un cuento popular en el que una lámpara contiene un genio mágico."
+  },
+  {
+    "palabra": "Atenea",
+    "tipo": "personaje mitológico",
+    "significado": "Diosa de los antiguos relatos griegos asociada con la sabiduría y las habilidades artesanales."
+  },
+  {
+    "palabra": "Anansi",
+    "tipo": "personaje folclórico",
+    "significado": "Personaje con forma de araña de relatos de África occidental y el Caribe, famoso por su ingenio."
+  },
+  {
+    "palabra": "Astérix",
+    "tipo": "personaje ficticio",
+    "significado": "Héroe de historietas que vive aventuras con su amigo Obélix en una aldea de la antigua Galia."
+  },
+  {
+    "palabra": "Ana María Matute",
+    "tipo": "personaje histórico",
+    "significado": "Escritora española que creó novelas y cuentos donde la infancia ocupa un lugar importante."
+  },
+  {
+    "palabra": "Astrid Lindgren",
+    "tipo": "personaje histórico",
+    "significado": "Escritora sueca que creó a Pippi Calzaslargas y otras historias para niños."
+  },
+  {
+    "palabra": "Antoine de Saint-Exupéry",
+    "tipo": "personaje histórico",
+    "significado": "Escritor y aviador francés, autor de El principito, un relato sobre la amistad y el cuidado."
+  },
+  {
+    "palabra": "Antonio Vivaldi",
+    "tipo": "personaje histórico",
+    "significado": "Compositor y violinista italiano que escribió Las cuatro estaciones, música inspirada en distintas épocas del año."
+  },
+  {
+    "palabra": "Antonio Raimondi",
+    "tipo": "personaje histórico",
+    "significado": "Naturalista italiano que recorrió el Perú y estudió sus plantas, animales y paisajes."
+  },
+  {
+    "palabra": "Alexander Fleming",
+    "tipo": "personaje histórico",
+    "significado": "Científico escocés cuyo descubrimiento de la penicilina ayudó al desarrollo de medicamentos contra ciertas bacterias."
+  },
+  {
+    "palabra": "Alexander von Humboldt",
+    "tipo": "personaje histórico",
+    "significado": "Explorador y naturalista alemán que estudió cómo se relacionan el clima, las plantas y los paisajes."
+  },
+  {
+    "palabra": "Alfredo Volpi",
+    "tipo": "personaje histórico",
+    "significado": "Pintor nacido en Italia que desarrolló su carrera en Brasil y creó cuadros de colores y formas sencillas."
+  },
+  {
+    "palabra": "Alfonsina Storni",
+    "tipo": "personaje histórico",
+    "significado": "Poeta y escritora argentina nacida en Suiza, conocida por sus poemas y su defensa de las mujeres."
+  },
+  {
+    "palabra": "Atahualpa Yupanqui",
+    "tipo": "personaje histórico",
+    "significado": "Músico y poeta argentino que compartió canciones sobre la vida y los paisajes de su tierra."
+  },
+  {
+    "palabra": "Andrés Iniesta",
+    "tipo": "deportista",
+    "significado": "Futbolista español conocido por su habilidad para pasar el balón y colaborar con su equipo."
+  },
+  {
+    "palabra": "Alexia Putellas",
+    "tipo": "deportista",
+    "significado": "Futbolista española reconocida por su técnica y sus logros en el fútbol femenino."
+  },
+  {
+    "palabra": "Ariana Grande",
+    "tipo": "artista",
+    "significado": "Cantante y actriz estadounidense conocida por su voz y su trabajo en la música pop."
+  },
+  {
+    "palabra": "Adele",
+    "tipo": "artista",
+    "significado": "Cantante y compositora británica conocida por su voz y por expresar emociones en sus canciones."
+  },
+  {
+    "palabra": "Ábaco",
+    "tipo": "sustantivo",
+    "significado": "Instrumento antiguo para hacer cálculos con cuentas que se deslizan por varillas."
+  },
+  {
+    "palabra": "Abajo",
+    "tipo": "adverbio",
+    "significado": "En un lugar situado a menor altura."
+  },
+  {
+    "palabra": "Abanicar",
+    "tipo": "verbo",
+    "significado": "Mover el aire con un abanico."
+  },
+  {
+    "palabra": "Abanico",
+    "tipo": "sustantivo",
+    "significado": "Objeto plegable que se mueve con la mano para producir aire."
+  },
+  {
+    "palabra": "Abaratar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo cueste menos."
+  },
+  {
+    "palabra": "Abarcar",
+    "tipo": "verbo",
+    "significado": "Incluir o comprender varias cosas dentro de un conjunto."
+  },
+  {
+    "palabra": "Abastecer",
+    "tipo": "verbo",
+    "significado": "Proporcionar lo necesario, como alimentos o materiales."
+  },
+  {
+    "palabra": "Abastecimiento",
+    "tipo": "sustantivo",
+    "significado": "Acción de proporcionar productos o recursos necesarios."
+  },
+  {
+    "palabra": "Abatir",
+    "tipo": "verbo",
+    "significado": "Derribar o hacer que algo caiga."
+  },
+  {
+    "palabra": "Abdomen",
+    "tipo": "sustantivo",
+    "significado": "Parte del cuerpo situada entre el pecho y la pelvis."
+  },
+  {
+    "palabra": "Abdominal",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el abdomen."
+  },
+  {
+    "palabra": "Abecedario",
+    "tipo": "sustantivo",
+    "significado": "Conjunto ordenado de las letras de un idioma."
+  },
+  {
+    "palabra": "Abeja",
+    "tipo": "sustantivo",
+    "significado": "Insecto que visita flores y produce miel."
+  },
+  {
+    "palabra": "Abejorro",
+    "tipo": "sustantivo",
+    "significado": "Insecto parecido a una abeja, generalmente grande y peludo."
+  },
+  {
+    "palabra": "Abeto",
+    "tipo": "sustantivo",
+    "significado": "Árbol de hojas finas y perennes, común en zonas frías."
+  },
+  {
+    "palabra": "Abismal",
+    "tipo": "adjetivo",
+    "significado": "Muy grande o profundo, como un abismo."
+  },
+  {
+    "palabra": "Abismo",
+    "tipo": "sustantivo",
+    "significado": "Profundidad grande y difícil de medir."
+  },
+  {
+    "palabra": "Ablandar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo se vuelva menos duro."
+  },
+  {
+    "palabra": "Abono",
+    "tipo": "sustantivo",
+    "significado": "Material que mejora la tierra y ayuda a crecer a las plantas."
+  },
+  {
+    "palabra": "Abonar",
+    "tipo": "verbo",
+    "significado": "Añadir abono a la tierra o pagar por adelantado un servicio."
+  },
+  {
+    "palabra": "Abordaje",
+    "tipo": "sustantivo",
+    "significado": "Acción de subir a un barco, avión u otro vehículo."
+  },
+  {
+    "palabra": "Abordar",
+    "tipo": "verbo",
+    "significado": "Subir a un vehículo o tratar un asunto."
+  },
+  {
+    "palabra": "Aborigen",
+    "tipo": "sustantivo",
+    "significado": "Persona originaria del lugar donde vive."
+  },
+  {
+    "palabra": "Abrazadera",
+    "tipo": "sustantivo",
+    "significado": "Pieza que sirve para sujetar o unir objetos."
+  },
+  {
+    "palabra": "Abrazar",
+    "tipo": "verbo",
+    "significado": "Rodear a alguien con los brazos para mostrar cariño."
+  },
+  {
+    "palabra": "Abrazo",
+    "tipo": "sustantivo",
+    "significado": "Demostración de cariño en la que se rodea a alguien con los brazos."
+  },
+  {
+    "palabra": "Abreviar",
+    "tipo": "verbo",
+    "significado": "Hacer algo más corto o usar una forma reducida de una palabra."
+  },
+  {
+    "palabra": "Abreviatura",
+    "tipo": "sustantivo",
+    "significado": "Forma corta de escribir una palabra o expresión."
+  },
+  {
+    "palabra": "Abrigo",
+    "tipo": "sustantivo",
+    "significado": "Prenda de vestir que protege del frío."
+  },
+  {
+    "palabra": "Abrigar",
+    "tipo": "verbo",
+    "significado": "Proteger del frío con ropa o con una cubierta."
+  },
+  {
+    "palabra": "Abril",
+    "tipo": "sustantivo",
+    "significado": "Cuarto mes del año."
+  },
+  {
+    "palabra": "Abrir",
+    "tipo": "verbo",
+    "significado": "Hacer que algo deje de estar cerrado."
+  },
+  {
+    "palabra": "Abrochar",
+    "tipo": "verbo",
+    "significado": "Cerrar una prenda usando botones, broches o cierres."
+  },
+  {
+    "palabra": "Absceso",
+    "tipo": "sustantivo",
+    "significado": "Acumulación de pus en una parte del cuerpo."
+  },
+  {
+    "palabra": "Absorber",
+    "tipo": "verbo",
+    "significado": "Atraer y retener un líquido, gas o sustancia."
+  },
+  {
+    "palabra": "Absorción",
+    "tipo": "sustantivo",
+    "significado": "Acción de atraer y retener una sustancia."
+  },
+  {
+    "palabra": "Abstenerse",
+    "tipo": "verbo",
+    "significado": "Decidir no hacer o no consumir algo."
+  },
+  {
+    "palabra": "Abstinencia",
+    "tipo": "sustantivo",
+    "significado": "Decisión de dejar de consumir o hacer algo."
+  },
+  {
+    "palabra": "Abstracto",
+    "tipo": "adjetivo",
+    "significado": "Que se refiere a ideas y no a objetos que se pueden tocar."
+  },
+  {
+    "palabra": "Abstracción",
+    "tipo": "sustantivo",
+    "significado": "Idea que representa algo sin mostrar sus detalles concretos."
+  },
+  {
+    "palabra": "Abundancia",
+    "tipo": "sustantivo",
+    "significado": "Gran cantidad de algo."
+  },
+  {
+    "palabra": "Abundante",
+    "tipo": "adjetivo",
+    "significado": "Que existe o se presenta en gran cantidad."
+  },
+  {
+    "palabra": "Abundar",
+    "tipo": "verbo",
+    "significado": "Existir en gran cantidad."
+  },
+  {
+    "palabra": "Abuela",
+    "tipo": "sustantivo",
+    "significado": "Madre del padre o de la madre de una persona."
+  },
+  {
+    "palabra": "Abuelo",
+    "tipo": "sustantivo",
+    "significado": "Padre del padre o de la madre de una persona."
+  },
+  {
+    "palabra": "Aburrimiento",
+    "tipo": "sustantivo",
+    "significado": "Sensación de falta de interés o diversión."
+  },
+  {
+    "palabra": "Aburrir",
+    "tipo": "verbo",
+    "significado": "Causar falta de interés o diversión."
+  },
+  {
+    "palabra": "Aburrido",
+    "tipo": "adjetivo",
+    "significado": "Que siente aburrimiento o que resulta poco interesante."
+  },
+  {
+    "palabra": "Abusar",
+    "tipo": "verbo",
+    "significado": "Usar algo o tratar a alguien de manera excesiva o injusta."
+  },
+  {
+    "palabra": "Abuso",
+    "tipo": "sustantivo",
+    "significado": "Uso excesivo o trato injusto hacia alguien."
+  },
+  {
+    "palabra": "Acacia",
+    "tipo": "sustantivo",
+    "significado": "Árbol o arbusto que suele tener flores y espinas."
+  },
+  {
+    "palabra": "Acampada",
+    "tipo": "sustantivo",
+    "significado": "Actividad de pasar una o más noches en una tienda de campaña."
+  },
+  {
+    "palabra": "Acampar",
+    "tipo": "verbo",
+    "significado": "Instalarse temporalmente al aire libre, normalmente en una tienda."
+  },
+  {
+    "palabra": "Acariciar",
+    "tipo": "verbo",
+    "significado": "Tocar suavemente para demostrar cariño."
+  },
+  {
+    "palabra": "Acarreo",
+    "tipo": "sustantivo",
+    "significado": "Acción de transportar materiales de un lugar a otro."
+  },
+  {
+    "palabra": "Acarrear",
+    "tipo": "verbo",
+    "significado": "Transportar algo de un lugar a otro."
+  },
+  {
+    "palabra": "Aclaración",
+    "tipo": "sustantivo",
+    "significado": "Explicación que ayuda a entender mejor un asunto."
+  },
+  {
+    "palabra": "Acompañamiento",
+    "tipo": "sustantivo",
+    "significado": "Acción de estar junto a alguien o algo que complementa una comida."
+  },
+  {
+    "palabra": "Acumulación",
+    "tipo": "sustantivo",
+    "significado": "Reunión de muchas cosas en un mismo lugar o conjunto."
+  },
+  {
+    "palabra": "Acumulativo",
+    "tipo": "adjetivo",
+    "significado": "Que aumenta al añadirse poco a poco."
+  },
+  {
+    "palabra": "Acuarela",
+    "tipo": "sustantivo",
+    "significado": "Pintura hecha con colores diluidos en agua."
+  },
+  {
+    "palabra": "Acuarelista",
+    "tipo": "sustantivo",
+    "significado": "Persona que pinta usando acuarelas."
+  },
+  {
+    "palabra": "Acuario",
+    "tipo": "sustantivo",
+    "significado": "Recipiente o instalación con agua donde viven animales acuáticos."
+  },
+  {
+    "palabra": "Acuarista",
+    "tipo": "sustantivo",
+    "significado": "Persona que cuida acuarios y sus animales."
+  },
+  {
+    "palabra": "Acuartelar",
+    "tipo": "verbo",
+    "significado": "Alojar o reunir tropas en un cuartel."
+  },
+  {
+    "palabra": "Acuicultura",
+    "tipo": "sustantivo",
+    "significado": "Cría controlada de peces, moluscos y plantas acuáticas."
+  },
+  {
+    "palabra": "Acuífero",
+    "tipo": "sustantivo",
+    "significado": "Formación subterránea que almacena agua."
+  },
+  {
+    "palabra": "Acupuntura",
+    "tipo": "sustantivo",
+    "significado": "Técnica que utiliza agujas finas en puntos específicos del cuerpo."
+  },
+  {
+    "palabra": "Adagio",
+    "tipo": "sustantivo",
+    "significado": "Pieza o fragmento musical de ritmo lento."
+  },
+  {
+    "palabra": "Aderezo",
+    "tipo": "sustantivo",
+    "significado": "Mezcla que se añade a una comida para darle sabor."
+  },
+  {
+    "palabra": "Aderezar",
+    "tipo": "verbo",
+    "significado": "Añadir condimentos a una comida o decorar algo."
+  },
+  {
+    "palabra": "Adhesión",
+    "tipo": "sustantivo",
+    "significado": "Unión de una cosa con otra o apoyo a una idea."
+  },
+  {
+    "palabra": "Adjetival",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los adjetivos."
+  },
+  {
+    "palabra": "Admiración",
+    "tipo": "sustantivo",
+    "significado": "Sorpresa y respeto ante algo que se considera extraordinario."
+  },
+  {
+    "palabra": "Admisión",
+    "tipo": "sustantivo",
+    "significado": "Permiso para entrar o ser aceptado en un lugar o grupo."
+  },
+  {
+    "palabra": "Adopción",
+    "tipo": "sustantivo",
+    "significado": "Acción legal de aceptar a una persona como hijo o hija."
+  },
+  {
+    "palabra": "Adoptar",
+    "tipo": "verbo",
+    "significado": "Aceptar legalmente a alguien como hijo o hija; también, elegir una idea o medida."
+  },
+  {
+    "palabra": "Adoración",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento de cariño o admiración muy grande."
+  },
+  {
+    "palabra": "Adormilado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene sueño o está a punto de dormirse."
+  },
+  {
+    "palabra": "Adrenalina",
+    "tipo": "sustantivo",
+    "significado": "Sustancia del cuerpo que prepara para reaccionar ante una emoción o esfuerzo."
+  },
+  {
+    "palabra": "Aducción",
+    "tipo": "sustantivo",
+    "significado": "Movimiento que acerca una parte del cuerpo hacia el centro."
+  },
+  {
+    "palabra": "Aductor",
+    "tipo": "sustantivo",
+    "significado": "Músculo que acerca una parte del cuerpo hacia el centro."
+  },
+  {
+    "palabra": "Aeronáutica",
+    "tipo": "sustantivo",
+    "significado": "Ciencia y técnica relacionadas con la navegación aérea."
+  },
+  {
+    "palabra": "Aeronave",
+    "tipo": "sustantivo",
+    "significado": "Vehículo capaz de volar, como un avión o un helicóptero."
+  },
+  {
+    "palabra": "Aeronáutico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con las aeronaves o la navegación aérea."
+  },
+  {
+    "palabra": "Aeropuerto",
+    "tipo": "sustantivo",
+    "significado": "Lugar con pistas e instalaciones para los aviones."
+  },
+  {
+    "palabra": "Afluente",
+    "tipo": "sustantivo",
+    "significado": "Río o arroyo que desemboca en otro río."
+  },
+  {
+    "palabra": "abanicando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abanicar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abanicado",
+    "tipo": "participio",
+    "significado": "Participio de 'abanicar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abaratando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abaratar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abaratado",
+    "tipo": "participio",
+    "significado": "Participio de 'abaratar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abarató",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abaratar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "abarcando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abarcar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abarcado",
+    "tipo": "participio",
+    "significado": "Participio de 'abarcar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abarcó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abarcar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "abasteciendo",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abastecer' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abastecido",
+    "tipo": "participio",
+    "significado": "Participio de 'abastecer'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abasteció",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abastecer' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "abonando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abonar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abonado",
+    "tipo": "participio",
+    "significado": "Participio de 'abonar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abordando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abordar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abordado",
+    "tipo": "participio",
+    "significado": "Participio de 'abordar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abordó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abordar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "abrazando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abrazar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abrazado",
+    "tipo": "participio",
+    "significado": "Participio de 'abrazar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abreviando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abreviar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abreviado",
+    "tipo": "participio",
+    "significado": "Participio de 'abreviar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abrevió",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abreviar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "abrigando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abrigar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abrigado",
+    "tipo": "participio",
+    "significado": "Participio de 'abrigar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abrochando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'abrochar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "abrochado",
+    "tipo": "participio",
+    "significado": "Participio de 'abrochar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "abrochó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'abrochar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "acampando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acampar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acampado",
+    "tipo": "participio",
+    "significado": "Participio de 'acampar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "acampó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'acampar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "acariciando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acariciar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acariciado",
+    "tipo": "participio",
+    "significado": "Participio de 'acariciar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "acarició",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'acariciar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "acarreando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acarrear' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acarreado",
+    "tipo": "participio",
+    "significado": "Participio de 'acarrear'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aderezando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aderezar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aderezado",
+    "tipo": "participio",
+    "significado": "Participio de 'aderezar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "adoptando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'adoptar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "adoptado",
+    "tipo": "participio",
+    "significado": "Participio de 'adoptar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "adoptó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'adoptar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "afirmando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'afirmar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "afirmado",
+    "tipo": "participio",
+    "significado": "Participio de 'afirmar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "afirmó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'afirmar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aflojando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aflojar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aflojado",
+    "tipo": "participio",
+    "significado": "Participio de 'aflojar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aflojó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aflojar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aflorando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aflorar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aflorado",
+    "tipo": "participio",
+    "significado": "Participio de 'aflorar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "afloró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aflorar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "agrupando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'agrupar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "agrupado",
+    "tipo": "participio",
+    "significado": "Participio de 'agrupar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "agrupó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'agrupar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "ahorrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'ahorrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "ahorrado",
+    "tipo": "participio",
+    "significado": "Participio de 'ahorrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ajustando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'ajustar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "ajustado",
+    "tipo": "participio",
+    "significado": "Participio de 'ajustar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ajustó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'ajustar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "albergando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'albergar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "albergado",
+    "tipo": "participio",
+    "significado": "Participio de 'albergar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "albergó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'albergar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "almacenando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'almacenar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "almacenado",
+    "tipo": "participio",
+    "significado": "Participio de 'almacenar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "almacenó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'almacenar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alumbrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alumbrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alumbrado",
+    "tipo": "participio",
+    "significado": "Participio de 'alumbrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alumbró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alumbrar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "amarrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'amarrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "amarrado",
+    "tipo": "participio",
+    "significado": "Participio de 'amarrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "amarró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'amarrar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "amasando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'amasar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "amasado",
+    "tipo": "participio",
+    "significado": "Participio de 'amasar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "amasó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'amasar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "amortiguando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'amortiguar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "amortiguado",
+    "tipo": "participio",
+    "significado": "Participio de 'amortiguar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "amortiguó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'amortiguar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "ampliando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'ampliar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "ampliado",
+    "tipo": "participio",
+    "significado": "Participio de 'ampliar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "analizando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'analizar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "analizado",
+    "tipo": "participio",
+    "significado": "Participio de 'analizar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "analizó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'analizar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "anidando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'anidar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "anidado",
+    "tipo": "participio",
+    "significado": "Participio de 'anidar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "anidó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'anidar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "anotando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'anotar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "anotado",
+    "tipo": "participio",
+    "significado": "Participio de 'anotar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "anotó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'anotar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "anudando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'anudar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "anudado",
+    "tipo": "participio",
+    "significado": "Participio de 'anudar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "anudó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'anudar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "anunciando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'anunciar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "anunciado",
+    "tipo": "participio",
+    "significado": "Participio de 'anunciar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apadrinando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apadrinar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apadrinado",
+    "tipo": "participio",
+    "significado": "Participio de 'apadrinar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apadrinó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apadrinar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apelando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apelar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apelado",
+    "tipo": "participio",
+    "significado": "Participio de 'apelar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apeló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apelar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apilando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apilar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apilado",
+    "tipo": "participio",
+    "significado": "Participio de 'apilar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apiló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apilar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aplanando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aplanar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aplanado",
+    "tipo": "participio",
+    "significado": "Participio de 'aplanar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aplanó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aplanar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aplaudiendo",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aplaudir' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aplaudido",
+    "tipo": "participio",
+    "significado": "Participio de 'aplaudir'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aplaudió",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aplaudir' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apoyando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apoyar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apoyado",
+    "tipo": "participio",
+    "significado": "Participio de 'apoyar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apresando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apresar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apresado",
+    "tipo": "participio",
+    "significado": "Participio de 'apresar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apresó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apresar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aprobando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aprobar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aprobado",
+    "tipo": "participio",
+    "significado": "Participio de 'aprobar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aprobó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aprobar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aproximando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aproximar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aproximado",
+    "tipo": "participio",
+    "significado": "Participio de 'aproximar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aproximó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aproximar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apuntando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apuntar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apuntado",
+    "tipo": "participio",
+    "significado": "Participio de 'apuntar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apuntó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apuntar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrastrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrastrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrastrado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrastrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrastró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrastrar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arreglando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arreglar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arreglado",
+    "tipo": "participio",
+    "significado": "Participio de 'arreglar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arregló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arreglar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arrimando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrimar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrimado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrimar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrimó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrimar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arropando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arropar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arropado",
+    "tipo": "participio",
+    "significado": "Participio de 'arropar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arropó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arropar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arrugando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrugar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrugado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrugar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrugó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrugar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arrullando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrullar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrullado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrullar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrulló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrullar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aseando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asear' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aseado",
+    "tipo": "participio",
+    "significado": "Participio de 'asear'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asegurando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asegurar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asegurado",
+    "tipo": "participio",
+    "significado": "Participio de 'asegurar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aseguró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asegurar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asignando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asignar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asignado",
+    "tipo": "participio",
+    "significado": "Participio de 'asignar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asignó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asignar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asomando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asomar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asomado",
+    "tipo": "participio",
+    "significado": "Participio de 'asomar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asomó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asomar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asombrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asombrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asombrado",
+    "tipo": "participio",
+    "significado": "Participio de 'asombrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aspirando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aspirar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aspirado",
+    "tipo": "participio",
+    "significado": "Participio de 'aspirar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aspiró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aspirar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asustando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asustar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asustado",
+    "tipo": "participio",
+    "significado": "Participio de 'asustar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asustó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asustar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atado",
+    "tipo": "participio",
+    "significado": "Participio de 'atar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ató",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atesorando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atesorar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atesorado",
+    "tipo": "participio",
+    "significado": "Participio de 'atesorar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atesoró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atesorar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aterrizando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aterrizar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aterrizado",
+    "tipo": "participio",
+    "significado": "Participio de 'aterrizar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aterrizó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aterrizar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atornillando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atornillar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atornillado",
+    "tipo": "participio",
+    "significado": "Participio de 'atornillar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atornilló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atornillar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atraiendo",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atraer' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atraido",
+    "tipo": "participio",
+    "significado": "Participio de 'atraer'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atraió",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atraer' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atrapando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atrapar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atrapado",
+    "tipo": "participio",
+    "significado": "Participio de 'atrapar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atrapó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atrapar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atravesando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atravesar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atravesado",
+    "tipo": "participio",
+    "significado": "Participio de 'atravesar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atravesó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atravesar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aumentando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aumentar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aumentado",
+    "tipo": "participio",
+    "significado": "Participio de 'aumentar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "avisando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'avisar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "avisado",
+    "tipo": "participio",
+    "significado": "Participio de 'avisar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ayudando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'ayudar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "ayudado",
+    "tipo": "participio",
+    "significado": "Participio de 'ayudar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ayudó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'ayudar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "adaptando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'adaptar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "adaptado",
+    "tipo": "participio",
+    "significado": "Participio de 'adaptar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "adaptó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'adaptar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "adelantando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'adelantar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "adelantado",
+    "tipo": "participio",
+    "significado": "Participio de 'adelantar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "adelantó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'adelantar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "admirando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'admirar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "admirado",
+    "tipo": "participio",
+    "significado": "Participio de 'admirar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "admiró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'admirar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "administrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'administrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "administrado",
+    "tipo": "participio",
+    "significado": "Participio de 'administrar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "administró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'administrar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "afilando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'afilar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "afilado",
+    "tipo": "participio",
+    "significado": "Participio de 'afilar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "afiló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'afilar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "afinando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'afinar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "afinado",
+    "tipo": "participio",
+    "significado": "Participio de 'afinar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "afinó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'afinar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "agitando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'agitar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "agitado",
+    "tipo": "participio",
+    "significado": "Participio de 'agitar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "agitó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'agitar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "agrandando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'agrandar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "agrandado",
+    "tipo": "participio",
+    "significado": "Participio de 'agrandar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "agrandó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'agrandar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "ahuecando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'ahuecar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "ahuecado",
+    "tipo": "participio",
+    "significado": "Participio de 'ahuecar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "ahuecó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'ahuecar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aislando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aislar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aisló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aislar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aligerando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aligerar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aligerado",
+    "tipo": "participio",
+    "significado": "Participio de 'aligerar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aligeró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aligerar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alimentando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alimentar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alimentado",
+    "tipo": "participio",
+    "significado": "Participio de 'alimentar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alimentó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alimentar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alineando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alinear' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alineado",
+    "tipo": "participio",
+    "significado": "Participio de 'alinear'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alineó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alinear' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alisando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alisar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alisado",
+    "tipo": "participio",
+    "significado": "Participio de 'alisar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alisó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alisar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alojando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alojar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alojado",
+    "tipo": "participio",
+    "significado": "Participio de 'alojar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alojó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alojar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alternando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alternar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alternado",
+    "tipo": "participio",
+    "significado": "Participio de 'alternar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alternó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alternar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "alzando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'alzar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "alzado",
+    "tipo": "participio",
+    "significado": "Participio de 'alzar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "alzó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'alzar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "amansando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'amansar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "amansado",
+    "tipo": "participio",
+    "significado": "Participio de 'amansar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "amansó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'amansar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "amontonando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'amontonar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "amontonado",
+    "tipo": "participio",
+    "significado": "Participio de 'amontonar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "amontonó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'amontonar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apagando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apagar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apagado",
+    "tipo": "participio",
+    "significado": "Participio de 'apagar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apagó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apagar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apartando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apartar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apartado",
+    "tipo": "participio",
+    "significado": "Participio de 'apartar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "apartó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apartar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apasionando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apasionar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apasionó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'apasionar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aplicando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aplicar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aplicado",
+    "tipo": "participio",
+    "significado": "Participio de 'aplicar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aplicó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aplicar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "apurando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'apurar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "apurado",
+    "tipo": "participio",
+    "significado": "Participio de 'apurar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrebatando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrebatar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrebatado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrebatar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arremangando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arremangar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arremangado",
+    "tipo": "participio",
+    "significado": "Participio de 'arremangar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arremangó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arremangar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arrancando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrancar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrancado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrancar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrancó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrancar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "arrojando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'arrojar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "arrojado",
+    "tipo": "participio",
+    "significado": "Participio de 'arrojar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "arrojó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'arrojar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asociando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asociar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asociado",
+    "tipo": "participio",
+    "significado": "Participio de 'asociar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asoció",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asociar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "asumiendo",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'asumir' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "asumido",
+    "tipo": "participio",
+    "significado": "Participio de 'asumir'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "asumió",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'asumir' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "atendiendo",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'atender' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "atendido",
+    "tipo": "participio",
+    "significado": "Participio de 'atender'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "atendió",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'atender' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "avanzando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'avanzar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "avanzado",
+    "tipo": "participio",
+    "significado": "Participio de 'avanzar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "avanzó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'avanzar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "averiguando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'averiguar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "averiguado",
+    "tipo": "participio",
+    "significado": "Participio de 'averiguar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "averiguó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'averiguar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "avistando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'avistar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "avistado",
+    "tipo": "participio",
+    "significado": "Participio de 'avistar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "avistó",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'avistar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "aclarando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'aclarar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "aclarado",
+    "tipo": "participio",
+    "significado": "Participio de 'aclarar'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "aclaró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'aclarar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "acumulando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acumular' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acumulado",
+    "tipo": "participio",
+    "significado": "Participio de 'acumular'; puede expresar una acción terminada."
+  },
+  {
+    "palabra": "acumuló",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'acumular' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "acunando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acunar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acostumbrando",
+    "tipo": "gerundio",
+    "significado": "Forma verbal de 'acostumbrar' que indica una acción en desarrollo."
+  },
+  {
+    "palabra": "acostumbrado",
+    "tipo": "participio",
+    "significado": "Participio de 'acostumbrar'; expresa una acción completada."
+  },
+  {
+    "palabra": "acostumbró",
+    "tipo": "forma verbal",
+    "significado": "Forma de 'acostumbrar' en pasado para él, ella o usted."
+  },
+  {
+    "palabra": "Abad",
+    "tipo": "sustantivo",
+    "significado": "Religioso que dirige una abadía o comunidad monástica."
+  },
+  {
+    "palabra": "Abadía",
+    "tipo": "sustantivo",
+    "significado": "Edificio y comunidad donde viven monjes o monjas bajo la dirección de un abad o una abadesa."
+  },
+  {
+    "palabra": "Abanderado",
+    "tipo": "sustantivo",
+    "significado": "Persona que lleva una bandera en un desfile o acto."
+  },
+  {
+    "palabra": "Abanderar",
+    "tipo": "verbo",
+    "significado": "Representar o defender una idea o causa."
+  },
+  {
+    "palabra": "Abarrotar",
+    "tipo": "verbo",
+    "significado": "Llenar un lugar por completo."
+  },
+  {
+    "palabra": "Abedul",
+    "tipo": "sustantivo",
+    "significado": "Árbol de corteza clara que crece en regiones templadas y frías."
+  },
+  {
+    "palabra": "Abejita",
+    "tipo": "sustantivo",
+    "significado": "Abeja pequeña; diminutivo de abeja."
+  },
+  {
+    "palabra": "Abolladura",
+    "tipo": "sustantivo",
+    "significado": "Hundimiento o marca que queda en una superficie tras un golpe."
+  },
+  {
+    "palabra": "Abollar",
+    "tipo": "verbo",
+    "significado": "Hacer una marca hundida en una superficie al golpearla."
+  },
+  {
+    "palabra": "Abominable",
+    "tipo": "adjetivo",
+    "significado": "Que causa gran rechazo por ser muy desagradable o injusto."
+  },
+  {
+    "palabra": "Abominar",
+    "tipo": "verbo",
+    "significado": "Rechazar o detestar algo intensamente."
+  },
+  {
+    "palabra": "Aborrecer",
+    "tipo": "verbo",
+    "significado": "Sentir rechazo muy intenso hacia alguien o algo."
+  },
+  {
+    "palabra": "Aborrecible",
+    "tipo": "adjetivo",
+    "significado": "Que provoca rechazo o aversión."
+  },
+  {
+    "palabra": "Aborrecimiento",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento intenso de rechazo hacia alguien o algo."
+  },
+  {
+    "palabra": "Abrojo",
+    "tipo": "sustantivo",
+    "significado": "Planta espinosa; también, pieza con puntas usada para impedir el paso."
+  },
+  {
+    "palabra": "Absolución",
+    "tipo": "sustantivo",
+    "significado": "Decisión de declarar inocente a una persona acusada."
+  },
+  {
+    "palabra": "Absolutismo",
+    "tipo": "sustantivo",
+    "significado": "Sistema de gobierno en el que el poder se concentra en una sola autoridad."
+  },
+  {
+    "palabra": "Absoluto",
+    "tipo": "adjetivo",
+    "significado": "Que es completo o no depende de otra cosa."
+  },
+  {
+    "palabra": "Absorto",
+    "tipo": "adjetivo",
+    "significado": "Muy concentrado en algo y poco atento a lo que ocurre alrededor."
+  },
+  {
+    "palabra": "Acaudalado",
+    "tipo": "adjetivo",
+    "significado": "Que posee mucho dinero o bienes."
+  }
+]
