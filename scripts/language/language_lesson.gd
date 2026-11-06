@@ -57,6 +57,19 @@ var pending_word_id: String = ""
 var pending_word_letter: String = ""
 var pending_word_index: int = -1
 
+func assistant_context() -> Dictionary:
+	if is_instance_valid(trace_exercise):
+		return trace_exercise.assistant_context()
+	for screen in [listen_repeat_screen, match_image_screen, find_letter_screen, levels_screen]:
+		if is_instance_valid(screen):
+			return {}
+	return {
+		"id": "letters:%s:%d" % [selected_letter, selected_example],
+		"hint": "Toca una letra y escucha su palabra.",
+		"busy": condor_audio.playing or not Narration.current_clip.is_empty(),
+		"placement": "letters",
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string("res://data/language/abecedario.json"))

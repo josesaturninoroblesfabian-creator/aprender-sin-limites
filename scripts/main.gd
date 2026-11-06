@@ -1,6 +1,7 @@
 extends Control
 
 const MenuCatalog = preload("res://scripts/menu/menu_catalog.gd")
+const IdleAssistant = preload("res://scripts/ui/idle_assistant.gd")
 
 const GIRL_HELLO := "¡Bienvenido a Aprende sin Límites!"
 const BOY_HELLO := "¿Qué deseas aprender? Escoge el tema que quieres aprender."
@@ -45,6 +46,7 @@ var puzzle_game_screen: Control
 var find_objects_screen: Control
 var quick_quiz_screen: Control
 var dictionary_screen: Control
+var encyclopedia_screen: Control
 var story_mode := "read"
 
 func _ready() -> void:
@@ -63,6 +65,39 @@ func _ready() -> void:
 	add_child(exit_audio)
 	_show_home()
 	_begin_welcome()
+	var assistant := IdleAssistant.new()
+	assistant.name = "IdleAssistant"
+	assistant.read_context = _assistant_context
+	add_child(assistant)
+
+func _assistant_context() -> Dictionary:
+	for screen in [reading_screen, language_screen]:
+		if is_instance_valid(screen) and screen.is_visible_in_tree():
+			if not screen.has_method("assistant_context"):
+				return {}
+			var context: Dictionary = screen.assistant_context()
+			if not context.is_empty():
+				context.id = "%d:%s" % [screen.get_instance_id(), context.id]
+			return context
+	if is_instance_valid(cuentos_selector_screen) and cuentos_selector_screen.visible:
+		return {
+			"id": "library:" + story_mode,
+			"hint": "Toca la portada de un cuento para empezar.",
+			"busy": StoryAudio.speaking() or cuentos_selector_screen.has_node("StoryModal"),
+		}
+	if is_instance_valid(cuentos_menu_screen) and cuentos_menu_screen.visible:
+		return {
+			"id": "stories_menu",
+			"hint": "Puedes leer un cuento, escucharlo o jugar con lo que pasó en la historia.",
+			"busy": StoryAudio.speaking() or cuentos_menu_screen.has_node("StoryModal"),
+		}
+	if menu_overlay.visible:
+		return {
+			"id": "home",
+			"hint": "Toca el dibujo de lo que quieras aprender. ¿Letras, números o un cuento?",
+			"busy": not speech_flow.is_empty(),
+		}
+	return {}
 
 func _process(delta: float) -> void:
 	if speech_flow == "exit" and exit_audio != null and exit_audio.playing and not exit_gif_frames.is_empty():
@@ -308,6 +343,10 @@ func _add_menu_card(module_name: String, icon_path: String, x: float, y: float, 
 	menu_overlay.add_child(button)
 
 func _show_home() -> void:
+	if is_instance_valid(encyclopedia_screen):
+		encyclopedia_screen.hide()
+		encyclopedia_screen.queue_free()
+	encyclopedia_screen = null
 	if dictionary_screen != null and is_instance_valid(dictionary_screen):
 		dictionary_screen.queue_free()
 	dictionary_screen = null
@@ -363,6 +402,9 @@ func _menu_selection(module_name: String) -> void:
 	_open_module(module_name, details)
 
 func _open_module(module_name: String, description: String) -> void:
+	if module_name == "Enciclopedia":
+		_open_encyclopedia()
+		return
 	if module_name == "Diccionario":
 		_open_dictionary()
 		return
@@ -382,6 +424,21 @@ func _open_module(module_name: String, description: String) -> void:
 		_open_llama_menu("res://scenes/geometry_menu.tscn")
 		return
 	_show_module_placeholder(module_name, description)
+
+func _open_encyclopedia() -> void:
+	menu_overlay.hide()
+	artwork.hide()
+	girl_avatar.hide()
+	boy_avatar.hide()
+	root_box.hide()
+	encyclopedia_screen = load("res://scripts/encyclopedia_screen.gd").new()
+	encyclopedia_screen.navigate_requested.connect(_leave_encyclopedia)
+	add_child(encyclopedia_screen)
+
+func _leave_encyclopedia(module_name: String) -> void:
+	_show_home()
+	if not module_name.is_empty():
+		_menu_selection(module_name)
 
 func _open_dictionary() -> void:
 	menu_overlay.visible = false

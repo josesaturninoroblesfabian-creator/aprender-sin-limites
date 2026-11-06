@@ -34,6 +34,15 @@ var frame_index := -1
 var completed_activities: Dictionary = {}
 var math_activity: Control
 
+func assistant_context() -> Dictionary:
+	if is_instance_valid(math_activity):
+		return math_activity.assistant_context()
+	return {
+		"id": section_id,
+		"hint": "Elige una tarjeta del centro para aprender o un juego de la fila de abajo para practicar.",
+		"busy": is_instance_valid(dialog_layer) or voice.playing,
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	section = Sections.get_section(section_id)

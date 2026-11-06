@@ -47,6 +47,30 @@ var time_left := 0.0
 var score := 0
 var questions: Array[Dictionary] = []
 
+func assistant_context() -> Dictionary:
+	var hint: String
+	match view:
+		"hub":
+			hint = "Elige una misión para mirar las figuras y probar un ejemplo."
+		"setup":
+			hint = "Elige la dificultad y toca el botón de empezar."
+		"model", "practice", "game":
+			if solved_current or (view == "model" and model_done):
+				hint = "¡Ya lo resolviste! Usa el botón de abajo para continuar."
+			else:
+				match question.get("kind", ""):
+					"solid": hint = "Gira el cuerpo. Fíjate si tiene superficies planas o curvas."
+					"count": hint = "Toca cada lado recto o cada esquina una sola vez. Mira qué te pide la consigna."
+					"pattern", "sky_pattern": hint = "Busca el grupo de figuras que se repite antes del hueco."
+					_: hint = "Mira el contorno. Aunque la figura gire, sus lados y sus esquinas siguen siendo los mismos."
+		_:
+			return {}
+	return {
+		"id": "%s:%s:%s:%d:%s" % [topic_id, view, question.get("id", ""), round_index, solved_current],
+		"hint": hint,
+		"busy": is_instance_valid(dialog) or audio.speaking(),
+	}
+
 func _ready() -> void:
 	audio = Audio.new()
 	add_child(audio)

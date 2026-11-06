@@ -8,7 +8,9 @@ Juego educativo en Godot para explorar letras, practicar su trazado, descubrir c
 2. Esperar la importación de imágenes, audio y modelo 3D.
 3. Pulsar **F5** para ejecutar el proyecto completo. F6 ejecuta solo la escena abierta.
 
-Se conserva el estilo ilustrado original: fondos, botones y personajes por imágenes. Incluye **300 audios locales en español** (270 palabras, 27 letras y tres instrucciones); no necesita una voz española instalada para reproducirlos. No hay reconocimiento de voz ni una IA integrada actualmente.
+Se conserva el estilo ilustrado original: fondos, botones y personajes por imágenes. Incluye **300 audios locales en español** (270 palabras, 27 letras y tres instrucciones); no necesita una voz española instalada para reproducirlos.
+
+**Tuki** es un asistente de pistas basado en reglas que funciona sin conexión. Se puede tocar en las pantallas compatibles. Ofrece una pista tras 30 segundos sin interacción y espera un minuto durante la lectura de cuentos.
 
 Los menús de **Matemáticas, Números y Geometría** comparten una llama animada y 33 audios neuronales locales, con ayuda y control de sonido. Se abren desde sus botones del inicio. Detalles en [Menús matemáticos](docs/MENUS_MATEMATICOS.md).
 

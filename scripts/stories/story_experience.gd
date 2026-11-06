@@ -42,6 +42,31 @@ var next_question_button: Button
 var question_buttons: Array[Button] = []
 var question_feedback := ""
 
+func assistant_context() -> Dictionary:
+	var hint: String
+	match activity_mode:
+		"read":
+			hint = "Toca Siguientes para avanzar."
+		"listen":
+			hint = "Toca el botón de escuchar y sigue las palabras que se iluminan."
+		"order":
+			hint = "Piensa qué pasó primero. Toca esa escena y luego elige qué pasó después."
+			if order_done:
+				hint = "¡Ya ordenaste la historia! Puedes seguir con las preguntas."
+		"quiz":
+			hint = "Vuelve a mirar la ilustración. Busca algo que te ayude a responder la pregunta."
+			if quiz_done or solved_questions.has(question_index):
+				hint = "Ya respondiste. Usa el botón de abajo para continuar."
+		_:
+			return {}
+	return {
+		"id": "%s:%s:%d:%d:%s:%s" % [story_id, activity_mode, current_page_index, question_index, order_done, solved_questions.has(question_index)],
+		"hint": hint,
+		"busy": StoryAudio.speaking() or has_node("StoryModal"),
+		"wait": 60.0 if activity_mode == "read" else 30.0,
+		"placement": "reading" if activity_mode == "read" else "corner",
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	story = Repo.find_story(String(initial_story.get("id", "")))

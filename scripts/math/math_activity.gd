@@ -66,6 +66,38 @@ var count_buttons: Array[Button] = []
 var elapsed := 0.0
 var tables: Control
 
+func assistant_context() -> Dictionary:
+	var hint: String
+	var busy: bool = is_instance_valid(dialog) or audio.speaking()
+	match view:
+		"tables":
+			hint = "Elige un número a la izquierda. Toca una operación para escucharla o pulsa Reproducir tabla."
+			busy = busy or tables.mode in ["playing", "paused", "single"]
+		"hub":
+			hint = "Elige una misión. Primero verás un ejemplo y luego podrás practicar."
+		"setup", "map":
+			hint = "Elige cómo quieres jugar y toca el botón de empezar."
+		"example":
+			hint = "Toca el botón del ejemplo para avanzar un paso. Si ya terminaste, puedes empezar los retos."
+		"practice", "exercise", "count":
+			if solved_current:
+				hint = "¡Ya lo resolviste! Toca Siguiente cuando quieras continuar."
+			else:
+				match question.get("operation", ""):
+					"addition": hint = "Empieza por la primera cantidad. Añade la segunda y cuenta el total."
+					"subtraction": hint = "Imagina la primera cantidad. Quita la segunda y cuenta lo que queda."
+					"multiplication": hint = "Imagina grupos iguales. Cuenta cuánto hay al juntar todos los grupos."
+					"division": hint = "Reparte de uno en uno. Cada grupo debe recibir la misma cantidad."
+					_: hint = "Toca y cuenta cada objeto una sola vez antes de elegir la cantidad."
+		_:
+			return {}
+	var table_number: int = tables.number if is_instance_valid(tables) else 0
+	return {
+		"id": "%s:%s:%s:%d:%d:%s" % [topic_id, view, question.get("id", ""), round_index, table_number, solved_current],
+		"hint": hint,
+		"busy": busy,
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	if not Catalog.TITLES.has(topic_id): topic_id = "addition"

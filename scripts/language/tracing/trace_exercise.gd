@@ -43,6 +43,17 @@ var praise_audio_streams: Array[AudioStream] = []
 var praise_rng := RandomNumberGenerator.new()
 var navigation_revision := 0
 
+func assistant_context() -> Dictionary:
+	var hint := "Toca el lápiz para empezar a trazar."
+	if trace_canvas.drawing_enabled:
+		hint = "Empieza en el punto marcado y sigue el camino despacio hasta el otro extremo."
+	return {
+		"id": "trace:%d:%s" % [current_letter_index, trace_canvas.drawing_enabled],
+		"hint": hint,
+		"busy": praise_audio.playing or trace_canvas.is_drawing or not Narration.current_clip.is_empty(),
+		"placement": "trace",
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	praise_rng.randomize()

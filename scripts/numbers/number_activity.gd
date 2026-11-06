@@ -56,6 +56,32 @@ var questions: Array[Dictionary] = []
 var score := 0
 var train_depart: Button
 
+func assistant_context() -> Dictionary:
+	var hint: String
+	match view:
+		"hub":
+			hint = "Elige una misión para practicar con los números."
+		"setup":
+			hint = "Elige la dificultad y toca el botón de empezar."
+		"model":
+			hint = "Toca Añadir o arrastra una pieza a su columna. Cuando completes el ejemplo, podrás practicar."
+		"practice", "market", "bridge", "compare":
+			if solved_current:
+				hint = "¡Ya lo resolviste! Toca Siguiente para ver otro reto."
+			else:
+				match view:
+					"market": hint = "Toca cada producto una vez. Cuenta solo los que vas marcando."
+					"bridge": hint = "Mira cuánto cambia un número al pasar al siguiente. Usa ese salto para completar el hueco."
+					"compare": hint = "Compara las cifras desde la izquierda. Si son iguales, pasa a la siguiente columna."
+					_: hint = "Mira la consigna y fíjate en el lugar de cada cifra. Empieza por la primera columna."
+		_:
+			return {}
+	return {
+		"id": "%s:%s:%s:%d:%s" % [topic_id, view, question.get("id", ""), round_index, solved_current],
+		"hint": hint,
+		"busy": is_instance_valid(dialog) or audio.speaking(),
+	}
+
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	if not Catalog.TITLES.has(topic_id): topic_id = "one_digit"
