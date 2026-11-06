@@ -3,7 +3,13 @@ extends Control
 signal back_requested
 
 const REFERENCE_BACKGROUND := "res://assets/ui/dictionary/dictionary-reference.jpg"
-const DICTIONARY_DATA_PATH := "res://data/dictionary/dictionary_a.json"
+const DICTIONARY_DATA_PATHS := [
+	"res://data/dictionary/dictionary_a.json",
+	"res://data/dictionary/dictionary_b.json",
+	"res://data/dictionary/dictionary_c.json",
+	"res://data/dictionary/dictionary_d.json",
+	"res://data/dictionary/dictionary_e.json",
+]
 const INVALID_QUERY_MESSAGE := "Escribe bien la palabra para entenderte"
 
 var search_field: LineEdit
@@ -34,25 +40,26 @@ func _unhandled_input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 
 func _load_dictionary() -> void:
-	if not FileAccess.file_exists(DICTIONARY_DATA_PATH):
-		push_error("No se encontró el diccionario: " + DICTIONARY_DATA_PATH)
-		return
-	var file := FileAccess.open(DICTIONARY_DATA_PATH, FileAccess.READ)
-	if file == null:
-		push_error("No se pudo leer el archivo del diccionario.")
-		return
-	var parsed: Variant = JSON.parse_string(file.get_as_text())
-	if not parsed is Array:
-		push_error("El diccionario debe contener una lista JSON de entradas.")
-		return
-	for value in parsed:
-		if not value is Dictionary:
+	for dictionary_path in DICTIONARY_DATA_PATHS:
+		if not FileAccess.file_exists(dictionary_path):
+			push_error("No se encontró el diccionario: " + dictionary_path)
 			continue
-		var entry: Dictionary = value
-		var term := String(entry.get("palabra", "")).strip_edges()
-		if term.is_empty():
+		var file := FileAccess.open(dictionary_path, FileAccess.READ)
+		if file == null:
+			push_error("No se pudo leer el diccionario: " + dictionary_path)
 			continue
-		entries_by_term[_normalize(term)] = entry
+		var parsed: Variant = JSON.parse_string(file.get_as_text())
+		if not parsed is Array:
+			push_error("El diccionario debe contener una lista JSON de entradas: " + dictionary_path)
+			continue
+		for value in parsed:
+			if not value is Dictionary:
+				continue
+			var entry: Dictionary = value
+			var term := String(entry.get("palabra", "")).strip_edges()
+			if term.is_empty():
+				continue
+			entries_by_term[_normalize(term)] = entry
 
 func _find_spanish_voice() -> void:
 	for voice in DisplayServer.tts_get_voices():

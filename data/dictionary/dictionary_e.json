@@ -1,0 +1,2252 @@
+[
+  {
+    "palabra": "Ejecutivo",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con realizar decisiones o dirigir actividades."
+  },
+  {
+    "palabra": "Ejemplar",
+    "tipo": "sustantivo",
+    "significado": "Cada objeto o ser de un grupo, como un libro de una edición."
+  },
+  {
+    "palabra": "Ejemplo",
+    "tipo": "sustantivo",
+    "significado": "Caso que ayuda a explicar una idea o mostrar cómo se hace algo."
+  },
+  {
+    "palabra": "Ejercer",
+    "tipo": "verbo",
+    "significado": "Practicar una profesión, utilizar un derecho o desempeñar una función."
+  },
+  {
+    "palabra": "Ejercicio",
+    "tipo": "sustantivo",
+    "significado": "Actividad que se realiza para practicar, aprender o fortalecer el cuerpo."
+  },
+  {
+    "palabra": "Ejercitar",
+    "tipo": "verbo",
+    "significado": "Practicar una habilidad o mover el cuerpo para desarrollarlo."
+  },
+  {
+    "palabra": "Ejército",
+    "tipo": "sustantivo",
+    "significado": "Conjunto organizado de fuerzas militares de un país."
+  },
+  {
+    "palabra": "Elaboración",
+    "tipo": "sustantivo",
+    "significado": "Proceso de preparar o crear algo siguiendo varios pasos."
+  },
+  {
+    "palabra": "Elaborar",
+    "tipo": "verbo",
+    "significado": "Crear o preparar algo con trabajo y cuidado."
+  },
+  {
+    "palabra": "Elasticidad",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de recuperar la forma después de estirarse o comprimirse."
+  },
+  {
+    "palabra": "Elástico",
+    "tipo": "adjetivo",
+    "significado": "Que puede deformarse y después recuperar su forma."
+  },
+  {
+    "palabra": "Elección",
+    "tipo": "sustantivo",
+    "significado": "Decisión entre varias opciones; también, votación para escoger representantes."
+  },
+  {
+    "palabra": "Electricidad",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de fenómenos relacionados con cargas eléctricas, aprovechados para hacer funcionar aparatos."
+  },
+  {
+    "palabra": "Electricista",
+    "tipo": "sustantivo",
+    "significado": "Profesional que instala y repara sistemas eléctricos."
+  },
+  {
+    "palabra": "Eléctrico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la electricidad o que funciona gracias a ella."
+  },
+  {
+    "palabra": "Electrodoméstico",
+    "tipo": "sustantivo",
+    "significado": "Aparato eléctrico que ayuda en tareas del hogar."
+  },
+  {
+    "palabra": "Electrón",
+    "tipo": "sustantivo",
+    "significado": "Partícula muy pequeña con carga eléctrica negativa que forma parte de los átomos."
+  },
+  {
+    "palabra": "Electrónica",
+    "tipo": "sustantivo",
+    "significado": "Área que estudia y utiliza componentes eléctricos para controlar y procesar información."
+  },
+  {
+    "palabra": "Electrónico",
+    "tipo": "adjetivo",
+    "significado": "Que utiliza componentes capaces de controlar señales eléctricas."
+  },
+  {
+    "palabra": "Electroimán",
+    "tipo": "sustantivo",
+    "significado": "Dispositivo que produce magnetismo cuando pasa corriente eléctrica."
+  },
+  {
+    "palabra": "Electromagnético",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la electricidad y el magnetismo."
+  },
+  {
+    "palabra": "Elefante",
+    "tipo": "sustantivo",
+    "significado": "Mamífero terrestre muy grande, con trompa y orejas amplias."
+  },
+  {
+    "palabra": "Elegancia",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de moverse, expresarse o presentarse con armonía y cuidado."
+  },
+  {
+    "palabra": "Elegante",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una apariencia o una forma de actuar armoniosa y cuidada."
+  },
+  {
+    "palabra": "Elegir",
+    "tipo": "verbo",
+    "significado": "Escoger una opción entre varias."
+  },
+  {
+    "palabra": "Elemento",
+    "tipo": "sustantivo",
+    "significado": "Parte que forma un conjunto; en química, sustancia formada por un tipo de átomo."
+  },
+  {
+    "palabra": "Elemental",
+    "tipo": "adjetivo",
+    "significado": "Básico o necesario para empezar a comprender algo."
+  },
+  {
+    "palabra": "Elenco",
+    "tipo": "sustantivo",
+    "significado": "Grupo de artistas que participa en una obra o espectáculo."
+  },
+  {
+    "palabra": "Elevación",
+    "tipo": "sustantivo",
+    "significado": "Acción de subir o parte del terreno que está más alta."
+  },
+  {
+    "palabra": "Elevador",
+    "tipo": "sustantivo",
+    "significado": "Aparato que transporta personas o cosas hacia arriba o hacia abajo."
+  },
+  {
+    "palabra": "Elevar",
+    "tipo": "verbo",
+    "significado": "Subir algo a una posición más alta."
+  },
+  {
+    "palabra": "Eliminar",
+    "tipo": "verbo",
+    "significado": "Quitar algo que no se necesita o no debe permanecer."
+  },
+  {
+    "palabra": "Elipse",
+    "tipo": "sustantivo",
+    "significado": "Curva cerrada parecida a un círculo alargado."
+  },
+  {
+    "palabra": "Elíptico",
+    "tipo": "adjetivo",
+    "significado": "Que tiene forma de elipse o está relacionado con ella."
+  },
+  {
+    "palabra": "Elixir",
+    "tipo": "sustantivo",
+    "significado": "Preparación líquida; en los cuentos, poción con propiedades extraordinarias."
+  },
+  {
+    "palabra": "Elogiar",
+    "tipo": "verbo",
+    "significado": "Reconocer con palabras algo bueno que alguien ha hecho."
+  },
+  {
+    "palabra": "Elogio",
+    "tipo": "sustantivo",
+    "significado": "Palabras que expresan reconocimiento o admiración."
+  },
+  {
+    "palabra": "Elote",
+    "tipo": "sustantivo",
+    "significado": "Mazorca de maíz tierno, llamada así en México y otros países."
+  },
+  {
+    "palabra": "Eludir",
+    "tipo": "verbo",
+    "significado": "Evitar una dificultad, una pregunta o una situación."
+  },
+  {
+    "palabra": "Emancipar",
+    "tipo": "verbo",
+    "significado": "Liberar de una dependencia o permitir mayor autonomía."
+  },
+  {
+    "palabra": "Embalaje",
+    "tipo": "sustantivo",
+    "significado": "Material que protege un objeto durante su transporte."
+  },
+  {
+    "palabra": "Embalar",
+    "tipo": "verbo",
+    "significado": "Envolver y proteger objetos para transportarlos."
+  },
+  {
+    "palabra": "Embalse",
+    "tipo": "sustantivo",
+    "significado": "Acumulación de agua retenida, generalmente mediante una presa."
+  },
+  {
+    "palabra": "Embarcación",
+    "tipo": "sustantivo",
+    "significado": "Vehículo que flota y permite desplazarse sobre el agua."
+  },
+  {
+    "palabra": "Embarcar",
+    "tipo": "verbo",
+    "significado": "Subir a una embarcación o cargar cosas en ella."
+  },
+  {
+    "palabra": "Embarazo",
+    "tipo": "sustantivo",
+    "significado": "Etapa en la que un bebé se desarrolla dentro del útero."
+  },
+  {
+    "palabra": "Embarrar",
+    "tipo": "verbo",
+    "significado": "Cubrir o ensuciar algo con barro."
+  },
+  {
+    "palabra": "Embellecer",
+    "tipo": "verbo",
+    "significado": "Dar a algo un aspecto más agradable."
+  },
+  {
+    "palabra": "Emblema",
+    "tipo": "sustantivo",
+    "significado": "Imagen o símbolo que representa una idea o un grupo."
+  },
+  {
+    "palabra": "Embudo",
+    "tipo": "sustantivo",
+    "significado": "Utensilio de boca ancha y salida estrecha para pasar líquidos a recipientes."
+  },
+  {
+    "palabra": "Emergencia",
+    "tipo": "sustantivo",
+    "significado": "Situación inesperada que necesita atención rápida."
+  },
+  {
+    "palabra": "Emerger",
+    "tipo": "verbo",
+    "significado": "Salir a la superficie o empezar a aparecer."
+  },
+  {
+    "palabra": "Emigrar",
+    "tipo": "verbo",
+    "significado": "Dejar el lugar donde se vive para establecerse en otro."
+  },
+  {
+    "palabra": "Emigrante",
+    "tipo": "sustantivo",
+    "significado": "Persona que deja su lugar de residencia para vivir en otro."
+  },
+  {
+    "palabra": "Emisión",
+    "tipo": "sustantivo",
+    "significado": "Salida o transmisión de algo, como luz, sonido o señales."
+  },
+  {
+    "palabra": "Emisor",
+    "tipo": "sustantivo",
+    "significado": "Persona o aparato que envía un mensaje o una señal."
+  },
+  {
+    "palabra": "Emitir",
+    "tipo": "verbo",
+    "significado": "Producir y enviar sonido, luz, señales u otras cosas."
+  },
+  {
+    "palabra": "Emoción",
+    "tipo": "sustantivo",
+    "significado": "Respuesta del cuerpo y la mente ante lo que vivimos, como alegría, miedo o tristeza."
+  },
+  {
+    "palabra": "Emocionante",
+    "tipo": "adjetivo",
+    "significado": "Que despierta sentimientos intensos."
+  },
+  {
+    "palabra": "Emocionar",
+    "tipo": "verbo",
+    "significado": "Provocar una emoción."
+  },
+  {
+    "palabra": "Emotivo",
+    "tipo": "adjetivo",
+    "significado": "Que expresa o despierta sentimientos."
+  },
+  {
+    "palabra": "Empacar",
+    "tipo": "verbo",
+    "significado": "Guardar y acomodar cosas en una caja o maleta."
+  },
+  {
+    "palabra": "Empalmar",
+    "tipo": "verbo",
+    "significado": "Unir dos piezas por sus extremos."
+  },
+  {
+    "palabra": "Empanada",
+    "tipo": "sustantivo",
+    "significado": "Preparación de masa que encierra un relleno dulce o salado."
+  },
+  {
+    "palabra": "Empapar",
+    "tipo": "verbo",
+    "significado": "Mojar algo hasta que absorba mucho líquido."
+  },
+  {
+    "palabra": "Emparejar",
+    "tipo": "verbo",
+    "significado": "Unir elementos de dos en dos o hacer que queden iguales."
+  },
+  {
+    "palabra": "Empatar",
+    "tipo": "verbo",
+    "significado": "Obtener el mismo resultado que otro participante."
+  },
+  {
+    "palabra": "Empate",
+    "tipo": "sustantivo",
+    "significado": "Igualdad de puntos o resultados entre participantes."
+  },
+  {
+    "palabra": "Empatía",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de intentar comprender cómo se siente otra persona."
+  },
+  {
+    "palabra": "Empeño",
+    "tipo": "sustantivo",
+    "significado": "Esfuerzo y constancia para alcanzar una meta."
+  },
+  {
+    "palabra": "Empeorar",
+    "tipo": "verbo",
+    "significado": "Pasar a un estado menos favorable."
+  },
+  {
+    "palabra": "Empezar",
+    "tipo": "verbo",
+    "significado": "Dar comienzo a algo."
+  },
+  {
+    "palabra": "Empinado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una inclinación pronunciada."
+  },
+  {
+    "palabra": "Emplear",
+    "tipo": "verbo",
+    "significado": "Utilizar algo para una tarea o dar trabajo a alguien."
+  },
+  {
+    "palabra": "Empleado",
+    "tipo": "sustantivo",
+    "significado": "Persona que trabaja para otra persona o una organización a cambio de un pago."
+  },
+  {
+    "palabra": "Empleo",
+    "tipo": "sustantivo",
+    "significado": "Trabajo por el que se recibe un pago; también, uso de algo."
+  },
+  {
+    "palabra": "Empolvar",
+    "tipo": "verbo",
+    "significado": "Cubrir algo de polvo."
+  },
+  {
+    "palabra": "Emprender",
+    "tipo": "verbo",
+    "significado": "Comenzar una actividad o proyecto que requiere esfuerzo."
+  },
+  {
+    "palabra": "Empresa",
+    "tipo": "sustantivo",
+    "significado": "Organización que ofrece productos o servicios."
+  },
+  {
+    "palabra": "Empresario",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea o dirige una empresa."
+  },
+  {
+    "palabra": "Empujar",
+    "tipo": "verbo",
+    "significado": "Aplicar fuerza para alejar o mover algo."
+  },
+  {
+    "palabra": "Empuje",
+    "tipo": "sustantivo",
+    "significado": "Fuerza que mueve algo; también, entusiasmo para actuar."
+  },
+  {
+    "palabra": "Emular",
+    "tipo": "verbo",
+    "significado": "Imitar algo intentando alcanzar sus resultados; en informática, reproducir el funcionamiento de otro sistema."
+  },
+  {
+    "palabra": "Enamorar",
+    "tipo": "verbo",
+    "significado": "Despertar amor o una gran admiración."
+  },
+  {
+    "palabra": "Enano",
+    "tipo": "adjetivo",
+    "significado": "De tamaño muy pequeño para su clase, como un árbol enano."
+  },
+  {
+    "palabra": "Enarbolar",
+    "tipo": "verbo",
+    "significado": "Levantar una bandera u otro objeto para mostrarlo."
+  },
+  {
+    "palabra": "Encabezar",
+    "tipo": "verbo",
+    "significado": "Estar al principio de algo o dirigir un grupo."
+  },
+  {
+    "palabra": "Encadenar",
+    "tipo": "verbo",
+    "significado": "Unir con cadenas o relacionar varios hechos seguidos."
+  },
+  {
+    "palabra": "Encajar",
+    "tipo": "verbo",
+    "significado": "Hacer que una pieza entre correctamente en otra."
+  },
+  {
+    "palabra": "Encaje",
+    "tipo": "sustantivo",
+    "significado": "Ajuste entre piezas; también, tejido decorativo con espacios abiertos."
+  },
+  {
+    "palabra": "Encalar",
+    "tipo": "verbo",
+    "significado": "Cubrir una pared con una mezcla que contiene cal."
+  },
+  {
+    "palabra": "Encaminar",
+    "tipo": "verbo",
+    "significado": "Orientar hacia un lugar o una meta."
+  },
+  {
+    "palabra": "Encantar",
+    "tipo": "verbo",
+    "significado": "Gustar muchísimo; en los cuentos, producir un efecto mágico."
+  },
+  {
+    "palabra": "Encanto",
+    "tipo": "sustantivo",
+    "significado": "Cualidad que atrae o agrada; también, hechizo de un cuento."
+  },
+  {
+    "palabra": "Encapsular",
+    "tipo": "verbo",
+    "significado": "Guardar algo dentro de una cápsula o cubierta."
+  },
+  {
+    "palabra": "Encarar",
+    "tipo": "verbo",
+    "significado": "Afrontar una situación directamente."
+  },
+  {
+    "palabra": "Encargar",
+    "tipo": "verbo",
+    "significado": "Pedir a alguien que realice una tarea o prepare algo."
+  },
+  {
+    "palabra": "Encargo",
+    "tipo": "sustantivo",
+    "significado": "Tarea o pedido que se confía a alguien."
+  },
+  {
+    "palabra": "Encender",
+    "tipo": "verbo",
+    "significado": "Hacer que una luz, un aparato o un fuego empiece a funcionar."
+  },
+  {
+    "palabra": "Encerrar",
+    "tipo": "verbo",
+    "significado": "Dejar algo dentro de un espacio cerrado."
+  },
+  {
+    "palabra": "Encía",
+    "tipo": "sustantivo",
+    "significado": "Tejido de la boca que rodea y protege la base de los dientes."
+  },
+  {
+    "palabra": "Enciclopedia",
+    "tipo": "sustantivo",
+    "significado": "Obra que reúne explicaciones sobre muchos temas."
+  },
+  {
+    "palabra": "Encima",
+    "tipo": "adverbio",
+    "significado": "En una posición superior o sobre otra cosa."
+  },
+  {
+    "palabra": "Encina",
+    "tipo": "sustantivo",
+    "significado": "Árbol de hojas resistentes que produce bellotas."
+  },
+  {
+    "palabra": "Enclavar",
+    "tipo": "verbo",
+    "significado": "Situar algo dentro de un espacio o fijarlo con firmeza."
+  },
+  {
+    "palabra": "Encoger",
+    "tipo": "verbo",
+    "significado": "Hacer que algo ocupe menos espacio o reduzca su tamaño."
+  },
+  {
+    "palabra": "Encolar",
+    "tipo": "verbo",
+    "significado": "Unir cosas utilizando cola o pegamento."
+  },
+  {
+    "palabra": "Encontrar",
+    "tipo": "verbo",
+    "significado": "Dar con algo o alguien que se busca o aparece por casualidad."
+  },
+  {
+    "palabra": "Encorvar",
+    "tipo": "verbo",
+    "significado": "Doblar algo formando una curva, como la espalda."
+  },
+  {
+    "palabra": "Encuadernar",
+    "tipo": "verbo",
+    "significado": "Unir las hojas de un libro y colocarles una cubierta."
+  },
+  {
+    "palabra": "Encuadrar",
+    "tipo": "verbo",
+    "significado": "Elegir qué parte de una escena aparecerá en una imagen."
+  },
+  {
+    "palabra": "Encuentro",
+    "tipo": "sustantivo",
+    "significado": "Reunión de personas o coincidencia en un lugar."
+  },
+  {
+    "palabra": "Encuesta",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de preguntas para conocer opiniones o información de un grupo."
+  },
+  {
+    "palabra": "Encuestar",
+    "tipo": "verbo",
+    "significado": "Hacer preguntas organizadas para reunir información."
+  },
+  {
+    "palabra": "Enderezar",
+    "tipo": "verbo",
+    "significado": "Poner recto algo que estaba torcido."
+  },
+  {
+    "palabra": "Endulzar",
+    "tipo": "verbo",
+    "significado": "Añadir un sabor dulce o hacer algo más agradable."
+  },
+  {
+    "palabra": "Endurecer",
+    "tipo": "verbo",
+    "significado": "Hacer que algo se vuelva más duro o resistente."
+  },
+  {
+    "palabra": "Eneágono",
+    "tipo": "sustantivo",
+    "significado": "Figura plana de nueve lados."
+  },
+  {
+    "palabra": "Energía",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de producir cambios, movimiento, calor u otros efectos."
+  },
+  {
+    "palabra": "Enérgico",
+    "tipo": "adjetivo",
+    "significado": "Que actúa con fuerza y decisión."
+  },
+  {
+    "palabra": "Enero",
+    "tipo": "sustantivo",
+    "significado": "Primer mes del año."
+  },
+  {
+    "palabra": "Enfadar",
+    "tipo": "verbo",
+    "significado": "Provocar enojo."
+  },
+  {
+    "palabra": "Enfado",
+    "tipo": "sustantivo",
+    "significado": "Emoción que aparece ante algo que molesta o parece injusto."
+  },
+  {
+    "palabra": "Énfasis",
+    "tipo": "sustantivo",
+    "significado": "Fuerza especial que se da a una palabra o idea para destacarla."
+  },
+  {
+    "palabra": "Enfermedad",
+    "tipo": "sustantivo",
+    "significado": "Alteración de la salud que afecta al funcionamiento del cuerpo o la mente."
+  },
+  {
+    "palabra": "Enfermero",
+    "tipo": "sustantivo",
+    "significado": "Profesional de salud que cuida a las personas y participa en su atención."
+  },
+  {
+    "palabra": "Enfermo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una alteración de salud."
+  },
+  {
+    "palabra": "Enfocar",
+    "tipo": "verbo",
+    "significado": "Ajustar una imagen para verla nítida o concentrar la atención en algo."
+  },
+  {
+    "palabra": "Enfoque",
+    "tipo": "sustantivo",
+    "significado": "Manera de tratar un tema o ajuste para obtener una imagen nítida."
+  },
+  {
+    "palabra": "Enfrentar",
+    "tipo": "verbo",
+    "significado": "Afrontar una dificultad o poner unas cosas frente a otras."
+  },
+  {
+    "palabra": "Enfrente",
+    "tipo": "adverbio",
+    "significado": "En la parte opuesta, frente a alguien o algo."
+  },
+  {
+    "palabra": "Enfriar",
+    "tipo": "verbo",
+    "significado": "Hacer que baje la temperatura de algo."
+  },
+  {
+    "palabra": "Engalanar",
+    "tipo": "verbo",
+    "significado": "Adornar un lugar o una persona para una celebración."
+  },
+  {
+    "palabra": "Enganchar",
+    "tipo": "verbo",
+    "significado": "Sujetar con un gancho o unir algo a otra cosa."
+  },
+  {
+    "palabra": "Engañar",
+    "tipo": "verbo",
+    "significado": "Hacer creer algo que no es verdad."
+  },
+  {
+    "palabra": "Engaño",
+    "tipo": "sustantivo",
+    "significado": "Acción o información utilizada para hacer creer algo falso."
+  },
+  {
+    "palabra": "Englobar",
+    "tipo": "verbo",
+    "significado": "Incluir varios elementos dentro de un mismo conjunto."
+  },
+  {
+    "palabra": "Engordar",
+    "tipo": "verbo",
+    "significado": "Aumentar el peso corporal."
+  },
+  {
+    "palabra": "Engranaje",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de ruedas dentadas que transmite movimiento en una máquina."
+  },
+  {
+    "palabra": "Engrasar",
+    "tipo": "verbo",
+    "significado": "Aplicar grasa para que una pieza se mueva con menos roce."
+  },
+  {
+    "palabra": "Engrosar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo sea más grueso o numeroso."
+  },
+  {
+    "palabra": "Enhebrar",
+    "tipo": "verbo",
+    "significado": "Pasar un hilo por el ojo de una aguja."
+  },
+  {
+    "palabra": "Enhorabuena",
+    "tipo": "interjección",
+    "significado": "Expresión utilizada para felicitar a alguien."
+  },
+  {
+    "palabra": "Enigma",
+    "tipo": "sustantivo",
+    "significado": "Pregunta o misterio cuya respuesta necesita descubrirse."
+  },
+  {
+    "palabra": "Enjambrar",
+    "tipo": "verbo",
+    "significado": "Formar las abejas un grupo que sale para establecer una nueva colonia."
+  },
+  {
+    "palabra": "Enjambre",
+    "tipo": "sustantivo",
+    "significado": "Grupo numeroso de abejas que se desplaza junto."
+  },
+  {
+    "palabra": "Enjuagar",
+    "tipo": "verbo",
+    "significado": "Pasar agua por algo para quitar jabón u otras sustancias."
+  },
+  {
+    "palabra": "Enlace",
+    "tipo": "sustantivo",
+    "significado": "Unión entre cosas; en internet, elemento que lleva a otro contenido."
+  },
+  {
+    "palabra": "Enlazar",
+    "tipo": "verbo",
+    "significado": "Unir cosas o relacionar ideas."
+  },
+  {
+    "palabra": "Enlatar",
+    "tipo": "verbo",
+    "significado": "Guardar alimentos en latas mediante un proceso de conservación."
+  },
+  {
+    "palabra": "Enmarcar",
+    "tipo": "verbo",
+    "significado": "Colocar algo dentro de un marco."
+  },
+  {
+    "palabra": "Enmendar",
+    "tipo": "verbo",
+    "significado": "Corregir un error o mejorar algo."
+  },
+  {
+    "palabra": "Ennegrecer",
+    "tipo": "verbo",
+    "significado": "Hacer que algo se vuelva negro o más oscuro."
+  },
+  {
+    "palabra": "Enojo",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento de molestia o enfado."
+  },
+  {
+    "palabra": "Enorme",
+    "tipo": "adjetivo",
+    "significado": "Muy grande."
+  },
+  {
+    "palabra": "Enredadera",
+    "tipo": "sustantivo",
+    "significado": "Planta que trepa o se extiende apoyándose en otras superficies."
+  },
+  {
+    "palabra": "Enredar",
+    "tipo": "verbo",
+    "significado": "Mezclar hilos o cosas formando nudos o complicaciones."
+  },
+  {
+    "palabra": "Enredo",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de cosas entrelazadas o situación confusa."
+  },
+  {
+    "palabra": "Enriquecer",
+    "tipo": "verbo",
+    "significado": "Añadir valor, conocimientos o recursos a algo."
+  },
+  {
+    "palabra": "Enrojecer",
+    "tipo": "verbo",
+    "significado": "Ponerse rojo o hacer que algo tome ese color."
+  },
+  {
+    "palabra": "Enrollar",
+    "tipo": "verbo",
+    "significado": "Dar vueltas a algo para formar un rollo."
+  },
+  {
+    "palabra": "Ensalada",
+    "tipo": "sustantivo",
+    "significado": "Comida que combina ingredientes, frecuentemente verduras, y puede llevar un aliño."
+  },
+  {
+    "palabra": "Ensamblar",
+    "tipo": "verbo",
+    "significado": "Unir piezas para construir algo."
+  },
+  {
+    "palabra": "Ensanchar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo tenga más anchura."
+  },
+  {
+    "palabra": "Ensayar",
+    "tipo": "verbo",
+    "significado": "Practicar una actividad antes de presentarla o realizarla definitivamente."
+  },
+  {
+    "palabra": "Ensayo",
+    "tipo": "sustantivo",
+    "significado": "Práctica previa; también, texto que desarrolla ideas sobre un tema."
+  },
+  {
+    "palabra": "Enseñanza",
+    "tipo": "sustantivo",
+    "significado": "Proceso de ayudar a aprender o idea valiosa que se aprende."
+  },
+  {
+    "palabra": "Enseñar",
+    "tipo": "verbo",
+    "significado": "Ayudar a aprender algo o mostrarlo."
+  },
+  {
+    "palabra": "Enseguida",
+    "tipo": "adverbio",
+    "significado": "Dentro de muy poco tiempo o inmediatamente después."
+  },
+  {
+    "palabra": "Enseres",
+    "tipo": "sustantivo",
+    "significado": "Objetos y utensilios necesarios en una casa o actividad."
+  },
+  {
+    "palabra": "Ensordecer",
+    "tipo": "verbo",
+    "significado": "Dificultar la audición, especialmente por un ruido muy fuerte."
+  },
+  {
+    "palabra": "Ensoñación",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de ideas o escenas que imaginamos como si estuviéramos soñando."
+  },
+  {
+    "palabra": "Ensuciar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo deje de estar limpio."
+  },
+  {
+    "palabra": "Entablar",
+    "tipo": "verbo",
+    "significado": "Comenzar una conversación o una relación."
+  },
+  {
+    "palabra": "Entender",
+    "tipo": "verbo",
+    "significado": "Comprender el significado o la razón de algo."
+  },
+  {
+    "palabra": "Enterar",
+    "tipo": "verbo",
+    "significado": "Informar a alguien de algo."
+  },
+  {
+    "palabra": "Entero",
+    "tipo": "adjetivo",
+    "significado": "Que conserva todas sus partes."
+  },
+  {
+    "palabra": "Enterrar",
+    "tipo": "verbo",
+    "significado": "Poner algo bajo tierra."
+  },
+  {
+    "palabra": "Entibiar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo alcance una temperatura moderada."
+  },
+  {
+    "palabra": "Entidad",
+    "tipo": "sustantivo",
+    "significado": "Organización o elemento que se considera una unidad."
+  },
+  {
+    "palabra": "Entomología",
+    "tipo": "sustantivo",
+    "significado": "Parte de la ciencia que estudia los insectos."
+  },
+  {
+    "palabra": "Entonar",
+    "tipo": "verbo",
+    "significado": "Producir notas con la voz o dar un tono adecuado al hablar."
+  },
+  {
+    "palabra": "Entonces",
+    "tipo": "adverbio",
+    "significado": "En aquel momento o como consecuencia de lo anterior."
+  },
+  {
+    "palabra": "Entorno",
+    "tipo": "sustantivo",
+    "significado": "Todo lo que rodea a alguien o algo."
+  },
+  {
+    "palabra": "Entrada",
+    "tipo": "sustantivo",
+    "significado": "Lugar por donde se entra o comprobante para acceder a un espectáculo."
+  },
+  {
+    "palabra": "Entrar",
+    "tipo": "verbo",
+    "significado": "Pasar del exterior al interior de un lugar."
+  },
+  {
+    "palabra": "Entre",
+    "tipo": "preposición",
+    "significado": "Palabra que indica una posición en medio de elementos o una relación compartida."
+  },
+  {
+    "palabra": "Entrega",
+    "tipo": "sustantivo",
+    "significado": "Acción de dar algo a su destinatario."
+  },
+  {
+    "palabra": "Entregar",
+    "tipo": "verbo",
+    "significado": "Poner algo en manos de otra persona."
+  },
+  {
+    "palabra": "Entrelazar",
+    "tipo": "verbo",
+    "significado": "Cruzar y unir elementos, como hilos o dedos."
+  },
+  {
+    "palabra": "Entrenador",
+    "tipo": "sustantivo",
+    "significado": "Persona que guía la práctica para mejorar habilidades, especialmente deportivas."
+  },
+  {
+    "palabra": "Entrenar",
+    "tipo": "verbo",
+    "significado": "Practicar de forma organizada para mejorar una habilidad."
+  },
+  {
+    "palabra": "Entretener",
+    "tipo": "verbo",
+    "significado": "Mantener la atención mediante una actividad agradable."
+  },
+  {
+    "palabra": "Entrevista",
+    "tipo": "sustantivo",
+    "significado": "Conversación de preguntas y respuestas para conocer información."
+  },
+  {
+    "palabra": "Entrevistar",
+    "tipo": "verbo",
+    "significado": "Hacer preguntas a alguien para conocer sus ideas o experiencias."
+  },
+  {
+    "palabra": "Entusiasmo",
+    "tipo": "sustantivo",
+    "significado": "Alegría y ganas intensas de hacer algo."
+  },
+  {
+    "palabra": "Enumerar",
+    "tipo": "verbo",
+    "significado": "Mencionar elementos uno por uno."
+  },
+  {
+    "palabra": "Enunciado",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de palabras que expresa una idea o presenta una actividad."
+  },
+  {
+    "palabra": "Envase",
+    "tipo": "sustantivo",
+    "significado": "Recipiente que contiene y protege un producto."
+  },
+  {
+    "palabra": "Enviar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo llegue a otra persona o lugar."
+  },
+  {
+    "palabra": "Envejecer",
+    "tipo": "verbo",
+    "significado": "Cambiar a medida que pasan los años."
+  },
+  {
+    "palabra": "Envergadura",
+    "tipo": "sustantivo",
+    "significado": "Distancia entre las puntas de las alas extendidas de un animal o avión."
+  },
+  {
+    "palabra": "Envidia",
+    "tipo": "sustantivo",
+    "significado": "Emoción que puede aparecer al desear algo que otra persona tiene."
+  },
+  {
+    "palabra": "Envío",
+    "tipo": "sustantivo",
+    "significado": "Objeto o información que se manda a otro lugar."
+  },
+  {
+    "palabra": "Envolver",
+    "tipo": "verbo",
+    "significado": "Cubrir algo con papel, tela u otro material."
+  },
+  {
+    "palabra": "Envoltura",
+    "tipo": "sustantivo",
+    "significado": "Material que rodea y protege algo."
+  },
+  {
+    "palabra": "Enyesar",
+    "tipo": "verbo",
+    "significado": "Cubrir una superficie o una parte del cuerpo con yeso."
+  },
+  {
+    "palabra": "Enzima",
+    "tipo": "sustantivo",
+    "significado": "Molécula que ayuda a que ciertas transformaciones químicas ocurran más rápido."
+  },
+  {
+    "palabra": "Eólico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el viento."
+  },
+  {
+    "palabra": "Epidemia",
+    "tipo": "sustantivo",
+    "significado": "Aumento de casos de una enfermedad por encima de lo esperado en un lugar y tiempo."
+  },
+  {
+    "palabra": "Epidermis",
+    "tipo": "sustantivo",
+    "significado": "Capa más externa de la piel."
+  },
+  {
+    "palabra": "Epígrafe",
+    "tipo": "sustantivo",
+    "significado": "Título breve que presenta una sección de un texto."
+  },
+  {
+    "palabra": "Epílogo",
+    "tipo": "sustantivo",
+    "significado": "Parte final de una obra que añade información o cierra la historia."
+  },
+  {
+    "palabra": "Episodio",
+    "tipo": "sustantivo",
+    "significado": "Parte de una historia o acontecimiento concreto dentro de una serie."
+  },
+  {
+    "palabra": "Época",
+    "tipo": "sustantivo",
+    "significado": "Periodo de tiempo con características propias."
+  },
+  {
+    "palabra": "Equidad",
+    "tipo": "sustantivo",
+    "significado": "Manera justa de tratar a las personas considerando sus necesidades y circunstancias."
+  },
+  {
+    "palabra": "Equilátero",
+    "tipo": "adjetivo",
+    "significado": "Que tiene todos sus lados iguales, como un triángulo equilátero."
+  },
+  {
+    "palabra": "Equilibrar",
+    "tipo": "verbo",
+    "significado": "Hacer que fuerzas o cantidades se compensen."
+  },
+  {
+    "palabra": "Equilibrio",
+    "tipo": "sustantivo",
+    "significado": "Estado en que fuerzas o elementos se compensan y mantienen estabilidad."
+  },
+  {
+    "palabra": "Equino",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los caballos."
+  },
+  {
+    "palabra": "Equinoccio",
+    "tipo": "sustantivo",
+    "significado": "Momento del año en que el Sol cruza el ecuador celeste y día y noche duran casi igual."
+  },
+  {
+    "palabra": "Equipaje",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de cosas que llevamos en un viaje."
+  },
+  {
+    "palabra": "Equipar",
+    "tipo": "verbo",
+    "significado": "Proporcionar lo necesario para una actividad."
+  },
+  {
+    "palabra": "Equipo",
+    "tipo": "sustantivo",
+    "significado": "Grupo que trabaja unido o conjunto de objetos necesarios para una tarea."
+  },
+  {
+    "palabra": "Equivalente",
+    "tipo": "adjetivo",
+    "significado": "Que tiene el mismo valor o cumple una función semejante."
+  },
+  {
+    "palabra": "Equivocar",
+    "tipo": "verbo",
+    "significado": "Confundir una cosa con otra o cometer un error."
+  },
+  {
+    "palabra": "Era",
+    "tipo": "sustantivo",
+    "significado": "Periodo largo de tiempo identificado por ciertas características."
+  },
+  {
+    "palabra": "Erguido",
+    "tipo": "adjetivo",
+    "significado": "Que está levantado o mantiene una posición recta."
+  },
+  {
+    "palabra": "Erizo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero pequeño con púas; también, animal marino de cuerpo redondeado y espinas."
+  },
+  {
+    "palabra": "Ermita",
+    "tipo": "sustantivo",
+    "significado": "Edificio religioso pequeño, frecuentemente situado fuera de una población."
+  },
+  {
+    "palabra": "Erosión",
+    "tipo": "sustantivo",
+    "significado": "Desgaste y transporte de materiales del terreno por agua, viento u otros agentes."
+  },
+  {
+    "palabra": "Error",
+    "tipo": "sustantivo",
+    "significado": "Resultado o acción que no es correcto y puede ayudar a aprender al revisarlo."
+  },
+  {
+    "palabra": "Erupción",
+    "tipo": "sustantivo",
+    "significado": "Salida de materiales de un volcán; también, aparición de ciertas lesiones en la piel."
+  },
+  {
+    "palabra": "Escala",
+    "tipo": "sustantivo",
+    "significado": "Relación entre el tamaño de un dibujo y la realidad; también, sucesión ordenada de valores."
+  },
+  {
+    "palabra": "Escalada",
+    "tipo": "sustantivo",
+    "significado": "Actividad de subir por paredes de roca u otras superficies con técnicas adecuadas."
+  },
+  {
+    "palabra": "Escalador",
+    "tipo": "sustantivo",
+    "significado": "Persona que practica la escalada."
+  },
+  {
+    "palabra": "Escalar",
+    "tipo": "verbo",
+    "significado": "Subir por una superficie inclinada o vertical."
+  },
+  {
+    "palabra": "Escalera",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de peldaños que permite subir o bajar."
+  },
+  {
+    "palabra": "Escalofrío",
+    "tipo": "sustantivo",
+    "significado": "Sensación repentina de frío que puede acompañarse de temblores."
+  },
+  {
+    "palabra": "Escalón",
+    "tipo": "sustantivo",
+    "significado": "Cada parte de una escalera donde apoyamos el pie."
+  },
+  {
+    "palabra": "Escama",
+    "tipo": "sustantivo",
+    "significado": "Pequeña placa que cubre la piel de animales como muchos peces."
+  },
+  {
+    "palabra": "Escanear",
+    "tipo": "verbo",
+    "significado": "Obtener una copia digital de un documento o examinar algo con un aparato."
+  },
+  {
+    "palabra": "Escáner",
+    "tipo": "sustantivo",
+    "significado": "Aparato que obtiene imágenes o información mediante una exploración."
+  },
+  {
+    "palabra": "Escapar",
+    "tipo": "verbo",
+    "significado": "Salir de un lugar o situación que limita el movimiento."
+  },
+  {
+    "palabra": "Escaparate",
+    "tipo": "sustantivo",
+    "significado": "Espacio con vidrio donde una tienda muestra productos."
+  },
+  {
+    "palabra": "Escape",
+    "tipo": "sustantivo",
+    "significado": "Salida de algo o acción de escapar."
+  },
+  {
+    "palabra": "Escarabajo",
+    "tipo": "sustantivo",
+    "significado": "Insecto cuyas alas delanteras endurecidas protegen las alas que utiliza para volar."
+  },
+  {
+    "palabra": "Escarcha",
+    "tipo": "sustantivo",
+    "significado": "Capa de cristales de hielo que aparece sobre superficies muy frías."
+  },
+  {
+    "palabra": "Escasez",
+    "tipo": "sustantivo",
+    "significado": "Cantidad insuficiente de algo necesario."
+  },
+  {
+    "palabra": "Escaso",
+    "tipo": "adjetivo",
+    "significado": "Que existe en poca cantidad."
+  },
+  {
+    "palabra": "Escena",
+    "tipo": "sustantivo",
+    "significado": "Parte de una obra o situación que ocurre en un lugar y momento."
+  },
+  {
+    "palabra": "Escenario",
+    "tipo": "sustantivo",
+    "significado": "Lugar preparado para una representación o espacio donde sucede algo."
+  },
+  {
+    "palabra": "Esclarecer",
+    "tipo": "verbo",
+    "significado": "Aclarar un asunto para comprenderlo mejor."
+  },
+  {
+    "palabra": "Esclavitud",
+    "tipo": "sustantivo",
+    "significado": "Situación injusta en la que se priva a personas de libertad y se las trata como propiedad."
+  },
+  {
+    "palabra": "Escoba",
+    "tipo": "sustantivo",
+    "significado": "Utensilio con mango y fibras que sirve para barrer."
+  },
+  {
+    "palabra": "Escoger",
+    "tipo": "verbo",
+    "significado": "Elegir entre varias posibilidades."
+  },
+  {
+    "palabra": "Escolar",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la escuela."
+  },
+  {
+    "palabra": "Escolta",
+    "tipo": "sustantivo",
+    "significado": "Persona o grupo que acompaña y protege; también, grupo que acompaña una bandera."
+  },
+  {
+    "palabra": "Escombros",
+    "tipo": "sustantivo",
+    "significado": "Restos de materiales de una construcción dañada o derribada."
+  },
+  {
+    "palabra": "Esconder",
+    "tipo": "verbo",
+    "significado": "Poner algo donde no se vea fácilmente."
+  },
+  {
+    "palabra": "Escondite",
+    "tipo": "sustantivo",
+    "significado": "Lugar para ocultarse o juego en el que se busca a quienes se esconden."
+  },
+  {
+    "palabra": "Escorpión",
+    "tipo": "sustantivo",
+    "significado": "Arácnido con pinzas y una cola terminada en aguijón."
+  },
+  {
+    "palabra": "Escribir",
+    "tipo": "verbo",
+    "significado": "Representar palabras e ideas mediante signos."
+  },
+  {
+    "palabra": "Escritor",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea textos."
+  },
+  {
+    "palabra": "Escritorio",
+    "tipo": "sustantivo",
+    "significado": "Mesa para trabajar; en una computadora, espacio principal donde se organizan elementos."
+  },
+  {
+    "palabra": "Escritura",
+    "tipo": "sustantivo",
+    "significado": "Sistema de signos para representar una lengua o actividad de escribir."
+  },
+  {
+    "palabra": "Escuadra",
+    "tipo": "sustantivo",
+    "significado": "Instrumento triangular que ayuda a dibujar líneas y ángulos."
+  },
+  {
+    "palabra": "Escuchar",
+    "tipo": "verbo",
+    "significado": "Prestar atención a los sonidos o a lo que alguien comunica."
+  },
+  {
+    "palabra": "Escudo",
+    "tipo": "sustantivo",
+    "significado": "Objeto protector; también, símbolo que representa una comunidad o institución."
+  },
+  {
+    "palabra": "Escuela",
+    "tipo": "sustantivo",
+    "significado": "Lugar y comunidad donde se enseña y se aprende."
+  },
+  {
+    "palabra": "Esculpir",
+    "tipo": "verbo",
+    "significado": "Crear figuras trabajando materiales como piedra, madera o arcilla."
+  },
+  {
+    "palabra": "Escultor",
+    "tipo": "sustantivo",
+    "significado": "Artista que crea esculturas."
+  },
+  {
+    "palabra": "Escultura",
+    "tipo": "sustantivo",
+    "significado": "Obra artística con volumen, hecha mediante talla, modelado u otras técnicas."
+  },
+  {
+    "palabra": "Escurrir",
+    "tipo": "verbo",
+    "significado": "Hacer que salga el líquido de algo."
+  },
+  {
+    "palabra": "Esencia",
+    "tipo": "sustantivo",
+    "significado": "Característica fundamental de algo; también, sustancia aromática concentrada."
+  },
+  {
+    "palabra": "Esencial",
+    "tipo": "adjetivo",
+    "significado": "Muy importante o necesario."
+  },
+  {
+    "palabra": "Esfera",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo redondo como una pelota, cuyos puntos exteriores están a igual distancia del centro."
+  },
+  {
+    "palabra": "Esférico",
+    "tipo": "adjetivo",
+    "significado": "Que tiene forma de esfera."
+  },
+  {
+    "palabra": "Esforzarse",
+    "tipo": "verbo",
+    "significado": "Dedicar energía y atención para realizar algo."
+  },
+  {
+    "palabra": "Esfuerzo",
+    "tipo": "sustantivo",
+    "significado": "Energía física o mental utilizada para alcanzar una meta."
+  },
+  {
+    "palabra": "Esgrima",
+    "tipo": "sustantivo",
+    "significado": "Deporte de combate con armas deportivas, protección y reglas."
+  },
+  {
+    "palabra": "Eslabón",
+    "tipo": "sustantivo",
+    "significado": "Cada pieza que se une a otras para formar una cadena."
+  },
+  {
+    "palabra": "Esmalte",
+    "tipo": "sustantivo",
+    "significado": "Capa dura que protege los dientes; también, material que recubre y decora objetos."
+  },
+  {
+    "palabra": "Esmeralda",
+    "tipo": "sustantivo",
+    "significado": "Piedra preciosa de color verde."
+  },
+  {
+    "palabra": "Esmero",
+    "tipo": "sustantivo",
+    "significado": "Cuidado y atención al hacer algo."
+  },
+  {
+    "palabra": "Esófago",
+    "tipo": "sustantivo",
+    "significado": "Conducto que lleva los alimentos desde la garganta hasta el estómago."
+  },
+  {
+    "palabra": "Espacio",
+    "tipo": "sustantivo",
+    "significado": "Lugar disponible; también, región que se extiende más allá de la atmósfera terrestre."
+  },
+  {
+    "palabra": "Espacioso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucho espacio."
+  },
+  {
+    "palabra": "Espada",
+    "tipo": "sustantivo",
+    "significado": "Arma de hoja larga utilizada en otras épocas y en relatos de aventuras."
+  },
+  {
+    "palabra": "Espalda",
+    "tipo": "sustantivo",
+    "significado": "Parte posterior del tronco."
+  },
+  {
+    "palabra": "Espantapájaros",
+    "tipo": "sustantivo",
+    "significado": "Figura colocada en los cultivos para intentar alejar a las aves."
+  },
+  {
+    "palabra": "Espantar",
+    "tipo": "verbo",
+    "significado": "Causar miedo o hacer que algo se aleje."
+  },
+  {
+    "palabra": "Español",
+    "tipo": "sustantivo",
+    "significado": "Lengua hablada en España, gran parte de América y otras comunidades."
+  },
+  {
+    "palabra": "Esparcir",
+    "tipo": "verbo",
+    "significado": "Repartir algo por distintos puntos de una superficie."
+  },
+  {
+    "palabra": "Espátula",
+    "tipo": "sustantivo",
+    "significado": "Utensilio de parte ancha y plana para mezclar, extender o levantar materiales."
+  },
+  {
+    "palabra": "Especial",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una característica particular o resulta importante para alguien."
+  },
+  {
+    "palabra": "Especialista",
+    "tipo": "sustantivo",
+    "significado": "Persona que conoce muy bien un área concreta."
+  },
+  {
+    "palabra": "Especie",
+    "tipo": "sustantivo",
+    "significado": "Grupo de seres vivos que comparte características y una historia evolutiva."
+  },
+  {
+    "palabra": "Especia",
+    "tipo": "sustantivo",
+    "significado": "Parte de una planta utilizada para dar aroma o sabor a los alimentos."
+  },
+  {
+    "palabra": "Espectáculo",
+    "tipo": "sustantivo",
+    "significado": "Presentación preparada para ser observada por un público."
+  },
+  {
+    "palabra": "Espectador",
+    "tipo": "sustantivo",
+    "significado": "Persona que observa una obra, un juego o un espectáculo."
+  },
+  {
+    "palabra": "Espejismo",
+    "tipo": "sustantivo",
+    "significado": "Imagen producida por cambios en el recorrido de la luz, como la apariencia de agua en una carretera."
+  },
+  {
+    "palabra": "Espejo",
+    "tipo": "sustantivo",
+    "significado": "Superficie que refleja la luz y permite ver imágenes."
+  },
+  {
+    "palabra": "Espera",
+    "tipo": "sustantivo",
+    "significado": "Tiempo que transcurre hasta que ocurre algo."
+  },
+  {
+    "palabra": "Esperanza",
+    "tipo": "sustantivo",
+    "significado": "Confianza en que puede ocurrir algo favorable."
+  },
+  {
+    "palabra": "Esperar",
+    "tipo": "verbo",
+    "significado": "Permanecer hasta que algo ocurra o confiar en un resultado."
+  },
+  {
+    "palabra": "Espeso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucha consistencia o elementos muy juntos."
+  },
+  {
+    "palabra": "Espía",
+    "tipo": "sustantivo",
+    "significado": "Persona que busca información de manera secreta."
+  },
+  {
+    "palabra": "Espiga",
+    "tipo": "sustantivo",
+    "significado": "Parte de plantas como el trigo donde se agrupan flores y después granos."
+  },
+  {
+    "palabra": "Espina",
+    "tipo": "sustantivo",
+    "significado": "Punta dura de ciertas plantas; también, hueso fino de un pez."
+  },
+  {
+    "palabra": "Espinaca",
+    "tipo": "sustantivo",
+    "significado": "Planta de hojas verdes que se utiliza como alimento."
+  },
+  {
+    "palabra": "Espiral",
+    "tipo": "sustantivo",
+    "significado": "Curva que gira alrededor de un punto mientras se aleja de él."
+  },
+  {
+    "palabra": "Espíritu",
+    "tipo": "sustantivo",
+    "significado": "Manera de sentir y actuar; en algunas creencias, parte no material de un ser."
+  },
+  {
+    "palabra": "Espléndido",
+    "tipo": "adjetivo",
+    "significado": "Muy bueno, hermoso o generoso."
+  },
+  {
+    "palabra": "Esplendor",
+    "tipo": "sustantivo",
+    "significado": "Brillo o belleza que llama mucho la atención."
+  },
+  {
+    "palabra": "Esponja",
+    "tipo": "sustantivo",
+    "significado": "Animal acuático de cuerpo poroso; también, objeto que absorbe líquidos."
+  },
+  {
+    "palabra": "Espontáneo",
+    "tipo": "adjetivo",
+    "significado": "Que surge de manera natural, sin haber sido preparado."
+  },
+  {
+    "palabra": "Espora",
+    "tipo": "sustantivo",
+    "significado": "Estructura que permite reproducirse o dispersarse a hongos y otros organismos."
+  },
+  {
+    "palabra": "Esposo",
+    "tipo": "sustantivo",
+    "significado": "Persona unida a otra mediante matrimonio."
+  },
+  {
+    "palabra": "Espuma",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de burbujas que se forma en un líquido."
+  },
+  {
+    "palabra": "Esqueleto",
+    "tipo": "sustantivo",
+    "significado": "Estructura que sostiene y protege el cuerpo de un animal."
+  },
+  {
+    "palabra": "Esquema",
+    "tipo": "sustantivo",
+    "significado": "Representación breve y ordenada de las ideas principales."
+  },
+  {
+    "palabra": "Esquí",
+    "tipo": "sustantivo",
+    "significado": "Deporte de deslizarse sobre nieve con tablas largas; también, cada tabla."
+  },
+  {
+    "palabra": "Esquiar",
+    "tipo": "verbo",
+    "significado": "Deslizarse utilizando esquís."
+  },
+  {
+    "palabra": "Esquina",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde se encuentran dos lados o dos calles."
+  },
+  {
+    "palabra": "Esquivar",
+    "tipo": "verbo",
+    "significado": "Apartarse para evitar un obstáculo."
+  },
+  {
+    "palabra": "Estabilidad",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de mantenerse sin cambios bruscos ni caídas."
+  },
+  {
+    "palabra": "Estable",
+    "tipo": "adjetivo",
+    "significado": "Que se mantiene firme o cambia poco."
+  },
+  {
+    "palabra": "Establecer",
+    "tipo": "verbo",
+    "significado": "Crear una norma, una relación o un lugar para realizar una actividad."
+  },
+  {
+    "palabra": "Establo",
+    "tipo": "sustantivo",
+    "significado": "Lugar cubierto donde se resguarda y cuida ganado."
+  },
+  {
+    "palabra": "Estación",
+    "tipo": "sustantivo",
+    "significado": "Cada etapa del año o lugar donde paran ciertos transportes."
+  },
+  {
+    "palabra": "Estacionar",
+    "tipo": "verbo",
+    "significado": "Dejar un vehículo detenido en un lugar permitido."
+  },
+  {
+    "palabra": "Estadio",
+    "tipo": "sustantivo",
+    "significado": "Recinto grande para actividades deportivas con espacio para espectadores."
+  },
+  {
+    "palabra": "Estadística",
+    "tipo": "sustantivo",
+    "significado": "Área que reúne, organiza y analiza datos para comprender situaciones."
+  },
+  {
+    "palabra": "Estado",
+    "tipo": "sustantivo",
+    "significado": "Condición de algo; también, organización política de un territorio."
+  },
+  {
+    "palabra": "Estalactita",
+    "tipo": "sustantivo",
+    "significado": "Formación mineral que cuelga del techo de una cueva."
+  },
+  {
+    "palabra": "Estalagmita",
+    "tipo": "sustantivo",
+    "significado": "Formación mineral que crece desde el suelo de una cueva."
+  },
+  {
+    "palabra": "Estallar",
+    "tipo": "verbo",
+    "significado": "Romperse de forma repentina y ruidosa."
+  },
+  {
+    "palabra": "Estambre",
+    "tipo": "sustantivo",
+    "significado": "Parte de una flor que produce polen; también, hilo utilizado para tejer."
+  },
+  {
+    "palabra": "Estampar",
+    "tipo": "verbo",
+    "significado": "Imprimir una figura sobre una superficie."
+  },
+  {
+    "palabra": "Estancia",
+    "tipo": "sustantivo",
+    "significado": "Tiempo que se permanece en un lugar; también, habitación o finca."
+  },
+  {
+    "palabra": "Estanque",
+    "tipo": "sustantivo",
+    "significado": "Depósito de agua, natural o construido, de tamaño generalmente pequeño."
+  },
+  {
+    "palabra": "Estante",
+    "tipo": "sustantivo",
+    "significado": "Tabla o superficie horizontal donde se colocan objetos."
+  },
+  {
+    "palabra": "Estar",
+    "tipo": "verbo",
+    "significado": "Encontrarse en un lugar o en una condición."
+  },
+  {
+    "palabra": "Estatua",
+    "tipo": "sustantivo",
+    "significado": "Escultura que representa una figura, normalmente completa."
+  },
+  {
+    "palabra": "Estatura",
+    "tipo": "sustantivo",
+    "significado": "Altura de una persona."
+  },
+  {
+    "palabra": "Este",
+    "tipo": "sustantivo",
+    "significado": "Punto cardinal situado aproximadamente en la dirección por donde sale el Sol."
+  },
+  {
+    "palabra": "Estela",
+    "tipo": "sustantivo",
+    "significado": "Rastro que deja algo al moverse, como un barco en el agua."
+  },
+  {
+    "palabra": "Estelar",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con las estrellas; también, principal en un espectáculo."
+  },
+  {
+    "palabra": "Estera",
+    "tipo": "sustantivo",
+    "significado": "Tejido grueso de fibras que puede cubrir el suelo o formar paredes."
+  },
+  {
+    "palabra": "Estéril",
+    "tipo": "adjetivo",
+    "significado": "Que no produce vida o frutos; en salud, libre de microorganismos vivos."
+  },
+  {
+    "palabra": "Estética",
+    "tipo": "sustantivo",
+    "significado": "Estudio de la belleza y el arte; también, apariencia característica de algo."
+  },
+  {
+    "palabra": "Estetoscopio",
+    "tipo": "sustantivo",
+    "significado": "Instrumento que permite escuchar sonidos internos del cuerpo."
+  },
+  {
+    "palabra": "Estilo",
+    "tipo": "sustantivo",
+    "significado": "Manera particular de hacer, crear o presentar algo."
+  },
+  {
+    "palabra": "Estimar",
+    "tipo": "verbo",
+    "significado": "Calcular aproximadamente o sentir aprecio por alguien."
+  },
+  {
+    "palabra": "Estimular",
+    "tipo": "verbo",
+    "significado": "Animar o favorecer una actividad o respuesta."
+  },
+  {
+    "palabra": "Estímulo",
+    "tipo": "sustantivo",
+    "significado": "Señal o cambio que provoca una respuesta."
+  },
+  {
+    "palabra": "Estirar",
+    "tipo": "verbo",
+    "significado": "Alargar o extender algo."
+  },
+  {
+    "palabra": "Estómago",
+    "tipo": "sustantivo",
+    "significado": "Órgano que recibe los alimentos y ayuda a descomponerlos."
+  },
+  {
+    "palabra": "Estornudar",
+    "tipo": "verbo",
+    "significado": "Expulsar aire de forma repentina por la nariz y la boca como reflejo."
+  },
+  {
+    "palabra": "Estorbar",
+    "tipo": "verbo",
+    "significado": "Dificultar el paso o la realización de algo."
+  },
+  {
+    "palabra": "Estrategia",
+    "tipo": "sustantivo",
+    "significado": "Plan de acciones para alcanzar una meta."
+  },
+  {
+    "palabra": "Estrato",
+    "tipo": "sustantivo",
+    "significado": "Capa de material, como las capas de ciertas rocas."
+  },
+  {
+    "palabra": "Estrechar",
+    "tipo": "verbo",
+    "significado": "Reducir la anchura o acercar una relación."
+  },
+  {
+    "palabra": "Estrecho",
+    "tipo": "adjetivo",
+    "significado": "Que tiene poca anchura."
+  },
+  {
+    "palabra": "Estrella",
+    "tipo": "sustantivo",
+    "significado": "Astro que produce luz y energía, como el Sol."
+  },
+  {
+    "palabra": "Estrellado",
+    "tipo": "adjetivo",
+    "significado": "Lleno de estrellas o con forma de estrella."
+  },
+  {
+    "palabra": "Estrenar",
+    "tipo": "verbo",
+    "significado": "Usar o presentar algo por primera vez."
+  },
+  {
+    "palabra": "Estreno",
+    "tipo": "sustantivo",
+    "significado": "Primera presentación o utilización de algo."
+  },
+  {
+    "palabra": "Estrés",
+    "tipo": "sustantivo",
+    "significado": "Respuesta del cuerpo y la mente ante demandas o dificultades."
+  },
+  {
+    "palabra": "Estribillo",
+    "tipo": "sustantivo",
+    "significado": "Parte de una canción o poema que se repite."
+  },
+  {
+    "palabra": "Estructura",
+    "tipo": "sustantivo",
+    "significado": "Forma en que las partes de algo están organizadas y conectadas."
+  },
+  {
+    "palabra": "Estuche",
+    "tipo": "sustantivo",
+    "significado": "Recipiente que protege y organiza objetos, como lápices."
+  },
+  {
+    "palabra": "Estudiante",
+    "tipo": "sustantivo",
+    "significado": "Persona que aprende o cursa estudios."
+  },
+  {
+    "palabra": "Estudiar",
+    "tipo": "verbo",
+    "significado": "Dedicar atención y práctica a comprender un tema."
+  },
+  {
+    "palabra": "Estudio",
+    "tipo": "sustantivo",
+    "significado": "Actividad de aprender; también, habitación o lugar de trabajo creativo."
+  },
+  {
+    "palabra": "Estufa",
+    "tipo": "sustantivo",
+    "significado": "Aparato para calentar un espacio; en algunos países, aparato para cocinar."
+  },
+  {
+    "palabra": "Estupendo",
+    "tipo": "adjetivo",
+    "significado": "Muy bueno o agradable."
+  },
+  {
+    "palabra": "Etapa",
+    "tipo": "sustantivo",
+    "significado": "Parte de un proceso o recorrido."
+  },
+  {
+    "palabra": "Ética",
+    "tipo": "sustantivo",
+    "significado": "Reflexión sobre cómo actuar de forma justa y responsable."
+  },
+  {
+    "palabra": "Etiqueta",
+    "tipo": "sustantivo",
+    "significado": "Rótulo que identifica algo o informa sobre ello."
+  },
+  {
+    "palabra": "Eucalipto",
+    "tipo": "sustantivo",
+    "significado": "Árbol de hojas aromáticas; muchas especies son originarias de Australia."
+  },
+  {
+    "palabra": "Euro",
+    "tipo": "sustantivo",
+    "significado": "Moneda utilizada por varios países europeos."
+  },
+  {
+    "palabra": "Europeo",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con Europa, sus habitantes o sus culturas."
+  },
+  {
+    "palabra": "Evacuar",
+    "tipo": "verbo",
+    "significado": "Salir de un lugar siguiendo indicaciones para protegerse o dejarlo libre."
+  },
+  {
+    "palabra": "Evaluar",
+    "tipo": "verbo",
+    "significado": "Examinar algo para conocer sus características o resultados."
+  },
+  {
+    "palabra": "Evaporación",
+    "tipo": "sustantivo",
+    "significado": "Paso de un líquido a gas desde su superficie."
+  },
+  {
+    "palabra": "Evaporar",
+    "tipo": "verbo",
+    "significado": "Transformar un líquido en vapor."
+  },
+  {
+    "palabra": "Evento",
+    "tipo": "sustantivo",
+    "significado": "Acontecimiento, especialmente si está organizado."
+  },
+  {
+    "palabra": "Evidencia",
+    "tipo": "sustantivo",
+    "significado": "Información o prueba que ayuda a comprobar una idea."
+  },
+  {
+    "palabra": "Evidente",
+    "tipo": "adjetivo",
+    "significado": "Que resulta claro y fácil de reconocer."
+  },
+  {
+    "palabra": "Evitar",
+    "tipo": "verbo",
+    "significado": "Actuar para que algo no ocurra."
+  },
+  {
+    "palabra": "Evocar",
+    "tipo": "verbo",
+    "significado": "Hacer recordar una persona, un lugar o una experiencia."
+  },
+  {
+    "palabra": "Evolución",
+    "tipo": "sustantivo",
+    "significado": "Cambio a lo largo del tiempo; en biología, cambio de poblaciones a través de generaciones."
+  },
+  {
+    "palabra": "Evolucionar",
+    "tipo": "verbo",
+    "significado": "Cambiar con el tiempo; en biología, cambiar las poblaciones a través de generaciones."
+  },
+  {
+    "palabra": "Exactitud",
+    "tipo": "sustantivo",
+    "significado": "Cercanía de una medida o información al valor correcto."
+  },
+  {
+    "palabra": "Exacto",
+    "tipo": "adjetivo",
+    "significado": "Que coincide con lo correcto o esperado sin diferencias."
+  },
+  {
+    "palabra": "Exagerar",
+    "tipo": "verbo",
+    "significado": "Presentar algo como mayor o más intenso de lo que es."
+  },
+  {
+    "palabra": "Examen",
+    "tipo": "sustantivo",
+    "significado": "Prueba para conocer aprendizajes o revisión detallada de algo."
+  },
+  {
+    "palabra": "Examinar",
+    "tipo": "verbo",
+    "significado": "Observar o revisar algo con atención."
+  },
+  {
+    "palabra": "Excavar",
+    "tipo": "verbo",
+    "significado": "Sacar tierra u otros materiales para descubrir algo o formar un hueco."
+  },
+  {
+    "palabra": "Excelente",
+    "tipo": "adjetivo",
+    "significado": "De muy buena calidad."
+  },
+  {
+    "palabra": "Excepción",
+    "tipo": "sustantivo",
+    "significado": "Caso que no sigue una regla general."
+  },
+  {
+    "palabra": "Exceso",
+    "tipo": "sustantivo",
+    "significado": "Cantidad que supera lo necesario o conveniente."
+  },
+  {
+    "palabra": "Exclamar",
+    "tipo": "verbo",
+    "significado": "Decir algo con fuerza o emoción."
+  },
+  {
+    "palabra": "Excluir",
+    "tipo": "verbo",
+    "significado": "Dejar a alguien o algo fuera de un grupo o actividad."
+  },
+  {
+    "palabra": "Excursión",
+    "tipo": "sustantivo",
+    "significado": "Salida para visitar, aprender o disfrutar de un lugar."
+  },
+  {
+    "palabra": "Excusa",
+    "tipo": "sustantivo",
+    "significado": "Razón que se da para explicar una acción o evitar una responsabilidad."
+  },
+  {
+    "palabra": "Exhibir",
+    "tipo": "verbo",
+    "significado": "Mostrar algo para que otras personas lo observen."
+  },
+  {
+    "palabra": "Exigir",
+    "tipo": "verbo",
+    "significado": "Pedir algo con firmeza o necesitar ciertas condiciones."
+  },
+  {
+    "palabra": "Existencia",
+    "tipo": "sustantivo",
+    "significado": "Hecho de que alguien o algo existe."
+  },
+  {
+    "palabra": "Existir",
+    "tipo": "verbo",
+    "significado": "Ser real o estar presente."
+  },
+  {
+    "palabra": "Éxito",
+    "tipo": "sustantivo",
+    "significado": "Resultado favorable al alcanzar una meta."
+  },
+  {
+    "palabra": "Exótico",
+    "tipo": "adjetivo",
+    "significado": "Originario de un lugar diferente o poco habitual en cierto entorno."
+  },
+  {
+    "palabra": "Expandir",
+    "tipo": "verbo",
+    "significado": "Hacer que algo ocupe más espacio o alcance más lugares."
+  },
+  {
+    "palabra": "Expedición",
+    "tipo": "sustantivo",
+    "significado": "Viaje organizado para explorar, investigar o cumplir una misión."
+  },
+  {
+    "palabra": "Experiencia",
+    "tipo": "sustantivo",
+    "significado": "Situación vivida o conocimiento adquirido mediante la práctica."
+  },
+  {
+    "palabra": "Experimentar",
+    "tipo": "verbo",
+    "significado": "Hacer pruebas para aprender o vivir una sensación o situación."
+  },
+  {
+    "palabra": "Experimento",
+    "tipo": "sustantivo",
+    "significado": "Prueba organizada para investigar una pregunta o comprobar una idea."
+  },
+  {
+    "palabra": "Experto",
+    "tipo": "sustantivo",
+    "significado": "Persona con muchos conocimientos y práctica en un tema."
+  },
+  {
+    "palabra": "Explicar",
+    "tipo": "verbo",
+    "significado": "Presentar una idea de manera que pueda comprenderse."
+  },
+  {
+    "palabra": "Explorar",
+    "tipo": "verbo",
+    "significado": "Recorrer u observar algo para descubrir cómo es."
+  },
+  {
+    "palabra": "Explorador",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga lugares o asuntos para conocerlos mejor."
+  },
+  {
+    "palabra": "Explosión",
+    "tipo": "sustantivo",
+    "significado": "Liberación muy rápida de energía que puede producir ruido y expansión."
+  },
+  {
+    "palabra": "Exponer",
+    "tipo": "verbo",
+    "significado": "Mostrar algo o explicar un tema ante otras personas."
+  },
+  {
+    "palabra": "Exportar",
+    "tipo": "verbo",
+    "significado": "Enviar productos a otro país; en informática, guardar información en otro formato."
+  },
+  {
+    "palabra": "Expresar",
+    "tipo": "verbo",
+    "significado": "Comunicar ideas o emociones mediante palabras, gestos u otras formas."
+  },
+  {
+    "palabra": "Expresión",
+    "tipo": "sustantivo",
+    "significado": "Manera de comunicar una idea o sentimiento."
+  },
+  {
+    "palabra": "Exprimir",
+    "tipo": "verbo",
+    "significado": "Presionar algo para sacar su líquido."
+  },
+  {
+    "palabra": "Expulsar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo o alguien salga de un lugar."
+  },
+  {
+    "palabra": "Extender",
+    "tipo": "verbo",
+    "significado": "Desplegar algo o hacer que ocupe más espacio."
+  },
+  {
+    "palabra": "Extenso",
+    "tipo": "adjetivo",
+    "significado": "Que ocupa mucho espacio o tiene gran longitud."
+  },
+  {
+    "palabra": "Exterior",
+    "tipo": "sustantivo",
+    "significado": "Parte de fuera de algo."
+  },
+  {
+    "palabra": "Extinguir",
+    "tipo": "verbo",
+    "significado": "Apagar un fuego o hacer que algo deje de existir."
+  },
+  {
+    "palabra": "Extinción",
+    "tipo": "sustantivo",
+    "significado": "Desaparición completa de una especie; también, acción de apagar un fuego."
+  },
+  {
+    "palabra": "Extraer",
+    "tipo": "verbo",
+    "significado": "Sacar algo del lugar donde se encuentra."
+  },
+  {
+    "palabra": "Extranjero",
+    "tipo": "adjetivo",
+    "significado": "Que pertenece o procede de un país diferente."
+  },
+  {
+    "palabra": "Extrañar",
+    "tipo": "verbo",
+    "significado": "Echar de menos a alguien o sentir sorpresa."
+  },
+  {
+    "palabra": "Extraordinario",
+    "tipo": "adjetivo",
+    "significado": "Que destaca mucho o se sale de lo habitual."
+  },
+  {
+    "palabra": "Extremo",
+    "tipo": "sustantivo",
+    "significado": "Parte final o más alejada de algo."
+  },
+  {
+    "palabra": "Edith Cavell",
+    "tipo": "personaje histórico",
+    "significado": "Enfermera británica recordada por cuidar a personas heridas sin distinguir su nacionalidad."
+  },
+  {
+    "palabra": "Edmond Halley",
+    "tipo": "personaje histórico",
+    "significado": "Astrónomo británico que predijo el regreso del cometa que lleva su apellido."
+  },
+  {
+    "palabra": "Edwin Hubble",
+    "tipo": "personaje histórico",
+    "significado": "Astrónomo estadounidense que aportó pruebas de otras galaxias y de la expansión del universo."
+  },
+  {
+    "palabra": "Ellen Ochoa",
+    "tipo": "personaje histórico",
+    "significado": "Ingeniera y astronauta estadounidense que fue la primera mujer de origen hispano en viajar al espacio."
+  },
+  {
+    "palabra": "Emilia Pardo Bazán",
+    "tipo": "personaje histórico",
+    "significado": "Escritora española que creó novelas y cuentos y defendió la educación de las mujeres."
+  },
+  {
+    "palabra": "Emily Dickinson",
+    "tipo": "personaje histórico",
+    "significado": "Poeta estadounidense que escribió sobre la naturaleza, el tiempo y los sentimientos."
+  },
+  {
+    "palabra": "Enriqueta Favez",
+    "tipo": "personaje histórico",
+    "significado": "Médica de origen suizo que ejerció en Cuba cuando las mujeres enfrentaban grandes barreras para hacerlo."
+  },
+  {
+    "palabra": "Ernest Shackleton",
+    "tipo": "personaje histórico",
+    "significado": "Explorador de la Antártida recordado por sus esfuerzos para mantener a salvo a su equipo."
+  },
+  {
+    "palabra": "Euclides",
+    "tipo": "personaje histórico",
+    "significado": "Matemático de la antigua Grecia que organizó conocimientos fundamentales sobre geometría."
+  },
+  {
+    "palabra": "Eugenio María de Hostos",
+    "tipo": "personaje histórico",
+    "significado": "Educador puertorriqueño que promovió la enseñanza y los derechos de las personas en América Latina."
+  }
+]

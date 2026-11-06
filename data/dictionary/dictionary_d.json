@@ -1,0 +1,2502 @@
+[
+  {
+    "palabra": "Decente",
+    "tipo": "adjetivo",
+    "significado": "Que actúa con respeto y honestidad; también, que resulta adecuado."
+  },
+  {
+    "palabra": "Decibelio",
+    "tipo": "sustantivo",
+    "significado": "Unidad utilizada para expresar niveles de sonido y otras comparaciones."
+  },
+  {
+    "palabra": "Decidir",
+    "tipo": "verbo",
+    "significado": "Elegir qué hacer entre varias posibilidades."
+  },
+  {
+    "palabra": "Decidido",
+    "tipo": "adjetivo",
+    "significado": "Que actúa con determinación después de elegir."
+  },
+  {
+    "palabra": "Decilitro",
+    "tipo": "sustantivo",
+    "significado": "Medida de capacidad equivalente a la décima parte de un litro."
+  },
+  {
+    "palabra": "Decimal",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con un sistema basado en diez, como nuestro sistema habitual de numeración."
+  },
+  {
+    "palabra": "Décimo",
+    "tipo": "adjetivo",
+    "significado": "Que ocupa el lugar número diez."
+  },
+  {
+    "palabra": "Decímetro",
+    "tipo": "sustantivo",
+    "significado": "Unidad de longitud igual a diez centímetros."
+  },
+  {
+    "palabra": "Decir",
+    "tipo": "verbo",
+    "significado": "Comunicar algo mediante palabras."
+  },
+  {
+    "palabra": "Decisión",
+    "tipo": "sustantivo",
+    "significado": "Elección que hacemos después de considerar distintas opciones."
+  },
+  {
+    "palabra": "Decisivo",
+    "tipo": "adjetivo",
+    "significado": "Que influye mucho en el resultado de una situación."
+  },
+  {
+    "palabra": "Declamación",
+    "tipo": "sustantivo",
+    "significado": "Lectura o recitación expresiva de un poema u otro texto."
+  },
+  {
+    "palabra": "Declamar",
+    "tipo": "verbo",
+    "significado": "Recitar un texto utilizando la voz y los gestos para expresar emociones."
+  },
+  {
+    "palabra": "Declaración",
+    "tipo": "sustantivo",
+    "significado": "Expresión clara de una idea, una intención o unos hechos."
+  },
+  {
+    "palabra": "Declarar",
+    "tipo": "verbo",
+    "significado": "Expresar algo de forma clara u oficial."
+  },
+  {
+    "palabra": "Declinar",
+    "tipo": "verbo",
+    "significado": "Rechazar una propuesta con cortesía o disminuir poco a poco."
+  },
+  {
+    "palabra": "Declive",
+    "tipo": "sustantivo",
+    "significado": "Inclinación de un terreno o disminución de una actividad."
+  },
+  {
+    "palabra": "Decodificar",
+    "tipo": "verbo",
+    "significado": "Interpretar un código para comprender la información que contiene."
+  },
+  {
+    "palabra": "Decoración",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de elementos que adornan un espacio u objeto."
+  },
+  {
+    "palabra": "Decorado",
+    "tipo": "sustantivo",
+    "significado": "Elementos que representan un lugar en una obra teatral o película."
+  },
+  {
+    "palabra": "Decorador",
+    "tipo": "sustantivo",
+    "significado": "Persona que organiza colores, muebles y adornos para mejorar un espacio."
+  },
+  {
+    "palabra": "Decorar",
+    "tipo": "verbo",
+    "significado": "Añadir elementos que dan un aspecto especial a algo."
+  },
+  {
+    "palabra": "Decorativo",
+    "tipo": "adjetivo",
+    "significado": "Que sirve para adornar."
+  },
+  {
+    "palabra": "Decrecer",
+    "tipo": "verbo",
+    "significado": "Disminuir de tamaño, cantidad o intensidad."
+  },
+  {
+    "palabra": "Decreto",
+    "tipo": "sustantivo",
+    "significado": "Decisión oficial emitida por una autoridad con facultad para hacerlo."
+  },
+  {
+    "palabra": "Dedicación",
+    "tipo": "sustantivo",
+    "significado": "Tiempo, atención y esfuerzo que se ponen en una actividad."
+  },
+  {
+    "palabra": "Dedicar",
+    "tipo": "verbo",
+    "significado": "Emplear tiempo en algo o dirigir una obra a una persona como homenaje."
+  },
+  {
+    "palabra": "Dedicatoria",
+    "tipo": "sustantivo",
+    "significado": "Mensaje que acompaña una obra o regalo para una persona especial."
+  },
+  {
+    "palabra": "Dedal",
+    "tipo": "sustantivo",
+    "significado": "Pequeña cubierta que protege un dedo al coser."
+  },
+  {
+    "palabra": "Dedo",
+    "tipo": "sustantivo",
+    "significado": "Cada una de las partes alargadas que terminan las manos y los pies."
+  },
+  {
+    "palabra": "Deducción",
+    "tipo": "sustantivo",
+    "significado": "Conclusión que se obtiene a partir de información o reglas conocidas."
+  },
+  {
+    "palabra": "Deducir",
+    "tipo": "verbo",
+    "significado": "Llegar a una conclusión utilizando pistas o conocimientos."
+  },
+  {
+    "palabra": "Defecto",
+    "tipo": "sustantivo",
+    "significado": "Fallo o característica que impide que algo funcione como se espera."
+  },
+  {
+    "palabra": "Defectuoso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un fallo o no funciona correctamente."
+  },
+  {
+    "palabra": "Defender",
+    "tipo": "verbo",
+    "significado": "Proteger a alguien o explicar razones a favor de una idea."
+  },
+  {
+    "palabra": "Defensa",
+    "tipo": "sustantivo",
+    "significado": "Acción o medio que sirve para proteger."
+  },
+  {
+    "palabra": "Defensor",
+    "tipo": "sustantivo",
+    "significado": "Persona que protege a alguien o apoya una causa."
+  },
+  {
+    "palabra": "Deficiencia",
+    "tipo": "sustantivo",
+    "significado": "Falta de algo necesario para que una tarea o proceso funcione bien."
+  },
+  {
+    "palabra": "Déficit",
+    "tipo": "sustantivo",
+    "significado": "Cantidad que falta para alcanzar lo necesario o lo previsto."
+  },
+  {
+    "palabra": "Definición",
+    "tipo": "sustantivo",
+    "significado": "Explicación del significado de una palabra o una idea."
+  },
+  {
+    "palabra": "Definir",
+    "tipo": "verbo",
+    "significado": "Explicar con precisión qué significa algo."
+  },
+  {
+    "palabra": "Definitivo",
+    "tipo": "adjetivo",
+    "significado": "Que se considera terminado y no provisional."
+  },
+  {
+    "palabra": "Deforestar",
+    "tipo": "verbo",
+    "significado": "Eliminar el bosque de un terreno."
+  },
+  {
+    "palabra": "Deforestación",
+    "tipo": "sustantivo",
+    "significado": "Pérdida de bosques por la eliminación de sus árboles."
+  },
+  {
+    "palabra": "Deformar",
+    "tipo": "verbo",
+    "significado": "Cambiar la forma de algo, generalmente mediante presión u otra fuerza."
+  },
+  {
+    "palabra": "Defraudar",
+    "tipo": "verbo",
+    "significado": "Engañar o no responder a lo que alguien esperaba."
+  },
+  {
+    "palabra": "Degustar",
+    "tipo": "verbo",
+    "significado": "Probar un alimento prestando atención a su sabor."
+  },
+  {
+    "palabra": "Dehesa",
+    "tipo": "sustantivo",
+    "significado": "Terreno con pastos y árboles dispersos donde puede criarse ganado."
+  },
+  {
+    "palabra": "Deidad",
+    "tipo": "sustantivo",
+    "significado": "Ser considerado divino dentro de una religión o mitología."
+  },
+  {
+    "palabra": "Dejar",
+    "tipo": "verbo",
+    "significado": "Poner algo en un lugar, permitir una acción o detener una actividad."
+  },
+  {
+    "palabra": "Delantal",
+    "tipo": "sustantivo",
+    "significado": "Prenda que protege la ropa al cocinar, pintar o trabajar."
+  },
+  {
+    "palabra": "Delante",
+    "tipo": "adverbio",
+    "significado": "En la parte de enfrente."
+  },
+  {
+    "palabra": "Delantero",
+    "tipo": "adjetivo",
+    "significado": "Que está en la parte de delante."
+  },
+  {
+    "palabra": "Delatar",
+    "tipo": "verbo",
+    "significado": "Revelar algo que estaba oculto o mostrar una señal que permite descubrirlo."
+  },
+  {
+    "palabra": "Delegación",
+    "tipo": "sustantivo",
+    "significado": "Grupo que representa a otros o tarea que se encarga a alguien."
+  },
+  {
+    "palabra": "Delegado",
+    "tipo": "sustantivo",
+    "significado": "Persona elegida para representar a un grupo."
+  },
+  {
+    "palabra": "Delegar",
+    "tipo": "verbo",
+    "significado": "Encargar a otra persona una tarea o responsabilidad."
+  },
+  {
+    "palabra": "Deleitar",
+    "tipo": "verbo",
+    "significado": "Producir mucho agrado, como una música que encanta."
+  },
+  {
+    "palabra": "Deleite",
+    "tipo": "sustantivo",
+    "significado": "Sensación de gran disfrute."
+  },
+  {
+    "palabra": "Delfín",
+    "tipo": "sustantivo",
+    "significado": "Mamífero acuático que respira aire y utiliza sonidos para orientarse y comunicarse."
+  },
+  {
+    "palabra": "Delgado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene poco grosor o anchura."
+  },
+  {
+    "palabra": "Delgadez",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de algo que tiene poco grosor o volumen."
+  },
+  {
+    "palabra": "Deliberar",
+    "tipo": "verbo",
+    "significado": "Pensar y conversar sobre distintas opciones antes de decidir."
+  },
+  {
+    "palabra": "Delicadeza",
+    "tipo": "sustantivo",
+    "significado": "Cuidado y suavidad al tratar a alguien o manejar algo."
+  },
+  {
+    "palabra": "Delicado",
+    "tipo": "adjetivo",
+    "significado": "Que necesita cuidado porque puede dañarse fácilmente."
+  },
+  {
+    "palabra": "Delicia",
+    "tipo": "sustantivo",
+    "significado": "Algo que produce mucho placer, como una comida sabrosa."
+  },
+  {
+    "palabra": "Delicioso",
+    "tipo": "adjetivo",
+    "significado": "Que resulta muy agradable, especialmente por su sabor."
+  },
+  {
+    "palabra": "Delimitar",
+    "tipo": "verbo",
+    "significado": "Señalar dónde empieza y termina un espacio o un asunto."
+  },
+  {
+    "palabra": "Delinear",
+    "tipo": "verbo",
+    "significado": "Dibujar los contornos o las líneas principales de algo."
+  },
+  {
+    "palabra": "Delito",
+    "tipo": "sustantivo",
+    "significado": "Acción que la ley considera una infracción grave y puede castigar."
+  },
+  {
+    "palabra": "Delta",
+    "tipo": "sustantivo",
+    "significado": "Terreno formado por sedimentos en la desembocadura de algunos ríos; también, letra griega."
+  },
+  {
+    "palabra": "Demanda",
+    "tipo": "sustantivo",
+    "significado": "Petición de algo o cantidad de un producto que las personas desean obtener."
+  },
+  {
+    "palabra": "Demandar",
+    "tipo": "verbo",
+    "significado": "Pedir o necesitar algo; también, presentar una reclamación ante la justicia."
+  },
+  {
+    "palabra": "Demás",
+    "tipo": "adjetivo",
+    "significado": "Que forma parte de lo que queda de un grupo."
+  },
+  {
+    "palabra": "Demasiado",
+    "tipo": "adverbio",
+    "significado": "En una cantidad mayor de la necesaria o conveniente."
+  },
+  {
+    "palabra": "Democracia",
+    "tipo": "sustantivo",
+    "significado": "Forma de gobierno en la que la ciudadanía participa en decisiones y elige representantes."
+  },
+  {
+    "palabra": "Democrático",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la democracia o con decisiones en las que participan los integrantes de un grupo."
+  },
+  {
+    "palabra": "Demografía",
+    "tipo": "sustantivo",
+    "significado": "Estudio de las poblaciones humanas y de cómo cambian."
+  },
+  {
+    "palabra": "Demoler",
+    "tipo": "verbo",
+    "significado": "Derribar una construcción de manera planificada."
+  },
+  {
+    "palabra": "Demolición",
+    "tipo": "sustantivo",
+    "significado": "Acción de derribar una construcción."
+  },
+  {
+    "palabra": "Demora",
+    "tipo": "sustantivo",
+    "significado": "Retraso en la llegada o realización de algo."
+  },
+  {
+    "palabra": "Demorar",
+    "tipo": "verbo",
+    "significado": "Tardar o hacer que algo ocurra más tarde."
+  },
+  {
+    "palabra": "Demostración",
+    "tipo": "sustantivo",
+    "significado": "Explicación o prueba que permite comprobar cómo es o funciona algo."
+  },
+  {
+    "palabra": "Demostrar",
+    "tipo": "verbo",
+    "significado": "Mostrar con razones o pruebas que algo es cierto."
+  },
+  {
+    "palabra": "Denso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucha materia en poco espacio o elementos muy juntos."
+  },
+  {
+    "palabra": "Densidad",
+    "tipo": "sustantivo",
+    "significado": "Relación entre la masa de algo y el espacio que ocupa."
+  },
+  {
+    "palabra": "Dentadura",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de dientes de una persona o animal."
+  },
+  {
+    "palabra": "Dental",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los dientes."
+  },
+  {
+    "palabra": "Dentífrico",
+    "tipo": "sustantivo",
+    "significado": "Producto que se utiliza con el cepillo para limpiar los dientes."
+  },
+  {
+    "palabra": "Dentista",
+    "tipo": "sustantivo",
+    "significado": "Profesional que cuida la salud de los dientes y la boca."
+  },
+  {
+    "palabra": "Dentro",
+    "tipo": "adverbio",
+    "significado": "En la parte interior de algo."
+  },
+  {
+    "palabra": "Denominar",
+    "tipo": "verbo",
+    "significado": "Dar un nombre a algo o llamarlo de cierta manera."
+  },
+  {
+    "palabra": "Denominador",
+    "tipo": "sustantivo",
+    "significado": "Número de abajo de una fracción que indica en cuántas partes iguales se divide la unidad."
+  },
+  {
+    "palabra": "Denotar",
+    "tipo": "verbo",
+    "significado": "Indicar o mostrar una característica mediante una señal."
+  },
+  {
+    "palabra": "Denuncia",
+    "tipo": "sustantivo",
+    "significado": "Comunicación de un hecho injusto o posiblemente contrario a la ley."
+  },
+  {
+    "palabra": "Denunciar",
+    "tipo": "verbo",
+    "significado": "Informar de una situación injusta o de un posible incumplimiento de la ley."
+  },
+  {
+    "palabra": "Departamento",
+    "tipo": "sustantivo",
+    "significado": "Vivienda de un edificio, parte de una organización o división territorial."
+  },
+  {
+    "palabra": "Dependencia",
+    "tipo": "sustantivo",
+    "significado": "Necesidad de contar con algo o alguien; también, habitación de un edificio."
+  },
+  {
+    "palabra": "Depender",
+    "tipo": "verbo",
+    "significado": "Necesitar algo o estar condicionado por otra cosa."
+  },
+  {
+    "palabra": "Dependiente",
+    "tipo": "sustantivo",
+    "significado": "Persona que atiende a quienes compran en una tienda."
+  },
+  {
+    "palabra": "Deporte",
+    "tipo": "sustantivo",
+    "significado": "Actividad física con reglas que se practica para disfrutar, aprender o competir."
+  },
+  {
+    "palabra": "Deportista",
+    "tipo": "sustantivo",
+    "significado": "Persona que practica un deporte."
+  },
+  {
+    "palabra": "Deportivo",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el deporte."
+  },
+  {
+    "palabra": "Depositar",
+    "tipo": "verbo",
+    "significado": "Colocar algo en un lugar para guardarlo o entregarlo."
+  },
+  {
+    "palabra": "Depósito",
+    "tipo": "sustantivo",
+    "significado": "Lugar o recipiente para almacenar cosas; también, cantidad de dinero guardada en una cuenta."
+  },
+  {
+    "palabra": "Depredador",
+    "tipo": "sustantivo",
+    "significado": "Animal que captura otros animales para alimentarse."
+  },
+  {
+    "palabra": "Depredación",
+    "tipo": "sustantivo",
+    "significado": "Relación en la que un animal captura y come a otro."
+  },
+  {
+    "palabra": "Depresión",
+    "tipo": "sustantivo",
+    "significado": "Zona hundida del terreno; también, condición de salud que afecta al ánimo y requiere atención."
+  },
+  {
+    "palabra": "Deprisa",
+    "tipo": "adverbio",
+    "significado": "Con rapidez."
+  },
+  {
+    "palabra": "Depurar",
+    "tipo": "verbo",
+    "significado": "Eliminar impurezas; en programación, encontrar y corregir errores."
+  },
+  {
+    "palabra": "Derecha",
+    "tipo": "sustantivo",
+    "significado": "Lado opuesto a la izquierda."
+  },
+  {
+    "palabra": "Derecho",
+    "tipo": "sustantivo",
+    "significado": "Libertad o protección que corresponde a una persona y debe respetarse."
+  },
+  {
+    "palabra": "Derivar",
+    "tipo": "verbo",
+    "significado": "Proceder de algo o dirigir algo hacia otro lugar."
+  },
+  {
+    "palabra": "Deriva",
+    "tipo": "sustantivo",
+    "significado": "Desplazamiento causado por fuerzas como el viento o las corrientes."
+  },
+  {
+    "palabra": "Dermatólogo",
+    "tipo": "sustantivo",
+    "significado": "Profesional de medicina especializado en la piel."
+  },
+  {
+    "palabra": "Dermis",
+    "tipo": "sustantivo",
+    "significado": "Capa de la piel situada debajo de la epidermis."
+  },
+  {
+    "palabra": "Derretir",
+    "tipo": "verbo",
+    "significado": "Convertir un sólido en líquido mediante calor."
+  },
+  {
+    "palabra": "Derramar",
+    "tipo": "verbo",
+    "significado": "Hacer que un líquido salga de su recipiente y se extienda."
+  },
+  {
+    "palabra": "Derrame",
+    "tipo": "sustantivo",
+    "significado": "Salida de un líquido fuera del lugar donde debía permanecer."
+  },
+  {
+    "palabra": "Derribar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo caiga."
+  },
+  {
+    "palabra": "Derrochar",
+    "tipo": "verbo",
+    "significado": "Gastar más dinero, tiempo o recursos de lo necesario."
+  },
+  {
+    "palabra": "Derrota",
+    "tipo": "sustantivo",
+    "significado": "Resultado de no ganar una competición o enfrentamiento."
+  },
+  {
+    "palabra": "Derrotar",
+    "tipo": "verbo",
+    "significado": "Ganar a otra persona o equipo en una competición."
+  },
+  {
+    "palabra": "Derrumbar",
+    "tipo": "verbo",
+    "significado": "Hacer que una estructura o un montón caiga y se deshaga."
+  },
+  {
+    "palabra": "Derrumbe",
+    "tipo": "sustantivo",
+    "significado": "Caída de tierra, piedras o partes de una construcción."
+  },
+  {
+    "palabra": "Desabrochar",
+    "tipo": "verbo",
+    "significado": "Abrir botones, broches u otros cierres de una prenda."
+  },
+  {
+    "palabra": "Desacelerar",
+    "tipo": "verbo",
+    "significado": "Reducir la velocidad."
+  },
+  {
+    "palabra": "Desacuerdo",
+    "tipo": "sustantivo",
+    "significado": "Diferencia de opiniones entre personas."
+  },
+  {
+    "palabra": "Desafiar",
+    "tipo": "verbo",
+    "significado": "Invitar a superar una prueba o afrontar una dificultad."
+  },
+  {
+    "palabra": "Desafío",
+    "tipo": "sustantivo",
+    "significado": "Reto que requiere esfuerzo, aprendizaje o imaginación."
+  },
+  {
+    "palabra": "Desagüe",
+    "tipo": "sustantivo",
+    "significado": "Conducto por donde sale el agua usada o acumulada."
+  },
+  {
+    "palabra": "Desahogar",
+    "tipo": "verbo",
+    "significado": "Expresar sentimientos para sentirse aliviado o liberar un paso obstruido."
+  },
+  {
+    "palabra": "Desahogo",
+    "tipo": "sustantivo",
+    "significado": "Alivio que se siente al compartir preocupaciones o liberar tensión."
+  },
+  {
+    "palabra": "Desajuste",
+    "tipo": "sustantivo",
+    "significado": "Falta de encaje o coordinación entre partes."
+  },
+  {
+    "palabra": "Desalentar",
+    "tipo": "verbo",
+    "significado": "Hacer que disminuyan las ganas de continuar."
+  },
+  {
+    "palabra": "Desaliento",
+    "tipo": "sustantivo",
+    "significado": "Sensación de tener pocas fuerzas o esperanzas para seguir."
+  },
+  {
+    "palabra": "Desalojar",
+    "tipo": "verbo",
+    "significado": "Dejar libre un espacio, por ejemplo durante una evacuación."
+  },
+  {
+    "palabra": "Desamparo",
+    "tipo": "sustantivo",
+    "significado": "Situación de quien necesita ayuda o protección y no la tiene."
+  },
+  {
+    "palabra": "Desanimar",
+    "tipo": "verbo",
+    "significado": "Hacer que alguien pierda entusiasmo."
+  },
+  {
+    "palabra": "Desánimo",
+    "tipo": "sustantivo",
+    "significado": "Falta de energía o ganas para hacer algo."
+  },
+  {
+    "palabra": "Desaparecer",
+    "tipo": "verbo",
+    "significado": "Dejar de estar a la vista o de encontrarse en un lugar."
+  },
+  {
+    "palabra": "Desaparición",
+    "tipo": "sustantivo",
+    "significado": "Hecho de dejar de verse, encontrarse o existir algo."
+  },
+  {
+    "palabra": "Desapercibido",
+    "tipo": "adjetivo",
+    "significado": "Que no ha sido notado."
+  },
+  {
+    "palabra": "Desaprender",
+    "tipo": "verbo",
+    "significado": "Dejar atrás una idea o costumbre aprendida para incorporar otra."
+  },
+  {
+    "palabra": "Desaprobar",
+    "tipo": "verbo",
+    "significado": "No estar de acuerdo con algo o no alcanzar el resultado requerido en una evaluación."
+  },
+  {
+    "palabra": "Desaprovechar",
+    "tipo": "verbo",
+    "significado": "No utilizar bien una oportunidad o un recurso."
+  },
+  {
+    "palabra": "Desarmar",
+    "tipo": "verbo",
+    "significado": "Separar las piezas de un objeto; también, quitar armas."
+  },
+  {
+    "palabra": "Desarrollar",
+    "tipo": "verbo",
+    "significado": "Hacer crecer una capacidad, una idea o un proyecto."
+  },
+  {
+    "palabra": "Desarrollo",
+    "tipo": "sustantivo",
+    "significado": "Proceso de crecimiento, cambio y mejora."
+  },
+  {
+    "palabra": "Desastre",
+    "tipo": "sustantivo",
+    "significado": "Suceso que causa daños importantes y altera la vida de una comunidad."
+  },
+  {
+    "palabra": "Desatar",
+    "tipo": "verbo",
+    "significado": "Soltar un nudo o quitar una atadura."
+  },
+  {
+    "palabra": "Desatender",
+    "tipo": "verbo",
+    "significado": "No prestar la atención o el cuidado que algo necesita."
+  },
+  {
+    "palabra": "Desayunar",
+    "tipo": "verbo",
+    "significado": "Tomar la primera comida del día después de dormir."
+  },
+  {
+    "palabra": "Desayuno",
+    "tipo": "sustantivo",
+    "significado": "Primera comida del día después del descanso nocturno."
+  },
+  {
+    "palabra": "Desbalance",
+    "tipo": "sustantivo",
+    "significado": "Falta de equilibrio entre partes o cantidades."
+  },
+  {
+    "palabra": "Desbordar",
+    "tipo": "verbo",
+    "significado": "Superar el borde de un recipiente o los límites de un espacio."
+  },
+  {
+    "palabra": "Descalificar",
+    "tipo": "verbo",
+    "significado": "Excluir de una prueba por incumplir reglas; también, despreciar injustamente una opinión."
+  },
+  {
+    "palabra": "Descalzo",
+    "tipo": "adjetivo",
+    "significado": "Que no lleva zapatos ni otro calzado."
+  },
+  {
+    "palabra": "Descansar",
+    "tipo": "verbo",
+    "significado": "Hacer una pausa para recuperar fuerzas."
+  },
+  {
+    "palabra": "Descanso",
+    "tipo": "sustantivo",
+    "significado": "Tiempo de pausa que ayuda a recuperar energía."
+  },
+  {
+    "palabra": "Descargar",
+    "tipo": "verbo",
+    "significado": "Quitar una carga o recibir un archivo en un dispositivo."
+  },
+  {
+    "palabra": "Descarga",
+    "tipo": "sustantivo",
+    "significado": "Acción de retirar una carga o transferir un archivo a un dispositivo."
+  },
+  {
+    "palabra": "Descartar",
+    "tipo": "verbo",
+    "significado": "Dejar de considerar una opción."
+  },
+  {
+    "palabra": "Descender",
+    "tipo": "verbo",
+    "significado": "Bajar a un lugar inferior."
+  },
+  {
+    "palabra": "Descendiente",
+    "tipo": "sustantivo",
+    "significado": "Persona que procede de una familia anterior, como un hijo o nieto."
+  },
+  {
+    "palabra": "Descenso",
+    "tipo": "sustantivo",
+    "significado": "Movimiento hacia abajo o disminución de una cantidad."
+  },
+  {
+    "palabra": "Descifrar",
+    "tipo": "verbo",
+    "significado": "Comprender un mensaje difícil, oculto o escrito mediante un código."
+  },
+  {
+    "palabra": "Desclavar",
+    "tipo": "verbo",
+    "significado": "Sacar algo que estaba sujeto con un clavo o introducido por una punta."
+  },
+  {
+    "palabra": "Descolgar",
+    "tipo": "verbo",
+    "significado": "Quitar algo del lugar donde estaba colgado."
+  },
+  {
+    "palabra": "Descomponer",
+    "tipo": "verbo",
+    "significado": "Separar algo en partes o alterar su buen funcionamiento."
+  },
+  {
+    "palabra": "Descomposición",
+    "tipo": "sustantivo",
+    "significado": "Separación en partes o transformación de materia por procesos naturales."
+  },
+  {
+    "palabra": "Descomprimir",
+    "tipo": "verbo",
+    "significado": "Reducir la presión o recuperar el contenido de un archivo comprimido."
+  },
+  {
+    "palabra": "Desconectar",
+    "tipo": "verbo",
+    "significado": "Interrumpir una conexión entre elementos."
+  },
+  {
+    "palabra": "Desconfiar",
+    "tipo": "verbo",
+    "significado": "Tener dudas sobre alguien o algo."
+  },
+  {
+    "palabra": "Descongelar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo deje de estar congelado."
+  },
+  {
+    "palabra": "Desconocido",
+    "tipo": "adjetivo",
+    "significado": "Que todavía no se conoce."
+  },
+  {
+    "palabra": "Desconocer",
+    "tipo": "verbo",
+    "significado": "No saber algo o no reconocerlo."
+  },
+  {
+    "palabra": "Descontento",
+    "tipo": "adjetivo",
+    "significado": "Que no está satisfecho con una situación."
+  },
+  {
+    "palabra": "Descontar",
+    "tipo": "verbo",
+    "significado": "Restar una cantidad de un total."
+  },
+  {
+    "palabra": "Describir",
+    "tipo": "verbo",
+    "significado": "Explicar con palabras cómo es alguien o algo."
+  },
+  {
+    "palabra": "Descripción",
+    "tipo": "sustantivo",
+    "significado": "Explicación de las características de alguien o algo."
+  },
+  {
+    "palabra": "Descriptivo",
+    "tipo": "adjetivo",
+    "significado": "Que presenta características o detalles de algo."
+  },
+  {
+    "palabra": "Descubrir",
+    "tipo": "verbo",
+    "significado": "Encontrar o conocer algo que antes no se sabía."
+  },
+  {
+    "palabra": "Descubrimiento",
+    "tipo": "sustantivo",
+    "significado": "Hallazgo de algo que no se conocía."
+  },
+  {
+    "palabra": "Descuento",
+    "tipo": "sustantivo",
+    "significado": "Cantidad que se resta de un precio."
+  },
+  {
+    "palabra": "Descuidar",
+    "tipo": "verbo",
+    "significado": "No prestar suficiente atención o cuidado."
+  },
+  {
+    "palabra": "Descuido",
+    "tipo": "sustantivo",
+    "significado": "Falta de atención que puede provocar un error."
+  },
+  {
+    "palabra": "Desde",
+    "tipo": "preposición",
+    "significado": "Palabra que indica el punto de inicio de un lugar o un tiempo."
+  },
+  {
+    "palabra": "Desear",
+    "tipo": "verbo",
+    "significado": "Querer que algo ocurra o querer conseguir algo."
+  },
+  {
+    "palabra": "Desechar",
+    "tipo": "verbo",
+    "significado": "Apartar algo porque ya no se utilizará."
+  },
+  {
+    "palabra": "Desecho",
+    "tipo": "sustantivo",
+    "significado": "Material u objeto que se descarta después de utilizarlo."
+  },
+  {
+    "palabra": "Desembarcar",
+    "tipo": "verbo",
+    "significado": "Bajar de una embarcación o sacar de ella una carga."
+  },
+  {
+    "palabra": "Desembocadura",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde un río llega al mar, a un lago o a otro río."
+  },
+  {
+    "palabra": "Desembocar",
+    "tipo": "verbo",
+    "significado": "Llegar una corriente de agua a otra masa de agua."
+  },
+  {
+    "palabra": "Desempacar",
+    "tipo": "verbo",
+    "significado": "Sacar objetos de una caja, maleta o paquete."
+  },
+  {
+    "palabra": "Desempatar",
+    "tipo": "verbo",
+    "significado": "Resolver una igualdad de resultados entre participantes."
+  },
+  {
+    "palabra": "Desempeñar",
+    "tipo": "verbo",
+    "significado": "Realizar una función o tarea."
+  },
+  {
+    "palabra": "Desempleo",
+    "tipo": "sustantivo",
+    "significado": "Situación de quien busca trabajo y no lo encuentra."
+  },
+  {
+    "palabra": "Desenchufar",
+    "tipo": "verbo",
+    "significado": "Separar un enchufe de la toma a la que estaba conectado."
+  },
+  {
+    "palabra": "Desenlace",
+    "tipo": "sustantivo",
+    "significado": "Parte final de una historia en la que se resuelve su situación principal."
+  },
+  {
+    "palabra": "Desenredar",
+    "tipo": "verbo",
+    "significado": "Deshacer nudos o separar cosas que estaban enredadas."
+  },
+  {
+    "palabra": "Desenrollar",
+    "tipo": "verbo",
+    "significado": "Extender algo que estaba enrollado."
+  },
+  {
+    "palabra": "Desenterrar",
+    "tipo": "verbo",
+    "significado": "Sacar algo que estaba bajo tierra."
+  },
+  {
+    "palabra": "Desenvolver",
+    "tipo": "verbo",
+    "significado": "Quitar una envoltura."
+  },
+  {
+    "palabra": "Deseo",
+    "tipo": "sustantivo",
+    "significado": "Ganas de que ocurra algo o de conseguirlo."
+  },
+  {
+    "palabra": "Desequilibrio",
+    "tipo": "sustantivo",
+    "significado": "Falta de equilibrio entre partes o fuerzas."
+  },
+  {
+    "palabra": "Desértico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con un desierto o con condiciones muy secas."
+  },
+  {
+    "palabra": "Desesperar",
+    "tipo": "verbo",
+    "significado": "Perder la calma o la esperanza ante una dificultad."
+  },
+  {
+    "palabra": "Desfallecer",
+    "tipo": "verbo",
+    "significado": "Sentir que faltan las fuerzas."
+  },
+  {
+    "palabra": "Desfase",
+    "tipo": "sustantivo",
+    "significado": "Diferencia de tiempo o de ajuste entre cosas que deberían coincidir."
+  },
+  {
+    "palabra": "Desfilar",
+    "tipo": "verbo",
+    "significado": "Avanzar de manera ordenada junto a otras personas."
+  },
+  {
+    "palabra": "Desfile",
+    "tipo": "sustantivo",
+    "significado": "Paso ordenado de personas, vehículos o figuras ante un público."
+  },
+  {
+    "palabra": "Desfiladero",
+    "tipo": "sustantivo",
+    "significado": "Paso estrecho entre montañas o paredes de roca."
+  },
+  {
+    "palabra": "Desgastar",
+    "tipo": "verbo",
+    "significado": "Deteriorar algo poco a poco por el uso o el roce."
+  },
+  {
+    "palabra": "Desgaste",
+    "tipo": "sustantivo",
+    "significado": "Pérdida gradual de material o de buen estado por el uso."
+  },
+  {
+    "palabra": "Desglosar",
+    "tipo": "verbo",
+    "significado": "Separar un total en partes para explicarlo mejor."
+  },
+  {
+    "palabra": "Desgranar",
+    "tipo": "verbo",
+    "significado": "Sacar los granos de una espiga, mazorca o fruto."
+  },
+  {
+    "palabra": "Deshacer",
+    "tipo": "verbo",
+    "significado": "Separar o anular algo que ya estaba hecho."
+  },
+  {
+    "palabra": "Deshecho",
+    "tipo": "adjetivo",
+    "significado": "Que ha perdido su forma o ha sido separado en partes."
+  },
+  {
+    "palabra": "Deshelar",
+    "tipo": "verbo",
+    "significado": "Hacer que el hielo se derrita."
+  },
+  {
+    "palabra": "Deshielo",
+    "tipo": "sustantivo",
+    "significado": "Transformación del hielo o la nieve en agua líquida."
+  },
+  {
+    "palabra": "Deshidratar",
+    "tipo": "verbo",
+    "significado": "Quitar agua a una sustancia o perder agua del cuerpo."
+  },
+  {
+    "palabra": "Deshidratación",
+    "tipo": "sustantivo",
+    "significado": "Pérdida de agua; en el cuerpo, ocurre cuando falta el agua necesaria."
+  },
+  {
+    "palabra": "Deshilar",
+    "tipo": "verbo",
+    "significado": "Sacar hilos de un tejido."
+  },
+  {
+    "palabra": "Deshojar",
+    "tipo": "verbo",
+    "significado": "Quitar hojas o pétalos a una planta."
+  },
+  {
+    "palabra": "Deshonesto",
+    "tipo": "adjetivo",
+    "significado": "Que actúa con engaño o falta de sinceridad."
+  },
+  {
+    "palabra": "Desierto",
+    "tipo": "sustantivo",
+    "significado": "Región donde llueve muy poco; puede ser cálida o fría."
+  },
+  {
+    "palabra": "Designar",
+    "tipo": "verbo",
+    "significado": "Elegir a alguien para una tarea o señalar algo por su nombre."
+  },
+  {
+    "palabra": "Desigual",
+    "tipo": "adjetivo",
+    "significado": "Que no es igual a otra cosa."
+  },
+  {
+    "palabra": "Desigualdad",
+    "tipo": "sustantivo",
+    "significado": "Diferencia entre cantidades, condiciones u oportunidades."
+  },
+  {
+    "palabra": "Desilusión",
+    "tipo": "sustantivo",
+    "significado": "Tristeza que aparece cuando algo no resulta como se esperaba."
+  },
+  {
+    "palabra": "Desinfectar",
+    "tipo": "verbo",
+    "significado": "Eliminar o reducir microorganismos perjudiciales mediante un procedimiento adecuado."
+  },
+  {
+    "palabra": "Desinflar",
+    "tipo": "verbo",
+    "significado": "Quitar aire u otro gas de algo inflado."
+  },
+  {
+    "palabra": "Desintegrar",
+    "tipo": "verbo",
+    "significado": "Separar algo en partes muy pequeñas."
+  },
+  {
+    "palabra": "Desinteresado",
+    "tipo": "adjetivo",
+    "significado": "Que ayuda sin buscar una recompensa personal."
+  },
+  {
+    "palabra": "Desistir",
+    "tipo": "verbo",
+    "significado": "Decidir no continuar con una acción o intención."
+  },
+  {
+    "palabra": "Deslizar",
+    "tipo": "verbo",
+    "significado": "Mover algo suavemente sobre una superficie."
+  },
+  {
+    "palabra": "Deslumbrar",
+    "tipo": "verbo",
+    "significado": "Dificultar la visión con mucha luz o causar gran admiración."
+  },
+  {
+    "palabra": "Desmayo",
+    "tipo": "sustantivo",
+    "significado": "Pérdida breve del conocimiento que requiere atención."
+  },
+  {
+    "palabra": "Desmentir",
+    "tipo": "verbo",
+    "significado": "Mostrar o afirmar que una información no es verdadera."
+  },
+  {
+    "palabra": "Desmenuzar",
+    "tipo": "verbo",
+    "significado": "Dividir algo en pedazos muy pequeños."
+  },
+  {
+    "palabra": "Desmontar",
+    "tipo": "verbo",
+    "significado": "Separar las piezas de algo o bajar de un animal montado."
+  },
+  {
+    "palabra": "Desmotivar",
+    "tipo": "verbo",
+    "significado": "Hacer que disminuyan las ganas de realizar una actividad."
+  },
+  {
+    "palabra": "Desnivel",
+    "tipo": "sustantivo",
+    "significado": "Diferencia de altura entre dos puntos."
+  },
+  {
+    "palabra": "Desobedecer",
+    "tipo": "verbo",
+    "significado": "No seguir una indicación o una norma."
+  },
+  {
+    "palabra": "Desocupar",
+    "tipo": "verbo",
+    "significado": "Dejar libre un lugar o terminar de utilizarlo."
+  },
+  {
+    "palabra": "Desodorante",
+    "tipo": "sustantivo",
+    "significado": "Producto que ayuda a reducir el olor corporal."
+  },
+  {
+    "palabra": "Desorden",
+    "tipo": "sustantivo",
+    "significado": "Falta de organización entre cosas o actividades."
+  },
+  {
+    "palabra": "Desordenar",
+    "tipo": "verbo",
+    "significado": "Cambiar la colocación de cosas de modo que pierdan su orden."
+  },
+  {
+    "palabra": "Desorientar",
+    "tipo": "verbo",
+    "significado": "Hacer que alguien no sepa dónde está o qué dirección seguir."
+  },
+  {
+    "palabra": "Despacio",
+    "tipo": "adverbio",
+    "significado": "Con poca velocidad o tomándose tiempo."
+  },
+  {
+    "palabra": "Despachar",
+    "tipo": "verbo",
+    "significado": "Enviar algo o atender una petición o compra."
+  },
+  {
+    "palabra": "Despacho",
+    "tipo": "sustantivo",
+    "significado": "Habitación donde se trabaja o acción de enviar mercancías."
+  },
+  {
+    "palabra": "Desparramar",
+    "tipo": "verbo",
+    "significado": "Esparcir cosas en distintas direcciones."
+  },
+  {
+    "palabra": "Despegar",
+    "tipo": "verbo",
+    "significado": "Separar cosas pegadas o comenzar a volar una aeronave."
+  },
+  {
+    "palabra": "Despegue",
+    "tipo": "sustantivo",
+    "significado": "Momento en que una aeronave deja el suelo."
+  },
+  {
+    "palabra": "Despeinar",
+    "tipo": "verbo",
+    "significado": "Desordenar el cabello."
+  },
+  {
+    "palabra": "Despejar",
+    "tipo": "verbo",
+    "significado": "Dejar libre un espacio o aclarar una duda."
+  },
+  {
+    "palabra": "Despejado",
+    "tipo": "adjetivo",
+    "significado": "Libre de obstáculos; dicho del cielo, con pocas nubes o ninguna."
+  },
+  {
+    "palabra": "Despensa",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde se guardan alimentos."
+  },
+  {
+    "palabra": "Desperdiciar",
+    "tipo": "verbo",
+    "significado": "Gastar o perder algo sin aprovecharlo."
+  },
+  {
+    "palabra": "Desperdicio",
+    "tipo": "sustantivo",
+    "significado": "Material o recurso que no se aprovecha."
+  },
+  {
+    "palabra": "Despertar",
+    "tipo": "verbo",
+    "significado": "Dejar de dormir o hacer que alguien deje de hacerlo."
+  },
+  {
+    "palabra": "Despertador",
+    "tipo": "sustantivo",
+    "significado": "Reloj o función que emite una señal a la hora elegida."
+  },
+  {
+    "palabra": "Despierto",
+    "tipo": "adjetivo",
+    "significado": "Que no está dormido."
+  },
+  {
+    "palabra": "Despedida",
+    "tipo": "sustantivo",
+    "significado": "Palabras o gestos que se hacen al separarse de alguien."
+  },
+  {
+    "palabra": "Despedir",
+    "tipo": "verbo",
+    "significado": "Decir adiós o acompañar a alguien cuando se marcha."
+  },
+  {
+    "palabra": "Despistar",
+    "tipo": "verbo",
+    "significado": "Hacer que alguien pierda una pista o se distraiga."
+  },
+  {
+    "palabra": "Desplazar",
+    "tipo": "verbo",
+    "significado": "Mover algo de un lugar a otro."
+  },
+  {
+    "palabra": "Desplazamiento",
+    "tipo": "sustantivo",
+    "significado": "Cambio de posición o recorrido de un lugar a otro."
+  },
+  {
+    "palabra": "Desplegar",
+    "tipo": "verbo",
+    "significado": "Extender algo que estaba doblado."
+  },
+  {
+    "palabra": "Desplomar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo caiga de manera repentina."
+  },
+  {
+    "palabra": "Despojar",
+    "tipo": "verbo",
+    "significado": "Quitar a alguien algo que tiene o retirar una cubierta."
+  },
+  {
+    "palabra": "Después",
+    "tipo": "adverbio",
+    "significado": "En un momento posterior."
+  },
+  {
+    "palabra": "Desprender",
+    "tipo": "verbo",
+    "significado": "Separar algo que estaba unido o sujeto."
+  },
+  {
+    "palabra": "Despreocupar",
+    "tipo": "verbo",
+    "significado": "Hacer que disminuya una preocupación."
+  },
+  {
+    "palabra": "Desproteger",
+    "tipo": "verbo",
+    "significado": "Dejar sin la protección necesaria."
+  },
+  {
+    "palabra": "Destacar",
+    "tipo": "verbo",
+    "significado": "Sobresalir o llamar la atención sobre algo importante."
+  },
+  {
+    "palabra": "Destapar",
+    "tipo": "verbo",
+    "significado": "Quitar la tapa o lo que cubre algo."
+  },
+  {
+    "palabra": "Destello",
+    "tipo": "sustantivo",
+    "significado": "Luz intensa que dura muy poco."
+  },
+  {
+    "palabra": "Desteñir",
+    "tipo": "verbo",
+    "significado": "Hacer que un material pierda parte de su color."
+  },
+  {
+    "palabra": "Desterrar",
+    "tipo": "verbo",
+    "significado": "Obligar a abandonar una tierra; también, eliminar una costumbre o idea."
+  },
+  {
+    "palabra": "Destinar",
+    "tipo": "verbo",
+    "significado": "Reservar algo para una finalidad."
+  },
+  {
+    "palabra": "Destinatario",
+    "tipo": "sustantivo",
+    "significado": "Persona a quien se envía una carta, un paquete o un mensaje."
+  },
+  {
+    "palabra": "Destino",
+    "tipo": "sustantivo",
+    "significado": "Lugar al que se dirige una persona o un envío."
+  },
+  {
+    "palabra": "Destornillador",
+    "tipo": "sustantivo",
+    "significado": "Herramienta que sirve para apretar o aflojar tornillos."
+  },
+  {
+    "palabra": "Destreza",
+    "tipo": "sustantivo",
+    "significado": "Habilidad para realizar una tarea con precisión."
+  },
+  {
+    "palabra": "Destruir",
+    "tipo": "verbo",
+    "significado": "Dañar algo tanto que pierde su forma o utilidad."
+  },
+  {
+    "palabra": "Destrucción",
+    "tipo": "sustantivo",
+    "significado": "Daño que hace que algo deje de conservar su forma o función."
+  },
+  {
+    "palabra": "Desventaja",
+    "tipo": "sustantivo",
+    "significado": "Condición que hace más difícil alcanzar un resultado."
+  },
+  {
+    "palabra": "Desviar",
+    "tipo": "verbo",
+    "significado": "Cambiar la dirección de algo."
+  },
+  {
+    "palabra": "Desvío",
+    "tipo": "sustantivo",
+    "significado": "Camino alternativo o cambio de dirección."
+  },
+  {
+    "palabra": "Detallar",
+    "tipo": "verbo",
+    "significado": "Explicar algo incluyendo sus partes y características pequeñas."
+  },
+  {
+    "palabra": "Detalle",
+    "tipo": "sustantivo",
+    "significado": "Parte pequeña de algo; también, gesto de atención o cariño."
+  },
+  {
+    "palabra": "Detectar",
+    "tipo": "verbo",
+    "significado": "Descubrir la presencia de algo mediante señales u observaciones."
+  },
+  {
+    "palabra": "Detective",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga hechos y reúne pistas para aclararlos."
+  },
+  {
+    "palabra": "Detector",
+    "tipo": "sustantivo",
+    "significado": "Aparato que reconoce la presencia de algo, como humo o metales."
+  },
+  {
+    "palabra": "Detener",
+    "tipo": "verbo",
+    "significado": "Hacer que un movimiento o una actividad se interrumpa."
+  },
+  {
+    "palabra": "Detergente",
+    "tipo": "sustantivo",
+    "significado": "Producto que ayuda a quitar la suciedad al lavar."
+  },
+  {
+    "palabra": "Deteriorar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo pierda calidad o buen estado."
+  },
+  {
+    "palabra": "Deterioro",
+    "tipo": "sustantivo",
+    "significado": "Empeoramiento del estado de algo."
+  },
+  {
+    "palabra": "Determinar",
+    "tipo": "verbo",
+    "significado": "Establecer algo con precisión o tomar una decisión."
+  },
+  {
+    "palabra": "Determinación",
+    "tipo": "sustantivo",
+    "significado": "Firmeza para realizar algo que se ha decidido."
+  },
+  {
+    "palabra": "Detrás",
+    "tipo": "adverbio",
+    "significado": "En la parte posterior."
+  },
+  {
+    "palabra": "Deuda",
+    "tipo": "sustantivo",
+    "significado": "Algo que se debe devolver o pagar."
+  },
+  {
+    "palabra": "Deudor",
+    "tipo": "sustantivo",
+    "significado": "Persona o entidad que debe una cantidad a otra."
+  },
+  {
+    "palabra": "Devaluar",
+    "tipo": "verbo",
+    "significado": "Reducir el valor de una moneda respecto a otras."
+  },
+  {
+    "palabra": "Devenir",
+    "tipo": "sustantivo",
+    "significado": "Cambio de las cosas a medida que pasa el tiempo."
+  },
+  {
+    "palabra": "Devolver",
+    "tipo": "verbo",
+    "significado": "Entregar algo a quien lo tenía antes o ponerlo en su lugar."
+  },
+  {
+    "palabra": "Devorar",
+    "tipo": "verbo",
+    "significado": "Comer con rapidez o muchas ganas."
+  },
+  {
+    "palabra": "Devoción",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento profundo de dedicación, especialmente en una creencia religiosa."
+  },
+  {
+    "palabra": "Día",
+    "tipo": "sustantivo",
+    "significado": "Periodo de veinticuatro horas; también, tiempo en que hay luz solar."
+  },
+  {
+    "palabra": "Diabetes",
+    "tipo": "sustantivo",
+    "significado": "Condición de salud en la que el cuerpo tiene dificultad para regular el azúcar en la sangre."
+  },
+  {
+    "palabra": "Diadema",
+    "tipo": "sustantivo",
+    "significado": "Aro o banda que se coloca en la cabeza para sujetar el cabello o adornarlo."
+  },
+  {
+    "palabra": "Diáfano",
+    "tipo": "adjetivo",
+    "significado": "Que deja pasar bien la luz o se ve claro y despejado."
+  },
+  {
+    "palabra": "Diafragma",
+    "tipo": "sustantivo",
+    "significado": "Músculo situado bajo los pulmones que ayuda a respirar."
+  },
+  {
+    "palabra": "Diagnóstico",
+    "tipo": "sustantivo",
+    "significado": "Identificación de una condición o problema a partir de información y pruebas."
+  },
+  {
+    "palabra": "Diagonal",
+    "tipo": "sustantivo",
+    "significado": "Línea que une dos vértices no consecutivos de una figura."
+  },
+  {
+    "palabra": "Diagrama",
+    "tipo": "sustantivo",
+    "significado": "Dibujo organizado que explica relaciones, partes o pasos."
+  },
+  {
+    "palabra": "Dialecto",
+    "tipo": "sustantivo",
+    "significado": "Variedad de una lengua utilizada por una comunidad o región."
+  },
+  {
+    "palabra": "Dialogar",
+    "tipo": "verbo",
+    "significado": "Intercambiar ideas escuchando y respondiendo a otra persona."
+  },
+  {
+    "palabra": "Diálogo",
+    "tipo": "sustantivo",
+    "significado": "Conversación entre dos o más personas."
+  },
+  {
+    "palabra": "Diamante",
+    "tipo": "sustantivo",
+    "significado": "Mineral de carbono muy duro que puede brillar intensamente al tallarse."
+  },
+  {
+    "palabra": "Diámetro",
+    "tipo": "sustantivo",
+    "significado": "Segmento que cruza un círculo por su centro y une dos puntos de su borde."
+  },
+  {
+    "palabra": "Diana",
+    "tipo": "sustantivo",
+    "significado": "Blanco con marcas hacia el que se dirige un lanzamiento en ciertos deportes."
+  },
+  {
+    "palabra": "Diapasón",
+    "tipo": "sustantivo",
+    "significado": "Instrumento que produce una nota de referencia para afinar; también, parte de algunos instrumentos de cuerda."
+  },
+  {
+    "palabra": "Diapositiva",
+    "tipo": "sustantivo",
+    "significado": "Cada pantalla o imagen que forma parte de una presentación."
+  },
+  {
+    "palabra": "Diario",
+    "tipo": "sustantivo",
+    "significado": "Cuaderno donde se registran experiencias; también, publicación de noticias."
+  },
+  {
+    "palabra": "Diarrea",
+    "tipo": "sustantivo",
+    "significado": "Evacuación de heces más líquidas y frecuentes de lo habitual."
+  },
+  {
+    "palabra": "Dibujante",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea dibujos."
+  },
+  {
+    "palabra": "Dibujar",
+    "tipo": "verbo",
+    "significado": "Representar formas e ideas mediante líneas, colores y trazos."
+  },
+  {
+    "palabra": "Dibujo",
+    "tipo": "sustantivo",
+    "significado": "Imagen creada con trazos sobre papel u otra superficie."
+  },
+  {
+    "palabra": "Dicción",
+    "tipo": "sustantivo",
+    "significado": "Manera de pronunciar las palabras al hablar."
+  },
+  {
+    "palabra": "Diccionario",
+    "tipo": "sustantivo",
+    "significado": "Obra que reúne palabras y explica sus significados."
+  },
+  {
+    "palabra": "Dicha",
+    "tipo": "sustantivo",
+    "significado": "Alegría o felicidad."
+  },
+  {
+    "palabra": "Dicho",
+    "tipo": "sustantivo",
+    "significado": "Expresión popular que comunica una idea o enseñanza."
+  },
+  {
+    "palabra": "Dichoso",
+    "tipo": "adjetivo",
+    "significado": "Que siente felicidad o buena fortuna."
+  },
+  {
+    "palabra": "Diciembre",
+    "tipo": "sustantivo",
+    "significado": "Duodécimo y último mes del año."
+  },
+  {
+    "palabra": "Dictado",
+    "tipo": "sustantivo",
+    "significado": "Actividad de escribir lo que otra persona dice en voz alta."
+  },
+  {
+    "palabra": "Dictar",
+    "tipo": "verbo",
+    "significado": "Decir palabras para que alguien las escriba."
+  },
+  {
+    "palabra": "Dictamen",
+    "tipo": "sustantivo",
+    "significado": "Opinión razonada que una persona experta ofrece sobre un asunto."
+  },
+  {
+    "palabra": "Didáctico",
+    "tipo": "adjetivo",
+    "significado": "Que está preparado para enseñar y facilitar el aprendizaje."
+  },
+  {
+    "palabra": "Diente",
+    "tipo": "sustantivo",
+    "significado": "Pieza dura de la boca que ayuda a cortar y triturar alimentos."
+  },
+  {
+    "palabra": "Diestro",
+    "tipo": "adjetivo",
+    "significado": "Que utiliza preferentemente la mano derecha o tiene mucha habilidad."
+  },
+  {
+    "palabra": "Dieta",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de alimentos y bebidas que una persona consume habitualmente."
+  },
+  {
+    "palabra": "Diez",
+    "tipo": "numeral",
+    "significado": "Número que viene después del nueve y antes del once."
+  },
+  {
+    "palabra": "Diferencia",
+    "tipo": "sustantivo",
+    "significado": "Característica que distingue una cosa de otra; también, resultado de una resta."
+  },
+  {
+    "palabra": "Diferenciar",
+    "tipo": "verbo",
+    "significado": "Reconocer en qué se distinguen dos o más cosas."
+  },
+  {
+    "palabra": "Diferente",
+    "tipo": "adjetivo",
+    "significado": "Que no es igual a otra cosa."
+  },
+  {
+    "palabra": "Diferir",
+    "tipo": "verbo",
+    "significado": "Ser distinto o dejar una actividad para más adelante."
+  },
+  {
+    "palabra": "Difícil",
+    "tipo": "adjetivo",
+    "significado": "Que requiere esfuerzo o ayuda para realizarse o comprenderse."
+  },
+  {
+    "palabra": "Dificultad",
+    "tipo": "sustantivo",
+    "significado": "Obstáculo o situación que requiere esfuerzo para resolverse."
+  },
+  {
+    "palabra": "Dificultar",
+    "tipo": "verbo",
+    "significado": "Hacer que una tarea resulte menos sencilla."
+  },
+  {
+    "palabra": "Difuminar",
+    "tipo": "verbo",
+    "significado": "Suavizar los bordes o mezclar colores para que no se distingan líneas marcadas."
+  },
+  {
+    "palabra": "Difundir",
+    "tipo": "verbo",
+    "significado": "Compartir información para que llegue a muchas personas."
+  },
+  {
+    "palabra": "Difusión",
+    "tipo": "sustantivo",
+    "significado": "Extensión de algo, como una noticia, un olor o una sustancia."
+  },
+  {
+    "palabra": "Difuso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene límites poco claros o está extendido."
+  },
+  {
+    "palabra": "Digerir",
+    "tipo": "verbo",
+    "significado": "Transformar los alimentos dentro del cuerpo para aprovechar sus nutrientes."
+  },
+  {
+    "palabra": "Digestión",
+    "tipo": "sustantivo",
+    "significado": "Proceso por el que el cuerpo transforma los alimentos."
+  },
+  {
+    "palabra": "Digestivo",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la digestión."
+  },
+  {
+    "palabra": "Digital",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los dedos o con información representada mediante valores discretos en dispositivos."
+  },
+  {
+    "palabra": "Digitalizar",
+    "tipo": "verbo",
+    "significado": "Convertir información, como una foto o un texto, a un formato que una computadora pueda utilizar."
+  },
+  {
+    "palabra": "Dígito",
+    "tipo": "sustantivo",
+    "significado": "Cada símbolo que se utiliza para escribir números, como 3 o 8."
+  },
+  {
+    "palabra": "Dignidad",
+    "tipo": "sustantivo",
+    "significado": "Valor que tiene toda persona y por el que merece respeto."
+  },
+  {
+    "palabra": "Digno",
+    "tipo": "adjetivo",
+    "significado": "Que merece respeto o reúne condiciones adecuadas."
+  },
+  {
+    "palabra": "Dilatación",
+    "tipo": "sustantivo",
+    "significado": "Aumento de tamaño de algo, por ejemplo cuando un material se calienta."
+  },
+  {
+    "palabra": "Dilatar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo aumente de tamaño o prolongar un tiempo."
+  },
+  {
+    "palabra": "Dilema",
+    "tipo": "sustantivo",
+    "significado": "Situación en la que cuesta elegir entre varias opciones."
+  },
+  {
+    "palabra": "Diligencia",
+    "tipo": "sustantivo",
+    "significado": "Cuidado y rapidez al hacer algo; también, antiguo carruaje de pasajeros."
+  },
+  {
+    "palabra": "Diligente",
+    "tipo": "adjetivo",
+    "significado": "Que realiza una tarea con atención y prontitud."
+  },
+  {
+    "palabra": "Diluir",
+    "tipo": "verbo",
+    "significado": "Añadir líquido a una mezcla para reducir su concentración."
+  },
+  {
+    "palabra": "Diluvio",
+    "tipo": "sustantivo",
+    "significado": "Lluvia muy abundante y prolongada."
+  },
+  {
+    "palabra": "Dimensión",
+    "tipo": "sustantivo",
+    "significado": "Medida de algo, como su largo, ancho o alto."
+  },
+  {
+    "palabra": "Diminuto",
+    "tipo": "adjetivo",
+    "significado": "Muy pequeño."
+  },
+  {
+    "palabra": "Diminutivo",
+    "tipo": "sustantivo",
+    "significado": "Forma de una palabra que suele expresar tamaño pequeño o cariño, como casita."
+  },
+  {
+    "palabra": "Dinámica",
+    "tipo": "sustantivo",
+    "significado": "Manera en que una actividad cambia y funciona; también, estudio del movimiento y sus causas."
+  },
+  {
+    "palabra": "Dinámico",
+    "tipo": "adjetivo",
+    "significado": "Que presenta actividad, movimiento o cambios."
+  },
+  {
+    "palabra": "Dinamo",
+    "tipo": "sustantivo",
+    "significado": "Máquina que transforma movimiento en energía eléctrica."
+  },
+  {
+    "palabra": "Dinamómetro",
+    "tipo": "sustantivo",
+    "significado": "Instrumento que mide fuerzas."
+  },
+  {
+    "palabra": "Dinastía",
+    "tipo": "sustantivo",
+    "significado": "Serie de gobernantes que pertenecen a una misma familia."
+  },
+  {
+    "palabra": "Dinero",
+    "tipo": "sustantivo",
+    "significado": "Medio que se utiliza para pagar productos y servicios."
+  },
+  {
+    "palabra": "Dinosaurio",
+    "tipo": "sustantivo",
+    "significado": "Animal de un grupo de reptiles que apareció hace millones de años y del que proceden las aves."
+  },
+  {
+    "palabra": "Diodo",
+    "tipo": "sustantivo",
+    "significado": "Componente electrónico que permite que la corriente pase principalmente en un sentido."
+  },
+  {
+    "palabra": "Diorama",
+    "tipo": "sustantivo",
+    "significado": "Escena en miniatura con figuras y fondo que representa un lugar o acontecimiento."
+  },
+  {
+    "palabra": "Diploma",
+    "tipo": "sustantivo",
+    "significado": "Documento que reconoce estudios, participación o un logro."
+  },
+  {
+    "palabra": "Diplomacia",
+    "tipo": "sustantivo",
+    "significado": "Actividad de dialogar y negociar entre países para mantener relaciones."
+  },
+  {
+    "palabra": "Diplomático",
+    "tipo": "sustantivo",
+    "significado": "Persona que representa a su país en sus relaciones con otros."
+  },
+  {
+    "palabra": "Díptico",
+    "tipo": "sustantivo",
+    "significado": "Obra de dos partes o folleto doblado en dos."
+  },
+  {
+    "palabra": "Dique",
+    "tipo": "sustantivo",
+    "significado": "Construcción que contiene o desvía el agua."
+  },
+  {
+    "palabra": "Dirección",
+    "tipo": "sustantivo",
+    "significado": "Rumbo que se sigue, ubicación de un lugar o tarea de dirigir."
+  },
+  {
+    "palabra": "Directo",
+    "tipo": "adjetivo",
+    "significado": "Que llega a un lugar o comunica una idea sin pasos innecesarios."
+  },
+  {
+    "palabra": "Director",
+    "tipo": "sustantivo",
+    "significado": "Persona que organiza y guía una institución, obra o actividad."
+  },
+  {
+    "palabra": "Directorio",
+    "tipo": "sustantivo",
+    "significado": "Lista organizada de información; en informática, espacio que agrupa archivos."
+  },
+  {
+    "palabra": "Dirigir",
+    "tipo": "verbo",
+    "significado": "Guiar una actividad o indicar hacia dónde debe ir algo."
+  },
+  {
+    "palabra": "Dirigible",
+    "tipo": "sustantivo",
+    "significado": "Aeronave que flota gracias a un gas ligero y puede controlar su rumbo."
+  },
+  {
+    "palabra": "Disciplina",
+    "tipo": "sustantivo",
+    "significado": "Organización y constancia para realizar tareas; también, área de estudio."
+  },
+  {
+    "palabra": "Discípulo",
+    "tipo": "sustantivo",
+    "significado": "Persona que aprende de alguien y sigue sus enseñanzas."
+  },
+  {
+    "palabra": "Disco",
+    "tipo": "sustantivo",
+    "significado": "Objeto circular y plano, utilizado en música, deportes y otras actividades."
+  },
+  {
+    "palabra": "Disculpa",
+    "tipo": "sustantivo",
+    "significado": "Expresión con la que se reconoce una falta y se pide comprensión."
+  },
+  {
+    "palabra": "Disculpar",
+    "tipo": "verbo",
+    "significado": "Comprender o perdonar una falta."
+  },
+  {
+    "palabra": "Discurso",
+    "tipo": "sustantivo",
+    "significado": "Exposición de ideas dirigida a un público."
+  },
+  {
+    "palabra": "Discutir",
+    "tipo": "verbo",
+    "significado": "Intercambiar opiniones diferentes sobre un asunto; a veces, hacerlo con enfado."
+  },
+  {
+    "palabra": "Diseñar",
+    "tipo": "verbo",
+    "significado": "Planear la forma y el funcionamiento de algo antes de crearlo."
+  },
+  {
+    "palabra": "Diseño",
+    "tipo": "sustantivo",
+    "significado": "Plan o representación que muestra cómo será algo."
+  },
+  {
+    "palabra": "Disfraz",
+    "tipo": "sustantivo",
+    "significado": "Ropa y accesorios que permiten representar a un personaje u otra apariencia."
+  },
+  {
+    "palabra": "Disfrazar",
+    "tipo": "verbo",
+    "significado": "Vestir a alguien para que represente otra apariencia."
+  },
+  {
+    "palabra": "Disfrutar",
+    "tipo": "verbo",
+    "significado": "Sentir alegría o satisfacción al hacer o vivir algo."
+  },
+  {
+    "palabra": "Disgusto",
+    "tipo": "sustantivo",
+    "significado": "Malestar o tristeza producidos por algo desagradable."
+  },
+  {
+    "palabra": "Disminuir",
+    "tipo": "verbo",
+    "significado": "Hacer que una cantidad o intensidad sea menor."
+  },
+  {
+    "palabra": "Disolver",
+    "tipo": "verbo",
+    "significado": "Mezclar una sustancia con un líquido hasta que deje de distinguirse, como azúcar en agua."
+  },
+  {
+    "palabra": "Dispar",
+    "tipo": "adjetivo",
+    "significado": "Muy diferente de otra cosa."
+  },
+  {
+    "palabra": "Disparar",
+    "tipo": "verbo",
+    "significado": "Lanzar un proyectil mediante un mecanismo o activar una cámara fotográfica."
+  },
+  {
+    "palabra": "Dispersar",
+    "tipo": "verbo",
+    "significado": "Separar y extender cosas en distintas direcciones."
+  },
+  {
+    "palabra": "Disponible",
+    "tipo": "adjetivo",
+    "significado": "Que puede utilizarse o está libre para una actividad."
+  },
+  {
+    "palabra": "Disponer",
+    "tipo": "verbo",
+    "significado": "Colocar de cierta manera o contar con algo para usarlo."
+  },
+  {
+    "palabra": "Dispositivo",
+    "tipo": "sustantivo",
+    "significado": "Aparato o conjunto de piezas que realiza una función."
+  },
+  {
+    "palabra": "Distancia",
+    "tipo": "sustantivo",
+    "significado": "Separación que hay entre dos puntos."
+  },
+  {
+    "palabra": "Distante",
+    "tipo": "adjetivo",
+    "significado": "Que está lejos."
+  },
+  {
+    "palabra": "Distinguir",
+    "tipo": "verbo",
+    "significado": "Reconocer una diferencia o percibir algo con claridad."
+  },
+  {
+    "palabra": "Distinto",
+    "tipo": "adjetivo",
+    "significado": "Que no es igual a otro."
+  },
+  {
+    "palabra": "Distraer",
+    "tipo": "verbo",
+    "significado": "Apartar la atención de algo o entretener."
+  },
+  {
+    "palabra": "Distribuir",
+    "tipo": "verbo",
+    "significado": "Repartir u organizar cosas entre varios lugares o personas."
+  },
+  {
+    "palabra": "Distrito",
+    "tipo": "sustantivo",
+    "significado": "División de un territorio utilizada para organizar servicios o autoridades."
+  },
+  {
+    "palabra": "Diurno",
+    "tipo": "adjetivo",
+    "significado": "Que ocurre o está activo durante el día."
+  },
+  {
+    "palabra": "Diversidad",
+    "tipo": "sustantivo",
+    "significado": "Variedad de características, formas o maneras de vivir."
+  },
+  {
+    "palabra": "Diversión",
+    "tipo": "sustantivo",
+    "significado": "Entretenimiento que produce alegría."
+  },
+  {
+    "palabra": "Divertir",
+    "tipo": "verbo",
+    "significado": "Entretener y hacer pasar un momento agradable."
+  },
+  {
+    "palabra": "Dividir",
+    "tipo": "verbo",
+    "significado": "Separar algo en partes o calcular cuántas veces cabe una cantidad en otra."
+  },
+  {
+    "palabra": "División",
+    "tipo": "sustantivo",
+    "significado": "Separación en partes u operación matemática de reparto o agrupación."
+  },
+  {
+    "palabra": "Divisor",
+    "tipo": "sustantivo",
+    "significado": "Número por el que se divide otro."
+  },
+  {
+    "palabra": "Doble",
+    "tipo": "adjetivo",
+    "significado": "Que equivale a dos veces una cantidad o tiene dos partes semejantes."
+  },
+  {
+    "palabra": "Doblar",
+    "tipo": "verbo",
+    "significado": "Plegar algo, cambiar de dirección o multiplicar una cantidad por dos."
+  },
+  {
+    "palabra": "Doce",
+    "tipo": "numeral",
+    "significado": "Número que viene después del once y antes del trece."
+  },
+  {
+    "palabra": "Docena",
+    "tipo": "sustantivo",
+    "significado": "Grupo de doce unidades."
+  },
+  {
+    "palabra": "Docente",
+    "tipo": "sustantivo",
+    "significado": "Persona que enseña."
+  },
+  {
+    "palabra": "Dócil",
+    "tipo": "adjetivo",
+    "significado": "Que acepta orientación o se deja manejar con facilidad."
+  },
+  {
+    "palabra": "Doctor",
+    "tipo": "sustantivo",
+    "significado": "Nombre habitual de un médico; también, persona que ha obtenido un doctorado."
+  },
+  {
+    "palabra": "Documento",
+    "tipo": "sustantivo",
+    "significado": "Registro escrito, visual o digital que contiene información."
+  },
+  {
+    "palabra": "Dolor",
+    "tipo": "sustantivo",
+    "significado": "Sensación desagradable del cuerpo o sufrimiento emocional."
+  },
+  {
+    "palabra": "Doméstico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el hogar o con animales adaptados a vivir con las personas."
+  },
+  {
+    "palabra": "Domingo",
+    "tipo": "sustantivo",
+    "significado": "Día de la semana que está entre el sábado y el lunes."
+  },
+  {
+    "palabra": "Dominó",
+    "tipo": "sustantivo",
+    "significado": "Juego de fichas que se unen haciendo coincidir sus números o dibujos."
+  },
+  {
+    "palabra": "Donar",
+    "tipo": "verbo",
+    "significado": "Entregar algo voluntariamente para ayudar, sin pedir un pago."
+  },
+  {
+    "palabra": "Donde",
+    "tipo": "adverbio",
+    "significado": "Palabra que indica o relaciona el lugar en que ocurre algo."
+  },
+  {
+    "palabra": "Dorado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un color parecido al oro."
+  },
+  {
+    "palabra": "Dormir",
+    "tipo": "verbo",
+    "significado": "Entrar en un estado de descanso necesario para el cuerpo y el cerebro."
+  },
+  {
+    "palabra": "Dormitorio",
+    "tipo": "sustantivo",
+    "significado": "Habitación destinada a dormir."
+  },
+  {
+    "palabra": "Dorsal",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la espalda o la parte posterior de un cuerpo."
+  },
+  {
+    "palabra": "Dos",
+    "tipo": "numeral",
+    "significado": "Número que viene después del uno y antes del tres."
+  },
+  {
+    "palabra": "Dosis",
+    "tipo": "sustantivo",
+    "significado": "Cantidad medida de una sustancia que se utiliza en una ocasión."
+  },
+  {
+    "palabra": "Dotar",
+    "tipo": "verbo",
+    "significado": "Proporcionar los recursos o elementos necesarios para algo."
+  },
+  {
+    "palabra": "Dote",
+    "tipo": "sustantivo",
+    "significado": "Capacidad o cualidad de una persona, especialmente usada en plural: dotes."
+  },
+  {
+    "palabra": "Dragón",
+    "tipo": "sustantivo",
+    "significado": "Criatura imaginaria de muchos relatos, a menudo representada como un gran reptil."
+  },
+  {
+    "palabra": "Draga",
+    "tipo": "sustantivo",
+    "significado": "Máquina que extrae arena, barro u otros materiales del fondo del agua."
+  },
+  {
+    "palabra": "Drama",
+    "tipo": "sustantivo",
+    "significado": "Obra que presenta acciones y conflictos de personajes, especialmente para el teatro."
+  },
+  {
+    "palabra": "Dramático",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el teatro o con situaciones de emoción intensa."
+  },
+  {
+    "palabra": "Dramatizar",
+    "tipo": "verbo",
+    "significado": "Representar una historia mediante personajes, diálogos y acciones."
+  },
+  {
+    "palabra": "Dramaturgo",
+    "tipo": "sustantivo",
+    "significado": "Persona que escribe obras de teatro."
+  },
+  {
+    "palabra": "Drenaje",
+    "tipo": "sustantivo",
+    "significado": "Sistema que permite sacar agua u otros líquidos de un lugar."
+  },
+  {
+    "palabra": "Drenar",
+    "tipo": "verbo",
+    "significado": "Extraer o permitir la salida de un líquido acumulado."
+  },
+  {
+    "palabra": "Dromedario",
+    "tipo": "sustantivo",
+    "significado": "Mamífero con una sola joroba que almacena grasa y está adaptado a regiones secas."
+  },
+  {
+    "palabra": "Dron",
+    "tipo": "sustantivo",
+    "significado": "Aeronave sin una persona a bordo que puede controlarse a distancia o mediante un programa."
+  },
+  {
+    "palabra": "Dual",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos partes o dos funciones."
+  },
+  {
+    "palabra": "Duda",
+    "tipo": "sustantivo",
+    "significado": "Falta de seguridad sobre una idea o una elección."
+  },
+  {
+    "palabra": "Dudar",
+    "tipo": "verbo",
+    "significado": "No estar seguro de algo o vacilar entre opciones."
+  },
+  {
+    "palabra": "Dudoso",
+    "tipo": "adjetivo",
+    "significado": "Que no está claro o necesita comprobarse."
+  },
+  {
+    "palabra": "Duelo",
+    "tipo": "sustantivo",
+    "significado": "Proceso de adaptarse a una pérdida; también, enfrentamiento entre dos participantes."
+  },
+  {
+    "palabra": "Duende",
+    "tipo": "sustantivo",
+    "significado": "Ser imaginario de muchos cuentos, pequeño y a veces travieso."
+  },
+  {
+    "palabra": "Dueño",
+    "tipo": "sustantivo",
+    "significado": "Persona a quien pertenece algo."
+  },
+  {
+    "palabra": "Dulce",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un sabor parecido al del azúcar."
+  },
+  {
+    "palabra": "Dulcería",
+    "tipo": "sustantivo",
+    "significado": "Tienda donde se venden dulces."
+  },
+  {
+    "palabra": "Dulzura",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de lo dulce; también, suavidad y cariño en el trato."
+  },
+  {
+    "palabra": "Duna",
+    "tipo": "sustantivo",
+    "significado": "Montículo de arena formado y movido por el viento."
+  },
+  {
+    "palabra": "Dúo",
+    "tipo": "sustantivo",
+    "significado": "Grupo de dos personas que actúan juntas, especialmente en música."
+  },
+  {
+    "palabra": "Duplicar",
+    "tipo": "verbo",
+    "significado": "Hacer una copia o multiplicar una cantidad por dos."
+  },
+  {
+    "palabra": "Duplicado",
+    "tipo": "sustantivo",
+    "significado": "Copia de un documento u objeto."
+  },
+  {
+    "palabra": "Duque",
+    "tipo": "sustantivo",
+    "significado": "Persona que posee un título de nobleza llamado ducado."
+  },
+  {
+    "palabra": "Duración",
+    "tipo": "sustantivo",
+    "significado": "Tiempo que transcurre desde que algo empieza hasta que termina."
+  },
+  {
+    "palabra": "Duradero",
+    "tipo": "adjetivo",
+    "significado": "Que puede mantenerse durante mucho tiempo."
+  },
+  {
+    "palabra": "Durar",
+    "tipo": "verbo",
+    "significado": "Continuar existiendo o funcionando durante cierto tiempo."
+  },
+  {
+    "palabra": "Durante",
+    "tipo": "preposición",
+    "significado": "Palabra que indica que algo ocurre dentro de un periodo de tiempo."
+  },
+  {
+    "palabra": "Durazno",
+    "tipo": "sustantivo",
+    "significado": "Fruto jugoso de piel generalmente aterciopelada, también llamado melocotón."
+  },
+  {
+    "palabra": "Dureza",
+    "tipo": "sustantivo",
+    "significado": "Resistencia de un material a ser rayado, cortado o deformado."
+  },
+  {
+    "palabra": "Duro",
+    "tipo": "adjetivo",
+    "significado": "Que cuesta deformar o cortar; también, que requiere mucho esfuerzo."
+  },
+  {
+    "palabra": "Ducha",
+    "tipo": "sustantivo",
+    "significado": "Forma de bañarse con agua que cae en chorros; también, aparato que la produce."
+  },
+  {
+    "palabra": "Duchar",
+    "tipo": "verbo",
+    "significado": "Lavar el cuerpo utilizando una ducha."
+  },
+  {
+    "palabra": "Duodécimo",
+    "tipo": "adjetivo",
+    "significado": "Que ocupa el lugar número doce."
+  },
+  {
+    "palabra": "Doscientos",
+    "tipo": "numeral",
+    "significado": "Cantidad formada por dos grupos de cien."
+  },
+  {
+    "palabra": "Dodecaedro",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo geométrico que tiene doce caras."
+  },
+  {
+    "palabra": "Dodecágono",
+    "tipo": "sustantivo",
+    "significado": "Figura plana que tiene doce lados."
+  },
+  {
+    "palabra": "Diego Rivera",
+    "tipo": "personaje histórico",
+    "significado": "Pintor mexicano que creó grandes murales sobre la historia, el trabajo y la vida de su país."
+  },
+  {
+    "palabra": "Diego Velázquez",
+    "tipo": "personaje histórico",
+    "significado": "Pintor español conocido por sus retratos y por la obra Las meninas."
+  },
+  {
+    "palabra": "Dante Alighieri",
+    "tipo": "personaje histórico",
+    "significado": "Poeta italiano que escribió la Divina comedia, un viaje imaginario contado en versos."
+  },
+  {
+    "palabra": "Daniel Defoe",
+    "tipo": "personaje histórico",
+    "significado": "Escritor inglés, autor de Robinson Crusoe, una novela de aventuras y supervivencia."
+  },
+  {
+    "palabra": "Dmitri Mendeléyev",
+    "tipo": "personaje histórico",
+    "significado": "Químico ruso que organizó los elementos en una tabla y predijo propiedades de algunos aún desconocidos."
+  },
+  {
+    "palabra": "Dorothy Hodgkin",
+    "tipo": "personaje histórico",
+    "significado": "Química británica que estudió la forma de moléculas importantes utilizando rayos X."
+  },
+  {
+    "palabra": "Duke Ellington",
+    "tipo": "personaje histórico",
+    "significado": "Compositor y pianista estadounidense que creó música de jazz y dirigió una orquesta."
+  },
+  {
+    "palabra": "Doris Lessing",
+    "tipo": "personaje histórico",
+    "significado": "Escritora británica que exploró la vida de las personas y recibió el Premio Nobel de Literatura."
+  },
+  {
+    "palabra": "Daniela Barcellona",
+    "tipo": "artista",
+    "significado": "Cantante italiana de ópera, reconocida por interpretar personajes con su voz de mezzosoprano."
+  },
+  {
+    "palabra": "Dora la Exploradora",
+    "tipo": "personaje ficticio",
+    "significado": "Niña de una serie animada que resuelve desafíos y aprende durante sus aventuras."
+  }
+]

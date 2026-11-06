@@ -1,0 +1,2502 @@
+[
+  {
+    "palabra": "Calcetín",
+    "tipo": "sustantivo",
+    "significado": "Prenda que cubre el pie y parte de la pierna."
+  },
+  {
+    "palabra": "Calcio",
+    "tipo": "sustantivo",
+    "significado": "Elemento necesario para el cuerpo que forma parte de huesos y dientes."
+  },
+  {
+    "palabra": "Calcular",
+    "tipo": "verbo",
+    "significado": "Usar números u otras pistas para encontrar una cantidad o un resultado."
+  },
+  {
+    "palabra": "Calculadora",
+    "tipo": "sustantivo",
+    "significado": "Aparato o programa que realiza operaciones matemáticas."
+  },
+  {
+    "palabra": "Cálculo",
+    "tipo": "sustantivo",
+    "significado": "Operación o razonamiento que permite encontrar un resultado matemático."
+  },
+  {
+    "palabra": "Caldera",
+    "tipo": "sustantivo",
+    "significado": "Recipiente o aparato que calienta agua; también, gran depresión de origen volcánico."
+  },
+  {
+    "palabra": "Caldo",
+    "tipo": "sustantivo",
+    "significado": "Líquido que resulta de cocinar alimentos en agua."
+  },
+  {
+    "palabra": "Calefacción",
+    "tipo": "sustantivo",
+    "significado": "Sistema que calienta un espacio para hacerlo más cómodo."
+  },
+  {
+    "palabra": "Calendario",
+    "tipo": "sustantivo",
+    "significado": "Organización de los días, semanas y meses del año."
+  },
+  {
+    "palabra": "Calentar",
+    "tipo": "verbo",
+    "significado": "Hacer que aumente la temperatura de algo."
+  },
+  {
+    "palabra": "Calibrar",
+    "tipo": "verbo",
+    "significado": "Comprobar y ajustar un instrumento para que mida correctamente."
+  },
+  {
+    "palabra": "Calidad",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de características que permite valorar cómo es algo."
+  },
+  {
+    "palabra": "Cálido",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una temperatura agradablemente alta o expresa cercanía y cariño."
+  },
+  {
+    "palabra": "Caliente",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una temperatura alta."
+  },
+  {
+    "palabra": "Calificar",
+    "tipo": "verbo",
+    "significado": "Valorar un trabajo o describir una característica de algo."
+  },
+  {
+    "palabra": "Caligrafía",
+    "tipo": "sustantivo",
+    "significado": "Manera de formar las letras al escribir a mano."
+  },
+  {
+    "palabra": "Calma",
+    "tipo": "sustantivo",
+    "significado": "Estado de tranquilidad, sin mucha agitación."
+  },
+  {
+    "palabra": "Calmar",
+    "tipo": "verbo",
+    "significado": "Ayudar a que disminuyan la agitación, el miedo o una molestia."
+  },
+  {
+    "palabra": "Calor",
+    "tipo": "sustantivo",
+    "significado": "Energía que pasa de algo más caliente a algo más frío; también, sensación de temperatura elevada."
+  },
+  {
+    "palabra": "Caloría",
+    "tipo": "sustantivo",
+    "significado": "Unidad que se usa para medir energía, como la que aportan los alimentos."
+  },
+  {
+    "palabra": "Caluroso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucho calor, como un día de verano."
+  },
+  {
+    "palabra": "Calzada",
+    "tipo": "sustantivo",
+    "significado": "Parte de una calle o carretera por donde circulan los vehículos."
+  },
+  {
+    "palabra": "Calzado",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de prendas que protegen los pies, como zapatos y botas."
+  },
+  {
+    "palabra": "Calzar",
+    "tipo": "verbo",
+    "significado": "Ponerse zapatos o colocar una pieza que impida que algo se mueva."
+  },
+  {
+    "palabra": "Cama",
+    "tipo": "sustantivo",
+    "significado": "Mueble preparado para acostarse, descansar y dormir."
+  },
+  {
+    "palabra": "Camaleón",
+    "tipo": "sustantivo",
+    "significado": "Reptil de lengua larga; muchas especies cambian de color para comunicarse o regular su temperatura."
+  },
+  {
+    "palabra": "Cámara",
+    "tipo": "sustantivo",
+    "significado": "Aparato que captura fotografías o videos; también, espacio cerrado con una función."
+  },
+  {
+    "palabra": "Camarada",
+    "tipo": "sustantivo",
+    "significado": "Compañero con quien se comparte una actividad o experiencia."
+  },
+  {
+    "palabra": "Camarero",
+    "tipo": "sustantivo",
+    "significado": "Persona que atiende y sirve alimentos en un restaurante u otro establecimiento."
+  },
+  {
+    "palabra": "Camarón",
+    "tipo": "sustantivo",
+    "significado": "Crustáceo acuático de cuerpo alargado y antenas largas."
+  },
+  {
+    "palabra": "Cambiar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo sea diferente o sustituir una cosa por otra."
+  },
+  {
+    "palabra": "Cambio",
+    "tipo": "sustantivo",
+    "significado": "Transformación o sustitución de algo."
+  },
+  {
+    "palabra": "Camello",
+    "tipo": "sustantivo",
+    "significado": "Mamífero con jorobas que almacenan grasa y adaptaciones para vivir en lugares secos."
+  },
+  {
+    "palabra": "Camilla",
+    "tipo": "sustantivo",
+    "significado": "Cama estrecha utilizada para examinar o trasladar personas que necesitan atención."
+  },
+  {
+    "palabra": "Caminar",
+    "tipo": "verbo",
+    "significado": "Desplazarse dando pasos."
+  },
+  {
+    "palabra": "Caminata",
+    "tipo": "sustantivo",
+    "significado": "Recorrido que se hace a pie."
+  },
+  {
+    "palabra": "Camino",
+    "tipo": "sustantivo",
+    "significado": "Paso o ruta que permite ir de un lugar a otro."
+  },
+  {
+    "palabra": "Camión",
+    "tipo": "sustantivo",
+    "significado": "Vehículo grande utilizado principalmente para transportar cargas."
+  },
+  {
+    "palabra": "Camioneta",
+    "tipo": "sustantivo",
+    "significado": "Vehículo que transporta personas o cargas y suele ser menor que un camión."
+  },
+  {
+    "palabra": "Camisa",
+    "tipo": "sustantivo",
+    "significado": "Prenda que cubre el torso y suele tener cuello y botones."
+  },
+  {
+    "palabra": "Camiseta",
+    "tipo": "sustantivo",
+    "significado": "Prenda ligera que cubre la parte superior del cuerpo."
+  },
+  {
+    "palabra": "Camote",
+    "tipo": "sustantivo",
+    "significado": "Raíz comestible de sabor dulce, también llamada batata o boniato."
+  },
+  {
+    "palabra": "Campamento",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde un grupo se instala temporalmente, a menudo en tiendas de campaña."
+  },
+  {
+    "palabra": "Campana",
+    "tipo": "sustantivo",
+    "significado": "Objeto hueco, normalmente metálico, que suena al golpearlo."
+  },
+  {
+    "palabra": "Campanario",
+    "tipo": "sustantivo",
+    "significado": "Torre o parte de un edificio donde se colocan campanas."
+  },
+  {
+    "palabra": "Campaña",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de actividades organizadas para alcanzar una meta."
+  },
+  {
+    "palabra": "Campeón",
+    "tipo": "sustantivo",
+    "significado": "Persona o equipo que gana una competición."
+  },
+  {
+    "palabra": "Campesino",
+    "tipo": "sustantivo",
+    "significado": "Persona que vive o trabaja en el campo."
+  },
+  {
+    "palabra": "Campiña",
+    "tipo": "sustantivo",
+    "significado": "Extensión de campo, generalmente con terrenos de cultivo."
+  },
+  {
+    "palabra": "Campo",
+    "tipo": "sustantivo",
+    "significado": "Terreno fuera de las zonas urbanas; también, espacio destinado a una actividad."
+  },
+  {
+    "palabra": "Camuflaje",
+    "tipo": "sustantivo",
+    "significado": "Forma de ocultarse o confundirse con el entorno mediante colores y formas."
+  },
+  {
+    "palabra": "Canal",
+    "tipo": "sustantivo",
+    "significado": "Paso por donde circula agua o medio por el que se transmite información."
+  },
+  {
+    "palabra": "Canario",
+    "tipo": "sustantivo",
+    "significado": "Ave pequeña conocida por su canto; muchas variedades domésticas son amarillas."
+  },
+  {
+    "palabra": "Canasta",
+    "tipo": "sustantivo",
+    "significado": "Recipiente tejido para llevar objetos; también, aro con red del baloncesto."
+  },
+  {
+    "palabra": "Cancelar",
+    "tipo": "verbo",
+    "significado": "Dejar sin efecto un plan, una reserva o una actividad."
+  },
+  {
+    "palabra": "Cancha",
+    "tipo": "sustantivo",
+    "significado": "Espacio preparado para practicar deportes; en Perú, también significa maíz tostado."
+  },
+  {
+    "palabra": "Canción",
+    "tipo": "sustantivo",
+    "significado": "Composición musical que suele tener palabras para cantar."
+  },
+  {
+    "palabra": "Candado",
+    "tipo": "sustantivo",
+    "significado": "Cierre portátil que se abre con una llave o una combinación."
+  },
+  {
+    "palabra": "Candidato",
+    "tipo": "sustantivo",
+    "significado": "Persona que se presenta para ocupar un puesto o recibir un reconocimiento."
+  },
+  {
+    "palabra": "Canela",
+    "tipo": "sustantivo",
+    "significado": "Especia aromática obtenida de la corteza de ciertos árboles."
+  },
+  {
+    "palabra": "Cangrejo",
+    "tipo": "sustantivo",
+    "significado": "Crustáceo de cuerpo protegido por un caparazón y con un par de pinzas."
+  },
+  {
+    "palabra": "Canguro",
+    "tipo": "sustantivo",
+    "significado": "Mamífero que se desplaza a saltos; las hembras llevan a sus crías en una bolsa."
+  },
+  {
+    "palabra": "Canica",
+    "tipo": "sustantivo",
+    "significado": "Bolita de vidrio u otro material utilizada para jugar."
+  },
+  {
+    "palabra": "Canino",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los perros; también nombra los dientes situados junto a los incisivos."
+  },
+  {
+    "palabra": "Canoa",
+    "tipo": "sustantivo",
+    "significado": "Embarcación estrecha que se mueve con remos o palas."
+  },
+  {
+    "palabra": "Cansancio",
+    "tipo": "sustantivo",
+    "significado": "Sensación de necesitar descanso después de un esfuerzo."
+  },
+  {
+    "palabra": "Cansar",
+    "tipo": "verbo",
+    "significado": "Producir fatiga o hacer que alguien necesite descansar."
+  },
+  {
+    "palabra": "Cantante",
+    "tipo": "sustantivo",
+    "significado": "Persona que utiliza su voz para interpretar música."
+  },
+  {
+    "palabra": "Cantar",
+    "tipo": "verbo",
+    "significado": "Producir sonidos musicales con la voz."
+  },
+  {
+    "palabra": "Cántaro",
+    "tipo": "sustantivo",
+    "significado": "Recipiente con asa usado tradicionalmente para transportar agua."
+  },
+  {
+    "palabra": "Cantera",
+    "tipo": "sustantivo",
+    "significado": "Lugar de donde se extrae piedra; también, grupo donde se forman nuevos deportistas."
+  },
+  {
+    "palabra": "Cantidad",
+    "tipo": "sustantivo",
+    "significado": "Número o medida que indica cuánto hay de algo."
+  },
+  {
+    "palabra": "Canto",
+    "tipo": "sustantivo",
+    "significado": "Acción de cantar; también, borde de un objeto."
+  },
+  {
+    "palabra": "Cantor",
+    "tipo": "sustantivo",
+    "significado": "Persona que canta."
+  },
+  {
+    "palabra": "Caña",
+    "tipo": "sustantivo",
+    "significado": "Tallo largo con nudos; también, utensilio utilizado para pescar."
+  },
+  {
+    "palabra": "Cañada",
+    "tipo": "sustantivo",
+    "significado": "Paso entre montañas o terreno por el que puede correr agua."
+  },
+  {
+    "palabra": "Cañería",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de tubos que transportan agua u otros fluidos."
+  },
+  {
+    "palabra": "Cañón",
+    "tipo": "sustantivo",
+    "significado": "Valle profundo entre paredes elevadas; también, pieza de artillería."
+  },
+  {
+    "palabra": "Caos",
+    "tipo": "sustantivo",
+    "significado": "Situación de gran desorden o confusión."
+  },
+  {
+    "palabra": "Capa",
+    "tipo": "sustantivo",
+    "significado": "Prenda que cae desde los hombros o porción de material que cubre algo."
+  },
+  {
+    "palabra": "Capacidad",
+    "tipo": "sustantivo",
+    "significado": "Habilidad para hacer algo o cantidad que cabe en un recipiente."
+  },
+  {
+    "palabra": "Caparazón",
+    "tipo": "sustantivo",
+    "significado": "Cubierta resistente que protege a animales como las tortugas."
+  },
+  {
+    "palabra": "Capaz",
+    "tipo": "adjetivo",
+    "significado": "Que tiene las habilidades o condiciones necesarias para hacer algo."
+  },
+  {
+    "palabra": "Capilla",
+    "tipo": "sustantivo",
+    "significado": "Edificio pequeño o parte de otro edificio destinada a actividades religiosas."
+  },
+  {
+    "palabra": "Capital",
+    "tipo": "sustantivo",
+    "significado": "Ciudad donde se encuentran las principales autoridades de un territorio; también, recursos económicos."
+  },
+  {
+    "palabra": "Capitán",
+    "tipo": "sustantivo",
+    "significado": "Persona que dirige un barco, un equipo u otro grupo."
+  },
+  {
+    "palabra": "Capítulo",
+    "tipo": "sustantivo",
+    "significado": "Cada una de las partes principales de un libro o una serie."
+  },
+  {
+    "palabra": "Capricho",
+    "tipo": "sustantivo",
+    "significado": "Deseo que aparece de repente y no siempre tiene una razón clara."
+  },
+  {
+    "palabra": "Cápsula",
+    "tipo": "sustantivo",
+    "significado": "Cubierta pequeña que contiene algo; también, compartimento cerrado de algunos vehículos espaciales."
+  },
+  {
+    "palabra": "Captar",
+    "tipo": "verbo",
+    "significado": "Percibir, recoger o comprender algo."
+  },
+  {
+    "palabra": "Captura",
+    "tipo": "sustantivo",
+    "significado": "Acción de atrapar algo o guardar una imagen de una pantalla."
+  },
+  {
+    "palabra": "Capucha",
+    "tipo": "sustantivo",
+    "significado": "Parte de una prenda que cubre la cabeza."
+  },
+  {
+    "palabra": "Cara",
+    "tipo": "sustantivo",
+    "significado": "Parte delantera de la cabeza; también, cada superficie de ciertos objetos."
+  },
+  {
+    "palabra": "Caracol",
+    "tipo": "sustantivo",
+    "significado": "Molusco que suele tener una concha en espiral y se desplaza lentamente."
+  },
+  {
+    "palabra": "Carácter",
+    "tipo": "sustantivo",
+    "significado": "Manera habitual de ser de una persona; también, signo de escritura."
+  },
+  {
+    "palabra": "Característica",
+    "tipo": "sustantivo",
+    "significado": "Rasgo que ayuda a describir o distinguir algo."
+  },
+  {
+    "palabra": "Caramelo",
+    "tipo": "sustantivo",
+    "significado": "Dulce elaborado principalmente con azúcar."
+  },
+  {
+    "palabra": "Caravana",
+    "tipo": "sustantivo",
+    "significado": "Grupo de personas o vehículos que viajan juntos."
+  },
+  {
+    "palabra": "Carbón",
+    "tipo": "sustantivo",
+    "significado": "Material oscuro rico en carbono que puede utilizarse como combustible."
+  },
+  {
+    "palabra": "Carbono",
+    "tipo": "sustantivo",
+    "significado": "Elemento químico presente en todos los seres vivos y en materiales como el diamante."
+  },
+  {
+    "palabra": "Carcajada",
+    "tipo": "sustantivo",
+    "significado": "Risa fuerte que se escucha claramente."
+  },
+  {
+    "palabra": "Cárcel",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde permanecen personas privadas de libertad por decisión de la justicia."
+  },
+  {
+    "palabra": "Cardenal",
+    "tipo": "sustantivo",
+    "significado": "Nombre de ciertas aves; también, cargo de la Iglesia católica."
+  },
+  {
+    "palabra": "Cardumen",
+    "tipo": "sustantivo",
+    "significado": "Grupo de peces que nada junto."
+  },
+  {
+    "palabra": "Careta",
+    "tipo": "sustantivo",
+    "significado": "Objeto que cubre la cara para disfrazarla o protegerla."
+  },
+  {
+    "palabra": "Carga",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de cosas que se transportan o energía almacenada en una batería."
+  },
+  {
+    "palabra": "Cargar",
+    "tipo": "verbo",
+    "significado": "Llevar un peso, introducir mercancías o proporcionar energía a una batería."
+  },
+  {
+    "palabra": "Caricia",
+    "tipo": "sustantivo",
+    "significado": "Contacto suave que expresa cariño y debe resultar cómodo para quien lo recibe."
+  },
+  {
+    "palabra": "Caricatura",
+    "tipo": "sustantivo",
+    "significado": "Dibujo que exagera algunos rasgos para expresar una idea o producir humor."
+  },
+  {
+    "palabra": "Cariño",
+    "tipo": "sustantivo",
+    "significado": "Sentimiento de afecto y cuidado hacia alguien o algo."
+  },
+  {
+    "palabra": "Cariñoso",
+    "tipo": "adjetivo",
+    "significado": "Que expresa afecto mediante palabras o acciones."
+  },
+  {
+    "palabra": "Carnaval",
+    "tipo": "sustantivo",
+    "significado": "Fiesta tradicional con disfraces, música y desfiles."
+  },
+  {
+    "palabra": "Carne",
+    "tipo": "sustantivo",
+    "significado": "Tejido blando de los animales; también, parte que se utiliza como alimento."
+  },
+  {
+    "palabra": "Carnívoro",
+    "tipo": "adjetivo",
+    "significado": "Que se alimenta principalmente de otros animales."
+  },
+  {
+    "palabra": "Caro",
+    "tipo": "adjetivo",
+    "significado": "Que cuesta mucho dinero en comparación con otras opciones."
+  },
+  {
+    "palabra": "Carpeta",
+    "tipo": "sustantivo",
+    "significado": "Objeto para guardar documentos; en informática, espacio que organiza archivos."
+  },
+  {
+    "palabra": "Carpintero",
+    "tipo": "sustantivo",
+    "significado": "Profesional que fabrica o repara objetos de madera."
+  },
+  {
+    "palabra": "Carrera",
+    "tipo": "sustantivo",
+    "significado": "Competición de velocidad o conjunto de estudios para una profesión."
+  },
+  {
+    "palabra": "Carreta",
+    "tipo": "sustantivo",
+    "significado": "Vehículo de carga con ruedas, tradicionalmente tirado por animales."
+  },
+  {
+    "palabra": "Carretera",
+    "tipo": "sustantivo",
+    "significado": "Vía preparada para que circulen vehículos entre distintos lugares."
+  },
+  {
+    "palabra": "Carril",
+    "tipo": "sustantivo",
+    "significado": "Cada franja de una vía destinada a una fila de vehículos."
+  },
+  {
+    "palabra": "Carro",
+    "tipo": "sustantivo",
+    "significado": "Vehículo con ruedas; en muchos países, nombre cotidiano del automóvil."
+  },
+  {
+    "palabra": "Carroza",
+    "tipo": "sustantivo",
+    "significado": "Carruaje adornado o plataforma decorada que participa en un desfile."
+  },
+  {
+    "palabra": "Carruaje",
+    "tipo": "sustantivo",
+    "significado": "Vehículo con ruedas que es tirado por animales."
+  },
+  {
+    "palabra": "Carta",
+    "tipo": "sustantivo",
+    "significado": "Mensaje escrito para alguien; también, pieza de una baraja."
+  },
+  {
+    "palabra": "Cartel",
+    "tipo": "sustantivo",
+    "significado": "Lámina con palabras o imágenes que informa o anuncia algo."
+  },
+  {
+    "palabra": "Cartera",
+    "tipo": "sustantivo",
+    "significado": "Objeto para llevar dinero, documentos u otras pertenencias."
+  },
+  {
+    "palabra": "Cartero",
+    "tipo": "sustantivo",
+    "significado": "Persona que reparte cartas y otros envíos."
+  },
+  {
+    "palabra": "Cartílago",
+    "tipo": "sustantivo",
+    "significado": "Tejido firme y flexible presente en partes del cuerpo como la nariz y las articulaciones."
+  },
+  {
+    "palabra": "Cartografía",
+    "tipo": "sustantivo",
+    "significado": "Actividad y ciencia de elaborar y estudiar mapas."
+  },
+  {
+    "palabra": "Cartón",
+    "tipo": "sustantivo",
+    "significado": "Material parecido al papel, pero más grueso y resistente."
+  },
+  {
+    "palabra": "Cartulina",
+    "tipo": "sustantivo",
+    "significado": "Papel grueso utilizado para dibujos, tarjetas y manualidades."
+  },
+  {
+    "palabra": "Casa",
+    "tipo": "sustantivo",
+    "significado": "Construcción donde viven personas."
+  },
+  {
+    "palabra": "Casarse",
+    "tipo": "verbo",
+    "significado": "Formar un matrimonio con otra persona mediante un acuerdo reconocido."
+  },
+  {
+    "palabra": "Cascabel",
+    "tipo": "sustantivo",
+    "significado": "Bolita hueca con una pieza dentro que suena al moverse."
+  },
+  {
+    "palabra": "Cascada",
+    "tipo": "sustantivo",
+    "significado": "Caída de agua desde una altura del terreno."
+  },
+  {
+    "palabra": "Cáscara",
+    "tipo": "sustantivo",
+    "significado": "Cubierta exterior de frutos, huevos y otros alimentos."
+  },
+  {
+    "palabra": "Casco",
+    "tipo": "sustantivo",
+    "significado": "Protección para la cabeza; también, parte dura del pie de algunos animales."
+  },
+  {
+    "palabra": "Casero",
+    "tipo": "adjetivo",
+    "significado": "Hecho en casa o relacionado con ella."
+  },
+  {
+    "palabra": "Casilla",
+    "tipo": "sustantivo",
+    "significado": "Cada pequeño espacio de un tablero, formulario o cuadrícula."
+  },
+  {
+    "palabra": "Casi",
+    "tipo": "adverbio",
+    "significado": "Muy cerca de una cantidad, situación o resultado, pero sin alcanzarlo."
+  },
+  {
+    "palabra": "Caso",
+    "tipo": "sustantivo",
+    "significado": "Situación particular que se considera o estudia."
+  },
+  {
+    "palabra": "Castaña",
+    "tipo": "sustantivo",
+    "significado": "Fruto comestible del castaño, protegido por una cubierta con espinas."
+  },
+  {
+    "palabra": "Castaño",
+    "tipo": "adjetivo",
+    "significado": "De color marrón; también es el nombre del árbol que produce castañas."
+  },
+  {
+    "palabra": "Castillo",
+    "tipo": "sustantivo",
+    "significado": "Construcción fortificada con muros y torres, frecuente en relatos medievales."
+  },
+  {
+    "palabra": "Castor",
+    "tipo": "sustantivo",
+    "significado": "Roedor de cola ancha que puede construir diques con ramas y barro."
+  },
+  {
+    "palabra": "Casualidad",
+    "tipo": "sustantivo",
+    "significado": "Coincidencia que ocurre sin haber sido planeada."
+  },
+  {
+    "palabra": "Catálogo",
+    "tipo": "sustantivo",
+    "significado": "Lista organizada de objetos, productos u obras con información sobre ellos."
+  },
+  {
+    "palabra": "Catedral",
+    "tipo": "sustantivo",
+    "significado": "Iglesia principal de una diócesis, donde tiene su sede un obispo."
+  },
+  {
+    "palabra": "Categoría",
+    "tipo": "sustantivo",
+    "significado": "Grupo que reúne elementos con características parecidas."
+  },
+  {
+    "palabra": "Cauce",
+    "tipo": "sustantivo",
+    "significado": "Terreno por donde corre el agua de un río o arroyo."
+  },
+  {
+    "palabra": "Caucho",
+    "tipo": "sustantivo",
+    "significado": "Material elástico utilizado en objetos como neumáticos y gomas."
+  },
+  {
+    "palabra": "Caudal",
+    "tipo": "sustantivo",
+    "significado": "Cantidad de agua que pasa por un lugar durante un tiempo determinado."
+  },
+  {
+    "palabra": "Causa",
+    "tipo": "sustantivo",
+    "significado": "Razón por la que ocurre algo; también, plato peruano preparado con papa."
+  },
+  {
+    "palabra": "Causar",
+    "tipo": "verbo",
+    "significado": "Hacer que algo ocurra."
+  },
+  {
+    "palabra": "Cautela",
+    "tipo": "sustantivo",
+    "significado": "Cuidado al actuar para evitar dificultades o daños."
+  },
+  {
+    "palabra": "Cavar",
+    "tipo": "verbo",
+    "significado": "Hacer un agujero o remover la tierra con una herramienta."
+  },
+  {
+    "palabra": "Caverna",
+    "tipo": "sustantivo",
+    "significado": "Cueva grande y profunda."
+  },
+  {
+    "palabra": "Cavidad",
+    "tipo": "sustantivo",
+    "significado": "Espacio hueco dentro de algo."
+  },
+  {
+    "palabra": "Cayado",
+    "tipo": "sustantivo",
+    "significado": "Bastón largo y curvado en un extremo, usado tradicionalmente por pastores."
+  },
+  {
+    "palabra": "Cazador",
+    "tipo": "sustantivo",
+    "significado": "Persona o animal que busca y captura otros animales."
+  },
+  {
+    "palabra": "Cazar",
+    "tipo": "verbo",
+    "significado": "Buscar y capturar animales."
+  },
+  {
+    "palabra": "Cazuela",
+    "tipo": "sustantivo",
+    "significado": "Recipiente de cocina o comida preparada en él."
+  },
+  {
+    "palabra": "Cebada",
+    "tipo": "sustantivo",
+    "significado": "Cereal cuyos granos se utilizan como alimento y para elaborar distintos productos."
+  },
+  {
+    "palabra": "Cebolla",
+    "tipo": "sustantivo",
+    "significado": "Planta con un bulbo de capas carnosas utilizado para cocinar."
+  },
+  {
+    "palabra": "Cebra",
+    "tipo": "sustantivo",
+    "significado": "Mamífero africano emparentado con el caballo y cubierto de rayas blancas y negras."
+  },
+  {
+    "palabra": "Ceder",
+    "tipo": "verbo",
+    "significado": "Dejar que otra persona use algo o pase primero."
+  },
+  {
+    "palabra": "Cedro",
+    "tipo": "sustantivo",
+    "significado": "Nombre de distintos árboles conocidos por su madera."
+  },
+  {
+    "palabra": "Cédula",
+    "tipo": "sustantivo",
+    "significado": "Documento que registra información y que, en algunos países, sirve para identificarse."
+  },
+  {
+    "palabra": "Cegar",
+    "tipo": "verbo",
+    "significado": "Impedir ver, por ejemplo cuando una luz resulta demasiado intensa."
+  },
+  {
+    "palabra": "Ceja",
+    "tipo": "sustantivo",
+    "significado": "Franja de pelo situada sobre cada ojo."
+  },
+  {
+    "palabra": "Celda",
+    "tipo": "sustantivo",
+    "significado": "Espacio pequeño; en una hoja de cálculo, casilla donde se escriben datos."
+  },
+  {
+    "palabra": "Celebrar",
+    "tipo": "verbo",
+    "significado": "Reunirse o hacer algo especial para recordar un acontecimiento agradable."
+  },
+  {
+    "palabra": "Célebre",
+    "tipo": "adjetivo",
+    "significado": "Muy conocido por sus obras, acciones o logros."
+  },
+  {
+    "palabra": "Celeste",
+    "tipo": "adjetivo",
+    "significado": "De color azul claro o relacionado con el cielo."
+  },
+  {
+    "palabra": "Celos",
+    "tipo": "sustantivo",
+    "significado": "Emoción que puede aparecer al temer perder atención o cariño."
+  },
+  {
+    "palabra": "Célula",
+    "tipo": "sustantivo",
+    "significado": "Unidad básica que forma a los seres vivos."
+  },
+  {
+    "palabra": "Celular",
+    "tipo": "sustantivo",
+    "significado": "Teléfono portátil que permite comunicarse y realizar otras tareas."
+  },
+  {
+    "palabra": "Cemento",
+    "tipo": "sustantivo",
+    "significado": "Material en polvo que, mezclado con agua y otros componentes, endurece y une materiales."
+  },
+  {
+    "palabra": "Cena",
+    "tipo": "sustantivo",
+    "significado": "Comida que se toma generalmente al final del día."
+  },
+  {
+    "palabra": "Cenar",
+    "tipo": "verbo",
+    "significado": "Tomar la comida de la noche."
+  },
+  {
+    "palabra": "Ceniza",
+    "tipo": "sustantivo",
+    "significado": "Polvo que queda después de quemar ciertos materiales."
+  },
+  {
+    "palabra": "Censo",
+    "tipo": "sustantivo",
+    "significado": "Recuento organizado de habitantes u otros elementos de una población."
+  },
+  {
+    "palabra": "Centavo",
+    "tipo": "sustantivo",
+    "significado": "Parte de una moneda que equivale a la centésima parte de su unidad."
+  },
+  {
+    "palabra": "Centena",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de cien unidades."
+  },
+  {
+    "palabra": "Centenario",
+    "tipo": "adjetivo",
+    "significado": "Que tiene cien años o recuerda un hecho ocurrido hace cien años."
+  },
+  {
+    "palabra": "Centímetro",
+    "tipo": "sustantivo",
+    "significado": "Unidad de longitud equivalente a la centésima parte de un metro."
+  },
+  {
+    "palabra": "Central",
+    "tipo": "adjetivo",
+    "significado": "Que está en el centro o tiene una función principal."
+  },
+  {
+    "palabra": "Centrar",
+    "tipo": "verbo",
+    "significado": "Colocar algo en el centro o dirigir la atención hacia un asunto."
+  },
+  {
+    "palabra": "Centro",
+    "tipo": "sustantivo",
+    "significado": "Parte de algo que se encuentra alejada de sus bordes."
+  },
+  {
+    "palabra": "Cepillar",
+    "tipo": "verbo",
+    "significado": "Limpiar, peinar o alisar algo utilizando un cepillo."
+  },
+  {
+    "palabra": "Cepillo",
+    "tipo": "sustantivo",
+    "significado": "Utensilio con cerdas o púas utilizado para limpiar o peinar."
+  },
+  {
+    "palabra": "Cera",
+    "tipo": "sustantivo",
+    "significado": "Sustancia moldeable que producen algunos seres vivos y se utiliza, por ejemplo, en velas."
+  },
+  {
+    "palabra": "Cerámica",
+    "tipo": "sustantivo",
+    "significado": "Material y arte de crear objetos con arcilla que después se cuece."
+  },
+  {
+    "palabra": "Cerca",
+    "tipo": "adverbio",
+    "significado": "A poca distancia."
+  },
+  {
+    "palabra": "Cercano",
+    "tipo": "adjetivo",
+    "significado": "Que está a poca distancia o mantiene una relación de confianza."
+  },
+  {
+    "palabra": "Cerdo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero de hocico redondeado, inteligente y con un olfato muy desarrollado."
+  },
+  {
+    "palabra": "Cereal",
+    "tipo": "sustantivo",
+    "significado": "Planta cultivada por sus granos comestibles, como el trigo o el arroz."
+  },
+  {
+    "palabra": "Cerebro",
+    "tipo": "sustantivo",
+    "significado": "Órgano que participa en el pensamiento, la memoria, los sentidos y el control del cuerpo."
+  },
+  {
+    "palabra": "Cereza",
+    "tipo": "sustantivo",
+    "significado": "Fruto pequeño y redondeado con una semilla dura en su interior."
+  },
+  {
+    "palabra": "Ceremonia",
+    "tipo": "sustantivo",
+    "significado": "Acto organizado para celebrar o reconocer algo importante."
+  },
+  {
+    "palabra": "Cero",
+    "tipo": "sustantivo",
+    "significado": "Número que representa que no hay unidades de algo."
+  },
+  {
+    "palabra": "Cerradura",
+    "tipo": "sustantivo",
+    "significado": "Mecanismo que permite cerrar y asegurar una puerta o un recipiente."
+  },
+  {
+    "palabra": "Cerrar",
+    "tipo": "verbo",
+    "significado": "Hacer que una abertura deje de permitir el paso."
+  },
+  {
+    "palabra": "Cerro",
+    "tipo": "sustantivo",
+    "significado": "Elevación natural del terreno, generalmente menor que una montaña."
+  },
+  {
+    "palabra": "Certamen",
+    "tipo": "sustantivo",
+    "significado": "Actividad organizada en la que se presentan trabajos o habilidades para valorarlos."
+  },
+  {
+    "palabra": "Certeza",
+    "tipo": "sustantivo",
+    "significado": "Seguridad de que algo es verdadero."
+  },
+  {
+    "palabra": "Certificado",
+    "tipo": "sustantivo",
+    "significado": "Documento que confirma un hecho, un aprendizaje o una condición."
+  },
+  {
+    "palabra": "Césped",
+    "tipo": "sustantivo",
+    "significado": "Hierba corta que cubre el suelo como una alfombra verde."
+  },
+  {
+    "palabra": "Cesta",
+    "tipo": "sustantivo",
+    "significado": "Recipiente tejido utilizado para guardar o transportar objetos."
+  },
+  {
+    "palabra": "Cetáceo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero acuático del grupo de las ballenas, los delfines y las marsopas."
+  },
+  {
+    "palabra": "Chacra",
+    "tipo": "sustantivo",
+    "significado": "Terreno dedicado al cultivo, especialmente en varios países de América."
+  },
+  {
+    "palabra": "Chaleco",
+    "tipo": "sustantivo",
+    "significado": "Prenda que cubre el torso y no tiene mangas."
+  },
+  {
+    "palabra": "Champiñón",
+    "tipo": "sustantivo",
+    "significado": "Hongo con sombrero, algunas de cuyas especies se cultivan como alimento."
+  },
+  {
+    "palabra": "Champú",
+    "tipo": "sustantivo",
+    "significado": "Producto que se utiliza para lavar el cabello."
+  },
+  {
+    "palabra": "Chancla",
+    "tipo": "sustantivo",
+    "significado": "Calzado ligero y abierto que suele usarse en casa o junto al agua."
+  },
+  {
+    "palabra": "Chapa",
+    "tipo": "sustantivo",
+    "significado": "Lámina delgada de metal; en algunos países, cerradura de una puerta."
+  },
+  {
+    "palabra": "Chaqueta",
+    "tipo": "sustantivo",
+    "significado": "Prenda con mangas que se lleva sobre otra ropa para abrigarse."
+  },
+  {
+    "palabra": "Charango",
+    "tipo": "sustantivo",
+    "significado": "Instrumento pequeño de cuerdas, tradicional de la región andina."
+  },
+  {
+    "palabra": "Charco",
+    "tipo": "sustantivo",
+    "significado": "Pequeña acumulación de agua sobre el suelo."
+  },
+  {
+    "palabra": "Charla",
+    "tipo": "sustantivo",
+    "significado": "Conversación o explicación oral sobre un tema."
+  },
+  {
+    "palabra": "Charlar",
+    "tipo": "verbo",
+    "significado": "Conversar de manera cercana y tranquila."
+  },
+  {
+    "palabra": "Chasquido",
+    "tipo": "sustantivo",
+    "significado": "Sonido breve y seco, como el que se hace al chasquear los dedos."
+  },
+  {
+    "palabra": "Chico",
+    "tipo": "adjetivo",
+    "significado": "Pequeño o de poco tamaño."
+  },
+  {
+    "palabra": "Chicle",
+    "tipo": "sustantivo",
+    "significado": "Golosina elástica que se mastica."
+  },
+  {
+    "palabra": "Chimenea",
+    "tipo": "sustantivo",
+    "significado": "Conducto por donde sale el humo o espacio preparado para encender fuego."
+  },
+  {
+    "palabra": "Chimpancé",
+    "tipo": "sustantivo",
+    "significado": "Primate africano que vive en grupos y puede utilizar herramientas."
+  },
+  {
+    "palabra": "Chispa",
+    "tipo": "sustantivo",
+    "significado": "Partícula encendida muy pequeña o destello eléctrico breve."
+  },
+  {
+    "palabra": "Chiste",
+    "tipo": "sustantivo",
+    "significado": "Relato o comentario breve pensado para hacer reír."
+  },
+  {
+    "palabra": "Choclo",
+    "tipo": "sustantivo",
+    "significado": "Mazorca de maíz tierno, llamada así en varios países sudamericanos."
+  },
+  {
+    "palabra": "Chocolate",
+    "tipo": "sustantivo",
+    "significado": "Alimento elaborado con productos del cacao y otros ingredientes."
+  },
+  {
+    "palabra": "Chompa",
+    "tipo": "sustantivo",
+    "significado": "Prenda de abrigo de punto que cubre el torso y los brazos."
+  },
+  {
+    "palabra": "Chorro",
+    "tipo": "sustantivo",
+    "significado": "Corriente de líquido que sale con fuerza por una abertura."
+  },
+  {
+    "palabra": "Chubasco",
+    "tipo": "sustantivo",
+    "significado": "Lluvia que empieza de repente y suele durar poco."
+  },
+  {
+    "palabra": "Churro",
+    "tipo": "sustantivo",
+    "significado": "Preparación de masa frita, generalmente alargada."
+  },
+  {
+    "palabra": "Ciclo",
+    "tipo": "sustantivo",
+    "significado": "Serie de etapas que se repite, como el ciclo del agua."
+  },
+  {
+    "palabra": "Ciclismo",
+    "tipo": "sustantivo",
+    "significado": "Actividad o deporte que se practica en bicicleta."
+  },
+  {
+    "palabra": "Ciclista",
+    "tipo": "sustantivo",
+    "significado": "Persona que utiliza una bicicleta, por deporte o para desplazarse."
+  },
+  {
+    "palabra": "Ciclón",
+    "tipo": "sustantivo",
+    "significado": "Sistema de vientos que giran alrededor de una zona de baja presión."
+  },
+  {
+    "palabra": "Cicatriz",
+    "tipo": "sustantivo",
+    "significado": "Marca que puede quedar en la piel después de curarse una herida."
+  },
+  {
+    "palabra": "Ciego",
+    "tipo": "adjetivo",
+    "significado": "Que no ve o tiene una pérdida de visión muy importante."
+  },
+  {
+    "palabra": "Cielo",
+    "tipo": "sustantivo",
+    "significado": "Espacio que vemos sobre nosotros, donde aparecen nubes, el Sol y las estrellas."
+  },
+  {
+    "palabra": "Cien",
+    "tipo": "numeral",
+    "significado": "Cantidad formada por diez grupos de diez."
+  },
+  {
+    "palabra": "Ciencia",
+    "tipo": "sustantivo",
+    "significado": "Forma de estudiar el mundo mediante observaciones, pruebas y razonamientos."
+  },
+  {
+    "palabra": "Científico",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga para comprender mejor el mundo y comprobar ideas."
+  },
+  {
+    "palabra": "Ciervo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero herbívoro; en muchas especies, los machos desarrollan astas."
+  },
+  {
+    "palabra": "Cifra",
+    "tipo": "sustantivo",
+    "significado": "Signo que sirve para escribir números, como 2 o 7."
+  },
+  {
+    "palabra": "Cigarra",
+    "tipo": "sustantivo",
+    "significado": "Insecto cuyos machos producen un sonido vibrante para comunicarse."
+  },
+  {
+    "palabra": "Cigüeña",
+    "tipo": "sustantivo",
+    "significado": "Ave de patas, cuello y pico largos."
+  },
+  {
+    "palabra": "Cilindro",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo geométrico con dos bases circulares iguales, como una lata recta."
+  },
+  {
+    "palabra": "Cima",
+    "tipo": "sustantivo",
+    "significado": "Parte más alta de una montaña o elevación."
+  },
+  {
+    "palabra": "Cimiento",
+    "tipo": "sustantivo",
+    "significado": "Parte de una construcción que la sostiene y transmite su peso al terreno."
+  },
+  {
+    "palabra": "Cinco",
+    "tipo": "numeral",
+    "significado": "Número que viene después del cuatro y antes del seis."
+  },
+  {
+    "palabra": "Cincuenta",
+    "tipo": "numeral",
+    "significado": "Cantidad formada por cinco grupos de diez."
+  },
+  {
+    "palabra": "Cine",
+    "tipo": "sustantivo",
+    "significado": "Arte de crear películas y lugar donde se proyectan."
+  },
+  {
+    "palabra": "Cineasta",
+    "tipo": "sustantivo",
+    "significado": "Persona que participa en la creación de películas, especialmente en su dirección."
+  },
+  {
+    "palabra": "Cinematografía",
+    "tipo": "sustantivo",
+    "significado": "Arte y técnicas para crear y mostrar imágenes en movimiento."
+  },
+  {
+    "palabra": "Cinta",
+    "tipo": "sustantivo",
+    "significado": "Tira larga y estrecha de tela u otro material."
+  },
+  {
+    "palabra": "Cintura",
+    "tipo": "sustantivo",
+    "significado": "Zona del cuerpo situada entre las costillas y las caderas."
+  },
+  {
+    "palabra": "Cinturón",
+    "tipo": "sustantivo",
+    "significado": "Tira que rodea la cintura para sujetar ropa; también, dispositivo de seguridad."
+  },
+  {
+    "palabra": "Círculo",
+    "tipo": "sustantivo",
+    "significado": "Figura plana formada por una circunferencia y todo su interior."
+  },
+  {
+    "palabra": "Circular",
+    "tipo": "adjetivo",
+    "significado": "Que tiene forma de círculo."
+  },
+  {
+    "palabra": "Circulación",
+    "tipo": "sustantivo",
+    "significado": "Movimiento por un recorrido, como el de la sangre por el cuerpo."
+  },
+  {
+    "palabra": "Circunferencia",
+    "tipo": "sustantivo",
+    "significado": "Línea curva cerrada cuyos puntos están a igual distancia de un centro."
+  },
+  {
+    "palabra": "Circunstancia",
+    "tipo": "sustantivo",
+    "significado": "Condición que acompaña a una situación y puede influir en ella."
+  },
+  {
+    "palabra": "Circo",
+    "tipo": "sustantivo",
+    "significado": "Espectáculo de habilidades como acrobacias, malabares y actuaciones de payasos."
+  },
+  {
+    "palabra": "Ciruela",
+    "tipo": "sustantivo",
+    "significado": "Fruto carnoso y jugoso que contiene una semilla dentro de un hueso duro."
+  },
+  {
+    "palabra": "Cirugía",
+    "tipo": "sustantivo",
+    "significado": "Tratamiento médico que utiliza operaciones para atender problemas del cuerpo."
+  },
+  {
+    "palabra": "Cirujano",
+    "tipo": "sustantivo",
+    "significado": "Profesional de medicina especializado en realizar operaciones."
+  },
+  {
+    "palabra": "Cisne",
+    "tipo": "sustantivo",
+    "significado": "Ave acuática grande de cuello largo."
+  },
+  {
+    "palabra": "Cisterna",
+    "tipo": "sustantivo",
+    "significado": "Depósito que almacena agua u otros líquidos."
+  },
+  {
+    "palabra": "Cita",
+    "tipo": "sustantivo",
+    "significado": "Encuentro acordado o palabras tomadas de un texto indicando su origen."
+  },
+  {
+    "palabra": "Citar",
+    "tipo": "verbo",
+    "significado": "Mencionar una fuente o acordar un encuentro con alguien."
+  },
+  {
+    "palabra": "Cítrico",
+    "tipo": "sustantivo",
+    "significado": "Fruto como la naranja o el limón, generalmente jugoso y de sabor ácido."
+  },
+  {
+    "palabra": "Ciudad",
+    "tipo": "sustantivo",
+    "significado": "Población con numerosos habitantes, edificios y servicios."
+  },
+  {
+    "palabra": "Ciudadano",
+    "tipo": "sustantivo",
+    "significado": "Persona que forma parte de una comunidad política y tiene derechos y responsabilidades."
+  },
+  {
+    "palabra": "Civil",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la ciudadanía y la vida común, fuera del ámbito militar."
+  },
+  {
+    "palabra": "Civilización",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de formas de vida, conocimientos e instituciones de una sociedad."
+  },
+  {
+    "palabra": "Claridad",
+    "tipo": "sustantivo",
+    "significado": "Presencia de luz o facilidad para comprender algo."
+  },
+  {
+    "palabra": "Claro",
+    "tipo": "adjetivo",
+    "significado": "Que tiene luz, se distingue bien o se entiende fácilmente."
+  },
+  {
+    "palabra": "Clarinete",
+    "tipo": "sustantivo",
+    "significado": "Instrumento de viento de forma alargada que produce sonido con una lengüeta."
+  },
+  {
+    "palabra": "Clase",
+    "tipo": "sustantivo",
+    "significado": "Grupo de elementos parecidos o sesión dedicada a aprender."
+  },
+  {
+    "palabra": "Clásico",
+    "tipo": "adjetivo",
+    "significado": "Que se considera un ejemplo importante y sigue siendo valorado con el tiempo."
+  },
+  {
+    "palabra": "Clasificar",
+    "tipo": "verbo",
+    "significado": "Organizar cosas en grupos según características compartidas."
+  },
+  {
+    "palabra": "Clavel",
+    "tipo": "sustantivo",
+    "significado": "Planta de flores vistosas con pétalos de bordes recortados."
+  },
+  {
+    "palabra": "Clave",
+    "tipo": "sustantivo",
+    "significado": "Dato que ayuda a comprender algo o código que permite acceder a un sistema."
+  },
+  {
+    "palabra": "Clavar",
+    "tipo": "verbo",
+    "significado": "Introducir una punta, como un clavo, en un material."
+  },
+  {
+    "palabra": "Clavo",
+    "tipo": "sustantivo",
+    "significado": "Pieza puntiaguda para unir materiales; también, especia aromática."
+  },
+  {
+    "palabra": "Clima",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de condiciones del tiempo habituales de un lugar durante muchos años."
+  },
+  {
+    "palabra": "Climático",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el clima."
+  },
+  {
+    "palabra": "Clínica",
+    "tipo": "sustantivo",
+    "significado": "Centro donde se ofrece atención de salud."
+  },
+  {
+    "palabra": "Clip",
+    "tipo": "sustantivo",
+    "significado": "Pieza pequeña para sujetar papeles; también, fragmento breve de video o audio."
+  },
+  {
+    "palabra": "Clorofila",
+    "tipo": "sustantivo",
+    "significado": "Sustancia verde que ayuda a plantas y algas a aprovechar la luz."
+  },
+  {
+    "palabra": "Club",
+    "tipo": "sustantivo",
+    "significado": "Grupo de personas que comparte una actividad o un interés."
+  },
+  {
+    "palabra": "Cobaya",
+    "tipo": "sustantivo",
+    "significado": "Roedor sudamericano también llamado cuy."
+  },
+  {
+    "palabra": "Cobertura",
+    "tipo": "sustantivo",
+    "significado": "Capa que cubre algo o alcance de un servicio."
+  },
+  {
+    "palabra": "Cobija",
+    "tipo": "sustantivo",
+    "significado": "Manta utilizada para abrigarse."
+  },
+  {
+    "palabra": "Cobrar",
+    "tipo": "verbo",
+    "significado": "Recibir el pago de un trabajo, producto o servicio."
+  },
+  {
+    "palabra": "Cobre",
+    "tipo": "sustantivo",
+    "significado": "Metal rojizo que conduce bien la electricidad."
+  },
+  {
+    "palabra": "Cocodrilo",
+    "tipo": "sustantivo",
+    "significado": "Reptil de piel resistente y cola fuerte que vive cerca del agua."
+  },
+  {
+    "palabra": "Cocer",
+    "tipo": "verbo",
+    "significado": "Preparar un alimento mediante calor, por ejemplo hirviéndolo."
+  },
+  {
+    "palabra": "Coche",
+    "tipo": "sustantivo",
+    "significado": "Vehículo para transportar personas; suele referirse a un automóvil."
+  },
+  {
+    "palabra": "Cocina",
+    "tipo": "sustantivo",
+    "significado": "Lugar o aparato donde se preparan alimentos."
+  },
+  {
+    "palabra": "Cocinar",
+    "tipo": "verbo",
+    "significado": "Preparar alimentos para comerlos."
+  },
+  {
+    "palabra": "Cocinero",
+    "tipo": "sustantivo",
+    "significado": "Persona que prepara comidas."
+  },
+  {
+    "palabra": "Coco",
+    "tipo": "sustantivo",
+    "significado": "Fruto del cocotero, con cubierta resistente, pulpa blanca y líquido interior."
+  },
+  {
+    "palabra": "Código",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de signos o reglas; en programación, instrucciones escritas para una computadora."
+  },
+  {
+    "palabra": "Codo",
+    "tipo": "sustantivo",
+    "significado": "Articulación que une el brazo con el antebrazo."
+  },
+  {
+    "palabra": "Cohete",
+    "tipo": "sustantivo",
+    "significado": "Vehículo o dispositivo que avanza expulsando gases a gran velocidad."
+  },
+  {
+    "palabra": "Coincidir",
+    "tipo": "verbo",
+    "significado": "Ocurrir al mismo tiempo, encontrarse en un lugar o estar de acuerdo."
+  },
+  {
+    "palabra": "Cola",
+    "tipo": "sustantivo",
+    "significado": "Parte posterior de algunos animales, fila de personas o material para pegar."
+  },
+  {
+    "palabra": "Colaborar",
+    "tipo": "verbo",
+    "significado": "Trabajar con otras personas para lograr algo."
+  },
+  {
+    "palabra": "Colador",
+    "tipo": "sustantivo",
+    "significado": "Utensilio con agujeros que separa líquidos de partes sólidas."
+  },
+  {
+    "palabra": "Colcha",
+    "tipo": "sustantivo",
+    "significado": "Cubierta que se coloca sobre la cama."
+  },
+  {
+    "palabra": "Colchón",
+    "tipo": "sustantivo",
+    "significado": "Pieza acolchada sobre la que se descansa o duerme."
+  },
+  {
+    "palabra": "Colección",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de objetos reunidos por alguna característica o interés."
+  },
+  {
+    "palabra": "Coleccionar",
+    "tipo": "verbo",
+    "significado": "Reunir y organizar objetos que tienen algo en común."
+  },
+  {
+    "palabra": "Colega",
+    "tipo": "sustantivo",
+    "significado": "Persona que comparte una profesión o actividad con otra."
+  },
+  {
+    "palabra": "Colegio",
+    "tipo": "sustantivo",
+    "significado": "Institución donde se enseña y se aprende."
+  },
+  {
+    "palabra": "Colgar",
+    "tipo": "verbo",
+    "significado": "Sujetar algo de manera que quede suspendido."
+  },
+  {
+    "palabra": "Colibrí",
+    "tipo": "sustantivo",
+    "significado": "Ave americana pequeña que mueve sus alas muy deprisa y suele alimentarse de néctar."
+  },
+  {
+    "palabra": "Colina",
+    "tipo": "sustantivo",
+    "significado": "Elevación suave del terreno, menor que una montaña."
+  },
+  {
+    "palabra": "Collar",
+    "tipo": "sustantivo",
+    "significado": "Adorno o tira que se lleva alrededor del cuello."
+  },
+  {
+    "palabra": "Colmena",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde vive una colonia de abejas."
+  },
+  {
+    "palabra": "Colmillo",
+    "tipo": "sustantivo",
+    "significado": "Diente puntiagudo o muy desarrollado de algunos animales."
+  },
+  {
+    "palabra": "Colocar",
+    "tipo": "verbo",
+    "significado": "Poner algo en un lugar."
+  },
+  {
+    "palabra": "Colonia",
+    "tipo": "sustantivo",
+    "significado": "Grupo de seres vivos que convive; también tiene otros significados relacionados con asentamientos y perfumes."
+  },
+  {
+    "palabra": "Color",
+    "tipo": "sustantivo",
+    "significado": "Sensación visual que permite distinguir tonos como rojo, azul y amarillo."
+  },
+  {
+    "palabra": "Colorear",
+    "tipo": "verbo",
+    "significado": "Añadir colores a un dibujo u objeto."
+  },
+  {
+    "palabra": "Columna",
+    "tipo": "sustantivo",
+    "significado": "Soporte vertical de una construcción o conjunto de elementos colocados uno debajo de otro."
+  },
+  {
+    "palabra": "Columpio",
+    "tipo": "sustantivo",
+    "significado": "Asiento suspendido que se mueve hacia delante y hacia atrás."
+  },
+  {
+    "palabra": "Comarca",
+    "tipo": "sustantivo",
+    "significado": "Territorio formado por localidades que comparten ciertas características."
+  },
+  {
+    "palabra": "Combinar",
+    "tipo": "verbo",
+    "significado": "Unir elementos para que funcionen o resulten bien juntos."
+  },
+  {
+    "palabra": "Combustible",
+    "tipo": "sustantivo",
+    "significado": "Material que puede liberar energía al quemarse."
+  },
+  {
+    "palabra": "Comedia",
+    "tipo": "sustantivo",
+    "significado": "Obra que busca divertir y puede presentar situaciones humorísticas."
+  },
+  {
+    "palabra": "Comedor",
+    "tipo": "sustantivo",
+    "significado": "Espacio destinado a comer."
+  },
+  {
+    "palabra": "Comenzar",
+    "tipo": "verbo",
+    "significado": "Dar inicio a algo."
+  },
+  {
+    "palabra": "Comer",
+    "tipo": "verbo",
+    "significado": "Tomar alimentos por la boca."
+  },
+  {
+    "palabra": "Comercio",
+    "tipo": "sustantivo",
+    "significado": "Actividad de comprar, vender o intercambiar productos y servicios."
+  },
+  {
+    "palabra": "Cometa",
+    "tipo": "sustantivo",
+    "significado": "Astro de hielo y polvo que puede formar una cola; también, juguete que vuela sujeto por una cuerda."
+  },
+  {
+    "palabra": "Comida",
+    "tipo": "sustantivo",
+    "significado": "Alimento que se prepara o consume."
+  },
+  {
+    "palabra": "Cómico",
+    "tipo": "adjetivo",
+    "significado": "Que produce risa o está relacionado con la comedia."
+  },
+  {
+    "palabra": "Comienzo",
+    "tipo": "sustantivo",
+    "significado": "Primera parte o momento inicial de algo."
+  },
+  {
+    "palabra": "Comisión",
+    "tipo": "sustantivo",
+    "significado": "Grupo encargado de una tarea; también, pago por un servicio."
+  },
+  {
+    "palabra": "Cómodo",
+    "tipo": "adjetivo",
+    "significado": "Que permite estar a gusto o hacer algo con facilidad."
+  },
+  {
+    "palabra": "Compacto",
+    "tipo": "adjetivo",
+    "significado": "Que tiene sus partes muy juntas y ocupa poco espacio."
+  },
+  {
+    "palabra": "Compañero",
+    "tipo": "sustantivo",
+    "significado": "Persona con quien se comparte una actividad o un lugar."
+  },
+  {
+    "palabra": "Compañía",
+    "tipo": "sustantivo",
+    "significado": "Presencia de alguien junto a otra persona; también, empresa o grupo artístico."
+  },
+  {
+    "palabra": "Comparar",
+    "tipo": "verbo",
+    "significado": "Observar semejanzas y diferencias entre dos o más cosas."
+  },
+  {
+    "palabra": "Compás",
+    "tipo": "sustantivo",
+    "significado": "Instrumento para dibujar circunferencias; en música, organización regular del ritmo."
+  },
+  {
+    "palabra": "Compartir",
+    "tipo": "verbo",
+    "significado": "Usar algo con otras personas o hacerlas participar de una experiencia."
+  },
+  {
+    "palabra": "Competencia",
+    "tipo": "sustantivo",
+    "significado": "Capacidad para realizar una tarea; también, actividad en la que se busca destacar."
+  },
+  {
+    "palabra": "Competir",
+    "tipo": "verbo",
+    "significado": "Participar en una prueba intentando alcanzar un resultado mejor."
+  },
+  {
+    "palabra": "Completar",
+    "tipo": "verbo",
+    "significado": "Añadir lo que falta para que algo quede terminado."
+  },
+  {
+    "palabra": "Completo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene todas sus partes."
+  },
+  {
+    "palabra": "Complejo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene varias partes o relaciones y puede requerir atención para entenderse."
+  },
+  {
+    "palabra": "Componer",
+    "tipo": "verbo",
+    "significado": "Crear una obra, formar un conjunto o reparar algo."
+  },
+  {
+    "palabra": "Compositor",
+    "tipo": "sustantivo",
+    "significado": "Persona que crea obras musicales."
+  },
+  {
+    "palabra": "Comprar",
+    "tipo": "verbo",
+    "significado": "Obtener un producto o servicio a cambio de dinero."
+  },
+  {
+    "palabra": "Comprender",
+    "tipo": "verbo",
+    "significado": "Entender una idea, una situación o lo que siente alguien."
+  },
+  {
+    "palabra": "Comprimir",
+    "tipo": "verbo",
+    "significado": "Presionar algo para reducir su volumen; en informática, reducir el espacio que ocupa un archivo."
+  },
+  {
+    "palabra": "Comprobar",
+    "tipo": "verbo",
+    "significado": "Revisar mediante pruebas si algo es correcto."
+  },
+  {
+    "palabra": "Compromiso",
+    "tipo": "sustantivo",
+    "significado": "Acuerdo o responsabilidad que una persona acepta."
+  },
+  {
+    "palabra": "Computadora",
+    "tipo": "sustantivo",
+    "significado": "Máquina que procesa información siguiendo instrucciones."
+  },
+  {
+    "palabra": "Común",
+    "tipo": "adjetivo",
+    "significado": "Que se comparte o aparece con frecuencia."
+  },
+  {
+    "palabra": "Comunicar",
+    "tipo": "verbo",
+    "significado": "Transmitir ideas, información o sentimientos."
+  },
+  {
+    "palabra": "Comunidad",
+    "tipo": "sustantivo",
+    "significado": "Grupo de personas que comparte un lugar, interés o forma de organización."
+  },
+  {
+    "palabra": "Concha",
+    "tipo": "sustantivo",
+    "significado": "Cubierta dura que protege el cuerpo de ciertos animales."
+  },
+  {
+    "palabra": "Concierto",
+    "tipo": "sustantivo",
+    "significado": "Presentación musical ante un público."
+  },
+  {
+    "palabra": "Conclusión",
+    "tipo": "sustantivo",
+    "significado": "Idea final que se obtiene después de observar, estudiar o razonar."
+  },
+  {
+    "palabra": "Concreto",
+    "tipo": "adjetivo",
+    "significado": "Preciso y determinado; como sustantivo, material de construcción también llamado hormigón."
+  },
+  {
+    "palabra": "Concurso",
+    "tipo": "sustantivo",
+    "significado": "Actividad en la que se comparan trabajos o habilidades siguiendo reglas."
+  },
+  {
+    "palabra": "Cóndor",
+    "tipo": "sustantivo",
+    "significado": "Ave americana de gran tamaño que aprovecha corrientes de aire para planear."
+  },
+  {
+    "palabra": "Conducir",
+    "tipo": "verbo",
+    "significado": "Guiar un vehículo o llevar algo hacia un lugar."
+  },
+  {
+    "palabra": "Conducta",
+    "tipo": "sustantivo",
+    "significado": "Manera de actuar de una persona o un animal."
+  },
+  {
+    "palabra": "Conectar",
+    "tipo": "verbo",
+    "significado": "Unir elementos para que puedan comunicarse o funcionar juntos."
+  },
+  {
+    "palabra": "Conejo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero de orejas largas y patas traseras fuertes."
+  },
+  {
+    "palabra": "Conexión",
+    "tipo": "sustantivo",
+    "significado": "Unión que permite el paso de información, energía u otros elementos."
+  },
+  {
+    "palabra": "Confiar",
+    "tipo": "verbo",
+    "significado": "Creer que alguien o algo puede actuar de manera adecuada o segura."
+  },
+  {
+    "palabra": "Confianza",
+    "tipo": "sustantivo",
+    "significado": "Seguridad que sentimos en alguien, en algo o en nuestras capacidades."
+  },
+  {
+    "palabra": "Confirmar",
+    "tipo": "verbo",
+    "significado": "Comprobar o asegurar que una información es correcta."
+  },
+  {
+    "palabra": "Confundir",
+    "tipo": "verbo",
+    "significado": "Tomar una cosa por otra o hacer difícil comprender algo."
+  },
+  {
+    "palabra": "Congelar",
+    "tipo": "verbo",
+    "significado": "Enfriar un líquido hasta que se vuelve sólido o conservar algo a muy baja temperatura."
+  },
+  {
+    "palabra": "Conjunto",
+    "tipo": "sustantivo",
+    "significado": "Grupo de elementos considerados como una unidad."
+  },
+  {
+    "palabra": "Conocer",
+    "tipo": "verbo",
+    "significado": "Tener información o experiencia sobre alguien o algo."
+  },
+  {
+    "palabra": "Conquista",
+    "tipo": "sustantivo",
+    "significado": "Logro de una meta; también, ocupación de un territorio mediante la fuerza."
+  },
+  {
+    "palabra": "Consejo",
+    "tipo": "sustantivo",
+    "significado": "Idea que se ofrece para ayudar a alguien a decidir."
+  },
+  {
+    "palabra": "Conservar",
+    "tipo": "verbo",
+    "significado": "Cuidar algo para que se mantenga en buen estado."
+  },
+  {
+    "palabra": "Considerar",
+    "tipo": "verbo",
+    "significado": "Pensar con atención sobre algo antes de decidir."
+  },
+  {
+    "palabra": "Consolar",
+    "tipo": "verbo",
+    "significado": "Acompañar y ofrecer apoyo a quien se siente triste."
+  },
+  {
+    "palabra": "Constante",
+    "tipo": "adjetivo",
+    "significado": "Que se mantiene o se repite con regularidad."
+  },
+  {
+    "palabra": "Constelación",
+    "tipo": "sustantivo",
+    "significado": "Región del cielo identificada por un patrón de estrellas visto desde la Tierra."
+  },
+  {
+    "palabra": "Construir",
+    "tipo": "verbo",
+    "significado": "Unir materiales o ideas para crear algo."
+  },
+  {
+    "palabra": "Consultar",
+    "tipo": "verbo",
+    "significado": "Buscar información o pedir orientación."
+  },
+  {
+    "palabra": "Consumir",
+    "tipo": "verbo",
+    "significado": "Utilizar alimentos, energía u otros recursos."
+  },
+  {
+    "palabra": "Contar",
+    "tipo": "verbo",
+    "significado": "Determinar una cantidad o relatar una historia."
+  },
+  {
+    "palabra": "Contemplar",
+    "tipo": "verbo",
+    "significado": "Observar algo con atención y calma."
+  },
+  {
+    "palabra": "Contener",
+    "tipo": "verbo",
+    "significado": "Tener algo dentro o evitar que avance."
+  },
+  {
+    "palabra": "Contento",
+    "tipo": "adjetivo",
+    "significado": "Que siente alegría o satisfacción."
+  },
+  {
+    "palabra": "Contorno",
+    "tipo": "sustantivo",
+    "significado": "Línea que marca el borde de una figura."
+  },
+  {
+    "palabra": "Continuar",
+    "tipo": "verbo",
+    "significado": "Seguir haciendo algo que ya había empezado."
+  },
+  {
+    "palabra": "Continente",
+    "tipo": "sustantivo",
+    "significado": "Cada una de las grandes extensiones de tierra en que se organiza la superficie terrestre."
+  },
+  {
+    "palabra": "Contrario",
+    "tipo": "adjetivo",
+    "significado": "Que es opuesto a otra cosa."
+  },
+  {
+    "palabra": "Contraseña",
+    "tipo": "sustantivo",
+    "significado": "Clave secreta que ayuda a proteger el acceso a una cuenta o dispositivo."
+  },
+  {
+    "palabra": "Control",
+    "tipo": "sustantivo",
+    "significado": "Revisión o manejo de algo; también, dispositivo que permite dar órdenes."
+  },
+  {
+    "palabra": "Conversar",
+    "tipo": "verbo",
+    "significado": "Intercambiar ideas mediante palabras u otras formas de comunicación."
+  },
+  {
+    "palabra": "Convertir",
+    "tipo": "verbo",
+    "significado": "Hacer que algo cambie y se transforme en otra cosa."
+  },
+  {
+    "palabra": "Convivir",
+    "tipo": "verbo",
+    "significado": "Compartir la vida o un espacio con otras personas."
+  },
+  {
+    "palabra": "Cooperar",
+    "tipo": "verbo",
+    "significado": "Trabajar con otras personas para conseguir una meta común."
+  },
+  {
+    "palabra": "Coordinar",
+    "tipo": "verbo",
+    "significado": "Organizar movimientos o tareas para que funcionen bien juntos."
+  },
+  {
+    "palabra": "Copa",
+    "tipo": "sustantivo",
+    "significado": "Recipiente para beber, premio deportivo o parte superior de un árbol."
+  },
+  {
+    "palabra": "Copiar",
+    "tipo": "verbo",
+    "significado": "Reproducir un texto, una imagen u otro contenido."
+  },
+  {
+    "palabra": "Copla",
+    "tipo": "sustantivo",
+    "significado": "Composición breve en verso que suele cantarse."
+  },
+  {
+    "palabra": "Coraje",
+    "tipo": "sustantivo",
+    "significado": "Valor para afrontar dificultades; en algunos lugares, también significa enfado."
+  },
+  {
+    "palabra": "Coral",
+    "tipo": "sustantivo",
+    "significado": "Animal marino que puede vivir en colonias y formar estructuras duras."
+  },
+  {
+    "palabra": "Corazón",
+    "tipo": "sustantivo",
+    "significado": "Órgano muscular que impulsa la sangre por el cuerpo."
+  },
+  {
+    "palabra": "Corbata",
+    "tipo": "sustantivo",
+    "significado": "Tira de tela que se anuda alrededor del cuello como parte de la ropa."
+  },
+  {
+    "palabra": "Corcho",
+    "tipo": "sustantivo",
+    "significado": "Material ligero obtenido de la corteza del alcornoque."
+  },
+  {
+    "palabra": "Cordillera",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de montañas unidas o cercanas entre sí."
+  },
+  {
+    "palabra": "Cordón",
+    "tipo": "sustantivo",
+    "significado": "Cuerda delgada utilizada para sujetar, atar o adornar."
+  },
+  {
+    "palabra": "Coro",
+    "tipo": "sustantivo",
+    "significado": "Grupo de personas que canta en conjunto."
+  },
+  {
+    "palabra": "Corona",
+    "tipo": "sustantivo",
+    "significado": "Adorno que rodea la cabeza; también, parte superior de algunos objetos."
+  },
+  {
+    "palabra": "Corral",
+    "tipo": "sustantivo",
+    "significado": "Espacio cercado donde se mantienen animales."
+  },
+  {
+    "palabra": "Correcto",
+    "tipo": "adjetivo",
+    "significado": "Que está bien hecho o se ajusta a una regla."
+  },
+  {
+    "palabra": "Corregir",
+    "tipo": "verbo",
+    "significado": "Modificar algo para solucionar un error."
+  },
+  {
+    "palabra": "Correo",
+    "tipo": "sustantivo",
+    "significado": "Servicio o sistema para enviar cartas, paquetes y mensajes."
+  },
+  {
+    "palabra": "Correr",
+    "tipo": "verbo",
+    "significado": "Desplazarse rápidamente dando pasos en los que ambos pies pueden quedar en el aire."
+  },
+  {
+    "palabra": "Corriente",
+    "tipo": "sustantivo",
+    "significado": "Movimiento de agua, aire o electricidad en una dirección."
+  },
+  {
+    "palabra": "Cortar",
+    "tipo": "verbo",
+    "significado": "Separar algo utilizando una herramienta o interrumpir su continuidad."
+  },
+  {
+    "palabra": "Corteza",
+    "tipo": "sustantivo",
+    "significado": "Capa exterior de un árbol; también, capa superficial de otros cuerpos."
+  },
+  {
+    "palabra": "Cortina",
+    "tipo": "sustantivo",
+    "significado": "Tela que cubre una ventana o separa espacios."
+  },
+  {
+    "palabra": "Corto",
+    "tipo": "adjetivo",
+    "significado": "Que tiene poca longitud o dura poco tiempo."
+  },
+  {
+    "palabra": "Cosecha",
+    "tipo": "sustantivo",
+    "significado": "Recogida de productos del campo y conjunto de lo recogido."
+  },
+  {
+    "palabra": "Coser",
+    "tipo": "verbo",
+    "significado": "Unir telas u otros materiales mediante puntadas de hilo."
+  },
+  {
+    "palabra": "Cosmos",
+    "tipo": "sustantivo",
+    "significado": "El universo considerado como un conjunto."
+  },
+  {
+    "palabra": "Costa",
+    "tipo": "sustantivo",
+    "significado": "Zona donde la tierra se encuentra con el mar."
+  },
+  {
+    "palabra": "Costilla",
+    "tipo": "sustantivo",
+    "significado": "Hueso curvo del pecho que ayuda a proteger órganos como los pulmones."
+  },
+  {
+    "palabra": "Costumbre",
+    "tipo": "sustantivo",
+    "significado": "Manera de actuar que se repite y se vuelve habitual."
+  },
+  {
+    "palabra": "Cotidiano",
+    "tipo": "adjetivo",
+    "significado": "Que ocurre habitualmente o forma parte de cada día."
+  },
+  {
+    "palabra": "Crear",
+    "tipo": "verbo",
+    "significado": "Hacer que exista algo nuevo mediante ideas, trabajo o imaginación."
+  },
+  {
+    "palabra": "Crecer",
+    "tipo": "verbo",
+    "significado": "Aumentar de tamaño o desarrollarse."
+  },
+  {
+    "palabra": "Creer",
+    "tipo": "verbo",
+    "significado": "Pensar que algo es verdadero o confiar en alguien."
+  },
+  {
+    "palabra": "Crema",
+    "tipo": "sustantivo",
+    "significado": "Preparación suave y espesa que puede ser un alimento o un producto de cuidado."
+  },
+  {
+    "palabra": "Cresta",
+    "tipo": "sustantivo",
+    "significado": "Parte elevada de la cabeza de algunos animales o punto más alto de una ola."
+  },
+  {
+    "palabra": "Cría",
+    "tipo": "sustantivo",
+    "significado": "Animal que está en sus primeras etapas de vida."
+  },
+  {
+    "palabra": "Criar",
+    "tipo": "verbo",
+    "significado": "Cuidar y ayudar a crecer a una persona o un animal."
+  },
+  {
+    "palabra": "Criatura",
+    "tipo": "sustantivo",
+    "significado": "Ser vivo; también, ser imaginario de un relato."
+  },
+  {
+    "palabra": "Cristal",
+    "tipo": "sustantivo",
+    "significado": "Sólido con estructura interna ordenada; también se usa para nombrar ciertos vidrios."
+  },
+  {
+    "palabra": "Crónica",
+    "tipo": "sustantivo",
+    "significado": "Relato de acontecimientos presentado siguiendo su desarrollo en el tiempo."
+  },
+  {
+    "palabra": "Cruzar",
+    "tipo": "verbo",
+    "significado": "Pasar de un lado al otro o colocar elementos atravesados."
+  },
+  {
+    "palabra": "Crucero",
+    "tipo": "sustantivo",
+    "significado": "Viaje de recreo en barco o embarcación utilizada para realizarlo."
+  },
+  {
+    "palabra": "Crucigrama",
+    "tipo": "sustantivo",
+    "significado": "Juego en el que se escriben palabras cruzadas siguiendo pistas."
+  },
+  {
+    "palabra": "Crudo",
+    "tipo": "adjetivo",
+    "significado": "Que no ha sido cocinado."
+  },
+  {
+    "palabra": "Crujido",
+    "tipo": "sustantivo",
+    "significado": "Ruido que produce algo al romperse, rozarse o comprimirse."
+  },
+  {
+    "palabra": "Crustáceo",
+    "tipo": "sustantivo",
+    "significado": "Animal de cubierta externa resistente y patas articuladas, como el cangrejo."
+  },
+  {
+    "palabra": "Cruz",
+    "tipo": "sustantivo",
+    "significado": "Figura formada por dos líneas que se atraviesan."
+  },
+  {
+    "palabra": "Cuaderno",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de hojas unidas para escribir o dibujar."
+  },
+  {
+    "palabra": "Cuadrado",
+    "tipo": "sustantivo",
+    "significado": "Figura plana con cuatro lados iguales y cuatro ángulos rectos."
+  },
+  {
+    "palabra": "Cuadrícula",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de líneas que forman pequeños cuadrados."
+  },
+  {
+    "palabra": "Cuadro",
+    "tipo": "sustantivo",
+    "significado": "Obra pintada o dibujada; también, tabla que organiza información."
+  },
+  {
+    "palabra": "Cualidad",
+    "tipo": "sustantivo",
+    "significado": "Característica de una persona, animal o cosa."
+  },
+  {
+    "palabra": "Cuando",
+    "tipo": "adverbio",
+    "significado": "Palabra que relaciona una acción con el momento en que sucede."
+  },
+  {
+    "palabra": "Cuánto",
+    "tipo": "adverbio",
+    "significado": "Palabra que sirve para preguntar o expresar una cantidad."
+  },
+  {
+    "palabra": "Cuarto",
+    "tipo": "sustantivo",
+    "significado": "Habitación o cada parte de algo dividido en cuatro partes iguales."
+  },
+  {
+    "palabra": "Cuatro",
+    "tipo": "numeral",
+    "significado": "Número que viene después del tres y antes del cinco."
+  },
+  {
+    "palabra": "Cubeta",
+    "tipo": "sustantivo",
+    "significado": "Recipiente utilizado para contener líquidos u otros materiales."
+  },
+  {
+    "palabra": "Cubierto",
+    "tipo": "sustantivo",
+    "significado": "Utensilio para comer, como una cuchara, un tenedor o un cuchillo."
+  },
+  {
+    "palabra": "Cubo",
+    "tipo": "sustantivo",
+    "significado": "Cuerpo geométrico con seis caras cuadradas iguales; también, recipiente con asa."
+  },
+  {
+    "palabra": "Cubrir",
+    "tipo": "verbo",
+    "significado": "Poner algo encima de otra cosa para protegerla u ocultarla."
+  },
+  {
+    "palabra": "Cuchara",
+    "tipo": "sustantivo",
+    "significado": "Utensilio de mango y parte cóncava utilizado para comer o servir."
+  },
+  {
+    "palabra": "Cuchillo",
+    "tipo": "sustantivo",
+    "significado": "Herramienta con hoja afilada y mango utilizada para cortar."
+  },
+  {
+    "palabra": "Cuello",
+    "tipo": "sustantivo",
+    "significado": "Parte del cuerpo que une la cabeza con el tronco."
+  },
+  {
+    "palabra": "Cuenca",
+    "tipo": "sustantivo",
+    "significado": "Territorio cuyas aguas llegan a un mismo río o lago; también, ciertos huecos del cuerpo."
+  },
+  {
+    "palabra": "Cuenta",
+    "tipo": "sustantivo",
+    "significado": "Operación matemática, registro de dinero o perfil para utilizar un servicio."
+  },
+  {
+    "palabra": "Cuento",
+    "tipo": "sustantivo",
+    "significado": "Relato breve de acontecimientos reales o imaginarios."
+  },
+  {
+    "palabra": "Cuerda",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de fibras unidas que sirve para atar, sujetar o producir sonidos musicales."
+  },
+  {
+    "palabra": "Cuerno",
+    "tipo": "sustantivo",
+    "significado": "Estructura dura que crece en la cabeza de ciertos animales."
+  },
+  {
+    "palabra": "Cuero",
+    "tipo": "sustantivo",
+    "significado": "Piel de animal preparada para fabricar objetos."
+  },
+  {
+    "palabra": "Cuerpo",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de partes físicas de un ser vivo."
+  },
+  {
+    "palabra": "Cuervo",
+    "tipo": "sustantivo",
+    "significado": "Ave de plumaje generalmente negro, conocida por su capacidad de aprender."
+  },
+  {
+    "palabra": "Cuesta",
+    "tipo": "sustantivo",
+    "significado": "Terreno inclinado por el que se puede subir o bajar."
+  },
+  {
+    "palabra": "Cueva",
+    "tipo": "sustantivo",
+    "significado": "Hueco natural en la tierra o en una roca."
+  },
+  {
+    "palabra": "Cuidado",
+    "tipo": "sustantivo",
+    "significado": "Atención que se dedica a proteger o mantener algo en buen estado."
+  },
+  {
+    "palabra": "Cuidar",
+    "tipo": "verbo",
+    "significado": "Atender las necesidades de alguien o proteger algo."
+  },
+  {
+    "palabra": "Cultivar",
+    "tipo": "verbo",
+    "significado": "Preparar y cuidar plantas para que crezcan; también, desarrollar una habilidad."
+  },
+  {
+    "palabra": "Cultura",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de conocimientos, costumbres, expresiones y formas de vida de una comunidad."
+  },
+  {
+    "palabra": "Cumplir",
+    "tipo": "verbo",
+    "significado": "Hacer lo prometido o alcanzar una edad o un plazo."
+  },
+  {
+    "palabra": "Cumpleaños",
+    "tipo": "sustantivo",
+    "significado": "Fecha en que se recuerda el día del nacimiento de una persona."
+  },
+  {
+    "palabra": "Curiosidad",
+    "tipo": "sustantivo",
+    "significado": "Deseo de descubrir, conocer y comprender cosas."
+  },
+  {
+    "palabra": "Curva",
+    "tipo": "sustantivo",
+    "significado": "Línea o recorrido que cambia de dirección sin formar necesariamente esquinas."
+  },
+  {
+    "palabra": "César Vallejo",
+    "tipo": "personaje histórico",
+    "significado": "Poeta peruano que escribió sobre la vida, la solidaridad y los sentimientos humanos."
+  },
+  {
+    "palabra": "Ciro Alegría",
+    "tipo": "personaje histórico",
+    "significado": "Escritor peruano que contó historias sobre comunidades andinas y su relación con la tierra."
+  },
+  {
+    "palabra": "Clorinda Matto de Turner",
+    "tipo": "personaje histórico",
+    "significado": "Escritora peruana que defendió la educación y denunció injusticias contra las comunidades indígenas."
+  },
+  {
+    "palabra": "Chabuca Granda",
+    "tipo": "personaje histórico",
+    "significado": "Cantante y compositora peruana que creó canciones inspiradas en personas, paisajes y tradiciones."
+  },
+  {
+    "palabra": "Charles Darwin",
+    "tipo": "personaje histórico",
+    "significado": "Naturalista británico que estudió cómo cambian los seres vivos a través de las generaciones."
+  },
+  {
+    "palabra": "Carl Sagan",
+    "tipo": "personaje histórico",
+    "significado": "Astrónomo estadounidense que ayudó a muchas personas a conocer y disfrutar la ciencia del universo."
+  },
+  {
+    "palabra": "Caroline Herschel",
+    "tipo": "personaje histórico",
+    "significado": "Astrónoma que descubrió cometas y colaboró en importantes observaciones del cielo."
+  },
+  {
+    "palabra": "Claude Monet",
+    "tipo": "personaje histórico",
+    "significado": "Pintor francés que exploró cómo la luz cambia los colores de los paisajes."
+  },
+  {
+    "palabra": "Clara Schumann",
+    "tipo": "personaje histórico",
+    "significado": "Pianista y compositora alemana reconocida por sus interpretaciones y obras musicales."
+  },
+  {
+    "palabra": "Celia Cruz",
+    "tipo": "personaje histórico",
+    "significado": "Cantante cubana cuya voz y energía hicieron famosa su interpretación de la música salsa."
+  }
+]

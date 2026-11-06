@@ -1,0 +1,2502 @@
+[
+  {
+    "palabra": "Balbucear",
+    "tipo": "verbo",
+    "significado": "Pronunciar sonidos o palabras de manera poco clara, como cuando un bebé aprende a hablar."
+  },
+  {
+    "palabra": "Balbuceo",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de sonidos o palabras todavía poco claras."
+  },
+  {
+    "palabra": "Balcón",
+    "tipo": "sustantivo",
+    "significado": "Plataforma con barandilla que sobresale de la fachada de un edificio."
+  },
+  {
+    "palabra": "Balconada",
+    "tipo": "sustantivo",
+    "significado": "Balcón grande o conjunto de balcones unidos."
+  },
+  {
+    "palabra": "Balde",
+    "tipo": "sustantivo",
+    "significado": "Recipiente con asa que sirve para transportar agua u otras cosas."
+  },
+  {
+    "palabra": "Baldío",
+    "tipo": "adjetivo",
+    "significado": "Dicho de un terreno, que no está cultivado ni aprovechado."
+  },
+  {
+    "palabra": "Baldosa",
+    "tipo": "sustantivo",
+    "significado": "Pieza plana y resistente que se coloca en suelos o paredes."
+  },
+  {
+    "palabra": "Balear",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con las islas Baleares, situadas en el mar Mediterráneo."
+  },
+  {
+    "palabra": "Balido",
+    "tipo": "sustantivo",
+    "significado": "Sonido que hacen las ovejas y las cabras."
+  },
+  {
+    "palabra": "Balín",
+    "tipo": "sustantivo",
+    "significado": "Bolita metálica utilizada en mecanismos o como pequeño proyectil."
+  },
+  {
+    "palabra": "Baliza",
+    "tipo": "sustantivo",
+    "significado": "Señal que indica un camino, un límite o un peligro."
+  },
+  {
+    "palabra": "Balizar",
+    "tipo": "verbo",
+    "significado": "Colocar señales para marcar una ruta o advertir de un peligro."
+  },
+  {
+    "palabra": "Ballena",
+    "tipo": "sustantivo",
+    "significado": "Mamífero marino que respira aire; algunas especies alcanzan tamaños enormes."
+  },
+  {
+    "palabra": "Ballenato",
+    "tipo": "sustantivo",
+    "significado": "Cría de una ballena."
+  },
+  {
+    "palabra": "Ballenero",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con las ballenas o con su captura."
+  },
+  {
+    "palabra": "Ballesta",
+    "tipo": "sustantivo",
+    "significado": "Arma antigua con un arco sujeto a una base que lanzaba proyectiles."
+  },
+  {
+    "palabra": "Ballet",
+    "tipo": "sustantivo",
+    "significado": "Danza artística que combina movimientos precisos, música y expresión corporal."
+  },
+  {
+    "palabra": "Balneario",
+    "tipo": "sustantivo",
+    "significado": "Lugar preparado para bañarse o descansar junto al agua."
+  },
+  {
+    "palabra": "Balón",
+    "tipo": "sustantivo",
+    "significado": "Pelota, generalmente grande, utilizada en distintos deportes."
+  },
+  {
+    "palabra": "Baloncesto",
+    "tipo": "sustantivo",
+    "significado": "Deporte en el que dos equipos intentan introducir un balón en la canasta contraria."
+  },
+  {
+    "palabra": "Balonmano",
+    "tipo": "sustantivo",
+    "significado": "Deporte en el que se pasa un balón con las manos para marcar goles."
+  },
+  {
+    "palabra": "Balompié",
+    "tipo": "sustantivo",
+    "significado": "Otro nombre del fútbol."
+  },
+  {
+    "palabra": "Balonvolea",
+    "tipo": "sustantivo",
+    "significado": "Otro nombre del voleibol, deporte donde el balón pasa por encima de una red."
+  },
+  {
+    "palabra": "Balsa",
+    "tipo": "sustantivo",
+    "significado": "Embarcación plana; también es el nombre de un árbol de madera muy ligera."
+  },
+  {
+    "palabra": "Bálsamo",
+    "tipo": "sustantivo",
+    "significado": "Sustancia aromática usada en algunos productos; también, algo que proporciona alivio."
+  },
+  {
+    "palabra": "Balsámico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con un bálsamo o que produce una sensación de alivio."
+  },
+  {
+    "palabra": "Baluarte",
+    "tipo": "sustantivo",
+    "significado": "Parte fuerte de una fortificación; también, apoyo importante para una causa."
+  },
+  {
+    "palabra": "Bambalina",
+    "tipo": "sustantivo",
+    "significado": "Tira de tela que cuelga en lo alto de un escenario y oculta parte de su estructura."
+  },
+  {
+    "palabra": "Bambolear",
+    "tipo": "verbo",
+    "significado": "Mover de un lado a otro algo que parece poco estable."
+  },
+  {
+    "palabra": "Bamboleo",
+    "tipo": "sustantivo",
+    "significado": "Movimiento oscilante, como el de una mesa con una pata desigual."
+  },
+  {
+    "palabra": "Bambú",
+    "tipo": "sustantivo",
+    "significado": "Planta de tallos resistentes, generalmente huecos, que puede crecer muy alta."
+  },
+  {
+    "palabra": "Banana",
+    "tipo": "sustantivo",
+    "significado": "Fruta alargada y dulce, parecida al plátano y llamada así en muchos lugares."
+  },
+  {
+    "palabra": "Bananero",
+    "tipo": "sustantivo",
+    "significado": "Planta grande de hojas anchas que produce bananas."
+  },
+  {
+    "palabra": "Banca",
+    "tipo": "sustantivo",
+    "significado": "Asiento para varias personas; también, conjunto de bancos que ofrecen servicios financieros."
+  },
+  {
+    "palabra": "Bancal",
+    "tipo": "sustantivo",
+    "significado": "Porción de terreno preparada para cultivar, a veces en forma de terraza."
+  },
+  {
+    "palabra": "Bancario",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los bancos que guardan y prestan dinero."
+  },
+  {
+    "palabra": "Banco",
+    "tipo": "sustantivo",
+    "significado": "Asiento largo; también, entidad que ofrece servicios relacionados con el dinero."
+  },
+  {
+    "palabra": "Banda",
+    "tipo": "sustantivo",
+    "significado": "Grupo musical o tira larga de tela u otro material."
+  },
+  {
+    "palabra": "Bandada",
+    "tipo": "sustantivo",
+    "significado": "Grupo de aves que vuela o se desplaza junto."
+  },
+  {
+    "palabra": "Bandana",
+    "tipo": "sustantivo",
+    "significado": "Pañuelo que se lleva como adorno o protección en la cabeza o el cuello."
+  },
+  {
+    "palabra": "Bandeja",
+    "tipo": "sustantivo",
+    "significado": "Objeto plano con bordes que sirve para transportar o colocar cosas."
+  },
+  {
+    "palabra": "Bandera",
+    "tipo": "sustantivo",
+    "significado": "Tela con colores o símbolos que representa un país, grupo o institución."
+  },
+  {
+    "palabra": "Banderín",
+    "tipo": "sustantivo",
+    "significado": "Bandera pequeña, a menudo triangular."
+  },
+  {
+    "palabra": "Banderola",
+    "tipo": "sustantivo",
+    "significado": "Bandera pequeña o cartel alargado que cuelga de un soporte."
+  },
+  {
+    "palabra": "Bandido",
+    "tipo": "sustantivo",
+    "significado": "Persona que roba o actúa fuera de la ley, frecuente en relatos de aventuras."
+  },
+  {
+    "palabra": "Bandolera",
+    "tipo": "sustantivo",
+    "significado": "Correa que cruza el pecho para llevar una bolsa u otro objeto."
+  },
+  {
+    "palabra": "Bandoneón",
+    "tipo": "sustantivo",
+    "significado": "Instrumento de fuelle y botones muy utilizado en el tango."
+  },
+  {
+    "palabra": "Bandurria",
+    "tipo": "sustantivo",
+    "significado": "Instrumento pequeño de cuerdas que se toca con una púa."
+  },
+  {
+    "palabra": "Banquero",
+    "tipo": "sustantivo",
+    "significado": "Persona que dirige un banco o trabaja en negocios bancarios."
+  },
+  {
+    "palabra": "Banqueta",
+    "tipo": "sustantivo",
+    "significado": "Asiento pequeño sin respaldo; en algunos países, parte de la calle para caminar."
+  },
+  {
+    "palabra": "Banquete",
+    "tipo": "sustantivo",
+    "significado": "Comida especial con muchos invitados para celebrar algo."
+  },
+  {
+    "palabra": "Banquillo",
+    "tipo": "sustantivo",
+    "significado": "Banco pequeño o asiento donde esperan los suplentes de un equipo."
+  },
+  {
+    "palabra": "Bañador",
+    "tipo": "sustantivo",
+    "significado": "Prenda que se utiliza para nadar o bañarse."
+  },
+  {
+    "palabra": "Bañar",
+    "tipo": "verbo",
+    "significado": "Lavar el cuerpo con agua o introducirlo en ella."
+  },
+  {
+    "palabra": "Bañera",
+    "tipo": "sustantivo",
+    "significado": "Recipiente grande donde una persona puede bañarse."
+  },
+  {
+    "palabra": "Bañista",
+    "tipo": "sustantivo",
+    "significado": "Persona que se baña en una piscina, un río o el mar."
+  },
+  {
+    "palabra": "Baño",
+    "tipo": "sustantivo",
+    "significado": "Acción de bañarse o habitación destinada al aseo."
+  },
+  {
+    "palabra": "Baobab",
+    "tipo": "sustantivo",
+    "significado": "Árbol de tronco muy grueso que puede almacenar agua."
+  },
+  {
+    "palabra": "Baptisterio",
+    "tipo": "sustantivo",
+    "significado": "Lugar de una iglesia destinado a celebrar bautismos."
+  },
+  {
+    "palabra": "Baqueta",
+    "tipo": "sustantivo",
+    "significado": "Palillo que se utiliza para tocar tambores y otros instrumentos de percusión."
+  },
+  {
+    "palabra": "Bar",
+    "tipo": "sustantivo",
+    "significado": "Establecimiento donde se sirven bebidas y, a veces, comidas."
+  },
+  {
+    "palabra": "Baraja",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de cartas utilizado para jugar."
+  },
+  {
+    "palabra": "Barajar",
+    "tipo": "verbo",
+    "significado": "Mezclar las cartas o considerar varias posibilidades."
+  },
+  {
+    "palabra": "Baranda",
+    "tipo": "sustantivo",
+    "significado": "Protección colocada junto a una escalera, balcón o borde elevado."
+  },
+  {
+    "palabra": "Barandilla",
+    "tipo": "sustantivo",
+    "significado": "Barrera que protege de una caída y puede servir de apoyo."
+  },
+  {
+    "palabra": "Baratija",
+    "tipo": "sustantivo",
+    "significado": "Objeto pequeño de poco precio, usado muchas veces como adorno."
+  },
+  {
+    "palabra": "Barato",
+    "tipo": "adjetivo",
+    "significado": "Que cuesta poco dinero en comparación con otras opciones."
+  },
+  {
+    "palabra": "Barba",
+    "tipo": "sustantivo",
+    "significado": "Pelo que crece en la barbilla y las mejillas de algunas personas."
+  },
+  {
+    "palabra": "Barbacoa",
+    "tipo": "sustantivo",
+    "significado": "Forma de cocinar alimentos con calor de brasas o aparato usado para hacerlo."
+  },
+  {
+    "palabra": "Barbado",
+    "tipo": "adjetivo",
+    "significado": "Que tiene barba."
+  },
+  {
+    "palabra": "Barbaridad",
+    "tipo": "sustantivo",
+    "significado": "Acción muy desacertada; también se usa para indicar una cantidad enorme."
+  },
+  {
+    "palabra": "Bárbaro",
+    "tipo": "adjetivo",
+    "significado": "En el habla coloquial de algunos lugares, extraordinario o estupendo."
+  },
+  {
+    "palabra": "Barbecho",
+    "tipo": "sustantivo",
+    "significado": "Terreno de cultivo que se deja un tiempo sin sembrar."
+  },
+  {
+    "palabra": "Barbero",
+    "tipo": "sustantivo",
+    "significado": "Profesional que corta el cabello y arregla la barba."
+  },
+  {
+    "palabra": "Barbería",
+    "tipo": "sustantivo",
+    "significado": "Local donde se corta el cabello y se arregla la barba."
+  },
+  {
+    "palabra": "Barbilla",
+    "tipo": "sustantivo",
+    "significado": "Parte de la cara situada debajo de la boca."
+  },
+  {
+    "palabra": "Barbo",
+    "tipo": "sustantivo",
+    "significado": "Pez de agua dulce con pequeñas prolongaciones junto a la boca."
+  },
+  {
+    "palabra": "Barbudo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una barba abundante."
+  },
+  {
+    "palabra": "Barca",
+    "tipo": "sustantivo",
+    "significado": "Embarcación pequeña para desplazarse sobre el agua."
+  },
+  {
+    "palabra": "Barcaza",
+    "tipo": "sustantivo",
+    "significado": "Embarcación ancha y generalmente plana utilizada para transportar cargas."
+  },
+  {
+    "palabra": "Barco",
+    "tipo": "sustantivo",
+    "significado": "Vehículo que flota y permite viajar o transportar cosas por el agua."
+  },
+  {
+    "palabra": "Bardo",
+    "tipo": "sustantivo",
+    "significado": "Poeta de antiguas tradiciones que recitaba o cantaba historias."
+  },
+  {
+    "palabra": "Baremo",
+    "tipo": "sustantivo",
+    "significado": "Lista de criterios o puntos que ayuda a valorar algo."
+  },
+  {
+    "palabra": "Barítono",
+    "tipo": "sustantivo",
+    "significado": "Cantante cuya voz está entre la del tenor y la del bajo."
+  },
+  {
+    "palabra": "Barlovento",
+    "tipo": "sustantivo",
+    "significado": "Dirección o lado desde donde llega el viento."
+  },
+  {
+    "palabra": "Barniz",
+    "tipo": "sustantivo",
+    "significado": "Producto que forma una capa para proteger o dar brillo a una superficie."
+  },
+  {
+    "palabra": "Barnizar",
+    "tipo": "verbo",
+    "significado": "Cubrir una superficie con barniz."
+  },
+  {
+    "palabra": "Barómetro",
+    "tipo": "sustantivo",
+    "significado": "Instrumento que mide la presión del aire."
+  },
+  {
+    "palabra": "Barra",
+    "tipo": "sustantivo",
+    "significado": "Pieza alargada y rígida de metal, madera u otro material."
+  },
+  {
+    "palabra": "Barraca",
+    "tipo": "sustantivo",
+    "significado": "Construcción sencilla que puede servir como vivienda, almacén o puesto de feria."
+  },
+  {
+    "palabra": "Barranco",
+    "tipo": "sustantivo",
+    "significado": "Hendidura profunda del terreno, a menudo formada por el agua."
+  },
+  {
+    "palabra": "Barrer",
+    "tipo": "verbo",
+    "significado": "Limpiar el suelo con una escoba."
+  },
+  {
+    "palabra": "Barrera",
+    "tipo": "sustantivo",
+    "significado": "Objeto o dificultad que impide o limita el paso."
+  },
+  {
+    "palabra": "Barrica",
+    "tipo": "sustantivo",
+    "significado": "Recipiente de madera formado por piezas curvas, parecido a un barril."
+  },
+  {
+    "palabra": "Barricada",
+    "tipo": "sustantivo",
+    "significado": "Barrera hecha con objetos acumulados para impedir el paso."
+  },
+  {
+    "palabra": "Barriga",
+    "tipo": "sustantivo",
+    "significado": "Nombre cotidiano de la parte del cuerpo situada entre el pecho y la pelvis."
+  },
+  {
+    "palabra": "Barril",
+    "tipo": "sustantivo",
+    "significado": "Recipiente grande, generalmente redondeado, para almacenar líquidos u otros productos."
+  },
+  {
+    "palabra": "Barrilete",
+    "tipo": "sustantivo",
+    "significado": "En varios países, cometa de papel o tela que vuela sujeta por una cuerda."
+  },
+  {
+    "palabra": "Barrio",
+    "tipo": "sustantivo",
+    "significado": "Parte de una ciudad o pueblo donde vive una comunidad."
+  },
+  {
+    "palabra": "Barro",
+    "tipo": "sustantivo",
+    "significado": "Mezcla de tierra y agua que puede moldearse o ensuciar los zapatos."
+  },
+  {
+    "palabra": "Barroco",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con un estilo artístico que suele usar muchos detalles y adornos."
+  },
+  {
+    "palabra": "Barroso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene mucho barro."
+  },
+  {
+    "palabra": "Barrote",
+    "tipo": "sustantivo",
+    "significado": "Barra resistente que forma parte de una reja u otra estructura."
+  },
+  {
+    "palabra": "Barruntar",
+    "tipo": "verbo",
+    "significado": "Sospechar que algo va a ocurrir por ciertas señales."
+  },
+  {
+    "palabra": "Basalto",
+    "tipo": "sustantivo",
+    "significado": "Roca volcánica generalmente oscura que se forma cuando se enfría la lava."
+  },
+  {
+    "palabra": "Basar",
+    "tipo": "verbo",
+    "significado": "Apoyar una idea o una decisión en razones o información."
+  },
+  {
+    "palabra": "Báscula",
+    "tipo": "sustantivo",
+    "significado": "Aparato que se utiliza para saber cuánto pesa una persona u objeto."
+  },
+  {
+    "palabra": "Base",
+    "tipo": "sustantivo",
+    "significado": "Parte que sostiene algo o punto de partida de una idea."
+  },
+  {
+    "palabra": "Básico",
+    "tipo": "adjetivo",
+    "significado": "Fundamental o necesario para empezar a comprender o hacer algo."
+  },
+  {
+    "palabra": "Basílica",
+    "tipo": "sustantivo",
+    "significado": "Tipo de edificio antiguo y nombre que reciben algunas iglesias importantes."
+  },
+  {
+    "palabra": "Basquetbol",
+    "tipo": "sustantivo",
+    "significado": "Nombre del baloncesto utilizado en varios países."
+  },
+  {
+    "palabra": "Basta",
+    "tipo": "interjección",
+    "significado": "Palabra que expresa que algo debe detenerse o que ya es suficiente."
+  },
+  {
+    "palabra": "Bastante",
+    "tipo": "adverbio",
+    "significado": "En cantidad suficiente o considerable."
+  },
+  {
+    "palabra": "Bastar",
+    "tipo": "verbo",
+    "significado": "Ser suficiente para lo que se necesita."
+  },
+  {
+    "palabra": "Bastidor",
+    "tipo": "sustantivo",
+    "significado": "Armazón que sostiene una tela, una pieza o parte de una máquina."
+  },
+  {
+    "palabra": "Bastión",
+    "tipo": "sustantivo",
+    "significado": "Parte de una fortaleza que ayuda a defenderla."
+  },
+  {
+    "palabra": "Basto",
+    "tipo": "adjetivo",
+    "significado": "Que tiene una textura poco fina o un acabado poco delicado."
+  },
+  {
+    "palabra": "Bastón",
+    "tipo": "sustantivo",
+    "significado": "Palo preparado para ayudar a caminar o mantener el equilibrio."
+  },
+  {
+    "palabra": "Basura",
+    "tipo": "sustantivo",
+    "significado": "Materiales y objetos que se desechan porque ya no se utilizan."
+  },
+  {
+    "palabra": "Basurero",
+    "tipo": "sustantivo",
+    "significado": "Recipiente o lugar donde se deposita basura."
+  },
+  {
+    "palabra": "Bata",
+    "tipo": "sustantivo",
+    "significado": "Prenda amplia que puede proteger la ropa o usarse para estar cómodo."
+  },
+  {
+    "palabra": "Batalla",
+    "tipo": "sustantivo",
+    "significado": "Enfrentamiento entre grupos; también, esfuerzo prolongado ante una dificultad."
+  },
+  {
+    "palabra": "Batallón",
+    "tipo": "sustantivo",
+    "significado": "Grupo organizado de soldados; coloquialmente, grupo muy numeroso."
+  },
+  {
+    "palabra": "Batata",
+    "tipo": "sustantivo",
+    "significado": "Raíz comestible de sabor dulce, también llamada camote o boniato."
+  },
+  {
+    "palabra": "Bate",
+    "tipo": "sustantivo",
+    "significado": "Palo deportivo utilizado para golpear la pelota en juegos como el béisbol."
+  },
+  {
+    "palabra": "Batea",
+    "tipo": "sustantivo",
+    "significado": "Recipiente ancho y poco profundo que sirve para lavar o recoger materiales."
+  },
+  {
+    "palabra": "Bateador",
+    "tipo": "sustantivo",
+    "significado": "Jugador que intenta golpear una pelota con un bate."
+  },
+  {
+    "palabra": "Batear",
+    "tipo": "verbo",
+    "significado": "Golpear una pelota con un bate."
+  },
+  {
+    "palabra": "Batería",
+    "tipo": "sustantivo",
+    "significado": "Dispositivo que almacena energía eléctrica o conjunto de instrumentos de percusión."
+  },
+  {
+    "palabra": "Baterista",
+    "tipo": "sustantivo",
+    "significado": "Músico que toca la batería."
+  },
+  {
+    "palabra": "Batido",
+    "tipo": "sustantivo",
+    "significado": "Bebida preparada mezclando y triturando ingredientes, como leche y fruta."
+  },
+  {
+    "palabra": "Batidora",
+    "tipo": "sustantivo",
+    "significado": "Aparato que mezcla, bate o tritura alimentos."
+  },
+  {
+    "palabra": "Batir",
+    "tipo": "verbo",
+    "significado": "Mover y mezclar rápidamente una sustancia, como unos huevos."
+  },
+  {
+    "palabra": "Batuta",
+    "tipo": "sustantivo",
+    "significado": "Varilla que puede usar quien dirige una orquesta para indicar el ritmo."
+  },
+  {
+    "palabra": "Baúl",
+    "tipo": "sustantivo",
+    "significado": "Caja grande con tapa que sirve para guardar objetos."
+  },
+  {
+    "palabra": "Bautismo",
+    "tipo": "sustantivo",
+    "significado": "Ceremonia de algunas religiones que utiliza agua para recibir a una persona en su comunidad."
+  },
+  {
+    "palabra": "Bautizar",
+    "tipo": "verbo",
+    "significado": "Celebrar un bautismo o dar un nombre a algo."
+  },
+  {
+    "palabra": "Baya",
+    "tipo": "sustantivo",
+    "significado": "Tipo de fruto carnoso con semillas, como la uva."
+  },
+  {
+    "palabra": "Bayo",
+    "tipo": "adjetivo",
+    "significado": "De color amarillento claro, especialmente al describir el pelaje de un caballo."
+  },
+  {
+    "palabra": "Bazar",
+    "tipo": "sustantivo",
+    "significado": "Tienda o mercado donde se venden productos variados."
+  },
+  {
+    "palabra": "Bazo",
+    "tipo": "sustantivo",
+    "significado": "Órgano que ayuda a filtrar la sangre y participa en las defensas del cuerpo."
+  },
+  {
+    "palabra": "Beato",
+    "tipo": "sustantivo",
+    "significado": "Persona a la que la Iglesia católica reconoce un ejemplo especial de vida religiosa."
+  },
+  {
+    "palabra": "Bebé",
+    "tipo": "sustantivo",
+    "significado": "Niño o niña que está en la primera etapa de su vida."
+  },
+  {
+    "palabra": "Bebedero",
+    "tipo": "sustantivo",
+    "significado": "Lugar o recipiente preparado para beber agua."
+  },
+  {
+    "palabra": "Beber",
+    "tipo": "verbo",
+    "significado": "Tomar un líquido por la boca."
+  },
+  {
+    "palabra": "Bebida",
+    "tipo": "sustantivo",
+    "significado": "Líquido que se puede beber, como agua o jugo."
+  },
+  {
+    "palabra": "Beca",
+    "tipo": "sustantivo",
+    "significado": "Ayuda económica o de otro tipo para estudiar o investigar."
+  },
+  {
+    "palabra": "Becario",
+    "tipo": "sustantivo",
+    "significado": "Persona que recibe una beca."
+  },
+  {
+    "palabra": "Becerro",
+    "tipo": "sustantivo",
+    "significado": "Cría joven de la vaca."
+  },
+  {
+    "palabra": "Beduino",
+    "tipo": "sustantivo",
+    "significado": "Integrante de pueblos árabes con tradiciones de vida nómada en regiones desérticas."
+  },
+  {
+    "palabra": "Beige",
+    "tipo": "adjetivo",
+    "significado": "De un color marrón muy claro, parecido al de algunas arenas."
+  },
+  {
+    "palabra": "Béisbol",
+    "tipo": "sustantivo",
+    "significado": "Deporte de equipos en el que se golpea una pelota y se recorren bases."
+  },
+  {
+    "palabra": "Beisbolista",
+    "tipo": "sustantivo",
+    "significado": "Persona que juega al béisbol."
+  },
+  {
+    "palabra": "Bejuco",
+    "tipo": "sustantivo",
+    "significado": "Planta de tallos largos y flexibles que suele trepar sobre otras plantas."
+  },
+  {
+    "palabra": "Belén",
+    "tipo": "sustantivo",
+    "significado": "Representación del nacimiento de Jesús en la tradición cristiana."
+  },
+  {
+    "palabra": "Belga",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con Bélgica o con sus habitantes."
+  },
+  {
+    "palabra": "Belleza",
+    "tipo": "sustantivo",
+    "significado": "Cualidad que despierta admiración o agrado y puede apreciarse de distintas maneras."
+  },
+  {
+    "palabra": "Bello",
+    "tipo": "adjetivo",
+    "significado": "Que resulta hermoso o agradable para quien lo aprecia."
+  },
+  {
+    "palabra": "Bellota",
+    "tipo": "sustantivo",
+    "significado": "Fruto de árboles como el roble y la encina, con una pequeña cubierta en un extremo."
+  },
+  {
+    "palabra": "Beluga",
+    "tipo": "sustantivo",
+    "significado": "Cetáceo que de adulto suele ser blanco y habita en aguas frías del norte."
+  },
+  {
+    "palabra": "Bemol",
+    "tipo": "sustantivo",
+    "significado": "Signo musical que indica que una nota debe bajar un semitono."
+  },
+  {
+    "palabra": "Bendecir",
+    "tipo": "verbo",
+    "significado": "Pedir protección o bienestar para alguien según una creencia religiosa."
+  },
+  {
+    "palabra": "Bendición",
+    "tipo": "sustantivo",
+    "significado": "Deseo religioso de protección y bienestar; también, algo que produce gran alegría."
+  },
+  {
+    "palabra": "Benefactor",
+    "tipo": "sustantivo",
+    "significado": "Persona que ayuda a otras con recursos, acciones o apoyo."
+  },
+  {
+    "palabra": "Beneficencia",
+    "tipo": "sustantivo",
+    "significado": "Ayuda organizada para personas que necesitan apoyo."
+  },
+  {
+    "palabra": "Beneficiar",
+    "tipo": "verbo",
+    "significado": "Producir una mejora o una ayuda para alguien."
+  },
+  {
+    "palabra": "Beneficio",
+    "tipo": "sustantivo",
+    "significado": "Resultado favorable o ayuda que se obtiene de algo."
+  },
+  {
+    "palabra": "Benéfico",
+    "tipo": "adjetivo",
+    "significado": "Que hace bien o tiene como propósito ayudar."
+  },
+  {
+    "palabra": "Beneficioso",
+    "tipo": "adjetivo",
+    "significado": "Que aporta una mejora o un resultado favorable."
+  },
+  {
+    "palabra": "Benévolo",
+    "tipo": "adjetivo",
+    "significado": "Que muestra buena voluntad y comprensión hacia los demás."
+  },
+  {
+    "palabra": "Benigno",
+    "tipo": "adjetivo",
+    "significado": "Que resulta suave, favorable o poco dañino, según el contexto."
+  },
+  {
+    "palabra": "Bereber",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los pueblos amaziges del norte de África y sus lenguas."
+  },
+  {
+    "palabra": "Berenjena",
+    "tipo": "sustantivo",
+    "significado": "Fruto comestible, frecuentemente morado, que se utiliza como verdura."
+  },
+  {
+    "palabra": "Bergamota",
+    "tipo": "sustantivo",
+    "significado": "Fruto cítrico de piel aromática utilizada para obtener esencia."
+  },
+  {
+    "palabra": "Bergantín",
+    "tipo": "sustantivo",
+    "significado": "Antiguo barco de vela con dos mástiles."
+  },
+  {
+    "palabra": "Berilo",
+    "tipo": "sustantivo",
+    "significado": "Mineral del que existen variedades como la esmeralda y la aguamarina."
+  },
+  {
+    "palabra": "Berilio",
+    "tipo": "sustantivo",
+    "significado": "Elemento químico metálico y ligero que se utiliza en ciertos materiales especiales."
+  },
+  {
+    "palabra": "Bermejo",
+    "tipo": "adjetivo",
+    "significado": "De color rojizo."
+  },
+  {
+    "palabra": "Berrear",
+    "tipo": "verbo",
+    "significado": "Dar ciertos animales su voz; también, gritar muy fuerte."
+  },
+  {
+    "palabra": "Berrido",
+    "tipo": "sustantivo",
+    "significado": "Voz fuerte de algunos animales o grito intenso de una persona."
+  },
+  {
+    "palabra": "Berrinche",
+    "tipo": "sustantivo",
+    "significado": "Expresión intensa de enfado o frustración que puede incluir llanto y gritos."
+  },
+  {
+    "palabra": "Berro",
+    "tipo": "sustantivo",
+    "significado": "Planta comestible de hojas verdes que suele crecer en lugares con agua."
+  },
+  {
+    "palabra": "Berza",
+    "tipo": "sustantivo",
+    "significado": "Planta parecida a la col cuyas hojas se utilizan como alimento."
+  },
+  {
+    "palabra": "Besar",
+    "tipo": "verbo",
+    "significado": "Tocar con los labios para expresar cariño cuando la otra persona lo acepta."
+  },
+  {
+    "palabra": "Beso",
+    "tipo": "sustantivo",
+    "significado": "Gesto de tocar con los labios que puede expresar cariño o saludo."
+  },
+  {
+    "palabra": "Bestia",
+    "tipo": "sustantivo",
+    "significado": "Animal, especialmente uno grande; en los cuentos puede ser una criatura fantástica."
+  },
+  {
+    "palabra": "Bestiario",
+    "tipo": "sustantivo",
+    "significado": "Libro que describe animales reales o imaginarios."
+  },
+  {
+    "palabra": "Besugo",
+    "tipo": "sustantivo",
+    "significado": "Pez marino de ojos grandes y cuerpo plateado."
+  },
+  {
+    "palabra": "Beta",
+    "tipo": "sustantivo",
+    "significado": "Segunda letra del alfabeto griego; en informática, versión de un programa que aún se prueba."
+  },
+  {
+    "palabra": "Betabel",
+    "tipo": "sustantivo",
+    "significado": "Otro nombre de la remolacha, raíz comestible que suele ser de color rojo intenso."
+  },
+  {
+    "palabra": "Betún",
+    "tipo": "sustantivo",
+    "significado": "Producto que sirve para limpiar, proteger y dar brillo al calzado."
+  },
+  {
+    "palabra": "Biberón",
+    "tipo": "sustantivo",
+    "significado": "Recipiente con una tetina que puede utilizarse para alimentar a un bebé."
+  },
+  {
+    "palabra": "Biblia",
+    "tipo": "sustantivo",
+    "significado": "Colección de libros sagrados del cristianismo; parte de ellos también pertenece a la tradición judía."
+  },
+  {
+    "palabra": "Bíblico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la Biblia."
+  },
+  {
+    "palabra": "Bibliófilo",
+    "tipo": "sustantivo",
+    "significado": "Persona que siente un gran interés y cariño por los libros."
+  },
+  {
+    "palabra": "Bibliografía",
+    "tipo": "sustantivo",
+    "significado": "Lista de libros y otras fuentes utilizadas para estudiar un tema."
+  },
+  {
+    "palabra": "Bibliográfico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la descripción o la lista de libros y otras publicaciones."
+  },
+  {
+    "palabra": "Biblioteca",
+    "tipo": "sustantivo",
+    "significado": "Lugar o colección donde se organizan libros y otros materiales para consultar y aprender."
+  },
+  {
+    "palabra": "Bibliotecario",
+    "tipo": "sustantivo",
+    "significado": "Profesional que organiza una biblioteca y ayuda a encontrar información."
+  },
+  {
+    "palabra": "Bibliobús",
+    "tipo": "sustantivo",
+    "significado": "Vehículo preparado como biblioteca que lleva libros a distintos lugares."
+  },
+  {
+    "palabra": "Bicarbonato",
+    "tipo": "sustantivo",
+    "significado": "Nombre de ciertas sales; el de sodio se utiliza, entre otros usos, en repostería."
+  },
+  {
+    "palabra": "Bicéfalo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos cabezas, como algunas criaturas de los cuentos."
+  },
+  {
+    "palabra": "Bicentenarío",
+    "tipo": "adjetivo",
+    "significado": "Que tiene doscientos años."
+  },
+  {
+    "palabra": "Bicicleta",
+    "tipo": "sustantivo",
+    "significado": "Vehículo de dos ruedas que normalmente avanza al mover los pedales."
+  },
+  {
+    "palabra": "Bicicletería",
+    "tipo": "sustantivo",
+    "significado": "Tienda o taller donde se venden o reparan bicicletas."
+  },
+  {
+    "palabra": "Bicicross",
+    "tipo": "sustantivo",
+    "significado": "Deporte de carreras o habilidades en bicicleta sobre pistas con obstáculos."
+  },
+  {
+    "palabra": "Bicolor",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos colores."
+  },
+  {
+    "palabra": "Bicóncavo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene las dos caras curvadas hacia dentro."
+  },
+  {
+    "palabra": "Biconvexo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene las dos caras curvadas hacia fuera."
+  },
+  {
+    "palabra": "Bicho",
+    "tipo": "sustantivo",
+    "significado": "Nombre cotidiano para un animal, especialmente si es pequeño."
+  },
+  {
+    "palabra": "Bidimensional",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos dimensiones, como ancho y alto en un dibujo plano."
+  },
+  {
+    "palabra": "Bidireccional",
+    "tipo": "adjetivo",
+    "significado": "Que funciona o permite el paso en dos direcciones."
+  },
+  {
+    "palabra": "Bidón",
+    "tipo": "sustantivo",
+    "significado": "Recipiente resistente que sirve para guardar y transportar líquidos."
+  },
+  {
+    "palabra": "Biela",
+    "tipo": "sustantivo",
+    "significado": "Pieza que transmite movimiento en una máquina; las bicicletas tienen bielas unidas a los pedales."
+  },
+  {
+    "palabra": "Bien",
+    "tipo": "adverbio",
+    "significado": "De manera adecuada, agradable o saludable, según lo que se esté contando."
+  },
+  {
+    "palabra": "Bienal",
+    "tipo": "adjetivo",
+    "significado": "Que sucede cada dos años o dura dos años."
+  },
+  {
+    "palabra": "Bienestar",
+    "tipo": "sustantivo",
+    "significado": "Estado de comodidad y equilibrio físico, emocional y social."
+  },
+  {
+    "palabra": "Bienhechor",
+    "tipo": "sustantivo",
+    "significado": "Persona que hace el bien y ayuda a otras."
+  },
+  {
+    "palabra": "Bienio",
+    "tipo": "sustantivo",
+    "significado": "Periodo de dos años."
+  },
+  {
+    "palabra": "Bienvenida",
+    "tipo": "sustantivo",
+    "significado": "Recibimiento amable que se ofrece a quien llega."
+  },
+  {
+    "palabra": "Bienvenido",
+    "tipo": "adjetivo",
+    "significado": "Que es recibido con alegría o agrado."
+  },
+  {
+    "palabra": "Bifásico",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos fases o partes diferenciadas."
+  },
+  {
+    "palabra": "Bifocal",
+    "tipo": "adjetivo",
+    "significado": "Dicho de una lente, que permite enfocar a dos distancias distintas."
+  },
+  {
+    "palabra": "Bifurcación",
+    "tipo": "sustantivo",
+    "significado": "Punto donde un camino o conducto se divide en dos."
+  },
+  {
+    "palabra": "Bifurcarse",
+    "tipo": "verbo",
+    "significado": "Dividirse en dos ramas o caminos."
+  },
+  {
+    "palabra": "Bigote",
+    "tipo": "sustantivo",
+    "significado": "Pelo que crece sobre el labio superior; también, pelos largos del hocico de algunos animales."
+  },
+  {
+    "palabra": "Bigotudo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un bigote grande o abundante."
+  },
+  {
+    "palabra": "Bilateral",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos lados o en lo que participan dos partes."
+  },
+  {
+    "palabra": "Bilingüe",
+    "tipo": "adjetivo",
+    "significado": "Que utiliza dos lenguas."
+  },
+  {
+    "palabra": "Bilingüismo",
+    "tipo": "sustantivo",
+    "significado": "Uso de dos lenguas por una persona o una comunidad."
+  },
+  {
+    "palabra": "Bilis",
+    "tipo": "sustantivo",
+    "significado": "Líquido producido por el hígado que ayuda a digerir las grasas."
+  },
+  {
+    "palabra": "Billar",
+    "tipo": "sustantivo",
+    "significado": "Juego en el que se golpean bolas con un palo sobre una mesa especial."
+  },
+  {
+    "palabra": "Billete",
+    "tipo": "sustantivo",
+    "significado": "Pieza de papel usada como dinero o comprobante para realizar un viaje."
+  },
+  {
+    "palabra": "Billetera",
+    "tipo": "sustantivo",
+    "significado": "Objeto pequeño donde se guardan billetes, tarjetas y documentos."
+  },
+  {
+    "palabra": "Billón",
+    "tipo": "sustantivo",
+    "significado": "En español, cantidad equivalente a un millón de millones."
+  },
+  {
+    "palabra": "Bimestral",
+    "tipo": "adjetivo",
+    "significado": "Que sucede cada dos meses o dura dos meses."
+  },
+  {
+    "palabra": "Bimestre",
+    "tipo": "sustantivo",
+    "significado": "Periodo de dos meses."
+  },
+  {
+    "palabra": "Bimotor",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos motores."
+  },
+  {
+    "palabra": "Binario",
+    "tipo": "adjetivo",
+    "significado": "Formado por dos elementos; en informática, relacionado con los valores cero y uno."
+  },
+  {
+    "palabra": "Bingo",
+    "tipo": "sustantivo",
+    "significado": "Juego en el que se marcan en un cartón los números que van saliendo."
+  },
+  {
+    "palabra": "Binocular",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la visión de los dos ojos."
+  },
+  {
+    "palabra": "Binoculares",
+    "tipo": "sustantivo",
+    "significado": "Instrumento para mirar con ambos ojos y observar objetos lejanos con más detalle."
+  },
+  {
+    "palabra": "Binomio",
+    "tipo": "sustantivo",
+    "significado": "Expresión matemática de dos términos; también, pareja de elementos relacionados."
+  },
+  {
+    "palabra": "Biocombustible",
+    "tipo": "sustantivo",
+    "significado": "Combustible producido a partir de materiales de origen biológico."
+  },
+  {
+    "palabra": "Biodegradable",
+    "tipo": "adjetivo",
+    "significado": "Que puede ser descompuesto por seres vivos, como bacterias y hongos, bajo ciertas condiciones."
+  },
+  {
+    "palabra": "Biodiversidad",
+    "tipo": "sustantivo",
+    "significado": "Variedad de seres vivos, sus diferencias y los ambientes donde viven."
+  },
+  {
+    "palabra": "Bioenergía",
+    "tipo": "sustantivo",
+    "significado": "Energía obtenida de materiales de origen biológico."
+  },
+  {
+    "palabra": "Biografía",
+    "tipo": "sustantivo",
+    "significado": "Relato de la vida de una persona."
+  },
+  {
+    "palabra": "Biógrafo",
+    "tipo": "sustantivo",
+    "significado": "Persona que investiga y escribe la vida de alguien."
+  },
+  {
+    "palabra": "Biográfico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el relato de la vida de una persona."
+  },
+  {
+    "palabra": "Biología",
+    "tipo": "sustantivo",
+    "significado": "Ciencia que estudia los seres vivos."
+  },
+  {
+    "palabra": "Biológico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los seres vivos o con la biología."
+  },
+  {
+    "palabra": "Biólogo",
+    "tipo": "sustantivo",
+    "significado": "Científico que estudia los seres vivos y sus relaciones."
+  },
+  {
+    "palabra": "Bioluminiscencia",
+    "tipo": "sustantivo",
+    "significado": "Capacidad de algunos seres vivos de producir luz, como las luciérnagas."
+  },
+  {
+    "palabra": "Bioma",
+    "tipo": "sustantivo",
+    "significado": "Gran región natural con un clima y unos seres vivos característicos."
+  },
+  {
+    "palabra": "Biomasa",
+    "tipo": "sustantivo",
+    "significado": "Cantidad de materia de seres vivos en un lugar; también, material biológico usado como recurso."
+  },
+  {
+    "palabra": "Biomecánica",
+    "tipo": "sustantivo",
+    "significado": "Estudio de cómo se mueven y soportan fuerzas los cuerpos de los seres vivos."
+  },
+  {
+    "palabra": "Biometría",
+    "tipo": "sustantivo",
+    "significado": "Medición de características de los seres vivos, como las huellas dactilares."
+  },
+  {
+    "palabra": "Biónica",
+    "tipo": "sustantivo",
+    "significado": "Área que se inspira en los seres vivos para crear tecnología."
+  },
+  {
+    "palabra": "Bioquímica",
+    "tipo": "sustantivo",
+    "significado": "Ciencia que estudia las sustancias y las transformaciones químicas de los seres vivos."
+  },
+  {
+    "palabra": "Biosfera",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de los seres vivos y las zonas de la Tierra donde existe vida."
+  },
+  {
+    "palabra": "Biotecnología",
+    "tipo": "sustantivo",
+    "significado": "Uso de seres vivos o de sus componentes para crear productos y resolver problemas."
+  },
+  {
+    "palabra": "Biótico",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los seres vivos de un ambiente."
+  },
+  {
+    "palabra": "Biotopo",
+    "tipo": "sustantivo",
+    "significado": "Espacio con condiciones ambientales donde vive una comunidad de organismos."
+  },
+  {
+    "palabra": "Bípedo",
+    "tipo": "adjetivo",
+    "significado": "Que camina o se sostiene sobre dos patas o piernas."
+  },
+  {
+    "palabra": "Biplano",
+    "tipo": "sustantivo",
+    "significado": "Avión con dos pares de alas colocados uno sobre otro."
+  },
+  {
+    "palabra": "Birlar",
+    "tipo": "verbo",
+    "significado": "Quitar algo a otra persona sin permiso; es una palabra coloquial."
+  },
+  {
+    "palabra": "Birrete",
+    "tipo": "sustantivo",
+    "significado": "Gorro de forma particular que se utiliza en algunas ceremonias de graduación."
+  },
+  {
+    "palabra": "Bis",
+    "tipo": "adverbio",
+    "significado": "Indica repetición o una segunda aparición, como en un número de dirección."
+  },
+  {
+    "palabra": "Bisabuela",
+    "tipo": "sustantivo",
+    "significado": "Madre de uno de tus abuelos o abuelas."
+  },
+  {
+    "palabra": "Bisabuelo",
+    "tipo": "sustantivo",
+    "significado": "Padre de uno de tus abuelos o abuelas."
+  },
+  {
+    "palabra": "Bisagra",
+    "tipo": "sustantivo",
+    "significado": "Pieza que permite abrir y cerrar una puerta o tapa mediante un giro."
+  },
+  {
+    "palabra": "Bisectriz",
+    "tipo": "sustantivo",
+    "significado": "Línea que divide un ángulo en dos partes iguales."
+  },
+  {
+    "palabra": "Bisel",
+    "tipo": "sustantivo",
+    "significado": "Borde cortado en diagonal en lugar de formar una esquina recta."
+  },
+  {
+    "palabra": "Bisiesto",
+    "tipo": "adjetivo",
+    "significado": "Dicho de un año, que tiene 366 días y un 29 de febrero."
+  },
+  {
+    "palabra": "Bisílabo",
+    "tipo": "adjetivo",
+    "significado": "Que tiene dos sílabas, como casa."
+  },
+  {
+    "palabra": "Bismuto",
+    "tipo": "sustantivo",
+    "significado": "Elemento químico metálico que puede formar cristales de aspecto muy llamativo."
+  },
+  {
+    "palabra": "Bisnieto",
+    "tipo": "sustantivo",
+    "significado": "Hijo de un nieto o de una nieta."
+  },
+  {
+    "palabra": "Bisonte",
+    "tipo": "sustantivo",
+    "significado": "Mamífero grande y herbívoro, de cabeza fuerte y hombros elevados."
+  },
+  {
+    "palabra": "Bisturí",
+    "tipo": "sustantivo",
+    "significado": "Instrumento de corte muy preciso utilizado por profesionales de la salud."
+  },
+  {
+    "palabra": "Bisutería",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de adornos personales hechos generalmente con materiales no preciosos."
+  },
+  {
+    "palabra": "Bit",
+    "tipo": "sustantivo",
+    "significado": "Unidad de información digital que puede tener uno de dos valores: cero o uno."
+  },
+  {
+    "palabra": "Bitácora",
+    "tipo": "sustantivo",
+    "significado": "Registro de lo que sucede durante un viaje, proyecto o actividad."
+  },
+  {
+    "palabra": "Bivalvo",
+    "tipo": "sustantivo",
+    "significado": "Molusco protegido por una concha de dos piezas, como una almeja."
+  },
+  {
+    "palabra": "Bizarro",
+    "tipo": "adjetivo",
+    "significado": "Valiente o generoso; también puede significar extraño o fuera de lo común."
+  },
+  {
+    "palabra": "Bizcocho",
+    "tipo": "sustantivo",
+    "significado": "Preparación de repostería que suele ser dulce y esponjosa."
+  },
+  {
+    "palabra": "Blanco",
+    "tipo": "adjetivo",
+    "significado": "Del color de la nieve limpia o de una hoja de papel sin escribir."
+  },
+  {
+    "palabra": "Blancura",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de lo que es blanco."
+  },
+  {
+    "palabra": "Blandir",
+    "tipo": "verbo",
+    "significado": "Mover o levantar un objeto con la mano, generalmente para mostrarlo."
+  },
+  {
+    "palabra": "Blando",
+    "tipo": "adjetivo",
+    "significado": "Que cede fácilmente al presionarlo, como una almohada."
+  },
+  {
+    "palabra": "Blandura",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de algo que es suave o cede al tocarlo."
+  },
+  {
+    "palabra": "Blanquear",
+    "tipo": "verbo",
+    "significado": "Hacer que algo se vuelva más blanco."
+  },
+  {
+    "palabra": "Blanquecino",
+    "tipo": "adjetivo",
+    "significado": "Que tiene un tono cercano al blanco."
+  },
+  {
+    "palabra": "Blasón",
+    "tipo": "sustantivo",
+    "significado": "Escudo de armas que representa a una familia, ciudad o institución."
+  },
+  {
+    "palabra": "Blindaje",
+    "tipo": "sustantivo",
+    "significado": "Protección resistente que cubre un objeto o vehículo."
+  },
+  {
+    "palabra": "Blindar",
+    "tipo": "verbo",
+    "significado": "Proteger algo con una cubierta resistente o con medidas especiales."
+  },
+  {
+    "palabra": "Bloc",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de hojas unidas por un borde para escribir o dibujar."
+  },
+  {
+    "palabra": "Blog",
+    "tipo": "sustantivo",
+    "significado": "Sitio de internet donde se publican textos u otros contenidos de manera periódica."
+  },
+  {
+    "palabra": "Bloque",
+    "tipo": "sustantivo",
+    "significado": "Pieza compacta de un material o conjunto de elementos agrupados."
+  },
+  {
+    "palabra": "Bloquear",
+    "tipo": "verbo",
+    "significado": "Impedir un paso, un movimiento o el funcionamiento de algo."
+  },
+  {
+    "palabra": "Bloqueo",
+    "tipo": "sustantivo",
+    "significado": "Situación en la que algo no puede avanzar o funcionar."
+  },
+  {
+    "palabra": "Blusa",
+    "tipo": "sustantivo",
+    "significado": "Prenda que cubre la parte superior del cuerpo y suele ser de tela ligera."
+  },
+  {
+    "palabra": "Boa",
+    "tipo": "sustantivo",
+    "significado": "Serpiente que atrapa a sus presas enrollándose alrededor de ellas."
+  },
+  {
+    "palabra": "Bobina",
+    "tipo": "sustantivo",
+    "significado": "Rollo de hilo, cable u otro material enrollado alrededor de un soporte."
+  },
+  {
+    "palabra": "Bobinar",
+    "tipo": "verbo",
+    "significado": "Enrollar hilo, cable o cinta formando una bobina."
+  },
+  {
+    "palabra": "Boca",
+    "tipo": "sustantivo",
+    "significado": "Abertura por la que comemos y que también participa en el habla."
+  },
+  {
+    "palabra": "Bocacalle",
+    "tipo": "sustantivo",
+    "significado": "Entrada de una calle en el punto donde se une con otra."
+  },
+  {
+    "palabra": "Bocadillo",
+    "tipo": "sustantivo",
+    "significado": "Comida pequeña; en historietas, espacio donde aparecen las palabras de un personaje."
+  },
+  {
+    "palabra": "Bocado",
+    "tipo": "sustantivo",
+    "significado": "Porción de comida que cabe en la boca."
+  },
+  {
+    "palabra": "Bocanada",
+    "tipo": "sustantivo",
+    "significado": "Cantidad de aire, humo u otra sustancia que entra o sale de golpe."
+  },
+  {
+    "palabra": "Boceto",
+    "tipo": "sustantivo",
+    "significado": "Dibujo o plan sencillo que se hace antes de una obra más completa."
+  },
+  {
+    "palabra": "Bocha",
+    "tipo": "sustantivo",
+    "significado": "Bola utilizada en ciertos juegos y deportes."
+  },
+  {
+    "palabra": "Bochorno",
+    "tipo": "sustantivo",
+    "significado": "Calor pesado y sofocante; también, sensación intensa de vergüenza."
+  },
+  {
+    "palabra": "Bocina",
+    "tipo": "sustantivo",
+    "significado": "Aparato que produce un sonido para avisar; en algunos países, altavoz."
+  },
+  {
+    "palabra": "Boda",
+    "tipo": "sustantivo",
+    "significado": "Ceremonia y celebración en la que dos personas se casan."
+  },
+  {
+    "palabra": "Bodega",
+    "tipo": "sustantivo",
+    "significado": "Lugar para almacenar productos; en varios países, tienda de alimentos y artículos cotidianos."
+  },
+  {
+    "palabra": "Bodegón",
+    "tipo": "sustantivo",
+    "significado": "Pintura o fotografía de objetos, frutas, alimentos y otros elementos inmóviles."
+  },
+  {
+    "palabra": "Bofetada",
+    "tipo": "sustantivo",
+    "significado": "Golpe dado con la mano abierta en la cara de alguien."
+  },
+  {
+    "palabra": "Boga",
+    "tipo": "sustantivo",
+    "significado": "Nombre de varios peces; en la expresión en boga, significa que algo está de moda."
+  },
+  {
+    "palabra": "Bogar",
+    "tipo": "verbo",
+    "significado": "Mover una embarcación utilizando remos."
+  },
+  {
+    "palabra": "Bohío",
+    "tipo": "sustantivo",
+    "significado": "Vivienda tradicional de algunas regiones americanas, construida con materiales como madera y palma."
+  },
+  {
+    "palabra": "Boina",
+    "tipo": "sustantivo",
+    "significado": "Gorro redondo y flexible, normalmente sin visera."
+  },
+  {
+    "palabra": "Bola",
+    "tipo": "sustantivo",
+    "significado": "Objeto de forma redonda, como una canica."
+  },
+  {
+    "palabra": "Bolardo",
+    "tipo": "sustantivo",
+    "significado": "Poste resistente que limita el paso de vehículos o sirve para sujetar embarcaciones."
+  },
+  {
+    "palabra": "Boleadora",
+    "tipo": "sustantivo",
+    "significado": "Instrumento tradicional de cuerdas y bolas que se lanzaba para atrapar animales."
+  },
+  {
+    "palabra": "Bolear",
+    "tipo": "verbo",
+    "significado": "Lanzar bolas; en algunos países, limpiar y dar brillo a los zapatos."
+  },
+  {
+    "palabra": "Bolera",
+    "tipo": "sustantivo",
+    "significado": "Lugar preparado para jugar a los bolos."
+  },
+  {
+    "palabra": "Bolero",
+    "tipo": "sustantivo",
+    "significado": "Tipo de canción y baile; también, chaqueta corta."
+  },
+  {
+    "palabra": "Boleta",
+    "tipo": "sustantivo",
+    "significado": "Papel o documento que sirve como comprobante, entrada o registro."
+  },
+  {
+    "palabra": "Boletería",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde se venden entradas o pasajes."
+  },
+  {
+    "palabra": "Boletín",
+    "tipo": "sustantivo",
+    "significado": "Publicación breve que comunica noticias o información."
+  },
+  {
+    "palabra": "Boleto",
+    "tipo": "sustantivo",
+    "significado": "Comprobante que permite entrar a un espectáculo o realizar un viaje."
+  },
+  {
+    "palabra": "Boliche",
+    "tipo": "sustantivo",
+    "significado": "En algunos países, juego de bolos; en otros, un pequeño establecimiento."
+  },
+  {
+    "palabra": "Bólido",
+    "tipo": "sustantivo",
+    "significado": "Meteoro muy brillante; también se llama así a un vehículo muy rápido."
+  },
+  {
+    "palabra": "Bolígrafo",
+    "tipo": "sustantivo",
+    "significado": "Instrumento para escribir que libera tinta mediante una bolita en su punta."
+  },
+  {
+    "palabra": "Bolillo",
+    "tipo": "sustantivo",
+    "significado": "Pequeño palo para hacer encaje; en México, tipo de pan."
+  },
+  {
+    "palabra": "Bollo",
+    "tipo": "sustantivo",
+    "significado": "Pan o preparación de masa; también, abolladura en una superficie."
+  },
+  {
+    "palabra": "Bolo",
+    "tipo": "sustantivo",
+    "significado": "Pieza que se intenta derribar con una bola en el juego de bolos."
+  },
+  {
+    "palabra": "Bolsa",
+    "tipo": "sustantivo",
+    "significado": "Recipiente flexible que sirve para guardar y transportar cosas."
+  },
+  {
+    "palabra": "Bolsillo",
+    "tipo": "sustantivo",
+    "significado": "Pequeña bolsa cosida a una prenda para guardar objetos."
+  },
+  {
+    "palabra": "Bolso",
+    "tipo": "sustantivo",
+    "significado": "Objeto con asas o correa que sirve para llevar pertenencias."
+  },
+  {
+    "palabra": "Bomba",
+    "tipo": "sustantivo",
+    "significado": "Máquina que mueve líquidos o gases; la misma palabra también nombra un artefacto explosivo."
+  },
+  {
+    "palabra": "Bombacho",
+    "tipo": "adjetivo",
+    "significado": "Dicho de un pantalón, amplio y recogido por la parte inferior."
+  },
+  {
+    "palabra": "Bombardear",
+    "tipo": "verbo",
+    "significado": "Atacar lanzando explosivos; figuradamente, enviar muchas preguntas o mensajes seguidos."
+  },
+  {
+    "palabra": "Bombear",
+    "tipo": "verbo",
+    "significado": "Mover un líquido o gas mediante una bomba, como hace el corazón con la sangre."
+  },
+  {
+    "palabra": "Bombero",
+    "tipo": "sustantivo",
+    "significado": "Profesional que combate incendios y ayuda en rescates y emergencias."
+  },
+  {
+    "palabra": "Bombilla",
+    "tipo": "sustantivo",
+    "significado": "Objeto que produce luz eléctrica; también, tubo utilizado para beber mate."
+  },
+  {
+    "palabra": "Bombín",
+    "tipo": "sustantivo",
+    "significado": "Sombrero redondeado; también, pequeña bomba para inflar ruedas."
+  },
+  {
+    "palabra": "Bombo",
+    "tipo": "sustantivo",
+    "significado": "Tambor grande que produce sonidos graves."
+  },
+  {
+    "palabra": "Bombón",
+    "tipo": "sustantivo",
+    "significado": "Dulce pequeño, generalmente hecho con chocolate."
+  },
+  {
+    "palabra": "Bondad",
+    "tipo": "sustantivo",
+    "significado": "Disposición a tratar bien y ayudar a los demás."
+  },
+  {
+    "palabra": "Bondadoso",
+    "tipo": "adjetivo",
+    "significado": "Que actúa con amabilidad y desea el bienestar de otros."
+  },
+  {
+    "palabra": "Bonito",
+    "tipo": "adjetivo",
+    "significado": "Que resulta agradable o hermoso."
+  },
+  {
+    "palabra": "Boniato",
+    "tipo": "sustantivo",
+    "significado": "Raíz comestible y dulce, también llamada camote o batata."
+  },
+  {
+    "palabra": "Bono",
+    "tipo": "sustantivo",
+    "significado": "Documento o ayuda que permite recibir un servicio, una cantidad de dinero o un beneficio."
+  },
+  {
+    "palabra": "Bonsái",
+    "tipo": "sustantivo",
+    "significado": "Árbol cultivado con técnicas que lo mantienen pequeño y conservan su forma de árbol."
+  },
+  {
+    "palabra": "Boquiabierto",
+    "tipo": "adjetivo",
+    "significado": "Con la boca abierta, muchas veces por sorpresa."
+  },
+  {
+    "palabra": "Boquilla",
+    "tipo": "sustantivo",
+    "significado": "Parte de un instrumento o aparato que se coloca en la boca o dirige una salida."
+  },
+  {
+    "palabra": "Bordado",
+    "tipo": "sustantivo",
+    "significado": "Adorno realizado con hilos sobre una tela."
+  },
+  {
+    "palabra": "Bordar",
+    "tipo": "verbo",
+    "significado": "Decorar una tela formando dibujos con hilo y aguja."
+  },
+  {
+    "palabra": "Borde",
+    "tipo": "sustantivo",
+    "significado": "Parte exterior o límite de una superficie."
+  },
+  {
+    "palabra": "Bordear",
+    "tipo": "verbo",
+    "significado": "Ir por el borde de algo o rodearlo."
+  },
+  {
+    "palabra": "Bordillo",
+    "tipo": "sustantivo",
+    "significado": "Borde elevado que separa la acera de la calzada."
+  },
+  {
+    "palabra": "Bordo",
+    "tipo": "sustantivo",
+    "significado": "Lado de un barco; a bordo significa dentro de una embarcación u otro vehículo."
+  },
+  {
+    "palabra": "Boreal",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con el norte de la Tierra."
+  },
+  {
+    "palabra": "Boro",
+    "tipo": "sustantivo",
+    "significado": "Elemento químico presente en minerales y utilizado en materiales como algunos vidrios."
+  },
+  {
+    "palabra": "Borrador",
+    "tipo": "sustantivo",
+    "significado": "Objeto para borrar o primera versión de un texto o dibujo."
+  },
+  {
+    "palabra": "Borrar",
+    "tipo": "verbo",
+    "significado": "Quitar una marca, un dibujo o información guardada."
+  },
+  {
+    "palabra": "Borrasca",
+    "tipo": "sustantivo",
+    "significado": "Zona de baja presión del aire que suele traer nubes, viento o lluvia."
+  },
+  {
+    "palabra": "Borrascoso",
+    "tipo": "adjetivo",
+    "significado": "Que presenta tormentas o tiempo agitado."
+  },
+  {
+    "palabra": "Borrego",
+    "tipo": "sustantivo",
+    "significado": "Oveja joven."
+  },
+  {
+    "palabra": "Borroso",
+    "tipo": "adjetivo",
+    "significado": "Que no se ve con claridad o tiene los contornos poco definidos."
+  },
+  {
+    "palabra": "Bosque",
+    "tipo": "sustantivo",
+    "significado": "Lugar donde crecen muchos árboles y viven numerosos seres vivos."
+  },
+  {
+    "palabra": "Bosquejar",
+    "tipo": "verbo",
+    "significado": "Dibujar o explicar algo de manera sencilla antes de desarrollarlo."
+  },
+  {
+    "palabra": "Bosquejo",
+    "tipo": "sustantivo",
+    "significado": "Dibujo o explicación inicial que muestra las ideas principales."
+  },
+  {
+    "palabra": "Bostezo",
+    "tipo": "sustantivo",
+    "significado": "Movimiento involuntario de abrir mucho la boca e inspirar, frecuente con sueño."
+  },
+  {
+    "palabra": "Bostezar",
+    "tipo": "verbo",
+    "significado": "Abrir la boca e inspirar de forma involuntaria, a menudo por sueño."
+  },
+  {
+    "palabra": "Bota",
+    "tipo": "sustantivo",
+    "significado": "Calzado que cubre el pie y parte de la pierna."
+  },
+  {
+    "palabra": "Botánico",
+    "tipo": "sustantivo",
+    "significado": "Especialista que estudia las plantas."
+  },
+  {
+    "palabra": "Botánica",
+    "tipo": "sustantivo",
+    "significado": "Parte de la biología que estudia las plantas."
+  },
+  {
+    "palabra": "Botar",
+    "tipo": "verbo",
+    "significado": "Rebotar o hacer saltar una pelota; en muchos países, tirar o desechar algo."
+  },
+  {
+    "palabra": "Bote",
+    "tipo": "sustantivo",
+    "significado": "Embarcación pequeña, recipiente o salto de una pelota al rebotar."
+  },
+  {
+    "palabra": "Botella",
+    "tipo": "sustantivo",
+    "significado": "Recipiente de cuello estrecho que sirve para guardar líquidos."
+  },
+  {
+    "palabra": "Botellón",
+    "tipo": "sustantivo",
+    "significado": "Botella grande, utilizada por ejemplo para almacenar agua."
+  },
+  {
+    "palabra": "Boticario",
+    "tipo": "sustantivo",
+    "significado": "Nombre tradicional de la persona que prepara o vende medicamentos en una botica."
+  },
+  {
+    "palabra": "Botica",
+    "tipo": "sustantivo",
+    "significado": "Establecimiento donde se preparan o venden medicamentos."
+  },
+  {
+    "palabra": "Botiquín",
+    "tipo": "sustantivo",
+    "significado": "Caja o armario con materiales para atender pequeñas lesiones y otras necesidades de salud."
+  },
+  {
+    "palabra": "Botín",
+    "tipo": "sustantivo",
+    "significado": "Bota de caña corta; también, conjunto de objetos obtenidos en un saqueo."
+  },
+  {
+    "palabra": "Botón",
+    "tipo": "sustantivo",
+    "significado": "Pieza que abrocha una prenda o se pulsa para activar una función."
+  },
+  {
+    "palabra": "Botonadura",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de botones de una prenda."
+  },
+  {
+    "palabra": "Bóveda",
+    "tipo": "sustantivo",
+    "significado": "Techo curvo; también, habitación especialmente protegida para guardar objetos valiosos."
+  },
+  {
+    "palabra": "Bovino",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con animales como las vacas, los toros y los bueyes."
+  },
+  {
+    "palabra": "Boxeo",
+    "tipo": "sustantivo",
+    "significado": "Deporte de combate con guantes, reglas y supervisión."
+  },
+  {
+    "palabra": "Boyar",
+    "tipo": "verbo",
+    "significado": "Flotar o mantenerse sobre el agua."
+  },
+  {
+    "palabra": "Boya",
+    "tipo": "sustantivo",
+    "significado": "Objeto flotante que señala un lugar o ayuda a sostener algo en el agua."
+  },
+  {
+    "palabra": "Bozal",
+    "tipo": "sustantivo",
+    "significado": "Accesorio que se coloca en el hocico de ciertos animales para impedir que muerdan."
+  },
+  {
+    "palabra": "Bracear",
+    "tipo": "verbo",
+    "significado": "Mover los brazos repetidamente, por ejemplo al nadar."
+  },
+  {
+    "palabra": "Bramar",
+    "tipo": "verbo",
+    "significado": "Emitir una voz fuerte algunos animales, como los toros."
+  },
+  {
+    "palabra": "Bramido",
+    "tipo": "sustantivo",
+    "significado": "Sonido fuerte y profundo de algunos animales."
+  },
+  {
+    "palabra": "Branquia",
+    "tipo": "sustantivo",
+    "significado": "Órgano que permite a muchos animales acuáticos obtener oxígeno del agua."
+  },
+  {
+    "palabra": "Brasa",
+    "tipo": "sustantivo",
+    "significado": "Trozo de material que sigue muy caliente y encendido aunque no tenga llama."
+  },
+  {
+    "palabra": "Brasero",
+    "tipo": "sustantivo",
+    "significado": "Recipiente o aparato que produce calor y tradicionalmente contenía brasas."
+  },
+  {
+    "palabra": "Bravo",
+    "tipo": "adjetivo",
+    "significado": "Valiente o de carácter fuerte; aplicado al mar, muy agitado."
+  },
+  {
+    "palabra": "Bravura",
+    "tipo": "sustantivo",
+    "significado": "Valor o energía para afrontar una dificultad."
+  },
+  {
+    "palabra": "Brazada",
+    "tipo": "sustantivo",
+    "significado": "Movimiento de los brazos al nadar o cantidad que cabe entre ambos brazos."
+  },
+  {
+    "palabra": "Brazalete",
+    "tipo": "sustantivo",
+    "significado": "Aro o banda que se lleva alrededor del brazo o la muñeca."
+  },
+  {
+    "palabra": "Brazo",
+    "tipo": "sustantivo",
+    "significado": "Extremidad superior del cuerpo humano, desde el hombro hasta la mano en el uso cotidiano."
+  },
+  {
+    "palabra": "Brea",
+    "tipo": "sustantivo",
+    "significado": "Sustancia oscura y espesa utilizada para proteger o impermeabilizar superficies."
+  },
+  {
+    "palabra": "Brecha",
+    "tipo": "sustantivo",
+    "significado": "Abertura en una pared o diferencia importante entre dos situaciones."
+  },
+  {
+    "palabra": "Breve",
+    "tipo": "adjetivo",
+    "significado": "Que dura poco o ocupa poco espacio."
+  },
+  {
+    "palabra": "Brevedad",
+    "tipo": "sustantivo",
+    "significado": "Cualidad de algo que dura poco o se expresa con pocas palabras."
+  },
+  {
+    "palabra": "Brida",
+    "tipo": "sustantivo",
+    "significado": "Correa para guiar un caballo o tira que sirve para sujetar objetos."
+  },
+  {
+    "palabra": "Brigada",
+    "tipo": "sustantivo",
+    "significado": "Grupo organizado para realizar una tarea, como ayudar en una emergencia."
+  },
+  {
+    "palabra": "Brillante",
+    "tipo": "adjetivo",
+    "significado": "Que refleja o produce mucha luz; también, que destaca por su calidad."
+  },
+  {
+    "palabra": "Brillar",
+    "tipo": "verbo",
+    "significado": "Emitir o reflejar luz."
+  },
+  {
+    "palabra": "Brillo",
+    "tipo": "sustantivo",
+    "significado": "Luz que emite o refleja algo."
+  },
+  {
+    "palabra": "Brincar",
+    "tipo": "verbo",
+    "significado": "Saltar levantando el cuerpo del suelo."
+  },
+  {
+    "palabra": "Brinco",
+    "tipo": "sustantivo",
+    "significado": "Salto rápido."
+  },
+  {
+    "palabra": "Brindar",
+    "tipo": "verbo",
+    "significado": "Ofrecer algo a alguien o expresar un buen deseo levantando una bebida."
+  },
+  {
+    "palabra": "Brío",
+    "tipo": "sustantivo",
+    "significado": "Energía, ánimo y fuerza para actuar."
+  },
+  {
+    "palabra": "Brisa",
+    "tipo": "sustantivo",
+    "significado": "Viento suave."
+  },
+  {
+    "palabra": "Broca",
+    "tipo": "sustantivo",
+    "significado": "Pieza de un taladro que gira para hacer agujeros."
+  },
+  {
+    "palabra": "Brocha",
+    "tipo": "sustantivo",
+    "significado": "Herramienta de pelos o fibras que sirve para extender pintura u otros productos."
+  },
+  {
+    "palabra": "Broche",
+    "tipo": "sustantivo",
+    "significado": "Pieza que une o cierra algo; también, adorno que se prende en la ropa."
+  },
+  {
+    "palabra": "Brócoli",
+    "tipo": "sustantivo",
+    "significado": "Verdura de tallos y grupos de flores verdes que se comen antes de abrirse."
+  },
+  {
+    "palabra": "Broma",
+    "tipo": "sustantivo",
+    "significado": "Acción o comentario para divertir, procurando que nadie resulte herido o humillado."
+  },
+  {
+    "palabra": "Bromear",
+    "tipo": "verbo",
+    "significado": "Hacer comentarios o acciones divertidas con respeto."
+  },
+  {
+    "palabra": "Bronce",
+    "tipo": "sustantivo",
+    "significado": "Mezcla metálica formada principalmente por cobre y estaño."
+  },
+  {
+    "palabra": "Bronquio",
+    "tipo": "sustantivo",
+    "significado": "Conducto que lleva aire desde la tráquea hacia un pulmón."
+  },
+  {
+    "palabra": "Brotar",
+    "tipo": "verbo",
+    "significado": "Empezar a salir una planta, una hoja o agua de un lugar."
+  },
+  {
+    "palabra": "Brote",
+    "tipo": "sustantivo",
+    "significado": "Nueva parte de una planta que empieza a crecer."
+  },
+  {
+    "palabra": "Brújula",
+    "tipo": "sustantivo",
+    "significado": "Instrumento que ayuda a orientarse mediante una aguja que señala aproximadamente el norte magnético."
+  },
+  {
+    "palabra": "Bruma",
+    "tipo": "sustantivo",
+    "significado": "Niebla, especialmente la que se forma cerca del mar."
+  },
+  {
+    "palabra": "Brusco",
+    "tipo": "adjetivo",
+    "significado": "Repentino o realizado con poca suavidad."
+  },
+  {
+    "palabra": "Bucear",
+    "tipo": "verbo",
+    "significado": "Desplazarse bajo el agua."
+  },
+  {
+    "palabra": "Bucle",
+    "tipo": "sustantivo",
+    "significado": "Forma curva que vuelve sobre sí misma; en programación, instrucciones que se repiten."
+  },
+  {
+    "palabra": "Bucal",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con la boca."
+  },
+  {
+    "palabra": "Bucólico",
+    "tipo": "adjetivo",
+    "significado": "Que recuerda una vida tranquila en el campo."
+  },
+  {
+    "palabra": "Budín",
+    "tipo": "sustantivo",
+    "significado": "Preparación generalmente dulce que puede hacerse con pan, leche, huevos y otros ingredientes."
+  },
+  {
+    "palabra": "Bueno",
+    "tipo": "adjetivo",
+    "significado": "Que resulta adecuado, agradable o beneficioso."
+  },
+  {
+    "palabra": "Buey",
+    "tipo": "sustantivo",
+    "significado": "Macho bovino castrado, utilizado tradicionalmente para trabajos del campo."
+  },
+  {
+    "palabra": "Búfalo",
+    "tipo": "sustantivo",
+    "significado": "Mamífero herbívoro grande de la familia de los bóvidos, con cuernos."
+  },
+  {
+    "palabra": "Bufanda",
+    "tipo": "sustantivo",
+    "significado": "Prenda larga que se coloca alrededor del cuello para abrigarse."
+  },
+  {
+    "palabra": "Bufar",
+    "tipo": "verbo",
+    "significado": "Expulsar aire con fuerza y ruido, como hacen algunos animales."
+  },
+  {
+    "palabra": "Bufido",
+    "tipo": "sustantivo",
+    "significado": "Sonido producido al expulsar aire de forma fuerte y repentina."
+  },
+  {
+    "palabra": "Bufón",
+    "tipo": "sustantivo",
+    "significado": "Artista que entretenía con bromas y habilidades, especialmente en antiguas cortes."
+  },
+  {
+    "palabra": "Buhardilla",
+    "tipo": "sustantivo",
+    "significado": "Habitación situada bajo un tejado inclinado."
+  },
+  {
+    "palabra": "Búho",
+    "tipo": "sustantivo",
+    "significado": "Ave cazadora, generalmente nocturna, con ojos orientados hacia delante y oído muy sensible."
+  },
+  {
+    "palabra": "Buitre",
+    "tipo": "sustantivo",
+    "significado": "Ave que se alimenta principalmente de animales muertos y ayuda a limpiar el ambiente."
+  },
+  {
+    "palabra": "Bulbo",
+    "tipo": "sustantivo",
+    "significado": "Parte subterránea de ciertas plantas que almacena alimento, como en la cebolla."
+  },
+  {
+    "palabra": "Bulla",
+    "tipo": "sustantivo",
+    "significado": "Ruido producido por muchas voces o movimientos."
+  },
+  {
+    "palabra": "Bullicio",
+    "tipo": "sustantivo",
+    "significado": "Ruido y actividad de un lugar con mucha gente."
+  },
+  {
+    "palabra": "Bullicioso",
+    "tipo": "adjetivo",
+    "significado": "Que produce mucho ruido o tiene mucha actividad."
+  },
+  {
+    "palabra": "Bulto",
+    "tipo": "sustantivo",
+    "significado": "Paquete, volumen que sobresale o forma que se ve sin distinguir sus detalles."
+  },
+  {
+    "palabra": "Bumerán",
+    "tipo": "sustantivo",
+    "significado": "Objeto curvo que se lanza; algunos modelos pueden volver cerca del punto de partida."
+  },
+  {
+    "palabra": "Buñuelo",
+    "tipo": "sustantivo",
+    "significado": "Porción de masa frita que puede ser dulce o salada."
+  },
+  {
+    "palabra": "Buque",
+    "tipo": "sustantivo",
+    "significado": "Barco grande y resistente utilizado para navegar y transportar personas o mercancías."
+  },
+  {
+    "palabra": "Burbuja",
+    "tipo": "sustantivo",
+    "significado": "Pequeña esfera de gas dentro de un líquido o rodeada por una película fina."
+  },
+  {
+    "palabra": "Burbujear",
+    "tipo": "verbo",
+    "significado": "Producir burbujas."
+  },
+  {
+    "palabra": "Burgalés",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con Burgos, una ciudad y provincia de España."
+  },
+  {
+    "palabra": "Buril",
+    "tipo": "sustantivo",
+    "significado": "Herramienta de punta dura utilizada para grabar materiales."
+  },
+  {
+    "palabra": "Burla",
+    "tipo": "sustantivo",
+    "significado": "Acción o comentario que intenta hacer reír a costa de alguien y puede lastimarlo."
+  },
+  {
+    "palabra": "Burlar",
+    "tipo": "verbo",
+    "significado": "Esquivar una dificultad o engañar; burlarse de alguien significa ridiculizarlo."
+  },
+  {
+    "palabra": "Burocracia",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de oficinas, normas y trámites que organizan una institución."
+  },
+  {
+    "palabra": "Burro",
+    "tipo": "sustantivo",
+    "significado": "Mamífero doméstico de orejas largas, resistente y pariente del caballo."
+  },
+  {
+    "palabra": "Bursátil",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con los mercados donde se compran y venden acciones y otros valores."
+  },
+  {
+    "palabra": "Busca",
+    "tipo": "sustantivo",
+    "significado": "Acción de buscar algo o a alguien."
+  },
+  {
+    "palabra": "Buscador",
+    "tipo": "sustantivo",
+    "significado": "Herramienta que ayuda a encontrar información, como un buscador de internet."
+  },
+  {
+    "palabra": "Buscar",
+    "tipo": "verbo",
+    "significado": "Intentar encontrar algo o a alguien."
+  },
+  {
+    "palabra": "Búsqueda",
+    "tipo": "sustantivo",
+    "significado": "Conjunto de acciones para encontrar algo."
+  },
+  {
+    "palabra": "Busto",
+    "tipo": "sustantivo",
+    "significado": "Escultura o representación de la cabeza y la parte superior del cuerpo."
+  },
+  {
+    "palabra": "Butaca",
+    "tipo": "sustantivo",
+    "significado": "Asiento cómodo con respaldo y, generalmente, apoyabrazos."
+  },
+  {
+    "palabra": "Butano",
+    "tipo": "sustantivo",
+    "significado": "Gas que se utiliza como combustible en algunos aparatos."
+  },
+  {
+    "palabra": "Buzo",
+    "tipo": "sustantivo",
+    "significado": "Persona que trabaja o explora bajo el agua; en algunos países, prenda deportiva."
+  },
+  {
+    "palabra": "Buzón",
+    "tipo": "sustantivo",
+    "significado": "Caja o espacio digital donde se reciben cartas y mensajes."
+  },
+  {
+    "palabra": "Byte",
+    "tipo": "sustantivo",
+    "significado": "Unidad de información informática formada normalmente por ocho bits."
+  },
+  {
+    "palabra": "Balaenóptera",
+    "tipo": "sustantivo",
+    "significado": "Ballena del grupo de los rorcuales, que tienen pliegues en la zona de la garganta."
+  },
+  {
+    "palabra": "Batracio",
+    "tipo": "sustantivo",
+    "significado": "Nombre tradicional para anfibios como las ranas y los sapos."
+  },
+  {
+    "palabra": "Branquial",
+    "tipo": "adjetivo",
+    "significado": "Relacionado con las branquias de los animales acuáticos."
+  },
+  {
+    "palabra": "Brotecillo",
+    "tipo": "sustantivo",
+    "significado": "Brote pequeño que empieza a crecer en una planta."
+  },
+  {
+    "palabra": "Bebible",
+    "tipo": "adjetivo",
+    "significado": "Que puede beberse o tiene condiciones adecuadas para ello."
+  },
+  {
+    "palabra": "Brumoso",
+    "tipo": "adjetivo",
+    "significado": "Que tiene bruma o niebla."
+  },
+  {
+    "palabra": "Borrasca tropical",
+    "tipo": "locución nominal",
+    "significado": "Zona de baja presión en una región tropical que puede producir lluvia y viento."
+  },
+  {
+    "palabra": "Bosque tropical",
+    "tipo": "locución nominal",
+    "significado": "Bosque de regiones cálidas cercanas al ecuador, con especies adaptadas a esas condiciones."
+  },
+  {
+    "palabra": "Bosque templado",
+    "tipo": "locución nominal",
+    "significado": "Bosque de regiones con temperaturas moderadas y cambios entre estaciones."
+  },
+  {
+    "palabra": "Ballena azul",
+    "tipo": "locución nominal",
+    "significado": "Mamífero marino que puede superar los treinta metros y es el animal más grande conocido."
+  },
+  {
+    "palabra": "Ballena jorobada",
+    "tipo": "locución nominal",
+    "significado": "Ballena de aletas pectorales largas, conocida por sus saltos y los cantos de los machos."
+  },
+  {
+    "palabra": "Biblioteca digital",
+    "tipo": "locución nominal",
+    "significado": "Colección organizada de libros y documentos que pueden consultarse mediante dispositivos electrónicos."
+  },
+  {
+    "palabra": "Base de datos",
+    "tipo": "locución nominal",
+    "significado": "Conjunto organizado de información que una computadora puede guardar, consultar y actualizar."
+  },
+  {
+    "palabra": "Botón de inicio",
+    "tipo": "locución nominal",
+    "significado": "Control que permite comenzar una actividad o regresar a una pantalla principal."
+  },
+  {
+    "palabra": "Blanca Varela",
+    "tipo": "personaje histórico",
+    "significado": "Poeta peruana que escribió obras reconocidas por su imaginación y su forma de explorar la vida."
+  },
+  {
+    "palabra": "Beatrix Potter",
+    "tipo": "personaje histórico",
+    "significado": "Escritora e ilustradora británica que creó cuentos de animales, como las aventuras de Peter Rabbit."
+  },
+  {
+    "palabra": "Blaise Pascal",
+    "tipo": "personaje histórico",
+    "significado": "Matemático y pensador francés que construyó una de las primeras calculadoras mecánicas."
+  },
+  {
+    "palabra": "Benjamin Franklin",
+    "tipo": "personaje histórico",
+    "significado": "Inventor, escritor y científico estadounidense que investigó la electricidad y desarrolló el pararrayos."
+  },
+  {
+    "palabra": "Barbara McClintock",
+    "tipo": "personaje histórico",
+    "significado": "Científica estadounidense que estudió el maíz y descubrió que algunos elementos genéticos pueden cambiar de lugar."
+  },
+  {
+    "palabra": "Berta Cáceres",
+    "tipo": "personaje histórico",
+    "significado": "Líder indígena hondureña que defendió los ríos, la naturaleza y los derechos de las comunidades."
+  },
+  {
+    "palabra": "Bertolt Brecht",
+    "tipo": "personaje histórico",
+    "significado": "Escritor alemán que creó obras de teatro y poemas para invitar a pensar sobre la sociedad."
+  },
+  {
+    "palabra": "Béla Bartók",
+    "tipo": "personaje histórico",
+    "significado": "Compositor y pianista húngaro que estudió canciones tradicionales y las incorporó a su música."
+  },
+  {
+    "palabra": "Bruno Mars",
+    "tipo": "artista",
+    "significado": "Cantante, compositor y músico estadounidense conocido por combinar distintos estilos de música popular."
+  },
+  {
+    "palabra": "Bugs Bunny",
+    "tipo": "personaje ficticio",
+    "significado": "Conejo de dibujos animados famoso por su ingenio y sus aventuras humorísticas."
+  }
+]
