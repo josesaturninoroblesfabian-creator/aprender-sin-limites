@@ -16,22 +16,7 @@ const MUSIC_TRACKS := [
 	"res://assets/audio/unir-imagen-musica-01.mp3",
 	"res://assets/audio/unir-imagen-musica-02.mp3"
 ]
-const WORDS_BY_LETTER := {
-	"A": ["Árbol|🌳", "Avión|✈️", "Abeja|🐝"], "B": ["Barco|🚢", "Balón|⚽", "Bicicleta|🚲"],
-	"C": ["Casa|🏠", "Conejo|🐇", "Cereza|🍒"], "D": ["Dado|🎲", "Delfín|🐬", "Dinosaurio|🦖"],
-	"E": ["Elefante|🐘", "Estrella|⭐", "Escoba|🧹"], "F": ["Flor|🌸", "Foca|🦭", "Flauta|🪈"],
-	"G": ["Gato|🐈", "Globo|🎈", "Guitarra|🎸"], "H": ["Helado|🍦", "Huevo|🥚", "Hormiga|🐜"],
-	"I": ["Isla|🏝️", "Iguana|🦎", "Imán|🧲"], "J": ["Jirafa|🦒", "Jabón|🧼", "Jardín|🌷"],
-	"K": ["Koala|🐨", "Kiwi|🥝", "Kimono|👘"], "L": ["León|🦁", "Luna|🌙", "Lápiz|✏️"],
-	"M": ["Manzana|🍎", "Mariposa|🦋", "Montaña|⛰️"], "N": ["Nube|☁️", "Naranja|🍊", "Nido|🪺"],
-	"Ñ": ["Ñandú|🐦", "Ñame|🍠", "Ñu|🦬"], "O": ["Oso|🐻", "Oveja|🐑", "Olla|🍲"],
-	"P": ["Perro|🐕", "Pelota|⚽", "Piña|🍍"], "Q": ["Queso|🧀", "Quena|🪈", "Quetzal|🐦"],
-	"R": ["Rana|🐸", "Reloj|⌚", "Robot|🤖"], "S": ["Sol|☀️", "Sandía|🍉", "Silla|🪑"],
-	"T": ["Tortuga|🐢", "Tren|🚂", "Tomate|🍅"], "U": ["Uva|🍇", "Unicornio|🦄", "Uniforme|👔"],
-	"V": ["Vaca|🐄", "Vela|🕯️", "Volcán|🌋"], "W": ["Wafle|🧇", "Wifi|📶", "Wok|🍳"],
-	"X": ["Xilófono|🎼", "Xoloitzcuintle|🐕", "Xenón|💡"], "Y": ["Yate|🛥️", "Yegua|🐎", "Yoyo|🪀"],
-	"Z": ["Zapato|👞", "Zorro|🦊", "Zanahoria|🥕"]
-}
+const WORDS_BY_LETTER := preload("res://scripts/language/illustrated_words.gd").WORDS_BY_LETTER
 
 class MatchBoard extends Control:
 	signal pair_checked(correct: bool, exercise_id: int)
@@ -494,6 +479,7 @@ func _setup_audio() -> void:
 	error_player = _audio_player("SonidoError", _make_tone_stream([220.0, 185.0], 0.13, 0.25))
 	click_player = _audio_player("SonidoClic", _make_tone_stream([660.0], 0.045, 0.18))
 	music_player = AudioStreamPlayer.new()
+	music_player.bus = "Music"
 	music_player.name = "MusicaDeFondo"
 	music_player.volume_db = -12.0
 	add_child(music_player)
@@ -521,6 +507,7 @@ func _setup_condor_intro() -> void:
 		condor_avatar.texture = condor_frames[0]
 	add_child(condor_avatar)
 	condor_audio = AudioStreamPlayer.new()
+	condor_audio.bus = "Voice"
 	condor_audio.name = "AudioPresentacionCondor"
 	condor_audio.stream = load(CONDOR_INTRO_AUDIO) as AudioStream
 	condor_audio.finished.connect(_on_condor_audio_finished)
@@ -569,6 +556,7 @@ func _on_condor_audio_finished() -> void:
 
 func _audio_player(player_name: String, stream: AudioStream) -> AudioStreamPlayer:
 	var player := AudioStreamPlayer.new()
+	player.bus = "Effects"
 	player.name = player_name
 	player.stream = stream
 	player.volume_db = -4.0

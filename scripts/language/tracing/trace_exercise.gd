@@ -114,6 +114,7 @@ func _build_screen() -> void:
 	_place(condor_avatar, -0.005, 0.34, 0.205, 0.47)
 	add_child(condor_avatar)
 	praise_audio = AudioStreamPlayer.new()
+	praise_audio.bus = "Voice"
 	for audio_path in PRAISE_AUDIO_PATHS:
 		var audio_stream := load(audio_path) as AudioStream
 		if audio_stream != null:
@@ -487,7 +488,7 @@ func _set_alphabet_buttons_enabled(enabled: bool) -> void:
 		(key_value as Button).disabled = not enabled
 
 func _show_settings_message() -> void:
-	result_label.text = "Audio local. Usa el altavoz para repetir."
+	SoundSettings.open_dialog(self)
 
 func _leave_screen() -> void:
 	Narration.stop()

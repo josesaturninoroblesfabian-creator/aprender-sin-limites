@@ -136,4 +136,7 @@ static func sound_dialog(parent: Control) -> void:
 	sample.pressed.connect(func(): StoryAudio.guide("welcome", parent))
 	stack.add_child(sample)
 	stack.add_child(label("Audio incluido. Funciona sin internet.", 17))
+	var general := button("Ajustes generales de sonido", Color("#7950b3"))
+	general.pressed.connect(func(): SoundSettings.open_dialog(parent))
+	stack.add_child(general)
 	close_modal_button(stack)

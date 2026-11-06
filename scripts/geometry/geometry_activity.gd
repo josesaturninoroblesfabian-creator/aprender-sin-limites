@@ -612,6 +612,9 @@ func _show_sound() -> void:
 	var sample := UI.button("Escuchar a la llama", Color("#177c70"))
 	sample.pressed.connect(func(): audio.speak(topic_id))
 	stack.add_child(sample)
+	var general := UI.button("Ajustes generales de sonido", Color("#71509d"), 20)
+	general.pressed.connect(func(): SoundSettings.open_dialog(self))
+	stack.add_child(general)
 	_close_button(stack)
 
 func _close_button(parent: Node) -> void:

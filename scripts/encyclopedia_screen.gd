@@ -3,28 +3,45 @@ extends Control
 signal navigate_requested(module_name: String)
 
 const UI = preload("res://scripts/math/math_ui.gd")
-const ART := "res://assets/ui/encyclopedia/encyclopedia-reference.jpg"
-const ART_SIZE := Vector2(1024, 682)
+const LearningGuide = preload("res://scripts/ui/learning_guide.gd")
+const EncyclopediaReader = preload("res://scripts/encyclopedia_reader.gd")
+const ART := "res://assets/ui/encyclopedia/encyclopedia-menu.jpg"
+const ART_SIZE := Vector2(1536, 1024)
 const SUBJECTS := {
-	"Historia Universal": Rect2(406, 196, 307, 152),
-	"Astronomía": Rect2(728, 202, 227, 134),
-	"Biología": Rect2(727, 339, 229, 135),
-	"Anatomía": Rect2(399, 384, 147, 212),
-	"Zoología": Rect2(549, 476, 410, 125),
+	"Historia Universal": Rect2(736, 304, 329, 193),
+	"Astronomía": Rect2(1097, 307, 330, 190),
+	"Biología": Rect2(1095, 511, 334, 198),
+	"Anatomía": Rect2(725, 508, 335, 199),
+	"Zoología": Rect2(713, 711, 716, 184),
+}
+const EXPLORER_PROMPTS := {
+	"Historia Universal": ["¿Qué usaban las personas para escribir hace mucho tiempo?", preload("res://assets/audio/guides/history.wav")],
+	"Astronomía": ["¿Por qué algunas noches vemos la Luna con una forma diferente?", preload("res://assets/audio/guides/astronomy.wav")],
+	"Biología": ["Piensa en una planta. ¿Qué necesita para crecer?", preload("res://assets/audio/guides/biology.wav")],
+	"Anatomía": ["Pon la mano sobre tu pecho. ¿Puedes sentir cómo late el corazón?", preload("res://assets/audio/guides/anatomy.wav")],
+	"Zoología": ["Piensa en dos animales. ¿En qué se parecen y en qué son diferentes?", preload("res://assets/audio/guides/zoology.wav")],
+}
+const BOOKS := {
+	"Anatomía": [["Atlas visual de anatomía", "atlas-visual"], ["Prometheus · Aparato locomotor", "prometheus"]],
+	"Astronomía": [["100 conceptos básicos de astronomía", "astronomia-100-conceptos"], ["El libro de la astronomía", "libro-astronomia"]],
+	"Zoología": [["Zoología para gestión ambiental", "zoologia"]],
+	"Historia Universal": [["El alba de la civilización", "alba-civilizacion"], ["Atlas de la historia universal", "atlas-historia-universal"]],
+	"Biología": [["Biología · Conceptos y fundamentos básicos", "biologia-fundamentos"]],
 }
 const SHORTCUTS := [
-	["Inicio", "", Rect2(5, 8, 94, 73)],
-	["Vocales", "Lenguaje", Rect2(5, 85, 94, 68)],
-	["Abecedario", "Lenguaje", Rect2(5, 157, 94, 72)],
-	["Números", "Números", Rect2(5, 232, 94, 72)],
-	["Matemáticas", "Matemática", Rect2(5, 307, 94, 72)],
-	["Geometría", "Geometría", Rect2(5, 382, 94, 72)],
-	["Diccionario", "Diccionario", Rect2(5, 457, 94, 66)],
-	["Cuentos", "Cuentos", Rect2(5, 601, 94, 72)],
+	["Inicio", "", Rect2(10, 15, 136, 100)],
+	["Vocales", "Lenguaje", Rect2(10, 128, 136, 98)],
+	["Abecedario", "Lenguaje", Rect2(10, 242, 136, 102)],
+	["Números", "Números", Rect2(10, 354, 136, 101)],
+	["Matemáticas", "Matemática", Rect2(10, 467, 136, 102)],
+	["Geometría", "Geometría", Rect2(10, 580, 136, 101)],
+	["Diccionario", "Diccionario", Rect2(10, 690, 136, 100)],
+	["Cuentos", "Cuentos", Rect2(10, 910, 136, 101)],
 ]
 var design: Control
-var dialog: Control
 var selected_button: Button
+var guide: LearningGuide
+var book_reader: EncyclopediaReader
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -40,9 +57,15 @@ func _ready() -> void:
 	design.add_child(picture)
 	for shortcut in SHORTCUTS:
 		_add_hotspot(shortcut[0], shortcut[2], navigate_requested.emit.bind(shortcut[1]))
-	_add_hotspot("Volver al inicio", Rect2(950, 4, 70, 72), navigate_requested.emit.bind(""))
+	_add_hotspot("Volver al inicio", Rect2(1428, 9, 100, 97), navigate_requested.emit.bind(""))
 	for subject in SUBJECTS:
 		_add_hotspot(subject, SUBJECTS[subject], _show_subject.bind(subject))
+	guide = LearningGuide.new()
+	guide.setup(true, preload("res://assets/audio/guides/encyclopedia-intro.wav"))
+	design.add_child(guide)
+	guide.animate_art(picture, Vector2(495, 407), Vector2(417, 368), Vector2(529, 326))
+	_add_hotspot("Escuchar a la guía de Enciclopedia", Rect2(261, 195, 365, 294), guide.play_intro)
+	guide.play_intro()
 	resized.connect(_fit_design)
 	_fit_design()
 
@@ -71,41 +94,33 @@ func _add_hotspot(label: String, area: Rect2, callback: Callable) -> void:
 	design.add_child(button)
 
 func _show_subject(subject: String) -> void:
-	if is_instance_valid(dialog):
+	if is_instance_valid(book_reader) or not BOOKS.has(subject):
 		return
 	selected_button = get_viewport().gui_get_focus_owner() as Button
-	dialog = ColorRect.new()
-	dialog.color = Color(0.04, 0.10, 0.18, 0.74)
-	dialog.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	add_child(dialog)
-	var center := CenterContainer.new()
-	center.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
-	dialog.add_child(center)
-	var content := UI.paper(center)
-	content.get_parent().custom_minimum_size.x = 370
-	content.add_child(UI.text(subject, 28))
-	content.add_child(UI.text("Contenido en preparación.", 21))
-	var close := UI.button("Volver a la Enciclopedia", UI.BLUE, 19)
-	close.pressed.connect(_close_subject)
-	content.add_child(close)
-	close.grab_focus()
-	for button in design.get_children():
-		if button is Button:
-			button.disabled = true
+	design.hide()
+	var prompt: Array = EXPLORER_PROMPTS[subject]
+	book_reader = EncyclopediaReader.new()
+	book_reader.subject = subject
+	book_reader.catalog = BOOKS[subject]
+	book_reader.prompt = prompt[0]
+	book_reader.repeat_prompt = guide.play_clip.bind(prompt[1])
+	book_reader.book_opened.connect(guide.stop)
+	book_reader.closed.connect(_close_subject)
+	add_child(book_reader)
+	guide.play_clip(prompt[1])
 
 func _close_subject() -> void:
-	dialog.queue_free()
-	dialog = null
-	for button in design.get_children():
-		if button is Button:
-			button.disabled = false
+	guide.stop()
+	book_reader.queue_free()
+	book_reader = null
+	design.show()
 	if is_instance_valid(selected_button):
 		selected_button.grab_focus()
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):
-		if is_instance_valid(dialog):
-			_close_subject()
+		if is_instance_valid(book_reader):
+			book_reader.back_requested()
 		else:
 			navigate_requested.emit("")
 		get_viewport().set_input_as_handled()

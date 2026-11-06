@@ -82,7 +82,10 @@ func _find_animation_player(parent: Node) -> AnimationPlayer:
 
 func _build_audio() -> void:
 	audio_player = AudioStreamPlayer.new()
-	audio_player.stream = load("res://assets/audio/audio-nino.mp3")
+	audio_player.bus = "Voice"
+	var voices = preload("res://scripts/audio/character_voices.gd")
+	audio_player.stream = voices.BOY_WELCOME
+	audio_player.pitch_scale = voices.BOY_PITCH
 	audio_player.finished.connect(_on_audio_finished)
 	add_child(audio_player)
 

@@ -211,26 +211,31 @@ func _ready() -> void:
 	rabbit_attack_texture = load(RABBIT_ATTACK_PATH) as Texture2D
 	rabbit_bullets_texture = load(RABBIT_BULLETS_PATH) as Texture2D
 	shotgun_player = AudioStreamPlayer.new()
+	shotgun_player.bus = "Effects"
 	shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
 	shotgun_player.volume_db = 3.0
 	add_child(shotgun_player)
 	for pool_index in range(4):
 		var ally_shotgun_player := AudioStreamPlayer.new()
+		ally_shotgun_player.bus = "Effects"
 		ally_shotgun_player.stream = load(SHOTGUN_SOUND_PATH) as AudioStream
 		ally_shotgun_player.volume_db = 3.0
 		add_child(ally_shotgun_player)
 		ally_shotgun_players.append(ally_shotgun_player)
 	player_hurt_player = AudioStreamPlayer.new()
+	player_hurt_player.bus = "Effects"
 	player_hurt_player.stream = load(PLAYER_HURT_SOUND_PATH) as AudioStream
 	player_hurt_player.volume_db = 9.0
 	add_child(player_hurt_player)
 	for sound_index in range(3):
 		var bomb_sound_player := AudioStreamPlayer.new()
+		bomb_sound_player.bus = "Effects"
 		bomb_sound_player.stream = load(BOMB_SOUND_PATH) as AudioStream
 		bomb_sound_player.volume_db = 3.0
 		add_child(bomb_sound_player)
 		bomb_sound_players.append(bomb_sound_player)
 	zombie_groan_player = AudioStreamPlayer2D.new()
+	zombie_groan_player.bus = "Effects"
 	zombie_groan_player.stream = load(ZOMBIE_GROAN_PATHS[0]) as AudioStream
 	zombie_groan_player.volume_db = 3.0
 	zombie_groan_player.max_distance = 1000.0
@@ -243,6 +248,7 @@ func _ready() -> void:
 	_setup_camera()
 	_reset_game()
 	music_player = AudioStreamPlayer.new()
+	music_player.bus = "Music"
 	music_player.volume_db = -2.0
 	music_player.finished.connect(_play_random_music)
 	add_child(music_player)

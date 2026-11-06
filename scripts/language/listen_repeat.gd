@@ -175,6 +175,7 @@ func _setup_microphone() -> void:
 		capture_effect.buffer_length = 1.0
 		AudioServer.add_bus_effect(bus_index, capture_effect)
 	microphone_player = AudioStreamPlayer.new()
+	microphone_player.add_to_group("recording_players")
 	microphone_player.name = "Microfono"
 	microphone_player.bus = record_bus_name
 	microphone_player.stream = AudioStreamMicrophone.new()
@@ -240,15 +241,18 @@ func _build_screen() -> void:
 	repeat_instructions_button.pressed.connect(_play_instructions)
 	guide.add_child(repeat_instructions_button)
 	instructions_player = AudioStreamPlayer.new()
+	instructions_player.bus = "Voice"
 	instructions_player.name = "AudioInstrucciones"
 	instructions_player.stream = load(INSTRUCTIONS_AUDIO_PATH) as AudioStream
 	instructions_player.finished.connect(_on_guidance_audio_finished)
 	add_child(instructions_player)
 	praise_player = AudioStreamPlayer.new()
+	praise_player.bus = "Voice"
 	praise_player.name = "AudioFelicitacion"
 	praise_player.finished.connect(_on_guidance_audio_finished)
 	add_child(praise_player)
 	final_audio_player = AudioStreamPlayer.new()
+	final_audio_player.bus = "Voice"
 	final_audio_player.name = "AudioFinal270"
 	final_audio_player.stream = load(FINAL_AUDIO_PATH) as AudioStream
 	final_audio_player.finished.connect(_on_guidance_audio_finished)

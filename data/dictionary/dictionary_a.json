@@ -1,4 +1,6 @@
 [
+  {"palabra":"Árbol","tipo":"sustantivo","significado":"Planta que tiene un tronco de madera del que salen ramas. Muchos árboles dan sombra, flores o frutos."},
+  {"palabra":"Avión","tipo":"sustantivo","significado":"Vehículo con alas y motores que vuela. Puede llevar personas o carga de un lugar a otro."},
   {
     "palabra": "Acera",
     "tipo": "sustantivo",

@@ -38,7 +38,7 @@ const ITEMS := [
 		"rect": Rect2(0.3625, 0.48, 0.125, 0.1375),
 	},
 	{
-		"name": "Configuración", "detail": "Sonido, idioma y accesibilidad",
+		"name": "Configuración", "detail": "Música, voces y efectos",
 		"icon": "res://assets/ui/menu/08_configuracion.png",
 		"rect": Rect2(0.5125, 0.48, 0.125, 0.1375),
 	},

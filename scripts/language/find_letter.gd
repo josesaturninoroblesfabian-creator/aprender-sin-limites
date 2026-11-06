@@ -146,9 +146,11 @@ func _build_screen() -> void:
 		alphabet_row.add_child(tile)
 
 	sound_player = AudioStreamPlayer.new()
+	sound_player.bus = "Effects"
 	sound_player.name = "Efectos"
 	add_child(sound_player)
 	music_player = AudioStreamPlayer.new()
+	music_player.bus = "Music"
 	music_player.name = "MusicaRetro"
 	music_player.stream = _make_tone_stream([523.25, 659.25, 783.99, 659.25, 587.33, 698.46, 880.0, 698.46, 523.25, 659.25, 783.99, 1046.5, 880.0, 783.99, 659.25, 523.25], 0.18, 0.095, true)
 	music_player.volume_db = -7.0

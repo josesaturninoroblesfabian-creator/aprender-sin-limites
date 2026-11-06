@@ -15,6 +15,7 @@ var spanish_fallback_voice: String = ""
 
 func _ready() -> void:
 	player = AudioStreamPlayer.new()
+	player.bus = "Voice"
 	player.finished.connect(_on_audio_finished)
 	add_child(player)
 	var data: Variant = JSON.parse_string(FileAccess.get_file_as_string(CATALOG_PATH))
@@ -67,13 +68,16 @@ func speak(clip_id: String, fallback_text: String) -> bool:
 			player.stream = stream
 			player.play()
 			return true
-	if spanish_voice.is_empty() or fallback_text.is_empty():
+	if spanish_voice.is_empty() or fallback_text.is_empty() or SoundSettings.tts_volume() == 0:
 		return false
 	current_clip = clip_id
-	DisplayServer.tts_speak(fallback_text, spanish_voice, 100, 1.0, 0.92, utterance, true)
+	DisplayServer.tts_speak(fallback_text, spanish_voice, SoundSettings.tts_volume(), 1.0, 0.92, utterance, true)
 	return true
 
 func speak_letter(clip_id: String, letter_name: String) -> bool:
+	if SoundSettings.tts_volume() == 0:
+		stop()
+		return false
 	# La B se nombra "ve" en esta actividad. Fuerza TTS para no reproducir
 	# el clip local defectuoso que la deletrea como "ebi".
 	if clip_id == "letter_01":
@@ -83,7 +87,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		if not b_voice.is_empty():
 			stop()
 			current_clip = clip_id
-			DisplayServer.tts_speak("ve", b_voice, 100, 1.0, 0.88, utterance, true)
+			DisplayServer.tts_speak("ve", b_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 			return true
 	var spoken_name := Q_TTS_PRONUNCIATION if clip_id == "letter_17" else letter_name
 	# Para Q, evita el audio grabado que algunos motores interpretan como dos
@@ -93,7 +97,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		if not q_voice.is_empty():
 			stop()
 			current_clip = clip_id
-			DisplayServer.tts_speak(spoken_name, q_voice, 100, 1.0, 0.88, utterance, true)
+			DisplayServer.tts_speak(spoken_name, q_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 			return true
 	# Si el sistema tiene una voz femenina española, úsala para los nombres de
 	# letras. Sin una voz compatible, reproducimos el audio local ya incluido.
@@ -101,7 +105,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		return speak(clip_id, spoken_name)
 	stop()
 	current_clip = clip_id
-	DisplayServer.tts_speak(spoken_name, spanish_female_voice, 100, 1.0, 0.88, utterance, true)
+	DisplayServer.tts_speak(spoken_name, spanish_female_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 	return true
 
 func stop() -> void:

@@ -12,12 +12,14 @@ var tones: Dictionary = {}
 
 func _ready() -> void:
 	player = AudioStreamPlayer.new()
+	player.bus = "Voice"
 	player.finished.connect(func():
 		current_id = ""
 		changed.emit()
 	)
 	add_child(player)
 	effects = AudioStreamPlayer.new()
+	effects.bus = "Effects"
 	add_child(effects)
 	reload_settings()
 	for id in ["tap", "correct", "retry", "star", "finish", "jump"]:

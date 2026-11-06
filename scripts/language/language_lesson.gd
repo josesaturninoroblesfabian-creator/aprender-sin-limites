@@ -151,6 +151,7 @@ func _build_screen() -> void:
 	repeat_guide.pressed.connect(_start_condor_intro)
 	instruction.add_child(repeat_guide)
 	condor_audio = AudioStreamPlayer.new()
+	condor_audio.bus = "Voice"
 	condor_audio.stream = load("res://assets/audio/audio-condor-bienvenida.mp3")
 	condor_audio.finished.connect(_on_condor_intro_finished)
 	add_child(condor_audio)
@@ -526,7 +527,7 @@ func _show_help() -> void:
 func _show_settings() -> void:
 	_stop_condor_intro()
 	_cancel_word_speech()
-	guide_message.text = "Las letras y palabras incluyen audio local. Puedes repetirlo con Escuchar."
+	SoundSettings.open_dialog(self)
 
 func _show_activity(activity_name: String) -> void:
 	_stop_condor_intro()

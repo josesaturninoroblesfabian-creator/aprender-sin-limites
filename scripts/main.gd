@@ -1,7 +1,7 @@
 extends Control
 
 const MenuCatalog = preload("res://scripts/menu/menu_catalog.gd")
-const IdleAssistant = preload("res://scripts/ui/idle_assistant.gd")
+const CharacterVoices = preload("res://scripts/audio/character_voices.gd")
 
 const GIRL_HELLO := "¡Bienvenido a Aprende sin Límites!"
 const BOY_HELLO := "¿Qué deseas aprender? Escoge el tema que quieres aprender."
@@ -21,6 +21,7 @@ var dialogue_label: Label
 var greeting_audio: AudioStreamPlayer
 var boy_intro_audio: AudioStreamPlayer
 var exit_audio: AudioStreamPlayer
+var boy_says_goodbye := false
 var speech_flow: String = ""
 var girl_mouth_open: bool = false
 var boy_mouth_open: bool = false
@@ -52,55 +53,27 @@ var story_mode := "read"
 func _ready() -> void:
 	_build_shell()
 	greeting_audio = AudioStreamPlayer.new()
+	greeting_audio.bus = "Voice"
 	greeting_audio.stream = load("res://assets/audio/bienvenida-nina.mp3")
 	greeting_audio.finished.connect(_on_girl_greeting_finished)
 	add_child(greeting_audio)
 	boy_intro_audio = AudioStreamPlayer.new()
-	boy_intro_audio.stream = load("res://assets/audio/audio-nino.mp3")
+	boy_intro_audio.bus = "Voice"
+	boy_intro_audio.stream = CharacterVoices.BOY_WELCOME
+	boy_intro_audio.pitch_scale = CharacterVoices.BOY_PITCH
 	boy_intro_audio.finished.connect(_on_boy_intro_finished)
 	add_child(boy_intro_audio)
 	exit_audio = AudioStreamPlayer.new()
-	exit_audio.stream = load("res://assets/audio/audio-despedida.mp3")
+	exit_audio.bus = "Voice"
 	exit_audio.finished.connect(_on_exit_audio_finished)
 	add_child(exit_audio)
 	_show_home()
+	if DisplayServer.get_name() != "headless":
+		SoundSettings.start_background()
 	_begin_welcome()
-	var assistant := IdleAssistant.new()
-	assistant.name = "IdleAssistant"
-	assistant.read_context = _assistant_context
-	add_child(assistant)
-
-func _assistant_context() -> Dictionary:
-	for screen in [reading_screen, language_screen]:
-		if is_instance_valid(screen) and screen.is_visible_in_tree():
-			if not screen.has_method("assistant_context"):
-				return {}
-			var context: Dictionary = screen.assistant_context()
-			if not context.is_empty():
-				context.id = "%d:%s" % [screen.get_instance_id(), context.id]
-			return context
-	if is_instance_valid(cuentos_selector_screen) and cuentos_selector_screen.visible:
-		return {
-			"id": "library:" + story_mode,
-			"hint": "Toca la portada de un cuento para empezar.",
-			"busy": StoryAudio.speaking() or cuentos_selector_screen.has_node("StoryModal"),
-		}
-	if is_instance_valid(cuentos_menu_screen) and cuentos_menu_screen.visible:
-		return {
-			"id": "stories_menu",
-			"hint": "Puedes leer un cuento, escucharlo o jugar con lo que pasó en la historia.",
-			"busy": StoryAudio.speaking() or cuentos_menu_screen.has_node("StoryModal"),
-		}
-	if menu_overlay.visible:
-		return {
-			"id": "home",
-			"hint": "Toca el dibujo de lo que quieras aprender. ¿Letras, números o un cuento?",
-			"busy": not speech_flow.is_empty(),
-		}
-	return {}
 
 func _process(delta: float) -> void:
-	if speech_flow == "exit" and exit_audio != null and exit_audio.playing and not exit_gif_frames.is_empty():
+	if speech_flow == "exit" and not boy_says_goodbye and exit_audio != null and exit_audio.playing and not exit_gif_frames.is_empty():
 		exit_gif_frame_clock += delta
 		if exit_gif_frame_clock >= exit_gif_frame_interval:
 			exit_gif_frame_clock = 0.0
@@ -114,7 +87,9 @@ func _process(delta: float) -> void:
 			_show_gif_frame(girl_talking_frame_index)
 	elif girl_mouth_open:
 		_set_girl_mouth(false)
-	if boy_intro_audio != null and boy_intro_audio.playing and not boy_gif_frames.is_empty():
+	var boy_is_speaking := boy_intro_audio != null and boy_intro_audio.playing
+	boy_is_speaking = boy_is_speaking or (boy_says_goodbye and exit_audio.playing)
+	if boy_is_speaking and not boy_gif_frames.is_empty():
 		boy_gif_frame_clock += delta
 		if boy_gif_frame_clock >= boy_gif_frame_interval:
 			boy_gif_frame_clock = 0.0
@@ -266,7 +241,7 @@ func _on_girl_greeting_finished() -> void:
 	boy_gif_frame_index = 0
 	_show_boy_gif_frame(0)
 	if boy_intro_audio.stream != null and boy_intro_audio.stream.get_length() > 0.0:
-		boy_gif_frame_interval = boy_intro_audio.stream.get_length() / boy_gif_frames.size()
+		boy_gif_frame_interval = boy_intro_audio.stream.get_length() / (boy_gif_frames.size() * boy_intro_audio.pitch_scale)
 	boy_intro_audio.play()
 
 func _on_boy_intro_finished() -> void:
@@ -395,13 +370,16 @@ func _menu_selection(module_name: String) -> void:
 		dialogue_box.visible = false
 		_set_girl_mouth(false)
 		_set_boy_mouth(false)
-	var details := "Sonido, idioma y accesibilidad"
+	var details := ""
 	for item in MenuCatalog.ITEMS:
 		if item.name == module_name:
 			details = item.detail
 	_open_module(module_name, details)
 
 func _open_module(module_name: String, description: String) -> void:
+	if module_name == "Configuración":
+		SoundSettings.open_dialog(self)
+		return
 	if module_name == "Enciclopedia":
 		_open_encyclopedia()
 		return
@@ -449,6 +427,7 @@ func _open_dictionary() -> void:
 	var screen := Control.new()
 	screen.set_script(load("res://scripts/dictionary/dictionary_screen.gd"))
 	screen.connect("back_requested", Callable(self, "_show_home"))
+	screen.connect("navigate_requested", _leave_encyclopedia)
 	dictionary_screen = screen
 	add_child(screen)
 
@@ -635,25 +614,29 @@ func _start_exit_dialogue() -> void:
 			child.disabled = true
 	dialogue_box.visible = true
 	dialogue_label.text = BOY_BYE
-	exit_gif_frame_clock = 0.0
-	exit_gif_frame_index = 0
-	_show_exit_gif_frame(0)
-	if exit_audio.stream != null and exit_audio.stream.get_length() > 0.0:
-		exit_gif_frame_interval = exit_audio.stream.get_length() / exit_gif_frames.size()
-	if exit_audio.stream == null:
-		_show_exit_without_voice()
-		return
+	boy_says_goodbye = true
+	boy_gif_frame_clock = 0.0
+	boy_gif_frame_index = 0
+	_show_boy_gif_frame(0)
+	exit_audio.stream = CharacterVoices.BOY_GOODBYE
+	exit_audio.pitch_scale = CharacterVoices.BOY_PITCH
+	boy_gif_frame_interval = exit_audio.stream.get_length() / (maxi(boy_gif_frames.size(), 1) * exit_audio.pitch_scale)
 	exit_audio.play()
 
 func _on_exit_audio_finished() -> void:
-	get_tree().quit()
-
-func _show_exit_without_voice() -> void:
-	dialogue_label.text = BOY_BYE
-	await get_tree().create_timer(2.5).timeout
+	if not boy_says_goodbye:
+		get_tree().quit()
+		return
+	boy_says_goodbye = false
+	boy_avatar.texture = load("res://assets/characters/nino/nino-cerrada.png")
 	dialogue_label.text = GIRL_BYE
-	await get_tree().create_timer(2.5).timeout
-	get_tree().quit()
+	exit_gif_frame_clock = 0.0
+	exit_gif_frame_index = 0
+	_show_exit_gif_frame(0)
+	exit_audio.stream = CharacterVoices.GIRL_GOODBYE
+	exit_audio.pitch_scale = 1.0
+	exit_gif_frame_interval = exit_audio.stream.get_length() / maxi(exit_gif_frames.size(), 1)
+	exit_audio.play()
 
 func _clear_content() -> void:
 	for child in content.get_children():

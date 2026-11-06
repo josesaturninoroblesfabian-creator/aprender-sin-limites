@@ -25,6 +25,7 @@ driver/enable_input=true
 
 [autoload]
 
+SoundSettings="*res://scripts/audio/sound_settings.gd"
 Narration="*res://scripts/audio/narration.gd"
 StoryAudio="*res://scripts/stories/story_audio.gd"
 

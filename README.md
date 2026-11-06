@@ -122,3 +122,23 @@ Los audios ya están incluidos: el resto del equipo no necesita generarlos. Para
 Requiere una voz española instalada; no instala voces, modifica el registro ni utiliza servicios externos. Se usa síntesis local Microsoft Raul (México), con procedencia en `data/audio/voice_pack_provenance.json`. Una grabación con mejor interpretación puede reemplazar el archivo correspondiente sin cambiar el código del juego.
 
 No se incluyen todavía instaladores ni perfiles de exportación. Para probar las escenas 3D, abrir `scenes/prototypes/` y ejecutar la escena elegida con F6.
+
+### Enciclopedia · Biblioteca sin conexión
+
+El lector usa paquetes locales en `user://anatomy`, la carpeta original que comparten los cinco temas. El botón **Abrir carpeta de libros** muestra dónde copiarlos. Vuelve a entrar en el tema después de añadirlos. Los paquetes y los PDF originales se guardan fuera del repositorio.
+
+Para preparar un paquete a partir de un PDF local, instala PyMuPDF y Pillow en el entorno de Python y ejecuta:
+
+```text
+python tools/prepare_anatomy_book.py "ruta/al/atlas.pdf" "ruta/de/Anatomía/atlas-visual.zip"
+```
+
+Usa los nombres que corresponden al catálogo:
+
+- Anatomía: `atlas-visual.zip` y `prometheus.zip`
+- Astronomía: `astronomia-100-conceptos.zip` y `libro-astronomia.zip`
+- Zoología: `zoologia.zip`
+- Historia Universal: `alba-civilizacion.zip` y `atlas-historia-universal.zip`
+- Biología: `biologia-fundamentos.zip`
+
+El buscador usa el número de página del visor, empezando por la portada como página 1. Los controles de zoom permiten acercar los textos pequeños.

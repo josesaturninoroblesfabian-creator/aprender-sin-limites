@@ -55,6 +55,7 @@ func _ready() -> void:
 	if catalog is Dictionary:
 		clips = catalog.get("clips", {})
 	voice = AudioStreamPlayer.new()
+	voice.bus = "Voice"
 	voice.finished.connect(_on_voice_finished)
 	add_child(voice)
 	var matte := ColorRect.new()
@@ -332,6 +333,9 @@ func _show_settings() -> void:
 	sample.pressed.connect(_speak.bind("welcome"))
 	column.add_child(sample)
 	_add_paragraph(column, "La voz está incluida y funciona sin internet.", 16)
+	var general := _action_button("Ajustes generales de sonido", Color("#118b74"))
+	general.pressed.connect(func(): SoundSettings.open_dialog(self))
+	column.add_child(general)
 	_add_close_button(column)
 
 func _open_dialog(title: String, color: Color) -> VBoxContainer:

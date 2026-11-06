@@ -17,6 +17,7 @@ func _ready() -> void:
 	if stored is float or stored is int:
 		volume = clampf(float(stored), 0, 100)
 	player = AudioStreamPlayer.new()
+	player.bus = "Voice"
 	player.finished.connect(_finished)
 	add_child(player)
 
