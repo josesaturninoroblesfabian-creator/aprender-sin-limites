@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1dswpcx5j3jg"
-path="res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.ctex"
+path.s3tc="res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.s3tc.ctex"
+path.etc2="res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/llama-jefe-carga-alpha.png"
-dest_files=["res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.ctex"]
+dest_files=["res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.s3tc.ctex", "res://.godot/imported/llama-jefe-carga-alpha.png-584634e9bff097b9dbf53544f9187d1a.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

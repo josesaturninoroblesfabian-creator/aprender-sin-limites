@@ -12,6 +12,8 @@ var utterance: int = 0
 var spanish_voice: String = ""
 var spanish_female_voice: String = ""
 var spanish_fallback_voice: String = ""
+var _voices_scanned := false
+var _callbacks_registered := false
 
 func _ready() -> void:
 	player = AudioStreamPlayer.new()
@@ -21,8 +23,22 @@ func _ready() -> void:
 	var data: Variant = JSON.parse_string(FileAccess.get_file_as_string(CATALOG_PATH))
 	if data is Dictionary:
 		clips = data.get("clips", {})
+	if not OS.has_feature("android"):
+		ensure_voices()
+
+func ensure_voices() -> void:
+	if not _callbacks_registered:
+		_callbacks_registered = true
+		DisplayServer.tts_set_utterance_callback(DisplayServer.TTS_UTTERANCE_ENDED, _on_tts_finished)
+		DisplayServer.tts_set_utterance_callback(DisplayServer.TTS_UTTERANCE_CANCELED, _on_tts_canceled)
+	if _voices_scanned and not (spanish_voice.is_empty() and spanish_female_voice.is_empty() and spanish_fallback_voice.is_empty()):
+		return
+	var available_voices := DisplayServer.tts_get_voices()
+	if available_voices.is_empty():
+		return
+	_voices_scanned = true
 	var female_voice_score := -1
-	for voice in DisplayServer.tts_get_voices():
+	for voice in available_voices:
 		# Packaged clips work on every device. Only use a known male fallback;
 		# choosing the first Spanish voice can change Conde to a female voice.
 		var voice_id := String(voice.get("id", "")).to_lower()
@@ -54,8 +70,6 @@ func _ready() -> void:
 		if candidate_score > female_voice_score:
 			female_voice_score = candidate_score
 			spanish_female_voice = String(voice.get("id", ""))
-	DisplayServer.tts_set_utterance_callback(DisplayServer.TTS_UTTERANCE_ENDED, _on_tts_finished)
-	DisplayServer.tts_set_utterance_callback(DisplayServer.TTS_UTTERANCE_CANCELED, _on_tts_canceled)
 
 func speak(clip_id: String, fallback_text: String) -> bool:
 	stop()
@@ -68,9 +82,11 @@ func speak(clip_id: String, fallback_text: String) -> bool:
 			player.stream = stream
 			player.play()
 			return true
+	ensure_voices()
 	if spanish_voice.is_empty() or fallback_text.is_empty() or SoundSettings.tts_volume() == 0:
 		return false
 	current_clip = clip_id
+	SoundSettings.notify_tts_started()
 	DisplayServer.tts_speak(fallback_text, spanish_voice, SoundSettings.tts_volume(), 1.0, 0.92, utterance, true)
 	return true
 
@@ -78,6 +94,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 	if SoundSettings.tts_volume() == 0:
 		stop()
 		return false
+	ensure_voices()
 	# La B se nombra "ve" en esta actividad. Fuerza TTS para no reproducir
 	# el clip local defectuoso que la deletrea como "ebi".
 	if clip_id == "letter_01":
@@ -87,6 +104,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		if not b_voice.is_empty():
 			stop()
 			current_clip = clip_id
+			SoundSettings.notify_tts_started()
 			DisplayServer.tts_speak("ve", b_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 			return true
 	var spoken_name := Q_TTS_PRONUNCIATION if clip_id == "letter_17" else letter_name
@@ -97,6 +115,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		if not q_voice.is_empty():
 			stop()
 			current_clip = clip_id
+			SoundSettings.notify_tts_started()
 			DisplayServer.tts_speak(spoken_name, q_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 			return true
 	# Si el sistema tiene una voz femenina española, úsala para los nombres de
@@ -105,6 +124,7 @@ func speak_letter(clip_id: String, letter_name: String) -> bool:
 		return speak(clip_id, spoken_name)
 	stop()
 	current_clip = clip_id
+	SoundSettings.notify_tts_started()
 	DisplayServer.tts_speak(spoken_name, spanish_female_voice, SoundSettings.tts_volume(), 1.0, 0.88, utterance, true)
 	return true
 
@@ -116,7 +136,9 @@ func stop() -> void:
 	if is_instance_valid(player):
 		player.stop()
 		player.stream = null
-	DisplayServer.tts_stop()
+	if SoundSettings._tts_active:
+		SoundSettings.notify_tts_stopped()
+		DisplayServer.tts_stop()
 	if not canceled.is_empty():
 		finished.emit(canceled, false)
 
@@ -125,10 +147,12 @@ func _on_audio_finished() -> void:
 		_complete(true)
 
 func _on_tts_finished(id: int) -> void:
+	SoundSettings.notify_tts_stopped()
 	if id == utterance:
 		_complete(true)
 
 func _on_tts_canceled(id: int) -> void:
+	SoundSettings.notify_tts_stopped()
 	if id == utterance:
 		_complete(false)
 

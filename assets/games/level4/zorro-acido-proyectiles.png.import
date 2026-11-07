@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7urm05fx51e1"
-path="res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.ctex"
+path.s3tc="res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.s3tc.ctex"
+path.etc2="res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/zorro-acido-proyectiles.png"
-dest_files=["res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.ctex"]
+dest_files=["res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.s3tc.ctex", "res://.godot/imported/zorro-acido-proyectiles.png-ae2577f3dda311663926055553bff67f.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

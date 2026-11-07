@@ -1,0 +1,13 @@
+{
+  "method": "Built-in image generation, identity-preserving edits",
+  "use": "Only localized mouth and eyelid regions are blended over the original menus.",
+  "sources": {
+    "boy": "res://assets/ui/dictionary/dictionary-menu.jpg",
+    "girl": "res://assets/ui/encyclopedia/encyclopedia-menu.jpg"
+  },
+  "prompts": {
+    "rest": "Create exactly one alternate animation frame of the supplied complete menu at the same 1536x1024 composition. Change only the character's wide open smile to a natural closed-lip gentle smile with a relaxed lower jaw. Preserve identity, eyes, nose, skin, hair, head position, proportions, hat, hands, pose, book and clothing. Preserve scenery and all interface text, icons, cards and positions. No camera shift or rescaling.",
+    "blink": "Create exactly one alternate blink animation frame of the supplied complete menu at the same 1536x1024 composition. Change only both eyes to naturally closed, with relaxed curved eyelids and the original eyebrows and eyelashes. Preserve the original open smiling mouth, character identity and all scenery and interface elements. No camera shift or rescaling."
+  },
+  "assets": ["boy-rest.png", "boy-blink.png", "girl-rest.png", "girl-blink.png"]
+}

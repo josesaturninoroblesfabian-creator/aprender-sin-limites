@@ -91,8 +91,9 @@ func _process(delta: float) -> void:
 	if not (intro_playing or word_playing or letter_playing) or condor_frames.is_empty():
 		return
 	condor_frame_clock += delta
-	while condor_frame_clock >= CONDOR_FRAME_INTERVAL:
-		condor_frame_clock -= CONDOR_FRAME_INTERVAL
+	var interval := CONDOR_FRAME_INTERVAL * (3.0 if OS.has_feature("android") else 1.0)
+	while condor_frame_clock >= interval:
+		condor_frame_clock -= interval
 		condor_frame_index = (condor_frame_index + 1) % condor_frames.size()
 		condor_avatar.texture = condor_frames[condor_frame_index]
 	if intro_playing:
@@ -125,7 +126,8 @@ func _build_screen() -> void:
 	add_child(help)
 
 	# Conde queda a la izquierda del tablero, con fondo transparente.
-	for frame_number in range(CONDOR_FRAME_COUNT):
+	var frame_step := 3 if OS.has_feature("android") else 1
+	for frame_number in range(0, CONDOR_FRAME_COUNT, frame_step):
 		condor_frames.append(load("res://assets/characters/condor/frames/frame_%03d.png" % frame_number))
 	condor_avatar = TextureRect.new()
 	condor_avatar.texture = condor_frames[0]

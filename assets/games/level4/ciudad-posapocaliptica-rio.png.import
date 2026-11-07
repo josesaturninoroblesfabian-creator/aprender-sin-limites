@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuvntqxr3q7u7"
-path="res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.ctex"
+path.s3tc="res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.s3tc.ctex"
+path.etc2="res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/ciudad-posapocaliptica-rio.png"
-dest_files=["res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.ctex"]
+dest_files=["res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.s3tc.ctex", "res://.godot/imported/ciudad-posapocaliptica-rio.png-1263d83f9d0bb4b1a672c26cda72c415.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

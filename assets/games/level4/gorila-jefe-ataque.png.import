@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du4bgyrnu10cj"
-path="res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.ctex"
+path.s3tc="res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.s3tc.ctex"
+path.etc2="res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/gorila-jefe-ataque.png"
-dest_files=["res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.ctex"]
+dest_files=["res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.s3tc.ctex", "res://.godot/imported/gorila-jefe-ataque.png-76be56db36da4885b5d18a46603f6727.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

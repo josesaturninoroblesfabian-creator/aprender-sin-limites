@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bodjo8qof8q10"
-path="res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.ctex"
+path.s3tc="res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.s3tc.ctex"
+path.etc2="res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/zombi-gato.png"
-dest_files=["res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.ctex"]
+dest_files=["res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.s3tc.ctex", "res://.godot/imported/zombi-gato.png-8c6da94ccc3463607fb686ae693eee72.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

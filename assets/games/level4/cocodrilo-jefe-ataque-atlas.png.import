@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbustrpjikpgk"
-path="res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.ctex"
+path.s3tc="res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.s3tc.ctex"
+path.etc2="res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/cocodrilo-jefe-ataque-atlas.png"
-dest_files=["res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.ctex"]
+dest_files=["res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.s3tc.ctex", "res://.godot/imported/cocodrilo-jefe-ataque-atlas.png-333c4cb9aad34a98ca92aa36e5cc15fd.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

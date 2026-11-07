@@ -116,7 +116,7 @@ func _make_limb(parent: Node3D, node_name: String, origin: Vector3, color: Color
 func _build_audio() -> void:
 	audio_player = AudioStreamPlayer.new()
 	audio_player.bus = "Voice"
-	audio_player.stream = load("res://assets/audio/saludo-nina.mp3")
+	audio_player.stream = preload("res://scripts/audio/character_voices.gd").GIRL_WELCOME
 	audio_player.finished.connect(_on_audio_finished)
 	add_child(audio_player)
 

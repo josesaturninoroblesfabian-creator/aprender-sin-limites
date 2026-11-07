@@ -97,8 +97,9 @@ func _process(delta: float) -> void:
 	var condor_audio_playing := _guidance_audio_playing()
 	if condor_audio_playing and not condor_frames.is_empty():
 		condor_frame_clock += delta
-		while condor_frame_clock >= CONDOR_FRAME_INTERVAL:
-			condor_frame_clock -= CONDOR_FRAME_INTERVAL
+		var interval := CONDOR_FRAME_INTERVAL * (3.0 if OS.has_feature("android") else 1.0)
+		while condor_frame_clock >= interval:
+			condor_frame_clock -= interval
 			condor_frame_index = (condor_frame_index + 1) % condor_frames.size()
 			condor_avatar.texture = condor_frames[condor_frame_index]
 
@@ -220,7 +221,8 @@ func _build_screen() -> void:
 	_place(guide, 0.015, 0.145, 0.205, 0.525)
 	add_child(guide)
 	condor_frames.clear()
-	for frame_number in range(CONDOR_FRAME_COUNT):
+	var frame_step := 3 if OS.has_feature("android") else 1
+	for frame_number in range(0, CONDOR_FRAME_COUNT, frame_step):
 		condor_frames.append(load("res://assets/characters/condor/frames/frame_%03d.png" % frame_number))
 	condor_avatar = TextureRect.new()
 	condor_avatar.texture = condor_frames[0]
@@ -451,6 +453,11 @@ func _toggle_recording() -> void:
 func _begin_recording() -> void:
 	if _celebration_locked():
 		return
+	if OS.has_feature("android") and not OS.get_granted_permissions().has("android.permission.RECORD_AUDIO"):
+		# En Android el micrófono necesita permiso en tiempo de ejecución.
+		OS.request_permission("RECORD_AUDIO")
+		status_display.text = "Permite el uso del micrófono y vuelve a pulsar Grabar."
+		return
 	if AudioServer.get_input_device_list().is_empty():
 		status_display.text = "Conecta un micrófono y permite su uso en Windows."
 		return
@@ -613,18 +620,54 @@ func _play_final_audio() -> void:
 func _open_completion_game() -> void:
 	if completed.size() < TOTAL_WORDS or not final_audio_played:
 		return
-	var game_path := ProjectSettings.globalize_path(COMPLETION_GAME_PATH)
 	if not FileAccess.file_exists(COMPLETION_GAME_PATH):
-		push_warning("No se encontró el juego de celebración: %s" % game_path)
+		push_warning("No se encontró el juego de celebración: %s" % COMPLETION_GAME_PATH)
 		status_display.text = "¡Completaste las 270 palabras! No se encontró el juego sorpresa."
 		return
-	var game_uri := "file:///" + game_path.replace("\\", "/").replace(" ", "%20")
-	var error := OS.shell_open(game_uri)
+	if OS.has_feature("android"):
+		# Android no permite abrir archivos locales file:// en el navegador.
+		status_display.text = "¡Felicidades! El juego sorpresa del cóndor está en la versión para computadora."
+		return
+	var game_path := _resolve_completion_game_path(COMPLETION_GAME_PATH)
+	if game_path.is_empty():
+		status_display.text = "¡Completaste las 270 palabras! No se pudo preparar el juego sorpresa."
+		return
+	var error := OS.shell_open(_file_uri_from_path(game_path))
 	if error != OK:
 		push_warning("No se pudo abrir el juego de celebración: %s" % error_string(error))
 		status_display.text = "¡Completaste las 270 palabras! Abre el juego sorpresa desde el proyecto."
 	else:
 		status_display.text = "¡Felicidades! Se abrió el juego sorpresa del cóndor."
+
+func _resolve_completion_game_path(game_resource_path: String) -> String:
+	if OS.has_feature("editor"):
+		return ProjectSettings.globalize_path(game_resource_path)
+	var relative := game_resource_path.trim_prefix("res://assets/games/")
+	var target_user_path := "user://html_games/" + relative
+	var target_abs_path := ProjectSettings.globalize_path(target_user_path)
+	if DirAccess.make_dir_recursive_absolute(target_abs_path.get_base_dir()) != OK:
+		return ""
+	var bytes := FileAccess.get_file_as_bytes(game_resource_path)
+	if bytes.is_empty():
+		return ""
+	var out := FileAccess.open(target_user_path, FileAccess.WRITE)
+	if out == null:
+		return ""
+	out.store_buffer(bytes)
+	out.close()
+	return target_abs_path
+
+func _file_uri_from_path(abs_path: String) -> String:
+	var normalized := abs_path.replace("\\", "/").trim_prefix("/")
+	var parts := normalized.split("/")
+	var encoded := PackedStringArray()
+	for index in range(parts.size()):
+		var part := parts[index]
+		if index == 0 and part.ends_with(":"):
+			encoded.append(part)
+		else:
+			encoded.append(part.uri_encode())
+	return "file:///" + "/".join(encoded)
 
 func _reset_condor_pose() -> void:
 	condor_frame_index = 0

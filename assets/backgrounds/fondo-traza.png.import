@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b72qqufsoj3g6"
-path="res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.ctex"
+path.s3tc="res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.s3tc.ctex"
+path.etc2="res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/backgrounds/fondo-traza.png"
-dest_files=["res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.ctex"]
+dest_files=["res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.s3tc.ctex", "res://.godot/imported/fondo-traza.png-d61a90e86272a28ad76f7ddfcc0206cc.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

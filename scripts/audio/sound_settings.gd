@@ -14,6 +14,9 @@ var _background: AudioStreamPlayer
 var _preview: AudioStreamPlayer
 var _streams: Dictionary = {}
 var _duck := 0.0
+var _last_applied_duck := -999.0
+var _tts_active := false
+var _tts_check_clock := 0.0
 var _dialog: AcceptDialog
 
 func _ready() -> void:
@@ -65,11 +68,32 @@ func _has_audio(group: StringName) -> bool:
 			return true
 	return false
 
+func notify_tts_started() -> void:
+	_tts_active = true
+	_tts_check_clock = 0.0
+
+func notify_tts_stopped() -> void:
+	_tts_active = false
+	_tts_check_clock = 0.0
+
 func _process(delta: float) -> void:
-	var speaking := tts_volume() > 0 and (DisplayServer.tts_is_speaking() or _has_audio(&"voice_players"))
-	_duck = move_toward(_duck, -15.0 if speaking else 0.0, delta * (110.0 if speaking else 30.0))
-	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Music"), _level_db("Music") + _duck)
-	_background.stream_paused = _has_audio(&"local_music_players") or _has_audio(&"recording_players")
+	if _tts_active:
+		_tts_check_clock += delta
+		if _tts_check_clock >= 0.35:
+			_tts_check_clock = 0.0
+			if not DisplayServer.tts_is_speaking():
+				_tts_active = false
+	var speaking := tts_volume() > 0 and (_tts_active or _has_audio(&"voice_players"))
+	var next_duck := move_toward(_duck, -15.0 if speaking else 0.0, delta * (110.0 if speaking else 30.0))
+	if absf(next_duck - _last_applied_duck) > 0.01:
+		_duck = next_duck
+		_last_applied_duck = _duck
+		AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Music"), _level_db("Music") + _duck)
+	else:
+		_duck = next_duck
+	var should_pause := _has_audio(&"local_music_players") or _has_audio(&"recording_players")
+	if _background.stream_paused != should_pause:
+		_background.stream_paused = should_pause
 
 func _level_db(bus: String) -> float:
 	return linear_to_db(maxf(float(levels[bus]) / 100.0, 0.0001))
@@ -82,7 +106,9 @@ func _apply_levels() -> void:
 		var index := AudioServer.get_bus_index(bus)
 		AudioServer.set_bus_volume_db(index, _level_db(bus) + (_duck if bus == "Music" else 0.0))
 		AudioServer.set_bus_mute(index, levels[bus] == 0 or (bus == "Master" and silenced))
-	if tts_volume() == 0 and DisplayServer.tts_is_speaking():
+	_last_applied_duck = _duck
+	if tts_volume() == 0 and _tts_active:
+		_tts_active = false
 		DisplayServer.tts_stop()
 
 func open_dialog(parent: Node) -> void:
@@ -149,7 +175,7 @@ func open_dialog(parent: Node) -> void:
 	var preview := Button.new()
 	preview.text = "Probar voz"
 	preview.pressed.connect(func():
-		_preview.stream = preload("res://assets/audio/bienvenida-nina.mp3")
+		_preview.stream = preload("res://assets/audio/guides/child-voices/girl-welcome.wav")
 		_preview.play()
 	)
 	actions.add_child(preview)

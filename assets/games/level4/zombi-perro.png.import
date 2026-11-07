@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxcsq1su1wr64"
-path="res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.ctex"
+path.s3tc="res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.s3tc.ctex"
+path.etc2="res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/zombi-perro.png"
-dest_files=["res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.ctex"]
+dest_files=["res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.s3tc.ctex", "res://.godot/imported/zombi-perro.png-07d17975ed2ce2618f3682b9e85247da.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

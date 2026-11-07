@@ -8,6 +8,7 @@ var _replay: Button
 var _intro: AudioStream
 var _female := false
 var _using_tts := false
+var _tts_poll_clock := 0.0
 var _speech_start := 0
 var _reading := ""
 var _face: ShaderMaterial
@@ -30,6 +31,8 @@ func animate_art(picture: TextureRect, mouth: Vector2, left_eye: Vector2, right_
 	_face.set_shader_parameter("mouth", mouth)
 	_face.set_shader_parameter("left_eye", left_eye)
 	_face.set_shader_parameter("right_eye", right_eye)
+	_face.set_shader_parameter("rest_frame", load("res://assets/characters/guides/%s-rest.png" % ("girl" if _female else "boy")))
+	_face.set_shader_parameter("blink_frame", load("res://assets/characters/guides/%s-blink.png" % ("girl" if _female else "boy")))
 	picture.material = _face
 
 func add_replay_to(container: Control) -> void:
@@ -67,7 +70,8 @@ func play_clip(stream: AudioStream) -> void:
 
 func speak(text: String, replayable := false) -> void:
 	stop()
-	var voice: String = Narration.spanish_female_voice if _female else Narration.spanish_voice
+	Narration.ensure_voices()
+	var voice: String = Narration.spanish_female_voice if _female else (Narration.spanish_voice if not Narration.spanish_voice.is_empty() else Narration.spanish_fallback_voice)
 	if voice.is_empty():
 		return
 	if replayable:
@@ -77,8 +81,11 @@ func speak(text: String, replayable := false) -> void:
 	if SoundSettings.tts_volume() == 0:
 		return
 	_using_tts = true
+	_tts_poll_clock = 0.0
 	_speech_start = Time.get_ticks_msec()
-	DisplayServer.tts_speak(text, voice, SoundSettings.tts_volume(), _player.pitch_scale, 0.94, 0, true)
+	var pitch := 1.0 if _female else Voices.BOY_TTS_PITCH
+	SoundSettings.notify_tts_started()
+	DisplayServer.tts_speak(text, voice, SoundSettings.tts_volume(), pitch, 0.94, 0, true)
 
 func stop() -> void:
 	if is_instance_valid(_player):
@@ -87,14 +94,21 @@ func stop() -> void:
 	_mix_rate = 0
 	if _using_tts:
 		_using_tts = false
+		_tts_poll_clock = 0.0
+		SoundSettings.notify_tts_stopped()
 		DisplayServer.tts_stop()
 
 func _process(delta: float) -> void:
 	if not is_instance_valid(_player):
 		return
-	var talking := _using_tts and DisplayServer.tts_is_speaking()
-	if _using_tts and not talking and Time.get_ticks_msec() - _speech_start > 300:
-		_using_tts = false
+	if _using_tts:
+		_tts_poll_clock += delta
+		if _tts_poll_clock >= 0.25 and Time.get_ticks_msec() - _speech_start > 300:
+			_tts_poll_clock = 0.0
+			if not DisplayServer.tts_is_speaking():
+				_using_tts = false
+				SoundSettings.notify_tts_stopped()
+	var talking := _using_tts
 	if _face == null:
 		return
 	_animation_clock += delta

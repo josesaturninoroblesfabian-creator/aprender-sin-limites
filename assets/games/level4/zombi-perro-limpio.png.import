@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2hampsibuu7r"
-path="res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.ctex"
+path.s3tc="res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.s3tc.ctex"
+path.etc2="res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/zombi-perro-limpio.png"
-dest_files=["res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.ctex"]
+dest_files=["res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.s3tc.ctex", "res://.godot/imported/zombi-perro-limpio.png-be88262b33c9914a5251bd3582308fe8.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

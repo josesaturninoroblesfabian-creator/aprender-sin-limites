@@ -121,7 +121,18 @@ Los audios ya están incluidos: el resto del equipo no necesita generarlos. Para
 
 Requiere una voz española instalada; no instala voces, modifica el registro ni utiliza servicios externos. Se usa síntesis local Microsoft Raul (México), con procedencia en `data/audio/voice_pack_provenance.json`. Una grabación con mejor interpretación puede reemplazar el archivo correspondiente sin cambiar el código del juego.
 
-No se incluyen todavía instaladores ni perfiles de exportación. Para probar las escenas 3D, abrir `scenes/prototypes/` y ejecutar la escena elegida con F6.
+Para probar las escenas 3D, abrir `scenes/prototypes/` y ejecutar la escena elegida con F6.
+
+## Generar la aplicación para Windows y Android
+
+`export_presets.cfg` incluye los perfiles **Windows Desktop** y **Android**. Las plantillas de exportación de Godot 4.7.2 deben estar instaladas (Editor → Administrar plantillas de exportación).
+
+- **Windows (.exe):** `./tools/build_windows.ps1` crea `builds/windows/Aprende sin Limites.exe`, un único archivo con todos los recursos dentro.
+- **Android (.apk):** la primera vez, `./tools/setup_android_sdk.ps1` instala OpenJDK 17 y el Android SDK en la carpeta del usuario (y acepta las licencias del SDK). Después, `./tools/build_android.ps1` crea `builds/android/AprendeSinLimites.apk` para ARM de 32 y 64 bits, en horizontal y con permiso de micrófono para «Escucha y repite».
+
+La primera exportación para Android crea la clave de firma en `%USERPROFILE%\.android\aprende-sin-limites-release.keystore`, con su contraseña al lado. Está fuera del repositorio: **haz una copia de seguridad**, porque Android solo acepta actualizaciones firmadas con la misma clave.
+
+En Android, los juegos HTML de «Juegos por niveles» (niveles 1, 2, 3, 5 y 6) y el juego sorpresa de «Escucha y repite» muestran un aviso, porque el sistema no permite abrir archivos locales en el navegador. El Nivel 4 (Cóndor Guerrero) y el resto de actividades funcionan dentro de la aplicación.
 
 ### Enciclopedia · Biblioteca sin conexión
 
@@ -142,3 +153,15 @@ Usa los nombres que corresponden al catálogo:
 - Biología: `biologia-fundamentos.zip`
 
 El buscador usa el número de página del visor, empezando por la portada como página 1. Los controles de zoom permiten acercar los textos pequeños.
+
+### Voces y animación de los guías
+
+Las frases incluidas del niño y la niña se preparan con Qwen3-TTS VoiceDesign, ejecutado localmente durante el desarrollo. El juego reproduce los WAV de `assets/audio/guides/child-voices/`. La lectura de definiciones libres del Diccionario usa la síntesis en español instalada en el dispositivo.
+
+`tools/generate_child_guides.py` contiene los textos, los perfiles ficticios y las semillas de generación. Requiere Python 3.12, PyTorch con soporte para la GPU y las dependencias de `tools/child-voice-requirements.txt`. Para generar nuevas frases con el modelo descargado:
+
+```text
+python tools/generate_child_guides.py --model ruta/al/modelo/VoiceDesign --output ruta/de/preparacion
+```
+
+Las imágenes de boca cerrada y parpadeo están en `assets/characters/guides/`, junto con sus prompts y procedencia. La animación mezcla las regiones de ojos y boca sobre las interfaces originales.

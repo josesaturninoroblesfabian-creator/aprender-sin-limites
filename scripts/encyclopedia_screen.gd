@@ -15,11 +15,11 @@ const SUBJECTS := {
 	"Zoología": Rect2(713, 711, 716, 184),
 }
 const EXPLORER_PROMPTS := {
-	"Historia Universal": ["¿Qué usaban las personas para escribir hace mucho tiempo?", preload("res://assets/audio/guides/history.wav")],
-	"Astronomía": ["¿Por qué algunas noches vemos la Luna con una forma diferente?", preload("res://assets/audio/guides/astronomy.wav")],
-	"Biología": ["Piensa en una planta. ¿Qué necesita para crecer?", preload("res://assets/audio/guides/biology.wav")],
-	"Anatomía": ["Pon la mano sobre tu pecho. ¿Puedes sentir cómo late el corazón?", preload("res://assets/audio/guides/anatomy.wav")],
-	"Zoología": ["Piensa en dos animales. ¿En qué se parecen y en qué son diferentes?", preload("res://assets/audio/guides/zoology.wav")],
+	"Historia Universal": ["¿Qué usaban las personas para escribir hace mucho tiempo?", preload("res://assets/audio/guides/child-voices/history.wav")],
+	"Astronomía": ["¿Por qué algunas noches vemos la Luna con una forma diferente?", preload("res://assets/audio/guides/child-voices/astronomy.wav")],
+	"Biología": ["Piensa en una planta. ¿Qué necesita para crecer?", preload("res://assets/audio/guides/child-voices/biology.wav")],
+	"Anatomía": ["Pon la mano sobre tu pecho. ¿Puedes sentir cómo late el corazón?", preload("res://assets/audio/guides/child-voices/anatomy.wav")],
+	"Zoología": ["Piensa en dos animales. ¿En qué se parecen y en qué son diferentes?", preload("res://assets/audio/guides/child-voices/zoology.wav")],
 }
 const BOOKS := {
 	"Anatomía": [["Atlas visual de anatomía", "atlas-visual"], ["Prometheus · Aparato locomotor", "prometheus"]],
@@ -61,7 +61,7 @@ func _ready() -> void:
 	for subject in SUBJECTS:
 		_add_hotspot(subject, SUBJECTS[subject], _show_subject.bind(subject))
 	guide = LearningGuide.new()
-	guide.setup(true, preload("res://assets/audio/guides/encyclopedia-intro.wav"))
+	guide.setup(true, preload("res://assets/audio/guides/child-voices/encyclopedia-intro.wav"))
 	design.add_child(guide)
 	guide.animate_art(picture, Vector2(495, 407), Vector2(417, 368), Vector2(529, 326))
 	_add_hotspot("Escuchar a la guía de Enciclopedia", Rect2(261, 195, 365, 294), guide.play_intro)

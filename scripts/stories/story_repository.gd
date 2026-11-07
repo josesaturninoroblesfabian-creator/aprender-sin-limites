@@ -44,7 +44,8 @@ static func cover_texture(story: Dictionary) -> Texture2D:
 		var source: Texture2D = ResourceLoader.load(story.atlas, "Texture2D", ResourceLoader.CACHE_MODE_IGNORE)
 		var cell := Rect2i(0, 0, source.get_width() / 4, source.get_height() / 2)
 		var image := source.get_image().get_region(cell)
-		image.resize(216, roundi(216.0 * image.get_height() / image.get_width()), Image.INTERPOLATE_LANCZOS)
+		var filter := Image.INTERPOLATE_BILINEAR if OS.has_feature("android") else Image.INTERPOLATE_LANCZOS
+		image.resize(216, roundi(216.0 * image.get_height() / image.get_width()), filter)
 		covers[story.id] = ImageTexture.create_from_image(image)
 	return covers[story.id]
 

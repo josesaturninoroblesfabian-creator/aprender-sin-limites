@@ -251,12 +251,50 @@ func _open_html_game(game_resource_path: String, game_title: String) -> void:
 		level_dialog.dialog_text = "No se encontró el juego «%s» dentro de assets/games." % game_title
 		level_dialog.popup_centered()
 		return
-	var game_path := ProjectSettings.globalize_path(game_resource_path)
-	var game_uri := "file:///" + game_path.replace("\\", "/").replace(" ", "%20")
-	var error := OS.shell_open(game_uri)
+	if OS.has_feature("android"):
+		# Android no permite abrir archivos locales file:// en el navegador.
+		level_dialog.dialog_text = "«%s» es un juego web disponible en la versión para computadora. En la tablet puedes jugar el Nivel 4: Cóndor Guerrero." % game_title
+		level_dialog.popup_centered()
+		return
+	var game_path := _resolve_html_game_path(game_resource_path)
+	if game_path.is_empty():
+		level_dialog.dialog_text = "No se pudo preparar «%s» para abrirlo en el navegador." % game_title
+		level_dialog.popup_centered()
+		return
+	var error := OS.shell_open(_file_uri_from_path(game_path))
 	if error != OK:
 		level_dialog.dialog_text = "No se pudo abrir «%s». Revisa que tengas un navegador configurado." % game_title
 		level_dialog.popup_centered()
+
+func _resolve_html_game_path(game_resource_path: String) -> String:
+	if OS.has_feature("editor"):
+		return ProjectSettings.globalize_path(game_resource_path)
+	var relative := game_resource_path.trim_prefix("res://assets/games/")
+	var target_user_path := "user://html_games/" + relative
+	var target_abs_path := ProjectSettings.globalize_path(target_user_path)
+	if DirAccess.make_dir_recursive_absolute(target_abs_path.get_base_dir()) != OK:
+		return ""
+	var bytes := FileAccess.get_file_as_bytes(game_resource_path)
+	if bytes.is_empty():
+		return ""
+	var out := FileAccess.open(target_user_path, FileAccess.WRITE)
+	if out == null:
+		return ""
+	out.store_buffer(bytes)
+	out.close()
+	return target_abs_path
+
+func _file_uri_from_path(abs_path: String) -> String:
+	var normalized := abs_path.replace("\\", "/").trim_prefix("/")
+	var parts := normalized.split("/")
+	var encoded := PackedStringArray()
+	for index in range(parts.size()):
+		var part := parts[index]
+		if index == 0 and part.ends_with(":"):
+			encoded.append(part)
+		else:
+			encoded.append(part.uri_encode())
+	return "file:///" + "/".join(encoded)
 
 func _show_help() -> void:
 	help_dialog.popup_centered()

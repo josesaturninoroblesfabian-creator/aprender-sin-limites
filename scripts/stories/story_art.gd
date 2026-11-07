@@ -31,7 +31,8 @@ static func character_texture(id: String) -> Texture2D:
 	var region := Rect2(Vector2(index % 4, index / 4) * cell + Vector2(crop[0], crop[1]) * cell, Vector2(crop[2], crop[3]) * cell)
 	var image := source.get_image().get_region(Rect2i(region))
 	var fit := image.get_size() * (256.0 / maxf(image.get_width(), image.get_height()))
-	image.resize(maxi(1, roundi(fit.x)), maxi(1, roundi(fit.y)), Image.INTERPOLATE_LANCZOS)
+	var filter := Image.INTERPOLATE_BILINEAR if OS.has_feature("android") else Image.INTERPOLATE_LANCZOS
+	image.resize(maxi(1, roundi(fit.x)), maxi(1, roundi(fit.y)), filter)
 	portraits[id] = ImageTexture.create_from_image(image)
 	return portraits[id]
 

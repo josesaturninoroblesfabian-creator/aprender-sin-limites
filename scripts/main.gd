@@ -54,7 +54,7 @@ func _ready() -> void:
 	_build_shell()
 	greeting_audio = AudioStreamPlayer.new()
 	greeting_audio.bus = "Voice"
-	greeting_audio.stream = load("res://assets/audio/bienvenida-nina.mp3")
+	greeting_audio.stream = CharacterVoices.GIRL_WELCOME
 	greeting_audio.finished.connect(_on_girl_greeting_finished)
 	add_child(greeting_audio)
 	boy_intro_audio = AudioStreamPlayer.new()
@@ -113,12 +113,6 @@ func _build_shell() -> void:
 
 	for frame_number in range(1, 7):
 		girl_talking_frames.append(load("res://assets/characters/nina/nina-habla-%02d.png" % frame_number))
-	for frame_number in range(100):
-		girl_gif_frames.append(load("res://assets/characters/nina/welcome/frame_%03d.png" % frame_number))
-	for frame_number in range(107):
-		boy_gif_frames.append(load("res://assets/characters/nino/welcome/frame_%03d.png" % frame_number))
-	for frame_number in range(78):
-		exit_gif_frames.append(load("res://assets/characters/nina/goodbye/frame_%03d.png" % frame_number))
 	girl_avatar = _make_avatar("res://assets/characters/nina/nina-habla-01.png", true)
 	boy_avatar = _make_avatar("res://assets/characters/nino/nino-cerrada.png", false)
 	_start_idle_animation(girl_avatar, 0.0)
@@ -220,33 +214,63 @@ func _start_idle_animation(avatar: TextureRect, delay: float) -> void:
 
 
 
+func _home_frame_step() -> int:
+	return 3 if OS.has_feature("android") else 1
+
+func _ensure_girl_welcome_frames() -> void:
+	if not girl_gif_frames.is_empty():
+		return
+	for frame_number in range(0, 100, _home_frame_step()):
+		girl_gif_frames.append(load("res://assets/characters/nina/welcome/frame_%03d.png" % frame_number))
+
+func _ensure_boy_welcome_frames() -> void:
+	if not boy_gif_frames.is_empty():
+		return
+	for frame_number in range(0, 107, _home_frame_step()):
+		boy_gif_frames.append(load("res://assets/characters/nino/welcome/frame_%03d.png" % frame_number))
+
+func _ensure_exit_frames() -> void:
+	if not exit_gif_frames.is_empty():
+		return
+	for frame_number in range(0, 78, _home_frame_step()):
+		exit_gif_frames.append(load("res://assets/characters/nina/goodbye/frame_%03d.png" % frame_number))
+
+func _release_home_gif_frames() -> void:
+	girl_gif_frames.clear()
+	boy_gif_frames.clear()
+	exit_gif_frames.clear()
+
 func _begin_welcome() -> void:
 	speech_flow = "welcome"
 	dialogue_box.visible = true
 	dialogue_label.text = GIRL_HELLO
+	_ensure_girl_welcome_frames()
 	girl_gif_frame_clock = 0.0
 	girl_talking_frame_index = 0
 	_show_gif_frame(0)
 	if greeting_audio.stream != null and greeting_audio.stream.get_length() > 0.0:
-		girl_gif_frame_interval = greeting_audio.stream.get_length() / girl_gif_frames.size()
+		girl_gif_frame_interval = greeting_audio.stream.get_length() / maxi(girl_gif_frames.size(), 1)
 	greeting_audio.play()
 
 func _on_girl_greeting_finished() -> void:
 	_show_girl_frame(0)
 	_set_girl_mouth(false)
+	girl_gif_frames.clear()
 	if speech_flow != "welcome":
 		return
 	dialogue_label.text = BOY_HELLO
+	_ensure_boy_welcome_frames()
 	boy_gif_frame_clock = 0.0
 	boy_gif_frame_index = 0
 	_show_boy_gif_frame(0)
 	if boy_intro_audio.stream != null and boy_intro_audio.stream.get_length() > 0.0:
-		boy_gif_frame_interval = boy_intro_audio.stream.get_length() / (boy_gif_frames.size() * boy_intro_audio.pitch_scale)
+		boy_gif_frame_interval = boy_intro_audio.stream.get_length() / (maxi(boy_gif_frames.size(), 1) * boy_intro_audio.pitch_scale)
 	boy_intro_audio.play()
 
 func _on_boy_intro_finished() -> void:
 	boy_avatar.texture = load("res://assets/characters/nino/nino-cerrada.png")
 	_set_boy_mouth(false)
+	boy_gif_frames.clear()
 	if speech_flow == "welcome":
 		dialogue_box.visible = false
 		speech_flow = ""
@@ -370,6 +394,7 @@ func _menu_selection(module_name: String) -> void:
 		dialogue_box.visible = false
 		_set_girl_mouth(false)
 		_set_boy_mouth(false)
+	_release_home_gif_frames()
 	var details := ""
 	for item in MenuCatalog.ITEMS:
 		if item.name == module_name:
@@ -615,6 +640,7 @@ func _start_exit_dialogue() -> void:
 	dialogue_box.visible = true
 	dialogue_label.text = BOY_BYE
 	boy_says_goodbye = true
+	_ensure_boy_welcome_frames()
 	boy_gif_frame_clock = 0.0
 	boy_gif_frame_index = 0
 	_show_boy_gif_frame(0)
@@ -629,7 +655,9 @@ func _on_exit_audio_finished() -> void:
 		return
 	boy_says_goodbye = false
 	boy_avatar.texture = load("res://assets/characters/nino/nino-cerrada.png")
+	boy_gif_frames.clear()
 	dialogue_label.text = GIRL_BYE
+	_ensure_exit_frames()
 	exit_gif_frame_clock = 0.0
 	exit_gif_frame_index = 0
 	_show_exit_gif_frame(0)

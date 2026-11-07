@@ -66,15 +66,17 @@ func _process(delta: float) -> void:
 	if condor_frames.is_empty() or condor_avatar == null:
 		return
 	var speaking := (praise_audio != null and praise_audio.playing) or Narration.current_clip.begins_with("letter_") or Narration.current_clip.begins_with("trace_")
+	var idle_index := clampi(CONDOR_IDLE_FRAME / (3 if OS.has_feature("android") else 1), 0, condor_frames.size() - 1)
 	if not speaking:
 		condor_frame_clock = 0.0
-		if condor_frame_index != CONDOR_IDLE_FRAME:
-			condor_frame_index = CONDOR_IDLE_FRAME
+		if condor_frame_index != idle_index:
+			condor_frame_index = idle_index
 			condor_avatar.texture = condor_frames[condor_frame_index]
 		return
 	condor_frame_clock += delta
-	while condor_frame_clock >= CONDOR_FRAME_INTERVAL:
-		condor_frame_clock -= CONDOR_FRAME_INTERVAL
+	var interval := CONDOR_FRAME_INTERVAL * (3.0 if OS.has_feature("android") else 1.0)
+	while condor_frame_clock >= interval:
+		condor_frame_clock -= interval
 		condor_frame_index = (condor_frame_index + 1) % condor_frames.size()
 		condor_avatar.texture = condor_frames[condor_frame_index]
 
@@ -104,10 +106,12 @@ func _build_screen() -> void:
 	board_art.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(board_art)
 
-	for frame_number in range(CONDOR_FRAME_COUNT):
+	var frame_step := 3 if OS.has_feature("android") else 1
+	for frame_number in range(0, CONDOR_FRAME_COUNT, frame_step):
 		condor_frames.append(load("res://assets/characters/condor/frames/frame_%03d.png" % frame_number))
 	condor_avatar = TextureRect.new()
-	condor_avatar.texture = condor_frames[CONDOR_IDLE_FRAME]
+	condor_frame_index = clampi(CONDOR_IDLE_FRAME / frame_step, 0, condor_frames.size() - 1)
+	condor_avatar.texture = condor_frames[condor_frame_index]
 	condor_avatar.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	condor_avatar.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	condor_avatar.mouse_filter = Control.MOUSE_FILTER_IGNORE

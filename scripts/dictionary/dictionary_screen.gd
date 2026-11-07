@@ -7,9 +7,9 @@ const REFERENCE_BACKGROUND := "res://assets/ui/dictionary/dictionary-menu.jpg"
 const ART_SIZE := Vector2(1536, 1024)
 const SHORTCUTS := ["Inicio", "Vocales", "Abecedario", "Números", "Matemática", "Geometría", "Diccionario", "Cuentos"]
 const EXAMPLES := [
-	["Sol", preload("res://assets/audio/guides/sol.wav")],
-	["Árbol", preload("res://assets/audio/guides/arbol.wav")],
-	["Casa", preload("res://assets/audio/guides/casa.wav")],
+	["Sol", preload("res://assets/audio/guides/child-voices/sol.wav")],
+	["Árbol", preload("res://assets/audio/guides/child-voices/arbol.wav")],
+	["Casa", preload("res://assets/audio/guides/child-voices/casa.wav")],
 ]
 const Alphabet = preload("res://scripts/language/alphabet.gd")
 const IllustratedWords = preload("res://scripts/language/illustrated_words.gd")
@@ -211,7 +211,7 @@ func _build_result_card() -> void:
 	result_definition.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	result_scroll.add_child(result_definition)
 	guide = LearningGuide.new()
-	guide.setup(false, preload("res://assets/audio/guides/dictionary-intro.wav"))
+	guide.setup(false, preload("res://assets/audio/guides/child-voices/dictionary-intro.wav"))
 	design.add_child(guide)
 	var actions := HBoxContainer.new()
 	content.add_child(actions)

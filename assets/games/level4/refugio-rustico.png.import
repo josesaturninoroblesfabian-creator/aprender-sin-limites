@@ -3,19 +3,21 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cup0ed68ql8i3"
-path="res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.ctex"
+path.s3tc="res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.s3tc.ctex"
+path.etc2="res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.etc2.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/games/level4/refugio-rustico.png"
-dest_files=["res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.ctex"]
+dest_files=["res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.s3tc.ctex", "res://.godot/imported/refugio-rustico.png-d55f97b322693ec20d7952965b219793.etc2.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0

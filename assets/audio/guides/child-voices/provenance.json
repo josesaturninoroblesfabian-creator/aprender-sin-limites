@@ -1,0 +1,71 @@
+{
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+  "license": "Apache-2.0",
+  "profiles": {
+    "boy": "A fictional young boy, about 9 years old, speaking native Latin American Spanish. Light and naturally youthful boyish timbre, warm and curious. Cheerful friendly educational game guide. Clear conversational pronunciation, relaxed medium pace, expressive natural intonation and small pauses. Gentle, confident, never shouting.",
+    "girl": "A fictional young girl, about 9 years old, speaking native Latin American Spanish. Clear, sweet, naturally youthful girlish timbre, warm and curious. Cheerful friendly educational game guide. Conversational pronunciation, relaxed medium pace, expressive natural intonation and small pauses. Gentle and confident, never shouting."
+  },
+  "clips": {
+    "boy-welcome": [
+      "boy",
+      "¿Qué deseas aprender? Escoge el tema que quieres aprender."
+    ],
+    "boy-goodbye": [
+      "boy",
+      "¡Aprendiste mucho hoy!"
+    ],
+    "girl-welcome": [
+      "girl",
+      "¡Bienvenido a Aprende sin Límites!"
+    ],
+    "girl-goodbye": [
+      "girl",
+      "¡Hasta la próxima! ¡Adiós!"
+    ],
+    "dictionary-intro": [
+      "boy",
+      "¡Hola! Soy tu guía del Diccionario. Escribe una palabra y toca Buscar. También puedes escuchar los ejemplos: sol, árbol y casa."
+    ],
+    "sol": [
+      "boy",
+      "Sol. Estrella que nos da luz y calor."
+    ],
+    "arbol": [
+      "boy",
+      "Árbol. Planta grande con tronco, ramas y hojas."
+    ],
+    "casa": [
+      "boy",
+      "Casa. Lugar donde vivimos."
+    ],
+    "encyclopedia-intro": [
+      "girl",
+      "¡Hola! Elige un tema del libro. ¡Vamos a descubrir el mundo juntos!"
+    ],
+    "history": [
+      "girl",
+      "Viajemos al pasado. ¿Con qué escribían las personas hace mucho tiempo?"
+    ],
+    "astronomy": [
+      "girl",
+      "En Astronomía miramos al cielo. Piensa en la Luna: ¿por qué crees que algunas noches la vemos con una forma diferente?"
+    ],
+    "biology": [
+      "girl",
+      "En Biología aprendemos sobre los seres vivos. Piensa en una planta: ¿qué necesita para crecer?"
+    ],
+    "anatomy": [
+      "girl",
+      "En Anatomía exploramos el cuerpo humano. Pon la mano sobre tu pecho. ¿Puedes sentir cómo late el corazón?"
+    ],
+    "zoology": [
+      "girl",
+      "En Zoología exploramos los animales. Piensa en dos que conozcas. ¿En qué se parecen y en qué son diferentes?"
+    ]
+  },
+  "synthetic_characters": true,
+  "seeds": {
+    "boy": 430,
+    "girl": 720
+  }
+}
