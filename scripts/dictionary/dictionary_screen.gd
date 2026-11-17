@@ -244,7 +244,6 @@ func _add_hotspot(label: String, area: Rect2, callback: Callable) -> Button:
 	var button := Button.new()
 	button.name = label.replace(" ", "_")
 	button.tooltip_text = label
-	button.accessibility_name = label
 	button.position = area.position
 	button.size = area.size
 	button.mouse_default_cursor_shape = Control.CURSOR_POINTING_HAND

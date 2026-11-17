@@ -106,7 +106,7 @@ func _build_reader(parent: Control) -> void:
 	toolbar.add_child(page_count)
 	page_input = LineEdit.new()
 	page_input.placeholder_text = "N.º"
-	page_input.accessibility_name = "Número de página del visor"
+	page_input.tooltip_text = "Número de página del visor"
 	page_input.custom_minimum_size = Vector2(72, 42)
 	page_input.max_length = 8
 	page_input.add_theme_font_size_override("font_size", 22)
